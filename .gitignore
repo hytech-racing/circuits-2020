@@ -1,0 +1,6 @@
+.DS_STORE
+*.b#*
+*.s#*
+*.l#*
+*.lck
+EAGLE Libraries/Controller Library.lbr
