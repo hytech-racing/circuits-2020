@@ -13714,16 +13714,16 @@ Demo Board</text>
 <pin name="D11" x="-2.54" y="12.7" visible="pin" length="short"/>
 <pin name="D12" x="-2.54" y="10.16" visible="pin" length="short"/>
 <pin name="D13" x="22.86" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="A0" x="22.86" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="A1" x="22.86" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="(TX3)A0" x="22.86" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="(RX3)A1" x="22.86" y="15.24" visible="pin" length="short" rot="R180"/>
 <pin name="A2" x="22.86" y="17.78" visible="pin" length="short" rot="R180"/>
 <pin name="A3" x="22.86" y="20.32" visible="pin" length="short" rot="R180"/>
 <pin name="A4" x="22.86" y="22.86" visible="pin" length="short" rot="R180"/>
 <pin name="A6" x="22.86" y="27.94" visible="pin" length="short" rot="R180"/>
 <pin name="A5" x="22.86" y="25.4" visible="pin" length="short" rot="R180"/>
 <pin name="A7" x="22.86" y="30.48" visible="pin" length="short" rot="R180"/>
-<pin name="A9" x="22.86" y="35.56" visible="pin" length="short" rot="R180"/>
-<pin name="A8" x="22.86" y="33.02" visible="pin" length="short" rot="R180"/>
+<pin name="(CANRX)A9" x="22.86" y="35.56" visible="pin" length="short" rot="R180"/>
+<pin name="(CANTX)A8" x="22.86" y="33.02" visible="pin" length="short" rot="R180"/>
 <pin name="3.3V2" x="22.86" y="38.1" visible="pin" length="short" rot="R180"/>
 <pin name="VIN" x="22.86" y="43.18" visible="pin" length="short" rot="R180"/>
 <pin name="GND3" x="22.86" y="40.64" visible="pin" length="short" rot="R180"/>
