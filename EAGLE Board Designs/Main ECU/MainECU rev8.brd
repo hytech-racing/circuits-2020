@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1710,6 +1710,69 @@ Same pad spacing as SOIC-16, but larger footprint</description>
 <text x="-0.762" y="1.27" size="0.4064" layer="25">&gt;Name</text>
 <text x="-1.016" y="-1.524" size="0.4064" layer="27">&gt;Value</text>
 </package>
+<package name="TRIMPOT_3296">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.7625" y1="-2.2225" x2="4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.7625" y1="2.8575" x2="4.1275" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.54" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="2.8575" x2="-4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="-2.2225" x2="4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.413" y2="-0.762" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.635" x2="2.413" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.889" x2="2.286" y2="-0.381" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.889" x2="2.159" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.381" x2="2.159" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.762" x2="2.286" y2="-0.889" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.508" x2="2.286" y2="-0.381" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.635" x2="2.159" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.635" x2="-2.54" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.635" x2="2.159" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.016" x2="2.159" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-1.143" x2="2.159" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.254" x2="2.032" y2="-0.127" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-0.127" x2="2.032" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.8575" x2="4.1275" y2="2.54" width="0.1778" layer="21"/>
+<pad name="1" x="2.54" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-2.54" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="-3.81" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+<text x="2.921" y="-1.905" size="1.27" layer="51" ratio="10">3</text>
+<text x="2.2225" y="0.635" size="1.016" layer="51" ratio="12">1</text>
+<text x="-0.635" y="0.635" size="1.016" layer="51" ratio="12">2</text>
+<text x="-3.175" y="0.635" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="JW2SN">
+<wire x1="-1.2954" y1="-2.6543" x2="-1.2954" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-1.2954" y1="-2.6543" x2="27.3558" y2="-2.6543" width="0.127" layer="21"/>
+<wire x1="27.3558" y1="-2.6543" x2="27.3558" y2="10.16" width="0.127" layer="21"/>
+<wire x1="27.3558" y1="10.16" x2="-1.2954" y2="10.16" width="0.127" layer="21"/>
+<pad name="2" x="10.0076" y="0" drill="1.5" shape="square"/>
+<pad name="3" x="5.0038" y="0" drill="1.5" shape="square"/>
+<pad name="4" x="0" y="0" drill="1.5" shape="square"/>
+<pad name="5" x="0" y="7.493" drill="1.5" shape="square"/>
+<pad name="6" x="5.0038" y="7.493" drill="1.5" shape="square"/>
+<pad name="7" x="10.0076" y="7.493" drill="1.5" shape="square"/>
+<pad name="COIL+" x="25.019" y="0" drill="1.5" shape="square"/>
+<pad name="COIL-" x="25.019" y="7.493" drill="1.5" shape="square"/>
+</package>
+<package name="SOT-23-5">
+<description>&lt;a href="https://github.com/open-ephys/eagle-libraries"&gt;Source&lt;/a&gt;</description>
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.1524" layer="21"/>
+<circle x="-1.2" y="1.7" radius="0.2236" width="0.1524" layer="21"/>
+<smd name="2" x="-1.35" y="0" dx="1" dy="0.55" layer="1"/>
+<smd name="1" x="-1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="3" x="-1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="4" x="1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<text x="-0.0254" y="-0.073" size="0.762" layer="25" font="vector" rot="R270" align="center">&gt;NAME</text>
+<smd name="5" x="1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -2677,6 +2740,48 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.575" y="35.0901" size="0.762" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="28.575" y="35.3568" size="0.3048" layer="28" rot="MR0" align="top-center"/>
 </element>
+<element name="U$14" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="26.8224" y="-59.182"/>
+<element name="U$15" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="30.1244" y="-59.182"/>
+<element name="BSPD1:C1" library="HyTechDevices" package="0805" value=".47µ" x="-5.842" y="-66.04"/>
+<element name="BSPD1:C2" library="HyTechDevices" package="0805" value="2.2µ" x="-2.1844" y="-66.04"/>
+<element name="BSPD1:C3" library="HyTechDevices" package="0805" value="2.2µ" x="1.4732" y="-66.04"/>
+<element name="BSPD1:CALIBRATE1" library="HyTechDevices" package="TRIMPOT_3296" value="" x="-2.3876" y="-53.213"/>
+<element name="BSPD1:D1" library="HyTechDevices" package="0805_D" value="DIODE0805" x="4.7244" y="-68.5038"/>
+<element name="BSPD1:D2" library="HyTechDevices" package="0805_D" value="DIODE0805" x="7.5438" y="-68.5038"/>
+<element name="BSPD1:LED1" library="HyTechDevices" package="LED-805" value="RED" x="24.2316" y="-36.0934"/>
+<element name="BSPD1:LED2" library="HyTechDevices" package="LED-805" value="YELLOW" x="30.3784" y="-36.0934"/>
+<element name="BSPD1:R1" library="HyTechDevices" package="0805" value="12k" x="5.1308" y="-66.04"/>
+<element name="BSPD1:R10" library="HyTechDevices" package="0805" value="100" x="-2.1844" y="-68.5038"/>
+<element name="BSPD1:R12" library="HyTechDevices" package="0805" value="100" x="1.4732" y="-68.5038"/>
+<element name="BSPD1:R2" library="HyTechDevices" package="0805" value="43k" x="8.7884" y="-66.04"/>
+<element name="BSPD1:R3" library="HyTechDevices" package="0805" value="330" x="12.446" y="-66.04"/>
+<element name="BSPD1:R4" library="HyTechDevices" package="0805" value="10k" x="16.1036" y="-66.04"/>
+<element name="BSPD1:R5" library="HyTechDevices" package="0805" value="680k" x="19.7612" y="-66.04"/>
+<element name="BSPD1:R7" library="HyTechDevices" package="0805" value="10k" x="27.0764" y="-66.04"/>
+<element name="BSPD1:R8" library="HyTechDevices" package="0805" value="270" x="30.734" y="-66.04"/>
+<element name="BSPD1:R9" library="HyTechDevices" package="0805" value="270" x="-5.842" y="-68.5038"/>
+<element name="BSPD1:U$1" library="HyTechDevices" package="ZF112" value="G5LE" x="-4.4704" y="-24.892"/>
+<element name="BSPD1:U$10" library="HyTechDevices" package="SOIC-08" value="MCP6542SOIC" x="11.303" y="-42.672"/>
+<element name="BSPD1:U$11" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="20.2184" y="-59.182"/>
+<element name="BSPD1:U$12" library="HyTechDevices" package="SOIC-08" value="MCP6002SOIC" x="18.161" y="-42.672"/>
+<element name="BSPD1:U$13" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="23.5204" y="-59.182"/>
+<element name="BSPD1:U$3" library="HyTechDevices" package="JW2SN" value="JW2SN-DC12V" x="-6.2992" y="-36.1442"/>
+<element name="BSPD1:U$4" library="HyTechDevices" package="SOIC-08" value="MCP6542SOIC" x="4.445" y="-42.672"/>
+<element name="BSPD1:U$5" library="HyTechDevices" package="SOT-23-5" value="SN74AHC1G09" x="12.7" y="-60.4774"/>
+<element name="BSPD1:U$6" library="HyTechDevices" package="SOT-23-5" value="SN74LVC1G08" x="16.6116" y="-60.4774"/>
+<element name="BSPD1:R11" library="HyTechDevices" package="0805" value="TBD" x="-5.842" y="-70.9676"/>
+<element name="BSPD1:R13" library="HyTechDevices" package="0805" value="TBD" x="-5.842" y="-73.4314"/>
+<element name="BSPD1:R14" library="HyTechDevices" package="0805" value="TBD" x="-5.842" y="-75.8952"/>
+<element name="BSPD1:R15" library="HyTechDevices" package="0805" value="TBD" x="-5.842" y="-78.359"/>
+<element name="LED2" library="HyTechDevices" package="LED-805" value="RED" x="-4.572" y="-91.821"/>
+<element name="LED15" library="HyTechDevices" package="LED-805" value="YELLOW" x="-4.572" y="-86.3346"/>
+<element name="LED16" library="HyTechDevices" package="LED-805" value="GREEN" x="1.5748" y="-85.217"/>
+<element name="R67" library="HyTechDevices" package="0805" value="270" x="-2.54" y="-94.8436"/>
+<element name="R68" library="HyTechDevices" package="0805" value="270" x="1.1176" y="-94.8436"/>
+<element name="R69" library="HyTechDevices" package="0805" value="200" x="-5.842" y="-98.1456"/>
+<element name="BSPD1:R16" library="HyTechDevices" package="0805" value="10k" x="-2.1844" y="-167.6654"/>
+<element name="BSPD1:Q1" library="HyTechDevices" package="SOT23" value="" x="0.508" y="-164.8714"/>
+<element name="BSPD1:D3" library="HyTechDevices" package="SOT23" value="MMBZ5246BLT1G" x="-5.2324" y="-164.8714"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3400,6 +3505,50 @@ design rules under a new name.</description>
 <wire x1="75.692" y1="75.79586875" x2="76.47713125" y2="76.581" width="0.254" layer="16"/>
 <wire x1="76.47713125" y1="76.581" x2="77.216" y2="76.581" width="0.254" layer="16"/>
 <via x="77.216" y="76.581" extent="1-16" drill="0.55"/>
+<contactref element="BSPD1:CALIBRATE1" pad="3"/>
+<contactref element="BSPD1:U$4" pad="4"/>
+<contactref element="BSPD1:C1" pad="2"/>
+<contactref element="BSPD1:U$10" pad="4"/>
+<contactref element="BSPD1:U$12" pad="4"/>
+<contactref element="BSPD1:U$1" pad="1"/>
+<contactref element="BSPD1:D2" pad="A"/>
+<contactref element="BSPD1:U$5" pad="3"/>
+<contactref element="BSPD1:R9" pad="2"/>
+<contactref element="BSPD1:R8" pad="2"/>
+<contactref element="BSPD1:U$6" pad="3"/>
+<contactref element="BSPD1:R1" pad="1"/>
+<contactref element="BSPD1:C2" pad="1"/>
+<contactref element="BSPD1:C3" pad="1"/>
+<contactref element="BSPD1:R11" pad="1"/>
+<contactref element="BSPD1:R14" pad="1"/>
+<contactref element="R69" pad="1"/>
+<contactref element="R67" pad="1"/>
+<contactref element="R68" pad="1"/>
+<contactref element="BSPD1:Q1" pad="2"/>
+<contactref element="BSPD1:R16" pad="2"/>
+<contactref element="BSPD1:D3" pad="1"/>
+<wire x1="-1.1594" y1="-167.6654" x2="-6.1824" y2="-165.8714" width="0" layer="19" extent="1-1"/>
+<wire x1="1.458" y1="-165.8714" x2="-1.1594" y2="-167.6654" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.867" y1="-98.1456" x2="-6.1824" y2="-165.8714" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.565" y1="-94.8436" x2="-6.867" y2="-98.1456" width="0" layer="19" extent="1-1"/>
+<wire x1="0.0926" y1="-94.8436" x2="-3.565" y2="-94.8436" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.867" y1="-75.8952" x2="-3.565" y2="-94.8436" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.867" y1="-70.9676" x2="-6.867" y2="-75.8952" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.817" y1="-68.5038" x2="-6.867" y2="-70.9676" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.817" y1="-66.04" x2="-4.817" y2="-68.5038" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.2094" y1="-66.04" x2="-4.817" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="0.4482" y1="-66.04" x2="-3.2094" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="4.1058" y1="-66.04" x2="0.4482" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6438" y1="-68.5038" x2="4.1058" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="11.35" y1="-61.4274" x2="6.6438" y2="-68.5038" width="0" layer="19" extent="1-1"/>
+<wire x1="15.2616" y1="-61.4274" x2="11.35" y2="-61.4274" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.9276" y1="-51.943" x2="-4.817" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="-45.272" x2="-4.9276" y2="-51.943" width="0" layer="19" extent="1-1"/>
+<wire x1="13.208" y1="-45.272" x2="6.35" y2="-45.272" width="0" layer="19" extent="1-1"/>
+<wire x1="20.066" y1="-45.272" x2="13.208" y2="-45.272" width="0" layer="19" extent="1-1"/>
+<wire x1="31.759" y1="-66.04" x2="15.2616" y2="-61.4274" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.4064" y1="-10.0076" x2="6.35" y2="-45.272" width="0" layer="19" extent="1-1"/>
+<wire x1="18.796" y1="9.652" x2="-0.4064" y2="-10.0076" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V">
 <contactref element="REG" pad="1"/>
@@ -3644,6 +3793,18 @@ design rules under a new name.</description>
 <wire x1="69.0626" y1="49.5935" x2="69.0626" y2="48.895" width="0.254" layer="1"/>
 <wire x1="69.0626" y1="48.895" x2="68.7578" y2="48.5902" width="0.254" layer="1"/>
 <via x="68.7578" y="48.5902" extent="1-16" drill="0.55"/>
+<contactref element="BSPD1:U$1" pad="2"/>
+<contactref element="BSPD1:D2" pad="C"/>
+<contactref element="BSPD1:U$3" pad="4"/>
+<contactref element="BSPD1:R2" pad="2"/>
+<contactref element="BSPD1:U$3" pad="COIL-"/>
+<contactref element="BSPD1:U$3" pad="3"/>
+<wire x1="9.8134" y1="-66.04" x2="8.4438" y2="-68.5038" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.2954" y1="-36.1442" x2="9.8134" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.2992" y1="-36.1442" x2="-1.2954" y2="-36.1442" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.4064" y1="-21.9964" x2="-1.2954" y2="-36.1442" width="0" layer="19" extent="1-1"/>
+<wire x1="18.7198" y1="-28.6512" x2="-0.4064" y2="-21.9964" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="3.048" x2="18.7198" y2="-28.6512" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PUMP1-">
 <contactref element="X2" pad="P$2"/>
@@ -3919,6 +4080,8 @@ design rules under a new name.</description>
 <wire x1="44.196" y1="57.8485" x2="45.1711" y2="56.8734" width="0.254" layer="16"/>
 <wire x1="46.4594" y1="56.8734" x2="46.736" y2="57.15" width="0.254" layer="16"/>
 <wire x1="45.1711" y1="56.8734" x2="46.4594" y2="56.8734" width="0.254" layer="16"/>
+<contactref element="BSPD1:U$1" pad="P"/>
+<wire x1="-2.5146" y1="-16.002" x2="13.219" y2="35.687" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$32">
 <contactref element="R17" pad="2"/>
@@ -4179,6 +4342,28 @@ design rules under a new name.</description>
 <contactref element="C45" pad="1"/>
 <wire x1="29.6" y1="36.068" x2="30.1625" y2="36.6305" width="0.254" layer="16"/>
 <wire x1="30.1625" y1="36.6305" x2="30.1625" y2="36.7665" width="0.254" layer="16"/>
+<contactref element="BSPD1:U$4" pad="8"/>
+<contactref element="BSPD1:R5" pad="2"/>
+<contactref element="BSPD1:U$10" pad="8"/>
+<contactref element="BSPD1:U$12" pad="8"/>
+<contactref element="BSPD1:R4" pad="1"/>
+<contactref element="BSPD1:R7" pad="2"/>
+<contactref element="BSPD1:U$5" pad="5"/>
+<contactref element="BSPD1:U$6" pad="5"/>
+<contactref element="BSPD1:CALIBRATE1" pad="1"/>
+<contactref element="BSPD1:R13" pad="2"/>
+<contactref element="BSPD1:R15" pad="2"/>
+<wire x1="-4.817" y1="-73.4314" x2="-4.817" y2="-78.359" width="0" layer="19" extent="1-1"/>
+<wire x1="15.0786" y1="-66.04" x2="-4.817" y2="-73.4314" width="0" layer="19" extent="1-1"/>
+<wire x1="20.7862" y1="-66.04" x2="15.0786" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="14.05" y1="-59.5274" x2="15.0786" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="17.9616" y1="-59.5274" x2="14.05" y2="-59.5274" width="0" layer="19" extent="1-1"/>
+<wire x1="28.1014" y1="-66.04" x2="20.7862" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="0.1524" y1="-51.943" x2="14.05" y2="-59.5274" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="-40.072" x2="0.1524" y2="-51.943" width="0" layer="19" extent="1-1"/>
+<wire x1="9.398" y1="-40.072" x2="2.54" y2="-40.072" width="0" layer="19" extent="1-1"/>
+<wire x1="16.256" y1="-40.072" x2="9.398" y2="-40.072" width="0" layer="19" extent="1-1"/>
+<wire x1="3.556" y1="9.652" x2="2.54" y2="-40.072" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IMD_PWR_STEP">
 <contactref element="IMD_SHUTDOWN_RLY" pad="3"/>
@@ -4333,6 +4518,8 @@ design rules under a new name.</description>
 <wire x1="16.637" y1="73.163" x2="16.753" y2="73.279" width="0.254" layer="16"/>
 <wire x1="50.9905" y1="70.5485" x2="50.0761" y2="70.5485" width="1.016" layer="1"/>
 <wire x1="50.0761" y1="70.5485" x2="48.387" y2="72.2376" width="1.016" layer="1"/>
+<contactref element="BSPD1:U$3" pad="7"/>
+<wire x1="3.7084" y1="-28.6512" x2="11.811" y2="59.699" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$29">
 <contactref element="LED8" pad="A"/>
@@ -4750,6 +4937,10 @@ design rules under a new name.</description>
 <wire x1="61.648975" y1="57.096025" x2="60.13" y2="58.615" width="0.254" layer="1"/>
 <wire x1="58.166" y1="59.75" x2="58.877" y2="59.75" width="0.254" layer="1"/>
 <wire x1="58.877" y1="59.75" x2="60.071" y2="58.556" width="0.254" layer="1"/>
+<contactref element="BSPD1:R12" pad="1"/>
+<contactref element="U$14" pad="P$1"/>
+<wire x1="26.8224" y1="-59.182" x2="61.648975" y2="57.096025" width="0" layer="19" extent="1-1"/>
+<wire x1="0.4482" y1="-68.5038" x2="26.8224" y2="-59.182" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIGNAL_ACCEL1">
 <contactref element="ACC1_PU" pad="1"/>
@@ -6923,6 +7114,161 @@ design rules under a new name.</description>
 <contactref element="C41" pad="1"/>
 <wire x1="83.557" y1="40.132" x2="83.557" y2="37.973" width="0.254" layer="16"/>
 <wire x1="81.67" y1="37.973" x2="83.557" y2="37.973" width="0.254" layer="16"/>
+</signal>
+<signal name="BSPD1:N$13">
+<contactref element="BSPD1:R5" pad="1"/>
+<contactref element="BSPD1:C1" pad="1"/>
+<contactref element="BSPD1:U$4" pad="3"/>
+<contactref element="BSPD1:R3" pad="1"/>
+<contactref element="BSPD1:U$12" pad="3"/>
+<wire x1="11.421" y1="-66.04" x2="-6.867" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="18.7362" y1="-66.04" x2="11.421" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="18.796" y1="-45.272" x2="18.7362" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="-45.272" x2="18.796" y2="-45.272" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:N$7">
+<contactref element="BSPD1:U$4" pad="2"/>
+<contactref element="BSPD1:R13" pad="1"/>
+<contactref element="BSPD1:R11" pad="2"/>
+<wire x1="-4.817" y1="-70.9676" x2="-6.867" y2="-73.4314" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="-45.272" x2="-4.817" y2="-70.9676" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:SHUTDOWN_C">
+<contactref element="BSPD1:U$3" pad="6"/>
+<contactref element="BSPD1:U$1" pad="S"/>
+<wire x1="11.7856" y1="-21.9964" x2="-1.2954" y2="-28.6512" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:N$2">
+<contactref element="BSPD1:R3" pad="2"/>
+<contactref element="BSPD1:U$5" pad="4"/>
+<wire x1="14.05" y1="-61.4274" x2="13.471" y2="-66.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:N$15">
+<contactref element="BSPD1:LED1" pad="C"/>
+<contactref element="BSPD1:R9" pad="1"/>
+<wire x1="24.2316" y1="-35.0434" x2="-6.867" y2="-68.5038" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:N$14">
+<contactref element="BSPD1:LED2" pad="C"/>
+<contactref element="BSPD1:R8" pad="1"/>
+<wire x1="30.3784" y1="-35.0434" x2="29.709" y2="-66.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:N$16">
+<contactref element="BSPD1:LED1" pad="A"/>
+<contactref element="BSPD1:U$11" pad="P$1"/>
+<contactref element="BSPD1:U$10" pad="7"/>
+<contactref element="BSPD1:U$5" pad="2"/>
+<contactref element="BSPD1:U$6" pad="2"/>
+<wire x1="15.2616" y1="-60.4774" x2="11.35" y2="-60.4774" width="0" layer="19" extent="1-1"/>
+<wire x1="20.2184" y1="-59.182" x2="15.2616" y2="-60.4774" width="0" layer="19" extent="1-1"/>
+<wire x1="10.668" y1="-40.072" x2="11.35" y2="-60.4774" width="0" layer="19" extent="1-1"/>
+<wire x1="24.2316" y1="-37.1434" x2="10.668" y2="-40.072" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:N$17">
+<contactref element="BSPD1:LED2" pad="A"/>
+<contactref element="BSPD1:U$13" pad="P$1"/>
+<contactref element="BSPD1:U$10" pad="1"/>
+<contactref element="BSPD1:U$5" pad="1"/>
+<contactref element="BSPD1:U$6" pad="1"/>
+<wire x1="15.2616" y1="-59.5274" x2="11.35" y2="-59.5274" width="0" layer="19" extent="1-1"/>
+<wire x1="23.5204" y1="-59.182" x2="15.2616" y2="-59.5274" width="0" layer="19" extent="1-1"/>
+<wire x1="9.398" y1="-45.272" x2="11.35" y2="-59.5274" width="0" layer="19" extent="1-1"/>
+<wire x1="30.3784" y1="-37.1434" x2="9.398" y2="-45.272" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:N$5">
+<contactref element="BSPD1:U$10" pad="2"/>
+<contactref element="BSPD1:R14" pad="2"/>
+<contactref element="BSPD1:R15" pad="1"/>
+<wire x1="-4.817" y1="-75.8952" x2="-6.867" y2="-78.359" width="0" layer="19" extent="1-1"/>
+<wire x1="10.668" y1="-45.272" x2="-4.817" y2="-75.8952" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:N$6">
+<contactref element="BSPD1:U$10" pad="6"/>
+<contactref element="BSPD1:CALIBRATE1" pad="2"/>
+<wire x1="11.938" y1="-40.072" x2="-2.3876" y2="-51.943" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:N$9">
+<contactref element="BSPD1:R2" pad="1"/>
+<contactref element="BSPD1:R1" pad="2"/>
+<contactref element="BSPD1:U$12" pad="5"/>
+<wire x1="7.7634" y1="-66.04" x2="6.1558" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="20.066" y1="-40.072" x2="7.7634" y2="-66.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:SIGNAL_CURRENT_FILT">
+<contactref element="BSPD1:R7" pad="1"/>
+<contactref element="BSPD1:U$10" pad="3"/>
+<contactref element="BSPD1:R10" pad="2"/>
+<contactref element="BSPD1:C2" pad="2"/>
+<wire x1="-1.1594" y1="-66.04" x2="-1.1594" y2="-68.5038" width="0" layer="19" extent="1-1"/>
+<wire x1="11.938" y1="-45.272" x2="-1.1594" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="26.0514" y1="-66.04" x2="11.938" y2="-45.272" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:SIGNAL_BRAKE_FILT">
+<contactref element="BSPD1:R4" pad="2"/>
+<contactref element="BSPD1:U$10" pad="5"/>
+<contactref element="BSPD1:R12" pad="2"/>
+<contactref element="BSPD1:C3" pad="2"/>
+<wire x1="2.4982" y1="-66.04" x2="2.4982" y2="-68.5038" width="0" layer="19" extent="1-1"/>
+<wire x1="17.1286" y1="-66.04" x2="2.4982" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="13.208" y1="-40.072" x2="17.1286" y2="-66.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="READ_FAULT">
+<contactref element="BSPD1:U$12" pad="7"/>
+<contactref element="BSPD1:U$12" pad="6"/>
+<contactref element="LED16" pad="A"/>
+<wire x1="17.526" y1="-40.072" x2="1.5748" y2="-86.267" width="0" layer="19" extent="1-1"/>
+<wire x1="18.796" y1="-40.072" x2="17.526" y2="-40.072" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="READ_SWITCH">
+<contactref element="BSPD1:U$6" pad="4"/>
+<contactref element="LED2" pad="A"/>
+<wire x1="17.9616" y1="-61.4274" x2="-4.572" y2="-92.871" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="READ_CHARGE">
+<contactref element="BSPD1:U$12" pad="1"/>
+<contactref element="BSPD1:U$12" pad="2"/>
+<contactref element="LED15" pad="A"/>
+<wire x1="16.256" y1="-45.272" x2="-4.572" y2="-87.3846" width="0" layer="19" extent="1-1"/>
+<wire x1="17.526" y1="-45.272" x2="16.256" y2="-45.272" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SIGNAL_CURRENT">
+<contactref element="BSPD1:R10" pad="1"/>
+<contactref element="U$15" pad="P$1"/>
+<wire x1="30.1244" y1="-59.182" x2="-3.2094" y2="-68.5038" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$64">
+<contactref element="LED2" pad="C"/>
+<contactref element="R67" pad="2"/>
+<wire x1="-4.572" y1="-90.771" x2="-1.515" y2="-94.8436" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$76">
+<contactref element="LED15" pad="C"/>
+<contactref element="R68" pad="2"/>
+<wire x1="-4.572" y1="-85.2846" x2="2.1426" y2="-94.8436" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$77">
+<contactref element="LED16" pad="C"/>
+<contactref element="R69" pad="2"/>
+<wire x1="1.5748" y1="-84.167" x2="-4.817" y2="-98.1456" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:N$10">
+<contactref element="BSPD1:D1" pad="C"/>
+</signal>
+<signal name="BSPD1:N$1">
+<contactref element="BSPD1:Q1" pad="3"/>
+<contactref element="BSPD1:D1" pad="A"/>
+<contactref element="BSPD1:U$3" pad="COIL+"/>
+<wire x1="3.8244" y1="-68.5038" x2="0.508" y2="-163.8714" width="0" layer="19" extent="1-1"/>
+<wire x1="18.7198" y1="-36.1442" x2="3.8244" y2="-68.5038" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BSPD1:N$3">
+<contactref element="BSPD1:U$4" pad="1"/>
+<contactref element="BSPD1:Q1" pad="1"/>
+<contactref element="BSPD1:D3" pad="3"/>
+<contactref element="BSPD1:R16" pad="1"/>
+<wire x1="-0.442" y1="-165.8714" x2="-3.2094" y2="-167.6654" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.2324" y1="-163.8714" x2="-3.2094" y2="-167.6654" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="-45.272" x2="-5.2324" y2="-163.8714" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
