@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2740,48 +2740,157 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.575" y="35.0901" size="0.762" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="28.575" y="35.3568" size="0.3048" layer="28" rot="MR0" align="top-center"/>
 </element>
-<element name="U$14" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="26.8224" y="-59.182"/>
-<element name="U$15" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="30.1244" y="-59.182"/>
-<element name="BSPD1:C1" library="HyTechDevices" package="0805" value=".47µ" x="-5.842" y="-66.04"/>
-<element name="BSPD1:C2" library="HyTechDevices" package="0805" value="2.2µ" x="-2.1844" y="-66.04"/>
-<element name="BSPD1:C3" library="HyTechDevices" package="0805" value="2.2µ" x="1.4732" y="-66.04"/>
-<element name="BSPD1:CALIBRATE1" library="HyTechDevices" package="TRIMPOT_3296" value="" x="-2.3876" y="-53.213"/>
-<element name="BSPD1:D1" library="HyTechDevices" package="0805_D" value="DIODE0805" x="4.7244" y="-68.5038"/>
-<element name="BSPD1:D2" library="HyTechDevices" package="0805_D" value="DIODE0805" x="7.5438" y="-68.5038"/>
-<element name="BSPD1:LED1" library="HyTechDevices" package="LED-805" value="RED" x="24.2316" y="-36.0934"/>
-<element name="BSPD1:LED2" library="HyTechDevices" package="LED-805" value="YELLOW" x="30.3784" y="-36.0934"/>
-<element name="BSPD1:R1" library="HyTechDevices" package="0805" value="12k" x="5.1308" y="-66.04"/>
-<element name="BSPD1:R10" library="HyTechDevices" package="0805" value="100" x="-2.1844" y="-68.5038"/>
-<element name="BSPD1:R12" library="HyTechDevices" package="0805" value="100" x="1.4732" y="-68.5038"/>
-<element name="BSPD1:R2" library="HyTechDevices" package="0805" value="43k" x="8.7884" y="-66.04"/>
-<element name="BSPD1:R3" library="HyTechDevices" package="0805" value="330" x="12.446" y="-66.04"/>
-<element name="BSPD1:R4" library="HyTechDevices" package="0805" value="10k" x="16.1036" y="-66.04"/>
-<element name="BSPD1:R5" library="HyTechDevices" package="0805" value="680k" x="19.7612" y="-66.04"/>
-<element name="BSPD1:R7" library="HyTechDevices" package="0805" value="10k" x="27.0764" y="-66.04"/>
-<element name="BSPD1:R8" library="HyTechDevices" package="0805" value="270" x="30.734" y="-66.04"/>
-<element name="BSPD1:R9" library="HyTechDevices" package="0805" value="270" x="-5.842" y="-68.5038"/>
-<element name="BSPD1:U$1" library="HyTechDevices" package="ZF112" value="G5LE" x="-4.4704" y="-24.892"/>
-<element name="BSPD1:U$10" library="HyTechDevices" package="SOIC-08" value="MCP6542SOIC" x="11.303" y="-42.672"/>
-<element name="BSPD1:U$11" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="20.2184" y="-59.182"/>
-<element name="BSPD1:U$12" library="HyTechDevices" package="SOIC-08" value="MCP6002SOIC" x="18.161" y="-42.672"/>
-<element name="BSPD1:U$13" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="23.5204" y="-59.182"/>
-<element name="BSPD1:U$3" library="HyTechDevices" package="JW2SN" value="JW2SN-DC12V" x="-6.2992" y="-36.1442"/>
-<element name="BSPD1:U$4" library="HyTechDevices" package="SOIC-08" value="MCP6542SOIC" x="4.445" y="-42.672"/>
-<element name="BSPD1:U$5" library="HyTechDevices" package="SOT-23-5" value="SN74AHC1G09" x="12.7" y="-60.4774"/>
-<element name="BSPD1:U$6" library="HyTechDevices" package="SOT-23-5" value="SN74LVC1G08" x="16.6116" y="-60.4774"/>
-<element name="BSPD1:R11" library="HyTechDevices" package="0805" value="TBD" x="-5.842" y="-70.9676"/>
-<element name="BSPD1:R13" library="HyTechDevices" package="0805" value="TBD" x="-5.842" y="-73.4314"/>
-<element name="BSPD1:R14" library="HyTechDevices" package="0805" value="TBD" x="-5.842" y="-75.8952"/>
-<element name="BSPD1:R15" library="HyTechDevices" package="0805" value="TBD" x="-5.842" y="-78.359"/>
-<element name="LED2" library="HyTechDevices" package="LED-805" value="RED" x="-4.572" y="-91.821"/>
-<element name="LED15" library="HyTechDevices" package="LED-805" value="YELLOW" x="-4.572" y="-86.3346"/>
-<element name="LED16" library="HyTechDevices" package="LED-805" value="GREEN" x="1.5748" y="-85.217"/>
-<element name="R67" library="HyTechDevices" package="0805" value="270" x="-2.54" y="-94.8436"/>
-<element name="R68" library="HyTechDevices" package="0805" value="270" x="1.1176" y="-94.8436"/>
-<element name="R69" library="HyTechDevices" package="0805" value="200" x="-5.842" y="-98.1456"/>
-<element name="BSPD1:R16" library="HyTechDevices" package="0805" value="10k" x="-2.1844" y="-167.6654"/>
-<element name="BSPD1:Q1" library="HyTechDevices" package="SOT23" value="" x="0.508" y="-164.8714"/>
-<element name="BSPD1:D3" library="HyTechDevices" package="SOT23" value="MMBZ5246BLT1G" x="-5.2324" y="-164.8714"/>
+<element name="U$14" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="26.8224" y="-59.182" smashed="yes"/>
+<element name="U$15" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="30.1244" y="-59.182" smashed="yes"/>
+<element name="BSPD1:C1" library="HyTechDevices" package="0805" value=".47µ" x="-5.842" y="-66.04" smashed="yes">
+<attribute name="NAME" x="-5.842" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-5.842" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:C2" library="HyTechDevices" package="0805" value="2.2µ" x="-2.1844" y="-66.04" smashed="yes">
+<attribute name="NAME" x="-2.1844" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-2.1844" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:C3" library="HyTechDevices" package="0805" value="2.2µ" x="1.4732" y="-66.04" smashed="yes">
+<attribute name="NAME" x="1.4732" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="1.4732" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:CALIBRATE1" library="HyTechDevices" package="TRIMPOT_3296" value="" x="-2.3876" y="-53.213" smashed="yes">
+<attribute name="NAME" x="-7.1501" y="-57.023" size="1.27" layer="25" ratio="12"/>
+<attribute name="VALUE" x="-6.1976" y="-50.038" size="1.27" layer="27" ratio="12"/>
+</element>
+<element name="BSPD1:D1" library="HyTechDevices" package="0805_D" value="DIODE0805" x="4.7244" y="-68.5038" smashed="yes">
+<attribute name="NAME" x="4.7244" y="-67.7799" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="4.7244" y="-69.215" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:D2" library="HyTechDevices" package="0805_D" value="DIODE0805" x="7.5438" y="-68.5038" smashed="yes">
+<attribute name="NAME" x="7.5438" y="-67.7799" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="7.5438" y="-69.215" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:LED1" library="HyTechDevices" package="LED-805" value="RED" x="24.2316" y="-36.0934" smashed="yes">
+<attribute name="NAME" x="22.9616" y="-37.3634" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="26.7716" y="-37.3634" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="BSPD1:LED2" library="HyTechDevices" package="LED-805" value="YELLOW" x="30.3784" y="-36.0934" smashed="yes">
+<attribute name="NAME" x="29.1084" y="-37.3634" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="32.9184" y="-37.3634" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="BSPD1:R1" library="HyTechDevices" package="0805" value="12k" x="5.1308" y="-66.04" smashed="yes">
+<attribute name="NAME" x="5.1308" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="5.1308" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R10" library="HyTechDevices" package="0805" value="100" x="-2.1844" y="-68.5038" smashed="yes">
+<attribute name="NAME" x="-2.1844" y="-67.7799" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-2.1844" y="-69.215" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R12" library="HyTechDevices" package="0805" value="100" x="1.4732" y="-68.5038" smashed="yes">
+<attribute name="NAME" x="1.4732" y="-67.7799" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="1.4732" y="-69.215" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R2" library="HyTechDevices" package="0805" value="43k" x="8.7884" y="-66.04" smashed="yes">
+<attribute name="NAME" x="8.7884" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="8.7884" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R3" library="HyTechDevices" package="0805" value="8200" x="12.446" y="-66.04" smashed="yes">
+<attribute name="NAME" x="12.446" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="12.446" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R4" library="HyTechDevices" package="0805" value="10k" x="16.1036" y="-66.04" smashed="yes">
+<attribute name="NAME" x="16.1036" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="16.1036" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R5" library="HyTechDevices" package="0805" value="680k" x="19.7612" y="-66.04" smashed="yes">
+<attribute name="NAME" x="19.7612" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="19.7612" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R7" library="HyTechDevices" package="0805" value="10k" x="27.0764" y="-66.04" smashed="yes">
+<attribute name="NAME" x="27.0764" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="27.0764" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R8" library="HyTechDevices" package="0805" value="270" x="30.734" y="-66.04" smashed="yes">
+<attribute name="NAME" x="30.734" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="30.734" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R9" library="HyTechDevices" package="0805" value="270" x="-5.842" y="-68.5038" smashed="yes">
+<attribute name="NAME" x="-5.842" y="-67.7799" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-5.842" y="-69.215" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:U$1" library="HyTechDevices" package="ZF112" value="G5LE" x="-4.4704" y="-24.892" smashed="yes">
+<attribute name="NAME" x="18.3896" y="-23.622" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-5.1054" y="-23.622" size="1.778" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="BSPD1:U$10" library="HyTechDevices" package="SOIC-08" value="MCP6542SOIC" x="11.303" y="-42.672" smashed="yes">
+<attribute name="NAME" x="8.763" y="-42.672" size="0.6096" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="13.843" y="-42.672" size="0.6096" layer="27" rot="R270" align="bottom-center"/>
+</element>
+<element name="BSPD1:U$11" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="20.2184" y="-59.182" smashed="yes"/>
+<element name="BSPD1:U$12" library="HyTechDevices" package="SOIC-08" value="MCP6002SOIC" x="18.161" y="-42.672" smashed="yes">
+<attribute name="NAME" x="15.621" y="-42.672" size="0.6096" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="20.701" y="-42.672" size="0.6096" layer="27" rot="R270" align="bottom-center"/>
+</element>
+<element name="BSPD1:U$13" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="23.5204" y="-59.182" smashed="yes"/>
+<element name="BSPD1:U$3" library="HyTechDevices" package="JW2SN" value="JW2SN-DC12V" x="-6.2992" y="-36.1442" smashed="yes"/>
+<element name="BSPD1:U$4" library="HyTechDevices" package="SOIC-08" value="MCP6542SOIC" x="4.445" y="-42.672" smashed="yes">
+<attribute name="NAME" x="1.905" y="-42.672" size="0.6096" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="6.985" y="-42.672" size="0.6096" layer="27" rot="R270" align="bottom-center"/>
+</element>
+<element name="BSPD1:U$5" library="HyTechDevices" package="SOT-23-5" value="SN74AHC1G09" x="12.7" y="-60.4774" smashed="yes">
+<attribute name="NAME" x="12.6746" y="-60.5504" size="0.762" layer="25" font="vector" rot="R270" align="center"/>
+</element>
+<element name="BSPD1:U$6" library="HyTechDevices" package="SOT-23-5" value="SN74LVC1G08" x="16.6116" y="-60.4774" smashed="yes">
+<attribute name="NAME" x="16.5862" y="-60.5504" size="0.762" layer="25" font="vector" rot="R270" align="center"/>
+</element>
+<element name="BSPD1:R11" library="HyTechDevices" package="0805" value="220" x="-5.842" y="-70.9676" smashed="yes">
+<attribute name="NAME" x="-5.842" y="-70.2437" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-5.842" y="-71.6788" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R13" library="HyTechDevices" package="0805" value="330" x="-5.842" y="-73.4314" smashed="yes">
+<attribute name="NAME" x="-5.842" y="-72.7075" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-5.842" y="-74.1426" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R14" library="HyTechDevices" package="0805" value="TBD" x="-5.842" y="-75.8952" smashed="yes">
+<attribute name="NAME" x="-5.842" y="-75.1713" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-5.842" y="-76.6064" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R15" library="HyTechDevices" package="0805" value="TBD" x="-5.842" y="-78.359" smashed="yes">
+<attribute name="NAME" x="-5.842" y="-77.6351" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-5.842" y="-79.0702" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="LED2" library="HyTechDevices" package="LED-805" value="RED" x="-4.572" y="-91.821" smashed="yes">
+<attribute name="NAME" x="-5.842" y="-93.091" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-2.032" y="-93.091" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="LED15" library="HyTechDevices" package="LED-805" value="YELLOW" x="-4.572" y="-86.3346" smashed="yes">
+<attribute name="NAME" x="-5.842" y="-87.6046" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-2.032" y="-87.6046" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="LED16" library="HyTechDevices" package="LED-805" value="GREEN" x="1.5748" y="-85.217" smashed="yes">
+<attribute name="NAME" x="0.3048" y="-86.487" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="4.1148" y="-86.487" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R67" library="HyTechDevices" package="0805" value="270" x="-2.54" y="-94.8436" smashed="yes">
+<attribute name="NAME" x="-2.54" y="-94.1197" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-2.54" y="-95.5548" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="R68" library="HyTechDevices" package="0805" value="270" x="1.1176" y="-94.8436" smashed="yes">
+<attribute name="NAME" x="1.1176" y="-94.1197" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="1.1176" y="-95.5548" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="R69" library="HyTechDevices" package="0805" value="200" x="-5.842" y="-98.1456" smashed="yes">
+<attribute name="NAME" x="-5.842" y="-97.4217" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-5.842" y="-98.8568" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:R16" library="HyTechDevices" package="0805" value="10k" x="-2.1844" y="-167.6654" smashed="yes">
+<attribute name="NAME" x="-2.1844" y="-166.9415" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-2.1844" y="-168.3766" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="BSPD1:Q1" library="HyTechDevices" package="SOT23" value="" x="0.508" y="-164.8714" smashed="yes">
+<attribute name="NAME" x="0.508" y="-164.5412" size="0.635" layer="25" align="top-center"/>
+<attribute name="VALUE" x="1.905" y="-163.9824" size="0.3048" layer="27" align="bottom-center"/>
+</element>
+<element name="BSPD1:D3" library="HyTechDevices" package="SOT23" value="MMBZ5246BLT1G" x="-5.2324" y="-164.8714" smashed="yes">
+<attribute name="NAME" x="-5.2324" y="-164.5412" size="0.635" layer="25" align="top-center"/>
+<attribute name="VALUE" x="-3.8354" y="-163.9824" size="0.3048" layer="27" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
