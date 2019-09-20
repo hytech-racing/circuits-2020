@@ -2742,7 +2742,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$14" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="26.8224" y="-59.182" smashed="yes"/>
 <element name="U$15" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="30.1244" y="-59.182" smashed="yes"/>
-<element name="BSPD1:C1" library="HyTechDevices" package="0805" value=".47µ" x="-5.842" y="-66.04" smashed="yes">
+<element name="BSPD1:C1" library="HyTechDevices" package="0805" value="47µ" x="-5.842" y="-66.04" smashed="yes">
 <attribute name="NAME" x="-5.842" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-5.842" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
 </element>
@@ -2790,7 +2790,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.7884" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="8.7884" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
 </element>
-<element name="BSPD1:R3" library="HyTechDevices" package="0805" value="8200" x="12.446" y="-66.04" smashed="yes">
+<element name="BSPD1:R3" library="HyTechDevices" package="0805" value="220" x="12.446" y="-66.04" smashed="yes">
 <attribute name="NAME" x="12.446" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="12.446" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
 </element>
@@ -2798,7 +2798,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.1036" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="16.1036" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
 </element>
-<element name="BSPD1:R5" library="HyTechDevices" package="0805" value="680k" x="19.7612" y="-66.04" smashed="yes">
+<element name="BSPD1:R5" library="HyTechDevices" package="0805" value="4.6K" x="19.7612" y="-66.04" smashed="yes">
 <attribute name="NAME" x="19.7612" y="-65.3161" size="0.3048" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="19.7612" y="-66.7512" size="0.3048" layer="27" align="top-center"/>
 </element>
@@ -2839,11 +2839,11 @@ design rules under a new name.</description>
 <element name="BSPD1:U$6" library="HyTechDevices" package="SOT-23-5" value="SN74LVC1G08" x="16.6116" y="-60.4774" smashed="yes">
 <attribute name="NAME" x="16.5862" y="-60.5504" size="0.762" layer="25" font="vector" rot="R270" align="center"/>
 </element>
-<element name="BSPD1:R11" library="HyTechDevices" package="0805" value="220" x="-5.842" y="-70.9676" smashed="yes">
+<element name="BSPD1:R11" library="HyTechDevices" package="0805" value="5.6K" x="-5.842" y="-70.9676" smashed="yes">
 <attribute name="NAME" x="-5.842" y="-70.2437" size="0.3048" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-5.842" y="-71.6788" size="0.3048" layer="27" align="top-center"/>
 </element>
-<element name="BSPD1:R13" library="HyTechDevices" package="0805" value="330" x="-5.842" y="-73.4314" smashed="yes">
+<element name="BSPD1:R13" library="HyTechDevices" package="0805" value="8.2K" x="-5.842" y="-73.4314" smashed="yes">
 <attribute name="NAME" x="-5.842" y="-72.7075" size="0.3048" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-5.842" y="-74.1426" size="0.3048" layer="27" align="top-center"/>
 </element>

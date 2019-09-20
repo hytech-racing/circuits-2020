@@ -5154,11 +5154,11 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <part name="CALIBRATE1" library="HyTechDevices" deviceset="TRIMPOT_3296" device="C"/>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$3" library="HyTechDevices" deviceset="JW2SN-DC12V" device=""/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="680k"/>
-<part name="C1" library="HyTechDevices" deviceset="CAP" device="0805" value=".47µ"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="4.6K"/>
+<part name="C1" library="HyTechDevices" deviceset="CAP" device="0805" value="47µ"/>
 <part name="U$4" library="HyTechDevices" deviceset="MCP6542" device="SOIC"/>
 <part name="GND12" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="8200"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="220"/>
 <part name="GND11" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND13" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -5204,8 +5204,8 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <part name="C3" library="HyTechDevices" deviceset="CAP" device="0805" value="2.2µ"/>
 <part name="GND14" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND17" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="220"/>
-<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="330"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="5.6K"/>
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="8.2K"/>
 <part name="GND18" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="TBD"/>
