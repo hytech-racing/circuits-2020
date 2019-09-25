@@ -3820,34 +3820,6 @@ Schurter 0751.0110 Brass Fuse Clip
 </device>
 </devices>
 </deviceset>
-<deviceset name="RT424012">
-<description>TE/Schrack Double Pull Double Throw Relay 12VDC
-&lt;br&gt;
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/418/NG_DS_RT2_1014-736201.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.te.com/usa-en/product-6-1393243-3.html"&gt;Product Page&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="RELAY_DPDT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RELAY_DPDT">
-<connects>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="COIL+" pad="COIL+"/>
-<connect gate="G$1" pin="COIL-" pad="COIL-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RT424009">
 <description>TE/Schrack Double Pull Double Throw Relay 9VDC
 &lt;br&gt;
@@ -5086,10 +5058,9 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <port name="GND" side="left" coord="12.7" direction="out"/>
 <port name="+5V" side="left" coord="15.24" direction="in"/>
 <port name="READ_CHARGE" side="left" coord="7.62" direction="out"/>
-<port name="SHUTDOWN_B" side="left" coord="-17.78" direction="in"/>
 <port name="READ_SWITCH" side="left" coord="5.08" direction="out"/>
 <port name="READ_FAULT" side="left" coord="10.16" direction="out"/>
-<port name="SHUTDOWN_D" side="left" coord="-15.24" direction="out"/>
+<port name="BSPD_OK" side="left" coord="-15.24" direction="out"/>
 <port name="SIGNAL_BRAKE" side="left" coord="-7.62" direction="in"/>
 <port name="SIGNAL_CURRENT" side="left" coord="-10.16" direction="in"/>
 <port name="+12V" side="left" coord="17.78" direction="in"/>
@@ -5145,8 +5116,8 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="8.2K"/>
 <part name="GND18" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="TBD"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="TBD"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20k"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="12k"/>
 <part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="GND19" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="D3" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
@@ -5155,6 +5126,7 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <part name="Q1" library="HyTechDevices" deviceset="P-CHANNEL_MOSFET_DMP3099L-7" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5358,6 +5330,9 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <instance part="R6" gate="G$1" x="93.98" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="92.4814" y="41.91" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="97.282" y="41.91" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+4" gate="1" x="81.28" y="38.1" smashed="yes" rot="R270">
+<attribute name="VALUE" x="76.2" y="40.64" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5714,18 +5689,17 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <junction x="81.28" y="58.42"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="-2.54" x2="106.68" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="93.98" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="58.42" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
+<pinref part="P+4" gate="1" pin="+12V"/>
+<wire x1="76.2" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5741,6 +5715,11 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <wire x1="93.98" y1="40.64" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 <label x="96.52" y="35.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="-2.54" x2="106.68" y2="-2.54" width="0.1524" layer="91"/>
+<label x="109.22" y="-2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -5763,7 +5742,6 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <part name="LED5" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
 <part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k"/>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="BMS_SHUTDOWN_RLY" library="HyTechDevices" deviceset="RT424012" device=""/>
 <part name="GND19" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20k"/>
 <part name="LED7" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
@@ -6100,6 +6078,7 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20"/>
 <part name="GND13" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R63" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20"/>
+<part name="U$32" library="HyTechDevices" deviceset="RT424009" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6193,7 +6172,7 @@ on measured spikes and circuit behavior</text>
 </plain>
 <moduleinsts>
 <moduleinst name="BSPD1" module="BSPD" x="30.48" y="241.3">
-<attribute name="NAME" x="30.48" y="241.3" size="2.032" layer="95" align="bottom-center"/>
+<attribute name="NAME" x="30.48" y="238.76" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -6359,9 +6338,6 @@ on measured spikes and circuit behavior</text>
 </instance>
 <instance part="GND6" gate="1" x="124.46" y="180.34" smashed="yes">
 <attribute name="VALUE" x="121.92" y="177.8" size="1.778" layer="96"/>
-</instance>
-<instance part="BMS_SHUTDOWN_RLY" gate="G$1" x="132.08" y="215.9" smashed="yes" rot="R270">
-<attribute name="VALUE" x="134.62" y="182.88" size="1.778" layer="94" align="bottom-center"/>
 </instance>
 <instance part="GND19" gate="1" x="147.32" y="195.58" smashed="yes">
 <attribute name="VALUE" x="144.78" y="193.04" size="1.778" layer="96"/>
@@ -7511,6 +7487,9 @@ on measured spikes and circuit behavior</text>
 <attribute name="NAME" x="148.3614" y="214.63" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="153.162" y="214.63" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$32" gate="G$1" x="132.08" y="215.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="134.62" y="182.88" size="1.778" layer="94" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8068,11 +8047,6 @@ on measured spikes and circuit behavior</text>
 <wire x1="228.6" y1="10.16" x2="226.06" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="4"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="147.32" y1="198.12" x2="142.24" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R58" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="68.58" x2="271.78" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
@@ -8170,6 +8144,11 @@ on measured spikes and circuit behavior</text>
 <pinref part="IMD_SHUTDOWN_RLY" gate="G$1" pin="4"/>
 <wire x1="73.66" y1="200.66" x2="78.74" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="U$32" gate="G$1" pin="4"/>
+<wire x1="147.32" y1="198.12" x2="142.24" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -8399,15 +8378,15 @@ on measured spikes and circuit behavior</text>
 </net>
 <net name="SHUTDOWN_C" class="0">
 <segment>
-<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="5"/>
-<wire x1="142.24" y1="187.96" x2="147.32" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="180.34" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="180.34" x2="147.32" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="U$31" gate="G$1" pin="6"/>
 <wire x1="147.32" y1="187.96" x2="198.12" y2="187.96" width="0.1524" layer="91"/>
-<junction x="147.32" y="187.96"/>
 <label x="177.8" y="187.96" size="1.778" layer="95"/>
+<pinref part="U$32" gate="G$1" pin="5"/>
+<wire x1="147.32" y1="187.96" x2="142.24" y2="187.96" width="0.1524" layer="91"/>
+<junction x="147.32" y="187.96"/>
 </segment>
 <segment>
 <pinref part="D22" gate="1" pin="A"/>
@@ -8432,12 +8411,9 @@ on measured spikes and circuit behavior</text>
 <label x="195.58" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="COIL+"/>
-<wire x1="142.24" y1="210.82" x2="144.78" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="210.82" x2="144.78" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="D5" gate="1" pin="C"/>
 <wire x1="144.78" y1="223.52" x2="137.16" y2="223.52" width="0.1524" layer="91"/>
-<junction x="144.78" y="210.82"/>
 <wire x1="144.78" y1="223.52" x2="144.78" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="231.14" x2="139.7" y2="231.14" width="0.1524" layer="91"/>
 <junction x="144.78" y="223.52"/>
@@ -8445,6 +8421,9 @@ on measured spikes and circuit behavior</text>
 <wire x1="144.78" y1="210.82" x2="149.86" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="R63" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="210.82" x2="149.86" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="U$32" gate="G$1" pin="COIL+"/>
+<wire x1="142.24" y1="210.82" x2="144.78" y2="210.82" width="0.1524" layer="91"/>
+<junction x="144.78" y="210.82"/>
 </segment>
 <segment>
 <pinref part="R63" gate="G$1" pin="2"/>
@@ -8498,40 +8477,35 @@ on measured spikes and circuit behavior</text>
 </net>
 <net name="BMS_PWR_STEP" class="0">
 <segment>
-<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="3"/>
-<wire x1="124.46" y1="200.66" x2="127" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="COIL-"/>
 <wire x1="124.46" y1="223.52" x2="124.46" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="210.82" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="127" y1="210.82" x2="124.46" y2="210.82" width="0.1524" layer="91"/>
 <junction x="124.46" y="210.82"/>
 <wire x1="124.46" y1="223.52" x2="129.54" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="D5" gate="1" pin="A"/>
 <wire x1="124.46" y1="210.82" x2="121.92" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="D16" gate="1" pin="A"/>
+<pinref part="U$32" gate="G$1" pin="COIL-"/>
+<wire x1="124.46" y1="210.82" x2="127" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="U$32" gate="G$1" pin="3"/>
+<wire x1="124.46" y1="200.66" x2="127" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SHUTDOWN_B" class="0">
 <segment>
-<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="6"/>
 <pinref part="IMD_SHUTDOWN_RLY" gate="G$1" pin="5"/>
 <wire x1="73.66" y1="190.5" x2="99.06" y2="190.5" width="0.1524" layer="91"/>
 <label x="109.22" y="190.5" size="1.778" layer="95"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="190.5" x2="127" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="182.88" x2="99.06" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="182.88" x2="99.06" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="U$32" gate="G$1" pin="6"/>
+<wire x1="99.06" y1="190.5" x2="127" y2="190.5" width="0.1524" layer="91"/>
 <junction x="99.06" y="190.5"/>
 </segment>
 <segment>
 <pinref part="D21" gate="1" pin="A"/>
 <label x="279.4" y="17.78" size="1.27" layer="95" rot="R270" xref="yes"/>
 <wire x1="279.4" y1="20.32" x2="279.4" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BSPD1" port="SHUTDOWN_B"/>
-<wire x1="10.16" y1="223.52" x2="12.7" y2="223.52" width="0.1524" layer="91"/>
-<label x="10.16" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -8806,11 +8780,6 @@ on measured spikes and circuit behavior</text>
 <pinref part="D3" gate="1" pin="A"/>
 <wire x1="289.56" y1="106.68" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
 <label x="289.56" y="104.14" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<portref moduleinst="BSPD1" port="SHUTDOWN_D"/>
-<wire x1="10.16" y1="226.06" x2="12.7" y2="226.06" width="0.1524" layer="91"/>
-<label x="10.16" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$31" gate="G$1" pin="5"/>
@@ -10822,6 +10791,11 @@ on measured spikes and circuit behavior</text>
 <wire x1="215.9" y1="208.28" x2="218.44" y2="208.28" width="0.1524" layer="91"/>
 <junction x="215.9" y="208.28"/>
 <label x="218.44" y="208.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<portref moduleinst="BSPD1" port="BSPD_OK"/>
+<wire x1="12.7" y1="226.06" x2="10.16" y2="226.06" width="0.1524" layer="91"/>
+<label x="10.16" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
