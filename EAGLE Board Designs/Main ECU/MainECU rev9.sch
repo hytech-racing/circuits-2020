@@ -5099,10 +5099,10 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <parts>
 <part name="CALIBRATE1" library="HyTechDevices" deviceset="TRIMPOT_3296" device="C"/>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="4.6K"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20K"/>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0805" value="47µ"/>
 <part name="GND12" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="220"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="4.6K"/>
 <part name="GND11" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND13" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
