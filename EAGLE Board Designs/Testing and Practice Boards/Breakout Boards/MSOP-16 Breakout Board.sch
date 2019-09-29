@@ -482,8 +482,8 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </class>
 </classes>
 <parts>
-<part name="JP3" library="HyTechDevices" deviceset="M08" device=""/>
-<part name="JP5" library="HyTechDevices" deviceset="M08" device=""/>
+<part name="JP1" library="HyTechDevices" deviceset="M08" device=""/>
+<part name="JP2" library="HyTechDevices" deviceset="M08" device=""/>
 <part name="U$1" library="HyTechDevices" deviceset="LTC6820" device=""/>
 </parts>
 <sheets>
@@ -491,11 +491,11 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <plain>
 </plain>
 <instances>
-<instance part="JP3" gate="G$1" x="50.8" y="86.36" smashed="yes" rot="MR180">
+<instance part="JP1" gate="G$1" x="50.8" y="86.36" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="45.72" y="99.06" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="45.72" y="72.898" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="JP5" gate="G$1" x="96.52" y="86.36" smashed="yes" rot="R180">
+<instance part="JP2" gate="G$1" x="96.52" y="86.36" smashed="yes" rot="R180">
 <attribute name="VALUE" x="101.6" y="99.06" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="101.6" y="72.898" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -506,9 +506,9 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <nets>
 <net name="N$8" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="POL"/>
-<pinref part="JP3" gate="G$1" pin="7"/>
+<pinref part="JP1" gate="G$1" pin="7"/>
 <wire x1="60.96" y1="78.74" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="MOSI"/>
 <wire x1="55.88" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
@@ -517,13 +517,13 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <net name="N$11" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VDD"/>
-<pinref part="JP5" gate="G$1" pin="8"/>
+<pinref part="JP2" gate="G$1" pin="8"/>
 <wire x1="86.36" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="JP5" gate="G$1" pin="7"/>
+<pinref part="JP2" gate="G$1" pin="7"/>
 <pinref part="U$1" gate="G$1" pin="IM"/>
 <wire x1="91.44" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -531,13 +531,13 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <net name="N$13" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="IP"/>
-<pinref part="JP5" gate="G$1" pin="6"/>
+<pinref part="JP2" gate="G$1" pin="6"/>
 <wire x1="86.36" y1="81.28" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="JP5" gate="G$1" pin="5"/>
+<pinref part="JP2" gate="G$1" pin="5"/>
 <pinref part="U$1" gate="G$1" pin="MSTR"/>
 <wire x1="91.44" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
 </segment>
@@ -545,13 +545,13 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <net name="N$15" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SLOW"/>
-<pinref part="JP5" gate="G$1" pin="4"/>
+<pinref part="JP2" gate="G$1" pin="4"/>
 <wire x1="86.36" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="JP5" gate="G$1" pin="3"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="91.44" y1="88.9" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
 </segment>
@@ -559,27 +559,27 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <net name="N$17" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="ICMP"/>
-<pinref part="JP5" gate="G$1" pin="2"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="IBIAS"/>
 <wire x1="91.44" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="8"/>
+<pinref part="JP1" gate="G$1" pin="8"/>
 <pinref part="U$1" gate="G$1" pin="PHA"/>
 <wire x1="55.88" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="6"/>
+<pinref part="JP1" gate="G$1" pin="6"/>
 <pinref part="U$1" gate="G$1" pin="VDDS"/>
 <wire x1="55.88" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -587,13 +587,13 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <net name="N$3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="CS"/>
-<pinref part="JP3" gate="G$1" pin="5"/>
+<pinref part="JP1" gate="G$1" pin="5"/>
 <wire x1="60.96" y1="83.82" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="4"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
 <pinref part="U$1" gate="G$1" pin="SCK"/>
 <wire x1="55.88" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
 </segment>
@@ -601,14 +601,14 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <net name="N$5" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="MISO"/>
-<pinref part="JP3" gate="G$1" pin="3"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="60.96" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="EN"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
