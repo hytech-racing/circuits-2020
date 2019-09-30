@@ -1020,7 +1020,7 @@ Source: http://www.molex.com</description>
 </classes>
 <parts>
 <part name="U$1" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="PTH-1/2W"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="PTH-1/2W" value="10000"/>
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-2" device=""/>
 </parts>
 <sheets>

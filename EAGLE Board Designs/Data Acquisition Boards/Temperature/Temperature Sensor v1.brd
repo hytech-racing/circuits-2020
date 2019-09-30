@@ -460,7 +460,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R2" library="HyTechDevices" package="AXIAL-0.5" value="" x="27.94" y="26.67" smashed="yes" rot="R90">
+<element name="R2" library="HyTechDevices" package="AXIAL-0.5" value="10000" x="27.94" y="26.67" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.4" y="22.225" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="28.321" y="23.241" size="0.8128" layer="21" font="vector" ratio="15" rot="R90"/>
 </element>
