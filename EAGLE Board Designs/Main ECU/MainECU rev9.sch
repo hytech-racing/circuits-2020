@@ -10848,12 +10848,10 @@ on measured spikes and circuit behavior</text>
 <wire x1="482.6" y1="127" x2="482.6" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="AGND25" gate="VR1" pin="AGND"/>
 </segment>
-</net>
-<net name="N$12" class="0">
 <segment>
 <pinref part="U$24" gate="G$1" pin="VSS"/>
-<wire x1="314.96" y1="251.46" x2="314.96" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="AGND6" gate="VR1" pin="AGND"/>
+<wire x1="314.96" y1="248.92" x2="314.96" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
