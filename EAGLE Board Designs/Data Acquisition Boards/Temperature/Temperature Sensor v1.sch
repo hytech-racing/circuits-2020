@@ -1061,10 +1061,10 @@ Source: http://www.molex.com</description>
 <wire x1="99.06" y1="63.5" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
 <junction x="99.06" y="63.5"/>
-<wire x1="76.2" y1="60.96" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="A0"/>
-<wire x1="76.2" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-1" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="A2"/>
+<wire x1="63.5" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="53.34" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
