@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4509,16 +4509,19 @@ chip</description>
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1524" layer="21"/>
 </package>
 <package name="1206">
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;
+&lt;p&gt;Source: Sparkfun Resistors Library&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
 <wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
 <wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
 <smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
 <smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.143" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.397" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -8086,20 +8089,16 @@ MX150L™ Vertical PCB Header</description>
 <pad name="1" x="-2.54" y="0" drill="1" diameter="1.8796" shape="square"/>
 <pad name="2" x="0" y="0" drill="1" diameter="1.8796"/>
 <pad name="3" x="2.54" y="0" drill="1" diameter="1.8796"/>
-<wire x1="-5.08" y1="5.334" x2="5.08" y2="5.334" width="0.127" layer="21"/>
-<wire x1="5.08" y1="5.334" x2="5.08" y2="2.794" width="0.127" layer="21"/>
-<wire x1="5.08" y1="2.794" x2="5.08" y2="1.27" width="0.127" layer="21"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-1.27" x2="5.08" y2="-3.302" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-3.302" x2="3.81" y2="-3.302" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-3.302" x2="-2.54" y2="-3.302" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-3.302" x2="-5.08" y2="-3.302" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-3.302" x2="-5.08" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="1.27" x2="-5.08" y2="2.794" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="2.794" x2="-5.08" y2="5.334" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="2.794" x2="5.08" y2="2.794" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="5.334" x2="5.207" y2="5.334" width="0.127" layer="21"/>
+<wire x1="5.207" y1="5.334" x2="5.207" y2="2.794" width="0.127" layer="21"/>
+<wire x1="5.207" y1="2.794" x2="5.207" y2="1.27" width="0.127" layer="21"/>
+<wire x1="5.207" y1="1.27" x2="5.207" y2="-3.302" width="0.127" layer="21"/>
+<wire x1="5.207" y1="-3.302" x2="-5.207" y2="-3.302" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="-3.302" x2="-5.207" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="1.27" x2="-5.207" y2="2.794" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="2.794" x2="-5.207" y2="5.334" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="2.794" x2="5.207" y2="2.794" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="1.27" x2="5.207" y2="1.27" width="0.127" layer="21"/>
 </package>
 <package name="RASPBERRY_PI_HEADER">
 <description>Raspberry Pi Header</description>
@@ -10287,6 +10286,96 @@ Same pad spacing as SOIC-16, but larger footprint</description>
 <wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="21"/>
 <wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.127" layer="21"/>
 <text x="9.2075" y="33.3375" size="2.54" layer="21" align="center">LC</text>
+</package>
+<package name="OKI-78SR-H">
+<pad name="1" x="2.54" y="0" drill="1" diameter="1.8796" shape="square"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.8796"/>
+<pad name="3" x="-2.54" y="0" drill="1" diameter="1.8796"/>
+<wire x1="-5.207" y1="15.24" x2="5.207" y2="15.24" width="0.127" layer="21"/>
+<wire x1="5.207" y1="15.24" x2="5.207" y2="1.27" width="0.127" layer="21"/>
+<wire x1="5.207" y1="1.27" x2="5.207" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="5.207" y1="-1.27" x2="-5.207" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="1.27" x2="-5.207" y2="15.24" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="1.27" x2="5.207" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.905" y1="3.81" x2="4.445" y2="6.35" width="0.127" layer="21"/>
+<wire x1="4.445" y1="6.35" x2="4.445" y2="10.16" width="0.127" layer="21"/>
+<wire x1="4.445" y1="10.16" x2="1.905" y2="12.7" width="0.127" layer="21"/>
+<wire x1="1.905" y1="12.7" x2="-1.905" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="12.7" x2="-4.445" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="10.16" x2="-4.445" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="6.35" x2="-1.905" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="3.81" x2="1.905" y2="3.81" width="0.127" layer="21"/>
+</package>
+<package name="JUMPER_SWITCH_2">
+<smd name="P$1" x="-1.016" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$3" x="1.016" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<wire x1="-0.762" y1="0" x2="-0.254" y2="0" width="0.381" layer="1"/>
+</package>
+<package name="FUSE_0ZCF">
+<smd name="P$1" x="-3.7084" y="0" dx="5.6134" dy="2.3114" layer="1" rot="R90"/>
+<smd name="P$2" x="3.7084" y="0" dx="5.6134" dy="2.3114" layer="1" rot="R90"/>
+<wire x1="-2.032" y1="0" x2="-1.016" y2="-1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-1.016" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0" x2="1.016" y2="1.016" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.016" y1="1.016" x2="2.032" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.032" y1="2.54" x2="2.032" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-2.54" x2="2.032" y2="-2.54" width="0.127" layer="21"/>
+</package>
+<package name="FUSE_1812L">
+<smd name="P$1" x="-2.6035" y="0" dx="3.1496" dy="1.778" layer="1" rot="R90"/>
+<smd name="P$2" x="2.6035" y="0" dx="3.1496" dy="1.778" layer="1" rot="R90"/>
+<wire x1="-1.016" y1="0" x2="-0.508" y2="-0.508" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.508" y1="-0.508" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0" x2="0.508" y2="0.508" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.508" y1="0.508" x2="1.016" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="1.524" x2="1.524" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="-1.524" x2="1.524" y2="-1.524" width="0.127" layer="21"/>
+</package>
+<package name="SOD-123FL">
+<wire x1="-0.808" y1="0.6" x2="0.808" y2="0.6" width="0.1524" layer="21"/>
+<wire x1="-0.808" y1="-0.6" x2="0.808" y2="-0.6" width="0.1524" layer="21"/>
+<smd name="A" x="-1.6383" y="0" dx="0.9144" dy="1.2192" layer="1"/>
+<smd name="C" x="1.6383" y="0" dx="0.9144" dy="1.2192" layer="1"/>
+<text x="0" y="0.7239" size="0.3048" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.7112" size="0.3048" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5588" y1="0" x2="0.5588" y2="0" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="0" y="0.3302"/>
+<vertex x="0" y="-0.3302"/>
+<vertex x="0.5588" y="0"/>
+</polygon>
+</package>
+<package name="JUMPER_SWITCH_1">
+<smd name="P$1" x="-0.508" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$2" x="0.508" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.381" layer="1"/>
+</package>
+<package name="SOT26">
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.1524" layer="21"/>
+<circle x="-1.2" y="1.7" radius="0.2236" width="0.1524" layer="21"/>
+<smd name="2" x="-1.2" y="0" dx="1" dy="0.55" layer="1"/>
+<smd name="1" x="-1.2" y="0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="3" x="-1.2" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="4" x="1.2" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<text x="-0.0254" y="-0.073" size="0.762" layer="25" font="vector" rot="R270" align="center">&gt;NAME</text>
+<smd name="5" x="1.2" y="0" dx="1" dy="0.55" layer="1"/>
+<smd name="6" x="1.2" y="0.95" dx="1" dy="0.55" layer="1"/>
+</package>
+<package name="CRYSTAL_3.2X2.5MM">
+<smd name="P$1" x="-1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="P$2" x="1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="P$3" x="1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="P$4" x="-1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+<wire x1="-2" y1="1.6" x2="2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2" y1="1.6" x2="2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.6" x2="-2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.6" x2="-2" y2="1.6" width="0.127" layer="21"/>
+<text x="-2.1" y="1.9" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -14259,6 +14348,69 @@ Demo Board</text>
 <pin name="AGND" x="22.86" y="40.64" visible="pin" length="short" rot="R180"/>
 <text x="2.54" y="6.35" size="1.778" layer="95">Teensy LC</text>
 </symbol>
+<symbol name="JUMPER_SWITCH_2">
+<polygon width="0.254" layer="94">
+<vertex x="1.27" y="1.27" curve="-90"/>
+<vertex x="2.54" y="0" curve="-90"/>
+<vertex x="1.27" y="-1.27"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-1.27" y="-1.27" curve="-90"/>
+<vertex x="-2.54" y="0" curve="-90"/>
+<vertex x="-1.27" y="1.27"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.635" y="1.27"/>
+<vertex x="0.635" y="-1.27"/>
+<vertex x="-0.635" y="-1.27"/>
+<vertex x="-0.635" y="1.27"/>
+</polygon>
+<wire x1="-0.635" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="P$2" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="P$3" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="JUMPER_SWITCH_1">
+<polygon width="0.254" layer="94">
+<vertex x="0.3175" y="1.27" curve="-90"/>
+<vertex x="1.5875" y="0" curve="-90"/>
+<vertex x="0.3175" y="-1.27"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-0.3175" y="-1.27" curve="-90"/>
+<vertex x="-1.5875" y="0" curve="-90"/>
+<vertex x="-0.3175" y="1.27"/>
+</polygon>
+<wire x1="0.3175" y1="0" x2="-0.3175" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="middle"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="Q-SHIELD2">
+<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.889" y1="1.524" x2="0.889" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-1.524" x2="1.651" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.651" y1="-1.524" x2="1.651" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.651" y1="1.524" x2="0.889" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.286" y1="1.778" x2="2.286" y2="0" width="0.254" layer="94"/>
+<wire x1="2.286" y1="0" x2="2.286" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0.254" y1="1.778" x2="0.254" y2="0" width="0.254" layer="94"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="2.54" x2="4.318" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="4.318" y1="2.54" x2="4.318" y2="1.905" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="4.318" y1="-1.905" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="-2.54" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94" style="shortdash"/>
+<text x="-2.54" y="6.096" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="3" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="4" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ARDUINO_NANO">
@@ -16425,6 +16577,15 @@ general purpose rectifier</description>
 </technologies>
 </device>
 <device name="0805" package="0805_D">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SOD123FL" package="SOD-123FL">
 <connects>
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="C" pad="C"/>
@@ -19275,7 +19436,7 @@ Contact Amperage: 8A at 30VDC
 </device>
 </devices>
 </deviceset>
-<deviceset name="FUSE" uservalue="yes">
+<deviceset name="FUSE" prefix="F" uservalue="yes">
 <description>Fuse/Fuseclips
 &lt;br&gt;
 Keystone Electronics 3568 Fuse
@@ -19292,7 +19453,17 @@ Bussman/Eaton Midget Fuse Clip
 &lt;br&gt;
 Schurter 0751.0110 Brass Fuse Clip
 &lt;br&gt;
-&lt;a href="http://www.mouser.com/ds/2/358/typ_OG__Clip__5x20-2553.pdf"&gt; Datasheet</description>
+&lt;a href="http://www.mouser.com/ds/2/358/typ_OG__Clip__5x20-2553.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+Bel Fuse 0ZCF Series Surface Mount PTC (resettable) Fuse
+&lt;br&gt;
+&lt;a href="https://belfuse.com/resources/CircuitProtection/datasheets/0ZCF%20Nov2016.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
+&lt;br&gt;
+&lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
@@ -19352,6 +19523,24 @@ Schurter 0751.0110 Brass Fuse Clip
 </technologies>
 </device>
 <device name="" package="AXIAL-0.8">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_1812L" package="FUSE_1812L">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_0ZCF" package="FUSE_0ZCF">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -20642,6 +20831,16 @@ Output Current: 50 mA (max)
 <technology name=""/>
 </technologies>
 </device>
+<device name="-HORIZ" package="OKI-78SR-H">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RASPBERRY_PI_HEADER">
@@ -21633,7 +21832,7 @@ Leakage Inductance: 0.50 uH max
 <deviceset name="L01Z150S05">
 <description>Tamura Hall Effect Current Sensors L01Z***S05 Series
 &lt;br&gt;
-&lt;br&gt; Refer to 
+&lt;br&gt; Refer to
 &lt;a href="http://www.tamuracorp.com/clientuploads/pdfs/engineeringdocs/L01ZXXXS05.pdf "&gt;datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="L01Z150S05" x="0" y="0"/>
@@ -22243,6 +22442,98 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="VBAT" pad="VBAT"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER_SWITCH_2" prefix="J">
+<description>Jumper Switch: Switch between 2 circuits by cutting default trace and soldering pads together.</description>
+<gates>
+<gate name="G$1" symbol="JUMPER_SWITCH_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JUMPER_SWITCH_2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER_SWITCH_1" prefix="J">
+<description>Jumper Switch: Switch a circuit by cutting trace or soldering pads back together.</description>
+<gates>
+<gate name="G$1" symbol="JUMPER_SWITCH_1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JUMPER_SWITCH_1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMG2305UX">
+<description>P-CHANNEL ENHANCEMENT MODE MOSFET</description>
+<gates>
+<gate name="G$1" symbol="P-CHANNEL_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMMT5401">
+<gates>
+<gate name="G$1" symbol="PNP_BJT" x="-10.16" y="0"/>
+<gate name="G$2" symbol="PNP_BJT" x="10.16" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT26">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="6"/>
+<connect gate="G$2" pin="B" pad="3"/>
+<connect gate="G$2" pin="C" pad="4"/>
+<connect gate="G$2" pin="E" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRYSTAL_GROUNDED">
+<gates>
+<gate name="G$1" symbol="Q-SHIELD2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_3.2X2.5MM" package="CRYSTAL_3.2X2.5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
