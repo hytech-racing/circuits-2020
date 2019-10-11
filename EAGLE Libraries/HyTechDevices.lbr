@@ -13437,8 +13437,8 @@ Demo Board</text>
 <wire x1="0" y1="20.32" x2="0" y2="0" width="0.254" layer="94"/>
 <pin name="IP+" x="-5.08" y="15.24" length="middle"/>
 <pin name="IP-" x="-5.08" y="7.62" length="middle"/>
-<pin name="VIOUT" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="VCC" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="VOUT" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="VDD" x="22.86" y="17.78" length="middle" rot="R180"/>
 <pin name="FILTER" x="22.86" y="7.62" length="middle" rot="R180"/>
 <pin name="GND" x="22.86" y="2.54" length="middle" rot="R180"/>
 </symbol>
@@ -13692,6 +13692,18 @@ Demo Board</text>
 <wire x1="2.54" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="17.78" y1="0" x2="17.78" y2="2.54" width="0.254" layer="94"/>
 <wire x1="17.78" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ACHS-7121">
+<wire x1="0" y1="0" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="20.32" x2="0" y2="20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="20.32" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="IP+" x="-5.08" y="15.24" length="middle"/>
+<pin name="IP-" x="-5.08" y="7.62" length="middle"/>
+<pin name="VOUT" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="VDD" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="FILTER" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="GND" x="22.86" y="2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -20782,8 +20794,8 @@ Standard character type LCDs, available in sizes from 8x1 to 40x4!</description>
 <connect gate="G$1" pin="GND" pad="5"/>
 <connect gate="G$1" pin="IP+" pad="1 2"/>
 <connect gate="G$1" pin="IP-" pad="3 4"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-<connect gate="G$1" pin="VIOUT" pad="7"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VOUT" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21401,6 +21413,26 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACHS-7121">
+<gates>
+<gate name="G$1" symbol="ACHS-7121" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP8">
+<connects>
+<connect gate="G$1" pin="FILTER" pad="6"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="IP+" pad="1 2"/>
+<connect gate="G$1" pin="IP-" pad="3 4"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VOUT" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
