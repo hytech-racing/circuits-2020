@@ -1026,6 +1026,7 @@ Source: http://www.molex.com</description>
 <sheets>
 <sheet>
 <plain>
+<text x="45.72" y="38.1" size="1.778" layer="91">teensy 4.0</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="40.64" y="40.64" smashed="yes"/>
