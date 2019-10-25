@@ -2379,7 +2379,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY34" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY35" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY36" library="supply1" deviceset="V-" device=""/>
-<part name="AMS_TEST_PORT1" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="CONNECTOR-2NANO-FIT_VERTICAL-2"/>
 <part name="ISOSPI_A" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
 <part name="THERM4" library="HyTechDevices" deviceset="THERMISTOR_NCP21" device="0603" value="10K"/>
 <part name="THERM3" library="HyTechDevices" deviceset="THERMISTOR_NCP21" device="0603" value="10K"/>
@@ -2419,9 +2418,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY56" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY57" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY58" library="supply1" deviceset="V-" device=""/>
-<part name="J" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
-<attribute name="TYPE" value="JUMPER"/>
-</part>
 <part name="SUPPLY39" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY59" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY60" library="supply2" deviceset="V-" device=""/>
@@ -2944,12 +2940,6 @@ to set chip address</text>
 <instance part="SUPPLY36" gate="1" x="139.7" y="289.56" smashed="yes">
 <attribute name="VALUE" x="139.7" y="287.02" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="AMS_TEST_PORT1" gate="-2" x="-238.76" y="297.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="-241.3" y="297.942" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="AMS_TEST_PORT1" gate="-1" x="-238.76" y="294.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="-241.3" y="295.402" size="1.524" layer="95" rot="R180"/>
-</instance>
 <instance part="ISOSPI_A" gate="-2" x="68.58" y="358.14" smashed="yes">
 <attribute name="NAME" x="71.12" y="357.378" size="1.524" layer="95"/>
 </instance>
@@ -3083,11 +3073,6 @@ to set chip address</text>
 </instance>
 <instance part="SUPPLY58" gate="1" x="-91.44" y="162.56" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-88.9" y="162.56" size="1.778" layer="96"/>
-</instance>
-<instance part="J" gate="G$1" x="-172.72" y="276.86" smashed="yes">
-<attribute name="NAME" x="-178.53" y="274.3586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-172.99" y="274.558" size="1.778" layer="96"/>
-<attribute name="TYPE" x="-176.72" y="277.86" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY39" gate="1" x="-101.6" y="134.62" smashed="yes">
 <attribute name="VALUE" x="-101.6" y="132.08" size="1.778" layer="96" rot="R180"/>
@@ -5254,17 +5239,18 @@ to set chip address</text>
 <pinref part="U$1" gate="G$1" pin="VREF1"/>
 </segment>
 </net>
-<net name="SENSE17_J" class="0">
+<net name="SENSE17" class="0">
 <segment>
-<pinref part="AMS_TEST_PORT1" gate="-1" pin="S"/>
-<wire x1="-236.22" y1="294.64" x2="-180.34" y2="294.64" width="0.1524" layer="91"/>
 <pinref part="F17" gate="G$1" pin="2"/>
-<wire x1="-177.8" y1="276.86" x2="-180.34" y2="276.86" width="0.1524" layer="91"/>
 <label x="-195.58" y="276.86" size="1.778" layer="95"/>
-<pinref part="J" gate="G$1" pin="1"/>
-<wire x1="-180.34" y1="276.86" x2="-205.74" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="-180.34" y1="294.64" x2="-180.34" y2="276.86" width="0.1524" layer="91"/>
-<junction x="-180.34" y="276.86"/>
+<wire x1="-160.02" y1="276.86" x2="-205.74" y2="276.86" width="0.1524" layer="91"/>
+<portref moduleinst="DRAIN17" port="CELL+"/>
+<junction x="-127" y="299.72"/>
+<portref moduleinst="DRAIN18" port="CELL-"/>
+<wire x1="-127" y1="307.34" x2="-127" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="-127" y1="299.72" x2="-160.02" y2="299.72" width="0.1524" layer="91"/>
+<label x="-139.7" y="299.72" size="1.778" layer="95"/>
+<wire x1="-160.02" y1="299.72" x2="-160.02" y2="276.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENSE16" class="0">
@@ -5415,24 +5401,6 @@ to set chip address</text>
 <pinref part="R5_B" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="101.6" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
 <junction x="40.64" y="101.6"/>
-</segment>
-</net>
-<net name="SENSE17" class="0">
-<segment>
-<pinref part="AMS_TEST_PORT1" gate="-2" pin="S"/>
-<wire x1="-236.22" y1="297.18" x2="-165.1" y2="297.18" width="0.1524" layer="91"/>
-<portref moduleinst="DRAIN17" port="CELL+"/>
-<junction x="-127" y="299.72"/>
-<portref moduleinst="DRAIN18" port="CELL-"/>
-<wire x1="-127" y1="307.34" x2="-127" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="-127" y1="299.72" x2="-160.02" y2="299.72" width="0.1524" layer="91"/>
-<label x="-139.7" y="299.72" size="1.778" layer="95"/>
-<wire x1="-160.02" y1="299.72" x2="-160.02" y2="276.86" width="0.1524" layer="91"/>
-<pinref part="J" gate="G$1" pin="2"/>
-<wire x1="-160.02" y1="276.86" x2="-165.1" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="-165.1" y1="276.86" x2="-167.64" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="-165.1" y1="297.18" x2="-165.1" y2="276.86" width="0.1524" layer="91"/>
-<junction x="-165.1" y="276.86"/>
 </segment>
 </net>
 <net name="VIN_A" class="0">
