@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -321,21 +321,6 @@ chip</description>
 <wire x1="10" y1="2.6" x2="10" y2="-2.6" width="0.127" layer="21"/>
 <wire x1="10" y1="-2.6" x2="-10" y2="-2.6" width="0.127" layer="21"/>
 <wire x1="-10" y1="-2.6" x2="-10" y2="2.6" width="0.127" layer="21"/>
-</package>
-<package name="1206">
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.143" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.397" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 <package name="CTZ3">
 <description>CTZ3 Series land pattern for variable capacitor - CTZ3E-50C-W1-PF</description>
@@ -1009,6 +994,24 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <package name="TEST_POINT">
 <circle x="0" y="0" radius="1.5875" width="0.127" layer="21"/>
 <pad name="P$1" x="0" y="0" drill="1.6002" rot="R90"/>
+</package>
+<package name="1206">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;
+&lt;p&gt;Source: Sparkfun Resistors Library&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -2052,14 +2055,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <variantdefs>
 </variantdefs>
 <parts>
-<part name="GATE" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="3K3"/>
+<part name="GATE" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="3K3"/>
 <part name="DISCHARGE" library="HyTechDevices" deviceset="RESISTOR" device="PWR163" value="5R"/>
 <part name="PFET" library="HyTechDevices" deviceset="P-CHANNEL_MOSFET_DMP3099L-7" device=""/>
-<part name="R" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
-<part name="C" library="HyTechDevices" deviceset="CAP" device="0805" value="10nF"/>
+<part name="R" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
+<part name="C" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="SUPPLY1" library="supply2" deviceset="V-" device=""/>
 <part name="LED1" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="150R"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="150R"/>
 </parts>
 <sheets>
 <sheet>
@@ -2190,9 +2193,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <variantdefs>
 </variantdefs>
 <parts>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="R" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
-<part name="C" library="HyTechDevices" deviceset="CAP" device="0805" value="10nF"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10K"/>
+<part name="R" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
+<part name="C" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="SUPPLY27" library="supply2" deviceset="V-" device=""/>
 </parts>
 <sheets>
@@ -2344,10 +2347,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C1_A" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
 <part name="RB1_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="1K2"/>
 <part name="RB2_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="806R"/>
-<part name="R1_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
+<part name="R1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
 <part name="U$1" library="HyTechDevices" deviceset="LTC6804-2" device=""/>
 <part name="C4_A" library="HyTechDevices" deviceset="CAP" device="0805" value="10nF"/>
-<part name="C6_A" library="HyTechDevices" deviceset="CAP" device="0805" value="100nF">
+<part name="C6_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="F18" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
@@ -2368,7 +2371,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="CELL12" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
 <part name="CELL11" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
 <part name="CELL10" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="RU2_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
+<part name="RU2_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
 <part name="SUPPLY30" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY31" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY32" library="supply1" deviceset="V-" device=""/>
@@ -2382,9 +2385,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="THERM3" library="HyTechDevices" deviceset="THERMISTOR_NCP21" device="0603" value="10K"/>
 <part name="SUPPLY37" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY38" library="supply1" deviceset="V-" device=""/>
-<part name="R2_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
-<part name="C5_A" library="HyTechDevices" deviceset="CAP" device="0805" value="10nF"/>
-<part name="RU1_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
+<part name="R2_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
+<part name="C5_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
+<part name="RU1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
 <part name="RM_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R">
 <attribute name="TYPE" value="TERMINATION"/>
 </part>
@@ -2416,7 +2419,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY56" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY57" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY58" library="supply1" deviceset="V-" device=""/>
-<part name="J" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="0R">
+<part name="J" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TYPE" value="JUMPER"/>
 </part>
 <part name="SUPPLY39" library="supply1" deviceset="V-" device=""/>
@@ -2437,11 +2440,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="THERM2_B" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Th1"/>
 <part name="THERM3_B" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Th1"/>
 <part name="U$3" library="HyTechDevices" deviceset="NSV1C201MZ4" device=""/>
-<part name="C7_A" library="HyTechDevices" deviceset="CAP" device="0805" value="100nF">
+<part name="C7_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="SUPPLY69" library="supply1" deviceset="V-" device=""/>
-<part name="RIN_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
+<part name="RIN_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
 <part name="C8_A" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
 <part name="SUPPLY40" library="supply1" deviceset="V-" device=""/>
 <part name="U$4" library="HyTechDevices" deviceset="NSV1C201MZ4" device=""/>
