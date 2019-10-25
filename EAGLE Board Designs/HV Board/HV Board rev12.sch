@@ -4076,8 +4076,8 @@ Source: http://www.molex.com</description>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="60"/>
 <part name="C11" library="HyTechDevices" deviceset="CAP" device="0805" value="4.7nF"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
-<part name="RF" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="7k"/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="3k"/>
+<part name="RF" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="4k"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k"/>
 <part name="C12" library="HyTechDevices" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="C13" library="HyTechDevices" deviceset="CAP" device="0805" value="0.1uF"/>
@@ -4108,8 +4108,8 @@ Source: http://www.molex.com</description>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="ENERGYMETER" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4" value="ENERGY METER"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="AXIAL-0.3" value="8633"/>
-<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="AXIAL-0.3" value="10K"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="AXIAL-0.3" value="4.37K"/>
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="AXIAL-0.3" value="5K"/>
 <part name="U$12" library="HyTechDevices" deviceset="MCP6542" device="PDIP"/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
