@@ -619,22 +619,6 @@ chip</description>
 <text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="0603-RES">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
-</package>
 <package name="0805">
 <smd name="1" x="-1.025" y="0" dx="1.4" dy="1.5" layer="1"/>
 <smd name="2" x="1.025" y="0" dx="1.4" dy="1.5" layer="1"/>
@@ -1330,8 +1314,8 @@ FUSE</text>
 <wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.889" y="0.6096" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.889" y="-1.016" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -2157,6 +2141,22 @@ Source: transistor-fet.lbr</description>
 <circle x="0" y="11.176" radius="4.191" width="0" layer="43"/>
 <hole x="0" y="11.176" drill="3.302"/>
 </package>
+<package name="0603-RES">
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.8636" y="0.6096" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.8636" y="-1.016" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MV">
@@ -2687,6 +2687,8 @@ Source: transistor-fet.lbr</description>
 <pin name="OS" x="20.32" y="-7.62" length="middle" rot="R180"/>
 <pin name="!SHDN" x="20.32" y="-5.08" length="middle" rot="R180"/>
 <pin name="CLK" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<text x="0" y="0" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-14.24" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="JUMPER">
 <wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
@@ -5347,6 +5349,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C27" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
 <part name="R65" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
 <part name="C28" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
+<part name="U$1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5548,9 +5552,9 @@ to limit current or drop voltage</text>
 </instance>
 <instance part="U$10" gate="G$1" x="119.38" y="254" smashed="yes"/>
 <instance part="U$15" gate="G$1" x="119.38" y="248.92" smashed="yes"/>
-<instance part="U$19" gate="G$1" x="119.38" y="243.84" smashed="yes"/>
-<instance part="GND78" gate="1" x="109.22" y="238.76" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="111.76" y="236.22" size="1.778" layer="96" rot="MR0"/>
+<instance part="U$19" gate="G$1" x="119.38" y="238.76" smashed="yes"/>
+<instance part="GND78" gate="1" x="109.22" y="233.68" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="111.76" y="231.14" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="P+60" gate="1" x="114.3" y="261.62" smashed="yes">
 <attribute name="VALUE" x="116.586" y="265.176" size="1.778" layer="96" rot="R180"/>
@@ -5923,6 +5927,10 @@ to limit current or drop voltage</text>
 <attribute name="NAME" x="117.856" y="27.559" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="117.856" y="32.639" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U$1" gate="G$1" x="119.38" y="243.84" smashed="yes"/>
+<instance part="+3V1" gate="G$1" x="104.14" y="251.46" smashed="yes">
+<attribute name="VALUE" x="100.584" y="251.968" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6023,9 +6031,9 @@ to limit current or drop voltage</text>
 </segment>
 <segment>
 <pinref part="U$19" gate="G$1" pin="P$1"/>
-<wire x1="116.84" y1="243.84" x2="109.22" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="238.76" x2="109.22" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="GND78" gate="1" pin="GND"/>
-<wire x1="109.22" y1="243.84" x2="109.22" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="238.76" x2="109.22" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="REG1" gate="G$1" pin="GND"/>
@@ -6903,6 +6911,12 @@ to limit current or drop voltage</text>
 <wire x1="236.22" y1="259.08" x2="236.22" y2="254" width="0.1524" layer="91"/>
 <junction x="236.22" y="254"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<wire x1="116.84" y1="243.84" x2="104.14" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="243.84" x2="104.14" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="12VSUPPLY_DIV" class="0">
 <segment>
@@ -7762,11 +7776,6 @@ to limit current or drop voltage</text>
 <wire x1="289.56" y1="213.36" x2="292.1" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="276.86" y1="111.76" x2="279.4" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="R99" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="R98" gate="G$1" pin="1"/>
 <wire x1="370.84" y1="210.82" x2="365.76" y2="210.82" width="0.1524" layer="91"/>
 <label x="365.76" y="210.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
@@ -7970,6 +7979,13 @@ to limit current or drop voltage</text>
 <pinref part="LED25" gate="LED" pin="A"/>
 <pinref part="R98" gate="G$1" pin="2"/>
 <wire x1="381" y1="210.82" x2="386.08" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R99" gate="G$1" pin="1"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<wire x1="279.4" y1="111.76" x2="276.86" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
