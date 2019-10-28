@@ -2264,14 +2264,14 @@ In this library the device names are the same as the pin names of the symbols, t
 </module>
 </modules>
 <parts>
-<part name="C2_B" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C1_B" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
-<part name="RB1_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="1K2"/>
-<part name="RB2_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="806R"/>
-<part name="R1_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
+<part name="C2_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C1_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="RB1_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1K2"/>
+<part name="RB2_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="806R"/>
+<part name="R1_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
 <part name="U$2" library="HyTechDevices" deviceset="LTC6804-2" device=""/>
-<part name="C4_B" library="HyTechDevices" deviceset="CAP" device="0805" value="10nF"/>
-<part name="C6_B" library="HyTechDevices" deviceset="CAP" device="0805" value="100nF">
+<part name="C4_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
+<part name="C6_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="F9" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
@@ -2294,7 +2294,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="CELL2" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
 <part name="CELL1" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
 <part name="CELL0" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="RU2_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
+<part name="RU2_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
 <part name="SUPPLY1" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="V-" device=""/>
@@ -2307,26 +2307,26 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="THERM1" library="HyTechDevices" deviceset="THERMISTOR_NCP21" device="0603" value="10K"/>
 <part name="SUPPLY10" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="V-" device=""/>
-<part name="R2_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
-<part name="C_5" library="HyTechDevices" deviceset="CAP" device="0805" value="10nF"/>
+<part name="R2_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
+<part name="C_5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="SUPPLY6" library="supply2" deviceset="V-" device=""/>
-<part name="RU1_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
+<part name="RU1_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
 <part name="TRANSFORMER" library="HyTechDevices" deviceset="HM2102NLT" device="" value="HM2102NLT"/>
-<part name="RM_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R">
+<part name="RM_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
 <attribute name="TYPE" value="TERMINATION"/>
 </part>
-<part name="R4_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="22R"/>
-<part name="R5_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="22R"/>
-<part name="R3_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="402R"/>
-<part name="C3_B" library="HyTechDevices" deviceset="CAP" device="0805" value="15pF"/>
-<part name="J1_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J2_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J3_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J4_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J5_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J6_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J7_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J8_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
+<part name="R4_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="22R"/>
+<part name="R5_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="22R"/>
+<part name="R3_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="402R"/>
+<part name="C3_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15pF"/>
+<part name="J1_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J2_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J3_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J4_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J5_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J6_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J7_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J8_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
 <part name="SUPPLY14" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="V-" device=""/>
@@ -2343,13 +2343,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY27" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="V-" device=""/>
-<part name="C2_A" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C1_A" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
-<part name="RB1_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="1K2"/>
-<part name="RB2_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="806R"/>
+<part name="C2_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C1_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="RB1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1K2"/>
+<part name="RB2_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="806R"/>
 <part name="R1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
 <part name="U$1" library="HyTechDevices" deviceset="LTC6804-2" device=""/>
-<part name="C4_A" library="HyTechDevices" deviceset="CAP" device="0805" value="10nF"/>
+<part name="C4_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="C6_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="VOLTAGE" value="100V"/>
 </part>
@@ -2387,21 +2387,21 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R2_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
 <part name="C5_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="RU1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
-<part name="RM_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R">
+<part name="RM_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
 <attribute name="TYPE" value="TERMINATION"/>
 </part>
-<part name="R4_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="22R"/>
-<part name="R5_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="22R"/>
-<part name="R3_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="402R"/>
-<part name="C3_A" library="HyTechDevices" deviceset="CAP" device="0805" value="15pF"/>
-<part name="J1_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J2_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J3_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J4_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J5_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J6_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J7_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
-<part name="J8_A" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
+<part name="R4_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="22R"/>
+<part name="R5_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="22R"/>
+<part name="R3_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="402R"/>
+<part name="C3_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15pF"/>
+<part name="J1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J2_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J3_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J4_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J5_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J6_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J7_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
+<part name="J8_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
 <part name="SUPPLY43" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY44" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY45" library="supply1" deviceset="V-" device=""/>
@@ -2441,14 +2441,14 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="SUPPLY69" library="supply1" deviceset="V-" device=""/>
 <part name="RIN_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
-<part name="C8_A" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
+<part name="C8_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="SUPPLY40" library="supply1" deviceset="V-" device=""/>
 <part name="U$4" library="HyTechDevices" deviceset="NSV1C201MZ4" device=""/>
-<part name="C7_B" library="HyTechDevices" deviceset="CAP" device="0805" value="100nF">
+<part name="C7_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="VOLTAGE" value="100V"/>
 </part>
-<part name="RIN_B" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="100R"/>
-<part name="C8_B" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
+<part name="RIN_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
+<part name="C8_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="SUPPLY2" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="V-" device=""/>
 <part name="U$5" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
