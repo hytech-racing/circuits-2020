@@ -3893,8 +3893,8 @@ NEG</text>
 <wire x1="95.25" y1="205.359" x2="95.25" y2="202.819" width="0.127" layer="51"/>
 <dimension x1="0" y1="247.11" x2="0" y2="0" x3="-3.81" y3="123.555" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="247.11" x2="108" y2="247.1" x3="54.00031875" y3="250.54974375" textsize="1.778" layer="47"/>
-<text x="103.7844" y="211.4804" size="1.016" layer="51" font="vector" rot="R180" align="center">V_A</text>
-<text x="101.727" y="86.0552" size="1.016" layer="51" font="vector" rot="R180" align="center">V_B</text>
+<text x="103.7844" y="211.4804" size="1.016" layer="51" font="vector" rot="R180" align="center">V-_A</text>
+<text x="101.727" y="86.0552" size="1.016" layer="51" font="vector" rot="R180" align="center">V-_B</text>
 <wire x1="32.8676" y1="216.8144" x2="34.036" y2="216.8144" width="0.254" layer="51"/>
 <wire x1="32.8676" y1="215.9508" x2="32.9184" y2="216.0016" width="0.254" layer="51"/>
 <wire x1="32.9184" y1="216.0016" x2="33.4772" y2="216.5604" width="0.254" layer="51"/>
@@ -4746,11 +4746,9 @@ design rules under a new name.</description>
 <element name="ISOSPI_B" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="CONNECTOR-2NANO-FIT_VERTICAL-2" x="104.394" y="112.662" smashed="yes"/>
 <element name="THERM2" library="HyTechDevices" package="0603" value="10K" x="51.054" y="98.298" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.8569" y="98.302" size="1.016" layer="27" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="50.2412" y="98.298" size="1.016" layer="27" font="vector" rot="R90" align="bottom-center"/>
 </element>
 <element name="THERM1" library="HyTechDevices" package="0603" value="10K" x="51.054" y="45.339" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.8569" y="45.361" size="1.016" layer="27" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="50.3208" y="45.361" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
 <element name="DRAIN1:R" library="HyTechDevices" package="0603-RES" value="100R" x="12.7" y="8.89" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.7" y="8.1661" size="0.3048" layer="25" rot="R180" align="bottom-center"/>
@@ -5023,11 +5021,9 @@ design rules under a new name.</description>
 <element name="ISOSPI_A" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="CONNECTOR-2NANO-FIT_VERTICAL-2" x="104.394" y="148.984" smashed="yes" rot="R180"/>
 <element name="THERM4" library="HyTechDevices" package="0603" value="10K" x="51.054" y="205.232" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.8569" y="205.268" size="1.016" layer="27" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="49.7332" y="205.232" size="1.016" layer="27" font="vector" rot="R90" align="center"/>
 </element>
 <element name="THERM3" library="HyTechDevices" package="0603" value="10K" x="51.054" y="151.511" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.7839" y="151.489" size="1.016" layer="27" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="50.3158" y="151.511" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
 <element name="R2_A" library="HyTechDevices" package="0603-RES" value="100R" x="94.869" y="176.53" smashed="yes">
 <attribute name="NAME" x="94.869" y="175.4759" size="0.3048" layer="25" align="bottom-center"/>
