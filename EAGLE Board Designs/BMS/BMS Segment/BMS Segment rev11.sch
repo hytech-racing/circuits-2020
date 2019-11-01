@@ -626,7 +626,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <text x="-7.62" y="3.175" size="0.8128" layer="25" font="vector" ratio="15">&gt;Name</text>
 <text x="-5.969" y="-0.381" size="0.8128" layer="21" font="vector" ratio="15">&gt;Value</text>
 </package>
-<package name="LTC6804">
+<package name="LTC6811">
 <smd name="8" x="-2.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
 <smd name="9" x="-1.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
 <smd name="10" x="-1.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
@@ -680,6 +680,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="-6.35" y1="-2.75" x2="6.35" y2="-2.75" width="0.1524" layer="21"/>
 <wire x1="-6.35" y1="-2.75" x2="-6.35" y2="2.75" width="0.1524" layer="21"/>
 <wire x1="6.35" y1="-2.75" x2="6.35" y2="2.75" width="0.1524" layer="21"/>
+<text x="0" y="0" size="1.27" layer="21" align="center">LTC6811</text>
 </package>
 <package name="MINIFIT_5566-2">
 <description>&lt;b&gt;Mini-Fit Junior connector 2 pole&lt;/b&gt;&lt;p&gt;
@@ -1603,7 +1604,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTC6804-2">
+<deviceset name="LTC6811-2">
 <description>&lt;b&gt; Linear Technology Multicell Battery Stack Monitor &lt;/b&gt;
 &lt;br&gt;
 Variant 2: Addressable/Multi-Drop Configuration
@@ -1613,7 +1614,7 @@ Variant 2: Addressable/Multi-Drop Configuration
 <gate name="G$1" symbol="LTC6804-2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LTC6804">
+<device name="" package="LTC6811">
 <connects>
 <connect gate="G$1" pin="A0" pad="45"/>
 <connect gate="G$1" pin="A1" pad="46"/>
@@ -2067,6 +2068,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="C" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF">
 <attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="SUPPLY1" library="supply2" deviceset="V-" device=""/>
 <part name="LED1" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
@@ -2104,6 +2106,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="70.104" y="38.481" size="1.778" layer="95"/>
 <attribute name="VALUE" x="70.104" y="33.401" size="1.778" layer="96"/>
 <attribute name="TOLERANCE" x="68.58" y="35.56" size="0.127" layer="96" display="off"/>
+<attribute name="VOLTAGE" x="68.58" y="35.56" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="1" x="68.58" y="27.94" smashed="yes">
 <attribute name="VALUE" x="72.39" y="27.94" size="1.778" layer="96"/>
@@ -2214,7 +2217,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="C" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
+<part name="C" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</part>
 <part name="SUPPLY27" library="supply2" deviceset="V-" device=""/>
 </parts>
 <sheets>
@@ -2235,6 +2241,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="C" gate="G$1" x="-10.16" y="-7.62" smashed="yes">
 <attribute name="NAME" x="-8.636" y="-4.699" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-8.636" y="-9.779" size="1.778" layer="96"/>
+<attribute name="VOLTAGE" x="-10.16" y="-7.62" size="0.127" layer="96" display="off"/>
+<attribute name="TOLERANCE" x="-10.16" y="-7.62" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY27" gate="1" x="-10.16" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="-11.43" y="-17.78" size="1.778" layer="96"/>
@@ -2290,7 +2298,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="RB1_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1K2"/>
 <part name="RB2_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="806R"/>
 <part name="R1_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
-<part name="U$2" library="HyTechDevices" deviceset="LTC6804-2" device=""/>
+<part name="U$2" library="HyTechDevices" deviceset="LTC6811-2" device=""/>
 <part name="C4_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="C6_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="VOLTAGE" value="100V"/>
@@ -2298,15 +2306,33 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="F9" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F8" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F7" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F6" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F5" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F4" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F3" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F2" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F1" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F0" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
+<part name="F8" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F7" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F6" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F5" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F4" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F3" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F2" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F1" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F0" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
 <part name="CELL9" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
 <part name="CELL8" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
 <part name="CELL7" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
@@ -2373,7 +2399,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="RB1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1K2"/>
 <part name="RB2_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="806R"/>
 <part name="R1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R"/>
-<part name="U$1" library="HyTechDevices" deviceset="LTC6804-2" device=""/>
+<part name="U$1" library="HyTechDevices" deviceset="LTC6811-2" device=""/>
 <part name="C4_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="C6_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="VOLTAGE" value="100V"/>
@@ -2384,15 +2410,27 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="F17" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F16" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
+<part name="F16" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
 <part name="F15" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F14" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F13" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F12" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F11" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
-<part name="F10" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11"/>
+<part name="F14" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F13" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F12" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F11" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
+<part name="F10" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<attribute name="RATING" value="1A"/>
+</part>
 <part name="CELL18" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
 <part name="CELL17" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
 <part name="CELL16" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
@@ -2513,8 +2551,8 @@ CIRCUIT A AND CIRCUIT B</text>
 to set chip address</text>
 <text x="60.96" y="307.34" size="1.778" layer="95">0Ω jumper resistors
 to set chip address</text>
-<text x="0" y="302.26" size="1.778" layer="95">LTC6804-2</text>
-<text x="0" y="63.5" size="1.778" layer="95">LTC6804-2</text>
+<text x="0" y="302.26" size="1.778" layer="95">LTC6811-2</text>
+<text x="0" y="63.5" size="1.778" layer="95">LTC6811-2</text>
 <text x="-91.44" y="104.14" size="1.778" layer="97">ceramic / 40+V</text>
 </plain>
 <moduleinsts>
@@ -2640,30 +2678,39 @@ to set chip address</text>
 </instance>
 <instance part="F8" gate="G$1" x="-210.82" y="38.1" smashed="yes">
 <attribute name="NAME" x="-215.9" y="38.354" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="38.1" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F7" gate="G$1" x="-210.82" y="35.56" smashed="yes">
 <attribute name="NAME" x="-215.9" y="35.814" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="35.56" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F6" gate="G$1" x="-210.82" y="33.02" smashed="yes">
 <attribute name="NAME" x="-215.9" y="33.274" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="33.02" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F5" gate="G$1" x="-210.82" y="30.48" smashed="yes">
 <attribute name="NAME" x="-215.9" y="30.734" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="30.48" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F4" gate="G$1" x="-210.82" y="27.94" smashed="yes">
 <attribute name="NAME" x="-215.9" y="28.194" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="27.94" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F3" gate="G$1" x="-210.82" y="25.4" smashed="yes">
 <attribute name="NAME" x="-215.9" y="25.654" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="25.4" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F2" gate="G$1" x="-210.82" y="22.86" smashed="yes">
 <attribute name="NAME" x="-215.9" y="23.114" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="22.86" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F1" gate="G$1" x="-210.82" y="20.32" smashed="yes">
 <attribute name="NAME" x="-215.9" y="20.574" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="20.32" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F0" gate="G$1" x="-210.82" y="17.78" smashed="yes">
 <attribute name="NAME" x="-215.9" y="18.034" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="17.78" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="CELL9" gate="G$1" x="-238.76" y="137.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="-241.3" y="137.922" size="1.524" layer="95" rot="R180"/>
@@ -2898,6 +2945,7 @@ to set chip address</text>
 </instance>
 <instance part="F16" gate="G$1" x="-210.82" y="274.32" smashed="yes">
 <attribute name="NAME" x="-215.9" y="274.574" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="274.32" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F15" gate="G$1" x="-210.82" y="271.78" smashed="yes">
 <attribute name="NAME" x="-215.9" y="272.034" size="1.27" layer="95"/>
@@ -2905,18 +2953,23 @@ to set chip address</text>
 </instance>
 <instance part="F14" gate="G$1" x="-210.82" y="269.24" smashed="yes">
 <attribute name="NAME" x="-215.9" y="269.494" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="269.24" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F13" gate="G$1" x="-210.82" y="266.7" smashed="yes">
 <attribute name="NAME" x="-215.9" y="266.954" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="266.7" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F12" gate="G$1" x="-210.82" y="264.16" smashed="yes">
 <attribute name="NAME" x="-215.9" y="264.414" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="264.16" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F11" gate="G$1" x="-210.82" y="261.62" smashed="yes">
 <attribute name="NAME" x="-215.9" y="261.874" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="261.62" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F10" gate="G$1" x="-210.82" y="259.08" smashed="yes">
 <attribute name="NAME" x="-215.9" y="259.334" size="1.27" layer="95"/>
+<attribute name="RATING" x="-210.82" y="259.08" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="CELL18" gate="G$1" x="-238.76" y="279.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="-241.3" y="280.162" size="1.524" layer="95" rot="R180"/>
