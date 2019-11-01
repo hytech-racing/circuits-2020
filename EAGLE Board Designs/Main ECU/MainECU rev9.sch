@@ -5160,7 +5160,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="U$43" library="HyTechDevices" deviceset="TEENSY_3.5_EXT" device=""/>
 <part name="U$44" library="HyTechDevices" deviceset="XBEE" device=""/>
-<part name="ADXL345_BREAKOUT1" library="HyTechDevices" deviceset="M09" device=""/>
 <part name="GND123" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="C55" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="47nF"/>
 <part name="C56" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="47nF"/>
@@ -5175,9 +5174,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R129" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="33"/>
 <part name="LED31" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="R130" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.2k"/>
-<part name="R131" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="4.7k"/>
-<part name="R132" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="4.7k"/>
-<part name="GND133" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="LED32" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
 <part name="R133" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="U$45" library="HyTechDevices" deviceset="CR-2450/G1AN" device=""/>
@@ -5202,7 +5198,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+92" library="supply1" deviceset="+5V" device=""/>
 <part name="P+93" library="supply1" deviceset="+5V" device=""/>
 <part name="P+94" library="supply1" deviceset="+5V" device=""/>
-<part name="P+95" library="supply1" deviceset="+5V" device=""/>
 <part name="P+96" library="supply1" deviceset="+5V" device=""/>
 <part name="P+97" library="supply1" deviceset="+5V" device=""/>
 <part name="U$49" library="HyTechDevices" deviceset="ACHS-7121" device=""/>
@@ -7982,10 +7977,6 @@ CIRCUIT</text>
 <instance part="U$44" gate="G$1" x="223.52" y="81.28" smashed="yes">
 <attribute name="NAME" x="220.98" y="63.5" size="1.9304" layer="95"/>
 </instance>
-<instance part="ADXL345_BREAKOUT1" gate="G$1" x="337.82" y="160.02" smashed="yes" rot="R180">
-<attribute name="VALUE" x="342.9" y="172.72" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="342.9" y="144.018" size="1.778" layer="95" rot="R180"/>
-</instance>
 <instance part="GND123" gate="1" x="99.06" y="137.16" smashed="yes">
 <attribute name="VALUE" x="96.52" y="134.62" size="1.778" layer="96"/>
 </instance>
@@ -8039,17 +8030,6 @@ CIRCUIT</text>
 <instance part="R130" gate="G$1" x="269.24" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="273.05" y="77.2414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="273.05" y="82.042" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R131" gate="G$1" x="317.5" y="160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="316.0014" y="156.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="320.802" y="156.21" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R132" gate="G$1" x="309.88" y="160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="308.3814" y="156.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="313.182" y="156.21" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND133" gate="1" x="327.66" y="160.02" smashed="yes">
-<attribute name="VALUE" x="325.12" y="157.48" size="1.778" layer="96"/>
 </instance>
 <instance part="LED32" gate="LED" x="256.54" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="261.112" y="94.996" size="1.778" layer="95" rot="R180"/>
@@ -8123,9 +8103,6 @@ CIRCUIT</text>
 </instance>
 <instance part="P+94" gate="1" x="132.08" y="210.82" smashed="yes">
 <attribute name="VALUE" x="134.62" y="213.36" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+95" gate="1" x="330.2" y="172.72" smashed="yes">
-<attribute name="VALUE" x="332.74" y="175.26" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+96" gate="1" x="132.08" y="259.08" smashed="yes">
 <attribute name="VALUE" x="134.62" y="261.62" size="1.778" layer="96" rot="R180"/>
@@ -8228,11 +8205,6 @@ CIRCUIT</text>
 <pinref part="U$50" gate="G$1" pin="IP-"/>
 </segment>
 <segment>
-<pinref part="ADXL345_BREAKOUT1" gate="G$1" pin="3"/>
-<wire x1="332.74" y1="162.56" x2="327.66" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="GND133" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="MTK3339_BREAKOUT1" gate="G$1" pin="7"/>
 <pinref part="GND135" gate="1" pin="GND"/>
 <wire x1="325.12" y1="111.76" x2="332.74" y2="111.76" width="0.1524" layer="91"/>
@@ -8290,12 +8262,6 @@ CIRCUIT</text>
 </segment>
 </net>
 <net name="+5V" class="0">
-<segment>
-<pinref part="ADXL345_BREAKOUT1" gate="G$1" pin="1"/>
-<wire x1="332.74" y1="167.64" x2="330.2" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="167.64" x2="330.2" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="P+95" gate="1" pin="+5V"/>
-</segment>
 <segment>
 <pinref part="P+97" gate="1" pin="+5V"/>
 <wire x1="317.5" y1="129.54" x2="317.5" y2="127" width="0.1524" layer="91"/>
@@ -8517,48 +8483,6 @@ CIRCUIT</text>
 <pinref part="LED31" gate="LED" pin="C"/>
 <pinref part="R130" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="78.74" x2="261.62" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SCL" class="0">
-<segment>
-<pinref part="ADXL345_BREAKOUT1" gate="G$1" pin="9"/>
-<wire x1="332.74" y1="147.32" x2="309.88" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="R132" gate="G$1" pin="1"/>
-<wire x1="309.88" y1="147.32" x2="304.8" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="154.94" x2="309.88" y2="147.32" width="0.1524" layer="91"/>
-<junction x="309.88" y="147.32"/>
-<label x="304.8" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$43" gate="G$1" pin="A5"/>
-<wire x1="132.08" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
-<label x="137.16" y="116.84" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="ADXL345_BREAKOUT1" gate="G$1" pin="8"/>
-<wire x1="332.74" y1="149.86" x2="317.5" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="R131" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="149.86" x2="304.8" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="154.94" x2="317.5" y2="149.86" width="0.1524" layer="91"/>
-<junction x="317.5" y="149.86"/>
-<label x="304.8" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$43" gate="G$1" pin="A4"/>
-<wire x1="132.08" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
-<label x="137.16" y="114.3" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="3.3V" class="0">
-<segment>
-<pinref part="R131" gate="G$1" pin="2"/>
-<pinref part="R132" gate="G$1" pin="2"/>
-<wire x1="317.5" y1="165.1" x2="309.88" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="165.1" x2="304.8" y2="165.1" width="0.1524" layer="91"/>
-<junction x="309.88" y="165.1"/>
-<label x="304.8" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="12VUNFUSED" class="0">
