@@ -23195,16 +23195,46 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1789660.pdf"&gt; Datasheet
 </gates>
 <devices>
 <device name="" package="MSOP-8_MS">
+<connects>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VINA+" pad="3"/>
+<connect gate="G$1" pin="VINA-" pad="2"/>
+<connect gate="G$1" pin="VINB+" pad="5"/>
+<connect gate="G$1" pin="VINB-" pad="6"/>
+<connect gate="G$1" pin="VOUTA" pad="1"/>
+<connect gate="G$1" pin="VOUTB" pad="7"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="-M" package="MSOP-8_MS-M">
+<connects>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VINA+" pad="3"/>
+<connect gate="G$1" pin="VINA-" pad="2"/>
+<connect gate="G$1" pin="VINB+" pad="5"/>
+<connect gate="G$1" pin="VINB-" pad="6"/>
+<connect gate="G$1" pin="VOUTA" pad="1"/>
+<connect gate="G$1" pin="VOUTB" pad="7"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="-L" package="MSOP-8_MS-L">
+<connects>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VINA+" pad="3"/>
+<connect gate="G$1" pin="VINA-" pad="2"/>
+<connect gate="G$1" pin="VINB+" pad="5"/>
+<connect gate="G$1" pin="VINB-" pad="6"/>
+<connect gate="G$1" pin="VOUTA" pad="1"/>
+<connect gate="G$1" pin="VOUTB" pad="7"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
