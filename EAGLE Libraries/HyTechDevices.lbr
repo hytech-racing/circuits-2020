@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5504,6 +5504,7 @@ Updated for XBee Pro based off &lt;a href="https://www.sparkfun.com/datasheets/W
 <wire x1="-6.35" y1="-2.75" x2="6.35" y2="-2.75" width="0.1524" layer="21"/>
 <wire x1="-6.35" y1="-2.75" x2="-6.35" y2="2.75" width="0.1524" layer="21"/>
 <wire x1="6.35" y1="-2.75" x2="6.35" y2="2.75" width="0.1524" layer="21"/>
+<text x="0" y="0" size="1.27" layer="21" align="center">LTC6804</text>
 </package>
 <package name="MSOP-16">
 <smd name="1" x="-0.1" y="-0.5" dx="0.305" dy="0.889" layer="1" rot="R180"/>
@@ -10091,6 +10092,62 @@ Same pad spacing as SOIC-16, but larger footprint</description>
 <wire x1="-2" y1="-1.6" x2="-2" y2="1.6" width="0.127" layer="21"/>
 <text x="-2.1" y="1.9" size="1.27" layer="21">&gt;NAME</text>
 </package>
+<package name="LTC6811">
+<smd name="8" x="-2.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="9" x="-1.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="10" x="-1.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="11" x="-0.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="12" x="-0.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="13" x="0.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="14" x="0.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="15" x="1.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="16" x="1.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="17" x="2.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="18" x="2.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="19" x="3.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="20" x="3.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="21" x="4.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="22" x="4.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="23" x="5.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="24" x="5.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="7" x="-2.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="6" x="-3.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="5" x="-3.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="4" x="-4.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="3" x="-4.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="2" x="-5.25" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="1" x="-5.75" y="-3.37" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="25" x="5.75" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="26" x="5.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="27" x="4.75" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="28" x="4.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="29" x="3.75" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="30" x="3.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="31" x="2.75" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="32" x="2.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="33" x="1.75" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="34" x="1.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="35" x="0.75" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="36" x="0.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="37" x="-0.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="38" x="-0.75" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="39" x="-1.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="40" x="-1.75" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="41" x="-2.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="42" x="-2.75" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="43" x="-3.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="44" x="-3.75" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="45" x="-4.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="46" x="-4.75" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="47" x="-5.25" y="3.38" dx="0.25" dy="1.25" layer="1" rot="R180"/>
+<smd name="48" x="-5.75" y="3.38" dx="0.25" dy="1.25" layer="1"/>
+<circle x="-5.664" y="-1.985" radius="0.127" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="2.75" x2="6.35" y2="2.75" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-2.75" x2="6.35" y2="-2.75" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-2.75" x2="-6.35" y2="2.75" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="-2.75" x2="6.35" y2="2.75" width="0.1524" layer="21"/>
+<text x="0" y="0" size="1.27" layer="21" align="center">LTC6811</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO_NANO">
@@ -11276,60 +11333,6 @@ DC/DC</text>
 <pin name="C2" x="20.32" y="-7.62" visible="pin" length="short" direction="pas" rot="R180"/>
 <pin name="EM1" x="20.32" y="-5.08" visible="pin" length="short" direction="pas" rot="R180"/>
 <pin name="C1" x="20.32" y="-2.54" visible="pin" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="LTC6804-1">
-<wire x1="20.32" y1="0" x2="20.32" y2="-63.5" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-63.5" x2="0" y2="-63.5" width="0.254" layer="94"/>
-<wire x1="0" y1="-63.5" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
-<pin name="IPB" x="22.86" y="-2.54" length="short" rot="R180"/>
-<pin name="IMB" x="22.86" y="-5.08" length="short" rot="R180"/>
-<pin name="ICMP" x="22.86" y="-7.62" length="short" rot="R180"/>
-<pin name="IBIAS" x="22.86" y="-10.16" length="short" rot="R180"/>
-<pin name="SDO(NC)" x="22.86" y="-12.7" length="short" rot="R180"/>
-<pin name="SDI(NC)" x="22.86" y="-15.24" length="short" rot="R180"/>
-<pin name="SCK(IPA)" x="22.86" y="-17.78" length="short" rot="R180"/>
-<pin name="CSB(IMA)" x="22.86" y="-20.32" length="short" rot="R180"/>
-<pin name="ISOMD" x="22.86" y="-22.86" length="short" rot="R180"/>
-<pin name="WDT" x="22.86" y="-25.4" length="short" rot="R180"/>
-<pin name="DRIVE" x="22.86" y="-27.94" length="short" rot="R180"/>
-<pin name="VREG" x="22.86" y="-30.48" length="short" rot="R180"/>
-<pin name="SWTEN" x="22.86" y="-33.02" length="short" rot="R180"/>
-<pin name="VREF1" x="22.86" y="-35.56" length="short" rot="R180"/>
-<pin name="VREF2" x="22.86" y="-38.1" length="short" rot="R180"/>
-<pin name="GPI05" x="22.86" y="-40.64" length="short" rot="R180"/>
-<pin name="GPI04" x="22.86" y="-43.18" length="short" rot="R180"/>
-<pin name="V-" x="22.86" y="-45.72" length="short" rot="R180"/>
-<pin name="V-**" x="22.86" y="-48.26" length="short" rot="R180"/>
-<pin name="GPI03" x="22.86" y="-50.8" length="short" rot="R180"/>
-<pin name="GPI02" x="22.86" y="-53.34" length="short" rot="R180"/>
-<pin name="GPI01" x="22.86" y="-55.88" length="short" rot="R180"/>
-<pin name="C0" x="22.86" y="-58.42" length="short" rot="R180"/>
-<pin name="S1" x="22.86" y="-60.96" length="short" rot="R180"/>
-<pin name="C1" x="-2.54" y="-60.96" length="short"/>
-<pin name="S2" x="-2.54" y="-58.42" length="short"/>
-<pin name="C2" x="-2.54" y="-55.88" length="short"/>
-<pin name="S3" x="-2.54" y="-53.34" length="short"/>
-<pin name="C3" x="-2.54" y="-50.8" length="short"/>
-<pin name="S4" x="-2.54" y="-48.26" length="short"/>
-<pin name="C4" x="-2.54" y="-45.72" length="short"/>
-<pin name="S5" x="-2.54" y="-43.18" length="short"/>
-<pin name="C5" x="-2.54" y="-40.64" length="short"/>
-<pin name="S6" x="-2.54" y="-38.1" length="short"/>
-<pin name="C6" x="-2.54" y="-35.56" length="short"/>
-<pin name="S7" x="-2.54" y="-33.02" length="short"/>
-<pin name="C7" x="-2.54" y="-30.48" length="short"/>
-<pin name="S8" x="-2.54" y="-27.94" length="short"/>
-<pin name="C8" x="-2.54" y="-25.4" length="short"/>
-<pin name="S9" x="-2.54" y="-22.86" length="short"/>
-<pin name="C9" x="-2.54" y="-20.32" length="short"/>
-<pin name="S10" x="-2.54" y="-17.78" length="short"/>
-<pin name="C10" x="-2.54" y="-15.24" length="short"/>
-<pin name="S11" x="-2.54" y="-12.7" length="short"/>
-<pin name="C11" x="-2.54" y="-10.16" length="short"/>
-<pin name="S12" x="-2.54" y="-7.62" length="short"/>
-<pin name="C12" x="-2.54" y="-5.08" length="short"/>
-<pin name="V+" x="-2.54" y="-2.54" length="short"/>
 </symbol>
 <symbol name="TRANSFORMER">
 <wire x1="-2.5654" y1="0" x2="-3.8354" y2="-1.27" width="0.254" layer="94" curve="90" cap="flat"/>
@@ -13844,6 +13847,60 @@ Demo Board</text>
 <pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="4" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="LTC6811-2">
+<wire x1="20.32" y1="0" x2="20.32" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-63.5" x2="0" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="0" y1="-63.5" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<pin name="A3" x="22.86" y="-2.54" length="short" rot="R180"/>
+<pin name="A2" x="22.86" y="-5.08" length="short" rot="R180"/>
+<pin name="A1" x="22.86" y="-7.62" length="short" rot="R180"/>
+<pin name="A0" x="22.86" y="-10.16" length="short" rot="R180"/>
+<pin name="SDO(IBIAS)" x="22.86" y="-12.7" length="short" rot="R180"/>
+<pin name="SDI(ICMP)" x="22.86" y="-15.24" length="short" rot="R180"/>
+<pin name="SCK(IPA)" x="22.86" y="-17.78" length="short" rot="R180"/>
+<pin name="CSB(IMA)" x="22.86" y="-20.32" length="short" rot="R180"/>
+<pin name="ISOMD" x="22.86" y="-22.86" length="short" rot="R180"/>
+<pin name="WDT" x="22.86" y="-25.4" length="short" rot="R180"/>
+<pin name="DRIVE" x="22.86" y="-27.94" length="short" rot="R180"/>
+<pin name="VREG" x="22.86" y="-30.48" length="short" rot="R180"/>
+<pin name="SWTEN" x="22.86" y="-33.02" length="short" rot="R180"/>
+<pin name="VREF1" x="22.86" y="-35.56" length="short" rot="R180"/>
+<pin name="VREF2" x="22.86" y="-38.1" length="short" rot="R180"/>
+<pin name="GPI05" x="22.86" y="-40.64" length="short" rot="R180"/>
+<pin name="GPI04" x="22.86" y="-43.18" length="short" rot="R180"/>
+<pin name="V-" x="22.86" y="-45.72" length="short" rot="R180"/>
+<pin name="V-**" x="22.86" y="-48.26" length="short" rot="R180"/>
+<pin name="GPI03" x="22.86" y="-50.8" length="short" rot="R180"/>
+<pin name="GPI02" x="22.86" y="-53.34" length="short" rot="R180"/>
+<pin name="GPI01" x="22.86" y="-55.88" length="short" rot="R180"/>
+<pin name="C0" x="22.86" y="-58.42" length="short" rot="R180"/>
+<pin name="S1" x="22.86" y="-60.96" length="short" rot="R180"/>
+<pin name="C1" x="-2.54" y="-60.96" length="short"/>
+<pin name="S2" x="-2.54" y="-58.42" length="short"/>
+<pin name="C2" x="-2.54" y="-55.88" length="short"/>
+<pin name="S3" x="-2.54" y="-53.34" length="short"/>
+<pin name="C3" x="-2.54" y="-50.8" length="short"/>
+<pin name="S4" x="-2.54" y="-48.26" length="short"/>
+<pin name="C4" x="-2.54" y="-45.72" length="short"/>
+<pin name="S5" x="-2.54" y="-43.18" length="short"/>
+<pin name="C5" x="-2.54" y="-40.64" length="short"/>
+<pin name="S6" x="-2.54" y="-38.1" length="short"/>
+<pin name="C6" x="-2.54" y="-35.56" length="short"/>
+<pin name="S7" x="-2.54" y="-33.02" length="short"/>
+<pin name="C7" x="-2.54" y="-30.48" length="short"/>
+<pin name="S8" x="-2.54" y="-27.94" length="short"/>
+<pin name="C8" x="-2.54" y="-25.4" length="short"/>
+<pin name="S9" x="-2.54" y="-22.86" length="short"/>
+<pin name="C9" x="-2.54" y="-20.32" length="short"/>
+<pin name="S10" x="-2.54" y="-17.78" length="short"/>
+<pin name="C10" x="-2.54" y="-15.24" length="short"/>
+<pin name="S11" x="-2.54" y="-12.7" length="short"/>
+<pin name="C11" x="-2.54" y="-10.16" length="short"/>
+<pin name="S12" x="-2.54" y="-7.62" length="short"/>
+<pin name="C12" x="-2.54" y="-5.08" length="short"/>
+<pin name="V+" x="-2.54" y="-2.54" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -17385,68 +17442,6 @@ MAX voltage in: 35V</description>
 <connect gate="G$1" pin="VCC2" pad="3"/>
 <connect gate="G$1" pin="VCC3" pad="5"/>
 <connect gate="G$1" pin="VCC4" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LTC6804-1" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="LTC6804-1" x="-27.94" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="LTC6804">
-<connects>
-<connect gate="G$1" pin="C0" pad="26"/>
-<connect gate="G$1" pin="C1" pad="24"/>
-<connect gate="G$1" pin="C10" pad="6"/>
-<connect gate="G$1" pin="C11" pad="4"/>
-<connect gate="G$1" pin="C12" pad="2"/>
-<connect gate="G$1" pin="C2" pad="22"/>
-<connect gate="G$1" pin="C3" pad="20"/>
-<connect gate="G$1" pin="C4" pad="18"/>
-<connect gate="G$1" pin="C5" pad="16"/>
-<connect gate="G$1" pin="C6" pad="14"/>
-<connect gate="G$1" pin="C7" pad="12"/>
-<connect gate="G$1" pin="C8" pad="10"/>
-<connect gate="G$1" pin="C9" pad="8"/>
-<connect gate="G$1" pin="CSB(IMA)" pad="41"/>
-<connect gate="G$1" pin="DRIVE" pad="38"/>
-<connect gate="G$1" pin="GPI01" pad="27"/>
-<connect gate="G$1" pin="GPI02" pad="28"/>
-<connect gate="G$1" pin="GPI03" pad="29"/>
-<connect gate="G$1" pin="GPI04" pad="32"/>
-<connect gate="G$1" pin="GPI05" pad="33"/>
-<connect gate="G$1" pin="IBIAS" pad="45"/>
-<connect gate="G$1" pin="ICMP" pad="46"/>
-<connect gate="G$1" pin="IMB" pad="47"/>
-<connect gate="G$1" pin="IPB" pad="48"/>
-<connect gate="G$1" pin="ISOMD" pad="40"/>
-<connect gate="G$1" pin="S1" pad="25"/>
-<connect gate="G$1" pin="S10" pad="7"/>
-<connect gate="G$1" pin="S11" pad="5"/>
-<connect gate="G$1" pin="S12" pad="3"/>
-<connect gate="G$1" pin="S2" pad="23"/>
-<connect gate="G$1" pin="S3" pad="21"/>
-<connect gate="G$1" pin="S4" pad="19"/>
-<connect gate="G$1" pin="S5" pad="17"/>
-<connect gate="G$1" pin="S6" pad="15"/>
-<connect gate="G$1" pin="S7" pad="13"/>
-<connect gate="G$1" pin="S8" pad="11"/>
-<connect gate="G$1" pin="S9" pad="9"/>
-<connect gate="G$1" pin="SCK(IPA)" pad="42"/>
-<connect gate="G$1" pin="SDI(NC)" pad="43"/>
-<connect gate="G$1" pin="SDO(NC)" pad="44"/>
-<connect gate="G$1" pin="SWTEN" pad="36"/>
-<connect gate="G$1" pin="V+" pad="1"/>
-<connect gate="G$1" pin="V-" pad="31"/>
-<connect gate="G$1" pin="V-**" pad="30"/>
-<connect gate="G$1" pin="VREF1" pad="35"/>
-<connect gate="G$1" pin="VREF2" pad="34"/>
-<connect gate="G$1" pin="VREG" pad="37"/>
-<connect gate="G$1" pin="WDT" pad="39"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21674,6 +21669,73 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 <connect gate="G$1" pin="3" pad="P$3"/>
 <connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LTC6811-2">
+<description>&lt;b&gt; Linear Technology Multicell Battery Stack Monitor &lt;/b&gt;
+&lt;br&gt;
+Variant 2: Addressable/Multi-Drop Configuration
+&lt;br&gt;
+&lt;a href="http://cds.linear.com/docs/en/datasheet/680412fc.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LTC6804-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LTC6811">
+<connects>
+<connect gate="G$1" pin="A0" pad="45"/>
+<connect gate="G$1" pin="A1" pad="46"/>
+<connect gate="G$1" pin="A2" pad="47"/>
+<connect gate="G$1" pin="A3" pad="48"/>
+<connect gate="G$1" pin="C0" pad="26"/>
+<connect gate="G$1" pin="C1" pad="24"/>
+<connect gate="G$1" pin="C10" pad="6"/>
+<connect gate="G$1" pin="C11" pad="4"/>
+<connect gate="G$1" pin="C12" pad="2"/>
+<connect gate="G$1" pin="C2" pad="22"/>
+<connect gate="G$1" pin="C3" pad="20"/>
+<connect gate="G$1" pin="C4" pad="18"/>
+<connect gate="G$1" pin="C5" pad="16"/>
+<connect gate="G$1" pin="C6" pad="14"/>
+<connect gate="G$1" pin="C7" pad="12"/>
+<connect gate="G$1" pin="C8" pad="10"/>
+<connect gate="G$1" pin="C9" pad="8"/>
+<connect gate="G$1" pin="CSB(IMA)" pad="41"/>
+<connect gate="G$1" pin="DRIVE" pad="38"/>
+<connect gate="G$1" pin="GPI01" pad="27"/>
+<connect gate="G$1" pin="GPI02" pad="28"/>
+<connect gate="G$1" pin="GPI03" pad="29"/>
+<connect gate="G$1" pin="GPI04" pad="32"/>
+<connect gate="G$1" pin="GPI05" pad="33"/>
+<connect gate="G$1" pin="ISOMD" pad="40"/>
+<connect gate="G$1" pin="S1" pad="25"/>
+<connect gate="G$1" pin="S10" pad="7"/>
+<connect gate="G$1" pin="S11" pad="5"/>
+<connect gate="G$1" pin="S12" pad="3"/>
+<connect gate="G$1" pin="S2" pad="23"/>
+<connect gate="G$1" pin="S3" pad="21"/>
+<connect gate="G$1" pin="S4" pad="19"/>
+<connect gate="G$1" pin="S5" pad="17"/>
+<connect gate="G$1" pin="S6" pad="15"/>
+<connect gate="G$1" pin="S7" pad="13"/>
+<connect gate="G$1" pin="S8" pad="11"/>
+<connect gate="G$1" pin="S9" pad="9"/>
+<connect gate="G$1" pin="SCK(IPA)" pad="42"/>
+<connect gate="G$1" pin="SDI(ICMP)" pad="43"/>
+<connect gate="G$1" pin="SDO(IBIAS)" pad="44"/>
+<connect gate="G$1" pin="SWTEN" pad="36"/>
+<connect gate="G$1" pin="V+" pad="1"/>
+<connect gate="G$1" pin="V-" pad="31"/>
+<connect gate="G$1" pin="V-**" pad="30"/>
+<connect gate="G$1" pin="VREF1" pad="35"/>
+<connect gate="G$1" pin="VREF2" pad="34"/>
+<connect gate="G$1" pin="VREG" pad="37"/>
+<connect gate="G$1" pin="WDT" pad="39"/>
 </connects>
 <technologies>
 <technology name=""/>
