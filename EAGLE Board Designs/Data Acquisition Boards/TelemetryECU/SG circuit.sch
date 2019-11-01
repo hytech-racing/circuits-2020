@@ -994,6 +994,86 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="MINIFIT_5566-2">
+<description>&lt;b&gt;Mini-Fit Junior connector 2 pole&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com</description>
+<wire x1="-2.6" y1="4.5" x2="2.6" y2="4.5" width="0.254" layer="21"/>
+<wire x1="2.6" y1="4.5" x2="2.6" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="2.6" y1="-3.3" x2="2.6" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="2.6" y1="-4.9" x2="-2.6" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="-2.6" y1="-4.9" x2="-2.6" y2="4.5" width="0.254" layer="21"/>
+<wire x1="2.6" y1="-2.2" x2="2.6" y2="-3.3" width="0.254" layer="21" curve="-180"/>
+<pad name="1" x="0" y="-2.75" drill="1.4" shape="square"/>
+<pad name="2" x="0" y="2.75" drill="1.4" shape="square"/>
+<text x="0" y="-5.207" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
+<text x="0" y="6.858" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="27"/>
+<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="27"/>
+<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="27"/>
+</package>
+<package name="NANO-FIT_VERTICAL-2">
+<description>105309-1202
+
+Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
+<pad name="P$1" x="-1.25" y="0" drill="1.2"/>
+<pad name="P$2" x="1.25" y="0" drill="1.2"/>
+<wire x1="-3" y1="1.74" x2="3" y2="1.74" width="0.127" layer="21"/>
+<wire x1="3" y1="1.74" x2="3" y2="-1.74" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-4.6" x2="-2.6" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.74" x2="-3" y2="1.74" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.74" x2="-2.6" y2="-1.74" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-1.74" x2="-2.6" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="3" y1="-1.74" x2="2.6" y2="-1.74" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-1.74" x2="2.6" y2="-4.6" width="0.127" layer="21"/>
+<hole x="0" y="-1.34" drill="1.3"/>
+<wire x1="-2.6" y1="-1.74" x2="2.6" y2="-1.74" width="0.127" layer="21"/>
+</package>
+<package name="NANO-FIT_RIGHT_ANGLE-2">
+<pad name="2" x="-1.25" y="0" drill="1.2" shape="square"/>
+<pad name="1" x="1.25" y="0" drill="1.2" shape="square"/>
+<hole x="1.25" y="-7.18" drill="1.7"/>
+<hole x="-1.25" y="-7.18" drill="1.7"/>
+<wire x1="-2.5" y1="2" x2="2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2" x2="2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-3" x2="3" y2="-3" width="0.127" layer="21"/>
+<wire x1="3" y1="-3" x2="3" y2="-10.5" width="0.127" layer="21"/>
+<wire x1="3" y1="-10.5" x2="-3" y2="-10.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-10.5" x2="-3" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3" x2="-2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3" x2="-2.5" y2="2" width="0.127" layer="21"/>
+</package>
+<package name="DURACLIK_RIGHT_ANGLE-2">
+<smd name="1" x="1" y="8.13" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="-1" y="8.13" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$1" x="3.55" y="2.65" dx="5.3" dy="1.7" layer="1" rot="R90"/>
+<smd name="P$2" x="-3.55" y="2.65" dx="5.3" dy="1.7" layer="1" rot="R90"/>
+<wire x1="5" y1="-1" x2="-5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-3" y1="10" x2="-2" y2="10" width="0.127" layer="21"/>
+<wire x1="-2" y1="10" x2="-2" y2="6" width="0.127" layer="21"/>
+<wire x1="-2" y1="6" x2="2" y2="6" width="0.127" layer="21"/>
+<wire x1="2" y1="6" x2="2" y2="10" width="0.127" layer="21"/>
+<wire x1="2" y1="10" x2="3" y2="10" width="0.127" layer="21"/>
+<wire x1="-5" y1="-1" x2="-5" y2="6" width="0.127" layer="21"/>
+<wire x1="-5" y1="6" x2="-3" y2="10" width="0.127" layer="21"/>
+<wire x1="3" y1="10" x2="5" y2="6" width="0.127" layer="21"/>
+<wire x1="5" y1="6" x2="5" y2="-1" width="0.127" layer="21"/>
+</package>
+<package name="DURACLIK_VERTICAL-2">
+<smd name="1" x="1" y="7.68" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="-1" y="7.68" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$1" x="4.6" y="2.1" dx="4.2" dy="2" layer="1" rot="R90"/>
+<smd name="P$2" x="-4.6" y="2.1" dx="4.2" dy="2" layer="1" rot="R90"/>
+<wire x1="6" y1="5" x2="6" y2="-1" width="0.127" layer="21"/>
+<wire x1="6" y1="-1" x2="-6" y2="-1" width="0.127" layer="21"/>
+<wire x1="-6" y1="-1" x2="-6" y2="5" width="0.127" layer="21"/>
+<wire x1="-6" y1="5" x2="-3" y2="9" width="0.127" layer="21"/>
+<wire x1="-3" y1="9" x2="-2" y2="9" width="0.127" layer="21"/>
+<wire x1="-2" y1="9" x2="-2" y2="6" width="0.127" layer="21"/>
+<wire x1="-2" y1="6" x2="2" y2="6" width="0.127" layer="21"/>
+<wire x1="2" y1="6" x2="2" y2="9" width="0.127" layer="21"/>
+<wire x1="2" y1="9" x2="3" y2="9" width="0.127" layer="21"/>
+<wire x1="3" y1="9" x2="6" y2="5" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -1103,6 +1183,17 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="10.922" y1="-7.366" x2="10.922" y2="-7.874" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-2.54" x2="7.62" y2="-6.35" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="MV">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="M">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1546,6 +1637,66 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CONNECTOR-2" prefix="X">
+<description>&lt;b&gt;Mini-Fit Junior connector 2 pole&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always"/>
+<gate name="-2" symbol="M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIFIT_5566-2">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="1822072" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="NANO-FIT_VERTICAL-2" package="NANO-FIT_VERTICAL-2">
+<connects>
+<connect gate="-1" pin="S" pad="P$1"/>
+<connect gate="-2" pin="S" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NANO-FIT_RIGHT_ANGLE-2" package="NANO-FIT_RIGHT_ANGLE-2">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DURACLIK_RIGHT_ANGLE-2" package="DURACLIK_RIGHT_ANGLE-2">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DURACLIK_VERTICAL-2" package="DURACLIK_VERTICAL-2">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSymbols">
@@ -1601,15 +1752,18 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND4" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="TM1" library="HyTechDevices" deviceset="TRIMPOT" device="TC33X" value="500k"/>
 <part name="U$1" library="HyTechDevices" deviceset="LTC6081" device=""/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
+<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES"/>
+<part name="GND5" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="SG+" library="HyTechDevices" deviceset="CONNECTOR-2" device=""/>
 <part name="C4" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="165.1" y="91.44" size="1.778" layer="91">This needs to be the
-same voltage as the
-excitation voltage on
-the wheatstone bridge</text>
+<text x="38.1" y="73.66" size="1.778" layer="91">SG+</text>
+<text x="38.1" y="71.12" size="1.778" layer="91">SG-</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="119.38" y="59.69" smashed="yes">
@@ -1676,9 +1830,28 @@ the wheatstone bridge</text>
 <attribute name="NAME" x="142.875" y="46.355" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="142.875" y="59.69" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C4" gate="G$1" x="181.61" y="38.354" smashed="yes" rot="R90">
-<attribute name="NAME" x="183.769" y="34.798" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="178.689" y="32.258" size="1.778" layer="96" rot="R90"/>
+<instance part="R8" gate="G$1" x="83.82" y="73.66" smashed="yes">
+<attribute name="NAME" x="80.01" y="75.1586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.01" y="70.358" size="1.778" layer="96"/>
+</instance>
+<instance part="R9" gate="G$1" x="83.82" y="58.42" smashed="yes">
+<attribute name="NAME" x="80.01" y="59.9186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.01" y="55.118" size="1.778" layer="96"/>
+</instance>
+<instance part="R10" gate="G$1" x="66.04" y="58.42" smashed="yes">
+<attribute name="NAME" x="62.23" y="59.9186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="62.23" y="55.118" size="1.778" layer="96"/>
+</instance>
+<instance part="GND5" gate="1" x="73.66" y="53.34" smashed="yes">
+<attribute name="VALUE" x="71.12" y="50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="SG+" gate="-2" x="45.72" y="73.66" smashed="yes" rot="R180"/>
+<instance part="SG+" gate="-1" x="45.72" y="71.12" smashed="yes" rot="R180">
+<attribute name="VALUE" x="46.482" y="69.723" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C4" gate="G$1" x="179.07" y="38.354" smashed="yes" rot="R270">
+<attribute name="NAME" x="181.991" y="36.83" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="176.911" y="36.83" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -1710,13 +1883,6 @@ the wheatstone bridge</text>
 <junction x="109.22" y="71.12"/>
 </segment>
 </net>
-<net name="V+" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="92.71" y1="50.8" x2="90.17" y2="50.8" width="0.1524" layer="91"/>
-<label x="90.17" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <wire x1="118.11" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
@@ -1731,7 +1897,7 @@ the wheatstone bridge</text>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="184.15" y1="48.26" x2="184.15" y2="38.354" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="184.15" y1="38.354" x2="184.15" y2="35.56" width="0.1524" layer="91"/>
 <junction x="184.15" y="38.354"/>
 </segment>
@@ -1743,24 +1909,41 @@ the wheatstone bridge</text>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="LT1790B" gate="G$1" pin="A"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="73.66" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="55.88" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
+<junction x="73.66" y="58.42"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="173.99" y1="48.26" x2="176.53" y2="48.26" width="0.1524" layer="91"/>
-<label x="176.53" y="34.29" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="176.53" y1="34.29" x2="176.53" y2="38.354" width="0.1524" layer="91"/>
+<label x="176.53" y="31.75" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="176.53" y1="31.75" x2="176.53" y2="38.354" width="0.1524" layer="91"/>
 <junction x="176.53" y="48.26"/>
 <pinref part="U$1" gate="G$1" pin="VDD"/>
 <wire x1="176.53" y1="38.354" x2="176.53" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="48.26" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <junction x="176.53" y="38.354"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="87.63" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
 <label x="162.56" y="91.44" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="73.66" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
+<label x="73.66" y="81.28" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="73.66" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SG+" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="OUTA" class="0">
@@ -1847,8 +2030,26 @@ the wheatstone bridge</text>
 <net name="V-" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="93.472" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
-<label x="83.82" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="73.66" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="71.12" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="93.472" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<junction x="88.9" y="71.12"/>
+</segment>
+</net>
+<net name="V+" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="58.42" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="68.58" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<junction x="60.96" y="68.58"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="68.58" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="50.8" x2="92.71" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="SG+" gate="-1" pin="S"/>
 </segment>
 </net>
 </nets>
@@ -1856,10 +2057,4 @@ the wheatstone bridge</text>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
