@@ -7489,38 +7489,12 @@ to limit current or drop voltage</text>
 <label x="365.76" y="200.66" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="223.52" x2="190.5" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="D33" gate="1" pin="C"/>
-<wire x1="190.5" y1="236.22" x2="182.88" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="U$38" gate="G$1" pin="COIL+"/>
-<wire x1="187.96" y1="223.52" x2="190.5" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="R102" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="223.52" x2="195.58" y2="223.52" width="0.1524" layer="91"/>
-<junction x="190.5" y="223.52"/>
-<wire x1="190.5" y1="223.52" x2="190.5" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="R100" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="215.9" x2="195.58" y2="215.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R102" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="223.52" x2="208.28" y2="223.52" width="0.1524" layer="91"/>
 <label x="208.28" y="223.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OKHS" class="0">
-<segment>
-<pinref part="D34" gate="1" pin="C"/>
-<wire x1="86.36" y1="238.76" x2="93.98" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="238.76" x2="93.98" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="IMD_SHUTDOWN_RLY1" gate="G$1" pin="COIL+"/>
-<wire x1="93.98" y1="226.06" x2="91.44" y2="226.06" width="0.1524" layer="91"/>
-<junction x="93.98" y="226.06"/>
-<pinref part="R101" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="226.06" x2="99.06" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="226.06" x2="93.98" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="218.44" x2="99.06" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="R93" gate="G$1" pin="2"/>
-</segment>
 <segment>
 <pinref part="R95" gate="G$1" pin="1"/>
 <wire x1="370.84" y1="190.5" x2="365.76" y2="190.5" width="0.1524" layer="91"/>
@@ -7947,6 +7921,36 @@ to limit current or drop voltage</text>
 <pinref part="R99" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="279.4" y1="111.76" x2="276.86" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="D34" gate="1" pin="C"/>
+<wire x1="86.36" y1="238.76" x2="93.98" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="238.76" x2="93.98" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="IMD_SHUTDOWN_RLY1" gate="G$1" pin="COIL+"/>
+<wire x1="93.98" y1="226.06" x2="91.44" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="R101" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="226.06" x2="99.06" y2="226.06" width="0.1524" layer="91"/>
+<junction x="93.98" y="226.06"/>
+<pinref part="R93" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="226.06" x2="93.98" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="218.44" x2="99.06" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="D33" gate="1" pin="C"/>
+<wire x1="182.88" y1="236.22" x2="190.5" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="236.22" x2="190.5" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="R102" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="223.52" x2="195.58" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="U$38" gate="G$1" pin="COIL+"/>
+<wire x1="190.5" y1="223.52" x2="187.96" y2="223.52" width="0.1524" layer="91"/>
+<junction x="190.5" y="223.52"/>
+<wire x1="190.5" y1="223.52" x2="190.5" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="R100" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="215.9" x2="195.58" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
