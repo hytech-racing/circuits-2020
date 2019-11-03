@@ -5319,9 +5319,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C67" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="GND130" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="BOARD_TEMP" library="HyTechDevices" deviceset="THERMISTOR_NCP21" device="0805"/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
-<part name="GND28" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$4" library="HyTechDevices" deviceset="N-CHANNEL_MOSFET" device="_HOR_HOLE" value="N-CHANNEL_MOSFET_IRF1324PBF"/>
 <part name="U$7" library="HyTechDevices" deviceset="N-CHANNEL_MOSFET" device="_HOR_HOLE" value="N-CHANNEL_MOSFET_IRF1324PBF"/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
@@ -5333,18 +5332,13 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+28" library="supply1" deviceset="+12V" device=""/>
 <part name="D8" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="D9" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
-<part name="LED4" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
-<part name="R25" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.2k"/>
-<part name="GND77" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="LED13" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
-<part name="R52" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.2k"/>
-<part name="GND79" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R64" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
 <part name="C27" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
 <part name="R65" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
 <part name="C28" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
 <part name="U$1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5870,28 +5864,6 @@ to limit current or drop voltage</text>
 <attribute name="NAME" x="153.67" y="22.0726" size="1.778" layer="95"/>
 <attribute name="VALUE" x="153.67" y="16.7386" size="1.778" layer="96"/>
 </instance>
-<instance part="LED4" gate="LED" x="228.6" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="233.172" y="69.596" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="233.172" y="71.755" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R25" gate="G$1" x="241.3" y="66.04" smashed="yes">
-<attribute name="NAME" x="237.49" y="67.5386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="237.49" y="62.738" size="1.778" layer="96"/>
-</instance>
-<instance part="GND77" gate="1" x="248.92" y="63.5" smashed="yes">
-<attribute name="VALUE" x="246.38" y="60.96" size="1.778" layer="96"/>
-</instance>
-<instance part="LED13" gate="LED" x="228.6" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="233.172" y="39.116" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="233.172" y="41.275" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R52" gate="G$1" x="241.3" y="35.56" smashed="yes">
-<attribute name="NAME" x="237.49" y="37.0586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="237.49" y="32.258" size="1.778" layer="96"/>
-</instance>
-<instance part="GND79" gate="1" x="248.92" y="33.02" smashed="yes">
-<attribute name="VALUE" x="246.38" y="30.48" size="1.778" layer="96"/>
-</instance>
 <instance part="R64" gate="G$1" x="127" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="130.81" y="54.3814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="130.81" y="59.182" size="1.778" layer="96" rot="R180"/>
@@ -6125,16 +6097,6 @@ to limit current or drop voltage</text>
 <pinref part="U$5" gate="G$1" pin="GND"/>
 <pinref part="GND61" gate="1" pin="GND"/>
 <wire x1="195.58" y1="50.8" x2="226.06" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R25" gate="G$1" pin="2"/>
-<pinref part="GND77" gate="1" pin="GND"/>
-<wire x1="248.92" y1="66.04" x2="246.38" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R52" gate="G$1" pin="2"/>
-<pinref part="GND79" gate="1" pin="GND"/>
-<wire x1="248.92" y1="35.56" x2="246.38" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -6915,25 +6877,15 @@ to limit current or drop voltage</text>
 <net name="FAN2CONTROL" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="IN_B"/>
-<wire x1="226.06" y1="48.26" x2="223.52" y2="48.26" width="0.1524" layer="91"/>
 <label x="220.98" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="223.52" y1="48.26" x2="220.98" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="48.26" x2="223.52" y2="35.56" width="0.1524" layer="91"/>
-<junction x="223.52" y="48.26"/>
-<wire x1="223.52" y1="35.56" x2="226.06" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="LED13" gate="LED" pin="A"/>
+<wire x1="226.06" y1="48.26" x2="220.98" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAN1CONTROL" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="IN_A"/>
-<wire x1="226.06" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
 <label x="220.98" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="LED4" gate="LED" pin="A"/>
-<wire x1="223.52" y1="53.34" x2="220.98" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="66.04" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
-<junction x="223.52" y="53.34"/>
+<wire x1="226.06" y1="53.34" x2="220.98" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAN1DRIVE" class="0">
@@ -6976,20 +6928,6 @@ to limit current or drop voltage</text>
 <wire x1="160.02" y1="50.8" x2="162.56" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="50.8" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
 <junction x="162.56" y="66.04"/>
-</segment>
-</net>
-<net name="N$69" class="0">
-<segment>
-<pinref part="LED4" gate="LED" pin="C"/>
-<pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="66.04" x2="233.68" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$71" class="0">
-<segment>
-<pinref part="LED13" gate="LED" pin="C"/>
-<pinref part="R52" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="35.56" x2="233.68" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$74" class="0">
@@ -8181,8 +8119,8 @@ CIRCUIT</text>
 <instance part="P+11" gate="1" x="320.04" y="83.82" smashed="yes">
 <attribute name="VALUE" x="322.58" y="86.36" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND28" gate="1" x="320.04" y="48.26" smashed="yes">
-<attribute name="VALUE" x="317.5" y="45.72" size="1.778" layer="96"/>
+<instance part="AGND1" gate="VR1" x="320.04" y="48.26" smashed="yes">
+<attribute name="VALUE" x="317.5" y="43.18" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -8251,11 +8189,6 @@ CIRCUIT</text>
 <wire x1="30.48" y1="114.3" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="CAN_TRANSCEIVER2" gate="G$1" pin="8"/>
 <wire x1="30.48" y1="116.84" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="GND28" gate="1" pin="GND"/>
-<wire x1="320.04" y1="50.8" x2="320.04" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CURRENTSENSE2" class="0">
@@ -8711,6 +8644,11 @@ CIRCUIT</text>
 <wire x1="251.46" y1="185.42" x2="279.4" y2="185.42" width="0.1524" layer="91"/>
 <junction x="251.46" y="185.42"/>
 <junction x="279.4" y="185.42"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="AGND1" gate="VR1" pin="AGND"/>
+<wire x1="320.04" y1="53.34" x2="320.04" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$140" class="0">
