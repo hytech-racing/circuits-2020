@@ -9663,9 +9663,9 @@ only one per signal on
 <label x="347.98" y="223.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$52" gate="G$1" pin="B3"/>
-<wire x1="187.96" y1="53.34" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
-<label x="195.58" y="53.34" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$52" gate="G$1" pin="B2"/>
+<wire x1="187.96" y1="55.88" x2="195.58" y2="55.88" width="0.1524" layer="91"/>
+<label x="195.58" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS2_5V" class="0">
@@ -9675,9 +9675,9 @@ only one per signal on
 <label x="309.88" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$52" gate="G$1" pin="B2"/>
-<wire x1="187.96" y1="55.88" x2="195.58" y2="55.88" width="0.1524" layer="91"/>
-<label x="195.58" y="55.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$52" gate="G$1" pin="B3"/>
+<wire x1="187.96" y1="53.34" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
+<label x="195.58" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCK_5V" class="0">
@@ -9721,9 +9721,9 @@ only one per signal on
 <pinref part="U$48" gate="G$1" pin="D9(RX2)"/>
 </segment>
 <segment>
-<pinref part="U$52" gate="G$1" pin="A3"/>
-<wire x1="160.02" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
-<label x="152.4" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$52" gate="G$1" pin="A2"/>
+<wire x1="160.02" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
+<label x="152.4" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CS2_TEENSY" class="0">
@@ -9733,9 +9733,9 @@ only one per signal on
 <pinref part="U$48" gate="G$1" pin="D10(TX2)"/>
 </segment>
 <segment>
-<pinref part="U$52" gate="G$1" pin="A2"/>
-<wire x1="160.02" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
-<label x="152.4" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$52" gate="G$1" pin="A3"/>
+<wire x1="160.02" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
+<label x="152.4" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI_TEENSY" class="0">
