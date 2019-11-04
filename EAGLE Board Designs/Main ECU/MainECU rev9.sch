@@ -5339,6 +5339,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="U$1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<part name="BSPD_TEST_CURRENT" library="HyTechDevices" deviceset="M02" device="_SLIM" value="M02_SLIM"/>
+<part name="BSPD_TEST_BRAKE" library="HyTechDevices" deviceset="M02" device="_SLIM" value="M02_SLIM"/>
 </parts>
 <sheets>
 <sheet>
@@ -7106,12 +7108,12 @@ to limit current or drop voltage</text>
 <attribute name="NAME" x="372.11" y="125.5014" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="372.11" y="130.302" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="U$40" gate="G$1" x="190.5" y="91.44" smashed="yes">
-<attribute name="NAME" x="191.135" y="94.615" size="1.778" layer="95"/>
-<attribute name="VALUE" x="191.135" y="81.915" size="1.778" layer="96"/>
+<instance part="U$40" gate="G$1" x="193.04" y="91.44" smashed="yes">
+<attribute name="NAME" x="193.675" y="94.615" size="1.778" layer="95"/>
+<attribute name="VALUE" x="193.675" y="81.915" size="1.778" layer="96"/>
 </instance>
-<instance part="P+74" gate="1" x="208.28" y="96.52" smashed="yes">
-<attribute name="VALUE" x="213.36" y="99.06" size="1.778" layer="96" rot="R180"/>
+<instance part="P+74" gate="1" x="210.82" y="96.52" smashed="yes">
+<attribute name="VALUE" x="215.9" y="99.06" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND119" gate="1" x="182.88" y="81.28" smashed="yes">
 <attribute name="VALUE" x="180.34" y="78.74" size="1.778" layer="96"/>
@@ -7254,6 +7256,14 @@ to limit current or drop voltage</text>
 <attribute name="NAME" x="280.67" y="110.2614" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="280.67" y="115.062" size="1.778" layer="96" rot="MR180"/>
 </instance>
+<instance part="BSPD_TEST_CURRENT" gate="G$1" x="37.084" y="96.52" smashed="yes" rot="R270">
+<attribute name="VALUE" x="33.528" y="97.536" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="20.066" y="99.314" size="1.778" layer="95"/>
+</instance>
+<instance part="BSPD_TEST_BRAKE" gate="G$1" x="139.7" y="96.52" smashed="yes" rot="R270">
+<attribute name="VALUE" x="159.004" y="97.536" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="139.7" y="99.822" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7371,7 +7381,7 @@ to limit current or drop voltage</text>
 <pinref part="GND119" gate="1" pin="GND"/>
 <wire x1="182.88" y1="83.82" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U$40" gate="G$1" pin="3"/>
-<wire x1="182.88" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="86.36" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C29" gate="G$1" pin="2"/>
@@ -7515,9 +7525,9 @@ to limit current or drop voltage</text>
 </segment>
 <segment>
 <pinref part="U$40" gate="G$1" pin="5"/>
-<wire x1="205.74" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="91.44" x2="210.82" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P+74" gate="1" pin="+5V"/>
-<wire x1="208.28" y1="91.44" x2="208.28" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="91.44" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+70" gate="1" pin="+5V"/>
@@ -7600,17 +7610,6 @@ to limit current or drop voltage</text>
 <pinref part="R117" gate="G$1" pin="1"/>
 <wire x1="365.76" y1="152.4" x2="370.84" y2="152.4" width="0.1524" layer="91"/>
 <label x="365.76" y="152.4" size="1.27" layer="95" rot="MR0" xref="yes"/>
-</segment>
-</net>
-<net name="SIGNAL_BRAKE" class="0">
-<segment>
-<label x="142.24" y="88.9" size="1.27" layer="95" xref="yes"/>
-<pinref part="R111" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="D41" gate="G$1" pin="A"/>
-<wire x1="137.16" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="86.36" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
-<junction x="137.16" y="88.9"/>
 </segment>
 </net>
 <net name="N$99" class="0">
@@ -7726,8 +7725,8 @@ to limit current or drop voltage</text>
 </segment>
 <segment>
 <pinref part="U$40" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
-<label x="182.88" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="190.5" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
+<label x="187.96" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$103" class="0">
@@ -7750,8 +7749,8 @@ to limit current or drop voltage</text>
 </segment>
 <segment>
 <pinref part="U$40" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
-<label x="182.88" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="190.5" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
+<label x="187.96" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$104" class="0">
@@ -7765,22 +7764,11 @@ to limit current or drop voltage</text>
 <junction x="50.8" y="114.3"/>
 </segment>
 </net>
-<net name="SIGNAL_CURRENT" class="0">
-<segment>
-<pinref part="R110" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="D40" gate="G$1" pin="A"/>
-<wire x1="43.18" y1="88.9" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="88.9" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
-<junction x="43.18" y="88.9"/>
-<label x="38.1" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$107" class="0">
 <segment>
 <pinref part="U$40" gate="G$1" pin="4"/>
 <pinref part="R105" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="86.36" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="86.36" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$109" class="0">
@@ -7889,6 +7877,42 @@ to limit current or drop voltage</text>
 <wire x1="190.5" y1="223.52" x2="190.5" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="R100" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="215.9" x2="195.58" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="D40" gate="G$1" pin="A"/>
+<wire x1="43.18" y1="86.36" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="BSPD_TEST_CURRENT" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="88.9" x2="39.624" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R110" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<junction x="43.18" y="88.9"/>
+</segment>
+</net>
+<net name="SIGNAL_CURRENT" class="0">
+<segment>
+<pinref part="BSPD_TEST_CURRENT" gate="G$1" pin="1"/>
+<wire x1="37.084" y1="88.9" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
+<label x="35.56" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R111" gate="G$1" pin="1"/>
+<pinref part="BSPD_TEST_BRAKE" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="D41" gate="G$1" pin="A"/>
+<wire x1="137.16" y1="88.9" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="88.9" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
+<junction x="137.16" y="88.9"/>
+</segment>
+</net>
+<net name="SIGNAL_BRAKE" class="0">
+<segment>
+<pinref part="BSPD_TEST_BRAKE" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
+<label x="144.78" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
