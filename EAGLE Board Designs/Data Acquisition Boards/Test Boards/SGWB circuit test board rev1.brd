@@ -4,6 +4,7 @@
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
