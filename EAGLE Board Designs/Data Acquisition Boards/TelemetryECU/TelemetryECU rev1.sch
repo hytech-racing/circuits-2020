@@ -1277,38 +1277,6 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="-4.445" y1="6.35" x2="-1.905" y2="3.81" width="0.127" layer="21"/>
 <wire x1="-1.905" y1="3.81" x2="1.905" y2="3.81" width="0.127" layer="21"/>
 </package>
-<package name="SOT223">
-<description>&lt;b&gt;SOT-223&lt;/b&gt;
-&lt;br&gt;
-&lt;a href="https://github.com/sparkfun/SparkFun-Eagle-Libraries"&gt;Source: Sparkfun Eagle Library</description>
-<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="1.651" x2="3.2766" y2="1.651" width="0.2032" layer="21"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<smd name="1" x="-2.3" y="-3.15" dx="1.5" dy="2.2352" layer="1"/>
-<smd name="2" x="0" y="-3.15" dx="1.5" dy="2.2352" layer="1"/>
-<smd name="3" x="2.3" y="-3.15" dx="1.5" dy="2.2352" layer="1"/>
-<smd name="4" x="0" y="3.15" dx="3.8" dy="2.2" layer="1"/>
-<text x="-0.8255" y="4.5085" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="TO-220">
-<pad name="1" x="-2.54" y="0" drill="1" diameter="1.8796" shape="square"/>
-<pad name="2" x="0" y="0" drill="1" diameter="1.8796"/>
-<pad name="3" x="2.54" y="0" drill="1" diameter="1.8796"/>
-<wire x1="-5.08" y1="3.81" x2="5.08" y2="3.81" width="0.127" layer="21"/>
-<wire x1="5.08" y1="3.81" x2="5.08" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-3.81" x2="-5.08" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="3.81" width="0.127" layer="21"/>
-</package>
 <package name="21-0041B_8">
 <smd name="1" x="-2.4638" y="1.905" dx="1.9812" dy="0.5334" layer="1"/>
 <smd name="2" x="-2.4638" y="0.635" dx="1.9812" dy="0.5334" layer="1"/>
@@ -2434,38 +2402,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM3940">
-<description>Texas Instruments LM3940 3.3V Linear Regulator
-&lt;p&gt;
-&lt;a href="http://www.ti.com/lit/ds/symlink/lm3940.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;p&gt;
-Use with 0.47µF input capacitor and 33µF output capacitor.</description>
-<gates>
-<gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT223">
-<connects>
-<connect gate="G$1" pin="GND" pad="2 4"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TO-220" package="TO-220">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MAX31855KASA+" prefix="U">
 <gates>
 <gate name="A" symbol="MAX31855KASA+" x="0" y="0"/>
@@ -2680,8 +2616,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="J1" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J2" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="J3" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="J4" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J5" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J6" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J7" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
@@ -2691,13 +2625,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <part name="C13" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C14" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="GND20" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="U$7" library="HyTechDevices" deviceset="LM3940" device="TO-220"/>
-<part name="C15" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".47uF"/>
-<part name="C16" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="33uF"/>
-<part name="GND21" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="GND22" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+12" library="supply1" deviceset="+5V" device=""/>
-<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
@@ -2705,9 +2632,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
-<part name="GND23" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="U1" library="HyTechDevices" deviceset="MAX31855KASA+" device=""/>
 <part name="GND24" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
@@ -2717,8 +2641,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <part name="C18" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C19" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="GND25" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C20" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C21" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND26" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R22" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10M"/>
 <part name="R23" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10M"/>
@@ -2832,15 +2754,10 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <part name="+3V22" library="supply1" deviceset="+3V3" device=""/>
 <part name="J17" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J18" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="J19" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="J20" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J21" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J22" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J23" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J24" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="R59" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
-<part name="GND49" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="+3V23" library="supply1" deviceset="+3V3" device=""/>
 <part name="U3" library="HyTechDevices" deviceset="MAX31855KASA+" device=""/>
 <part name="GND50" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="+3V24" library="supply1" deviceset="+3V3" device=""/>
@@ -2850,8 +2767,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <part name="C48" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C49" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="GND51" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C50" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C51" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND52" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R62" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10M"/>
 <part name="R63" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10M"/>
@@ -2902,15 +2817,10 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <part name="+3V29" library="supply1" deviceset="+3V3" device=""/>
 <part name="J25" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J26" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="J27" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="J28" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J29" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J30" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J31" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J32" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="R79" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES"/>
-<part name="GND62" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="+3V30" library="supply1" deviceset="+3V3" device=""/>
 <part name="U4" library="HyTechDevices" deviceset="MAX31855KASA+" device=""/>
 <part name="GND63" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
@@ -2920,8 +2830,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <part name="C63" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C64" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="GND64" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C65" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C66" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND65" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R82" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10M"/>
 <part name="R83" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10M"/>
@@ -2970,35 +2878,31 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <part name="C76" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
 <part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
-<part name="J33" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J34" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J35" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="J36" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J37" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J38" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="J39" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J40" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J41" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J42" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J43" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
+<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="R39" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="220"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="231.14" y="7.62" size="1.778" layer="91"></text>
 <text x="177.8" y="160.02" size="1.27" layer="91">thermocouple</text>
-<text x="177.8" y="134.62" size="1.27" layer="91">thermistor</text>
 <text x="177.8" y="116.84" size="1.27" layer="91">wheatstone bridge</text>
 <text x="177.8" y="63.5" size="1.27" layer="91">single strain gauge</text>
 <text x="176.53" y="1.27" size="1.27" layer="91">thermocouple</text>
 <text x="176.53" y="-26.67" size="1.27" layer="91">wheatstone bridge</text>
 <text x="176.53" y="-80.01" size="1.27" layer="91">single strain gauge</text>
 <text x="379.73" y="160.02" size="1.27" layer="91">thermocouple</text>
-<text x="379.73" y="134.62" size="1.27" layer="91">thermistor</text>
 <text x="379.73" y="116.84" size="1.27" layer="91">wheatstone bridge</text>
 <text x="379.73" y="63.5" size="1.27" layer="91">single strain gauge</text>
 <text x="384.81" y="12.7" size="1.27" layer="91">thermocouple</text>
-<text x="384.81" y="-12.7" size="1.27" layer="91">thermistor</text>
 <text x="384.81" y="-30.48" size="1.27" layer="91">wheatstone bridge</text>
 <text x="384.81" y="-83.82" size="1.27" layer="91">single strain gauge</text>
 </plain>
@@ -3236,15 +3140,13 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </instance>
 <instance part="J1" gate="G$1" x="177.8" y="157.48" smashed="yes"/>
 <instance part="J2" gate="G$1" x="177.8" y="152.4" smashed="yes"/>
-<instance part="J3" gate="G$1" x="177.8" y="132.08" smashed="yes"/>
-<instance part="J4" gate="G$1" x="177.8" y="127" smashed="yes"/>
 <instance part="J5" gate="G$1" x="177.8" y="114.3" smashed="yes"/>
 <instance part="J6" gate="G$1" x="177.8" y="109.22" smashed="yes"/>
 <instance part="J7" gate="G$1" x="177.8" y="60.96" smashed="yes"/>
 <instance part="J8" gate="G$1" x="177.8" y="53.34" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="2.54" y="66.04" smashed="yes">
-<attribute name="VALUE" x="2.54" y="5.08" size="1.778" layer="96"/>
-<attribute name="NAME" x="2.54" y="66.802" size="1.778" layer="95"/>
+<instance part="U$4" gate="G$1" x="0" y="66.04" smashed="yes">
+<attribute name="VALUE" x="0" y="5.08" size="1.778" layer="96"/>
+<attribute name="NAME" x="0" y="66.802" size="1.778" layer="95"/>
 </instance>
 <instance part="GND15" gate="1" x="17.78" y="12.7" smashed="yes" rot="R90">
 <attribute name="VALUE" x="20.32" y="10.16" size="1.778" layer="96" rot="R90"/>
@@ -3259,30 +3161,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </instance>
 <instance part="GND20" gate="1" x="-10.16" y="25.4" smashed="yes">
 <attribute name="VALUE" x="-12.7" y="22.86" size="1.778" layer="96"/>
-</instance>
-<instance part="U$7" gate="G$1" x="106.68" y="86.36" smashed="yes">
-<attribute name="NAME" x="109.22" y="78.74" size="1.778" layer="95"/>
-<attribute name="VALUE" x="109.22" y="76.2" size="1.778" layer="96"/>
-</instance>
-<instance part="C15" gate="G$1" x="93.98" y="88.9" smashed="yes">
-<attribute name="NAME" x="95.504" y="91.821" size="1.778" layer="95"/>
-<attribute name="VALUE" x="95.504" y="86.741" size="1.778" layer="96"/>
-</instance>
-<instance part="C16" gate="G$1" x="119.38" y="88.9" smashed="yes">
-<attribute name="NAME" x="120.904" y="91.821" size="1.778" layer="95"/>
-<attribute name="VALUE" x="120.904" y="86.741" size="1.778" layer="96"/>
-</instance>
-<instance part="GND21" gate="1" x="106.68" y="76.2" smashed="yes">
-<attribute name="VALUE" x="104.14" y="73.66" size="1.778" layer="96"/>
-</instance>
-<instance part="GND22" gate="1" x="127" y="93.98" smashed="yes" rot="R90">
-<attribute name="VALUE" x="129.54" y="91.44" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+12" gate="1" x="88.9" y="96.52" smashed="yes">
-<attribute name="VALUE" x="91.44" y="99.06" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="+3V1" gate="G$1" x="119.38" y="78.74" smashed="yes" rot="R180">
-<attribute name="VALUE" x="121.92" y="83.82" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="+3V2" gate="G$1" x="81.28" y="-63.5" smashed="yes">
 <attribute name="VALUE" x="78.74" y="-68.58" size="1.778" layer="96" rot="R90"/>
@@ -3304,16 +3182,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </instance>
 <instance part="+3V8" gate="G$1" x="-10.16" y="38.1" smashed="yes">
 <attribute name="VALUE" x="-12.7" y="33.02" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R19" gate="G$1" x="193.04" y="132.08" smashed="yes">
-<attribute name="NAME" x="189.23" y="133.5786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="189.23" y="128.778" size="1.778" layer="96"/>
-</instance>
-<instance part="GND23" gate="1" x="236.22" y="121.92" smashed="yes">
-<attribute name="VALUE" x="233.68" y="119.38" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V9" gate="G$1" x="243.84" y="132.08" smashed="yes" rot="R270">
-<attribute name="VALUE" x="238.76" y="134.62" size="1.778" layer="96"/>
 </instance>
 <instance part="U1" gate="A" x="213.36" y="157.48" smashed="yes">
 <attribute name="NAME" x="223.8756" y="164.0586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
@@ -3347,14 +3215,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </instance>
 <instance part="GND25" gate="1" x="205.74" y="139.7" smashed="yes" rot="R270">
 <attribute name="VALUE" x="203.2" y="142.24" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="C20" gate="G$1" x="220.98" y="127" smashed="yes">
-<attribute name="NAME" x="222.504" y="129.921" size="1.778" layer="95"/>
-<attribute name="VALUE" x="222.504" y="124.841" size="1.778" layer="96"/>
-</instance>
-<instance part="C21" gate="G$1" x="228.6" y="127" smashed="yes">
-<attribute name="NAME" x="230.124" y="129.921" size="1.778" layer="95"/>
-<attribute name="VALUE" x="230.124" y="124.841" size="1.778" layer="96"/>
 </instance>
 <instance part="GND26" gate="1" x="238.76" y="99.06" smashed="yes" rot="R270">
 <attribute name="VALUE" x="241.3" y="104.14" size="1.778" layer="96" rot="R270"/>
@@ -3751,22 +3611,10 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </instance>
 <instance part="J17" gate="G$1" x="379.73" y="157.48" smashed="yes"/>
 <instance part="J18" gate="G$1" x="379.73" y="152.4" smashed="yes"/>
-<instance part="J19" gate="G$1" x="379.73" y="132.08" smashed="yes"/>
-<instance part="J20" gate="G$1" x="379.73" y="127" smashed="yes"/>
 <instance part="J21" gate="G$1" x="379.73" y="114.3" smashed="yes"/>
 <instance part="J22" gate="G$1" x="379.73" y="109.22" smashed="yes"/>
 <instance part="J23" gate="G$1" x="379.73" y="60.96" smashed="yes"/>
 <instance part="J24" gate="G$1" x="379.73" y="53.34" smashed="yes"/>
-<instance part="R59" gate="G$1" x="394.97" y="132.08" smashed="yes">
-<attribute name="NAME" x="391.16" y="133.5786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="391.16" y="128.778" size="1.778" layer="96"/>
-</instance>
-<instance part="GND49" gate="1" x="438.15" y="121.92" smashed="yes">
-<attribute name="VALUE" x="435.61" y="119.38" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V23" gate="G$1" x="445.77" y="132.08" smashed="yes" rot="R270">
-<attribute name="VALUE" x="440.69" y="134.62" size="1.778" layer="96"/>
-</instance>
 <instance part="U3" gate="A" x="415.29" y="157.48" smashed="yes">
 <attribute name="NAME" x="425.8056" y="164.0586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="425.1706" y="161.5186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
@@ -3799,14 +3647,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </instance>
 <instance part="GND51" gate="1" x="407.67" y="139.7" smashed="yes" rot="R270">
 <attribute name="VALUE" x="405.13" y="142.24" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="C50" gate="G$1" x="422.91" y="127" smashed="yes">
-<attribute name="NAME" x="424.434" y="129.921" size="1.778" layer="95"/>
-<attribute name="VALUE" x="424.434" y="124.841" size="1.778" layer="96"/>
-</instance>
-<instance part="C51" gate="G$1" x="430.53" y="127" smashed="yes">
-<attribute name="NAME" x="432.054" y="129.921" size="1.778" layer="95"/>
-<attribute name="VALUE" x="432.054" y="124.841" size="1.778" layer="96"/>
 </instance>
 <instance part="GND52" gate="1" x="440.69" y="99.06" smashed="yes" rot="R270">
 <attribute name="VALUE" x="443.23" y="104.14" size="1.778" layer="96" rot="R270"/>
@@ -3987,22 +3827,10 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </instance>
 <instance part="J25" gate="G$1" x="384.81" y="10.16" smashed="yes"/>
 <instance part="J26" gate="G$1" x="384.81" y="5.08" smashed="yes"/>
-<instance part="J27" gate="G$1" x="384.81" y="-15.24" smashed="yes"/>
-<instance part="J28" gate="G$1" x="384.81" y="-20.32" smashed="yes"/>
 <instance part="J29" gate="G$1" x="384.81" y="-33.02" smashed="yes"/>
 <instance part="J30" gate="G$1" x="384.81" y="-38.1" smashed="yes"/>
 <instance part="J31" gate="G$1" x="384.81" y="-86.36" smashed="yes"/>
 <instance part="J32" gate="G$1" x="384.81" y="-93.98" smashed="yes"/>
-<instance part="R79" gate="G$1" x="400.05" y="-15.24" smashed="yes">
-<attribute name="NAME" x="396.24" y="-13.7414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="396.24" y="-18.542" size="1.778" layer="96"/>
-</instance>
-<instance part="GND62" gate="1" x="443.23" y="-25.4" smashed="yes">
-<attribute name="VALUE" x="440.69" y="-27.94" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V30" gate="G$1" x="450.85" y="-15.24" smashed="yes" rot="R270">
-<attribute name="VALUE" x="445.77" y="-12.7" size="1.778" layer="96"/>
-</instance>
 <instance part="U4" gate="A" x="420.37" y="10.16" smashed="yes">
 <attribute name="NAME" x="430.8856" y="16.7386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="430.2506" y="14.1986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
@@ -4035,14 +3863,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </instance>
 <instance part="GND64" gate="1" x="412.75" y="-7.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="410.21" y="-5.08" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="C65" gate="G$1" x="427.99" y="-20.32" smashed="yes">
-<attribute name="NAME" x="429.514" y="-17.399" size="1.778" layer="95"/>
-<attribute name="VALUE" x="429.514" y="-22.479" size="1.778" layer="96"/>
-</instance>
-<instance part="C66" gate="G$1" x="435.61" y="-20.32" smashed="yes">
-<attribute name="NAME" x="437.134" y="-17.399" size="1.778" layer="95"/>
-<attribute name="VALUE" x="437.134" y="-22.479" size="1.778" layer="96"/>
 </instance>
 <instance part="GND65" gate="1" x="445.77" y="-48.26" smashed="yes" rot="R270">
 <attribute name="VALUE" x="448.31" y="-43.18" size="1.778" layer="96" rot="R270"/>
@@ -4221,17 +4041,21 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <instance part="+3V36" gate="G$1" x="513.08" y="-130.81" smashed="yes" rot="R180">
 <attribute name="VALUE" x="515.62" y="-125.73" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="J33" gate="G$1" x="279.4" y="162.56" smashed="yes"/>
 <instance part="J34" gate="G$1" x="279.4" y="157.48" smashed="yes"/>
 <instance part="J35" gate="G$1" x="279.4" y="152.4" smashed="yes"/>
-<instance part="J36" gate="G$1" x="481.33" y="162.56" smashed="yes"/>
 <instance part="J37" gate="G$1" x="481.33" y="157.48" smashed="yes"/>
 <instance part="J38" gate="G$1" x="481.33" y="152.4" smashed="yes"/>
-<instance part="J39" gate="G$1" x="486.41" y="15.24" smashed="yes"/>
 <instance part="J40" gate="G$1" x="486.41" y="10.16" smashed="yes"/>
 <instance part="J41" gate="G$1" x="486.41" y="5.08" smashed="yes"/>
 <instance part="J42" gate="G$1" x="295.91" y="-6.35" smashed="yes"/>
 <instance part="J43" gate="G$1" x="295.91" y="-1.27" smashed="yes"/>
+<instance part="+3V1" gate="G$1" x="121.92" y="53.34" smashed="yes" rot="R270">
+<attribute name="VALUE" x="114.3" y="53.34" size="1.778" layer="96"/>
+</instance>
+<instance part="R39" gate="G$1" x="40.64" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.1414" y="46.99" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="43.942" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4289,7 +4113,7 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="12.7" y1="10.16" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="10.16" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -4337,7 +4161,7 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <segment>
 <pinref part="U$4" gate="G$1" pin="2"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="15.24" y1="12.7" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
@@ -4346,29 +4170,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="-10.16" y1="27.94" x2="-15.24" y2="27.94" width="0.1524" layer="91"/>
 <junction x="-10.16" y="27.94"/>
-</segment>
-<segment>
-<pinref part="U$7" gate="G$1" pin="GND"/>
-<pinref part="GND21" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C15" gate="G$1" pin="1"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="93.98" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
-<junction x="119.38" y="93.98"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="P$2"/>
-<pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="236.22" y1="124.46" x2="228.6" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="124.46" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="124.46" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
-<junction x="220.98" y="124.46"/>
-<pinref part="C21" gate="G$1" pin="2"/>
-<junction x="228.6" y="124.46"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="GND"/>
@@ -4505,17 +4306,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <pinref part="GND45" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J20" gate="G$1" pin="P$2"/>
-<pinref part="GND49" gate="1" pin="GND"/>
-<wire x1="438.15" y1="124.46" x2="430.53" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C50" gate="G$1" pin="2"/>
-<wire x1="430.53" y1="124.46" x2="422.91" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="422.91" y1="124.46" x2="384.81" y2="124.46" width="0.1524" layer="91"/>
-<junction x="422.91" y="124.46"/>
-<pinref part="C51" gate="G$1" pin="2"/>
-<junction x="430.53" y="124.46"/>
-</segment>
-<segment>
 <pinref part="U3" gate="A" pin="GND"/>
 <pinref part="GND50" gate="1" pin="GND"/>
 </segment>
@@ -4581,17 +4371,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <segment>
 <pinref part="U$13" gate="G$1" pin="VSS"/>
 <pinref part="GND58" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J28" gate="G$1" pin="P$2"/>
-<pinref part="GND62" gate="1" pin="GND"/>
-<wire x1="443.23" y1="-22.86" x2="435.61" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="C65" gate="G$1" pin="2"/>
-<wire x1="435.61" y1="-22.86" x2="427.99" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="427.99" y1="-22.86" x2="389.89" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="427.99" y="-22.86"/>
-<pinref part="C66" gate="G$1" pin="2"/>
-<junction x="435.61" y="-22.86"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="GND"/>
@@ -4664,11 +4443,14 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <net name="CANH" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="7"/>
-<wire x1="48.26" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
-<label x="45.72" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="40.64" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R39" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="50.8" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="45.72" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="12.7" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
 <label x="22.86" y="60.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="21"/>
 </segment>
@@ -4676,11 +4458,14 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <net name="CANL" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="6"/>
-<wire x1="48.26" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
-<label x="45.72" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="48.26" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
+<label x="40.64" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R39" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="55.88" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="12.7" y1="58.42" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="58.42" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
 <label x="22.86" y="58.42" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="20"/>
 </segment>
@@ -4698,7 +4483,7 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <segment>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <pinref part="U$4" gate="G$1" pin="22"/>
-<wire x1="22.86" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="63.5" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4719,7 +4504,7 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </net>
 <net name="WS1_IN" class="0">
 <segment>
-<wire x1="12.7" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
 <label x="22.86" y="55.88" size="1.778" layer="95"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
 <pinref part="U$4" gate="G$1" pin="19"/>
@@ -4727,7 +4512,7 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </net>
 <net name="WS1_OUT" class="0">
 <segment>
-<wire x1="12.7" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
 <label x="15.24" y="53.34" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="18"/>
 </segment>
@@ -4741,7 +4526,7 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </net>
 <net name="WS2_IN" class="0">
 <segment>
-<wire x1="12.7" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
 <label x="22.86" y="50.8" size="1.778" layer="95"/>
 <pinref part="P+3" gate="1" pin="+12V"/>
 <pinref part="U$4" gate="G$1" pin="17"/>
@@ -4749,7 +4534,7 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </net>
 <net name="WS2_OUT" class="0">
 <segment>
-<wire x1="12.7" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
 <label x="15.24" y="48.26" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="16"/>
 </segment>
@@ -4819,7 +4604,7 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <label x="13.97" y="-48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="12.7" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
 <label x="15.24" y="43.18" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="14"/>
 </segment>
@@ -4910,14 +4695,14 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <label x="12.7" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="12.7" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
 <label x="15.24" y="40.64" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="13"/>
 </segment>
 </net>
 <net name="SG2_V+" class="0">
 <segment>
-<wire x1="12.7" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
 <label x="15.24" y="38.1" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="12"/>
 </segment>
@@ -4929,7 +4714,7 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </net>
 <net name="SG2_V-" class="0">
 <segment>
-<wire x1="12.7" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
 <label x="15.24" y="35.56" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="11"/>
 </segment>
@@ -5037,56 +4822,56 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </net>
 <net name="SNR4-2" class="0">
 <segment>
-<wire x1="12.7" y1="33.02" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="33.02" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
 <label x="15.24" y="33.02" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="SNR4-1\" class="0">
 <segment>
-<wire x1="12.7" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
 <label x="15.24" y="30.48" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="SNR3-2" class="0">
 <segment>
-<wire x1="12.7" y1="27.94" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="27.94" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
 <label x="15.24" y="27.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="SNR3-1" class="0">
 <segment>
-<wire x1="12.7" y1="25.4" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="25.4" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
 <label x="15.24" y="25.4" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="SNR2-2" class="0">
 <segment>
-<wire x1="12.7" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 <label x="15.24" y="22.86" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="SNR2-1" class="0">
 <segment>
-<wire x1="12.7" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
 <label x="15.24" y="20.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="SNR1-2" class="0">
 <segment>
-<wire x1="12.7" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
 <label x="15.24" y="17.78" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="SNR1-1" class="0">
 <segment>
-<wire x1="12.7" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
 <label x="15.24" y="15.24" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="3"/>
 </segment>
@@ -5118,28 +4903,15 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <wire x1="73.66" y1="50.8" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
 <junction x="78.74" y="50.8"/>
 </segment>
-<segment>
-<pinref part="C15" gate="G$1" pin="2"/>
-<pinref part="U$7" gate="G$1" pin="IN"/>
-<wire x1="93.98" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="86.36" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="86.36" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
-<junction x="93.98" y="86.36"/>
-<pinref part="P+12" gate="1" pin="+5V"/>
-</segment>
 </net>
 <net name="SRN1-2" class="0">
 <segment>
 <wire x1="165.1" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
 <label x="165.1" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="P$1"/>
-<pinref part="J3" gate="G$1" pin="P$1"/>
 <wire x1="170.18" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="129.54" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="111.76" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
 <junction x="170.18" y="154.94"/>
-<wire x1="170.18" y1="129.54" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
-<junction x="170.18" y="129.54"/>
 <pinref part="J5" gate="G$1" pin="P$1"/>
 <wire x1="170.18" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="J7" gate="G$1" pin="P$1"/>
@@ -5153,15 +4925,11 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <wire x1="165.1" y1="149.86" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
 <label x="165.1" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="P$1"/>
-<pinref part="J4" gate="G$1" pin="P$1"/>
 <wire x1="175.26" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="149.86" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="149.86" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
 <junction x="175.26" y="149.86"/>
 <pinref part="J6" gate="G$1" pin="P$1"/>
-<wire x1="175.26" y1="124.46" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
-<junction x="175.26" y="124.46"/>
 <pinref part="J8" gate="G$1" pin="P$1"/>
 <wire x1="175.26" y1="106.68" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
@@ -5181,14 +4949,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </segment>
 </net>
 <net name="+3V3" class="0">
-<segment>
-<pinref part="C16" gate="G$1" pin="2"/>
-<pinref part="U$7" gate="G$1" pin="OUT"/>
-<wire x1="119.38" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="86.36" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
-<junction x="119.38" y="86.36"/>
-<pinref part="+3V1" gate="G$1" pin="+3V3"/>
-</segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="-67.31" x2="81.28" y2="-66.04" width="0.1524" layer="91"/>
@@ -5234,7 +4994,7 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <junction x="99.06" y="10.16"/>
 </segment>
 <segment>
-<wire x1="12.7" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="15"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 </segment>
@@ -5245,17 +5005,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <wire x1="-10.16" y1="35.56" x2="-5.08" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-10.16" y="35.56"/>
-</segment>
-<segment>
-<pinref part="R19" gate="G$1" pin="2"/>
-<pinref part="+3V9" gate="G$1" pin="+3V3"/>
-<wire x1="241.3" y1="132.08" x2="228.6" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="132.08" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="132.08" x2="198.12" y2="132.08" width="0.1524" layer="91"/>
-<junction x="220.98" y="132.08"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<junction x="228.6" y="132.08"/>
 </segment>
 <segment>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
@@ -5350,17 +5099,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <pinref part="+3V22" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="R59" gate="G$1" pin="2"/>
-<pinref part="+3V23" gate="G$1" pin="+3V3"/>
-<wire x1="443.23" y1="132.08" x2="430.53" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="C50" gate="G$1" pin="1"/>
-<wire x1="430.53" y1="132.08" x2="422.91" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="422.91" y1="132.08" x2="400.05" y2="132.08" width="0.1524" layer="91"/>
-<junction x="422.91" y="132.08"/>
-<pinref part="C51" gate="G$1" pin="1"/>
-<junction x="430.53" y="132.08"/>
-</segment>
-<segment>
 <pinref part="+3V24" gate="G$1" pin="+3V3"/>
 <wire x1="402.59" y1="147.32" x2="410.21" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C48" gate="G$1" pin="1"/>
@@ -5405,17 +5143,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <pinref part="C61" gate="G$1" pin="1"/>
 <junction x="508" y="23.114"/>
 <pinref part="+3V29" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R79" gate="G$1" pin="2"/>
-<pinref part="+3V30" gate="G$1" pin="+3V3"/>
-<wire x1="448.31" y1="-15.24" x2="435.61" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="C65" gate="G$1" pin="1"/>
-<wire x1="435.61" y1="-15.24" x2="427.99" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="427.99" y1="-15.24" x2="405.13" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="427.99" y="-15.24"/>
-<pinref part="C66" gate="G$1" pin="1"/>
-<junction x="435.61" y="-15.24"/>
 </segment>
 <segment>
 <pinref part="+3V31" gate="G$1" pin="+3V3"/>
@@ -5463,21 +5190,10 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <junction x="513.08" y="-124.206"/>
 <pinref part="+3V36" gate="G$1" pin="+3V3"/>
 </segment>
-</net>
-<net name="SNR1-THM" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="P$2"/>
-<wire x1="182.88" y1="129.54" x2="187.96" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="129.54" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
-<junction x="187.96" y="129.54"/>
-<label x="193.04" y="129.54" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="279.4" y1="160.02" x2="276.86" y2="160.02" width="0.1524" layer="91"/>
-<label x="276.86" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J33" gate="G$1" pin="P$1"/>
+<pinref part="U$1" gate="G$1" pin="3.3V"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<wire x1="119.38" y1="53.34" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -5814,13 +5530,10 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 </net>
 <net name="SNR1" class="0">
 <segment>
-<wire x1="287.02" y1="160.02" x2="287.02" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="154.94" x2="294.64" y2="154.94" width="0.1524" layer="91"/>
 <junction x="287.02" y="154.94"/>
 <label x="294.64" y="154.94" size="1.27" layer="95" xref="yes"/>
 <wire x1="287.02" y1="149.86" x2="287.02" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="J33" gate="G$1" pin="P$2"/>
-<wire x1="284.48" y1="160.02" x2="287.02" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="J34" gate="G$1" pin="P$2"/>
 <wire x1="284.48" y1="154.94" x2="287.02" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="J35" gate="G$1" pin="P$2"/>
@@ -5863,13 +5576,10 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <label x="116.84" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="488.95" y1="160.02" x2="488.95" y2="154.94" width="0.1524" layer="91"/>
 <junction x="488.95" y="154.94"/>
 <label x="496.57" y="154.94" size="1.27" layer="95" xref="yes"/>
 <wire x1="488.95" y1="154.94" x2="496.57" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="488.95" y1="149.86" x2="488.95" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="J36" gate="G$1" pin="P$2"/>
-<wire x1="486.41" y1="160.02" x2="488.95" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="J37" gate="G$1" pin="P$2"/>
 <wire x1="486.41" y1="154.94" x2="488.95" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="J38" gate="G$1" pin="P$2"/>
@@ -5883,15 +5593,12 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <label x="116.84" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="494.03" y1="12.7" x2="494.03" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="494.03" y1="7.62" x2="501.65" y2="7.62" width="0.1524" layer="91"/>
 <junction x="494.03" y="7.62"/>
 <label x="501.65" y="7.62" size="1.27" layer="95" xref="yes"/>
 <wire x1="494.03" y1="2.54" x2="494.03" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="J40" gate="G$1" pin="P$2"/>
 <wire x1="491.49" y1="7.62" x2="494.03" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="J39" gate="G$1" pin="P$2"/>
-<wire x1="491.49" y1="12.7" x2="494.03" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="J41" gate="G$1" pin="P$2"/>
 <wire x1="491.49" y1="2.54" x2="494.03" y2="2.54" width="0.1524" layer="91"/>
 </segment>
@@ -6333,13 +6040,9 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <wire x1="367.03" y1="154.94" x2="372.11" y2="154.94" width="0.1524" layer="91"/>
 <label x="367.03" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J17" gate="G$1" pin="P$1"/>
-<pinref part="J19" gate="G$1" pin="P$1"/>
 <wire x1="372.11" y1="154.94" x2="379.73" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="379.73" y1="129.54" x2="372.11" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="372.11" y1="129.54" x2="372.11" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="372.11" y1="111.76" x2="372.11" y2="154.94" width="0.1524" layer="91"/>
 <junction x="372.11" y="154.94"/>
-<wire x1="372.11" y1="129.54" x2="372.11" y2="111.76" width="0.1524" layer="91"/>
-<junction x="372.11" y="129.54"/>
 <pinref part="J21" gate="G$1" pin="P$1"/>
 <wire x1="372.11" y1="111.76" x2="379.73" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="J23" gate="G$1" pin="P$1"/>
@@ -6353,35 +6056,15 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <wire x1="367.03" y1="149.86" x2="377.19" y2="149.86" width="0.1524" layer="91"/>
 <label x="367.03" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J18" gate="G$1" pin="P$1"/>
-<pinref part="J20" gate="G$1" pin="P$1"/>
 <wire x1="377.19" y1="149.86" x2="379.73" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="377.19" y1="149.86" x2="377.19" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="377.19" y1="124.46" x2="379.73" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="377.19" y1="149.86" x2="377.19" y2="106.68" width="0.1524" layer="91"/>
 <junction x="377.19" y="149.86"/>
 <pinref part="J22" gate="G$1" pin="P$1"/>
-<wire x1="377.19" y1="124.46" x2="377.19" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="377.19" y1="106.68" x2="379.73" y2="106.68" width="0.1524" layer="91"/>
-<junction x="377.19" y="124.46"/>
 <pinref part="J24" gate="G$1" pin="P$1"/>
 <wire x1="377.19" y1="106.68" x2="377.19" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="377.19" y1="50.8" x2="379.73" y2="50.8" width="0.1524" layer="91"/>
 <junction x="377.19" y="106.68"/>
-</segment>
-</net>
-<net name="SNR3-THM" class="0">
-<segment>
-<pinref part="J19" gate="G$1" pin="P$2"/>
-<wire x1="384.81" y1="129.54" x2="389.89" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R59" gate="G$1" pin="1"/>
-<wire x1="389.89" y1="129.54" x2="389.89" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="389.89" y1="129.54" x2="394.97" y2="129.54" width="0.1524" layer="91"/>
-<junction x="389.89" y="129.54"/>
-<label x="394.97" y="129.54" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="481.33" y1="160.02" x2="478.79" y2="160.02" width="0.1524" layer="91"/>
-<label x="478.79" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J36" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -6671,13 +6354,9 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <wire x1="372.11" y1="7.62" x2="377.19" y2="7.62" width="0.1524" layer="91"/>
 <label x="372.11" y="7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J25" gate="G$1" pin="P$1"/>
-<pinref part="J27" gate="G$1" pin="P$1"/>
 <wire x1="377.19" y1="7.62" x2="384.81" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="384.81" y1="-17.78" x2="377.19" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="377.19" y1="-17.78" x2="377.19" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="377.19" y1="-35.56" x2="377.19" y2="7.62" width="0.1524" layer="91"/>
 <junction x="377.19" y="7.62"/>
-<wire x1="377.19" y1="-17.78" x2="377.19" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="377.19" y="-17.78"/>
 <pinref part="J29" gate="G$1" pin="P$1"/>
 <wire x1="377.19" y1="-35.56" x2="384.81" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="J31" gate="G$1" pin="P$1"/>
@@ -6691,15 +6370,11 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <wire x1="372.11" y1="2.54" x2="382.27" y2="2.54" width="0.1524" layer="91"/>
 <label x="372.11" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J26" gate="G$1" pin="P$1"/>
-<pinref part="J28" gate="G$1" pin="P$1"/>
 <wire x1="382.27" y1="2.54" x2="384.81" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="382.27" y1="2.54" x2="382.27" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="382.27" y1="-22.86" x2="384.81" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="382.27" y1="2.54" x2="382.27" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="382.27" y="2.54"/>
 <pinref part="J30" gate="G$1" pin="P$1"/>
-<wire x1="382.27" y1="-22.86" x2="382.27" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="382.27" y1="-40.64" x2="384.81" y2="-40.64" width="0.1524" layer="91"/>
-<junction x="382.27" y="-22.86"/>
 <pinref part="J32" gate="G$1" pin="P$1"/>
 <wire x1="382.27" y1="-40.64" x2="382.27" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="382.27" y1="-96.52" x2="384.81" y2="-96.52" width="0.1524" layer="91"/>
@@ -6946,22 +6621,6 @@ Use with 0.47µF input capacitor and 33µF output capacitor.</description>
 <pinref part="TM10" gate="G$1" pin="A"/>
 <pinref part="R94" gate="G$1" pin="2"/>
 <wire x1="467.36" y1="-91.44" x2="463.55" y2="-91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SNR4-THM" class="0">
-<segment>
-<wire x1="486.41" y1="12.7" x2="483.87" y2="12.7" width="0.1524" layer="91"/>
-<label x="483.87" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J39" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
-<pinref part="J27" gate="G$1" pin="P$2"/>
-<wire x1="389.89" y1="-17.78" x2="394.97" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="R79" gate="G$1" pin="1"/>
-<wire x1="394.97" y1="-17.78" x2="394.97" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="394.97" y1="-17.78" x2="400.05" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="394.97" y="-17.78"/>
-<label x="400.05" y="-17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SNR4-WB-VOUT" class="0">
