@@ -788,7 +788,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-53.4162" y="67.8688" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-53.34" y="62.865" size="1.27" layer="27"/>
 </element>
-<element name="CAN_TRANSCEIVER_3.1" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="-38.1" y="55.88" smashed="yes">
+<element name="CAN_TRANSCEIVER_3.2" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="-38.1" y="55.88" smashed="yes">
 <attribute name="NAME" x="-40.64" y="55.88" size="0.6096" layer="25" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="-35.56" y="55.88" size="0.6096" layer="27" rot="R270" align="bottom-center"/>
 </element>
@@ -953,7 +953,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-18.923" y="80.899" size="0.3048" layer="27" align="bottom-center"/>
 </element>
 <element name="U$5" library="HyTechDevices" package="TEENSY_3.5_EXT" value="TEENSY_3.5_EXT" x="-93.98" y="1.27" smashed="yes"/>
-<element name="CAN_TRANSCEIVER_3.2" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="-91.44" y="-5.08" smashed="yes">
+<element name="CAN_TRANSCEIVER_3.5" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="-91.44" y="-5.08" smashed="yes">
 <attribute name="NAME" x="-93.98" y="-5.08" size="0.6096" layer="25" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="-88.9" y="-5.08" size="0.6096" layer="27" rot="R270" align="bottom-center"/>
 </element>
@@ -982,7 +982,7 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
-<contactref element="CAN_TRANSCEIVER_3.1" pad="2"/>
+<contactref element="CAN_TRANSCEIVER_3.2" pad="2"/>
 <contactref element="U$4" pad="GND"/>
 <contactref element="STATUS" pad="C"/>
 <contactref element="U$1" pad="3"/>
@@ -997,13 +997,13 @@ design rules under a new name.</description>
 <contactref element="C4" pad="1"/>
 <contactref element="REG" pad="2"/>
 <contactref element="C3" pad="1"/>
-<contactref element="CAN_TRANSCEIVER_3.1" pad="8"/>
+<contactref element="CAN_TRANSCEIVER_3.2" pad="8"/>
 <contactref element="POWER" pad="P$1"/>
 <contactref element="MAIN" pad="P$3"/>
 <contactref element="D3" pad="A"/>
 <contactref element="U$3" pad="C2"/>
-<contactref element="CAN_TRANSCEIVER_3.2" pad="8"/>
-<contactref element="CAN_TRANSCEIVER_3.2" pad="2"/>
+<contactref element="CAN_TRANSCEIVER_3.5" pad="8"/>
+<contactref element="CAN_TRANSCEIVER_3.5" pad="2"/>
 <contactref element="C6" pad="1"/>
 <contactref element="C7" pad="1"/>
 <contactref element="STATUS1" pad="C"/>
@@ -1043,20 +1043,20 @@ design rules under a new name.</description>
 <signal name="CANH">
 <contactref element="CAN_TERM_JMP" pad="1"/>
 <contactref element="U$1" pad="2"/>
-<contactref element="CAN_TRANSCEIVER_3.1" pad="7"/>
-<contactref element="MAIN" pad="P$1"/>
 <contactref element="CAN_TRANSCEIVER_3.2" pad="7"/>
+<contactref element="MAIN" pad="P$1"/>
+<contactref element="CAN_TRANSCEIVER_3.5" pad="7"/>
 <wire x1="-52.07" y1="66.04" x2="-92.075" y2="-2.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.735" y1="58.48" x2="-52.07" y2="66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="-31.69" y1="55.88" x2="-38.735" y2="58.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.56" y1="79.01" x2="-31.69" y2="55.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANL">
-<contactref element="CAN_TRANSCEIVER_3.1" pad="6"/>
+<contactref element="CAN_TRANSCEIVER_3.2" pad="6"/>
 <contactref element="U$1" pad="1"/>
 <contactref element="R9" pad="1"/>
 <contactref element="MAIN" pad="P$2"/>
-<contactref element="CAN_TRANSCEIVER_3.2" pad="6"/>
+<contactref element="CAN_TRANSCEIVER_3.5" pad="6"/>
 <wire x1="-37.465" y1="58.48" x2="-90.805" y2="-2.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.19" y1="55.88" x2="-37.465" y2="58.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-48.015" y1="80.01" x2="-37.465" y2="58.48" width="0" layer="19" extent="1-1"/>
@@ -1085,7 +1085,7 @@ design rules under a new name.</description>
 <wire x1="-48.63" y1="83.82" x2="-16.51" y2="57.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
-<contactref element="CAN_TRANSCEIVER_3.1" pad="3"/>
+<contactref element="CAN_TRANSCEIVER_3.2" pad="3"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C1" pad="2"/>
 <contactref element="U$4" pad="VIN"/>
@@ -1094,7 +1094,7 @@ design rules under a new name.</description>
 <contactref element="POWERTAIL" pad="P$1"/>
 <contactref element="R6" pad="1"/>
 <contactref element="R5" pad="1"/>
-<contactref element="CAN_TRANSCEIVER_3.2" pad="3"/>
+<contactref element="CAN_TRANSCEIVER_3.5" pad="3"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="U$5" pad="VIN"/>
@@ -1113,12 +1113,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$15">
 <contactref element="U$4" pad="D4(CANRX)"/>
-<contactref element="CAN_TRANSCEIVER_3.1" pad="4"/>
+<contactref element="CAN_TRANSCEIVER_3.2" pad="4"/>
 <wire x1="-30.48" y1="22.86" x2="-36.195" y2="53.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="U$4" pad="D3(CANTX)"/>
-<contactref element="CAN_TRANSCEIVER_3.1" pad="1"/>
+<contactref element="CAN_TRANSCEIVER_3.2" pad="1"/>
 <wire x1="-30.48" y1="25.4" x2="-40.005" y2="53.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
@@ -1344,12 +1344,12 @@ design rules under a new name.</description>
 <wire x1="-15.24" y1="7.62" x2="-56.25" y2="83.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
-<contactref element="CAN_TRANSCEIVER_3.2" pad="4"/>
+<contactref element="CAN_TRANSCEIVER_3.5" pad="4"/>
 <contactref element="U$5" pad="D4(CANRX)"/>
 <wire x1="-92.71" y1="48.26" x2="-89.535" y2="-7.68" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
-<contactref element="CAN_TRANSCEIVER_3.2" pad="1"/>
+<contactref element="CAN_TRANSCEIVER_3.5" pad="1"/>
 <contactref element="U$5" pad="D3(CANTX)"/>
 <wire x1="-92.71" y1="50.8" x2="-93.345" y2="-7.68" width="0" layer="19" extent="1-1"/>
 </signal>

@@ -3309,7 +3309,7 @@ Source: http://www.molex.com</description>
 <part name="GND12" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="360"/>
 <part name="U$4" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
-<part name="CAN_TRANSCEIVER_3.1" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
+<part name="CAN_TRANSCEIVER_3.2" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND27" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
@@ -3383,7 +3383,7 @@ Source: http://www.molex.com</description>
 <part name="D5" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D8" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="U$5" library="HyTechDevices" deviceset="TEENSY_3.5_EXT" device=""/>
-<part name="CAN_TRANSCEIVER_3.2" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
+<part name="CAN_TRANSCEIVER_3.5" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND11" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="C6" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
@@ -3453,7 +3453,7 @@ Source: http://www.molex.com</description>
 <attribute name="VALUE" x="-179.07" y="50.038" size="1.778" layer="96"/>
 </instance>
 <instance part="U$4" gate="G$1" x="124.46" y="-48.26" smashed="yes"/>
-<instance part="CAN_TRANSCEIVER_3.1" gate="G$1" x="81.28" y="-12.7" smashed="yes" rot="R180">
+<instance part="CAN_TRANSCEIVER_3.2" gate="G$1" x="81.28" y="-12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="85.725" y="-6.985" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND27" gate="1" x="58.42" y="-25.4" smashed="yes">
@@ -3741,7 +3741,7 @@ Source: http://www.molex.com</description>
 <attribute name="VALUE" x="135.89" y="24.3586" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U$5" gate="G$1" x="124.46" y="-124.46" smashed="yes"/>
-<instance part="CAN_TRANSCEIVER_3.2" gate="G$1" x="81.28" y="-53.34" smashed="yes" rot="R180">
+<instance part="CAN_TRANSCEIVER_3.5" gate="G$1" x="81.28" y="-53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="85.725" y="-47.625" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND11" gate="1" x="58.42" y="-66.04" smashed="yes">
@@ -3812,7 +3812,7 @@ Source: http://www.molex.com</description>
 <wire x1="71.12" y1="-33.02" x2="71.12" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-35.56" x2="78.74" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="78.74" y="-35.56"/>
-<pinref part="CAN_TRANSCEIVER_3.1" gate="G$1" pin="2"/>
+<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="-17.78" x2="86.36" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-17.78" x2="86.36" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-35.56" x2="78.74" y2="-35.56" width="0.1524" layer="91"/>
@@ -3884,7 +3884,7 @@ Source: http://www.molex.com</description>
 <wire x1="30.48" y1="35.56" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CAN_TRANSCEIVER_3.1" gate="G$1" pin="8"/>
+<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="8"/>
 <wire x1="63.5" y1="-20.32" x2="58.42" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 <wire x1="58.42" y1="-20.32" x2="58.42" y2="-22.86" width="0.1524" layer="91"/>
@@ -3910,7 +3910,7 @@ Source: http://www.molex.com</description>
 <segment>
 <wire x1="63.5" y1="-60.96" x2="58.42" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-60.96" x2="58.42" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="8"/>
+<pinref part="CAN_TRANSCEIVER_3.5" gate="G$1" pin="8"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -3922,7 +3922,7 @@ Source: http://www.molex.com</description>
 <wire x1="83.82" y1="-58.42" x2="86.36" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-58.42" x2="86.36" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-76.2" x2="78.74" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="2"/>
+<pinref part="CAN_TRANSCEIVER_3.5" gate="G$1" pin="2"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -3949,7 +3949,7 @@ Source: http://www.molex.com</description>
 <wire x1="48.26" y1="-20.32" x2="48.26" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="-17.78" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
 <label x="48.26" y="-17.78" size="1.778" layer="95"/>
-<pinref part="CAN_TRANSCEIVER_3.1" gate="G$1" pin="7"/>
+<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="124.46" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
@@ -3958,13 +3958,13 @@ Source: http://www.molex.com</description>
 </segment>
 <segment>
 <wire x1="58.42" y1="-58.42" x2="63.5" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="7"/>
+<pinref part="CAN_TRANSCEIVER_3.5" gate="G$1" pin="7"/>
 <label x="58.42" y="-58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CANL" class="0">
 <segment>
-<pinref part="CAN_TRANSCEIVER_3.1" gate="G$1" pin="6"/>
+<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="6"/>
 <wire x1="63.5" y1="-15.24" x2="43.18" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="-15.24" x2="43.18" y2="-20.32" width="0.1524" layer="91"/>
@@ -3982,7 +3982,7 @@ Source: http://www.molex.com</description>
 </segment>
 <segment>
 <wire x1="63.5" y1="-55.88" x2="58.42" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="6"/>
+<pinref part="CAN_TRANSCEIVER_3.5" gate="G$1" pin="6"/>
 <label x="58.42" y="-55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -4032,7 +4032,7 @@ Source: http://www.molex.com</description>
 <segment>
 <wire x1="91.44" y1="-15.24" x2="88.9" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-15.24" x2="83.82" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="CAN_TRANSCEIVER_3.1" gate="G$1" pin="3"/>
+<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="3"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="-25.4" x2="78.74" y2="-25.4" width="0.1524" layer="91"/>
@@ -4079,7 +4079,7 @@ Source: http://www.molex.com</description>
 <junction x="78.74" y="-66.04"/>
 <wire x1="88.9" y1="-66.04" x2="88.9" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="88.9" y="-55.88"/>
-<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="3"/>
+<pinref part="CAN_TRANSCEIVER_3.5" gate="G$1" pin="3"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -4095,7 +4095,7 @@ Source: http://www.molex.com</description>
 <wire x1="99.06" y1="-12.7" x2="99.06" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-22.86" x2="121.92" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="D4(CANRX)"/>
-<pinref part="CAN_TRANSCEIVER_3.1" gate="G$1" pin="4"/>
+<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="4"/>
 <wire x1="83.82" y1="-12.7" x2="99.06" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4103,7 +4103,7 @@ Source: http://www.molex.com</description>
 <segment>
 <wire x1="121.92" y1="-20.32" x2="83.82" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="D3(CANTX)"/>
-<pinref part="CAN_TRANSCEIVER_3.1" gate="G$1" pin="1"/>
+<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -4528,7 +4528,7 @@ Source: http://www.molex.com</description>
 <wire x1="99.06" y1="-53.34" x2="99.06" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-68.58" x2="121.92" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-53.34" x2="99.06" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="4"/>
+<pinref part="CAN_TRANSCEIVER_3.5" gate="G$1" pin="4"/>
 <pinref part="U$5" gate="G$1" pin="D4(CANRX)"/>
 </segment>
 </net>
@@ -4537,7 +4537,7 @@ Source: http://www.molex.com</description>
 <wire x1="121.92" y1="-66.04" x2="101.6" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-66.04" x2="101.6" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-60.96" x2="83.82" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="1"/>
+<pinref part="CAN_TRANSCEIVER_3.5" gate="G$1" pin="1"/>
 <pinref part="U$5" gate="G$1" pin="D3(CANTX)"/>
 </segment>
 </net>
