@@ -2781,6 +2781,7 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$3" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$4" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="JP2" library="HyTechDevices" deviceset="M02" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3209,16 +3210,16 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <attribute name="NAME" x="330.835" y="60.325" size="1.778" layer="95"/>
 <attribute name="VALUE" x="330.835" y="57.15" size="1.778" layer="96"/>
 </instance>
-<instance part="C15" gate="G$1" x="303.53" y="45.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="306.451" y="44.196" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="301.371" y="44.196" size="1.778" layer="96" rot="R270"/>
+<instance part="C15" gate="G$1" x="300.99" y="44.45" smashed="yes" rot="R180">
+<attribute name="NAME" x="299.466" y="41.529" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="299.466" y="46.609" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND7" gate="1" x="308.61" y="30.48" smashed="yes">
-<attribute name="VALUE" x="306.07" y="27.94" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="285.75" y="39.37" smashed="yes" rot="R270">
+<attribute name="VALUE" x="283.21" y="41.91" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C16" gate="G$1" x="306.07" y="35.814" smashed="yes" rot="R90">
-<attribute name="NAME" x="308.229" y="32.258" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="303.149" y="29.718" size="1.778" layer="96" rot="R90"/>
+<instance part="C16" gate="G$1" x="291.084" y="41.91" smashed="yes">
+<attribute name="NAME" x="287.528" y="39.751" size="1.778" layer="95"/>
+<attribute name="VALUE" x="284.988" y="44.831" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V3" gate="G$1" x="300.99" y="51.054" smashed="yes">
 <attribute name="VALUE" x="298.45" y="45.974" size="1.778" layer="96" rot="R90"/>
@@ -3228,6 +3229,10 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </instance>
 <instance part="U$3" gate="G$1" x="-40.64" y="144.78" smashed="yes" rot="R180"/>
 <instance part="U$4" gate="G$1" x="-20.32" y="137.16" smashed="yes" rot="R180"/>
+<instance part="JP2" gate="G$1" x="-35.56" y="124.46" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-30.48" y="121.92" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="-41.402" y="121.92" size="1.778" layer="95" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3295,7 +3300,10 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="U$4" gate="G$1" pin="P$1"/>
 <junction x="-17.78" y="137.16"/>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="-17.78" y1="137.16" x2="-10.16" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="137.16" x2="-10.16" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="132.08" x2="-35.56" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -3395,13 +3403,10 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <segment>
 <pinref part="C15" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="308.61" y1="45.72" x2="308.61" y2="35.814" width="0.1524" layer="91"/>
+<wire x1="300.99" y1="39.37" x2="291.084" y2="39.37" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="308.61" y1="35.814" x2="308.61" y2="33.02" width="0.1524" layer="91"/>
-<junction x="308.61" y="35.814"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="322.58" y1="45.72" x2="308.61" y2="45.72" width="0.1524" layer="91"/>
-<junction x="308.61" y="45.72"/>
+<wire x1="291.084" y1="39.37" x2="288.29" y2="39.37" width="0.1524" layer="91"/>
+<junction x="291.084" y="39.37"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -3525,6 +3530,8 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <junction x="-33.02" y="144.78"/>
 <pinref part="U$3" gate="G$1" pin="P$1"/>
 <junction x="-38.1" y="144.78"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="-38.1" y1="132.08" x2="-38.1" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -4073,11 +4080,14 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="300.99" y1="35.814" x2="300.99" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="291.084" y1="46.99" x2="300.99" y2="46.99" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="300.99" y1="48.514" x2="300.99" y2="45.72" width="0.1524" layer="91"/>
-<junction x="300.99" y="45.72"/>
+<wire x1="300.99" y1="48.514" x2="300.99" y2="46.99" width="0.1524" layer="91"/>
+<junction x="300.99" y="46.99"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="322.58" y1="45.72" x2="300.99" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="300.99" y1="45.72" x2="300.99" y2="46.99" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
