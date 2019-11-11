@@ -5215,7 +5215,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+89" library="supply1" deviceset="+5V" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="U$48" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
-<part name="CAN_TRANSCEIVER3" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
+<part name="CAN3" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND126" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+90" library="supply1" deviceset="+5V" device=""/>
 <part name="R135" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
@@ -5312,7 +5312,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+103" library="supply1" deviceset="+12V" device=""/>
 <part name="P+104" library="supply1" deviceset="+5V" device=""/>
 <part name="GND134" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="CAN_TRANSCEIVER2" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
+<part name="CAN2" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND129" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+98" library="supply1" deviceset="+5V" device=""/>
 <part name="C66" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -8117,7 +8117,7 @@ CIRCUIT</text>
 <instance part="P+89" gate="1" x="289.56" y="256.54" smashed="yes">
 <attribute name="VALUE" x="292.1" y="259.08" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="CAN_TRANSCEIVER2" gate="G$1" x="50.8" y="124.46" smashed="yes" rot="R180">
+<instance part="CAN2" gate="G$1" x="50.8" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.165" y="130.175" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND129" gate="1" x="30.48" y="111.76" smashed="yes">
@@ -8199,7 +8199,7 @@ CIRCUIT</text>
 <wire x1="99.06" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CAN_TRANSCEIVER2" gate="G$1" pin="2"/>
+<pinref part="CAN2" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="119.38" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C67" gate="G$1" pin="1"/>
@@ -8216,7 +8216,7 @@ CIRCUIT</text>
 <segment>
 <pinref part="GND129" gate="1" pin="GND"/>
 <wire x1="30.48" y1="114.3" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="CAN_TRANSCEIVER2" gate="G$1" pin="8"/>
+<pinref part="CAN2" gate="G$1" pin="8"/>
 <wire x1="30.48" y1="116.84" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8301,7 +8301,7 @@ CIRCUIT</text>
 <pinref part="P+89" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="CAN_TRANSCEIVER2" gate="G$1" pin="3"/>
+<pinref part="CAN2" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="121.92" x2="58.42" y2="127" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
@@ -8777,21 +8777,21 @@ CIRCUIT</text>
 </net>
 <net name="CANL" class="0">
 <segment>
-<pinref part="CAN_TRANSCEIVER2" gate="G$1" pin="6"/>
+<pinref part="CAN2" gate="G$1" pin="6"/>
 <wire x1="30.48" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
 <label x="30.48" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CANH" class="0">
 <segment>
-<pinref part="CAN_TRANSCEIVER2" gate="G$1" pin="7"/>
+<pinref part="CAN2" gate="G$1" pin="7"/>
 <label x="30.48" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="33.02" y1="119.38" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX_TELEM" class="0">
 <segment>
-<pinref part="CAN_TRANSCEIVER2" gate="G$1" pin="4"/>
+<pinref part="CAN2" gate="G$1" pin="4"/>
 <wire x1="53.34" y1="124.46" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="124.46" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
@@ -8805,7 +8805,7 @@ CIRCUIT</text>
 </net>
 <net name="TX_TELEM" class="0">
 <segment>
-<pinref part="CAN_TRANSCEIVER2" gate="G$1" pin="1"/>
+<pinref part="CAN2" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="116.84" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="116.84" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
@@ -8849,7 +8849,7 @@ only one per signal on
 <attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="94"/>
 </instance>
 <instance part="U$48" gate="G$1" x="165.1" y="88.9" smashed="yes"/>
-<instance part="CAN_TRANSCEIVER3" gate="G$1" x="101.6" y="119.38" smashed="yes" rot="R180">
+<instance part="CAN3" gate="G$1" x="101.6" y="119.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="100.965" y="125.095" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND126" gate="1" x="81.28" y="106.68" smashed="yes">
@@ -9274,7 +9274,7 @@ only one per signal on
 <junction x="345.44" y="55.88"/>
 </segment>
 <segment>
-<pinref part="CAN_TRANSCEIVER3" gate="G$1" pin="2"/>
+<pinref part="CAN3" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="114.3" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C63" gate="G$1" pin="1"/>
@@ -9291,7 +9291,7 @@ only one per signal on
 <segment>
 <pinref part="GND126" gate="1" pin="GND"/>
 <wire x1="81.28" y1="109.22" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="CAN_TRANSCEIVER3" gate="G$1" pin="8"/>
+<pinref part="CAN3" gate="G$1" pin="8"/>
 <wire x1="81.28" y1="111.76" x2="83.82" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9447,7 +9447,7 @@ only one per signal on
 <pinref part="P+105" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="CAN_TRANSCEIVER3" gate="G$1" pin="3"/>
+<pinref part="CAN3" gate="G$1" pin="3"/>
 <wire x1="104.14" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="116.84" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
@@ -9502,14 +9502,14 @@ only one per signal on
 </net>
 <net name="CANL" class="0">
 <segment>
-<pinref part="CAN_TRANSCEIVER3" gate="G$1" pin="6"/>
+<pinref part="CAN3" gate="G$1" pin="6"/>
 <wire x1="81.28" y1="116.84" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
 <label x="81.28" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CANH" class="0">
 <segment>
-<pinref part="CAN_TRANSCEIVER3" gate="G$1" pin="7"/>
+<pinref part="CAN3" gate="G$1" pin="7"/>
 <label x="81.28" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="83.82" y1="114.3" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
 </segment>
@@ -10292,7 +10292,7 @@ only one per signal on
 </net>
 <net name="RX_MAIN" class="0">
 <segment>
-<pinref part="CAN_TRANSCEIVER3" gate="G$1" pin="4"/>
+<pinref part="CAN3" gate="G$1" pin="4"/>
 <wire x1="104.14" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="119.38" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
@@ -10306,7 +10306,7 @@ only one per signal on
 </net>
 <net name="TX_MAIN" class="0">
 <segment>
-<pinref part="CAN_TRANSCEIVER3" gate="G$1" pin="1"/>
+<pinref part="CAN3" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="111.76" x2="106.68" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="111.76" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
