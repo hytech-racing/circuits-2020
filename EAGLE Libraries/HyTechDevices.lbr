@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -22638,7 +22638,11 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <gate name="G$1" symbol="555_TIMER" x="-12.7" y="-10.16"/>
 </gates>
 <devices>
+<<<<<<< HEAD
 <device name="SO-8" package="SOIC-08">
+=======
+<device name="SO-8" package="SO8">
+>>>>>>> 6124952739b7799db528aa7cb48acb89db46a49a
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -22649,6 +22653,12 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<<<<<<< HEAD
+=======
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30987/2"/>
+</package3dinstances>
+>>>>>>> 6124952739b7799db528aa7cb48acb89db46a49a
 <technologies>
 <technology name=""/>
 </technologies>
