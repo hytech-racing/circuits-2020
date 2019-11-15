@@ -4990,7 +4990,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+26" library="supply1" deviceset="+12V" device=""/>
 <part name="P+31" library="supply1" deviceset="+12V" device=""/>
 <part name="GND68" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+56" library="supply1" deviceset="+12V" device=""/>
 <part name="12V_TEST" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$15" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$19" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
@@ -5349,7 +5348,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <text x="73.914" y="194.056" size="1.016" layer="95">Pedals 5V</text>
 <text x="69.85" y="196.85" size="1.016" layer="95">CANL for
 Motor Controller</text>
-<text x="70.612" y="176.276" size="1.27" layer="96">12V for Dash</text>
 <text x="73.914" y="186.436" size="1.016" layer="95">Pedals 5V</text>
 <text x="388.62" y="259.08" size="2.032" layer="97">Install resistors or LEDs here
 to limit current or drop voltage</text>
@@ -5523,9 +5521,6 @@ to limit current or drop voltage</text>
 </instance>
 <instance part="GND68" gate="1" x="81.28" y="170.18" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="83.82" y="167.64" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="P+56" gate="1" x="81.28" y="180.34" smashed="yes">
-<attribute name="VALUE" x="88.9" y="180.34" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="12V_TEST" gate="G$1" x="119.38" y="254" smashed="yes"/>
 <instance part="U$15" gate="G$1" x="119.38" y="248.92" smashed="yes"/>
@@ -5909,13 +5904,8 @@ to limit current or drop voltage</text>
 </segment>
 <segment>
 <pinref part="GND68" gate="1" pin="GND"/>
-<wire x1="50.8" y1="172.72" x2="53.34" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-36" pin="S"/>
-<pinref part="X5" gate="-35" pin="S"/>
-<wire x1="53.34" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="175.26" x2="53.34" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="175.26" x2="53.34" y2="172.72" width="0.1524" layer="91"/>
-<junction x="53.34" y="172.72"/>
+<wire x1="50.8" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$34" gate="G$1" pin="GND1"/>
@@ -6111,11 +6101,6 @@ to limit current or drop voltage</text>
 <pinref part="P+31" gate="1" pin="+12V"/>
 <wire x1="76.2" y1="238.76" x2="50.8" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-10" pin="S"/>
-</segment>
-<segment>
-<pinref part="P+56" gate="1" pin="+12V"/>
-<wire x1="81.28" y1="177.8" x2="50.8" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="X5" gate="-34" pin="S"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="200.66" x2="368.3" y2="200.66" width="0.1524" layer="91"/>
@@ -6369,11 +6354,6 @@ to limit current or drop voltage</text>
 <wire x1="66.04" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="58.42" y="198.12" size="1.016" layer="95" xref="yes"/>
-<wire x1="50.8" y1="198.12" x2="58.42" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="X5" gate="-26" pin="S"/>
-</segment>
-<segment>
 <pinref part="R122" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="187.96" x2="165.1" y2="187.96" width="0.1524" layer="91"/>
 <label x="165.1" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -6584,7 +6564,7 @@ to limit current or drop voltage</text>
 <segment>
 <pinref part="X5" gate="-13" pin="S"/>
 <wire x1="50.8" y1="231.14" x2="55.88" y2="231.14" width="0.1524" layer="91"/>
-<label x="55.88" y="231.14" size="1.27" layer="95" xref="yes"/>
+<label x="55.88" y="231.14" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AGND" class="0">
