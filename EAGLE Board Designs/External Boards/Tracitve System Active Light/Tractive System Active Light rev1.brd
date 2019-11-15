@@ -2325,8 +2325,8 @@ design rules under a new name.</description>
 <polygon width="0.1524" layer="16">
 <vertex x="-24.13" y="5.08"/>
 <vertex x="-24.13" y="10.16"/>
-<vertex x="-36.83" y="10.16"/>
-<vertex x="-36.83" y="5.08"/>
+<vertex x="-31.75" y="10.16"/>
+<vertex x="-31.75" y="5.08"/>
 </polygon>
 </signal>
 <signal name="N$18">
