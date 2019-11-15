@@ -4991,7 +4991,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+31" library="supply1" deviceset="+12V" device=""/>
 <part name="GND68" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+56" library="supply1" deviceset="+12V" device=""/>
-<part name="U$10" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="12V_TEST" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$15" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$19" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="GND78" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -5336,7 +5336,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C27" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
 <part name="R65" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
 <part name="C28" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
-<part name="U$1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="3V3_TEST" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="TEST_CURRENT" library="HyTechDevices" deviceset="M02" device="_SLIM" value="M02_SLIM"/>
@@ -5527,7 +5527,7 @@ to limit current or drop voltage</text>
 <instance part="P+56" gate="1" x="81.28" y="180.34" smashed="yes">
 <attribute name="VALUE" x="88.9" y="180.34" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$10" gate="G$1" x="119.38" y="254" smashed="yes"/>
+<instance part="12V_TEST" gate="G$1" x="119.38" y="254" smashed="yes"/>
 <instance part="U$15" gate="G$1" x="119.38" y="248.92" smashed="yes"/>
 <instance part="U$19" gate="G$1" x="119.38" y="238.76" smashed="yes"/>
 <instance part="GND78" gate="1" x="109.22" y="233.68" smashed="yes" rot="MR0">
@@ -5882,7 +5882,7 @@ to limit current or drop voltage</text>
 <attribute name="NAME" x="117.856" y="27.559" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="117.856" y="32.639" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$1" gate="G$1" x="119.38" y="243.84" smashed="yes"/>
+<instance part="3V3_TEST" gate="G$1" x="119.38" y="243.84" smashed="yes"/>
 <instance part="+3V1" gate="G$1" x="104.14" y="251.46" smashed="yes">
 <attribute name="VALUE" x="100.584" y="251.968" size="1.778" layer="96"/>
 </instance>
@@ -6156,7 +6156,7 @@ to limit current or drop voltage</text>
 <segment>
 <pinref part="P+60" gate="1" pin="+12V"/>
 <wire x1="114.3" y1="259.08" x2="114.3" y2="254" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="P$1"/>
+<pinref part="12V_TEST" gate="G$1" pin="P$1"/>
 <wire x1="114.3" y1="254" x2="116.84" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6837,7 +6837,7 @@ to limit current or drop voltage</text>
 <junction x="236.22" y="254"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
+<pinref part="3V3_TEST" gate="G$1" pin="P$1"/>
 <wire x1="116.84" y1="243.84" x2="104.14" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="243.84" x2="104.14" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>

@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-11-15T04:40:47Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.584,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "MainECU rev9"
+        },
+        "Owner": "Leonid Pozdneev <leo.pozdneev@gmail.com>",
+        "Size": {
+            "X": 105.918,
+            "Y": 114.554
+        }
+    }
+}
