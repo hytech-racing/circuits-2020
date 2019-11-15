@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1648,13 +1648,13 @@ Source: http://www.molex.com</description>
 <part name="LED1" library="HyTechDevices" deviceset="XP-E2" device="" value="RED"/>
 <part name="LED2" library="HyTechDevices" deviceset="XP-E2" device="" value="GRN"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="50k"/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="330"/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="330R"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k"/>
-<part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="4.7u"/>
+<part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4"/>
-<part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10n"/>
+<part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k"/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="330"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="330R"/>
 <part name="LED3" library="HyTechDevices" deviceset="XP-E2" device="" value="GRN"/>
 <part name="LED4" library="HyTechDevices" deviceset="XP-E2" device="" value="GRN"/>
 <part name="LED5" library="HyTechDevices" deviceset="XP-E2" device="" value="GRN"/>
@@ -1668,10 +1668,10 @@ Source: http://www.molex.com</description>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1u"/>
-<part name="C4" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1u"/>
-<part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1u"/>
-<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1u"/>
+<part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C4" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
