@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10406,6 +10406,28 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 </package>
+<package name="HYTECHDEVICES_XP-E2">
+<description>&lt;b&gt;Cree® XLamp® XP-E2 LEDs&lt;/b&gt;&lt;p&gt;
+&lt;a href="https://www.cree.com/led-components/media/documents/XLampXPE2.pdf"&gt;Source: www.cree.com/xlamp .. XLampXP-E2.pdf&lt;/a&gt;</description>
+<circle x="-1.25" y="-1.175" radius="0.225" width="0" layer="51"/>
+<circle x="0" y="0" radius="1.25" width="0.2032" layer="51"/>
+<wire x1="-1.65" y1="1.625" x2="1.625" y2="1.625" width="0.2032" layer="51"/>
+<wire x1="1.625" y1="1.625" x2="1.625" y2="-1.625" width="0.2032" layer="51"/>
+<wire x1="1.625" y1="-1.625" x2="-1.65" y2="-1.625" width="0.2032" layer="51"/>
+<wire x1="-1.65" y1="-1.625" x2="-1.65" y2="1.625" width="0.2032" layer="51"/>
+<wire x1="-1.525" y1="0" x2="-1.15" y2="0" width="0.1016" layer="51"/>
+<wire x1="-1.325" y1="0.175" x2="-1.325" y2="-0.175" width="0.1016" layer="51"/>
+<rectangle x1="-0.5005" y1="-0.375" x2="0.5005" y2="0.375" layer="31"/>
+<rectangle x1="-1.65" y1="-1.65" x2="-1.15" y2="1.65" layer="31"/>
+<rectangle x1="1.15" y1="-1.65" x2="1.65" y2="1.65" layer="31"/>
+<rectangle x1="-0.5005" y1="0.625" x2="0.5005" y2="1.375" layer="31"/>
+<rectangle x1="-0.5005" y1="-1.375" x2="0.5005" y2="-0.625" layer="31"/>
+<smd name="A" x="-1.4" y="0" dx="0.5" dy="3.3" layer="1" cream="no"/>
+<smd name="C" x="1.4" y="0" dx="0.5" dy="3.3" layer="1" cream="no"/>
+<smd name="X" x="0" y="0" dx="1.3" dy="3.3" layer="1" cream="no"/>
+<text x="-2.54" y="-3.81" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SO8" urn="urn:adsk.eagle:package:30987/2" type="model">
@@ -14471,6 +14493,33 @@ Demo Board</text>
 <wire x1="20.32" y1="0" x2="20.32" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="0" y1="-22.86" x2="0" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="HYTECHDEVICES_LED">
+<description>LED
+&lt;br&gt;
+&lt;a href="https://github.com/DangerousPrototypes/Eagle_Part_Library"&gt;Source: Dangerous Prototypes Eagle Library&lt;/a&gt;</description>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-1.27" y="0"/>
+<vertex x="1.27" y="0"/>
+<vertex x="0" y="-2.54"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -22648,6 +22697,24 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HYTECHDEVICES_XP-E2">
+<description>XP-E2 high-brightness LED.
+&lt;a href="https://www.cree.com/led-components/media/documents/XLampXPE2.pdf"&gt;Data sheet&lt;/a&gt;</description>
+<gates>
+<gate name="&gt;NAME" symbol="HYTECHDEVICES_LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HYTECHDEVICES_XP-E2">
+<connects>
+<connect gate="&gt;NAME" pin="A" pad="A"/>
+<connect gate="&gt;NAME" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
