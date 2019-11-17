@@ -22711,7 +22711,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <gate name="&gt;NAME" symbol="HYTECHDEVICES_LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HYTECHDEVICES_XP-E2">
+<device name="XP-E2" package="HYTECHDEVICES_XP-E2">
 <connects>
 <connect gate="&gt;NAME" pin="A" pad="A"/>
 <connect gate="&gt;NAME" pin="C" pad="C"/>
