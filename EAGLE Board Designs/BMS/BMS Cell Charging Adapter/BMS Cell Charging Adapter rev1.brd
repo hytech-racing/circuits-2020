@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="40" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -192,7 +192,8 @@
 <text x="47.752" y="-23.368" size="2.54" layer="51" font="vector" align="center">Mode A</text>
 <text x="47.752" y="-5.08" size="2.1844" layer="51" font="vector" align="center">Warning: Only install Mode A or Mode B connectors
 DO NOT MIX</text>
-<text x="12.192" y="126.746" size="1.524" layer="51" font="vector" rot="R270" align="center">BMS Enerdel Adapter 2019 rev4</text>
+<text x="12.192" y="126.746" size="1.524" layer="51" font="vector" rot="R270" align="bottom-center">BMS Cell Charging Adapter 2020 rev1
+Designed by Mohammed Arif</text>
 <rectangle x1="102.87" y1="98.3996" x2="105.6132" y2="98.552" layer="51" rot="R90"/>
 <rectangle x1="102.6414" y1="104.7242" x2="105.8418" y2="104.8766" layer="51" rot="R90"/>
 <rectangle x1="103.8606" y1="107.315" x2="104.6226" y2="107.4674" layer="51" rot="R90"/>
@@ -2615,9 +2616,8 @@ DO NOT MIX</text>
 <text x="101.65" y="65.024" size="2.286" layer="51" font="vector" rot="R90" align="center">DANGER HIGH VOLTAGE</text>
 <wire x1="2" y1="247.142" x2="93.3" y2="247.142" width="1.27" layer="51"/>
 <text x="47.752" y="249.936" size="2.54" layer="51" font="vector" align="center">DO NOT MIX A &amp; B</text>
-<dimension x1="0" y1="-50.968" x2="95.3" y2="-50.968" x3="47.65" y3="-55.88" textsize="2.54" layer="47"/>
-<dimension x1="0" y1="280.384" x2="0" y2="-50.968" x3="-8.128" y3="114.708" textsize="2.54" layer="47"/>
-<dimension x1="108" y1="25.4" x2="95.3" y2="25.4" x3="101.65" y3="-55.88" textsize="2.54" layer="47"/>
+<dimension x1="0" y1="-50.968" x2="95.3" y2="-50.968" x3="47.65" y3="-33.02" textsize="2.54" layer="47"/>
+<dimension x1="108" y1="25.4" x2="95.3" y2="25.4" x3="101.65" y3="-29.21" textsize="2.54" layer="47"/>
 <dimension x1="108" y1="25.4" x2="108" y2="221.71" x3="114.808" y3="123.555" textsize="2.54" layer="47"/>
 <rectangle x1="73.011028125" y1="249.94996875" x2="80.407509375" y2="249.96775" layer="51"/>
 <rectangle x1="72.97546875" y1="249.96775" x2="80.478625" y2="249.98553125" layer="51"/>
@@ -4981,18 +4981,14 @@ design rules under a new name.</description>
 <element name="X1" library="HyTechDevices" package="MINIFIT_5566-10" value="CONNECTOR-10" x="48.027" y="-15.24" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="48.027" y="-15.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="48.027" y="-15.24" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="42.312" y="-8.255" size="1.27" layer="25" rot="R180"/>
 <attribute name="OC_FARNELL" value="unknown" x="48.027" y="-15.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="48.027" y="-15.24" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="58.187" y="-8.255" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="X2" library="HyTechDevices" package="MINIFIT_5566-10" value="CONNECTOR-10" x="47.477" y="259.08" smashed="yes">
 <attribute name="MF" value="" x="47.477" y="259.08" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="47.477" y="259.08" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="53.192" y="252.095" size="1.27" layer="25"/>
 <attribute name="OC_FARNELL" value="unknown" x="47.477" y="259.08" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="47.477" y="259.08" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="37.317" y="252.095" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
