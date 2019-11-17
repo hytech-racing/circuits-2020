@@ -22704,7 +22704,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="HYTECHDEVICES_XP-E2">
+<deviceset name="XP-E2">
 <description>XP-E2 high-brightness LED.
 &lt;a href="https://www.cree.com/led-components/media/documents/XLampXPE2.pdf"&gt;Data sheet&lt;/a&gt;</description>
 <gates>
