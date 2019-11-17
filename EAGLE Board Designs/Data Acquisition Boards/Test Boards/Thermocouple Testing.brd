@@ -1060,6 +1060,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,4992f1b2042bef48"/>
+<approved hash="4,1,4c9fd818ef352271"/>
+<approved hash="4,16,4992f1b2042bef48"/>
+<approved hash="4,16,4c9fd818ef352271"/>
+</errors>
 </board>
 </drawing>
 </eagle>
