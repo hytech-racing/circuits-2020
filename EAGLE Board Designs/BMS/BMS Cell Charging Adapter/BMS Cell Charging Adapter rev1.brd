@@ -4375,8 +4375,6 @@ Designed by Mohammed Arif</text>
 <rectangle x1="73.011028125" y1="-11.83766875" x2="73.313284375" y2="-11.81989375" layer="51"/>
 <rectangle x1="73.0465875" y1="-11.819890625" x2="73.277725" y2="-11.802109375" layer="51"/>
 <rectangle x1="73.117709375" y1="-11.802109375" x2="73.206609375" y2="-11.784334375" layer="51"/>
-<text x="83.312" y="249.936" size="0.381" layer="51" font="vector" rot="R180" align="center">Mohammed
-Arif</text>
 <rectangle x1="102.5872" y1="148.6568" x2="105.686" y2="148.7076" layer="51" rot="R90"/>
 <rectangle x1="102.5364" y1="148.6568" x2="105.6352" y2="148.7076" layer="51" rot="R90"/>
 <rectangle x1="102.4856" y1="148.6568" x2="105.5844" y2="148.7076" layer="51" rot="R90"/>
