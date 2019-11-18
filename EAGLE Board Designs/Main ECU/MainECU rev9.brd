@@ -860,7 +860,7 @@
 <rectangle x1="19.9009" y1="1.0795" x2="20.3581" y2="1.1557" layer="51"/>
 <rectangle x1="19.9009" y1="0.9271" x2="20.3581" y2="1.0033" layer="51"/>
 <text x="21.082" y="-0.508" size="1.397" layer="51" font="vector">HyTech 2020 Main ECU rev9</text>
-<text x="21.082" y="-2.286" size="1.397" layer="51" font="vector">Designed by Nathan Cheek</text>
+<text x="21.082" y="-2.286" size="1.397" layer="51" font="vector">Designed by Leo Pozdneev</text>
 <text x="21.082" y="-3.683" size="0.762" layer="51" font="vector">Based on the design by Parker Jones and Nathan Cheek</text>
 <rectangle x1="49.784" y1="-4.318" x2="99.314" y2="1.524" layer="29"/>
 <rectangle x1="1.778" y1="-4.318" x2="99.314" y2="1.524" layer="30"/>
@@ -4460,7 +4460,6 @@ design rules under a new name.</description>
 <contactref element="X5" pad="P$16"/>
 <contactref element="R124" pad="2"/>
 <contactref element="U$46" pad="4"/>
-<contactref element="U$43" pad="AGND"/>
 <contactref element="C56" pad="2"/>
 <contactref element="R126" pad="1"/>
 <contactref element="U$49" pad="5"/>
@@ -4498,7 +4497,6 @@ design rules under a new name.</description>
 <contactref element="U$53" pad="9"/>
 <contactref element="C73" pad="1"/>
 <contactref element="C72" pad="1"/>
-<contactref element="U$48" pad="AGND"/>
 <via x="68.4022" y="24.7142" extent="1-16" drill="0.35"/>
 <wire x1="68.4022" y1="24.7142" x2="67.5758" y2="24.7142" width="0.254" layer="16"/>
 <wire x1="66.9916" y1="24.7142" x2="67.0814" y2="24.6244" width="0.254" layer="16"/>

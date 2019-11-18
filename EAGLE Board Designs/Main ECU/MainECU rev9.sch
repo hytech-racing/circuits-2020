@@ -5190,7 +5190,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="AGND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="AGND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+88" library="supply1" deviceset="+5V" device=""/>
 <part name="P+91" library="supply1" deviceset="+5V" device=""/>
@@ -5241,7 +5240,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="D54" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="C62" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C63" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="AGND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="U$52" library="HyTechDevices" deviceset="TXB0106" device=""/>
 <part name="P+102" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -8034,9 +8032,6 @@ CIRCUIT</text>
 <instance part="AGND36" gate="VR1" x="236.22" y="228.6" smashed="yes">
 <attribute name="VALUE" x="233.68" y="226.06" size="1.778" layer="96"/>
 </instance>
-<instance part="AGND39" gate="VR1" x="137.16" y="127" smashed="yes">
-<attribute name="VALUE" x="134.62" y="124.46" size="1.778" layer="96"/>
-</instance>
 <instance part="+3V4" gate="G$1" x="198.12" y="96.52" smashed="yes">
 <attribute name="VALUE" x="196.596" y="97.536" size="1.778" layer="96"/>
 </instance>
@@ -8571,12 +8566,6 @@ CIRCUIT</text>
 <pinref part="AGND34" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="U$43" gate="G$1" pin="AGND"/>
-<wire x1="132.08" y1="132.08" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="132.08" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="AGND39" gate="VR1" pin="AGND"/>
-</segment>
-<segment>
 <wire x1="106.68" y1="233.68" x2="93.98" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="233.68" x2="88.9" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="233.68" x2="88.9" y2="238.76" width="0.1524" layer="91"/>
@@ -8932,9 +8921,6 @@ only one per signal on
 <instance part="C63" gate="G$1" x="116.84" y="116.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="115.316" y="113.919" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="115.316" y="118.999" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="AGND32" gate="VR1" x="198.12" y="127" smashed="yes">
-<attribute name="VALUE" x="201.93" y="126.238" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$52" gate="G$1" x="165.1" y="63.5" smashed="yes">
 <attribute name="NAME" x="165.1" y="64.008" size="1.778" layer="95"/>
@@ -9911,14 +9897,6 @@ only one per signal on
 <junction x="347.98" y="233.68"/>
 <pinref part="C72" gate="G$1" pin="1"/>
 <wire x1="355.6" y1="233.68" x2="355.6" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$48" gate="G$1" pin="AGND"/>
-<wire x1="187.96" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="124.46" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="132.08" x2="198.12" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="132.08" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="AGND32" gate="VR1" pin="AGND"/>
 </segment>
 </net>
 <net name="MISO_5V" class="0">
