@@ -2367,7 +2367,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY7" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="V-" device=""/>
-<part name="ISOSPI_B" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
+<part name="ISOSPI_B" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="ISOSPI"/>
 <part name="THERM2" library="HyTechDevices" deviceset="THERMISTOR_NCP21" device="0603" value="10K"/>
 <part name="THERM1" library="HyTechDevices" deviceset="THERMISTOR_NCP21" device="0603" value="10K"/>
 <part name="SUPPLY10" library="supply2" deviceset="V-" device=""/>
@@ -2511,7 +2511,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY34" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY35" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY36" library="supply1" deviceset="V-" device=""/>
-<part name="ISOSPI_A" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
+<part name="ISOSPI_A" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="ISOSPI"/>
 <part name="THERM4" library="HyTechDevices" deviceset="THERMISTOR_NCP21" device="0603" value="10K"/>
 <part name="THERM3" library="HyTechDevices" deviceset="THERMISTOR_NCP21" device="0603" value="10K"/>
 <part name="SUPPLY37" library="supply1" deviceset="V-" device=""/>
