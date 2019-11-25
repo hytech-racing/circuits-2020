@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4308,11 +4308,11 @@ corresponds to 60V on TS</text>
 <instance part="GND6" gate="1" x="137.16" y="-53.34" smashed="yes">
 <attribute name="VALUE" x="134.62" y="-55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="99.06" y="45.72" smashed="yes" rot="R270">
-<attribute name="VALUE" x="96.52" y="48.26" size="1.778" layer="96" rot="R270"/>
+<instance part="GND7" gate="1" x="106.68" y="45.72" smashed="yes" rot="R270">
+<attribute name="VALUE" x="104.14" y="48.26" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+4" gate="1" x="101.6" y="48.26" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="109.22" y="48.26" size="1.778" layer="96" rot="MR0"/>
+<instance part="P+4" gate="1" x="114.3" y="48.26" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="111.76" y="48.26" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="D1" gate="1" x="86.36" y="-208.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="90.17" y="-210.0326" size="1.778" layer="95" rot="R180"/>
@@ -4613,7 +4613,6 @@ corresponds to 60V on TS</text>
 <attribute name="VALUE" x="58.42" y="-95.52" size="1.27" layer="96"/>
 </instance>
 <instance part="U$3" gate="G$1" x="45.72" y="17.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="50.8" y="22.86" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="43.18" y="12.7" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND32" gate="1" x="45.72" y="7.62" smashed="yes">
@@ -5115,7 +5114,7 @@ corresponds to 60V on TS</text>
 </segment>
 <segment>
 <wire x1="127" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="45.72" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="45.72" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <label x="127" y="45.72" size="1.778" layer="95" rot="MR0"/>
 <wire x1="127" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
@@ -5444,7 +5443,7 @@ corresponds to 60V on TS</text>
 <label x="33.02" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="127" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="127" y1="48.26" x2="116.84" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <label x="127" y="48.26" size="1.778" layer="95" rot="MR0"/>
 <pinref part="IMD" gate="-1" pin="S"/>
