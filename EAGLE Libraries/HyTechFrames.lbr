@@ -2610,6 +2610,7 @@
 </symbols>
 <devicesets>
 <deviceset name="FRAME_A_L">
+<description>HyTech frame size A, landscape.</description>
 <gates>
 <gate name="G$1" symbol="FRAME_A_L" x="0" y="0"/>
 <gate name="G$2" symbol="DOCFIELD" x="110.49" y="0"/>
@@ -2617,12 +2618,16 @@
 <devices>
 <device name="">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ORIENTATION" value="LANDSCAPE"/>
+<attribute name="SIZE" value="A"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="FRAME_B_L">
+<description>HyTech frame size B, landscape.</description>
 <gates>
 <gate name="G$1" symbol="FRAME_B_L" x="0" y="0"/>
 <gate name="G$2" symbol="DOCFIELD" x="262.89" y="0"/>
@@ -2630,7 +2635,10 @@
 <devices>
 <device name="">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ORIENTATION" value="LANDSCAPE"/>
+<attribute name="SIZE" value="B"/>
+</technology>
 </technologies>
 </device>
 </devices>
