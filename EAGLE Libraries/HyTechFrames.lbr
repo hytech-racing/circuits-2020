@@ -2613,7 +2613,7 @@
 <description>HyTech frame size A, landscape.</description>
 <gates>
 <gate name="G$1" symbol="FRAME_A_L" x="0" y="0"/>
-<gate name="G$2" symbol="DOCFIELD" x="110.49" y="0"/>
+<gate name="G$2" symbol="DOCFIELD" x="110.49" y="0" addlevel="always"/>
 </gates>
 <devices>
 <device name="">
@@ -2630,7 +2630,7 @@
 <description>HyTech frame size B, landscape.</description>
 <gates>
 <gate name="G$1" symbol="FRAME_B_L" x="0" y="0"/>
-<gate name="G$2" symbol="DOCFIELD" x="262.89" y="0"/>
+<gate name="G$2" symbol="DOCFIELD" x="262.89" y="0" addlevel="always"/>
 </gates>
 <devices>
 <device name="">
