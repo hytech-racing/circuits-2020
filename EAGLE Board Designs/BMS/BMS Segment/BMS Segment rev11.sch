@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3761,22 +3761,25 @@ to set chip address</text>
 <pinref part="F18" gate="G$1" pin="2"/>
 <label x="-195.58" y="279.4" size="1.778" layer="95"/>
 <wire x1="-205.74" y1="279.4" x2="-162.56" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="-162.56" y1="332.74" x2="-162.56" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="325.12" x2="-162.56" y2="317.5" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="317.5" x2="-162.56" y2="279.4" width="0.1524" layer="91"/>
 <portref moduleinst="DRAIN18" port="CELL+"/>
 <wire x1="-127" y1="317.5" x2="-162.56" y2="317.5" width="0.1524" layer="91"/>
 <junction x="-162.56" y="317.5"/>
 <label x="-139.7" y="317.5" size="1.778" layer="95"/>
-<wire x1="-162.56" y1="332.74" x2="-127" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="335.28" x2="-134.62" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="335.28" x2="-134.62" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="332.74" x2="-127" y2="332.74" width="0.1524" layer="91"/>
 <pinref part="R1_A" gate="G$1" pin="1"/>
 <pinref part="RU1_A" gate="G$1" pin="1"/>
-<wire x1="-127" y1="325.12" x2="-162.56" y2="325.12" width="0.1524" layer="91"/>
-<junction x="-162.56" y="325.12"/>
-<wire x1="-162.56" y1="332.74" x2="-162.56" y2="353.06" width="0.1524" layer="91"/>
-<junction x="-162.56" y="332.74"/>
+<wire x1="-127" y1="325.12" x2="-134.62" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="325.12" x2="-162.56" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="335.28" x2="-162.56" y2="353.06" width="0.1524" layer="91"/>
 <pinref part="RIN_A" gate="G$1" pin="1"/>
 <wire x1="-162.56" y1="353.06" x2="-127" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="332.74" x2="-134.62" y2="325.12" width="0.1524" layer="91"/>
+<junction x="-134.62" y="332.74"/>
+<junction x="-134.62" y="325.12"/>
 </segment>
 </net>
 <net name="CC9" class="1">
