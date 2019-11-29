@@ -4029,11 +4029,6 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="C105" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="GND36" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+9" library="supply1" deviceset="+5V" device=""/>
-<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
@@ -4134,6 +4129,10 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C7" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5k"/>
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5k"/>
+<part name="GND62" library="supply1" deviceset="GND" device=""/>
+<part name="D6" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 </parts>
 <sheets>
 <sheet>
@@ -4659,23 +4658,6 @@ corresponds to 60V on TS</text>
 <instance part="GND35" gate="1" x="68.58" y="-381" smashed="yes">
 <attribute name="VALUE" x="66.04" y="-383.54" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="15.24" y="-287.02" smashed="yes" rot="MR180">
-<attribute name="NAME" x="16.764" y="-284.861" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="16.764" y="-289.941" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="C105" gate="G$1" x="25.4" y="-287.02" smashed="yes" rot="MR180">
-<attribute name="NAME" x="26.924" y="-284.861" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="26.924" y="-289.941" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="GND36" gate="1" x="30.48" y="-297.18" smashed="yes">
-<attribute name="VALUE" x="27.94" y="-299.72" size="1.778" layer="96"/>
-</instance>
-<instance part="P+9" gate="1" x="30.48" y="-281.94" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.4" y="-279.4" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V6" gate="G$1" x="20.32" y="-281.94" smashed="yes" rot="R270">
-<attribute name="VALUE" x="17.78" y="-279.4" size="1.778" layer="96"/>
-</instance>
 <instance part="+3V7" gate="G$1" x="20.32" y="-309.88" smashed="yes" rot="R90">
 <attribute name="VALUE" x="22.86" y="-312.42" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -5069,6 +5051,21 @@ corresponds to 60V on TS</text>
 <instance part="GND9" gate="1" x="86.36" y="-360.68" smashed="yes" rot="R270">
 <attribute name="VALUE" x="83.82" y="-358.14" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="R8" gate="G$1" x="101.6" y="-421.64" smashed="yes">
+<attribute name="NAME" x="97.79" y="-420.1414" size="1.778" layer="95"/>
+<attribute name="VALUE" x="97.79" y="-424.942" size="1.778" layer="96"/>
+</instance>
+<instance part="R9" gate="G$1" x="101.6" y="-429.26" smashed="yes">
+<attribute name="NAME" x="97.79" y="-427.7614" size="1.778" layer="95"/>
+<attribute name="VALUE" x="97.79" y="-432.562" size="1.778" layer="96"/>
+</instance>
+<instance part="GND62" gate="1" x="91.44" y="-429.26" smashed="yes" rot="R270">
+<attribute name="VALUE" x="88.9" y="-426.72" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="D6" gate="1" x="116.84" y="-421.64" smashed="yes">
+<attribute name="NAME" x="113.03" y="-419.8874" size="1.778" layer="95"/>
+<attribute name="VALUE" x="107.95" y="-425.2214" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5276,16 +5273,6 @@ corresponds to 60V on TS</text>
 <junction x="76.2" y="-378.46"/>
 </segment>
 <segment>
-<pinref part="C105" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="-292.1" x2="25.4" y2="-294.64" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-294.64" x2="15.24" y2="-294.64" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="-294.64" x2="15.24" y2="-292.1" width="0.1524" layer="91"/>
-<junction x="25.4" y="-294.64"/>
-<pinref part="GND36" gate="1" pin="GND"/>
-<wire x1="30.48" y1="-294.64" x2="25.4" y2="-294.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 <wire x1="30.48" y1="-353.06" x2="33.02" y2="-353.06" width="0.1524" layer="91"/>
@@ -5416,6 +5403,11 @@ corresponds to 60V on TS</text>
 <pinref part="U$103" gate="G$1" pin="CH3"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="93.98" y1="-360.68" x2="88.9" y2="-360.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="93.98" y1="-429.26" x2="96.52" y2="-429.26" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="GND62" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -5576,12 +5568,6 @@ corresponds to 60V on TS</text>
 <junction x="111.76" y="-388.62"/>
 </segment>
 <segment>
-<pinref part="P+9" gate="1" pin="+5V"/>
-<wire x1="27.94" y1="-281.94" x2="25.4" y2="-281.94" width="0.1524" layer="91"/>
-<pinref part="C105" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="-281.94" x2="25.4" y2="-284.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="81.28" y1="-86.36" x2="78.74" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="U$104" gate="G$1" pin="!SHDN"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
@@ -5668,6 +5654,11 @@ corresponds to 60V on TS</text>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="289.56" y1="-76.2" x2="292.1" y2="-76.2" width="0.1524" layer="91"/>
 <label x="292.1" y="-76.2" size="1.778" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="-421.64" x2="93.98" y2="-421.64" width="0.1524" layer="91"/>
+<label x="93.98" y="-421.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -6144,12 +6135,6 @@ corresponds to 60V on TS</text>
 <pinref part="U$102" gate="G$1" pin="OE"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <wire x1="114.3" y1="-403.86" x2="109.22" y2="-403.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<wire x1="17.78" y1="-281.94" x2="15.24" y2="-281.94" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="-281.94" x2="15.24" y2="-284.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -6802,6 +6787,28 @@ corresponds to 60V on TS</text>
 <wire x1="259.08" y1="-96.52" x2="259.08" y2="-119.38" width="0.6096" layer="91"/>
 <wire x1="261.62" y1="-124.46" x2="261.62" y2="-119.38" width="0.6096" layer="91"/>
 <junction x="261.62" y="-119.38"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<wire x1="106.68" y1="-429.26" x2="106.68" y2="-421.64" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-421.64" x2="111.76" y2="-421.64" width="0.1524" layer="91"/>
+<junction x="106.68" y="-421.64"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="D6" gate="1" pin="A"/>
+</segment>
+</net>
+<net name="60V_THRESHOLD_TEENSY" class="0">
+<segment>
+<pinref part="D6" gate="1" pin="C"/>
+<wire x1="119.38" y1="-421.64" x2="121.92" y2="-421.64" width="0.1524" layer="91"/>
+<label x="121.92" y="-421.64" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="A6"/>
+<wire x1="91.44" y1="-264.16" x2="93.98" y2="-264.16" width="0.1524" layer="91"/>
+<label x="93.98" y="-264.16" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
