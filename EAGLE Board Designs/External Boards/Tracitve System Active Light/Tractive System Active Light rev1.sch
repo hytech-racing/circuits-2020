@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -278,25 +278,25 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 </package>
-<package name="XP-E2" urn="urn:adsk.eagle:footprint:15757/1" locally_modified="yes">
+<package name="XP-E2">
 <description>&lt;b&gt;Cree® XLamp® XP-E2 LEDs&lt;/b&gt;&lt;p&gt;
 &lt;a href="https://www.cree.com/led-components/media/documents/XLampXPE2.pdf"&gt;Source: www.cree.com/xlamp .. XLampXP-E2.pdf&lt;/a&gt;</description>
+<circle x="-1.25" y="-1.175" radius="0.225" width="0" layer="51"/>
+<circle x="0" y="0" radius="1.25" width="0.2032" layer="51"/>
 <wire x1="-1.65" y1="1.625" x2="1.625" y2="1.625" width="0.2032" layer="51"/>
 <wire x1="1.625" y1="1.625" x2="1.625" y2="-1.625" width="0.2032" layer="51"/>
 <wire x1="1.625" y1="-1.625" x2="-1.65" y2="-1.625" width="0.2032" layer="51"/>
 <wire x1="-1.65" y1="-1.625" x2="-1.65" y2="1.625" width="0.2032" layer="51"/>
 <wire x1="-1.525" y1="0" x2="-1.15" y2="0" width="0.1016" layer="51"/>
 <wire x1="-1.325" y1="0.175" x2="-1.325" y2="-0.175" width="0.1016" layer="51"/>
-<circle x="-1.25" y="-1.175" radius="0.225" width="0" layer="51"/>
-<circle x="0" y="0" radius="1.25" width="0.2032" layer="51"/>
-<smd name="A" x="-1.4" y="0" dx="0.5" dy="3.3" layer="1" cream="no"/>
-<smd name="C" x="1.4" y="0" dx="0.5" dy="3.3" layer="1" cream="no"/>
-<smd name="X" x="0" y="0" dx="1.3" dy="3.3" layer="1" cream="no"/>
 <rectangle x1="-0.5005" y1="-0.375" x2="0.5005" y2="0.375" layer="31"/>
 <rectangle x1="-1.65" y1="-1.65" x2="-1.15" y2="1.65" layer="31"/>
 <rectangle x1="1.15" y1="-1.65" x2="1.65" y2="1.65" layer="31"/>
 <rectangle x1="-0.5005" y1="0.625" x2="0.5005" y2="1.375" layer="31"/>
 <rectangle x1="-0.5005" y1="-1.375" x2="0.5005" y2="-0.625" layer="31"/>
+<smd name="A" x="-1.4" y="0" dx="0.5" dy="3.3" layer="1" cream="no"/>
+<smd name="C" x="1.4" y="0" dx="0.5" dy="3.3" layer="1" cream="no"/>
+<smd name="X" x="0" y="0" dx="1.3" dy="3.3" layer="1" cream="no"/>
 <text x="-2.54" y="-3.81" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
@@ -1126,13 +1126,13 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <description>XP-E2 high-brightness LED.
 &lt;a href="https://www.cree.com/led-components/media/documents/XLampXPE2.pdf"&gt;Data sheet&lt;/a&gt;</description>
 <gates>
-<gate name="&gt;NAME" symbol="LED" x="0" y="0"/>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="XP-E2">
+<device name="XP-E2" package="XP-E2">
 <connects>
-<connect gate="&gt;NAME" pin="A" pad="A"/>
-<connect gate="&gt;NAME" pin="C" pad="C"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1645,8 +1645,8 @@ Source: http://www.molex.com</description>
 <part name="Q1" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 <part name="Q2" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 <part name="NA555" library="HyTechDevices" deviceset="NA555" device="SO-8" package3d_urn="urn:adsk.eagle:package:30987/2"/>
-<part name="LED1" library="HyTechDevices" deviceset="XP-E2" device="" value="RED"/>
-<part name="LED2" library="HyTechDevices" deviceset="XP-E2" device="" value="GRN"/>
+<part name="LED1" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="RED"/>
+<part name="LED2" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GRN"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="50k"/>
 <part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="330R"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k"/>
@@ -1655,12 +1655,12 @@ Source: http://www.molex.com</description>
 <part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="330R"/>
-<part name="LED3" library="HyTechDevices" deviceset="XP-E2" device="" value="GRN"/>
-<part name="LED4" library="HyTechDevices" deviceset="XP-E2" device="" value="GRN"/>
-<part name="LED5" library="HyTechDevices" deviceset="XP-E2" device="" value="GRN"/>
-<part name="LED6" library="HyTechDevices" deviceset="XP-E2" device="" value="RED"/>
-<part name="LED7" library="HyTechDevices" deviceset="XP-E2" device="" value="RED"/>
-<part name="LED8" library="HyTechDevices" deviceset="XP-E2" device="" value="RED"/>
+<part name="LED3" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GRN"/>
+<part name="LED4" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GRN"/>
+<part name="LED5" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GRN"/>
+<part name="LED6" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="RED"/>
+<part name="LED7" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="RED"/>
+<part name="LED8" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="RED"/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND4" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -1703,11 +1703,11 @@ Source: http://www.molex.com</description>
 <instance part="NA555" gate="G$1" x="60.96" y="71.12" smashed="yes">
 <attribute name="NAME" x="76.2" y="81.28" size="1.778" layer="95" align="center"/>
 </instance>
-<instance part="LED1" gate="&gt;NAME" x="33.02" y="25.4" smashed="yes">
+<instance part="LED1" gate="G$1" x="33.02" y="25.4" smashed="yes">
 <attribute name="NAME" x="36.576" y="20.828" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="38.735" y="20.828" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED2" gate="&gt;NAME" x="-5.08" y="38.1" smashed="yes" rot="R270">
+<instance part="LED2" gate="G$1" x="-5.08" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="-9.652" y="34.544" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-9.652" y="32.385" size="1.778" layer="96"/>
 </instance>
@@ -1752,27 +1752,27 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="11.2014" y="29.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="16.002" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED3" gate="&gt;NAME" x="7.62" y="38.1" smashed="yes" rot="R270">
+<instance part="LED3" gate="G$1" x="7.62" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.048" y="34.544" size="1.778" layer="95"/>
 <attribute name="VALUE" x="3.048" y="32.385" size="1.778" layer="96"/>
 </instance>
-<instance part="LED4" gate="&gt;NAME" x="2.54" y="33.02" smashed="yes">
+<instance part="LED4" gate="G$1" x="2.54" y="33.02" smashed="yes">
 <attribute name="NAME" x="6.096" y="28.448" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="8.255" y="28.448" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED5" gate="&gt;NAME" x="-2.54" y="22.86" smashed="yes" rot="R180">
+<instance part="LED5" gate="G$1" x="-2.54" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="-6.096" y="27.432" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-8.255" y="27.432" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="LED6" gate="&gt;NAME" x="33.02" y="15.24" smashed="yes">
+<instance part="LED6" gate="G$1" x="33.02" y="15.24" smashed="yes">
 <attribute name="NAME" x="36.576" y="10.668" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="38.735" y="10.668" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED7" gate="&gt;NAME" x="33.02" y="5.08" smashed="yes">
+<instance part="LED7" gate="G$1" x="33.02" y="5.08" smashed="yes">
 <attribute name="NAME" x="36.576" y="0.508" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="38.735" y="0.508" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED8" gate="&gt;NAME" x="43.18" y="2.54" smashed="yes" rot="R180">
+<instance part="LED8" gate="G$1" x="43.18" y="2.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.624" y="7.112" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="37.465" y="7.112" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -1852,7 +1852,7 @@ Source: http://www.molex.com</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<pinref part="LED2" gate="&gt;NAME" pin="C"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="-20.32" y1="38.1" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1885,7 +1885,7 @@ Source: http://www.molex.com</description>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="&gt;NAME" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="33.02" y1="30.48" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1895,7 +1895,7 @@ Source: http://www.molex.com</description>
 <wire x1="43.18" y1="27.94" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="LED8" gate="&gt;NAME" pin="C"/>
+<pinref part="LED8" gate="G$1" pin="C"/>
 <wire x1="43.18" y1="7.62" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 <junction x="43.18" y="10.16"/>
 </segment>
@@ -1910,36 +1910,36 @@ Source: http://www.molex.com</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="LED3" gate="&gt;NAME" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="LED2" gate="&gt;NAME" pin="A"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="-2.54" y1="27.94" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="LED5" gate="&gt;NAME" pin="C"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="LED6" gate="&gt;NAME" pin="A"/>
-<pinref part="LED1" gate="&gt;NAME" pin="C"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="33.02" y1="17.78" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="LED6" gate="&gt;NAME" pin="C"/>
-<pinref part="LED7" gate="&gt;NAME" pin="A"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
+<pinref part="LED7" gate="G$1" pin="A"/>
 <wire x1="33.02" y1="10.16" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="LED7" gate="&gt;NAME" pin="C"/>
-<pinref part="LED8" gate="&gt;NAME" pin="A"/>
+<pinref part="LED7" gate="G$1" pin="C"/>
+<pinref part="LED8" gate="G$1" pin="A"/>
 <wire x1="33.02" y1="0" x2="43.18" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2111,17 +2111,17 @@ Source: http://www.molex.com</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="LED5" gate="&gt;NAME" pin="A"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
 <wire x1="-2.54" y1="20.32" x2="2.54" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="20.32" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="LED4" gate="&gt;NAME" pin="C"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="LED4" gate="&gt;NAME" pin="A"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
 <wire x1="2.54" y1="35.56" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="&gt;NAME" pin="C"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="RED" class="0">
