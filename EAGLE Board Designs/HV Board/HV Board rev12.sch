@@ -4133,6 +4133,10 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5k"/>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
 <part name="D6" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
+<part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k"/>
+<part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k"/>
+<part name="D7" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
+<part name="GND36" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5037,8 +5041,8 @@ corresponds to 60V on TS</text>
 <instance part="GND61" gate="1" x="106.68" y="-251.46" smashed="yes" rot="R90">
 <attribute name="VALUE" x="109.22" y="-254" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="FLIP1" gate="1" x="38.1" y="-401.32" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="38.1" y="-401.32" size="1.778" layer="96" rot="MR0"/>
+<instance part="FLIP1" gate="1" x="40.64" y="-403.86" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="40.64" y="-403.86" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C6" gate="G$1" x="68.58" y="-233.68" smashed="yes" rot="MR180">
 <attribute name="NAME" x="70.104" y="-231.521" size="1.778" layer="95" rot="MR180"/>
@@ -5065,6 +5069,21 @@ corresponds to 60V on TS</text>
 <instance part="D6" gate="1" x="116.84" y="-421.64" smashed="yes">
 <attribute name="NAME" x="113.03" y="-419.8874" size="1.778" layer="95"/>
 <attribute name="VALUE" x="107.95" y="-425.2214" size="1.778" layer="96"/>
+</instance>
+<instance part="R29" gate="G$1" x="27.94" y="-391.16" smashed="yes">
+<attribute name="NAME" x="24.13" y="-389.6614" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.13" y="-394.462" size="1.778" layer="96"/>
+</instance>
+<instance part="R31" gate="G$1" x="27.94" y="-398.78" smashed="yes">
+<attribute name="NAME" x="24.13" y="-397.2814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.13" y="-402.082" size="1.778" layer="96"/>
+</instance>
+<instance part="D7" gate="1" x="40.64" y="-391.16" smashed="yes">
+<attribute name="NAME" x="36.83" y="-389.4074" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.75" y="-394.7414" size="1.778" layer="96"/>
+</instance>
+<instance part="GND36" gate="1" x="17.78" y="-398.78" smashed="yes" rot="R270">
+<attribute name="VALUE" x="15.24" y="-396.24" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -5409,6 +5428,11 @@ corresponds to 60V on TS</text>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="GND62" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND36" gate="1" pin="GND"/>
+<wire x1="20.32" y1="-398.78" x2="22.86" y2="-398.78" width="0.1524" layer="91"/>
+<pinref part="R31" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
@@ -5640,7 +5664,7 @@ corresponds to 60V on TS</text>
 <segment>
 <pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="FLIP1" gate="1" pin="+5V"/>
-<wire x1="38.1" y1="-406.4" x2="38.1" y2="-403.86" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-406.4" x2="40.64" y2="-406.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="60V_THRESHOLD_SIGNAL" class="0">
@@ -5820,6 +5844,11 @@ corresponds to 60V on TS</text>
 <wire x1="33.02" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
 <label x="68.58" y="40.64" size="1.27" layer="95" xref="yes"/>
 <label x="33.02" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="-391.16" x2="20.32" y2="-391.16" width="0.1524" layer="91"/>
+<label x="20.32" y="-391.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV-FUSED_1A" class="1">
@@ -6809,6 +6838,28 @@ corresponds to 60V on TS</text>
 <pinref part="U$6" gate="G$1" pin="A6"/>
 <wire x1="91.44" y1="-264.16" x2="93.98" y2="-264.16" width="0.1524" layer="91"/>
 <label x="93.98" y="-264.16" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="OKHS_TEENSY" class="0">
+<segment>
+<wire x1="43.18" y1="-391.16" x2="45.72" y2="-391.16" width="0.1524" layer="91"/>
+<label x="45.72" y="-391.16" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="D7" gate="1" pin="C"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="A7"/>
+<wire x1="91.44" y1="-261.62" x2="93.98" y2="-261.62" width="0.1524" layer="91"/>
+<label x="93.98" y="-261.62" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<wire x1="33.02" y1="-398.78" x2="33.02" y2="-391.16" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-391.16" x2="35.56" y2="-391.16" width="0.1524" layer="91"/>
+<junction x="33.02" y="-391.16"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="D7" gate="1" pin="A"/>
 </segment>
 </net>
 </nets>
