@@ -4137,6 +4137,8 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k"/>
 <part name="D7" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
+<part name="R37" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k"/>
+<part name="GND63" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5085,6 +5087,13 @@ corresponds to 60V on TS</text>
 <instance part="GND36" gate="1" x="17.78" y="-398.78" smashed="yes" rot="R270">
 <attribute name="VALUE" x="15.24" y="-396.24" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="R37" gate="G$1" x="297.18" y="-81.28" smashed="yes">
+<attribute name="NAME" x="293.37" y="-79.7814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="293.37" y="-84.582" size="1.778" layer="96"/>
+</instance>
+<instance part="GND63" gate="1" x="307.34" y="-81.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="309.88" y="-83.82" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5433,6 +5442,11 @@ corresponds to 60V on TS</text>
 <wire x1="20.32" y1="-398.78" x2="22.86" y2="-398.78" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="GND63" gate="1" pin="GND"/>
+<wire x1="304.8" y1="-81.28" x2="302.26" y2="-81.28" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
@@ -5669,15 +5683,19 @@ corresponds to 60V on TS</text>
 </net>
 <net name="60V_THRESHOLD_SIGNAL" class="0">
 <segment>
-<label x="68.58" y="50.8" size="1.27" layer="95" xref="yes"/>
-<wire x1="33.02" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
+<label x="73.66" y="50.8" size="1.27" layer="95" xref="yes"/>
+<wire x1="33.02" y1="50.8" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="MAIN" gate="-1" pin="S"/>
 <label x="33.02" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="289.56" y1="-76.2" x2="292.1" y2="-76.2" width="0.1524" layer="91"/>
-<label x="292.1" y="-76.2" size="1.778" layer="95" font="vector" xref="yes"/>
+<label x="294.64" y="-76.2" size="1.778" layer="95" font="vector" xref="yes"/>
+<pinref part="R37" gate="G$1" pin="1"/>
+<wire x1="292.1" y1="-76.2" x2="294.64" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="-81.28" x2="292.1" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="292.1" y="-76.2"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
