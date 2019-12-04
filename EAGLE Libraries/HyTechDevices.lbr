@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19603,7 +19603,7 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </device>
 </devices>
 </deviceset>
-<deviceset name="NE5532">
+<deviceset name="OPAMP_2_CHANNEL">
 <description>TI NE5532 Dual Channel Op Amp</description>
 <gates>
 <gate name="G$1" symbol="OPAMP_2_CHANNEL" x="0" y="0"/>
