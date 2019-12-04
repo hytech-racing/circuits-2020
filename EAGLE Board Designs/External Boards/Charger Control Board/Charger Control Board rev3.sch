@@ -4198,16 +4198,6 @@ Source: http://www.molex.com</description>
 <label x="-43.18" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D6" gate="1" pin="C"/>
-<wire x1="-43.18" y1="5.08" x2="-50.8" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="5.08" x2="-43.18" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="COIL+"/>
-<wire x1="-43.18" y1="-7.62" x2="-45.72" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-43.18" y1="-7.62" x2="-40.64" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="-43.18" y="-7.62"/>
-</segment>
-<segment>
 <wire x1="124.46" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
 <label x="134.62" y="55.88" size="1.27" layer="95" xref="yes"/>
 <pinref part="MAIN" gate="-7" pin="S"/>
@@ -4553,6 +4543,18 @@ Source: http://www.molex.com</description>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="U$5" gate="G$1" pin="D8(TX3)"/>
 <wire x1="119.38" y1="-78.74" x2="121.92" y2="-78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BMS_OK_RELAY" class="0">
+<segment>
+<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="COIL+"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-45.72" y1="-7.62" x2="-43.18" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="D6" gate="1" pin="C"/>
+<wire x1="-43.18" y1="-7.62" x2="-40.64" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="5.08" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="5.08" x2="-43.18" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-43.18" y="-7.62"/>
 </segment>
 </net>
 </nets>
