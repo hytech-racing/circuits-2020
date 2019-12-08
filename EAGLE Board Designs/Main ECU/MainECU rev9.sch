@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8346,7 +8346,6 @@ CIRCUIT</text>
 </segment>
 <segment>
 <pinref part="U$46" gate="G$1" pin="VINA+"/>
-<wire x1="172.72" y1="220.98" x2="175.26" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="220.98" x2="170.18" y2="220.98" width="0.1524" layer="91"/>
 <label x="170.18" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8491,7 +8490,6 @@ CIRCUIT</text>
 <segment>
 <pinref part="J16" gate="G$1" pin="P$1"/>
 <label x="360.68" y="218.44" size="1.27" layer="95" xref="yes"/>
-<wire x1="355.6" y1="218.44" x2="358.14" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="218.44" x2="355.6" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10287,6 +10285,90 @@ only one per signal on
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,50.8,198.12,X5-26,S,,,,"/>
+<approved hash="101,1,50.8,177.8,X5-34,S,,,,"/>
+<approved hash="101,1,50.8,175.26,X5-35,S,,,,"/>
+<approved hash="102,3,200.66,91.44,VCC,+3V3,,,,"/>
+<approved hash="202,3,200.66,81.28,U$44,RESET,,,,"/>
+<approved hash="202,3,200.66,71.12,U$44,DTR/DI8,,,,"/>
+<approved hash="202,3,248.92,76.2,U$44,VREF,,,,"/>
+<approved hash="104,1,248.92,50.8,U$5,VCC,+12V,,,"/>
+<approved hash="208,1,228.6,254,+3V3,out,,,,"/>
+<approved hash="208,1,236.22,259.08,+3V3,sup,,,,"/>
+<approved hash="208,1,99.06,248.92,+3V3,sup,,,,"/>
+<approved hash="208,3,198.12,93.98,+3V3,sup,,,,"/>
+<approved hash="208,3,200.66,91.44,+3V3,sup,,,,"/>
+<approved hash="208,4,157.48,78.74,+3V3,sup,,,,"/>
+<approved hash="208,1,81.28,195.58,+5V,sup,,,,"/>
+<approved hash="208,1,104.14,254,+5V,sup,,,,"/>
+<approved hash="208,1,254,256.54,+5V,sup,,,,"/>
+<approved hash="208,1,180.34,254,+5V,out,,,,"/>
+<approved hash="208,1,187.96,259.08,+5V,sup,,,,"/>
+<approved hash="208,2,226.06,124.46,+5V,sup,,,,"/>
+<approved hash="208,2,104.14,124.46,+5V,sup,,,,"/>
+<approved hash="208,2,127,121.92,+5V,sup,,,,"/>
+<approved hash="208,2,60.96,129.54,+5V,sup,,,,"/>
+<approved hash="208,2,401.32,231.14,+5V,sup,,,,"/>
+<approved hash="208,2,210.82,93.98,+5V,sup,,,,"/>
+<approved hash="208,2,218.44,71.12,+5V,sup,,,,"/>
+<approved hash="208,2,50.8,76.2,+5V,sup,,,,"/>
+<approved hash="208,2,88.9,76.2,+5V,sup,,,,"/>
+<approved hash="208,3,317.5,129.54,+5V,sup,,,,"/>
+<approved hash="208,3,317.5,106.68,+5V,sup,,,,"/>
+<approved hash="208,3,132.08,256.54,+5V,sup,,,,"/>
+<approved hash="208,3,132.08,208.28,+5V,sup,,,,"/>
+<approved hash="208,3,238.76,246.38,+5V,sup,,,,"/>
+<approved hash="208,3,238.76,198.12,+5V,sup,,,,"/>
+<approved hash="208,3,292.1,205.74,+5V,sup,,,,"/>
+<approved hash="208,3,134.62,137.16,+5V,sup,,,,"/>
+<approved hash="208,3,195.58,228.6,+5V,sup,,,,"/>
+<approved hash="208,3,289.56,254,+5V,sup,,,,"/>
+<approved hash="208,3,73.66,129.54,+5V,sup,,,,"/>
+<approved hash="208,3,320.04,81.28,+5V,sup,,,,"/>
+<approved hash="208,4,281.94,185.42,+5V,sup,,,,"/>
+<approved hash="208,4,101.6,241.3,+5V,sup,,,,"/>
+<approved hash="208,4,50.8,243.84,+5V,sup,,,,"/>
+<approved hash="208,4,78.74,236.22,+5V,sup,,,,"/>
+<approved hash="208,4,144.78,208.28,+5V,sup,,,,"/>
+<approved hash="208,4,198.12,215.9,+5V,sup,,,,"/>
+<approved hash="208,4,144.78,243.84,+5V,sup,,,,"/>
+<approved hash="208,4,198.12,251.46,+5V,sup,,,,"/>
+<approved hash="208,4,78.74,190.5,+5V,sup,,,,"/>
+<approved hash="208,4,144.78,172.72,+5V,sup,,,,"/>
+<approved hash="208,4,198.12,180.34,+5V,sup,,,,"/>
+<approved hash="208,4,99.06,195.58,+5V,sup,,,,"/>
+<approved hash="208,4,342.9,248.92,+5V,sup,,,,"/>
+<approved hash="208,4,345.44,177.8,+5V,sup,,,,"/>
+<approved hash="208,4,124.46,124.46,+5V,sup,,,,"/>
+<approved hash="208,4,190.5,129.54,+5V,sup,,,,"/>
+<approved hash="208,4,190.5,78.74,+5V,sup,,,,"/>
+<approved hash="110,1,340.36,243.84,GND,N$89,,,,"/>
+<approved hash="110,1,340.36,243.84,GND,N$89,,,,"/>
+<approved hash="110,1,340.36,238.76,GND,N$91,,,,"/>
+<approved hash="110,1,340.36,238.76,GND,N$91,,,,"/>
+<approved hash="110,1,340.36,195.58,GND,N$94,,,,"/>
+<approved hash="110,1,340.36,195.58,GND,N$94,,,,"/>
+<approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
+<approved hash="113,1,61.7905,221.59,5AFUSE1,,,,,"/>
+<approved hash="113,1,112.205,248.92,U$15,,,,,"/>
+<approved hash="113,1,112.205,238.76,U$19,,,,,"/>
+<approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
+<approved hash="113,2,381,114.005,S2,,,,,"/>
+<approved hash="113,1,172.688,209.702,5ASHUTDOWNFUSE1,,,,,"/>
+<approved hash="113,1,172.976,217.83,5ABOARDFUSE1,,,,,"/>
+<approved hash="113,1,187.96,148.93,Q4,,,,,"/>
+<approved hash="113,1,182.88,100.67,Q5,,,,,"/>
+<approved hash="113,3,215.796,139.596,FRAME3,,,,,"/>
+<approved hash="113,3,264.16,250.406,U$47,,,,,"/>
+<approved hash="113,3,328.976,115.28,MTK3339_BREAKOUT1,,,,,"/>
+<approved hash="113,3,264.16,202.146,U$51,,,,,"/>
+<approved hash="113,4,215.796,139.596,FRAME4,,,,,"/>
+<approved hash="113,4,170.18,212.306,U$60,,,,,"/>
+<approved hash="113,4,170.18,247.866,U$57,,,,,"/>
+<approved hash="113,4,170.18,176.746,U$61,,,,,"/>
+<approved hash="113,1,112.205,243.84,3V3_TEST,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
