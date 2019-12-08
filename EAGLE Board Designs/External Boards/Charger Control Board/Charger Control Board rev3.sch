@@ -4554,6 +4554,9 @@ Source: http://www.molex.com</description>
 <wire x1="-124.46" y1="7.62" x2="-124.46" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="IMD_SHUTDOWN_RLY" gate="G$1" pin="COIL+"/>
 <wire x1="-124.46" y1="-5.08" x2="-127" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="-121.92" y1="-5.08" x2="-124.46" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-124.46" y="-5.08"/>
 </segment>
 </net>
 </nets>
