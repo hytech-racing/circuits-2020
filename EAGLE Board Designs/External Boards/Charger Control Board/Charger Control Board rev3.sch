@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -3324,7 +3324,7 @@ Source: http://www.molex.com</description>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+14" library="supply1" deviceset="+12V" device=""/>
 <part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="68"/>
-<part name="STATUS" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
+<part name="STATUS_3.2" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
 <part name="GND16" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="60"/>
 <part name="CAN_TERM_JMP" library="HyTechDevices" deviceset="M02" device="_SLIM" value="M02_SLIM"/>
@@ -3390,7 +3390,7 @@ Source: http://www.molex.com</description>
 <part name="C7" library="HyTechDevices" deviceset="CAP" device="0805" value=".1uF"/>
 <part name="GND14" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="68"/>
-<part name="STATUS1" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
+<part name="STATUS_3.5" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
 <part name="GND17" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND18" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
@@ -3504,7 +3504,7 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="115.57" y="-31.5214" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="-36.322" size="1.778" layer="96"/>
 </instance>
-<instance part="STATUS" gate="LED" x="104.14" y="-33.02" smashed="yes" rot="R270">
+<instance part="STATUS_3.2" gate="LED" x="104.14" y="-33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="99.568" y="-36.576" size="1.778" layer="95"/>
 <attribute name="VALUE" x="99.568" y="-38.735" size="1.778" layer="96"/>
 </instance>
@@ -3765,7 +3765,7 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="115.57" y="-77.2414" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="-82.042" size="1.778" layer="96"/>
 </instance>
-<instance part="STATUS1" gate="LED" x="104.14" y="-78.74" smashed="yes" rot="R270">
+<instance part="STATUS_3.5" gate="LED" x="104.14" y="-78.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="99.568" y="-82.296" size="1.778" layer="95"/>
 <attribute name="VALUE" x="99.568" y="-84.455" size="1.778" layer="96"/>
 </instance>
@@ -3823,7 +3823,7 @@ Source: http://www.molex.com</description>
 <wire x1="121.92" y1="-10.16" x2="101.6" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="STATUS" gate="LED" pin="C"/>
+<pinref part="STATUS_3.2" gate="LED" pin="C"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="99.06" y1="-33.02" x2="96.52" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
@@ -3928,7 +3928,7 @@ Source: http://www.molex.com</description>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="STATUS1" gate="LED" pin="C"/>
+<pinref part="STATUS_3.5" gate="LED" pin="C"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="99.06" y1="-78.74" x2="96.52" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
@@ -4142,7 +4142,7 @@ Source: http://www.molex.com</description>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="STATUS" gate="LED" pin="A"/>
+<pinref part="STATUS_3.2" gate="LED" pin="A"/>
 <wire x1="106.68" y1="-33.02" x2="109.22" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4525,7 +4525,7 @@ Source: http://www.molex.com</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="STATUS1" gate="LED" pin="A"/>
+<pinref part="STATUS_3.5" gate="LED" pin="A"/>
 <wire x1="106.68" y1="-78.74" x2="109.22" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
