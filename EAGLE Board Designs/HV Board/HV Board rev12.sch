@@ -4160,7 +4160,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <wire x1="124.46" y1="-218.44" x2="10.16" y2="-218.44" width="0.1524" layer="90"/>
 <wire x1="10.16" y1="-218.44" x2="10.16" y2="-195.58" width="0.1524" layer="90"/>
 <text x="10.16" y="-195.58" size="5.08" layer="90">AIR Power Distribution</text>
-<rectangle x1="165.1" y1="-431.8" x2="172.72" y2="63.5" layer="90"/>
+<rectangle x1="165.1" y1="-444.5" x2="172.72" y2="63.5" layer="90"/>
 <text x="160.02" y="83.82" size="12.7" layer="90" rot="R180">GLV</text>
 <text x="177.8" y="71.12" size="12.7" layer="90">TS</text>
 <wire x1="177.8" y1="55.88" x2="254" y2="55.88" width="0.1524" layer="90"/>
