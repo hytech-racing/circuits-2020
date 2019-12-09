@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -5134,7 +5134,6 @@ corresponds to 60V on TS</text>
 </segment>
 <segment>
 <wire x1="45.72" y1="-243.84" x2="48.26" y2="-243.84" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-236.22" x2="48.26" y2="-233.68" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="-236.22" x2="48.26" y2="-243.84" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -5192,10 +5191,11 @@ corresponds to 60V on TS</text>
 <pinref part="C17" gate="G$1" pin="2"/>
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="-231.14" x2="68.58" y2="-231.14" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-231.14" x2="55.88" y2="-231.14" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-231.14" x2="55.88" y2="-248.92" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-248.92" x2="58.42" y2="-248.92" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-231.14" x2="53.34" y2="-231.14" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-231.14" x2="53.34" y2="-248.92" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-248.92" x2="58.42" y2="-248.92" width="0.1524" layer="91"/>
 <junction x="58.42" y="-248.92"/>
+<junction x="58.42" y="-231.14"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -6241,16 +6241,6 @@ corresponds to 60V on TS</text>
 <pinref part="U3" gate="G$1" pin="CLK"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="145.22" y1="-287.07455625" x2="145.21690625" y2="-287.07455625" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="145.22" y1="-307.320978125" x2="145.24205" y2="-307.320978125" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SCK_5V" class="0">
 <segment>
 <wire x1="109.22" y1="-396.24" x2="111.76" y2="-396.24" width="0.1524" layer="91"/>
@@ -6833,6 +6823,37 @@ corresponds to 60V on TS</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,127,35.56,IMD-6,S,,,,"/>
+<approved hash="208,1,129.54,-43.18,+5V,out,,,,"/>
+<approved hash="208,1,142.24,-43.18,+5V,sup,,,,"/>
+<approved hash="208,1,111.76,-33.02,+5V,sup,,,,"/>
+<approved hash="208,1,73.66,-320.04,+5V,sup,,,,"/>
+<approved hash="208,1,88.9,-309.88,+5V,sup,,,,"/>
+<approved hash="208,1,60.96,-251.46,+5V,sup,,,,"/>
+<approved hash="208,1,99.06,-248.92,+5V,sup,,,,"/>
+<approved hash="208,1,124.46,-266.7,+5V,sup,,,,"/>
+<approved hash="208,1,48.26,-297.18,+5V,sup,,,,"/>
+<approved hash="208,1,45.72,-320.04,+5V,sup,,,,"/>
+<approved hash="208,1,35.56,-139.7,+5V,sup,,,,"/>
+<approved hash="208,1,45.72,-91.44,+5V,sup,,,,"/>
+<approved hash="208,1,137.16,-350.52,+5V,sup,,,,"/>
+<approved hash="208,1,124.46,-388.62,+5V,sup,,,,"/>
+<approved hash="208,1,81.28,-86.36,+5V,sup,,,,"/>
+<approved hash="208,1,68.58,-419.1,+5V,sup,,,,"/>
+<approved hash="208,1,35.56,-162.56,+5V,sup,,,,"/>
+<approved hash="208,1,106.68,-170.18,+5V,sup,,,,"/>
+<approved hash="208,1,66.04,-175.26,+5V,sup,,,,"/>
+<approved hash="208,1,30.48,-121.92,+5V,sup,,,,"/>
+<approved hash="208,1,66.04,-116.84,+5V,sup,,,,"/>
+<approved hash="208,1,106.68,-147.32,+5V,sup,,,,"/>
+<approved hash="208,1,66.04,-152.4,+5V,sup,,,,"/>
+<approved hash="208,1,292.1,-63.5,+5V,sup,,,,"/>
+<approved hash="208,1,38.1,-403.86,+5V,sup,,,,"/>
+<approved hash="113,1,266.692,-10.46,U15,,,,,"/>
+<approved hash="113,1,284.48,-93.6396,Q1,,,,,"/>
+<approved hash="113,1,284.48,-70.7796,Q2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
