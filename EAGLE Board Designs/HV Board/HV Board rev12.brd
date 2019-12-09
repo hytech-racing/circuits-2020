@@ -55,7 +55,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -2798,8 +2798,8 @@ IMD+</text>
 <circle x="6.4008" y="59.2328" radius="3" width="0.127" layer="41"/>
 <circle x="57.658" y="5.588" radius="3" width="0.127" layer="41"/>
 <circle x="110.998" y="5.588" radius="3" width="0.127" layer="41"/>
-<dimension x1="0" y1="71.374" x2="117.856" y2="71.374" x3="58.928" y3="73.406" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="0" x2="0" y2="71.374" x3="-2.286" y3="35.687" textsize="1.778" layer="47"/>
+<dimension x1="0" y1="71.374" x2="117.856" y2="71.374" x3="58.928" y3="73.406" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="71.374" x3="-2.286" y3="35.687" textsize="1.778" layer="47" unit="inch"/>
 <text x="93.345" y="62.738" size="1.524" layer="51" font="vector" align="center">DISCHARGE+</text>
 <wire x1="52.324" y1="15.24" x2="62.23" y2="15.24" width="0.8128" layer="51"/>
 <wire x1="62.23" y1="8.89" x2="62.23" y2="15.24" width="0.8128" layer="51"/>
