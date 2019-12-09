@@ -2923,11 +2923,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="GND4" gate="1" x="86.36" y="58.42" smashed="yes" rot="R270">
 <attribute name="VALUE" x="83.82" y="60.96" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+2" gate="1" x="17.78" y="55.88" smashed="yes" rot="R270">
-<attribute name="VALUE" x="10.16" y="55.88" size="1.778" layer="96"/>
+<instance part="P+2" gate="1" x="22.86" y="55.88" smashed="yes" rot="R270">
+<attribute name="VALUE" x="15.24" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="17.78" y="50.8" smashed="yes" rot="R270">
-<attribute name="VALUE" x="10.16" y="50.8" size="1.778" layer="96"/>
+<instance part="P+3" gate="1" x="22.86" y="50.8" smashed="yes" rot="R270">
+<attribute name="VALUE" x="15.24" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="U$3" gate="G$1" x="81.28" y="7.62" smashed="yes">
 <attribute name="NAME" x="81.915" y="9.525" size="1.778" layer="95"/>
@@ -4453,6 +4453,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="15.24" y1="43.18" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="14"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="19"/>
+<pinref part="P+2" gate="1" pin="+12V"/>
+<wire x1="10.16" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="1" pin="+12V"/>
+<pinref part="U$4" gate="G$1" pin="17"/>
+<wire x1="20.32" y1="50.8" x2="10.16" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -4470,14 +4480,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="U$1" gate="G$1" pin="D3(CANTX)"/>
 </segment>
 </net>
-<net name="WS1_IN" class="0">
-<segment>
-<wire x1="10.16" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
-<label x="22.86" y="55.88" size="1.778" layer="95"/>
-<pinref part="P+2" gate="1" pin="+12V"/>
-<pinref part="U$4" gate="G$1" pin="19"/>
-</segment>
-</net>
 <net name="WS1_OUT" class="0">
 <segment>
 <wire x1="10.16" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
@@ -4490,14 +4492,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <label x="71.12" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="71.12" y1="2.54" x2="71.12" y2="0" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="WS2_IN" class="0">
-<segment>
-<wire x1="10.16" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
-<label x="22.86" y="50.8" size="1.778" layer="95"/>
-<pinref part="P+3" gate="1" pin="+12V"/>
-<pinref part="U$4" gate="G$1" pin="17"/>
 </segment>
 </net>
 <net name="WS2_OUT" class="0">
