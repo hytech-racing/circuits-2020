@@ -24,17 +24,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="3" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -48,19 +48,19 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2796,8 +2796,8 @@ IMD+</text>
 <text x="40.64" y="64.77" size="2.032" layer="51" font="vector" rot="R270" align="bottom-center">GLV</text>
 <text x="40.64" y="64.77" size="2.032" layer="52" font="vector" rot="MR90" align="bottom-center">GLV</text>
 <circle x="6.4008" y="59.2328" radius="3" width="0.127" layer="41"/>
-<circle x="57.658" y="5.08" radius="3" width="0.127" layer="41"/>
-<circle x="110.998" y="5.08" radius="3" width="0.127" layer="41"/>
+<circle x="57.658" y="5.588" radius="3" width="0.127" layer="41"/>
+<circle x="110.998" y="5.588" radius="3" width="0.127" layer="41"/>
 <dimension x1="0" y1="71.374" x2="117.856" y2="71.374" x3="58.928" y3="73.406" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="0" x2="0" y2="71.374" x3="-2.286" y3="35.687" textsize="1.778" layer="47"/>
 <text x="93.345" y="62.738" size="1.524" layer="51" font="vector" align="center">DISCHARGE+</text>
@@ -3616,7 +3616,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.989" y="10.668" size="0.762" layer="26" rot="MR270" align="top-center"/>
 </element>
 <element name="CURRENT1" library="HyTechDevices" package="NANO-FIT_VERTICAL-4" value="CURRENT" x="43.18" y="45.593" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.18" y="49.276" size="1.524" layer="25" font="vector" ratio="10" rot="R180" align="top-center"/>
+<attribute name="NAME" x="43.18" y="49.911" size="1.524" layer="25" font="vector" ratio="10" rot="R180" align="top-center"/>
 </element>
 <element name="U11" library="HyTechDevices" package="HM2102NLT" value="HM2102NLT" x="26.67" y="58.42" smashed="yes" rot="R90"/>
 <element name="R20" library="HyTechDevices" package="0603-RES" value="100" x="32.258" y="63.5" smashed="yes" rot="R180">
@@ -3644,7 +3644,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.006" y="47.498" size="0.762" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
 <element name="MAIN" library="HyTechDevices" package="NANO-FIT_VERTICAL-10" value="MAIN" x="19.177" y="27.813" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.257" y="27.813" size="1.524" layer="25" font="vector" ratio="10" rot="R90" align="top-center"/>
+<attribute name="NAME" x="23.876" y="27.813" size="1.524" layer="25" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="IMD" library="HyTechDevices" package="NANO-FIT_VERTICAL-6" value="IMD" x="5.3848" y="39.243" smashed="yes" rot="R270"/>
 <element name="U8" library="HyTechDevices" package="SOT-23-5" value="SN74LVC1G08" x="35.433" y="14.6304" smashed="yes" rot="MR270">
@@ -3812,12 +3812,12 @@ design rules under a new name.</description>
 <element name="C11" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="43.434" y="35.433" smashed="yes" rot="MR90">
 <attribute name="NAME" x="42.8371" y="35.433" size="0.762" layer="26" rot="MR270" align="bottom-center"/>
 </element>
-<element name="Q1" library="HyTechDevices" package="SOT23" value="" x="78.74" y="24.13" smashed="yes" rot="MR90">
+<element name="Q1" library="HyTechDevices" package="SOT23" value="DMG3406L" x="78.74" y="24.13" smashed="yes" rot="MR90">
 <attribute name="NAME" x="78.74" y="22.5552" size="0.762" layer="26" rot="MR0" align="top-center"/>
 <attribute name="VALUE" x="79.629" y="25.527" size="0.3048" layer="28" rot="MR90" align="bottom-center"/>
 </element>
 <element name="INDICATOR" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="INDICATOR" x="93.98" y="26.416" smashed="yes"/>
-<element name="Q2" library="HyTechDevices" package="SOT23" value="" x="48.26" y="6.35" smashed="yes" rot="MR270">
+<element name="Q2" library="HyTechDevices" package="SOT23" value="DMG3406L" x="48.26" y="6.35" smashed="yes" rot="MR270">
 <attribute name="NAME" x="48.26" y="8.001" size="0.762" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="47.371" y="4.953" size="0.3048" layer="28" rot="MR270" align="bottom-center"/>
 </element>
@@ -4027,7 +4027,17 @@ design rules under a new name.</description>
 <wire x1="14.097" y1="43.18" x2="13.589" y2="43.18" width="0.3048" layer="16"/>
 <wire x1="13.589" y1="43.18" x2="13.586" y2="43.183" width="0.3048" layer="16"/>
 <wire x1="13.586" y1="43.183" x2="13.586" y2="43.959" width="0.3048" layer="16"/>
-<wire x1="50.077" y1="3.81" x2="51.689" y2="8.509" width="0" layer="19" extent="16-16"/>
+<wire x1="50.077" y1="3.81" x2="50.0634" y2="3.7964" width="0.3048" layer="16"/>
+<wire x1="50.0634" y1="3.7964" x2="48.7696375" y2="3.7964" width="0.3048" layer="16"/>
+<via x="48.7696375" y="3.7964" extent="1-16" drill="0.35"/>
+<wire x1="48.7696375" y1="3.7964" x2="48.7696375" y2="3.58940625" width="0.3048" layer="1"/>
+<polygon width="0.3048" layer="1">
+<vertex x="45.72" y="1.27"/>
+<vertex x="50.8" y="1.27"/>
+<vertex x="50.8" y="8.89"/>
+<vertex x="43.18" y="8.89"/>
+<vertex x="43.18" y="1.27"/>
+</polygon>
 </signal>
 <signal name="+12V">
 <contactref element="U2" pad="1"/>
@@ -4402,13 +4412,13 @@ design rules under a new name.</description>
 <via x="50.927" y="1.6482" extent="1-16" drill="0.65"/>
 <wire x1="35.676" y1="29.337" x2="35.676" y2="30.353" width="0.6096" layer="16"/>
 <wire x1="35.676" y1="30.353" x2="34.6052" y2="31.4238" width="0.6096" layer="16"/>
-<wire x1="50.809" y1="40.64" x2="50.809" y2="9.407" width="0.6096" layer="16"/>
-<wire x1="50.809" y1="9.407" x2="50.165" y2="8.763" width="0.6096" layer="16"/>
-<via x="50.165" y="8.763" extent="1-16" drill="0.65"/>
-<wire x1="50.165" y1="8.763" x2="50.292" y2="8.636" width="0.6096" layer="1"/>
-<wire x1="50.292" y1="8.636" x2="50.292" y2="2.1562" width="0.6096" layer="1"/>
+<wire x1="50.809" y1="40.64" x2="50.809" y2="9.28" width="0.6096" layer="16"/>
+<wire x1="50.809" y1="9.28" x2="50.673" y2="9.144" width="0.6096" layer="16"/>
+<via x="50.673" y="9.144" extent="1-16" drill="0.65"/>
+<wire x1="50.673" y1="9.144" x2="50.546" y2="9.017" width="0.6096" layer="1"/>
+<wire x1="50.546" y1="9.017" x2="50.546" y2="1.9022" width="0.6096" layer="1"/>
 <wire x1="50.8" y1="1.6482" x2="50.927" y2="1.6482" width="0.6096" layer="1"/>
-<wire x1="50.8" y1="1.6482" x2="50.292" y2="2.1562" width="0.6096" layer="1"/>
+<wire x1="50.8" y1="1.6482" x2="50.546" y2="1.9022" width="0.6096" layer="1"/>
 <wire x1="27.725" y1="27.432" x2="29.63" y2="29.337" width="0.3048" layer="16"/>
 <wire x1="29.63" y1="29.337" x2="35.676" y2="29.337" width="0.3048" layer="16"/>
 <wire x1="110.155" y1="39.85" x2="111.171" y2="39.85" width="0.6096" layer="16"/>
@@ -5740,58 +5750,58 @@ design rules under a new name.</description>
 <approved hash="4,16,fa0f167eee5341d4"/>
 <approved hash="4,16,9b4c10baf290b596"/>
 <approved hash="5,16,e0a3aa5bf3684cb2"/>
-<approved hash="5,1,eeac2f778e28d79a"/>
-<approved hash="5,1,836dc5f6f32ca90b"/>
-<approved hash="5,1,427be80f7205127e"/>
-<approved hash="5,1,f56aebf71d954aa4"/>
-<approved hash="5,1,5abd623f945ca512"/>
-<approved hash="5,1,8f18297aee8f2513"/>
-<approved hash="5,1,fd84947fb48cef7b"/>
-<approved hash="5,1,c8486b2e3cee1784"/>
-<approved hash="5,1,07eca139fa96fb26"/>
-<approved hash="5,1,4a3ee122a69b120b"/>
-<approved hash="5,1,cba3846d0a50da72"/>
-<approved hash="5,1,58c3e778af0b0f3c"/>
-<approved hash="5,1,8611b54580f0f3c6"/>
-<approved hash="5,1,91baf0d72f8e9165"/>
-<approved hash="5,1,dfb8665ea31e0574"/>
-<approved hash="5,1,d338b201fc4f42f0"/>
-<approved hash="5,1,d3776638a31409d7"/>
-<approved hash="5,1,95bae62dbc1b100a"/>
-<approved hash="5,1,21f9d9b6d8ee67c7"/>
-<approved hash="5,1,084503fd581b9bbe"/>
-<approved hash="5,1,c1f0829719c8c543"/>
-<approved hash="5,1,55f8eca19482be6a"/>
-<approved hash="5,1,476304653fcd8aa6"/>
-<approved hash="5,1,1f1e4cfd14a24732"/>
-<approved hash="5,1,99dd67d7f15c80db"/>
-<approved hash="5,1,55f8eca19482be6a"/>
-<approved hash="5,1,afaef395a5c1f989"/>
-<approved hash="5,1,7bc8f5163f3d304e"/>
-<approved hash="5,1,c8759061e1bef9c8"/>
-<approved hash="5,16,e877f9bd4e173311"/>
-<approved hash="5,16,39651a033a99f139"/>
-<approved hash="5,16,e70be03c6d0306f8"/>
-<approved hash="5,16,3bb2f066fe11dfed"/>
-<approved hash="5,16,2d48a43a707a300c"/>
-<approved hash="5,16,6afb90fb3393c499"/>
-<approved hash="5,16,394c27c4d1f318e7"/>
-<approved hash="5,16,5245fe0d16dada1a"/>
-<approved hash="5,16,267cb288479b1a6b"/>
-<approved hash="5,16,a28e3c96f04466b8"/>
-<approved hash="5,16,e12b2f5e39ea1dd9"/>
-<approved hash="5,16,c7cb987704eab390"/>
-<approved hash="5,16,5426f89d2e81f8e0"/>
-<approved hash="5,16,e9be3c0f2ce13b8e"/>
-<approved hash="5,16,4710a1aa6ceef3c3"/>
-<approved hash="5,16,a01476e62063dcee"/>
-<approved hash="5,1,ed3c1312b28f26a4"/>
-<approved hash="5,1,d8501022b69f14e8"/>
-<approved hash="5,1,7a4620209e38398c"/>
-<approved hash="5,1,c3a03db073ae4c7d"/>
-<approved hash="5,1,437ff380f2a242c6"/>
-<approved hash="5,1,c57417c2b9ef015c"/>
-<approved hash="5,1,577e0aa8b5103d6c"/>
+<approved hash="5,1,f75a1ed7549c3712"/>
+<approved hash="5,1,dac673b57ff94bea"/>
+<approved hash="5,1,548748d4d5063f04"/>
+<approved hash="5,1,f37ad249f20c129c"/>
+<approved hash="5,1,964526b30af51967"/>
+<approved hash="5,1,83f5119d9b87d3b8"/>
+<approved hash="5,1,1626737c0599759e"/>
+<approved hash="5,1,bf98d275655c3748"/>
+<approved hash="5,1,80ce3195212c2ae1"/>
+<approved hash="5,1,63e9d1a512b2b5af"/>
+<approved hash="5,1,16eda1b6366a7b6d"/>
+<approved hash="5,1,9ab46ac839125fd6"/>
+<approved hash="5,1,efb08101f83ee5b1"/>
+<approved hash="5,1,05c5c275f24235cb"/>
+<approved hash="5,1,c9af8191f3e489c8"/>
+<approved hash="5,1,73346482eb0f9137"/>
+<approved hash="5,1,cdf584f0f61089e6"/>
+<approved hash="5,1,ed6fe20444ce47c0"/>
+<approved hash="5,1,9f280d8aa143aed0"/>
+<approved hash="5,1,d6619dc65efe823b"/>
+<approved hash="5,1,cf958783f5c8880e"/>
+<approved hash="5,1,ed6fe20444ce47c0"/>
+<approved hash="5,1,79929a95ad212f4f"/>
+<approved hash="5,1,43cd04e0d304a12c"/>
+<approved hash="5,1,78bb92add8cfe53b"/>
+<approved hash="5,1,3988d0353791b090"/>
+<approved hash="5,1,6c56779fe6148c63"/>
+<approved hash="5,1,cd2f8430f6948938"/>
+<approved hash="5,1,951f8208081257ba"/>
+<approved hash="5,16,197aaf9b838e7d52"/>
+<approved hash="5,16,1028eb40c1899ebe"/>
+<approved hash="5,16,7b815cb30ccda2d9"/>
+<approved hash="5,16,f525ff063ab568f4"/>
+<approved hash="5,16,faad9dd96e0379a9"/>
+<approved hash="5,16,2281e6371bf283c6"/>
+<approved hash="5,16,57673c49b698ca07"/>
+<approved hash="5,16,a05a1d5763d4d4c9"/>
+<approved hash="5,16,59294c234875496a"/>
+<approved hash="5,16,eee388e27c35fa9a"/>
+<approved hash="5,16,242e0766e30f9d01"/>
+<approved hash="5,16,bba155363a212bef"/>
+<approved hash="5,16,d568db8421533c02"/>
+<approved hash="5,16,e191a33618b13acb"/>
+<approved hash="5,16,578a1d98da706876"/>
+<approved hash="5,16,546635200e11c6c1"/>
+<approved hash="5,1,f9bf7e34ed2ba6f0"/>
+<approved hash="5,1,9841e67d78ce4738"/>
+<approved hash="5,1,71c927b8ea644c5e"/>
+<approved hash="5,1,d317541ce9fb8b08"/>
+<approved hash="5,1,15c537585e0b44ed"/>
+<approved hash="5,1,1abd2e9443874035"/>
+<approved hash="5,1,25a525c073e3470d"/>
 </errors>
 </board>
 </drawing>

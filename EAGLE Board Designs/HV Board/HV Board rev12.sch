@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -4110,9 +4110,9 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="P+29" library="supply1" deviceset="+5V" device=""/>
 <part name="C11" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
+<part name="Q1" library="HyTechDevices" deviceset="DMG3406L" device="SOT" value="DMG3406L"/>
 <part name="INDICATOR" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="INDICATOR"/>
-<part name="Q2" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
+<part name="Q2" library="HyTechDevices" deviceset="DMG3406L" device="SOT" value="DMG3406L"/>
 <part name="P+19" library="supply1" deviceset="+5V" device=""/>
 <part name="U16" library="HyTechDevices" deviceset="UCC21520A" device=""/>
 <part name="P+30" library="supply1" deviceset="+12V" device=""/>
@@ -4983,7 +4983,7 @@ corresponds to 60V on TS</text>
 </instance>
 <instance part="Q1" gate="G$1" x="284.48" y="-93.98" smashed="yes">
 <attribute name="NAME" x="280.67" y="-91.44" size="1.778" layer="95"/>
-<attribute name="VALUE" x="280.67" y="-101.6" size="1.778" layer="95"/>
+<attribute name="VALUE" x="288.29" y="-93.98" size="1.778" layer="95"/>
 </instance>
 <instance part="INDICATOR" gate="-2" x="299.72" y="-91.44" smashed="yes">
 <attribute name="NAME" x="302.26" y="-92.202" size="1.524" layer="95"/>
@@ -4994,7 +4994,7 @@ corresponds to 60V on TS</text>
 </instance>
 <instance part="Q2" gate="G$1" x="284.48" y="-71.12" smashed="yes">
 <attribute name="NAME" x="280.67" y="-68.58" size="1.778" layer="95"/>
-<attribute name="VALUE" x="280.67" y="-78.74" size="1.778" layer="95"/>
+<attribute name="VALUE" x="288.29" y="-71.12" size="1.778" layer="95"/>
 </instance>
 <instance part="P+19" gate="1" x="292.1" y="-60.96" smashed="yes">
 <attribute name="VALUE" x="289.56" y="-66.04" size="1.778" layer="96" rot="R90"/>
