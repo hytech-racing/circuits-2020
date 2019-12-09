@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -192,7 +192,7 @@
 <text x="47.752" y="-23.368" size="2.54" layer="51" font="vector" align="center">Mode A</text>
 <text x="47.752" y="-5.08" size="2.1844" layer="51" font="vector" align="center">Warning: Only install Mode A or Mode B connectors
 DO NOT MIX</text>
-<text x="12.192" y="126.746" size="1.524" layer="51" font="vector" rot="R270" align="bottom-center">BMS Cell Charging Adapter 2020 rev1
+<text x="12.192" y="126.746" size="1.778" layer="51" font="vector" rot="R270" align="bottom-center">BMS Cell Charging Adapter 2020 rev1
 Designed by Mohammed Arif</text>
 <rectangle x1="102.87" y1="98.3996" x2="105.6132" y2="98.552" layer="51" rot="R90"/>
 <rectangle x1="102.6414" y1="104.7242" x2="105.8418" y2="104.8766" layer="51" rot="R90"/>
@@ -4920,61 +4920,61 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="CELL9" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="29" y="113.46" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.396" y="113.46" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="22.396" y="113.46" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL8" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="79" y="109.83" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.396" y="109.83" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="72.396" y="109.83" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL7" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="29" y="86.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.396" y="86.81" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="22.396" y="86.81" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL6" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="79" y="83.19" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.396" y="83.19" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="72.396" y="83.19" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL4" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="79" y="56.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.396" y="56.54" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="72.396" y="56.54" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL5" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="29" y="60.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.396" y="60.16" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="22.396" y="60.16" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL3" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="29" y="33.52" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.396" y="33.52" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="22.396" y="33.52" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL2" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="79" y="29.89" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.396" y="29.89" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="72.396" y="29.89" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL1" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="29" y="5.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.396" y="5.04" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="22.396" y="5.04" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL0" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="75.66" y="5.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.056" y="5.04" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="70.326" y="5.04" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL18" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="75.66" y="240.93" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.056" y="240.93" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="69.056" y="240.93" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL17" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="29" y="220.05" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.396" y="220.05" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="22.396" y="220.05" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL16" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="79" y="216.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.396" y="216.42" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="72.396" y="216.42" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL15" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="29" y="193.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.396" y="193.4" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="22.396" y="193.4" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL13" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="29" y="166.75" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.396" y="166.75" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="22.396" y="166.75" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL14" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="79" y="189.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.396" y="189.78" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="72.396" y="189.78" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL12" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="79" y="163.13" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.396" y="163.13" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="72.396" y="163.13" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL11" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="29" y="140.11" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.396" y="140.11" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="22.396" y="140.11" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="CELL10" library="HyTechDevices" package="KEYSTONE5203" value="BATTERY_SPRING" x="79" y="136.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.396" y="136.48" size="0.508" layer="25" rot="R270" align="top-center"/>
+<attribute name="NAME" x="72.396" y="136.48" size="1.778" layer="25" rot="R270" align="top-center"/>
 </element>
 <element name="X1" library="HyTechDevices" package="MINIFIT_5566-10" value="CONNECTOR-10" x="48.027" y="-15.24" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="48.027" y="-15.24" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4995,22 +4995,21 @@ design rules under a new name.</description>
 <signal name="CELL1">
 <contactref element="CELL1" pad="P$1"/>
 <contactref element="X1" pad="2"/>
-<wire x1="43.18" y1="-9.144" x2="43.18" y2="-11.843" width="0.4064" layer="1"/>
-<wire x1="43.827" y1="-12.49" x2="43.18" y2="-11.843" width="0.4064" layer="1"/>
-<wire x1="29.464" y1="4.572" x2="43.18" y2="-9.144" width="0.4064" layer="1"/>
+<wire x1="29.464" y1="4.572" x2="43.827" y2="-9.791" width="0.4064" layer="1"/>
 <wire x1="29.464" y1="4.572" x2="29" y2="5.04" width="0.4064" layer="1"/>
+<wire x1="43.827" y1="-9.791" x2="43.827" y2="-12.49" width="0.4064" layer="1"/>
 </signal>
 <signal name="CELL2">
 <contactref element="CELL2" pad="P$1"/>
 <contactref element="X1" pad="3"/>
 <wire x1="60.96" y1="11.684" x2="78.74" y2="29.464" width="0.4064" layer="1"/>
 <wire x1="78.74" y1="29.464" x2="79" y2="29.89" width="0.4064" layer="1"/>
-<wire x1="48.027" y1="-12.49" x2="48.027" y2="-14.224" width="0.4064" layer="1"/>
 <wire x1="54.864" y1="-13.208" x2="54.864" y2="-10.16" width="0.4064" layer="1"/>
-<wire x1="48.027" y1="-14.224" x2="53.848" y2="-14.224" width="0.4064" layer="1"/>
 <wire x1="54.864" y1="-10.16" x2="60.96" y2="-4.064" width="0.4064" layer="1"/>
 <wire x1="60.96" y1="-4.064" x2="60.96" y2="11.684" width="0.4064" layer="1"/>
 <wire x1="53.848" y1="-14.224" x2="54.864" y2="-13.208" width="0.4064" layer="1"/>
+<wire x1="48.027" y1="-12.49" x2="49.761" y2="-14.224" width="0.4064" layer="1"/>
+<wire x1="49.761" y1="-14.224" x2="53.848" y2="-14.224" width="0.4064" layer="1"/>
 </signal>
 <signal name="CELL3">
 <contactref element="CELL3" pad="P$1"/>
@@ -5027,12 +5026,12 @@ design rules under a new name.</description>
 <contactref element="X1" pad="5"/>
 <wire x1="84.328" y1="24.892" x2="84.328" y2="51.308" width="0.4064" layer="1"/>
 <wire x1="79.248" y1="56.388" x2="84.328" y2="51.308" width="0.4064" layer="1"/>
-<wire x1="56.427" y1="-12.49" x2="63.5" y2="-3.5588375" width="0.4064" layer="1"/>
 <wire x1="79.248" y1="56.388" x2="79" y2="56.54" width="0.4064" layer="1"/>
 <wire x1="82.804" y1="23.368" x2="84.328" y2="24.892" width="0.4064" layer="1"/>
-<wire x1="63.5" y1="-3.5588375" x2="63.5" y2="11.684" width="0.4064" layer="1"/>
 <wire x1="63.5" y1="11.684" x2="75.184" y2="23.368" width="0.4064" layer="1"/>
 <wire x1="75.184" y1="23.368" x2="82.804" y2="23.368" width="0.4064" layer="1"/>
+<wire x1="56.427" y1="-12.49" x2="63.5" y2="-5.417" width="0.4064" layer="1"/>
+<wire x1="63.5" y1="-5.417" x2="63.5" y2="11.684" width="0.4064" layer="1"/>
 </signal>
 <signal name="CELL5">
 <contactref element="CELL5" pad="P$1"/>
@@ -5045,14 +5044,14 @@ design rules under a new name.</description>
 <signal name="CELL6">
 <contactref element="CELL6" pad="P$1"/>
 <contactref element="X1" pad="7"/>
-<wire x1="85.344" y1="24.384" x2="85.344" y2="76.708" width="0.4064" layer="1"/>
+<wire x1="85.344" y1="24.13" x2="85.344" y2="76.708" width="0.4064" layer="1"/>
 <wire x1="79.248" y1="82.804" x2="85.344" y2="76.708" width="0.4064" layer="1"/>
 <wire x1="79.248" y1="82.804" x2="79" y2="83.19" width="0.4064" layer="1"/>
 <wire x1="65.024" y1="-10.16" x2="65.024" y2="11.176" width="0.4064" layer="1"/>
 <wire x1="65.024" y1="11.176" x2="76.2" y2="22.352" width="0.4064" layer="1"/>
-<wire x1="76.2" y1="22.352" x2="83.22484375" y2="22.352" width="0.4064" layer="1"/>
-<wire x1="85.25684375" y1="24.384" x2="85.344" y2="24.384" width="0.4064" layer="1"/>
-<wire x1="83.22484375" y1="22.352" x2="85.25684375" y2="24.384" width="0.4064" layer="1"/>
+<wire x1="76.2" y1="22.352" x2="83.60584375" y2="22.352" width="0.4064" layer="1"/>
+<wire x1="85.38384375" y1="24.13" x2="85.344" y2="24.13" width="0.4064" layer="1"/>
+<wire x1="83.60584375" y1="22.352" x2="85.38384375" y2="24.13" width="0.4064" layer="1"/>
 <wire x1="59.0568" y1="-16.1272" x2="65.024" y2="-10.16" width="0.4064" layer="1"/>
 <wire x1="43.827" y1="-17.99" x2="46.157" y2="-20.32" width="0.4064" layer="1"/>
 <wire x1="48.768" y1="-20.32" x2="49.784" y2="-19.304" width="0.4064" layer="1"/>
@@ -5081,43 +5080,42 @@ design rules under a new name.</description>
 <wire x1="79.248" y1="109.728" x2="87.376" y2="101.6" width="0.4064" layer="1"/>
 <wire x1="52.227" y1="-17.99" x2="54.557" y2="-20.32" width="0.4064" layer="1"/>
 <wire x1="79.248" y1="109.728" x2="79" y2="109.83" width="0.4064" layer="1"/>
-<wire x1="68.072" y1="-10.16" x2="68.072" y2="10.75515625" width="0.4064" layer="1"/>
 <wire x1="68.072" y1="10.75515625" x2="77.63684375" y2="20.32" width="0.4064" layer="1"/>
 <wire x1="77.63684375" y1="20.32" x2="84.328" y2="20.32" width="0.4064" layer="1"/>
 <wire x1="84.328" y1="20.32" x2="87.376" y2="23.368" width="0.4064" layer="1"/>
-<wire x1="54.557" y1="-20.32" x2="57.912" y2="-20.32" width="0.4064" layer="1"/>
-<wire x1="57.912" y1="-20.32" x2="68.072" y2="-10.16" width="0.4064" layer="1"/>
+<wire x1="58.42" y1="-20.32" x2="68.072" y2="-10.668" width="0.4064" layer="1"/>
+<wire x1="54.557" y1="-20.32" x2="58.42" y2="-20.32" width="0.4064" layer="1"/>
+<wire x1="68.072" y1="-10.668" x2="68.072" y2="-10.16" width="0.4064" layer="1"/>
+<wire x1="68.072" y1="-10.16" x2="68.072" y2="10.75515625" width="0.4064" layer="1"/>
 </signal>
 <signal name="CELL9">
 <contactref element="CELL9" pad="P$1"/>
 <contactref element="X1" pad="10"/>
 <contactref element="X2" pad="1"/>
 <wire x1="86.36" y1="23.96315625" x2="86.36" y2="89.408" width="0.4064" layer="1"/>
-<wire x1="55.877" y1="256.33" x2="65.255203125" y2="246.951796875" width="0.4064" layer="1"/>
-<wire x1="65.255203125" y1="246.951796875" x2="65.255203125" y2="189.760796875" width="0.4064" layer="1"/>
+<wire x1="55.877" y1="256.33" x2="66.144203125" y2="246.062796875" width="0.4064" layer="1"/>
+<wire x1="66.144203125" y1="246.062796875" x2="66.144203125" y2="189.611" width="0.4064" layer="1"/>
 <wire x1="29" y1="113.46" x2="62.308" y2="113.46" width="0.4064" layer="1"/>
-<wire x1="80.264" y1="131.064" x2="62.66" y2="113.46" width="0.4064" layer="1"/>
-<wire x1="65.255203125" y1="189.760796875" x2="86.36" y2="168.656" width="0.4064" layer="1"/>
+<wire x1="87.63" y1="131.953" x2="69.137" y2="113.46" width="0.4064" layer="1"/>
 <wire x1="66.535" y1="10.655" x2="77.216" y2="21.336" width="0.4064" layer="1"/>
-<wire x1="86.36" y1="168.656" x2="86.36" y2="133.096" width="0.4064" layer="1"/>
-<wire x1="86.36" y1="133.096" x2="84.328" y2="131.064" width="0.4064" layer="1"/>
-<wire x1="84.328" y1="131.064" x2="80.264" y2="131.064" width="0.4064" layer="1"/>
 <wire x1="86.36" y1="89.408" x2="62.308" y2="113.46" width="0.4064" layer="1"/>
-<wire x1="62.308" y1="113.46" x2="62.66" y2="113.46" width="0.4064" layer="1"/>
+<wire x1="62.308" y1="113.46" x2="69.137" y2="113.46" width="0.4064" layer="1"/>
 <wire x1="83.73284375" y1="21.336" x2="86.36" y2="23.96315625" width="0.4064" layer="1"/>
 <wire x1="77.216" y1="21.336" x2="83.73284375" y2="21.336" width="0.4064" layer="1"/>
 <wire x1="56.427" y1="-17.99" x2="58.928" y2="-17.99" width="0.4064" layer="1"/>
 <wire x1="58.928" y1="-17.99" x2="66.535" y2="-10.383" width="0.4064" layer="1"/>
 <wire x1="66.535" y1="-10.383" x2="66.535" y2="10.655" width="0.4064" layer="1"/>
+<wire x1="66.144203125" y1="189.611" x2="87.63" y2="168.125203125" width="0.4064" layer="1"/>
+<wire x1="87.63" y1="168.125203125" x2="87.63" y2="131.953" width="0.4064" layer="1"/>
 </signal>
 <signal name="CELL10">
 <contactref element="CELL10" pad="P$1"/>
 <contactref element="X2" pad="2"/>
 <wire x1="79" y1="136.48" x2="85.344" y2="142.824" width="0.4064" layer="1"/>
-<wire x1="85.344" y1="142.824" x2="85.344" y2="167.64" width="0.4064" layer="1"/>
-<wire x1="85.344" y1="167.64" x2="64.008" y2="188.976" width="0.4064" layer="1"/>
 <wire x1="64.008" y1="243.999" x2="51.677" y2="256.33" width="0.4064" layer="1"/>
-<wire x1="64.008" y1="188.976" x2="64.008" y2="243.999" width="0.4064" layer="1"/>
+<wire x1="64.008" y1="189.23" x2="64.008" y2="243.999" width="0.4064" layer="1"/>
+<wire x1="85.344" y1="167.894" x2="64.008" y2="189.23" width="0.4064" layer="1"/>
+<wire x1="85.344" y1="142.824" x2="85.344" y2="167.894" width="0.4064" layer="1"/>
 </signal>
 <signal name="CELL11">
 <contactref element="CELL11" pad="P$1"/>
@@ -5131,12 +5129,12 @@ design rules under a new name.</description>
 <contactref element="CELL12" pad="P$1"/>
 <contactref element="X2" pad="4"/>
 <wire x1="79" y1="163.13" x2="79" y2="171.258" width="0.4064" layer="1"/>
-<wire x1="79" y1="171.258" x2="61.976" y2="188.282" width="0.4064" layer="1"/>
-<wire x1="61.976" y1="238.76" x2="61.976" y2="188.282" width="0.4064" layer="1"/>
 <via x="61.976" y="238.76" extent="1-16" drill="0.381"/>
 <wire x1="61.976" y1="238.76" x2="61.863" y2="238.76" width="0.4064" layer="16"/>
 <wire x1="61.863" y1="238.76" x2="44.293" y2="256.33" width="0.4064" layer="16"/>
 <wire x1="44.293" y1="256.33" x2="43.277" y2="256.33" width="0.4064" layer="16"/>
+<wire x1="79" y1="171.258" x2="61.976" y2="188.282" width="0.4064" layer="1"/>
+<wire x1="61.976" y1="188.282" x2="61.976" y2="238.76" width="0.4064" layer="1"/>
 </signal>
 <signal name="CELL13">
 <contactref element="CELL13" pad="P$1"/>
@@ -5176,11 +5174,11 @@ design rules under a new name.</description>
 <signal name="CELL17">
 <contactref element="CELL17" pad="P$1"/>
 <contactref element="X2" pad="9"/>
-<wire x1="35.096" y1="226.146" x2="29" y2="220.05" width="0.4064" layer="1"/>
+<wire x1="35.35" y1="226.4" x2="29" y2="220.05" width="0.4064" layer="1"/>
 <wire x1="43.277" y1="261.83" x2="40.3982" y2="258.9512" width="0.4064" layer="1"/>
 <wire x1="40.3982" y1="258.9512" x2="36.576" y2="258.9512" width="0.4064" layer="1"/>
-<wire x1="36.576" y1="258.9512" x2="35.096" y2="257.4712" width="0.4064" layer="1"/>
-<wire x1="35.096" y1="257.4712" x2="35.096" y2="226.146" width="0.4064" layer="1"/>
+<wire x1="36.576" y1="258.9512" x2="35.35" y2="257.7252" width="0.4064" layer="1"/>
+<wire x1="35.35" y1="257.7252" x2="35.35" y2="226.4" width="0.4064" layer="1"/>
 </signal>
 <signal name="CELL18">
 <contactref element="CELL18" pad="P$1"/>
