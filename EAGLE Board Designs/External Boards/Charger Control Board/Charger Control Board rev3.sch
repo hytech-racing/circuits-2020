@@ -4148,6 +4148,15 @@ Source: http://www.molex.com</description>
 </net>
 <net name="SHUTDOWN_D" class="0">
 <segment>
+<wire x1="-111.76" y1="58.42" x2="-106.68" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<label x="-111.76" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="ZENER" gate="G$1" pin="C"/>
+<wire x1="-106.68" y1="58.42" x2="-99.06" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="55.88" x2="-106.68" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-106.68" y="58.42"/>
+</segment>
+<segment>
 <pinref part="SHUTDOWN_BUTTON" gate="-1" pin="S"/>
 <wire x1="7.62" y1="-35.56" x2="7.62" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-30.48" x2="12.7" y2="-30.48" width="0.1524" layer="91"/>
@@ -4366,16 +4375,6 @@ Source: http://www.molex.com</description>
 <label x="134.62" y="58.42" size="1.27" layer="95" xref="yes"/>
 <wire x1="134.62" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="MAIN" gate="-8" pin="S"/>
-<label x="-111.76" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="-111.76" y1="58.42" x2="-106.68" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="ZENER" gate="G$1" pin="C"/>
-<wire x1="-106.68" y1="58.42" x2="-99.06" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="55.88" x2="-106.68" y2="58.42" width="0.1524" layer="91"/>
-<junction x="-106.68" y="58.42"/>
-<label x="-111.76" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+12VIN" class="0">
