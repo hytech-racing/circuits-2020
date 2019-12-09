@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -8737,9 +8737,6 @@ design rules under a new name.</description>
 <approved hash="4,16,8a4fc8237956a539"/>
 <approved hash="4,16,afd0bf4dbf3dc1c0"/>
 <approved hash="4,1,7d61e89d6a3bfbe6"/>
-<approved hash="4,16,5e3a144c3ceaa570"/>
-<approved hash="4,16,46326f684cc6ee78"/>
-<approved hash="4,16,12ca83d513ab1e75"/>
 <approved hash="4,1,964250ff7a6de4e1"/>
 <approved hash="4,1,54c7a5427e2d46e4"/>
 <approved hash="4,16,d521b73ef7cda950"/>
@@ -8834,6 +8831,9 @@ design rules under a new name.</description>
 <approved hash="7,39,ed0e4fb7598ce6cd"/>
 <approved hash="7,39,3a737ee426968978"/>
 <approved hash="7,39,f815f8339b4b9b6d"/>
+<approved hash="4,16,3ed845084e802d50"/>
+<approved hash="4,16,3ad03d0008884f58"/>
+<approved hash="4,16,e67efb1f5528d96c"/>
 </errors>
 </board>
 </drawing>
