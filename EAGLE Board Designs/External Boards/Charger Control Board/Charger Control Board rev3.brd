@@ -29,6 +29,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 =======
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<<<<<<< HEAD
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 =======
@@ -39,6 +40,9 @@
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 >>>>>>> parent of 9361af0... Updates_Silkscreen
+=======
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+>>>>>>> parent of f5cd25c... Adjused naming and few traces
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -982,6 +986,7 @@ design rules under a new name.</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <element name="TEENSY_3_3" library="HyTechDevices" package="LED-805" value="RED" x="68.58" y="69.85" smashed="yes">
 =======
 =======
@@ -990,6 +995,9 @@ design rules under a new name.</description>
 =======
 <element name="STATUS" library="HyTechDevices" package="LED-805" value="RED" x="68.58" y="69.85" smashed="yes">
 >>>>>>> parent of 9361af0... Updates_Silkscreen
+=======
+<element name="STATUS" library="HyTechDevices" package="LED-805" value="RED" x="68.58" y="69.85" smashed="yes">
+>>>>>>> parent of f5cd25c... Adjused naming and few traces
 <attribute name="NAME" x="73.66" y="67.31" size="1.27" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="71.12" y="68.58" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -1030,6 +1038,7 @@ design rules under a new name.</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <element name="TEENSY_3_5" library="HyTechDevices" package="LED-805" value="RED" x="68.58" y="77.47" smashed="yes">
 =======
 =======
@@ -1038,6 +1047,9 @@ design rules under a new name.</description>
 =======
 <element name="STATUS1" library="HyTechDevices" package="LED-805" value="RED" x="68.58" y="77.47" smashed="yes">
 >>>>>>> parent of 9361af0... Updates_Silkscreen
+=======
+<element name="STATUS1" library="HyTechDevices" package="LED-805" value="RED" x="68.58" y="77.47" smashed="yes">
+>>>>>>> parent of f5cd25c... Adjused naming and few traces
 <attribute name="NAME" x="73.66" y="74.93" size="1.27" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="71.12" y="76.2" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -1055,6 +1067,7 @@ design rules under a new name.</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="TEENSY_3_3" pad="C"/>
 =======
 <contactref element="STATUS_3.2" pad="C"/>
@@ -1065,6 +1078,9 @@ design rules under a new name.</description>
 =======
 <contactref element="STATUS" pad="C"/>
 >>>>>>> parent of 9361af0... Updates_Silkscreen
+=======
+<contactref element="STATUS" pad="C"/>
+>>>>>>> parent of f5cd25c... Adjused naming and few traces
 <contactref element="U$1" pad="3"/>
 <contactref element="C5" pad="2"/>
 <contactref element="LED4" pad="C"/>
@@ -1089,6 +1105,7 @@ design rules under a new name.</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="TEENSY_3_5" pad="C"/>
 =======
 <contactref element="STATUS_3.5" pad="C"/>
@@ -1099,6 +1116,9 @@ design rules under a new name.</description>
 =======
 <contactref element="STATUS1" pad="C"/>
 >>>>>>> parent of 9361af0... Updates_Silkscreen
+=======
+<contactref element="STATUS1" pad="C"/>
+>>>>>>> parent of f5cd25c... Adjused naming and few traces
 <contactref element="U$5" pad="GND"/>
 <wire x1="54.46" y1="25.42" x2="46.6" y2="25.42" width="0.762" layer="1"/>
 <wire x1="46.6" y1="25.42" x2="45.35" y2="26.67" width="0.762" layer="1"/>
@@ -1209,6 +1229,7 @@ design rules under a new name.</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="48.26" y1="53.34" x2="48.26" y2="50.8" width="0.4572" layer="1"/>
 =======
 <wire x1="48.26" y1="53.34" x2="48.26" y2="50.8" width="0" layer="19" extent="1-1"/>
@@ -1218,6 +1239,8 @@ design rules under a new name.</description>
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 =======
 >>>>>>> parent of 9361af0... Updates_Silkscreen
+=======
+>>>>>>> parent of f5cd25c... Adjused naming and few traces
 </signal>
 <signal name="CANH">
 <contactref element="CAN_TERM_JMP" pad="1"/>
@@ -1498,6 +1521,7 @@ design rules under a new name.</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="TEENSY_3_3" pad="A"/>
 =======
 <contactref element="STATUS_3.2" pad="A"/>
@@ -1508,6 +1532,9 @@ design rules under a new name.</description>
 =======
 <contactref element="STATUS" pad="A"/>
 >>>>>>> parent of 9361af0... Updates_Silkscreen
+=======
+<contactref element="STATUS" pad="A"/>
+>>>>>>> parent of f5cd25c... Adjused naming and few traces
 <wire x1="68.58" y1="68.8" x2="71.095" y2="68.8" width="0.4572" layer="1"/>
 <wire x1="71.095" y1="68.8" x2="71.12" y2="68.825" width="0.4572" layer="1"/>
 </signal>
@@ -1904,6 +1931,7 @@ design rules under a new name.</description>
 <wire x1="36.0629" y1="52.07" x2="35.7073" y2="52.4256" width="0.4064" layer="1"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 =======
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
@@ -1911,6 +1939,10 @@ design rules under a new name.</description>
 <wire x1="54.61" y1="26.751" x2="53.086" y2="28.275" width="0.4572" layer="1"/>
 <wire x1="53.086" y1="28.275" x2="53.086" y2="34.29" width="0.4572" layer="1"/>
 >>>>>>> parent of 9361af0... Updates_Silkscreen
+=======
+<wire x1="54.61" y1="26.751" x2="53.086" y2="28.275" width="0.4572" layer="1"/>
+<wire x1="53.086" y1="28.275" x2="53.086" y2="34.29" width="0.4572" layer="1"/>
+>>>>>>> parent of f5cd25c... Adjused naming and few traces
 <via x="53.086" y="34.29" extent="1-16" drill="0.35"/>
 <wire x1="53.086" y1="34.29" x2="53.086" y2="47.244" width="0.4572" layer="16"/>
 <wire x1="53.086" y1="47.244" x2="52.07" y2="48.26" width="0.4572" layer="16"/>
@@ -2068,6 +2100,7 @@ design rules under a new name.</description>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="TEENSY_3_5" pad="A"/>
 =======
 <contactref element="STATUS_3.5" pad="A"/>
@@ -2078,6 +2111,9 @@ design rules under a new name.</description>
 =======
 <contactref element="STATUS1" pad="A"/>
 >>>>>>> parent of 9361af0... Updates_Silkscreen
+=======
+<contactref element="STATUS1" pad="A"/>
+>>>>>>> parent of f5cd25c... Adjused naming and few traces
 <wire x1="68.58" y1="76.42" x2="71.095" y2="76.42" width="0.4572" layer="1"/>
 <wire x1="71.095" y1="76.42" x2="71.12" y2="76.445" width="0.254" layer="1"/>
 </signal>
