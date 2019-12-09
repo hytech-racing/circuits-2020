@@ -23,8 +23,13 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+=======
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+>>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 =======
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -1601,8 +1606,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="66.675" y="38.1" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <element name="TEENSY_3_3" library="HyTechDevices" package="LED-805" value="RED" x="68.58" y="69.85" smashed="yes">
 =======
+=======
+>>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 <element name="STATUS_3.2" library="HyTechDevices" package="LED-805" value="RED" x="68.58" y="69.85" smashed="yes">
 <attribute name="NAME" x="73.66" y="67.31" size="1.27" layer="51" font="vector" ratio="10" rot="R90"/>
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
@@ -1643,8 +1651,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="71.8312" y="77.47" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <element name="TEENSY_3_5" library="HyTechDevices" package="LED-805" value="RED" x="68.58" y="77.47" smashed="yes">
 =======
+=======
+>>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 <element name="STATUS_3.5" library="HyTechDevices" package="LED-805" value="RED" x="68.58" y="77.47" smashed="yes">
 <attribute name="NAME" x="73.66" y="74.93" size="1.27" layer="51" font="vector" ratio="10" rot="R90"/>
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
@@ -1662,7 +1673,11 @@ design rules under a new name.</description>
 <contactref element="CAN_TRANSCEIVER_3.2" pad="2"/>
 <contactref element="U$4" pad="GND"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="TEENSY_3_3" pad="C"/>
+=======
+<contactref element="STATUS_3.2" pad="C"/>
+>>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 =======
 <contactref element="STATUS_3.2" pad="C"/>
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
@@ -1688,7 +1703,11 @@ design rules under a new name.</description>
 <contactref element="C6" pad="1"/>
 <contactref element="C7" pad="1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="TEENSY_3_5" pad="C"/>
+=======
+<contactref element="STATUS_3.5" pad="C"/>
+>>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 =======
 <contactref element="STATUS_3.5" pad="C"/>
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
@@ -1800,7 +1819,11 @@ design rules under a new name.</description>
 <vertex x="86.36" y="97.79"/>
 </polygon>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="48.26" y1="53.34" x2="48.26" y2="50.8" width="0.4572" layer="1"/>
+=======
+<wire x1="48.26" y1="53.34" x2="48.26" y2="50.8" width="0" layer="19" extent="1-1"/>
+>>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 =======
 <wire x1="48.26" y1="53.34" x2="48.26" y2="50.8" width="0" layer="19" extent="1-1"/>
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
@@ -2074,7 +2097,11 @@ design rules under a new name.</description>
 <signal name="N$8">
 <contactref element="R15" pad="1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="TEENSY_3_3" pad="A"/>
+=======
+<contactref element="STATUS_3.2" pad="A"/>
+>>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 =======
 <contactref element="STATUS_3.2" pad="A"/>
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
@@ -2476,6 +2503,9 @@ design rules under a new name.</description>
 <wire x1="35.4494" y1="52.4256" x2="34.29" y2="53.585" width="0.4572" layer="1"/>
 <wire x1="36.83" y1="52.07" x2="36.0629" y2="52.07" width="0.4064" layer="1"/>
 <wire x1="36.0629" y1="52.07" x2="35.7073" y2="52.4256" width="0.4064" layer="1"/>
+<<<<<<< HEAD
+>>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
+=======
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 <via x="53.086" y="34.29" extent="1-16" drill="0.35"/>
 <wire x1="53.086" y1="34.29" x2="53.086" y2="29.21" width="0.4572" layer="1"/>
@@ -2634,7 +2664,11 @@ design rules under a new name.</description>
 <signal name="N$7">
 <contactref element="R17" pad="1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="TEENSY_3_5" pad="A"/>
+=======
+<contactref element="STATUS_3.5" pad="A"/>
+>>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
 =======
 <contactref element="STATUS_3.5" pad="A"/>
 >>>>>>> f5cd25c0f967c3417b70f80ec4855cdd55f6bb0a
