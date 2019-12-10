@@ -249,16 +249,12 @@
 <text x="1.397" y="0.889" size="0.3048" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="0" y="0.3302" size="0.635" layer="25" align="top-center">&gt;NAME</text>
 </package>
-<package name="SO8" urn="urn:adsk.eagle:footprint:30958/1">
-<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt; SOP-8L&lt;p&gt;
-Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<package name="SOIC-08">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.908" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.908" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
 <smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
@@ -267,8 +263,8 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.6096" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2.54" y="0" size="0.6096" layer="27" rot="R270" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
 <rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
 <rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
@@ -277,6 +273,12 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<polygon width="0.127" layer="21">
+<vertex x="-1.778" y="-1.016" curve="90"/>
+<vertex x="-1.778" y="-0.762" curve="90"/>
+<vertex x="-2.032" y="-0.762" curve="90"/>
+<vertex x="-2.032" y="-1.016" curve="90"/>
+</polygon>
 </package>
 <package name="XP-E2">
 <description>&lt;b&gt;Cree® XLamp® XP-E2 LEDs&lt;/b&gt;&lt;p&gt;
@@ -914,15 +916,6 @@ MX150L™ Vertical PCB Header</description>
 <circle x="0" y="0" radius="13" width="0.127" layer="21"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="SO8" urn="urn:adsk.eagle:package:30987/2" type="model">
-<description>SMALL OUTLINE INTEGRATED CIRCUIT SOP-8L
-Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
-<packageinstances>
-<packageinstance name="SO8"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
 <symbol name="MAX4622">
 <description>Maxim Integrated MAX4622 analogue switch.</description>
@@ -980,12 +973,11 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <pin name="4" x="7.62" y="25.4" length="middle" rot="R270"/>
 <pin name="7" x="-5.08" y="17.78" length="middle"/>
 </symbol>
-<symbol name="LED">
+<symbol name="LED-THERMAL">
 <description>LED
 &lt;br&gt;
 &lt;a href="https://github.com/DangerousPrototypes/Eagle_Part_Library"&gt;Source: Dangerous Prototypes Eagle Library&lt;/a&gt;</description>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
 <wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
 <text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
@@ -1007,6 +999,7 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <vertex x="1.27" y="0"/>
 <vertex x="0" y="-2.54"/>
 </polygon>
+<pin name="X" x="-2.54" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 <symbol name="RESISTOR">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
@@ -1102,7 +1095,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <gate name="G$1" symbol="555_TIMER" x="-12.7" y="-10.16"/>
 </gates>
 <devices>
-<device name="SO-8" package="SO8">
+<device name="SO-8" package="SOIC-08">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1113,9 +1106,6 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30987/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1126,13 +1116,14 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <description>XP-E2 high-brightness LED.
 &lt;a href="https://www.cree.com/led-components/media/documents/XLampXPE2.pdf"&gt;Data sheet&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
+<gate name="G$1" symbol="LED-THERMAL" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="XP-E2" package="XP-E2">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="X" pad="X"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1644,7 +1635,7 @@ Source: http://www.molex.com</description>
 <part name="U$1" library="HyTechDevices" deviceset="MAX4622" device=""/>
 <part name="Q1" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 <part name="Q2" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
-<part name="NA555" library="HyTechDevices" deviceset="NA555" device="SO-8" package3d_urn="urn:adsk.eagle:package:30987/2"/>
+<part name="NA555" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
 <part name="LED1" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="RED"/>
 <part name="LED2" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GRN"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="50k"/>
@@ -1756,9 +1747,9 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="3.048" y="34.544" size="1.778" layer="95"/>
 <attribute name="VALUE" x="3.048" y="32.385" size="1.778" layer="96"/>
 </instance>
-<instance part="LED4" gate="G$1" x="2.54" y="33.02" smashed="yes">
-<attribute name="NAME" x="6.096" y="28.448" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="8.255" y="28.448" size="1.778" layer="96" rot="R90"/>
+<instance part="LED4" gate="G$1" x="2.54" y="30.48" smashed="yes">
+<attribute name="NAME" x="6.096" y="25.908" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="8.255" y="25.908" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="LED5" gate="G$1" x="-2.54" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="-6.096" y="27.432" size="1.778" layer="95" rot="R270"/>
@@ -1772,9 +1763,9 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="36.576" y="0.508" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="38.735" y="0.508" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED8" gate="G$1" x="43.18" y="2.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.624" y="7.112" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="37.465" y="7.112" size="1.778" layer="96" rot="R270"/>
+<instance part="LED8" gate="G$1" x="43.18" y="5.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.624" y="9.652" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="37.465" y="9.652" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND1" gate="1" x="-12.7" y="109.22" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-10.16" y="106.68" size="1.778" layer="96" rot="R90"/>
@@ -1896,7 +1887,6 @@ Source: http://www.molex.com</description>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="LED8" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="7.62" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 <junction x="43.18" y="10.16"/>
 </segment>
 </net>
@@ -1941,6 +1931,7 @@ Source: http://www.molex.com</description>
 <pinref part="LED7" gate="G$1" pin="C"/>
 <pinref part="LED8" gate="G$1" pin="A"/>
 <wire x1="33.02" y1="0" x2="43.18" y2="0" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="0" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2112,15 +2103,16 @@ Source: http://www.molex.com</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="-2.54" y1="20.32" x2="2.54" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="20.32" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="20.32" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="LED4" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="2.54" y1="35.56" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="33.02" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
 </segment>
 </net>
@@ -2137,6 +2129,54 @@ Source: http://www.molex.com</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="38.1" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
 <junction x="48.26" y="38.1"/>
+</segment>
+</net>
+<net name="LED5_THERM" class="0">
+<segment>
+<pinref part="LED5" gate="G$1" pin="X"/>
+<wire x1="0" y1="19.304" x2="0" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED2_THERM" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="X"/>
+<wire x1="-2.54" y1="40.64" x2="-1.27" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED3_THERM" class="0">
+<segment>
+<pinref part="LED3" gate="G$1" pin="X"/>
+<wire x1="11.176" y1="40.64" x2="10.16" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED4_THERM" class="0">
+<segment>
+<pinref part="LED4" gate="G$1" pin="X"/>
+<wire x1="0" y1="33.02" x2="0" y2="33.782" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED1_THERM" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="X"/>
+<wire x1="30.48" y1="27.94" x2="30.48" y2="28.956" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED8_THERM" class="0">
+<segment>
+<pinref part="LED8" gate="G$1" pin="X"/>
+<wire x1="45.72" y1="2.54" x2="45.72" y2="1.778" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED7_THERM" class="0">
+<segment>
+<pinref part="LED7" gate="G$1" pin="X"/>
+<wire x1="30.48" y1="7.62" x2="30.48" y2="8.382" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED6_THERM" class="0">
+<segment>
+<pinref part="LED6" gate="G$1" pin="X"/>
+<wire x1="30.48" y1="17.78" x2="30.48" y2="18.542" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -2159,11 +2199,6 @@ with this version.
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
