@@ -4562,6 +4562,24 @@ Source: http://www.molex.com</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,-111.76,-20.32,GND,N$60,,,,"/>
+<approved hash="102,1,-30.48,-22.86,GND,N$60,,,,"/>
+<approved hash="201,1,-30.48,-22.86,GND,GND\, N$60,,,,"/>
+<approved hash="201,1,-111.76,-20.32,GND,GND\, N$60,,,,"/>
+<approved hash="208,1,91.44,-15.24,+5V,sup,,,,"/>
+<approved hash="208,1,149.86,-10.16,+5V,sup,,,,"/>
+<approved hash="208,1,5.08,53.34,+5V,sup,,,,"/>
+<approved hash="208,1,10.16,48.26,+5V,out,,,,"/>
+<approved hash="208,1,-43.18,20.32,+5V,sup,,,,"/>
+<approved hash="208,1,-43.18,30.48,+5V,sup,,,,"/>
+<approved hash="208,1,91.44,-55.88,+5V,sup,,,,"/>
+<approved hash="208,1,149.86,-55.88,+5V,sup,,,,"/>
+<approved hash="113,1,-88.9,48.6004,Q1,,,,,"/>
+<approved hash="113,1,12.7,22.5654,S1,,,,,"/>
+<approved hash="113,1,69.4271,46.3296,5ASHUTDOWNFUSE,,,,,"/>
+<approved hash="113,1,68.58,38.7096,5ABOARDFUSE,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
