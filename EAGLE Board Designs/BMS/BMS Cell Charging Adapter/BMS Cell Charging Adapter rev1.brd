@@ -2617,7 +2617,7 @@ Designed by Mohammed Arif</text>
 <wire x1="2" y1="247.142" x2="93.3" y2="247.142" width="1.27" layer="51"/>
 <text x="47.752" y="249.936" size="2.54" layer="51" font="vector" align="center">DO NOT MIX A &amp; B</text>
 <dimension x1="0" y1="-50.968" x2="95.3" y2="-50.968" x3="47.65" y3="-33.02" textsize="2.54" layer="47" unit="inch"/>
-<dimension x1="108" y1="25.4" x2="95.3" y2="25.4" x3="101.65" y3="-29.21" textsize="2.54" layer="47" unit="inch"/>
+<dimension x1="108" y1="25.4" x2="95.3" y2="25.4" x3="101.65" y3="-33.02" textsize="2.54" layer="47" unit="inch"/>
 <dimension x1="108" y1="25.4" x2="108" y2="221.71" x3="114.808" y3="123.555" textsize="2.54" layer="47" unit="inch"/>
 <rectangle x1="73.011028125" y1="249.94996875" x2="80.407509375" y2="249.96775" layer="51"/>
 <rectangle x1="72.97546875" y1="249.96775" x2="80.478625" y2="249.98553125" layer="51"/>
@@ -4691,7 +4691,7 @@ Designed by Mohammed Arif</text>
 <rectangle x1="95.8054" y1="146.701" x2="97.1262" y2="146.7518" layer="51" rot="R90"/>
 <rectangle x1="96.161" y1="143.7038" x2="96.669" y2="143.7546" layer="51" rot="R90"/>
 <rectangle x1="95.7546" y1="146.701" x2="97.0754" y2="146.7518" layer="51" rot="R90"/>
-<dimension x1="0" y1="271.24" x2="0" y2="-27.6" x3="-22.352" y3="121.82" textsize="1.778" layer="51" unit="inch"/>
+<dimension x1="0" y1="271.24" x2="0" y2="-27.6" x3="-22.352" y3="121.82" textsize="1.778" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="HyTechDevices">
