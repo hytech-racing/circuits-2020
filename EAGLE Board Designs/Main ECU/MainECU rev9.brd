@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -3837,9 +3837,8 @@ design rules under a new name.</description>
 <wire x1="77.978" y1="39.37" x2="78.70095" y2="39.37" width="0.254" layer="1"/>
 <wire x1="79.97095" y1="38.1" x2="80.772" y2="38.1" width="0.254" layer="1"/>
 <wire x1="78.70095" y1="39.37" x2="79.97095" y2="38.1" width="0.254" layer="1"/>
-<wire x1="70.5866" y1="23.1513375" x2="71.3112625" y2="23.876" width="0.254" layer="1"/>
-<wire x1="72.6122125" y1="23.876" x2="77.0854125" y2="28.3492" width="0.254" layer="1"/>
-<wire x1="71.3112625" y1="23.876" x2="72.6122125" y2="23.876" width="0.254" layer="1"/>
+<wire x1="75.7844625" y1="28.3492" x2="77.0854125" y2="28.3492" width="0.254" layer="1"/>
+<wire x1="75.7844625" y1="28.3492" x2="70.5866" y2="23.1513375" width="0.254" layer="1"/>
 </signal>
 <signal name="SHUTDOWN_D">
 <contactref element="X5" pad="P$5"/>
