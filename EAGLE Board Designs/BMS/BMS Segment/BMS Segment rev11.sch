@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -2310,7 +2310,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="U$2" library="HyTechDevices" deviceset="LTC6811-2" device=""/>
 <part name="C4_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF">
-<attribute name="TOLERANCE" value="1%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C6_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
@@ -2422,7 +2422,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J7_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
 <attribute name="TOLERANCE" value="5%"/>
 </part>
-<part name="J8_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="tolerance">
+<part name="J8_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
 <attribute name="TOLERANCE" value="5%"/>
 </part>
 <part name="SUPPLY14" library="supply2" deviceset="V-" device=""/>
@@ -2458,7 +2458,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="U$1" library="HyTechDevices" deviceset="LTC6811-2" device=""/>
 <part name="C4_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF">
-<attribute name="TOLERANCE" value="1%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C6_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
@@ -2520,7 +2520,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="C5_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF">
-<attribute name="TOLERANCE" value="1%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="RU1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
@@ -2594,12 +2594,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY67" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY68" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY66" library="supply1" deviceset="V-" device=""/>
-<part name="THERM1_A" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Th1"/>
-<part name="THERM2_A" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Th1"/>
-<part name="THERM3_A" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Th1"/>
-<part name="THERM1_B" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Th1"/>
-<part name="THERM2_B" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Th1"/>
-<part name="THERM3_B" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Th1"/>
+<part name="THERM1_A" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="THERMISTOR"/>
+<part name="THERM2_A" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="THERMISTOR"/>
+<part name="THERM3_A" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="THERMISTOR"/>
+<part name="THERM1_B" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="THERMISTOR"/>
+<part name="THERM2_B" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="THERMISTOR"/>
+<part name="THERM3_B" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="THERMISTOR"/>
 <part name="U$3" library="HyTechDevices" deviceset="NSV1C201MZ4" device=""/>
 <part name="C7_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="TOLERANCE" value="10%"/>
