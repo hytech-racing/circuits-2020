@@ -3554,7 +3554,7 @@ design rules under a new name.</description>
 <elements>
 <element name="C4" library="HyTechDevices" package="0603-CAP" value="10uF" x="7.8486" y="47.9806" smashed="yes" rot="MR90">
 <attribute name="NAME" x="6.8326" y="47.9806" size="0.762" layer="26" font="vector" rot="MR270" align="bottom-center"/>
-<attribute name="TOLERANCE" value="10%" x="7.8486" y="47.9806" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="7.8486" y="47.9806" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="7.8486" y="47.9806" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U2" library="HyTechDevices" package="OKI-78SR" value="OKI-78SR-5" x="4.5466" y="49.6316" smashed="yes" rot="R270"/>
@@ -3566,11 +3566,11 @@ design rules under a new name.</description>
 </element>
 <element name="R5" library="HyTechDevices" package="0603-RES" value="820" x="25.273" y="45.466" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.273" y="46.482" size="0.762" layer="25" font="vector" rot="R180" align="top-center"/>
-<attribute name="TOLERANCE" value="5%" x="25.273" y="45.466" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="25.273" y="45.466" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R8" library="HyTechDevices" package="0603-RES" value="2k" x="25.273" y="42.037" smashed="yes">
 <attribute name="NAME" x="25.273" y="43.053" size="0.762" layer="25" font="vector" rot="R180" align="top-center"/>
-<attribute name="TOLERANCE" value="5%" x="25.273" y="42.037" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="25.273" y="42.037" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="HyTechDevices" package="SOIC-08" value="OPA2172" x="24.003" y="43.434" smashed="yes" rot="MR180">
 <attribute name="NAME" x="21.463" y="43.434" size="0.762" layer="26" font="vector" rot="MR90" align="top-center"/>
@@ -3583,6 +3583,7 @@ design rules under a new name.</description>
 </element>
 <element name="R9" library="HyTechDevices" package="0603-RES" value="270" x="25.273" y="38.735" smashed="yes">
 <attribute name="NAME" x="25.273" y="39.751" size="0.762" layer="25" font="vector" rot="R180" align="top-center"/>
+<attribute name="TOLERANCE" value="1%" x="25.273" y="38.735" size="1.778" layer="27" display="off"/>
 </element>
 <element name="RELAY" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="RELAY" x="37.211" y="33.655" smashed="yes">
 <attribute name="VALUE" x="37.973" y="35.687" size="1.524" layer="25" font="vector" ratio="10" align="bottom-center"/>
@@ -3596,14 +3597,14 @@ design rules under a new name.</description>
 </element>
 <element name="R12" library="HyTechDevices" package="0603-RES" value="1k" x="7.747" y="11.303" smashed="yes" rot="MR90">
 <attribute name="NAME" x="8.763" y="11.303" size="0.762" layer="26" rot="MR90" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="7.747" y="11.303" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="7.747" y="11.303" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="TEENSY" library="HyTechDevices" package="LED-805" value="BLUE" x="39.878" y="6.35" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.878" y="7.62" size="1.016" layer="25" font="vector" ratio="10" align="center"/>
 </element>
 <element name="R13" library="HyTechDevices" package="0603-RES" value="43" x="43.9928" y="6.35" smashed="yes">
 <attribute name="NAME" x="43.9928" y="7.366" size="0.762" layer="25" font="vector" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="43.9928" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="43.9928" y="6.35" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U9" library="HyTechDevices" package="MSOP-16" value="LTC6820" x="14.986" y="40.259" smashed="yes" rot="MR0"/>
 <element name="R16" library="HyTechDevices" package="0603-RES" value="1k" x="15.621" y="46.228" smashed="yes" rot="MR0">
@@ -3622,16 +3623,17 @@ design rules under a new name.</description>
 </element>
 <element name="R18" library="HyTechDevices" package="0603-RES" value="2k" x="33.02" y="5.715" smashed="yes" rot="MR270">
 <attribute name="NAME" x="32.004" y="5.715" size="0.762" layer="26" font="vector" rot="MR270" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="33.02" y="5.715" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="33.02" y="5.715" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R19" library="HyTechDevices" package="0603-RES" value="2k" x="35.56" y="5.715" smashed="yes" rot="MR270">
 <attribute name="NAME" x="36.576" y="5.715" size="0.762" layer="26" font="vector" rot="MR270" align="top-center"/>
-<attribute name="TOLERANCE" value="5%" x="35.56" y="5.715" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="35.56" y="5.715" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="TEENSY3.2" library="HyTechDevices" package="TEENSY_3.2_SIMPLE" value="TEENSY_3.2_SIMPLE" x="36.83" y="1.524" smashed="yes" rot="R90"/>
 <element name="U10" library="HyTechDevices" package="SOT23-5" value="STWD100" x="34.2646" y="12.319" smashed="yes" rot="MR90"/>
 <element name="R14" library="HyTechDevices" package="0603-RES" value="430" x="37.973" y="10.668" smashed="yes" rot="MR270">
 <attribute name="NAME" x="38.989" y="10.668" size="0.762" layer="26" rot="MR270" align="top-center"/>
+<attribute name="TOLERANCE" value="1%" x="37.973" y="10.668" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="CURRENT1" library="HyTechDevices" package="NANO-FIT_VERTICAL-4" value="CURRENT" x="43.18" y="45.593" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.18" y="49.911" size="1.524" layer="25" font="vector" ratio="10" rot="R180" align="top-center"/>
@@ -3639,19 +3641,21 @@ design rules under a new name.</description>
 <element name="U11" library="HyTechDevices" package="HM2102NLT" value="HM2102NLT" x="26.67" y="58.42" smashed="yes" rot="R90"/>
 <element name="R20" library="HyTechDevices" package="0603-RES" value="100" x="32.258" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.258" y="62.484" size="0.762" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="TOLERANCE" value="1%" x="32.258" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="TERMINATION" x="32.258" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C3" library="HyTechDevices" package="0603-CAP" value="10uF" x="7.8486" y="51.0286" smashed="yes" rot="MR270">
 <attribute name="NAME" x="6.8326" y="51.0286" size="0.762" layer="26" rot="MR270" align="bottom-center"/>
-<attribute name="TOLERANCE" value="10%" x="7.8486" y="51.0286" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="7.8486" y="51.0286" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="7.8486" y="51.0286" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R4" library="HyTechDevices" package="0603-RES" value="2k" x="15.9258" y="22.8092" smashed="yes" rot="MR0">
 <attribute name="NAME" x="15.9258" y="23.8252" size="0.762" layer="26" rot="MR0" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="15.9258" y="22.8092" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="15.9258" y="22.8092" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R15" library="HyTechDevices" package="0603-RES" value="10k" x="32.7914" y="13.843" smashed="yes" rot="MR90">
+<element name="R15" library="HyTechDevices" package="0603-RES" value="10K" x="32.7914" y="13.843" smashed="yes" rot="MR90">
 <attribute name="NAME" x="31.7754" y="13.843" size="0.762" layer="26" font="vector" rot="MR270" align="bottom-center"/>
+<attribute name="TOLERANCE" value="1%" x="32.7914" y="13.843" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U12" library="HyTechDevices" package="SOIC-16" value="MCP3208SOIC" x="25.908" y="9.525" smashed="yes" rot="MR180">
 <attribute name="NAME" x="30.988" y="9.525" size="0.762" layer="26" ratio="10" rot="MR90" align="bottom-center"/>
@@ -3669,6 +3673,7 @@ design rules under a new name.</description>
 <element name="C6" library="HyTechDevices" package="0603-CAP" value="530pF" x="48.006" y="48.514" smashed="yes" rot="MR0">
 <attribute name="NAME" x="48.006" y="47.498" size="0.762" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="48.006" y="48.514" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="48.006" y="48.514" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="MAIN" library="HyTechDevices" package="NANO-FIT_VERTICAL-10" value="MAIN" x="19.177" y="27.813" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.876" y="27.813" size="1.524" layer="25" font="vector" ratio="10" rot="R90" align="top-center"/>
@@ -3681,6 +3686,8 @@ design rules under a new name.</description>
 <element name="HV-FUSED_1A-IMD-" library="HyTechDevices" package="NANO-FIT_VERTICAL-4" value="HV-" x="73.025" y="66.04" smashed="yes"/>
 <element name="C20" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="37.973" y="13.97" smashed="yes" rot="MR90">
 <attribute name="NAME" x="38.989" y="13.97" size="0.762" layer="26" font="vector" rot="MR270" align="top-center"/>
+<attribute name="TOLERANCE" value="5%" x="37.973" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="37.973" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U13" library="HyTechDevices" package="TSSOP-14" value="TXB0104TSSOP" x="17.78" y="9.525" smashed="yes" rot="MR0">
 <attribute name="NAME" x="15.367" y="9.525" size="0.762" layer="26" rot="MR270" align="bottom-center"/>
@@ -3694,6 +3701,7 @@ design rules under a new name.</description>
 </element>
 <element name="R1" library="HyTechDevices" package="0603-RES" value="60" x="10.033" y="31.877" smashed="yes" rot="MR270">
 <attribute name="NAME" x="11.049" y="31.877" size="0.762" layer="26" rot="MR270" align="top-center"/>
+<attribute name="TOLERANCE" value="1%" x="10.033" y="31.877" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R2" library="HyTechDevices" package="0603-RES" value="60" x="10.033" y="34.925" smashed="yes" rot="MR90">
 <attribute name="NAME" x="9.017" y="34.925" size="0.762" layer="26" rot="MR90" align="top-center"/>
@@ -3701,6 +3709,8 @@ design rules under a new name.</description>
 </element>
 <element name="C1" library="HyTechDevices" package="0603-CAP" value="4.7nF" x="12.065" y="34.798" smashed="yes" rot="MR270">
 <attribute name="NAME" x="13.081" y="34.798" size="0.762" layer="26" rot="MR270" align="top-center"/>
+<attribute name="TOLERANCE" value="1%" x="12.065" y="34.798" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="12.065" y="34.798" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R6" library="HyTechDevices" package="0603-RES" value="4k" x="28.575" y="43.18" smashed="yes" rot="MR90">
 <attribute name="NAME" x="27.559" y="43.18" size="0.762" layer="26" rot="MR90" align="top-center"/>
@@ -3712,42 +3722,48 @@ design rules under a new name.</description>
 </element>
 <element name="C2" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="19.304" y="41.656" smashed="yes" rot="MR90">
 <attribute name="NAME" x="18.2499" y="41.656" size="0.762" layer="26" rot="MR90" align="bottom-center"/>
+<attribute name="TOLERANCE" value="5%" x="19.304" y="41.656" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="19.304" y="41.656" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C22" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="19.812" y="14.605" smashed="yes" rot="MR90">
 <attribute name="NAME" x="20.828" y="14.605" size="0.762" layer="26" rot="MR90" align="bottom-center"/>
+<attribute name="TOLERANCE" value="5%" x="19.812" y="14.605" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="19.812" y="14.605" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C21" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="14.351" y="11.938" smashed="yes" rot="MR270">
 <attribute name="NAME" x="13.3731" y="11.938" size="0.762" layer="26" font="vector" rot="MR270" align="bottom-center"/>
+<attribute name="TOLERANCE" value="5%" x="14.351" y="11.938" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="14.351" y="11.938" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R21" library="HyTechDevices" package="0603-RES" value="43k" x="28.575" y="23.368" smashed="yes" rot="MR0">
 <attribute name="NAME" x="28.448" y="22.0599" size="0.762" layer="26" rot="MR0" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="28.575" y="23.368" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="28.575" y="23.368" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R22" library="HyTechDevices" package="0603-RES" value="12k" x="28.575" y="21.336" smashed="yes" rot="MR180">
 <attribute name="NAME" x="28.575" y="20.32" size="0.762" layer="26" rot="MR180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="28.575" y="21.336" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="28.575" y="21.336" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="D2" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="30.861" y="21.844" smashed="yes" rot="MR270">
 <attribute name="NAME" x="30.861" y="20.4851" size="0.762" layer="26" rot="MR180" align="bottom-center"/>
 </element>
 <element name="R23" library="HyTechDevices" package="0603-RES" value="43k" x="28.575" y="27.432" smashed="yes" rot="MR180">
 <attribute name="NAME" x="28.575" y="28.448" size="0.762" layer="26" rot="MR180" align="top-center"/>
-<attribute name="TOLERANCE" value="5%" x="28.575" y="27.432" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="28.575" y="27.432" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R24" library="HyTechDevices" package="0603-RES" value="12k" x="28.575" y="25.4" smashed="yes" rot="MR180">
 <attribute name="NAME" x="28.575" y="24.8031" size="0.762" layer="26" rot="MR180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="28.575" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="28.575" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="D3" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="30.734" y="26.162" smashed="yes" rot="MR270">
 <attribute name="NAME" x="31.75" y="26.162" size="0.762" layer="26" rot="MR270" align="top-center"/>
 </element>
 <element name="R25" library="HyTechDevices" package="0603-RES" value="43k" x="34.798" y="22.733" smashed="yes" rot="MR0">
 <attribute name="NAME" x="34.798" y="23.3299" size="0.762" layer="26" rot="MR0" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="34.798" y="22.733" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="34.798" y="22.733" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R26" library="HyTechDevices" package="0603-RES" value="12k" x="34.798" y="20.701" smashed="yes" rot="MR0">
 <attribute name="NAME" x="34.798" y="21.2979" size="0.762" layer="26" rot="MR0" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="34.798" y="20.701" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="34.798" y="20.701" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="D4" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="32.385" y="21.844" smashed="yes" rot="MR270">
 <attribute name="NAME" x="32.385" y="20.4851" size="0.762" layer="26" rot="MR180" align="bottom-center"/>
@@ -3756,19 +3772,23 @@ design rules under a new name.</description>
 <element name="ENERGYMETER" library="HyTechDevices" package="NANO-FIT_VERTICAL-4" value="ENERGY METER" x="5.3848" y="23.749" smashed="yes" rot="R270"/>
 <element name="R31" library="HyTechDevices" package="0603-RES" value="261" x="34.29" y="48.26" smashed="yes" rot="MR0">
 <attribute name="NAME" x="34.29" y="47.244" size="0.762" layer="26" font="vector" rot="MR0" align="top-center"/>
+<attribute name="TOLERANCE" value="1%" x="34.29" y="48.26" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R30" library="HyTechDevices" package="0603-RES" value="5K" x="34.29" y="50.292" smashed="yes" rot="MR0">
 <attribute name="NAME" x="34.29" y="51.308" size="0.762" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="TOLERANCE" value="1%" x="34.29" y="50.292" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U14" library="HyTechDevices" package="SOIC-08" value="MCP6542SOIC" x="24.13" y="52.07" smashed="yes" rot="MR270">
 <attribute name="NAME" x="24.13" y="49.53" size="0.762" layer="26" rot="MR0" align="top-center"/>
 </element>
 <element name="R29" library="HyTechDevices" package="0603-RES" value="2k" x="29.591" y="54.229" smashed="yes" rot="MR180">
 <attribute name="NAME" x="29.591" y="53.213" size="0.762" layer="26" rot="MR180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="29.591" y="54.229" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="29.591" y="54.229" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C23" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="18.669" y="51.181" smashed="yes" rot="MR270">
 <attribute name="NAME" x="17.653" y="51.181" size="0.762" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="TOLERANCE" value="5%" x="18.669" y="51.181" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="18.669" y="51.181" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="DISCH+" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="DISCHARGE+" x="93.345" y="68.58" smashed="yes"/>
 <element name="C24" library="HyTechDevices" package="LLS2V221MELZ" value="180µF" x="79.236" y="15.621" smashed="yes" rot="R180">
@@ -3836,11 +3856,11 @@ design rules under a new name.</description>
 </element>
 <element name="R3" library="HyTechDevices" package="0603-RES" value="2k" x="27.94" y="46.228" smashed="yes" rot="MR90">
 <attribute name="NAME" x="28.956" y="46.228" size="0.762" layer="26" rot="MR90" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="27.94" y="46.228" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="27.94" y="46.228" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R10" library="HyTechDevices" package="0603-RES" value="10K" x="38.862" y="48.006" smashed="yes" rot="MR270">
 <attribute name="NAME" x="37.846" y="48.006" size="0.762" layer="26" font="vector" rot="MR270" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="38.862" y="48.006" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="38.862" y="48.006" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C8" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="48.006" y="15.875" smashed="yes" rot="MR0">
 <attribute name="NAME" x="48.006" y="14.859" size="0.762" layer="26" rot="MR0" align="top-center"/>
@@ -3897,7 +3917,7 @@ design rules under a new name.</description>
 </element>
 <element name="R11" library="HyTechDevices" package="0603-RES" value="10K" x="47.752" y="25.273" smashed="yes" rot="MR90">
 <attribute name="NAME" x="47.498" y="27.559" size="0.762" layer="26" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="47.752" y="25.273" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="47.752" y="25.273" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C18" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="8.382" y="6.604" smashed="yes" rot="MR90">
 <attribute name="NAME" x="7.366" y="6.604" size="0.762" layer="26" font="vector" rot="MR90" align="top-center"/>
@@ -3909,28 +3929,31 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="5%" x="10.414" y="6.604" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="10.414" y="6.604" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R33" library="HyTechDevices" package="0603-RES" value="5k" x="40.64" y="5.08" smashed="yes" rot="MR0">
+<element name="R33" library="HyTechDevices" package="0603-RES" value="5K" x="40.64" y="5.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="40.64" y="6.096" size="0.762" layer="26" font="vector" rot="MR180" align="top-center"/>
+<attribute name="TOLERANCE" value="1%" x="40.64" y="5.08" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R32" library="HyTechDevices" package="0603-RES" value="5k" x="40.64" y="2.54" smashed="yes" rot="MR180">
+<element name="R32" library="HyTechDevices" package="0603-RES" value="5K" x="40.64" y="2.54" smashed="yes" rot="MR180">
 <attribute name="NAME" x="40.64" y="1.524" size="0.762" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="TOLERANCE" value="1%" x="40.64" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="D6" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="38.1" y="3.81" smashed="yes" rot="MR270">
 <attribute name="NAME" x="37.338" y="3.81" size="0.762" layer="26" font="vector" rot="MR270" align="bottom-center"/>
 </element>
 <element name="R27" library="HyTechDevices" package="0603-RES" value="43k" x="11.43" y="15.621" smashed="yes" rot="MR0">
 <attribute name="NAME" x="11.43" y="14.605" size="0.762" layer="26" font="vector" rot="MR0" align="top-center"/>
+<attribute name="TOLERANCE" value="1%" x="11.43" y="15.621" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R28" library="HyTechDevices" package="0603-RES" value="12k" x="7.62" y="15.113" smashed="yes" rot="MR90">
 <attribute name="NAME" x="8.636" y="15.113" size="0.762" layer="26" font="vector" rot="MR90" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="7.62" y="15.113" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="7.62" y="15.113" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="D5" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="10.287" y="12.827" smashed="yes" rot="MR270">
 <attribute name="NAME" x="11.1125" y="12.827" size="0.762" layer="26" rot="MR270" align="top-center"/>
 </element>
 <element name="R42" library="HyTechDevices" package="0603-RES" value="2k" x="50.927" y="3.81" smashed="yes" rot="MR0">
 <attribute name="NAME" x="50.927" y="4.826" size="0.762" layer="26" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="50.927" y="3.81" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="50.927" y="3.81" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 </elements>
 <signals>

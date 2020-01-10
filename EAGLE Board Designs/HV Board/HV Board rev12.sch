@@ -3926,7 +3926,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF">
-<attribute name="TOLERANCE" value="10%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="U1" library="HyTechDevices" deviceset="OPAMP_2_CHANNEL" device="SOIC" value="OPA2172"/>
@@ -3935,16 +3935,18 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="IMD-OK" library="HyTechDevices" deviceset="LED" device="-0805" value="YELLOW"/>
 <part name="BMS-OK" library="HyTechDevices" deviceset="LED" device="-0805" value="GREEN"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="820">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="INTERLOCK" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="INTERLOCK"/>
 <part name="ON-LED" library="HyTechDevices" deviceset="LED" device="-0805" value="PURPLE"/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="270"/>
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="270">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="RELAY" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="RELAY"/>
@@ -3958,11 +3960,11 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="GND13" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U7" library="HyTechDevices" deviceset="MCP2551" device=""/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="TEENSY" library="HyTechDevices" deviceset="LED" device="-0805" value="BLUE"/>
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="U9" library="HyTechDevices" deviceset="LTC6820" device=""/>
@@ -3983,10 +3985,10 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 </part>
 <part name="GND22" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="TEENSY3.2" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3994,7 +3996,9 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U10" library="HyTechDevices" deviceset="STWD100" device=""/>
 <part name="P+23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="430"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="430">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="GND27" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+25" library="supply1" deviceset="+5V" device=""/>
 <part name="CURRENT1" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4" value="CURRENT"/>
@@ -4005,18 +4009,21 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="GND5" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U11" library="HyTechDevices" deviceset="HM2102NLT" device=""/>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100">
+<attribute name="TOLERANCE" value="1%"/>
 <attribute name="TYPE" value="TERMINATION"/>
 </part>
 <part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF">
-<attribute name="TOLERANCE" value="10%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10K">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="U12" library="HyTechDevices" deviceset="MCP3208" device="SOIC"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
@@ -4036,6 +4043,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="530pF">
 <attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="MAIN" library="HyTechDevices" deviceset="CONNECTOR-10" device="NANO-FIT_VERTICAL-10" value="MAIN"/>
@@ -4046,7 +4054,10 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="HV+FUSED_1A-IMD+" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4" value="HV+"/>
 <part name="HV-FUSED_1A-IMD-" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4" value="HV-"/>
-<part name="C20" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C20" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</part>
 <part name="FLIP" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND43" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U13" library="HyTechDevices" deviceset="TXB0104" device="TSSOP"/>
@@ -4055,11 +4066,16 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="U3" library="HyTechDevices" deviceset="MAX7480" device="" value="MAX7480"/>
 <part name="U18" library="HyTechDevices" deviceset="CDSOT23-T24CAN-Q" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="60"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="60">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="60">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="4.7nF"/>
+<part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="4.7nF">
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="4k">
 <attribute name="TOLERANCE" value="1%"/>
@@ -4067,36 +4083,45 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="C22" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="C21" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C22" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</part>
+<part name="C21" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</part>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="R21" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="R22" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="R23" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="R25" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="R26" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="D4" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
@@ -4104,16 +4129,23 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="ENERGYMETER" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4" value="ENERGY METER"/>
-<part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="261"/>
-<part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5K"/>
+<part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="261">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
+<part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5K">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="U14" library="HyTechDevices" deviceset="MCP6542" device="SOIC" value="MCP6542SOIC"/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="C23" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C23" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</part>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="DISCH+" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="DISCHARGE+"/>
@@ -4170,11 +4202,11 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 </part>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10K">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
@@ -4226,7 +4258,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10K">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -4240,18 +4272,24 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R33" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5k"/>
-<part name="R32" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5k"/>
+<part name="R33" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5K">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
+<part name="R32" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5K">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
 <part name="D6" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
-<part name="R27" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k"/>
+<part name="R27" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="D5" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="R42" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
 </parts>
@@ -4396,6 +4434,7 @@ corresponds to 60V on TS</text>
 <instance part="R9" gate="G$1" x="129.54" y="-33.02" smashed="yes">
 <attribute name="NAME" x="125.73" y="-31.5214" size="1.778" layer="95"/>
 <attribute name="VALUE" x="125.73" y="-36.322" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="129.54" y="-33.02" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="P+14" gate="1" x="109.22" y="-33.02" smashed="yes" rot="R90">
 <attribute name="VALUE" x="114.3" y="-35.56" size="1.778" layer="96" rot="R180"/>
@@ -4527,6 +4566,7 @@ corresponds to 60V on TS</text>
 <instance part="R14" gate="G$1" x="142.24" y="-266.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="138.43" y="-268.1986" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="138.43" y="-263.398" size="1.778" layer="96" rot="MR180"/>
+<attribute name="TOLERANCE" x="142.24" y="-266.7" size="0.127" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="127" y="-254" smashed="yes">
 <attribute name="VALUE" x="124.46" y="-256.54" size="1.778" layer="96"/>
@@ -4570,6 +4610,7 @@ corresponds to 60V on TS</text>
 <attribute name="NAME" x="146.2786" y="-313.69" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="141.478" y="-313.69" size="1.778" layer="96" rot="R270"/>
 <attribute name="TYPE" x="144.78" y="-317.5" size="0.127" layer="96" rot="R270" display="off"/>
+<attribute name="TOLERANCE" x="144.78" y="-317.5" size="0.127" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="109.22" y="-48.26" smashed="yes">
 <attribute name="NAME" x="110.744" y="-45.339" size="1.778" layer="95"/>
@@ -4591,6 +4632,7 @@ corresponds to 60V on TS</text>
 <instance part="R15" gate="G$1" x="116.84" y="-289.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="120.65" y="-291.0586" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="120.65" y="-286.258" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="116.84" y="-289.56" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="111.76" y="-284.48" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="109.22" y="-281.94" size="1.778" layer="96" rot="MR180"/>
@@ -4636,6 +4678,7 @@ corresponds to 60V on TS</text>
 <attribute name="NAME" x="90.424" y="-81.661" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="95.504" y="-86.741" size="1.778" layer="96" rot="MR180"/>
 <attribute name="TOLERANCE" x="96.52" y="-83.82" size="0.127" layer="96" rot="MR270" display="off"/>
+<attribute name="VOLTAGE" x="96.52" y="-83.82" size="0.127" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="104.14" y="-83.82" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="106.68" y="-81.28" size="1.778" layer="96" rot="MR270"/>
@@ -4732,6 +4775,8 @@ corresponds to 60V on TS</text>
 <instance part="C20" gate="G$1" x="129.54" y="-355.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="131.064" y="-350.901" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="140.716" y="-355.219" size="1.778" layer="96" rot="MR0"/>
+<attribute name="TOLERANCE" x="129.54" y="-355.6" size="0.127" layer="96" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" x="129.54" y="-355.6" size="0.127" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="FLIP" gate="1" x="127" y="-388.62" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="119.38" y="-386.08" size="1.778" layer="96" rot="MR180"/>
@@ -4762,6 +4807,7 @@ corresponds to 60V on TS</text>
 <instance part="R1" gate="G$1" x="68.58" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.0814" y="19.05" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="71.882" y="19.05" size="1.778" layer="96" rot="R90"/>
+<attribute name="TOLERANCE" x="68.58" y="22.86" size="0.127" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="78.74" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.2414" y="21.59" size="1.778" layer="95" rot="R90"/>
@@ -4771,6 +4817,8 @@ corresponds to 60V on TS</text>
 <instance part="C1" gate="G$1" x="73.66" y="10.16" smashed="yes" rot="MR180">
 <attribute name="NAME" x="70.739" y="11.176" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="76.581" y="9.144" size="1.778" layer="96" rot="MR90"/>
+<attribute name="TOLERANCE" x="73.66" y="10.16" size="0.127" layer="96" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" x="73.66" y="10.16" size="0.127" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="GND33" gate="1" x="66.04" y="5.08" smashed="yes" rot="R270">
 <attribute name="VALUE" x="63.5" y="7.62" size="1.778" layer="96" rot="R270"/>
@@ -4788,6 +4836,8 @@ corresponds to 60V on TS</text>
 <instance part="C2" gate="G$1" x="76.2" y="-30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.136" y="-28.321" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="84.836" y="-30.861" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="76.2" y="-30.48" size="0.127" layer="96" rot="R90" display="off"/>
+<attribute name="VOLTAGE" x="76.2" y="-30.48" size="0.127" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND34" gate="1" x="88.9" y="-30.48" smashed="yes" rot="R90">
 <attribute name="VALUE" x="91.44" y="-33.02" size="1.778" layer="96" rot="R90"/>
@@ -4795,10 +4845,14 @@ corresponds to 60V on TS</text>
 <instance part="C22" gate="G$1" x="111.76" y="-381" smashed="yes" rot="MR180">
 <attribute name="NAME" x="113.284" y="-378.841" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="113.284" y="-383.921" size="1.778" layer="96" rot="MR180"/>
+<attribute name="TOLERANCE" x="111.76" y="-381" size="0.127" layer="96" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" x="111.76" y="-381" size="0.127" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="76.2" y="-381" smashed="yes" rot="MR180">
 <attribute name="NAME" x="77.724" y="-378.841" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="77.724" y="-383.921" size="1.778" layer="96" rot="MR180"/>
+<attribute name="TOLERANCE" x="76.2" y="-381" size="0.127" layer="96" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" x="76.2" y="-381" size="0.127" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="GND35" gate="1" x="68.58" y="-381" smashed="yes">
 <attribute name="VALUE" x="66.04" y="-383.54" size="1.778" layer="96"/>
@@ -4895,10 +4949,12 @@ corresponds to 60V on TS</text>
 <instance part="R31" gate="G$1" x="64.77" y="-434.34" smashed="yes">
 <attribute name="NAME" x="60.96" y="-432.8414" size="1.778" layer="95"/>
 <attribute name="VALUE" x="60.96" y="-437.642" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="64.77" y="-434.34" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="R30" gate="G$1" x="41.91" y="-434.34" smashed="yes">
 <attribute name="NAME" x="38.1" y="-432.8414" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="-437.642" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="41.91" y="-434.34" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="U14" gate="G$1" x="50.8" y="-419.1" smashed="yes">
 <attribute name="NAME" x="51.435" y="-417.195" size="1.778" layer="95"/>
@@ -4921,6 +4977,8 @@ corresponds to 60V on TS</text>
 <instance part="C23" gate="G$1" x="60.96" y="-408.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.881" y="-407.924" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="56.261" y="-405.384" size="1.778" layer="96" rot="R270"/>
+<attribute name="TOLERANCE" x="60.96" y="-408.94" size="0.127" layer="96" rot="R180" display="off"/>
+<attribute name="VOLTAGE" x="60.96" y="-408.94" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND42" gate="1" x="68.58" y="-406.4" smashed="yes" rot="R90">
 <attribute name="VALUE" x="71.12" y="-408.94" size="1.778" layer="96" rot="R90"/>
@@ -5225,10 +5283,12 @@ corresponds to 60V on TS</text>
 <instance part="R33" gate="G$1" x="101.6" y="-421.64" smashed="yes">
 <attribute name="NAME" x="97.79" y="-420.1414" size="1.778" layer="95"/>
 <attribute name="VALUE" x="97.79" y="-424.942" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="101.6" y="-421.64" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="R32" gate="G$1" x="101.6" y="-429.26" smashed="yes">
 <attribute name="NAME" x="97.79" y="-427.7614" size="1.778" layer="95"/>
 <attribute name="VALUE" x="97.79" y="-432.562" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="101.6" y="-429.26" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="GND62" gate="1" x="91.44" y="-429.26" smashed="yes" rot="R270">
 <attribute name="VALUE" x="88.9" y="-426.72" size="1.778" layer="96" rot="R270"/>
@@ -5240,6 +5300,7 @@ corresponds to 60V on TS</text>
 <instance part="R27" gate="G$1" x="27.94" y="-391.16" smashed="yes">
 <attribute name="NAME" x="24.13" y="-389.6614" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.13" y="-394.462" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="27.94" y="-391.16" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="27.94" y="-398.78" smashed="yes">
 <attribute name="NAME" x="24.13" y="-397.2814" size="1.778" layer="95"/>
