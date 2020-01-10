@@ -2295,9 +2295,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <parts>
 <part name="C2_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF">
 <attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C1_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF">
 <attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="RB1_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1K2">
 <attribute name="TOLERANCE" value="1%"/>
@@ -2310,11 +2312,11 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="U$2" library="HyTechDevices" deviceset="LTC6811-2" device=""/>
 <part name="C4_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C6_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
-<attribute name="TOLERANCE" value="10%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="F9" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
@@ -2398,32 +2400,32 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="C3_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15pF">
-<attribute name="TOLERANCE" value="1%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="J1_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J2_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J3_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J4_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J5_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J6_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J7_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J8_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="SUPPLY14" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="V-" device=""/>
@@ -2443,9 +2445,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY29" library="supply2" deviceset="V-" device=""/>
 <part name="C2_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF">
 <attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C1_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF">
 <attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="RB1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1K2">
 <attribute name="TOLERANCE" value="1%"/>
@@ -2462,7 +2466,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C6_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
-<attribute name="TOLERANCE" value="10%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="F18" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
@@ -2520,7 +2524,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="C5_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10nF">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="RU1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
@@ -2540,32 +2544,32 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="C3_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15pF">
-<attribute name="TOLERANCE" value="1%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="J1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J2_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J3_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J4_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J5_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J6_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J7_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="J8_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
-<attribute name="TOLERANCE" value="5%"/>
+<attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="SUPPLY43" library="supply1" deviceset="V-" device=""/>
 <part name="SUPPLY44" library="supply1" deviceset="V-" device=""/>
@@ -2602,7 +2606,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="THERM3_B" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="THERMISTOR"/>
 <part name="U$3" library="HyTechDevices" deviceset="NSV1C201MZ4" device=""/>
 <part name="C7_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
-<attribute name="TOLERANCE" value="10%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="SUPPLY69" library="supply1" deviceset="V-" device=""/>
@@ -2611,11 +2615,12 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="C8_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF">
 <attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="SUPPLY40" library="supply1" deviceset="V-" device=""/>
 <part name="U$4" library="HyTechDevices" deviceset="NSV1C201MZ4" device=""/>
 <part name="C7_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
-<attribute name="TOLERANCE" value="10%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="RIN_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
@@ -2623,6 +2628,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="C8_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF">
 <attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="SUPPLY2" library="supply2" deviceset="V-" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="V-" device=""/>
@@ -2748,11 +2754,13 @@ set chip address</text>
 <attribute name="NAME" x="82.804" y="23.241" size="1.778" layer="95"/>
 <attribute name="VALUE" x="82.804" y="18.161" size="1.778" layer="96"/>
 <attribute name="TOLERANCE" x="81.28" y="20.32" size="0.127" layer="96" display="off"/>
+<attribute name="VOLTAGE" x="81.28" y="20.32" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="C1_B" gate="G$1" x="60.96" y="17.78" smashed="yes" rot="MR0">
 <attribute name="NAME" x="67.056" y="20.701" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="67.056" y="15.621" size="1.778" layer="96" rot="MR0"/>
 <attribute name="TOLERANCE" x="60.96" y="17.78" size="0.127" layer="96" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" x="60.96" y="17.78" size="0.127" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="RB1_B" gate="G$1" x="25.4" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.21" y="49.3014" size="1.778" layer="95" rot="R180"/>
@@ -3037,11 +3045,13 @@ set chip address</text>
 <attribute name="NAME" x="61.976" y="271.399" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="61.976" y="276.479" size="1.778" layer="96" rot="R180"/>
 <attribute name="TOLERANCE" x="63.5" y="274.32" size="0.127" layer="96" rot="R180" display="off"/>
+<attribute name="VOLTAGE" x="63.5" y="274.32" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C1_A" gate="G$1" x="63.5" y="256.54" smashed="yes" rot="MR0">
 <attribute name="NAME" x="61.976" y="259.461" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="61.976" y="254.381" size="1.778" layer="96" rot="MR0"/>
 <attribute name="TOLERANCE" x="63.5" y="256.54" size="0.127" layer="96" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" x="63.5" y="256.54" size="0.127" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="RB1_A" gate="G$1" x="25.4" y="289.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.21" y="288.0614" size="1.778" layer="95" rot="R180"/>
@@ -3401,6 +3411,7 @@ set chip address</text>
 <attribute name="NAME" x="13.716" y="195.961" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="13.716" y="190.881" size="1.778" layer="96" rot="MR0"/>
 <attribute name="TOLERANCE" x="15.24" y="193.04" size="0.127" layer="96" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" x="15.24" y="193.04" size="0.127" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="SUPPLY40" gate="1" x="15.24" y="185.42" smashed="yes">
 <attribute name="VALUE" x="15.24" y="185.42" size="1.778" layer="96" rot="R180"/>
@@ -3424,6 +3435,7 @@ set chip address</text>
 <attribute name="NAME" x="13.716" y="-42.799" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="13.716" y="-47.879" size="1.778" layer="96" rot="MR0"/>
 <attribute name="TOLERANCE" x="15.24" y="-45.72" size="0.127" layer="96" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" x="15.24" y="-45.72" size="0.127" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="1" x="15.24" y="-55.88" smashed="yes">
 <attribute name="VALUE" x="15.24" y="-55.88" size="1.778" layer="96" rot="R180"/>
@@ -5684,9 +5696,6 @@ set chip address</text>
 <approved hash="201,1,147.32,287.02,V-,V-_B\, V-_A,,,,"/>
 <approved hash="201,1,147.32,246.38,V-,V-_B\, V-_A,,,,"/>
 <approved hash="201,1,147.32,226.06,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,165.1,68.58,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,165.1,48.26,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,165.1,27.94,V-,V-_B\, V-_A,,,,"/>
 <approved hash="201,1,175.26,7.62,V-,V-_B\, V-_A,,,,"/>
 <approved hash="201,1,175.26,-12.7,V-,V-_B\, V-_A,,,,"/>
 <approved hash="201,1,-101.6,137.16,V-,V-_B\, V-_A,,,,"/>
@@ -5715,15 +5724,6 @@ set chip address</text>
 <approved hash="201,1,63.5,251.46,V-,V-_B\, V-_A,,,,"/>
 <approved hash="201,1,-109.22,332.74,V-,V-_B\, V-_A,,,,"/>
 <approved hash="201,1,-127,137.16,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,-93.98,-76.2,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,-93.98,-58.42,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,-93.98,-40.64,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,-93.98,-22.86,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,-93.98,-5.08,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,-93.98,20.32,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,-93.98,38.1,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,-93.98,55.88,V-,V-_B\, V-_A,,,,"/>
-<approved hash="201,1,-93.98,73.66,V-,V-_B\, V-_A,,,,"/>
 <approved hash="201,1,157.48,12.7,V-,V-_B\, V-_A,,,,"/>
 <approved hash="201,1,157.48,33.02,V-,V-_B\, V-_A,,,,"/>
 <approved hash="201,1,81.28,15.24,V-,V-_B\, V-_A,,,,"/>
@@ -5793,18 +5793,6 @@ set chip address</text>
 <approved hash="208,1,81.28,15.24,V-_B,sup,,,,"/>
 <approved hash="208,1,157.48,33.02,V-_B,sup,,,,"/>
 <approved hash="208,1,157.48,12.7,V-_B,sup,,,,"/>
-<approved hash="208,1,-93.98,73.66,V-_B,sup,,,,"/>
-<approved hash="208,1,-93.98,55.88,V-_B,sup,,,,"/>
-<approved hash="208,1,-93.98,38.1,V-_B,sup,,,,"/>
-<approved hash="208,1,-93.98,20.32,V-_B,sup,,,,"/>
-<approved hash="208,1,-93.98,-5.08,V-_B,sup,,,,"/>
-<approved hash="208,1,-93.98,-22.86,V-_B,sup,,,,"/>
-<approved hash="208,1,-93.98,-40.64,V-_B,sup,,,,"/>
-<approved hash="208,1,-93.98,-58.42,V-_B,sup,,,,"/>
-<approved hash="208,1,-93.98,-76.2,V-_B,sup,,,,"/>
-<approved hash="208,1,165.1,68.58,V-_B,sup,,,,"/>
-<approved hash="208,1,165.1,48.26,V-_B,sup,,,,"/>
-<approved hash="208,1,165.1,27.94,V-_B,sup,,,,"/>
 <approved hash="208,1,175.26,7.62,V-_B,sup,,,,"/>
 <approved hash="208,1,175.26,-12.7,V-_B,sup,,,,"/>
 <approved hash="208,1,-109.22,114.3,V-_B,sup,,,,"/>
