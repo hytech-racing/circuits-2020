@@ -4073,7 +4073,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="4.7nF">
-<attribute name="TOLERANCE" value="1%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
