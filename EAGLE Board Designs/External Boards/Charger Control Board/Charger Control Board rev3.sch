@@ -3299,49 +3299,80 @@ Source: http://www.molex.com</description>
 <parts>
 <part name="POWERTAIL" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Powerswitch Tail"/>
 <part name="GND7" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="40k"/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="40k">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="GND9" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="ZENER" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value=""/>
 <part name="GND8" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="Q1" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 <part name="U$2" library="HyTechDevices" deviceset="CPC1002N" device=""/>
 <part name="GND12" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="360"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="360">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="U$4" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
 <part name="CAN_TRANSCEIVER_3.2" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND27" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="C1" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C2" library="HyTechDevices" deviceset="CAP" device="0805" value=".1uF"/>
+<part name="C1" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</part>
+<part name="C2" library="HyTechDevices" deviceset="CAP" device="0805" value=".1uF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</part>
 <part name="GND88" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="REG" library="HyTechDevices" deviceset="OKI-78SR-5" device="" value="5V"/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C3" library="HyTechDevices" deviceset="CAP" device="0805" value="10uF"/>
-<part name="C4" library="HyTechDevices" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C3" library="HyTechDevices" deviceset="CAP" device="0805" value="10uF">
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</part>
+<part name="C4" library="HyTechDevices" deviceset="CAP" device="0805" value="10uF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</part>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+14" library="supply1" deviceset="+12V" device=""/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="68"/>
-<part name="STATUS" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="68">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
+<part name="STATUS" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="GND16" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="60"/>
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="60">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="CAN_TERM_JMP" library="HyTechDevices" deviceset="M02" device="_SLIM" value="M02_SLIM"/>
 <part name="U$1" library="HyTechDevices" deviceset="CDSOT23-T24CAN-Q" device=""/>
 <part name="GND26" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="60"/>
-<part name="C5" library="HyTechDevices" deviceset="CAP" device="0805" value="4.7nF"/>
+<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="60">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
+<part name="C5" library="HyTechDevices" deviceset="CAP" device="0805" value="4.7nF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
 <part name="GND93" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="IMD_SHUTDOWN_RLY" library="HyTechDevices" deviceset="RT424009" device=""/>
 <part name="GND4" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="LED6" library="HyTechDevices" deviceset="LED" device="-0805" value="White"/>
 <part name="LED4" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
 <part name="SHUTDOWN_B" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="BMS_SHUTDOWN_RLY" library="HyTechDevices" deviceset="RT424009" device=""/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20k"/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20k">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="SHUTDOWN_C" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
 <part name="GND20" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="LED3" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
@@ -3350,19 +3381,31 @@ Source: http://www.molex.com</description>
 <part name="D7" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="S1" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD"/>
 <part name="GND5" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="5.1k"/>
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="5.1k">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="P+42" library="supply1" deviceset="+5V" device=""/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k"/>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="33"/>
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="33">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="GND13" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="D9" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D1" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
-<part name="5ASHUTDOWNFUSE" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE"/>
-<part name="5ABOARDFUSE" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE"/>
+<part name="5ASHUTDOWNFUSE" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE">
+<attribute name="RATING" value="5A"/>
+</part>
+<part name="5ABOARDFUSE" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE">
+<attribute name="RATING" value="5A"/>
+</part>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="SHUTDOWN_BUTTON" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Shutdown Button"/>
 <part name="LED1" library="HyTechDevices" deviceset="LED" device="-0805" value="Purple"/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="270"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="270">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="GND23" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="POWER" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="POWER"/>
@@ -3373,11 +3416,19 @@ Source: http://www.molex.com</description>
 <part name="D3" library="HyTechDevices" deviceset="DIODE" device="0805" value="DIODE"/>
 <part name="U$3" library="HyTechDevices" deviceset="KT12-1A-40L-THT" device=""/>
 <part name="CHARGER" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="CHARGE CONTROL"/>
-<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20"/>
-<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k"/>
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="GND10" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20"/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 <part name="D2" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D4" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D5" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
@@ -3386,11 +3437,19 @@ Source: http://www.molex.com</description>
 <part name="CAN_TRANSCEIVER_3.5" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND11" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
-<part name="C6" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C7" library="HyTechDevices" deviceset="CAP" device="0805" value=".1uF"/>
+<part name="C6" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</part>
+<part name="C7" library="HyTechDevices" deviceset="CAP" device="0805" value=".1uF">
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</part>
 <part name="GND14" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="68"/>
-<part name="STATUS1" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
+<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="68">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
+<part name="STATUS1" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="GND17" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND18" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
@@ -3422,10 +3481,12 @@ Source: http://www.molex.com</description>
 <instance part="R11" gate="G$1" x="-99.06" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="-95.4786" y="49.53" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-100.838" y="52.07" size="1.778" layer="96" rot="R90"/>
+<attribute name="TOLERANCE" x="-99.06" y="53.34" size="0.127" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="-99.06" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="-100.5586" y="39.37" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-95.758" y="36.83" size="1.778" layer="96" rot="R90"/>
+<attribute name="TOLERANCE" x="-99.06" y="38.1" size="0.127" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="-99.06" y="27.94" smashed="yes">
 <attribute name="VALUE" x="-101.6" y="25.4" size="1.778" layer="96"/>
@@ -3451,6 +3512,7 @@ Source: http://www.molex.com</description>
 <instance part="R14" gate="G$1" x="-175.26" y="53.34" smashed="yes">
 <attribute name="NAME" x="-179.07" y="54.8386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-179.07" y="50.038" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="-175.26" y="53.34" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="U$4" gate="G$1" x="124.46" y="-48.26" smashed="yes"/>
 <instance part="CAN_TRANSCEIVER_3.2" gate="G$1" x="81.28" y="-12.7" smashed="yes" rot="R180">
@@ -3465,10 +3527,14 @@ Source: http://www.molex.com</description>
 <instance part="C1" gate="G$1" x="78.74" y="-27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="77.216" y="-30.861" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="77.216" y="-25.781" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="78.74" y="-27.94" size="0.127" layer="96" rot="R180" display="off"/>
+<attribute name="VOLTAGE" x="78.74" y="-27.94" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="71.12" y="-27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.596" y="-30.861" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="69.596" y="-25.781" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="71.12" y="-27.94" size="0.127" layer="96" rot="R180" display="off"/>
+<attribute name="VOLTAGE" x="71.12" y="-27.94" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND88" gate="1" x="78.74" y="-40.64" smashed="yes">
 <attribute name="VALUE" x="76.2" y="-43.18" size="1.778" layer="96"/>
@@ -3489,10 +3555,14 @@ Source: http://www.molex.com</description>
 <instance part="C3" gate="G$1" x="30.48" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.956" y="40.259" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="28.956" y="45.339" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="30.48" y="43.18" size="0.127" layer="96" rot="R180" display="off"/>
+<attribute name="VOLTAGE" x="30.48" y="43.18" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="5.08" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="3.556" y="40.259" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="3.556" y="45.339" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="5.08" y="43.18" size="0.127" layer="96" rot="R180" display="off"/>
+<attribute name="VOLTAGE" x="5.08" y="43.18" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="P+3" gate="1" x="5.08" y="55.88" smashed="yes">
 <attribute name="VALUE" x="7.62" y="58.42" size="1.778" layer="96" rot="R180"/>
@@ -3503,6 +3573,7 @@ Source: http://www.molex.com</description>
 <instance part="R15" gate="G$1" x="114.3" y="-33.02" smashed="yes">
 <attribute name="NAME" x="115.57" y="-31.5214" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="-36.322" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="114.3" y="-33.02" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="STATUS" gate="LED" x="104.14" y="-33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="99.568" y="-36.576" size="1.778" layer="95"/>
@@ -3514,6 +3585,7 @@ Source: http://www.molex.com</description>
 <instance part="R9" gate="G$1" x="55.88" y="20.32" smashed="yes">
 <attribute name="NAME" x="52.07" y="21.8186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.07" y="17.018" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="55.88" y="20.32" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="CAN_TERM_JMP" gate="G$1" x="81.28" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="88.9" y="9.398" size="1.778" layer="95" rot="R180"/>
@@ -3528,10 +3600,13 @@ Source: http://www.molex.com</description>
 <instance part="R10" gate="G$1" x="71.12" y="20.32" smashed="yes">
 <attribute name="NAME" x="67.31" y="21.8186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="67.31" y="17.018" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="71.12" y="20.32" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="63.5" y="10.16" smashed="yes" rot="MR0">
 <attribute name="NAME" x="61.976" y="13.081" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="61.976" y="8.001" size="1.778" layer="96" rot="MR0"/>
+<attribute name="TOLERANCE" x="63.5" y="10.16" size="0.127" layer="96" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" x="63.5" y="10.16" size="0.127" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND93" gate="1" x="63.5" y="2.54" smashed="yes">
 <attribute name="VALUE" x="60.96" y="0" size="1.778" layer="96"/>
@@ -3557,6 +3632,7 @@ Source: http://www.molex.com</description>
 <instance part="R3" gate="G$1" x="-99.06" y="-35.56" smashed="yes">
 <attribute name="NAME" x="-102.87" y="-34.0614" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-102.87" y="-38.862" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="-99.06" y="-35.56" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="-81.28" y="-38.1" smashed="yes">
 <attribute name="VALUE" x="-83.82" y="-40.64" size="1.778" layer="96"/>
@@ -3567,6 +3643,7 @@ Source: http://www.molex.com</description>
 <instance part="R4" gate="G$1" x="-22.86" y="-38.1" smashed="yes">
 <attribute name="NAME" x="-26.67" y="-36.6014" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-26.67" y="-41.402" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="-22.86" y="-38.1" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="SHUTDOWN_C" gate="LED" x="-12.7" y="-38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="-8.128" y="-34.544" size="1.778" layer="95" rot="R180"/>
@@ -3599,6 +3676,7 @@ Source: http://www.molex.com</description>
 <instance part="R6" gate="G$1" x="-35.56" y="20.32" smashed="yes">
 <attribute name="NAME" x="-39.37" y="21.8186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-39.37" y="17.018" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="-35.56" y="20.32" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="P+42" gate="1" x="-45.72" y="20.32" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-48.26" y="22.86" size="1.778" layer="96" rot="R270"/>
@@ -3606,10 +3684,12 @@ Source: http://www.molex.com</description>
 <instance part="R7" gate="G$1" x="-35.56" y="50.8" smashed="yes">
 <attribute name="NAME" x="-39.37" y="52.2986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-39.37" y="47.498" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="-35.56" y="50.8" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="-35.56" y="40.64" smashed="yes">
 <attribute name="NAME" x="-39.37" y="42.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-39.37" y="37.338" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="-35.56" y="40.64" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="-111.76" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="-114.3" y="-25.4" size="1.778" layer="96"/>
@@ -3625,10 +3705,12 @@ Source: http://www.molex.com</description>
 <instance part="5ASHUTDOWNFUSE" gate="G$1" x="68.58" y="45.72" smashed="yes">
 <attribute name="NAME" x="63.5" y="46.99" size="1.27" layer="95"/>
 <attribute name="VALUE" x="71.12" y="46.99" size="1.27" layer="96"/>
+<attribute name="RATING" x="68.58" y="45.72" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="5ABOARDFUSE" gate="G$1" x="68.58" y="38.1" smashed="yes">
 <attribute name="NAME" x="63.5" y="39.37" size="1.27" layer="95"/>
 <attribute name="VALUE" x="71.12" y="39.37" size="1.27" layer="96"/>
+<attribute name="RATING" x="68.58" y="38.1" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="P+5" gate="1" x="81.28" y="38.1" smashed="yes" rot="R270">
 <attribute name="VALUE" x="76.2" y="40.64" size="1.778" layer="96"/>
@@ -3647,6 +3729,7 @@ Source: http://www.molex.com</description>
 <instance part="R5" gate="G$1" x="-35.56" y="30.48" smashed="yes">
 <attribute name="NAME" x="-39.37" y="31.9786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-39.37" y="27.178" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="-35.56" y="30.48" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="-15.24" y="30.48" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-12.7" y="27.94" size="1.778" layer="96" rot="R90"/>
@@ -3710,19 +3793,23 @@ Source: http://www.molex.com</description>
 <instance part="R13" gate="G$1" x="-116.84" y="-5.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="-113.03" y="-6.5786" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-113.03" y="-1.778" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="-116.84" y="-5.08" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="-111.76" y="-12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="-110.2614" y="-8.89" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-115.062" y="-8.89" size="1.778" layer="96" rot="R270"/>
+<attribute name="TOLERANCE" x="-111.76" y="-12.7" size="0.127" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="-30.48" y="-25.4" smashed="yes"/>
 <instance part="R1" gate="G$1" x="-35.56" y="-7.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="-31.75" y="-9.1186" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-31.75" y="-4.318" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="-35.56" y="-7.62" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="-30.48" y="-15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="-28.9814" y="-11.43" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-33.782" y="-11.43" size="1.778" layer="96" rot="R270"/>
+<attribute name="TOLERANCE" x="-30.48" y="-15.24" size="0.127" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="D2" gate="1" x="132.08" y="5.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="135.89" y="6.8326" size="1.778" layer="95" rot="MR0"/>
@@ -3753,10 +3840,14 @@ Source: http://www.molex.com</description>
 <instance part="C6" gate="G$1" x="78.74" y="-68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="77.216" y="-71.501" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="77.216" y="-66.421" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="78.74" y="-68.58" size="0.127" layer="96" rot="R180" display="off"/>
+<attribute name="VOLTAGE" x="78.74" y="-68.58" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="71.12" y="-68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.596" y="-71.501" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="69.596" y="-66.421" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="71.12" y="-68.58" size="0.127" layer="96" rot="R180" display="off"/>
+<attribute name="VOLTAGE" x="71.12" y="-68.58" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="78.74" y="-81.28" smashed="yes">
 <attribute name="VALUE" x="76.2" y="-83.82" size="1.778" layer="96"/>
@@ -3764,6 +3855,7 @@ Source: http://www.molex.com</description>
 <instance part="R17" gate="G$1" x="114.3" y="-78.74" smashed="yes">
 <attribute name="NAME" x="115.57" y="-77.2414" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="-82.042" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="114.3" y="-78.74" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="STATUS1" gate="LED" x="104.14" y="-78.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="99.568" y="-82.296" size="1.778" layer="95"/>
