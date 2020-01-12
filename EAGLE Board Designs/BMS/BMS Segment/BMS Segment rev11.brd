@@ -4618,7 +4618,7 @@ design rules under a new name.</description>
 <attribute name="VOLTAGE" value="10V" x="104.564" y="65.137" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4_B" library="HyTechDevices" package="0603-CAP" value="10nF" x="87.46" y="118.899" smashed="yes" rot="R270">
-<attribute name="TOLERANCE" value="1%" x="87.46" y="118.899" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="87.46" y="118.899" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="86.4948" y="118.899" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 <attribute name="VOLTAGE" value="10V" x="87.46" y="118.899" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -5105,7 +5105,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="94.869" y="177.4698" size="1.016" layer="27" font="vector" align="bottom-center"/>
 </element>
 <element name="C5_A" library="HyTechDevices" package="0603-CAP" value="10nF" x="99.3316" y="176.3382" smashed="yes" rot="R270">
-<attribute name="TOLERANCE" value="1%" x="99.3316" y="176.3382" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="99.3316" y="176.3382" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="98.3664" y="176.3382" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 <attribute name="VOLTAGE" value="10V" x="99.3316" y="176.3382" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
