@@ -2317,7 +2317,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="C6_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="TOLERANCE" value="5%"/>
-<attribute name="VOLTAGE" value="100V"/>
+<attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="F9" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
@@ -2467,7 +2467,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="C6_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="TOLERANCE" value="5%"/>
-<attribute name="VOLTAGE" value="100V"/>
+<attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="F18" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
@@ -2607,7 +2607,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$3" library="HyTechDevices" deviceset="NSV1C201MZ4" device=""/>
 <part name="C7_A" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="TOLERANCE" value="5%"/>
-<attribute name="VOLTAGE" value="100V"/>
+<attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="SUPPLY69" library="supply1" deviceset="V-" device=""/>
 <part name="RIN_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
@@ -2621,7 +2621,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$4" library="HyTechDevices" deviceset="NSV1C201MZ4" device=""/>
 <part name="C7_B" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="TOLERANCE" value="5%"/>
-<attribute name="VOLTAGE" value="100V"/>
+<attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="RIN_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
 <attribute name="TOLERANCE" value="1%"/>
