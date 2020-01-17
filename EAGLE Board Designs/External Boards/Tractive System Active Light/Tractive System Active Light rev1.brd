@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -189,8 +189,6 @@
 <plain>
 <wire x1="40.64" y1="2.54" x2="-40.64" y2="2.54" width="0.1524" layer="20"/>
 <text x="3.81" y="5.08" size="1.524" layer="25" font="vector" rot="SR0">HyTech Racing 2020</text>
-<circle x="27.94" y="18.034" radius="3.3528" width="0.1524" layer="20"/>
-<circle x="-27.94" y="18.034" radius="3.3528" width="0.1524" layer="20"/>
 <wire x1="-40.64" y1="2.54" x2="-40.64" y2="17.653" width="0.1524" layer="20"/>
 <wire x1="40.64" y1="2.54" x2="40.64" y2="17.6276" width="0.1524" layer="20"/>
 <text x="10.668" y="21.971" size="1.27" layer="25" font="vector" rot="SR0">Designed by 
@@ -1717,6 +1715,8 @@ Max Zhelyabovskiy</text>
 <text x="-1.27" y="3.556" size="1.524" layer="51" font="vector">Tractive System Active Light rev1</text>
 <text x="32.512" y="3.429" size="1.524" layer="52" font="vector" rot="MR0">Tractive System Active Light rev1</text>
 <text x="24.13" y="5.08" size="1.524" layer="52" font="vector" rot="MR0">HyTech Racing 2020</text>
+<hole x="27.94" y="18.034" drill="3.3528"/>
+<hole x="-27.94" y="18.034" drill="3.3528"/>
 </plain>
 <libraries>
 <library name="HyTechDevices">
