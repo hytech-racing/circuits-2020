@@ -5304,7 +5304,6 @@ design rules under a new name.</description>
 <contactref element="U$37" pad="COIL+"/>
 <contactref element="R103" pad="2"/>
 <contactref element="R98" pad="1"/>
-<contactref element="R99" pad="2"/>
 <contactref element="D55" pad="A"/>
 <wire x1="34.6566" y1="85.6996" x2="37.592" y2="85.6996" width="0.254" layer="16"/>
 <wire x1="37.592" y1="85.6996" x2="37.6174" y2="85.6742" width="0.254" layer="16"/>
@@ -5324,7 +5323,6 @@ design rules under a new name.</description>
 <wire x1="47.817" y1="53.673" x2="47.8932" y2="53.5968" width="0.254" layer="16"/>
 <via x="47.8932" y="53.5968" extent="1-16" drill="0.35"/>
 <wire x1="46.0548" y1="78.48175" x2="46.0548" y2="61.6917875" width="0.254" layer="1"/>
-<wire x1="47.2576" y1="26.5684" x2="46.1094" y2="26.5684" width="0.254" layer="1"/>
 <wire x1="44.6362" y1="28.0416" x2="46.1094" y2="26.5684" width="0.254" layer="1"/>
 <wire x1="45.4542" y1="10.8712" x2="45.4542" y2="10.990725" width="0.254" layer="1"/>
 <wire x1="45.4542" y1="10.990725" x2="40.341325" y2="16.1036" width="0.254" layer="1"/>
@@ -5350,6 +5348,8 @@ design rules under a new name.</description>
 <wire x1="32.4976" y1="16.1036" x2="31.2022" y2="17.399" width="0.254" layer="1"/>
 <wire x1="31.1912" y1="17.399" x2="31.2022" y2="17.399" width="0.254" layer="1"/>
 <wire x1="31.1912" y1="17.399" x2="30.1608" y2="17.399" width="0.254" layer="1"/>
+<contactref element="R99" pad="2"/>
+<wire x1="46.1094" y1="26.5684" x2="47.2576" y2="26.5684" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$105">
 <contactref element="D37" pad="A"/>
