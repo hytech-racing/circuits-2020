@@ -24044,6 +24044,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1789660.pdf"&gt; Datasheet
 </device>
 </devices>
 </deviceset>
+<<<<<<< HEAD
 <deviceset name="M01">
 <description>Standard 1-pin header</description>
 <gates>
@@ -24060,6 +24061,8 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1789660.pdf"&gt; Datasheet
 </device>
 </devices>
 </deviceset>
+=======
+>>>>>>> master
 </devicesets>
 </library>
 </drawing>
