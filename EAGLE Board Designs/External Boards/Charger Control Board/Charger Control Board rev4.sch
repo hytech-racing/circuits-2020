@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -3299,10 +3299,10 @@ Source: http://www.molex.com</description>
 <parts>
 <part name="POWERTAIL" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Powerswitch Tail"/>
 <part name="GND7" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="40k">
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10k">
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="5.1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND9" library="HyTechSymbols" deviceset="GND" device=""/>
