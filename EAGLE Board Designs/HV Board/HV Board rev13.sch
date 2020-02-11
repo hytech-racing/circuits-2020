@@ -3934,7 +3934,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="IMD-OK" library="HyTechDevices" deviceset="LED" device="-0805" value="YELLOW"/>
 <part name="BMS-OK" library="HyTechDevices" deviceset="LED" device="-0805" value="GREEN"/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="820">
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
@@ -4164,7 +4164,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="R39" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R37" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="1.4k">
+<part name="R37" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="14k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="R35" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="510k">
