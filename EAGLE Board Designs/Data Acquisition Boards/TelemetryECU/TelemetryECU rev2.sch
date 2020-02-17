@@ -1046,6 +1046,12 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <pad name="P$20" x="0" y="-0.762" drill="1"/>
 <pad name="P$21" x="0" y="-3.048" drill="1"/>
 <pad name="P$22" x="-4.6228" y="2.2352" drill="1"/>
+<circle x="0" y="0" radius="8.725" width="0.127" layer="21"/>
+<hole x="-10.2884" y="-10.2884" drill="3.3"/>
+<hole x="10.2884" y="10.2884" drill="3.3"/>
+<circle x="-10.2884" y="-10.2884" radius="3" width="0.127" layer="40"/>
+<circle x="10.2884" y="10.2884" radius="3" width="0.127" layer="40"/>
+<circle x="0" y="0" radius="13" width="0.127" layer="21"/>
 </package>
 <package name="1X02">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -2229,6 +2235,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </devices>
 </deviceset>
 <deviceset name="CONNECTOR-22">
+<description>22-pin Autosport connector</description>
 <gates>
 <gate name="G$1" symbol="AUTOSPORT22" x="0" y="0"/>
 </gates>
@@ -2259,7 +2266,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <connect gate="G$1" pin="9" pad="P$9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PINS" value="22" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
