@@ -712,7 +712,7 @@ Source: http://www.molex.com</description>
 <text x="0" y="0.3302" size="0.635" layer="25" align="top-center">&gt;NAME</text>
 </package>
 <package name="KEYSTONE5222">
-<smd name="P$1" x="0" y="0" dx="11.43" dy="13.335" layer="1"/>
+<smd name="P$1" x="0" y="0" dx="11.303" dy="13.208" layer="1"/>
 </package>
 <package name="NANO-FIT_RIGHT_ANGLE-2">
 <pad name="2" x="-1.25" y="0" drill="1.2" shape="square"/>
@@ -823,12 +823,12 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 </package>
 <package name="PWR163">
 <smd name="PAD" x="0" y="0" dx="7.874" dy="8.509" layer="1"/>
-<smd name="1" x="-2.54" y="-7.9375" dx="3.81" dy="1.651" layer="1" rot="R90"/>
-<smd name="2" x="2.54" y="-7.9375" dx="3.81" dy="1.651" layer="1" rot="R90"/>
-<wire x1="-4.064" y1="3.6195" x2="4.064" y2="3.6195" width="0.127" layer="21"/>
-<wire x1="4.064" y1="3.6195" x2="4.064" y2="-3.6195" width="0.127" layer="21"/>
-<wire x1="4.064" y1="-3.6195" x2="-4.064" y2="-3.6195" width="0.127" layer="21"/>
-<wire x1="-4.064" y1="-3.6195" x2="-4.064" y2="3.6195" width="0.127" layer="21"/>
+<smd name="1" x="-2.54" y="-7.366" dx="2.54" dy="1.143" layer="1" rot="R90"/>
+<smd name="2" x="2.54" y="-7.366" dx="2.54" dy="1.143" layer="1" rot="R90"/>
+<wire x1="-4.064" y1="4.3815" x2="4.064" y2="4.3815" width="0.127" layer="21"/>
+<wire x1="4.064" y1="4.3815" x2="4.064" y2="-4.3815" width="0.127" layer="21"/>
+<wire x1="4.064" y1="-4.3815" x2="-4.064" y2="-4.3815" width="0.127" layer="21"/>
+<wire x1="-4.064" y1="-4.3815" x2="-4.064" y2="4.3815" width="0.127" layer="21"/>
 </package>
 <package name="LED-3MM">
 <description>3mm LED
@@ -2070,8 +2070,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="SUPPLY1" library="supply2" deviceset="V-" device=""/>
-<part name="LED1" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="150R">
+<part name="LED1" library="HyTechDevices" deviceset="LED" device="-0805" value="RED">
+<attribute name="DKPN" value="350-2038-1-ND"/>
+</part>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 </parts>
@@ -2113,6 +2115,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="LED1" gate="LED" x="15.24" y="5.08" smashed="yes">
 <attribute name="NAME" x="18.796" y="0.508" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="20.955" y="0.508" size="1.778" layer="96" rot="R90"/>
+<attribute name="DKPN" x="15.24" y="5.08" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="15.24" y="-7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.7414" y="-11.43" size="1.778" layer="95" rot="R90"/>
