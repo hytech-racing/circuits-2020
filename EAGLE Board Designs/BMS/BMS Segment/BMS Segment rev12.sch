@@ -712,7 +712,7 @@ Source: http://www.molex.com</description>
 <text x="0" y="0.3302" size="0.635" layer="25" align="top-center">&gt;NAME</text>
 </package>
 <package name="KEYSTONE5222">
-<smd name="P$1" x="0" y="0" dx="11.43" dy="13.335" layer="1"/>
+<smd name="P$1" x="0" y="0" dx="11.303" dy="13.208" layer="1"/>
 </package>
 <package name="NANO-FIT_RIGHT_ANGLE-2">
 <pad name="2" x="-1.25" y="0" drill="1.2" shape="square"/>
