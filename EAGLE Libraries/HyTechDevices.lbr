@@ -6675,8 +6675,7 @@ Source: transistor-fet.lbr</description>
 <pad name="3" x="2.54" y="0" drill="1"/>
 </package>
 <package name="KEYSTONE5222">
-<smd name="P$1" x="0" y="0" dx="11.43" dy="13.335" layer="1"/>
-<text x="0" y="-7.874" size="0.508" layer="25" align="top-center">&gt;NAME</text>
+<smd name="P$1" x="0" y="0" dx="11.303" dy="13.208" layer="1"/>
 </package>
 <package name="0S102011MS2QS1">
 <pad name="P$2" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
