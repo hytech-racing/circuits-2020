@@ -5692,6 +5692,7 @@ Source: http://www.molex.com</description>
 <part name="U$18" library="HyTechFrames" deviceset="FRAME_A_L" device=""/>
 <part name="U$26" library="HyTechFrames" deviceset="FRAME_B_L" device=""/>
 <part name="U$27" library="HyTechDevices" deviceset="M07" device=""/>
+<part name="U$29" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5898,6 +5899,7 @@ Source: http://www.molex.com</description>
 <instance part="U$27" gate="G$1" x="194.31" y="44.45" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.31" y="23.368" size="1.778" layer="95" rot="R180"/>
 </instance>
+<instance part="U$29" gate="G$1" x="124.46" y="60.96" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -6183,6 +6185,8 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
 <pinref part="AGND25" gate="VR1" pin="AGND"/>
+<pinref part="U$29" gate="G$1" pin="P$1"/>
+<junction x="121.92" y="60.96"/>
 </segment>
 </net>
 <net name="+3V3A" class="0">
