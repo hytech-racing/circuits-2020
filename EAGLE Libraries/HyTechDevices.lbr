@@ -7954,8 +7954,8 @@ MX150L™ Vertical PCB Header</description>
 <text x="0.24" y="-10.56" size="0.8128" layer="25">&gt;VALUE</text>
 </package>
 <package name="5X20MM_FUSE">
-<smd name="P$1" x="-7.5" y="0" dx="5" dy="5.5" layer="1" rot="R90"/>
-<smd name="P$2" x="7.5" y="0" dx="5" dy="5.5" layer="1" rot="R90"/>
+<smd name="P$1" x="-7.5" y="0" dx="4.999990625" dy="5.4999875" layer="1" rot="R90"/>
+<smd name="P$2" x="7.5" y="0" dx="4.999990625" dy="5.4999875" layer="1" rot="R90"/>
 <wire x1="-10" y1="2.6" x2="10" y2="2.6" width="0.127" layer="21"/>
 <wire x1="10" y1="2.6" x2="10" y2="-2.6" width="0.127" layer="21"/>
 <wire x1="10" y1="-2.6" x2="-10" y2="-2.6" width="0.127" layer="21"/>
