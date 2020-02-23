@@ -315,8 +315,8 @@ chip</description>
 <text x="-0.9" y="-0.7" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="5X20MM_FUSE">
-<smd name="P$1" x="-7.5" y="0" dx="5" dy="5.5" layer="1" rot="R90"/>
-<smd name="P$2" x="7.5" y="0" dx="5" dy="5.5" layer="1" rot="R90"/>
+<smd name="P$1" x="-7.5" y="0" dx="4.999990625" dy="5.4999875" layer="1" rot="R90"/>
+<smd name="P$2" x="7.5" y="0" dx="4.999990625" dy="5.4999875" layer="1" rot="R90"/>
 <wire x1="-10" y1="2.6" x2="10" y2="2.6" width="0.127" layer="21"/>
 <wire x1="10" y1="2.6" x2="10" y2="-2.6" width="0.127" layer="21"/>
 <wire x1="10" y1="-2.6" x2="-10" y2="-2.6" width="0.127" layer="21"/>
@@ -2070,7 +2070,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="SUPPLY1" library="supply2" deviceset="V-" device=""/>
-<part name="LED1" library="HyTechDevices" deviceset="LED" device="-0805" value="RED">
+<part name="LED1" library="HyTechDevices" deviceset="LED" device="-0603" value="RED">
 <attribute name="DKPN" value="350-2038-1-ND"/>
 </part>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
@@ -2882,8 +2882,8 @@ set chip address</text>
 <instance part="SUPPLY7" gate="1" x="50.8" y="48.26" smashed="yes">
 <attribute name="VALUE" x="50.8" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY8" gate="1" x="33.02" y="12.7" smashed="yes">
-<attribute name="VALUE" x="33.02" y="15.24" size="1.778" layer="96"/>
+<instance part="SUPPLY8" gate="1" x="30.48" y="12.7" smashed="yes">
+<attribute name="VALUE" x="30.48" y="15.24" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY9" gate="1" x="157.48" y="50.8" smashed="yes">
 <attribute name="VALUE" x="159.004" y="50.8" size="1.778" layer="96"/>
@@ -4133,7 +4133,7 @@ set chip address</text>
 <pinref part="U$2" gate="G$1" pin="V-**"/>
 <wire x1="17.78" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="1" pin="V-"/>
-<wire x1="33.02" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
 <junction x="22.86" y="15.24"/>
 </segment>
 <segment>
