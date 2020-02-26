@@ -283,12 +283,12 @@
 <package name="XP-E2">
 <description>&lt;b&gt;Cree® XLamp® XP-E2 LEDs&lt;/b&gt;&lt;p&gt;
 &lt;a href="https://www.cree.com/led-components/media/documents/XLampXPE2.pdf"&gt;Source: www.cree.com/xlamp .. XLampXP-E2.pdf&lt;/a&gt;</description>
-<circle x="-1.25" y="-1.175" radius="0.225" width="0" layer="51"/>
+<circle x="-0.9017" y="-1.429" radius="0.1524" width="0" layer="51"/>
 <circle x="0" y="0" radius="1.25" width="0.2032" layer="51"/>
-<wire x1="-1.65" y1="1.625" x2="1.625" y2="1.625" width="0.2032" layer="51"/>
-<wire x1="1.625" y1="1.625" x2="1.625" y2="-1.625" width="0.2032" layer="51"/>
-<wire x1="1.625" y1="-1.625" x2="-1.65" y2="-1.625" width="0.2032" layer="51"/>
-<wire x1="-1.65" y1="-1.625" x2="-1.65" y2="1.625" width="0.2032" layer="51"/>
+<wire x1="-1.778" y1="1.778" x2="1.778" y2="1.778" width="0.2032" layer="51"/>
+<wire x1="1.778" y1="1.778" x2="1.778" y2="-1.778" width="0.2032" layer="51"/>
+<wire x1="1.778" y1="-1.778" x2="-1.778" y2="-1.778" width="0.2032" layer="51"/>
+<wire x1="-1.778" y1="-1.778" x2="-1.778" y2="1.778" width="0.2032" layer="51"/>
 <wire x1="-1.525" y1="0" x2="-1.15" y2="0" width="0.1016" layer="51"/>
 <wire x1="-1.325" y1="0.175" x2="-1.325" y2="-0.175" width="0.1016" layer="51"/>
 <rectangle x1="-0.5005" y1="-0.375" x2="0.5005" y2="0.375" layer="31"/>
@@ -2196,52 +2196,38 @@ Source: http://www.molex.com</description>
 <junction x="48.26" y="38.1"/>
 </segment>
 </net>
-<net name="LED5_THERM" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="X"/>
-<wire x1="0" y1="19.304" x2="0" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="LED2_THERM" class="0">
+<net name="THERM" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="X"/>
 <wire x1="-2.54" y1="40.64" x2="-1.27" y2="40.64" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="LED3_THERM" class="0">
-<segment>
-<pinref part="LED6" gate="G$1" pin="X"/>
-<wire x1="11.176" y1="40.64" x2="10.16" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="LED4_THERM" class="0">
 <segment>
 <pinref part="LED7" gate="G$1" pin="X"/>
 <wire x1="0" y1="33.02" x2="0" y2="33.782" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="LED1_THERM" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="X"/>
+<wire x1="0" y1="19.304" x2="0" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED6" gate="G$1" pin="X"/>
+<wire x1="11.176" y1="40.64" x2="10.16" y2="40.64" width="0.1524" layer="91"/>
+</segment>
 <segment>
 <pinref part="LED8" gate="G$1" pin="X"/>
 <wire x1="30.48" y1="27.94" x2="30.48" y2="28.956" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="LED8_THERM" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="X"/>
-<wire x1="45.72" y1="2.54" x2="45.72" y2="1.778" width="0.1524" layer="91"/>
+<pinref part="LED5" gate="G$1" pin="X"/>
+<wire x1="30.48" y1="17.78" x2="30.48" y2="18.542" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="LED7_THERM" class="0">
 <segment>
 <pinref part="LED4" gate="G$1" pin="X"/>
 <wire x1="30.48" y1="7.62" x2="30.48" y2="8.382" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="LED6_THERM" class="0">
 <segment>
-<pinref part="LED5" gate="G$1" pin="X"/>
-<wire x1="30.48" y1="17.78" x2="30.48" y2="18.542" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="X"/>
+<wire x1="45.72" y1="2.54" x2="45.72" y2="1.778" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
