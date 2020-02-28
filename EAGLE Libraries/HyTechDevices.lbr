@@ -4495,7 +4495,7 @@ chip</description>
 <rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.8636" y="0.6096" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.8636" y="0.6096" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-0.8636" y="-1.016" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="0805">
@@ -4778,7 +4778,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.6096" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.889" y="0.6096" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-0.889" y="-1.016" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
@@ -11405,21 +11405,26 @@ Same pad spacing as SOIC-16, but larger footprint</description>
 <smd name="P$3" x="1.651" y="1.651" dx="3.302" dy="1.2954" layer="1" rot="R90"/>
 <text x="0" y="3.81" size="0.8128" layer="21">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.8128" layer="21">&gt;VALUE</text>
+<polygon width="0.127" layer="21">
+<vertex x="3.429" y="0"/>
+<vertex x="4.318" y="1.524"/>
+<vertex x="3.429" y="3.302"/>
+</polygon>
 </package>
 <package name="SOT363">
-<smd name="P$1" x="-0.9652" y="0.6731" dx="0.6096" dy="0.4318" layer="1"/>
-<smd name="P$2" x="-0.9652" y="0.022859375" dx="0.6096" dy="0.4318" layer="1"/>
-<smd name="P$3" x="-0.9652" y="-0.62738125" dx="0.6096" dy="0.4318" layer="1"/>
-<smd name="P$4" x="0.929640625" y="0.6731" dx="0.6096" dy="0.4318" layer="1"/>
-<smd name="P$5" x="0.929640625" y="0.022859375" dx="0.6096" dy="0.4318" layer="1"/>
-<smd name="P$6" x="0.929640625" y="-0.62738125" dx="0.6096" dy="0.4318" layer="1"/>
-<wire x1="-0.5588" y1="0.9398" x2="-0.5588" y2="-0.889" width="0.127" layer="25"/>
-<wire x1="-0.5588" y1="-0.889" x2="0.5334" y2="-0.889" width="0.127" layer="25"/>
-<wire x1="0.5334" y1="-0.889" x2="0.5334" y2="0.9398" width="0.127" layer="25"/>
-<wire x1="0.5334" y1="0.9398" x2="-0.5588" y2="0.9398" width="0.127" layer="25"/>
-<circle x="-0.2286" y="0.6604" radius="0.127" width="0.127" layer="25"/>
-<text x="-2.286" y="-0.1778" size="0.8128" layer="25">&gt;NAME
-</text>
+<description>SOT363 Package</description>
+<smd name="P$1" x="-0.3302" y="1.5621" dx="0.6096" dy="0.4318" layer="1"/>
+<smd name="P$2" x="-0.3302" y="0.911859375" dx="0.6096" dy="0.4318" layer="1"/>
+<smd name="P$3" x="-0.3302" y="0.26161875" dx="0.6096" dy="0.4318" layer="1"/>
+<smd name="P$4" x="1.564640625" y="1.5621" dx="0.6096" dy="0.4318" layer="1"/>
+<smd name="P$5" x="1.564640625" y="0.911859375" dx="0.6096" dy="0.4318" layer="1"/>
+<smd name="P$6" x="1.564640625" y="0.26161875" dx="0.6096" dy="0.4318" layer="1"/>
+<wire x1="0.0762" y1="1.8288" x2="0.0762" y2="0" width="0.127" layer="25"/>
+<wire x1="0.0762" y1="0" x2="1.1684" y2="0" width="0.127" layer="25"/>
+<wire x1="1.1684" y1="0" x2="1.1684" y2="1.8288" width="0.127" layer="25"/>
+<wire x1="1.1684" y1="1.8288" x2="0.0762" y2="1.8288" width="0.127" layer="25"/>
+<circle x="0.4064" y="1.5494" radius="0.127" width="0.127" layer="25"/>
+<text x="-1.27" y="2.159" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 <package name="CAT16-*4">
 <smd name="P$1" x="-1.2" y="-0.825" dx="0.95" dy="0.45" layer="1" rot="R90"/>
