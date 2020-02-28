@@ -5559,14 +5559,14 @@ Source: http://www.molex.com</description>
 <part name="R46" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k"/>
 <part name="R45" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="20k"/>
 <part name="R47" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="86.6"/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="350"/>
-<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="350"/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="350"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="120"/>
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="120"/>
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="120"/>
 <part name="C22" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C23" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="AGND10" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND11" library="supply1" deviceset="AGND" device=""/>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="3.6k"/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1.27k"/>
 <part name="J3" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J4" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J11" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
@@ -5602,14 +5602,14 @@ Source: http://www.molex.com</description>
 <part name="R55" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k"/>
 <part name="R54" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="20k"/>
 <part name="R56" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="86.6"/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="350"/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="350"/>
-<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="350"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="120"/>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="120"/>
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="120"/>
 <part name="C33" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C34" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="AGND16" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND17" library="supply1" deviceset="AGND" device=""/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="3.6k"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1.27k"/>
 <part name="J13" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J14" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J17" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
@@ -5623,14 +5623,14 @@ Source: http://www.molex.com</description>
 <part name="C38" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C39" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="GND14" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="350"/>
-<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="350"/>
-<part name="R22" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="350"/>
+<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="120"/>
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="120"/>
+<part name="R22" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="120"/>
 <part name="C42" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C43" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="AGND22" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND23" library="supply1" deviceset="AGND" device=""/>
-<part name="R23" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="3.6k"/>
+<part name="R23" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1.27k"/>
 <part name="X7" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4"/>
 <part name="GND67" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+26" library="supply1" deviceset="+12V" device=""/>
@@ -5666,11 +5666,11 @@ Source: http://www.molex.com</description>
 <part name="AGND35" library="supply1" deviceset="AGND" device=""/>
 <part name="U$47" library="supply1" deviceset="+1V65A" device=""/>
 <part name="AGND18" library="supply1" deviceset="AGND" device=""/>
-<part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="3.6k"/>
+<part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1.27k"/>
 <part name="AGND19" library="supply1" deviceset="AGND" device=""/>
-<part name="R25" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="3.6k"/>
+<part name="R25" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1.27k"/>
 <part name="AGND20" library="supply1" deviceset="AGND" device=""/>
-<part name="R26" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="3.6k"/>
+<part name="R26" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1.27k"/>
 <part name="U$12" library="HyTechDevices" deviceset="CONNECTOR-22" device=""/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="P+11" library="supply1" deviceset="+12V" device=""/>
