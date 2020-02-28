@@ -1199,13 +1199,10 @@ Source: http://www.molex.com</description>
 <smd name="P$3" x="1.651" y="1.651" dx="3.302" dy="1.2954" layer="1" rot="R90"/>
 <text x="0" y="3.81" size="0.8128" layer="21">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.8128" layer="21">&gt;VALUE</text>
-<polygon width="0.127" layer="21">
-<vertex x="3.429" y="0"/>
-<vertex x="4.318" y="1.524"/>
-<vertex x="3.429" y="3.302"/>
-</polygon>
+<circle x="3.683" y="3.175" radius="0.127" width="0.127" layer="21"/>
 </package>
 <package name="SOT363">
+<description>SOT363 Package</description>
 <smd name="P$1" x="-0.9652" y="0.6731" dx="0.6096" dy="0.4318" layer="1"/>
 <smd name="P$2" x="-0.9652" y="0.022859375" dx="0.6096" dy="0.4318" layer="1"/>
 <smd name="P$3" x="-0.9652" y="-0.62738125" dx="0.6096" dy="0.4318" layer="1"/>
@@ -1453,12 +1450,12 @@ MX150L™ Vertical PCB Header</description>
 <wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="3" x="0" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="4" x="0" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="5" x="2.54" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="6" x="2.54" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="1" x="-2.54" y="-1.27" drill="1.016" shape="square" stop="no"/>
+<pad name="2" x="-2.54" y="1.27" drill="1.016" stop="no"/>
+<pad name="3" x="0" y="-1.27" drill="1.016" stop="no"/>
+<pad name="4" x="0" y="1.27" drill="1.016" stop="no"/>
+<pad name="5" x="2.54" y="-1.27" drill="1.016" stop="no"/>
+<pad name="6" x="2.54" y="1.27" drill="1.016" stop="no"/>
 <text x="-3.81" y="3.175" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-3.81" y="-4.445" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
