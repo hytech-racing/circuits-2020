@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -4811,9 +4811,16 @@ Source: http://www.molex.com</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,-17.78,101.6,X1-4,S,,,,"/>
-<approved hash="113,1,-21.2496,33.02,Q1,,,,,"/>
-<approved hash="113,1,44.1096,33.02,Q2,,,,,"/>
+<approved hash="113,1,-35.56,-23.7896,Q2,,,,,"/>
+<approved hash="113,1,83.82,-23.7896,Q1,,,,,"/>
+<approved hash="115,1,86.36,-7.112,THERM,,,,,"/>
+<approved hash="115,1,86.36,5.588,THERM,,,,,"/>
+<approved hash="115,1,86.36,18.161,THERM,,,,,"/>
+<approved hash="115,1,86.36,30.861,THERM,,,,,"/>
+<approved hash="115,1,-33.02,30.734,THERM,,,,,"/>
+<approved hash="115,1,-33.02,5.588,THERM,,,,,"/>
+<approved hash="115,1,-33.02,18.288,THERM,,,,,"/>
+<approved hash="115,1,-33.02,-6.985,THERM,,,,,"/>
 </errors>
 </schematic>
 </drawing>
