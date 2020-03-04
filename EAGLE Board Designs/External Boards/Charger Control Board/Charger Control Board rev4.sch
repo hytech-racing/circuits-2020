@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1596,6 +1596,18 @@ MX150L™ Vertical PCB Header</description>
 <pad name="PROG" x="11.43" y="13.97" drill="0.8" shape="long" rot="R90"/>
 <pad name="RST" x="13.97" y="13.97" drill="0.8" shape="long" rot="R90"/>
 </package>
+<package name="CR-2450/G1AN">
+<circle x="0" y="0" radius="12.446" width="0.254" layer="21"/>
+<pad name="-" x="0" y="-5.08" drill="0.8" shape="long" rot="R90"/>
+<pad name="+_1" x="5.08" y="12.7" drill="0.8" shape="long" rot="R90"/>
+<pad name="+_0" x="-5.08" y="12.7" drill="0.8" shape="long" rot="R90"/>
+<wire x1="-0.635" y1="2.54" x2="-0.635" y2="0" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="0" width="0.254" layer="21"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="0.635" y1="0" x2="3.175" y2="0" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-3.175" y2="0" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TEENSY_3.2_SIMPLE">
@@ -2052,6 +2064,12 @@ MX150L™ Vertical PCB Header</description>
 <pin name="GND_2" x="10.16" y="-2.54" visible="pin" length="short" rot="R90"/>
 <pin name="PROG" x="12.7" y="-2.54" visible="pin" length="short" rot="R90"/>
 <pin name="RST" x="15.24" y="-2.54" visible="pin" length="short" rot="R90"/>
+</symbol>
+<symbol name="CR-2450/G1AN">
+<circle x="0" y="0" radius="7.62" width="0.254" layer="94"/>
+<pin name="+" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="-" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<text x="-5.842" y="-2.54" size="1.27" layer="94">CR-2450/G1AN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3186,6 +3204,23 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CR-2450/G1AN">
+<description>Panasonic CR2450 Battery through hole.</description>
+<gates>
+<gate name="G$1" symbol="CR-2450/G1AN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CR-2450/G1AN">
+<connects>
+<connect gate="G$1" pin="+" pad="+_0 +_1"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSymbols">
@@ -3477,6 +3512,7 @@ Source: http://www.molex.com</description>
 <part name="R25" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="43k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
+<part name="U$16" library="HyTechDevices" deviceset="CR-2450/G1AN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3934,6 +3970,7 @@ Source: http://www.molex.com</description>
 <attribute name="VALUE" x="176.022" y="3.81" size="1.778" layer="96" rot="R90"/>
 <attribute name="TOLERANCE" x="177.8" y="5.08" size="0.127" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="U$16" gate="G$1" x="134.62" y="-139.7" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -4092,6 +4129,22 @@ Source: http://www.molex.com</description>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="121.92" y1="-55.88" x2="116.84" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IMD_SHUTDOWN_RLY" gate="G$1" pin="4"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="-127" y1="-17.78" x2="-111.76" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="-111.76" y1="-17.78" x2="-111.76" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="-111.76" y="-17.78"/>
+</segment>
+<segment>
+<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="4"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="-45.72" y1="-20.32" x2="-30.48" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="-30.48" y1="-20.32" x2="-30.48" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-20.32"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -4499,24 +4552,6 @@ Source: http://www.molex.com</description>
 <wire x1="-30.48" y1="40.64" x2="-27.94" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$60" class="0">
-<segment>
-<pinref part="IMD_SHUTDOWN_RLY" gate="G$1" pin="4"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="-127" y1="-17.78" x2="-111.76" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="-111.76" y1="-17.78" x2="-111.76" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="-111.76" y="-17.78"/>
-</segment>
-<segment>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="-45.72" y1="-20.32" x2="-30.48" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="-30.48" y1="-20.32" x2="-30.48" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="-30.48" y="-20.32"/>
-<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="4"/>
-</segment>
-</net>
 <net name="CHARGE_ENABLE" class="0">
 <segment>
 <label x="134.62" y="58.42" size="1.27" layer="95" xref="yes"/>
@@ -4736,6 +4771,27 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="R24" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="VBAT_RTC" class="0">
+<segment>
+<pinref part="U$16" gate="G$1" pin="+"/>
+<wire x1="124.46" y1="-139.7" x2="124.46" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-129.54" x2="129.54" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-129.54" x2="129.54" y2="-127" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-139.7" x2="121.92" y2="-139.7" width="0.1524" layer="91"/>
+<junction x="124.46" y="-139.7"/>
+<label x="121.92" y="-139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="VBAT"/>
+</segment>
+</net>
+<net name="N$61" class="0">
+<segment>
+<wire x1="144.78" y1="-129.54" x2="134.62" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-129.54" x2="134.62" y2="-127" width="0.1524" layer="91"/>
+<pinref part="U$16" gate="G$1" pin="-"/>
+<wire x1="144.78" y1="-129.54" x2="144.78" y2="-139.7" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND_2"/>
 </segment>
 </net>
 </nets>
