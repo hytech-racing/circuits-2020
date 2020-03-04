@@ -6200,17 +6200,17 @@ Schurter 0751.0110 Brass Fuse Clip
 <instance part="P+1" gate="1" x="134.62" y="76.2" smashed="yes">
 <attribute name="VALUE" x="137.16" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R15" gate="G$1" x="88.9" y="50.8" smashed="yes">
-<attribute name="NAME" x="90.17" y="52.2986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="87.63" y="47.498" size="1.778" layer="96"/>
-<attribute name="TOLERANCE" x="88.9" y="50.8" size="0.127" layer="96" display="off"/>
+<instance part="R15" gate="G$1" x="129.54" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="128.27" y="26.4414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="130.81" y="31.242" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="129.54" y="27.94" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="STATUS_3.2" gate="LED" x="78.74" y="50.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="71.628" y="47.244" size="1.778" layer="95"/>
-<attribute name="VALUE" x="74.168" y="45.085" size="1.778" layer="96"/>
+<instance part="STATUS_3.2" gate="LED" x="139.7" y="27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="146.812" y="31.496" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="144.272" y="33.655" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND16" gate="1" x="66.04" y="48.26" smashed="yes">
-<attribute name="VALUE" x="63.5" y="45.72" size="1.778" layer="96"/>
+<instance part="GND16" gate="1" x="152.4" y="25.4" smashed="yes">
+<attribute name="VALUE" x="149.86" y="22.86" size="1.778" layer="96"/>
 </instance>
 <instance part="R9" gate="G$1" x="53.34" y="111.76" smashed="yes">
 <attribute name="NAME" x="49.53" y="113.2586" size="1.778" layer="95"/>
@@ -6447,7 +6447,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <segment>
 <pinref part="STATUS_3.2" gate="LED" pin="C"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="73.66" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="27.94" x2="152.4" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="139.7" x2="60.96" y2="142.24" width="0.1524" layer="91"/>
@@ -6693,13 +6693,6 @@ Schurter 0751.0110 Brass Fuse Clip
 <pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<wire x1="93.98" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="D8(TX3)"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="DC+"/>
@@ -6730,7 +6723,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="STATUS_3.2" gate="LED" pin="A"/>
-<wire x1="81.28" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="27.94" x2="134.62" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -6818,9 +6811,9 @@ Schurter 0751.0110 Brass Fuse Clip
 </net>
 <net name="SHUTDOWN_A_READ" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="A0"/>
-<wire x1="121.92" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
-<label x="127" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="93.98" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="96.52" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="D7(RX3)"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -6905,30 +6898,30 @@ Schurter 0751.0110 Brass Fuse Clip
 </net>
 <net name="SHUTDOWN_D_READ" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="A3"/>
-<wire x1="121.92" y1="50.8" x2="127" y2="50.8" width="0.1524" layer="91"/>
-<label x="127" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="93.98" y="45.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="96.52" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="D10(TX2)"/>
 </segment>
 </net>
 <net name="SHUTDOWN_C_READ" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="A2"/>
-<wire x1="121.92" y1="48.26" x2="127" y2="48.26" width="0.1524" layer="91"/>
-<label x="127" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="93.98" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="96.52" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="D9(RX2)"/>
 </segment>
 </net>
 <net name="SHUTDOWN_B_READ" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="A1"/>
-<wire x1="121.92" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
-<label x="127" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="93.98" y="50.8" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="96.52" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="D8(TX3)"/>
 </segment>
 </net>
 <net name="SOFTWARE_SHUTDOWN" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="D5"/>
-<wire x1="96.52" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
-<label x="93.98" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="D12"/>
+<wire x1="96.52" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
+<label x="93.98" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
