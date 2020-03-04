@@ -5958,7 +5958,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="60">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="CAN_TERM_JMP" library="HyTechDevices" deviceset="M02" device="_SLIM" value="M02_SLIM"/>
+<part name="CAN_TERM" library="HyTechDevices" deviceset="M02" device="_SLIM" value="M02_SLIM"/>
 <part name="U$1" library="HyTechDevices" deviceset="CDSOT23-T24CAN-Q" device=""/>
 <part name="GND26" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="60">
@@ -6217,7 +6217,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <attribute name="VALUE" x="49.53" y="108.458" size="1.778" layer="96"/>
 <attribute name="TOLERANCE" x="53.34" y="111.76" size="0.127" layer="96" display="off"/>
 </instance>
-<instance part="CAN_TERM_JMP" gate="G$1" x="78.74" y="104.14" smashed="yes" rot="R90">
+<instance part="CAN_TERM" gate="G$1" x="78.74" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.36" y="100.838" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="U$1" gate="G$1" x="60.96" y="147.32" smashed="yes" rot="MR270">
@@ -6536,7 +6536,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <segment>
 <wire x1="78.74" y1="111.76" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
 <label x="81.28" y="111.76" size="1.27" layer="95" xref="yes"/>
-<pinref part="CAN_TERM_JMP" gate="G$1" pin="1"/>
+<pinref part="CAN_TERM" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
@@ -6736,7 +6736,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <net name="N$17" class="0">
 <segment>
 <wire x1="76.2" y1="111.76" x2="73.66" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="CAN_TERM_JMP" gate="G$1" pin="2"/>
+<pinref part="CAN_TERM" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 </net>
