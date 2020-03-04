@@ -1510,38 +1510,6 @@ MX150L™ Vertical PCB Header</description>
 <pad name="COIL+" x="25.019" y="0" drill="1.5" shape="square"/>
 <pad name="COIL-" x="25.019" y="7.493" drill="1.5" shape="square"/>
 </package>
-<package name="ZF112">
-<description>&lt;b&gt;RELAY&lt;/b&gt;&lt;p&gt;
-1 x switch</description>
-<wire x1="20.447" y1="17.145" x2="-0.127" y2="17.145" width="0.1524" layer="21"/>
-<wire x1="-0.127" y1="0.635" x2="-0.127" y2="17.145" width="0.1524" layer="21"/>
-<wire x1="-0.127" y1="0.635" x2="20.447" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="20.447" y1="17.145" x2="20.447" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="14.605" x2="7.62" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="3.175" x2="5.715" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="7.62" width="0.254" layer="21"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="10.16" width="0.254" layer="21"/>
-<wire x1="7.62" y1="3.175" x2="7.62" y2="7.62" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="21"/>
-<wire x1="7.62" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="21"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="10.16" y1="10.16" x2="8.255" y2="10.16" width="0.254" layer="21"/>
-<wire x1="8.255" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="21"/>
-<wire x1="5.08" y1="7.62" x2="6.985" y2="7.62" width="0.254" layer="21"/>
-<wire x1="6.985" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="21"/>
-<wire x1="6.985" y1="7.62" x2="8.255" y2="10.16" width="0.1524" layer="21"/>
-<wire x1="12.065" y1="8.89" x2="14.605" y2="8.89" width="0.1524" layer="21"/>
-<wire x1="16.51" y1="6.985" x2="16.51" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="16.51" y1="10.795" x2="16.51" y2="13.335" width="0.1524" layer="21"/>
-<wire x1="17.145" y1="11.43" x2="14.605" y2="8.89" width="0.1524" layer="21"/>
-<pad name="O" x="16.256" y="14.8844" drill="1.3208" shape="long"/>
-<pad name="S" x="16.256" y="2.8956" drill="1.3208" shape="long"/>
-<pad name="1" x="4.064" y="14.8844" drill="1.3208" shape="long"/>
-<pad name="2" x="4.064" y="2.8956" drill="1.3208" shape="long"/>
-<pad name="P" x="1.9558" y="8.89" drill="1.8034" shape="long"/>
-<text x="22.86" y="1.27" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-0.635" y="1.27" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-</package>
 <package name="MINI-BLADE_FUSE_HOLDER">
 <description>MOUSER PART NUMBER
 &lt;BR&gt;
@@ -2079,40 +2047,6 @@ FUSE</text>
 <wire x1="30.48" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
 <text x="33.02" y="2.54" size="1.778" layer="94" rot="R90" align="bottom-center">&gt;VALUE</text>
-</symbol>
-<symbol name="ZF112">
-<circle x="15.24" y="0" radius="0.635" width="0.254" layer="94"/>
-<circle x="17.78" y="5.08" radius="0.635" width="0.254" layer="94"/>
-<circle x="12.7" y="5.08" radius="0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="17.78" y1="10.16" x2="17.78" y2="5.842" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="5.842" width="0.254" layer="94"/>
-<wire x1="14.9225" y1="0.635" x2="13.0175" y2="4.445" width="0.254" layer="94"/>
-<pin name="O" x="12.7" y="10.16" visible="off" length="point" swaplevel="2"/>
-<pin name="P" x="15.24" y="-5.08" visible="off" length="point" swaplevel="3"/>
-<pin name="S" x="17.78" y="10.16" visible="off" length="point" swaplevel="4"/>
-<pin name="COIL+" x="5.08" y="10.16" visible="off" length="point" swaplevel="1" rot="R180"/>
-<pin name="COIL-" x="5.08" y="-5.08" visible="off" length="point" swaplevel="8" rot="R180"/>
-<polygon width="0.0254" layer="94">
-<vertex x="12.954" y="3.556"/>
-<vertex x="13.716" y="4.064"/>
-<vertex x="12.954" y="4.572"/>
-</polygon>
-<wire x1="-2.54" y1="7.62" x2="20.32" y2="7.62" width="0.254" layer="94"/>
-<wire x1="20.32" y1="7.62" x2="20.32" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 <symbol name="FUSE">
 <description>Generic Fuse Symbol</description>
@@ -3175,32 +3109,6 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="COIL+" pad="COIL+"/>
 <connect gate="G$1" pin="COIL-" pad="COIL-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="G5LE">
-<description>Omron G5LE SPST Relay
-&lt;br&gt;
-5 VDC, 12VDC, 24VDC models
-&lt;br&gt;
-Coil voltage: 75% - 170% of nominal voltage
-&lt;br&gt;
-&lt;a href="https://www.omron.com/ecb/products/pdf/en-g5le.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ZF112" x="2.54" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="ZF112">
-<connects>
-<connect gate="G$1" pin="COIL+" pad="1"/>
-<connect gate="G$1" pin="COIL-" pad="2"/>
-<connect gate="G$1" pin="O" pad="O"/>
-<connect gate="G$1" pin="P" pad="P"/>
-<connect gate="G$1" pin="S" pad="S"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6139,14 +6047,12 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="GND10" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="SOFTWARE_SHUTDOWN_RLY1" library="HyTechDevices" deviceset="G5LE" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="D14" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="SHUTDOWN_D" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
@@ -6196,6 +6102,11 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="D11" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D12" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="P+27" library="supply1" deviceset="+12V" device=""/>
+<part name="BMS_SHUTDOWN_RLY1" library="HyTechDevices" deviceset="RT424009" device=""/>
+<part name="GND10" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -7090,7 +7001,6 @@ Schurter 0751.0110 Brass Fuse Clip
 <attribute name="VALUE" x="192.278" y="237.49" size="1.778" layer="96" rot="R270"/>
 <attribute name="TOLERANCE" x="195.58" y="233.68" size="0.127" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GND10" gate="1" x="276.86" y="220.98" smashed="yes"/>
 <instance part="R1" gate="G$1" x="271.78" y="238.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="275.59" y="237.2614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="275.59" y="242.062" size="1.778" layer="96" rot="R180"/>
@@ -7101,13 +7011,12 @@ Schurter 0751.0110 Brass Fuse Clip
 <attribute name="VALUE" x="273.558" y="234.95" size="1.778" layer="96" rot="R270"/>
 <attribute name="TOLERANCE" x="276.86" y="231.14" size="0.127" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="SOFTWARE_SHUTDOWN_RLY1" gate="G$1" x="320.04" y="231.14" smashed="yes" rot="R270"/>
-<instance part="P+10" gate="1" x="302.26" y="243.84" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="309.88" y="241.3" size="1.778" layer="96" rot="MR0"/>
+<instance part="P+10" gate="1" x="294.64" y="261.62" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="302.26" y="259.08" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D14" gate="1" x="322.58" y="241.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="326.39" y="239.5474" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="326.39" y="244.8814" size="1.778" layer="96" rot="R180"/>
+<instance part="D14" gate="1" x="314.96" y="256.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="318.77" y="254.7874" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="321.31" y="260.1214" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SHUTDOWN_D" gate="LED" x="363.22" y="205.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="375.412" y="209.296" size="1.778" layer="95" rot="R180"/>
@@ -7120,26 +7029,26 @@ Schurter 0751.0110 Brass Fuse Clip
 <attribute name="NAME" x="346.71" y="204.2414" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="346.71" y="209.042" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="GND35" gate="1" x="337.82" y="228.6" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="340.36" y="226.06" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND35" gate="1" x="332.74" y="243.84" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="335.28" y="241.3" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R36" gate="G$1" x="350.52" y="228.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="352.0186" y="232.41" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="347.218" y="232.41" size="1.778" layer="96" rot="R270"/>
+<instance part="R36" gate="G$1" x="345.44" y="243.84" smashed="yes" rot="R270">
+<attribute name="NAME" x="346.9386" y="247.65" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="342.138" y="247.65" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND36" gate="1" x="350.52" y="218.44" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="353.06" y="215.9" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND36" gate="1" x="345.44" y="233.68" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="347.98" y="231.14" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="Q4" gate="G$1" x="342.9" y="238.76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="349.25" y="241.3" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="346.71" y="231.14" size="1.778" layer="95" rot="MR0"/>
+<instance part="Q4" gate="G$1" x="337.82" y="254" smashed="yes" rot="MR0">
+<attribute name="NAME" x="344.17" y="256.54" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="341.63" y="246.38" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="D19" gate="G$1" x="358.14" y="228.6" smashed="yes" rot="MR90">
-<attribute name="NAME" x="359.41" y="224.3074" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="379.73" y="230.0986" size="1.778" layer="96" rot="MR0"/>
+<instance part="D19" gate="G$1" x="353.06" y="243.84" smashed="yes" rot="MR90">
+<attribute name="NAME" x="354.33" y="239.5474" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="374.65" y="245.3386" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND37" gate="1" x="358.14" y="218.44" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="360.68" y="215.9" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND37" gate="1" x="353.06" y="233.68" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="355.6" y="231.14" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U$7" gate="G$1" x="2.54" y="2.54" smashed="yes"/>
 <instance part="U$7" gate="G$2" x="265.43" y="2.54" smashed="yes">
@@ -7260,6 +7169,17 @@ Schurter 0751.0110 Brass Fuse Clip
 <instance part="P+27" gate="1" x="78.74" y="180.34" smashed="yes" rot="R90">
 <attribute name="VALUE" x="83.82" y="177.8" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="BMS_SHUTDOWN_RLY1" gate="G$1" x="314.96" y="241.3" smashed="yes" rot="R270">
+<attribute name="VALUE" x="317.5" y="208.28" size="1.778" layer="94" align="bottom-center"/>
+</instance>
+<instance part="GND10" gate="1" x="276.86" y="220.98" smashed="yes">
+<attribute name="VALUE" x="274.32" y="218.44" size="1.778" layer="96"/>
+</instance>
+<instance part="R18" gate="G$1" x="304.8" y="246.38" smashed="yes" rot="R270">
+<attribute name="NAME" x="306.2986" y="250.19" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="301.498" y="250.19" size="1.778" layer="96" rot="R270"/>
+<attribute name="TOLERANCE" x="304.8" y="246.38" size="0.127" layer="96" rot="R270" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7284,32 +7204,24 @@ Schurter 0751.0110 Brass Fuse Clip
 <junction x="195.58" y="228.6"/>
 </segment>
 <segment>
-<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="4"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="261.62" y1="226.06" x2="276.86" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="276.86" y1="226.06" x2="276.86" y2="223.52" width="0.1524" layer="91"/>
-<junction x="276.86" y="226.06"/>
-</segment>
-<segment>
 <pinref part="GND34" gate="1" pin="GND"/>
 <pinref part="SHUTDOWN_D" gate="LED" pin="C"/>
 <wire x1="370.84" y1="205.74" x2="368.3" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND35" gate="1" pin="GND"/>
-<wire x1="337.82" y1="236.22" x2="337.82" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="251.46" x2="332.74" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="GND36" gate="1" pin="GND"/>
 <pinref part="R36" gate="G$1" pin="2"/>
-<wire x1="350.52" y1="223.52" x2="350.52" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="238.76" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D19" gate="G$1" pin="A"/>
 <pinref part="GND37" gate="1" pin="GND"/>
-<wire x1="358.14" y1="223.52" x2="358.14" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="238.76" x2="353.06" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BMS_OK" gate="LED" pin="C"/>
@@ -7334,16 +7246,25 @@ Schurter 0751.0110 Brass Fuse Clip
 <pinref part="SOFTWARE" gate="LED" pin="C"/>
 <wire x1="91.44" y1="226.06" x2="83.82" y2="226.06" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="BMS_SHUTDOWN_RLY" gate="G$1" pin="4"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="261.62" y1="226.06" x2="276.86" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="226.06" x2="276.86" y2="223.52" width="0.1524" layer="91"/>
+<junction x="276.86" y="226.06"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="D14" gate="1" pin="C"/>
-<wire x1="320.04" y1="241.3" x2="314.96" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="SOFTWARE_SHUTDOWN_RLY1" gate="G$1" pin="COIL-"/>
-<wire x1="314.96" y1="241.3" x2="314.96" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+12V"/>
-<wire x1="302.26" y1="241.3" x2="314.96" y2="241.3" width="0.1524" layer="91"/>
-<junction x="314.96" y="241.3"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="256.54" x2="312.42" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="251.46" x2="304.8" y2="256.54" width="0.1524" layer="91"/>
+<junction x="304.8" y="256.54"/>
+<wire x1="304.8" y1="256.54" x2="294.64" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="256.54" x2="294.64" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+27" gate="1" pin="+12V"/>
@@ -7353,8 +7274,6 @@ Schurter 0751.0110 Brass Fuse Clip
 </net>
 <net name="SHUTDOWN_D" class="0">
 <segment>
-<pinref part="SOFTWARE_SHUTDOWN_RLY1" gate="G$1" pin="S"/>
-<wire x1="330.2" y1="213.36" x2="332.74" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="213.36" x2="335.28" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="205.74" x2="332.74" y2="205.74" width="0.1524" layer="91"/>
@@ -7364,6 +7283,8 @@ Schurter 0751.0110 Brass Fuse Clip
 <wire x1="388.62" y1="208.28" x2="388.62" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="213.36" x2="332.74" y2="213.36" width="0.1524" layer="91"/>
 <label x="358.14" y="213.36" size="1.778" layer="95"/>
+<pinref part="BMS_SHUTDOWN_RLY1" gate="G$1" pin="5"/>
+<wire x1="325.12" y1="213.36" x2="332.74" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D2" gate="1" pin="A"/>
@@ -7514,11 +7435,11 @@ Schurter 0751.0110 Brass Fuse Clip
 <wire x1="261.62" y1="215.9" x2="276.86" y2="215.9" width="0.1524" layer="91"/>
 <label x="287.02" y="215.9" size="1.778" layer="95"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="276.86" y1="215.9" x2="314.96" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="215.9" x2="309.88" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="208.28" x2="276.86" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="208.28" x2="276.86" y2="215.9" width="0.1524" layer="91"/>
 <junction x="276.86" y="215.9"/>
-<pinref part="SOFTWARE_SHUTDOWN_RLY1" gate="G$1" pin="P"/>
+<pinref part="BMS_SHUTDOWN_RLY1" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="D4" gate="1" pin="A"/>
@@ -7553,16 +7474,16 @@ Schurter 0751.0110 Brass Fuse Clip
 <net name="SOFTWARE_SHUTDOWN" class="0">
 <segment>
 <pinref part="R36" gate="G$1" pin="1"/>
-<label x="365.76" y="236.22" size="1.27" layer="95" xref="yes"/>
-<wire x1="350.52" y1="233.68" x2="350.52" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="236.22" x2="358.14" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="236.22" x2="365.76" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="236.22" x2="347.98" y2="236.22" width="0.1524" layer="91"/>
-<junction x="350.52" y="236.22"/>
+<label x="360.68" y="251.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="345.44" y1="248.92" x2="345.44" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="251.46" x2="353.06" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="251.46" x2="360.68" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="251.46" x2="342.9" y2="251.46" width="0.1524" layer="91"/>
+<junction x="345.44" y="251.46"/>
 <pinref part="Q4" gate="G$1" pin="G"/>
 <pinref part="D19" gate="G$1" pin="C"/>
-<wire x1="358.14" y1="231.14" x2="358.14" y2="236.22" width="0.1524" layer="91"/>
-<junction x="358.14" y="236.22"/>
+<wire x1="353.06" y1="246.38" x2="353.06" y2="251.46" width="0.1524" layer="91"/>
+<junction x="353.06" y="251.46"/>
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="1"/>
@@ -7579,13 +7500,14 @@ Schurter 0751.0110 Brass Fuse Clip
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="SOFTWARE_SHUTDOWN_RLY1" gate="G$1" pin="COIL+"/>
 <pinref part="D14" gate="1" pin="A"/>
-<wire x1="327.66" y1="241.3" x2="330.2" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="241.3" x2="330.2" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="241.3" x2="330.2" y2="241.3" width="0.1524" layer="91"/>
-<junction x="330.2" y="241.3"/>
+<wire x1="320.04" y1="256.54" x2="327.66" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="256.54" x2="327.66" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="256.54" x2="327.66" y2="256.54" width="0.1524" layer="91"/>
+<junction x="327.66" y="256.54"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
+<pinref part="BMS_SHUTDOWN_RLY1" gate="G$1" pin="COIL+"/>
+<wire x1="325.12" y1="236.22" x2="327.66" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SHUTDOWN_E" class="0">
@@ -7727,6 +7649,14 @@ Schurter 0751.0110 Brass Fuse Clip
 <wire x1="106.68" y1="185.42" x2="104.14" y2="185.42" width="0.1524" layer="91"/>
 <junction x="106.68" y="180.34"/>
 <label x="104.14" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="BMS_SHUTDOWN_RLY1" gate="G$1" pin="COIL-"/>
+<wire x1="304.8" y1="236.22" x2="309.88" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="304.8" y1="236.22" x2="304.8" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
