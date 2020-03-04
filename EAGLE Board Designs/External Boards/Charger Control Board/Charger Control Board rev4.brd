@@ -1394,6 +1394,8 @@ design rules under a new name.</description>
 <wire x1="39.37" y1="46.99" x2="31.6178125" y2="46.99" width="0.3048" layer="16"/>
 <wire x1="6.35" y1="60.96" x2="8.89" y2="58.42" width="0.3048" layer="1"/>
 <wire x1="8.89" y1="58.42" x2="12.7" y2="58.42" width="0.3048" layer="1"/>
+<contactref element="U$4" pad="A9"/>
+<wire x1="6.35" y1="60.96" x2="11.43" y2="76.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CHARGE_CONTROL">
 <contactref element="U$2" pad="3"/>
@@ -1421,7 +1423,6 @@ design rules under a new name.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="C1" pad="2"/>
 <contactref element="U$4" pad="VIN"/>
-<contactref element="POWERTAIL" pad="P$1"/>
 <contactref element="R6" pad="1"/>
 <contactref element="R5" pad="1"/>
 <contactref element="CAN_TRANSCEIVER_3.5" pad="3"/>
@@ -1466,7 +1467,6 @@ design rules under a new name.</description>
 <wire x1="34.706075" y1="66.285" x2="34.604475" y2="66.3866" width="0.3048" layer="1"/>
 <wire x1="34.604475" y1="66.3866" x2="33.975525" y2="66.3866" width="0.3048" layer="1"/>
 <wire x1="33.975525" y1="66.3866" x2="33.873925" y2="66.285" width="0.3048" layer="1"/>
-<wire x1="82.55" y1="50.78" x2="82.512375" y2="50.78" width="0.3048" layer="1"/>
 <wire x1="82.512375" y1="50.78" x2="78.728375" y2="54.564" width="0.3048" layer="1"/>
 <via x="25.4" y="66.285" extent="1-16" drill="0.35"/>
 <wire x1="33.873925" y1="66.285" x2="25.4" y2="66.285" width="0.3048" layer="1"/>
@@ -1480,8 +1480,10 @@ design rules under a new name.</description>
 <wire x1="67.25" y1="62.865" x2="67.945" y2="62.865" width="0.3048" layer="1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="REG" pad="3"/>
+<contactref element="POWERTAIL" pad="P$1"/>
 <wire x1="7.62" y1="-215.9" x2="7.375" y2="-220.98" width="0" layer="19" extent="1-1"/>
 <wire x1="82.55" y1="50.78" x2="7.62" y2="-215.9" width="0" layer="19" extent="1-1"/>
+<wire x1="82.512375" y1="50.78" x2="82.55" y2="50.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="U$4" pad="D4(CANRX)"/>
@@ -2214,8 +2216,6 @@ design rules under a new name.</description>
 <approved hash="4,1,a72469c760b7f271"/>
 <approved hash="4,1,cac3006ba6b64c18"/>
 <approved hash="4,1,87144390ae62c175"/>
-<approved hash="4,1,ffeeecf1437ca42f"/>
-<approved hash="4,1,8f9d448c530ac1fc"/>
 <approved hash="4,1,908b9a7e3857d29a"/>
 <approved hash="4,1,e5da28c13701ac2f"/>
 <approved hash="4,1,8f357afe06a44fb6"/>
@@ -2225,15 +2225,10 @@ design rules under a new name.</description>
 <approved hash="4,16,a72469c760b7f271"/>
 <approved hash="4,16,cac3006ba6b64c18"/>
 <approved hash="4,16,87144390ae62c175"/>
-<approved hash="4,16,ffeeecf1437ca42f"/>
-<approved hash="4,16,8f9d448c530ac1fc"/>
 <approved hash="4,16,908b9a7e3857d29a"/>
 <approved hash="4,16,e5da28c13701ac2f"/>
 <approved hash="4,1,a9b24375c3e2509b"/>
-<approved hash="4,1,17dd3efa0e6e6adf"/>
 <approved hash="4,16,c2a5c9f46225813c"/>
-<approved hash="4,1,fdfce1735a7c89b9"/>
-<approved hash="4,1,08398d063e808b7c"/>
 <approved hash="4,1,b928902ce342906c"/>
 <approved hash="4,1,ed6c1457ac8f3c9d"/>
 <approved hash="4,1,8ef9ece9ace31d58"/>
