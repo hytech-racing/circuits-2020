@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -4793,7 +4793,7 @@ Source: http://www.molex.com</description>
 <wire x1="-12.7" y1="114.3" x2="-25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="114.3" x2="-25.4" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="114.3" x2="-25.4" y2="119.38" width="0.1524" layer="91"/>
-<junction x="-25.4" y="119.38"/>
+<junction x="-25.4" y="114.3"/>
 </segment>
 </net>
 <net name="SIGNAL" class="0">
