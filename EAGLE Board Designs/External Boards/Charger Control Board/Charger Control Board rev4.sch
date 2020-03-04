@@ -6291,13 +6291,13 @@ Schurter 0751.0110 Brass Fuse Clip
 <attribute name="NAME" x="286.2326" y="54.61" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="280.8986" y="52.07" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="U$3" gate="G$1" x="299.72" y="66.04" smashed="yes" rot="MR270"/>
-<instance part="CHARGER" gate="-2" x="332.74" y="53.34" smashed="yes">
-<attribute name="NAME" x="335.28" y="52.578" size="1.524" layer="95"/>
+<instance part="U$3" gate="G$1" x="302.26" y="45.72" smashed="yes" rot="R90"/>
+<instance part="CHARGER" gate="-2" x="322.58" y="58.42" smashed="yes" rot="MR180">
+<attribute name="NAME" x="325.12" y="59.182" size="1.524" layer="95" rot="MR180"/>
 </instance>
-<instance part="CHARGER" gate="-1" x="332.74" y="55.88" smashed="yes">
-<attribute name="NAME" x="335.28" y="55.118" size="1.524" layer="95"/>
-<attribute name="VALUE" x="326.898" y="52.197" size="1.778" layer="96" align="top-left"/>
+<instance part="CHARGER" gate="-1" x="322.58" y="55.88" smashed="yes" rot="MR180">
+<attribute name="NAME" x="325.12" y="56.642" size="1.524" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="316.738" y="59.563" size="1.778" layer="96" rot="MR180" align="top-left"/>
 </instance>
 <instance part="U$5" gate="G$1" x="327.66" y="129.54" smashed="yes"/>
 <instance part="CAN_TRANSCEIVER_3.5" gate="G$1" x="284.48" y="200.66" smashed="yes" rot="R180">
@@ -6476,12 +6476,12 @@ Schurter 0751.0110 Brass Fuse Clip
 <pinref part="MAIN" gate="-3" pin="S"/>
 </segment>
 <segment>
-<wire x1="279.4" y1="50.8" x2="284.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="50.8" x2="284.48" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="D3" gate="1" pin="A"/>
-<wire x1="284.48" y1="50.8" x2="289.56" y2="50.8" width="0.1524" layer="91"/>
+<label x="271.78" y="50.8" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="C1"/>
+<wire x1="292.1" y1="50.8" x2="284.48" y2="50.8" width="0.1524" layer="91"/>
 <junction x="284.48" y="50.8"/>
-<pinref part="U$3" gate="G$1" pin="C2"/>
-<label x="279.4" y="50.8" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <wire x1="266.7" y1="193.04" x2="261.62" y2="193.04" width="0.1524" layer="91"/>
@@ -6614,13 +6614,13 @@ Schurter 0751.0110 Brass Fuse Clip
 <segment>
 <pinref part="U$2" gate="G$1" pin="DC-"/>
 <wire x1="256.54" y1="63.5" x2="284.48" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="C1"/>
-<wire x1="289.56" y1="60.96" x2="284.48" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="D3" gate="1" pin="C"/>
-<wire x1="284.48" y1="60.96" x2="284.48" y2="58.42" width="0.1524" layer="91"/>
-<junction x="284.48" y="60.96"/>
 <wire x1="284.48" y1="63.5" x2="284.48" y2="60.96" width="0.1524" layer="91"/>
 <label x="259.08" y="63.5" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="C2"/>
+<wire x1="284.48" y1="60.96" x2="284.48" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="60.96" x2="284.48" y2="60.96" width="0.1524" layer="91"/>
+<junction x="284.48" y="60.96"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -6796,20 +6796,20 @@ Schurter 0751.0110 Brass Fuse Clip
 <net name="CHARGER_2" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="S2"/>
-<wire x1="302.26" y1="48.26" x2="325.12" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="63.5" x2="314.96" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="CHARGER" gate="-2" pin="S"/>
-<wire x1="330.2" y1="53.34" x2="325.12" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="48.26" x2="325.12" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="58.42" x2="314.96" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="63.5" x2="314.96" y2="58.42" width="0.1524" layer="91"/>
 <label x="304.8" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CHARGER_1" class="0">
 <segment>
 <pinref part="CHARGER" gate="-1" pin="S"/>
-<wire x1="330.2" y1="55.88" x2="325.12" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="55.88" x2="314.96" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="S1"/>
-<wire x1="325.12" y1="55.88" x2="325.12" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="63.5" x2="302.26" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="55.88" x2="314.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="48.26" x2="304.8" y2="48.26" width="0.1524" layer="91"/>
 <label x="304.8" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
