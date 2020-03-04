@@ -6605,10 +6605,6 @@ Schurter 0751.0110 Brass Fuse Clip
 <wire x1="121.92" y1="66.04" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
 <label x="127" y="66.04" size="1.778" layer="95"/>
 </segment>
-<segment>
-<wire x1="96.52" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="D0(RX1)"/>
-</segment>
 </net>
 <net name="CHARGE_CONTROL" class="0">
 <segment>
@@ -6926,6 +6922,13 @@ Schurter 0751.0110 Brass Fuse Clip
 <pinref part="U$4" gate="G$1" pin="A1"/>
 <wire x1="121.92" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
 <label x="127" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="SOFTWARE_SHUTDOWN" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="D5"/>
+<wire x1="96.52" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<label x="93.98" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
