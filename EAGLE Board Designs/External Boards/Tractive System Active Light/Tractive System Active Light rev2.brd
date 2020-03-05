@@ -34,16 +34,16 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
@@ -51,10 +51,10 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -199,8 +199,6 @@ Max Zhelyabovskiy</text>
 Tractive System Active Light rev2</text>
 <text x="0" y="13.97" size="1.016" layer="52" font="vector" rot="MR0" align="bottom-center">HyTech Racing 2020
 Tractive System Active Light rev2</text>
-<hole x="18.5166" y="24.13" drill="3.3528"/>
-<hole x="-18.5166" y="24.13" drill="3.3528"/>
 <wire x1="23.175759375" y1="12.7" x2="-23.175759375" y2="12.7" width="0" layer="20"/>
 <wire x1="-32.7406" y1="8.89" x2="-27.827440625" y2="8.89" width="0" layer="20"/>
 <wire x1="-27.827440625" y1="8.89" x2="-27.109021875" y2="9.187578125" width="0" layer="20" curve="44.999875"/>
@@ -210,14 +208,6 @@ Tractive System Active Light rev2</text>
 <wire x1="-33.7566" y1="9.906" x2="-33.7566" y2="27.112834375" width="0" layer="20"/>
 <wire x1="61.001909375" y1="0" x2="-61.001909375" y2="0" width="0.127" layer="47" curve="121.695244"/>
 <wire x1="33.7566" y1="27.112834375" x2="-33.7566" y2="27.112834375" width="0" layer="20" curve="57.798736"/>
-<circle x="-18.5166" y="24.13" radius="3" width="0.127" layer="39"/>
-<circle x="-18.5166" y="24.13" radius="3" width="0.127" layer="41"/>
-<circle x="18.5166" y="24.13" radius="3" width="0.127" layer="41"/>
-<circle x="18.5166" y="24.13" radius="3" width="0.127" layer="39"/>
-<circle x="-18.5166" y="24.13" radius="3" width="0.127" layer="42"/>
-<circle x="-18.5166" y="24.13" radius="3" width="0.127" layer="40"/>
-<circle x="18.5166" y="24.13" radius="3" width="0.127" layer="40"/>
-<circle x="18.5166" y="24.13" radius="3" width="0.127" layer="42"/>
 <dimension x1="33.7566" y1="8.89" x2="-33.7566" y2="8.89" x3="0" y3="6.35" textsize="1.016" layer="47" unit="inch"/>
 <dimension x1="0" y1="-34.3959375" x2="50.263890625" y2="14.551634375" x3="25.13194375" y3="-9.922153125" textsize="1.016" layer="47" dtype="radius" unit="inch"/>
 <wire x1="23.175759375" y1="12.7" x2="23.894178125" y2="12.402421875" width="0" layer="20" curve="-44.999875"/>
@@ -3623,6 +3613,13 @@ Tractive System Active Light rev2</text>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 </package>
+<package name="M3_MOUNTING">
+<hole x="0" y="0" drill="3.3528"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="42"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="40"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -3919,6 +3916,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="9.4005375" y="29.831028125" size="1.016" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="9.017" y="29.8475375" size="0.4064" layer="28" rot="MR270" align="top-center"/>
 </element>
+<element name="U$2" library="HyTechDevices" package="M3_MOUNTING" value="" x="-18.5166" y="24.13" smashed="yes"/>
+<element name="U$3" library="HyTechDevices" package="M3_MOUNTING" value="" x="18.5166" y="24.13" smashed="yes"/>
 </elements>
 <signals>
 <signal name="N$2">
