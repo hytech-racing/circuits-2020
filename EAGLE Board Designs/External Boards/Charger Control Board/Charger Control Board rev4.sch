@@ -1608,6 +1608,22 @@ FUSE</text>
 <wire x1="-5.08" y1="2.794" x2="5.08" y2="2.794" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
 </package>
+<package name="0603_D">
+<wire x1="-0.1" y1="0.5" x2="0.1" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="-0.1" y1="-0.5" x2="0.1" y2="-0.5" width="0.1524" layer="21"/>
+<smd name="A" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="C" x="0.85" y="0" dx="1.1" dy="1" layer="1" roundness="30"/>
+<text x="0" y="0.635" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.4064" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-0.1524" y1="0" x2="0.1524" y2="0" width="0.127" layer="21"/>
+<wire x1="0.1524" y1="0" x2="0" y2="-0.2032" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.2032" x2="0" y2="0.2032" width="0.127" layer="21"/>
+<wire x1="0" y1="0.2032" x2="0.1524" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TEENSY_3.2_SIMPLE">
@@ -2500,6 +2516,15 @@ general purpose rectifier</description>
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="0603_D">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5927,7 +5952,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND9" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="ZENER" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value=""/>
+<part name="ZENER" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="DIODE_ZENER"/>
 <part name="GND8" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="Q1" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 <part name="U$2" library="HyTechDevices" deviceset="CPC1002N" device=""/>
@@ -6108,6 +6133,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="GND21" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND22" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND25" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="D2" library="HyTechDevices" deviceset="DIODE_ZENER" device="0603"/>
 </parts>
 <sheets>
 <sheet>
@@ -6369,8 +6395,8 @@ Schurter 0751.0110 Brass Fuse Clip
 <attribute name="NAME" x="40.64" y="247.142" size="1.524" layer="95" rot="R180"/>
 <attribute name="VALUE" x="43.942" y="244.983" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND2" gate="1" x="50.8" y="243.84" smashed="yes">
-<attribute name="VALUE" x="48.26" y="241.3" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="50.8" y="236.22" smashed="yes">
+<attribute name="VALUE" x="48.26" y="233.68" size="1.778" layer="96"/>
 </instance>
 <instance part="REG" gate="G$1" x="60.96" y="215.9" smashed="yes">
 <attribute name="NAME" x="63.5" y="208.28" size="1.778" layer="95"/>
@@ -6399,6 +6425,9 @@ Schurter 0751.0110 Brass Fuse Clip
 </instance>
 <instance part="P+9" gate="1" x="144.78" y="172.72" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="142.24" y="175.26" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="D2" gate="G$1" x="60.96" y="243.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="59.2074" y="240.03" size="1.778" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -6515,8 +6544,12 @@ Schurter 0751.0110 Brass Fuse Clip
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="50.8" y1="238.76" x2="50.8" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="246.38" x2="45.72" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="POWER" gate="-1" pin="S"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="238.76" x2="60.96" y2="238.76" width="0.1524" layer="91"/>
+<junction x="50.8" y="238.76"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -6889,8 +6922,12 @@ Schurter 0751.0110 Brass Fuse Clip
 <wire x1="68.58" y1="241.3" x2="66.04" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="241.3" x2="66.04" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="POWER" gate="-2" pin="S"/>
-<wire x1="66.04" y1="248.92" x2="45.72" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="248.92" x2="60.96" y2="248.92" width="0.1524" layer="91"/>
 <label x="53.34" y="248.92" size="1.778" layer="95"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="60.96" y1="248.92" x2="45.72" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="246.38" x2="60.96" y2="248.92" width="0.1524" layer="91"/>
+<junction x="60.96" y="248.92"/>
 </segment>
 </net>
 <net name="SHUTDOWN_E" class="0">
