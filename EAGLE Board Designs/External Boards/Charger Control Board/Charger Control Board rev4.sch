@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -5920,10 +5920,10 @@ Schurter 0751.0110 Brass Fuse Clip
 <parts>
 <part name="POWERTAIL" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Powerswitch Tail"/>
 <part name="GND7" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20k">
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="20k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="5.1k">
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND9" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -5932,39 +5932,39 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="Q1" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 <part name="U$2" library="HyTechDevices" deviceset="CPC1002N" device=""/>
 <part name="GND12" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="360">
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="360">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="U$4" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
 <part name="CAN_TRANSCEIVER_3.2" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND27" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="C1" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF">
+<part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF">
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="C2" library="HyTechDevices" deviceset="CAP" device="0805" value=".1uF">
+<part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF">
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND88" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="68">
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="68">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="STATUS_3.2" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="GND16" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="60">
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="60">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="CAN_TERM" library="HyTechDevices" deviceset="M02" device="_SLIM" value="M02_SLIM"/>
 <part name="U$1" library="HyTechDevices" deviceset="CDSOT23-T24CAN-Q" device=""/>
 <part name="GND26" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="60">
+<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="60">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="C5" library="HyTechDevices" deviceset="CAP" device="0805" value="4.7nF">
+<part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="4.7nF">
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
@@ -5976,18 +5976,18 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="GND24" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="S1" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD"/>
 <part name="GND5" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="5.1k">
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="P+42" library="supply1" deviceset="+5V" device=""/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k">
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="680">
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="680">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="POWER_5V" library="HyTechDevices" deviceset="LED" device="-0805" value="Purple"/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="270">
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="270">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND23" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -6002,16 +6002,16 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="CAN_TRANSCEIVER_3.5" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND11" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
-<part name="C6" library="HyTechDevices" deviceset="CAP" device="0805" value="1uF">
+<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF">
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="C7" library="HyTechDevices" deviceset="CAP" device="0805" value=".1uF">
+<part name="C7" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF">
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND14" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="68">
+<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="68">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="STATUS_3.5" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
@@ -6022,12 +6022,12 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="U$6" library="HyTechFrames" deviceset="FRAME_B_L" device=""/>
 <part name="IMD_SHUTDOWN_RLY" library="HyTechDevices" deviceset="RT424009" device=""/>
 <part name="SHUTDOWN_B" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="2k">
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="BMS_SHUTDOWN_RLY" library="HyTechDevices" deviceset="RT424009" device=""/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20k">
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="20k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="SHUTDOWN_C" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
@@ -6038,25 +6038,25 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="D9" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D1" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="SHUTDOWN_BUTTON" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Shutdown Button"/>
-<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20">
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="20">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10k">
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20">
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="20">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10k">
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="D14" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="SHUTDOWN_D" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="GND34" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R35" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="6.8k"/>
+<part name="R35" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="6.8k"/>
 <part name="GND35" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R36" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R36" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="GND36" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="Q4" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 <part name="D19" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
@@ -6073,36 +6073,36 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="REG" library="HyTechDevices" deviceset="OKI-78SR-5" device="" value="5V"/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C3" library="HyTechDevices" deviceset="CAP" device="0805" value="10uF">
+<part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF">
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
-<part name="C4" library="HyTechDevices" deviceset="CAP" device="0805" value="10uF">
+<part name="C4" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF">
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+14" library="supply1" deviceset="+12V" device=""/>
 <part name="SOFTWARE" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
-<part name="R34" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="1.2K"/>
+<part name="R34" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1.2K"/>
 <part name="GND33" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
-<part name="R26" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="43k"/>
-<part name="R27" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="12k"/>
-<part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="43k"/>
-<part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="12k"/>
-<part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="43k"/>
-<part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="12k"/>
+<part name="R26" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k"/>
+<part name="R27" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k"/>
+<part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k"/>
+<part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k"/>
+<part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k"/>
+<part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k"/>
 <part name="D10" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D11" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D12" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="BMS_SHUTDOWN_RLY1" library="HyTechDevices" deviceset="RT424009" device=""/>
 <part name="GND10" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="20">
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="20">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="43k"/>
-<part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="12k"/>
+<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k"/>
+<part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k"/>
 <part name="D8" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="GND19" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND21" library="HyTechSymbols" deviceset="GND" device=""/>
