@@ -831,6 +831,43 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="51"/>
 <rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
 </package>
+<package name="AMPHENOL_10118192-0001LF">
+<wire x1="-3.75" y1="0.225" x2="3.75" y2="0.225" width="0.127" layer="51"/>
+<wire x1="3.75" y1="0.225" x2="3.75" y2="-4.125" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-4.125" x2="3.75" y2="-5.436" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-5.436" x2="-3.75" y2="-5.436" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="-5.436" x2="-3.75" y2="-4.125" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="-4.125" x2="-3.75" y2="0.225" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-4.125" x2="-3.75" y2="-4.125" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-4.125" x2="7.15" y2="-4.125" width="0.127" layer="51"/>
+<text x="5.204959375" y="-3.90371875" size="0.813575" layer="51">PCB Edge</text>
+<wire x1="-3.75" y1="-1.15" x2="-3.75" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="3.75" y1="-1.15" x2="3.75" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="-3.85" x2="-3.75" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="-4.125" x2="3.75" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="3.75" y1="-4.125" x2="3.75" y2="-3.85" width="0.127" layer="21"/>
+<wire x1="-1.83" y1="0.225" x2="-1.72" y2="0.225" width="0.127" layer="21"/>
+<wire x1="1.72" y1="0.225" x2="1.83" y2="0.225" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="0.925" x2="4.95" y2="0.925" width="0.05" layer="39"/>
+<wire x1="4.95" y1="0.925" x2="4.95" y2="-5.686" width="0.05" layer="39"/>
+<wire x1="4.95" y1="-5.686" x2="-4.95" y2="-5.686" width="0.05" layer="39"/>
+<wire x1="-4.95" y1="-5.686" x2="-4.95" y2="0.925" width="0.05" layer="39"/>
+<circle x="-1.4" y="1.3" radius="0.1" width="0.3" layer="21"/>
+<circle x="-1.4" y="1.3" radius="0.1" width="0.3" layer="51"/>
+<text x="-4.953109375" y="1.778040625" size="1.00001875" layer="25">&gt;NAME</text>
+<text x="-5.080290625" y="-6.350359375" size="1.000059375" layer="27">&gt;VALUE</text>
+<smd name="3" x="0" y="0" dx="0.4" dy="1.35" layer="1"/>
+<smd name="2" x="-0.65" y="0" dx="0.4" dy="1.35" layer="1"/>
+<smd name="4" x="0.65" y="0" dx="0.4" dy="1.35" layer="1"/>
+<smd name="1" x="-1.3" y="0" dx="0.4" dy="1.35" layer="1"/>
+<smd name="5" x="1.3" y="0" dx="0.4" dy="1.35" layer="1"/>
+<smd name="SH1" x="-3.1" y="-0.125" dx="2.1" dy="1.6" layer="1"/>
+<smd name="SH2" x="3.1" y="-0.125" dx="2.1" dy="1.6" layer="1"/>
+<smd name="SH3" x="-3.8" y="-2.675" dx="1.8" dy="1.9" layer="1" rot="R180"/>
+<smd name="SH6" x="3.8" y="-2.675" dx="1.8" dy="1.9" layer="1" rot="R180"/>
+<smd name="SH4" x="-1.2" y="-2.675" dx="1.9" dy="1.9" layer="1"/>
+<smd name="SH5" x="1.2" y="-2.675" dx="1.9" dy="1.9" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="555_TIMER">
@@ -905,6 +942,20 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <vertex x="1.27" y="0"/>
 <vertex x="0" y="-2.54"/>
 </polygon>
+</symbol>
+<symbol name="10118192-0001LF">
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.1524" layer="94"/>
+<text x="-5.08618125" y="10.681" size="1.780159375" layer="95">&gt;NAME</text>
+<text x="-5.088209375" y="-12.7205" size="1.78086875" layer="96">&gt;VALUE</text>
+<pin name="VUSB" x="-7.62" y="7.62" length="short" direction="pas"/>
+<pin name="D-" x="-7.62" y="5.08" length="short" direction="pas"/>
+<pin name="D+" x="-7.62" y="2.54" length="short" direction="pas"/>
+<pin name="ID" x="-7.62" y="0" length="short" direction="pas"/>
+<pin name="GND" x="-7.62" y="-2.54" length="short" direction="pas"/>
+<pin name="SHIELD" x="-7.62" y="-7.62" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1326,6 +1377,34 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="10118192-0001LF" prefix="J">
+<description>Single Port 5 Contact Horizontal Right Angle Shielded Micro B USB 2.0 Connector</description>
+<gates>
+<gate name="G$1" symbol="10118192-0001LF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AMPHENOL_10118192-0001LF">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="SHIELD" pad="SH1 SH2 SH3 SH4 SH5 SH6"/>
+<connect gate="G$1" pin="VUSB" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle "/>
+<attribute name="MF" value="Amphenol ICC"/>
+<attribute name="MP" value="10118192-0001LF"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSymbols">
@@ -1421,6 +1500,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
 <part name="LED" library="HyTechDevices" deviceset="LED" device="-0603"/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="J1" library="HyTechDevices" deviceset="10118192-0001LF" device=""/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="GND2" library="HyTechSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1458,8 +1540,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="GND5" gate="1" x="52.07" y="17.78" smashed="yes">
 <attribute name="VALUE" x="49.53" y="15.24" size="1.778" layer="96"/>
 </instance>
-<instance part="5V" gate="G$1" x="6.35" y="63.5" smashed="yes" rot="R180"/>
-<instance part="GND" gate="G$1" x="27.94" y="15.24" smashed="yes" rot="R180"/>
+<instance part="5V" gate="G$1" x="-8.89" y="50.8" smashed="yes"/>
+<instance part="GND" gate="G$1" x="-9.144" y="40.64" smashed="yes"/>
 <instance part="P+1" gate="VCC" x="24.13" y="68.58" smashed="yes">
 <attribute name="VALUE" x="30.48" y="71.12" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -1473,6 +1555,16 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </instance>
 <instance part="GND1" gate="1" x="73.66" y="30.48" smashed="yes">
 <attribute name="VALUE" x="71.12" y="27.94" size="1.778" layer="96"/>
+</instance>
+<instance part="J1" gate="G$1" x="-27.94" y="45.72" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-22.85381875" y="56.401" size="1.780159375" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-22.851790625" y="32.9995" size="1.78086875" layer="96" rot="MR0"/>
+</instance>
+<instance part="P+2" gate="VCC" x="-15.24" y="60.452" smashed="yes">
+<attribute name="VALUE" x="-8.89" y="57.912" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND2" gate="1" x="-13.97" y="35.56" smashed="yes">
+<attribute name="VALUE" x="-16.51" y="33.02" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1502,13 +1594,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="NA555" gate="G$1" pin="1"/>
 <wire x1="36.83" y1="25.4" x2="36.83" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="36.83" y1="17.78" x2="36.83" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="36.83" y1="12.7" x2="36.83" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="36.83" y1="17.78" x2="36.83" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="34.29" y1="17.78" x2="36.83" y2="17.78" width="0.1524" layer="91"/>
 <junction x="36.83" y="17.78"/>
-<pinref part="GND" gate="G$1" pin="P$1"/>
-<wire x1="36.83" y1="12.7" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
-<junction x="36.83" y="12.7"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -1520,22 +1608,38 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="73.66" y1="38.1" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<pinref part="GND" gate="G$1" pin="P$1"/>
+<wire x1="-20.32" y1="43.18" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="-13.97" y1="43.18" x2="-11.684" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-13.97" y1="38.1" x2="-13.97" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-13.97" y1="43.18" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="8.89" y1="58.42" x2="8.89" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="NA555" gate="G$1" pin="4"/>
 <wire x1="24.13" y1="55.88" x2="24.13" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="24.13" y1="60.96" x2="24.13" y2="66.04" width="0.1524" layer="91"/>
-<junction x="8.89" y="60.96"/>
 <pinref part="NA555" gate="G$1" pin="8"/>
 <wire x1="36.83" y1="55.88" x2="36.83" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="5V" gate="G$1" pin="P$1"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
-<wire x1="8.89" y1="60.96" x2="24.13" y2="60.96" width="0.1524" layer="91"/>
 <junction x="24.13" y="60.96"/>
+<wire x1="8.89" y1="60.96" x2="24.13" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="24.13" y1="60.96" x2="36.83" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="58.42" x2="8.89" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
+<pinref part="J1" gate="G$1" pin="VUSB"/>
+<wire x1="-20.32" y1="53.34" x2="-15.24" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="5V" gate="G$1" pin="P$1"/>
+<wire x1="-15.24" y1="53.34" x2="-11.43" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="57.912" x2="-15.24" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-15.24" y="53.34"/>
 </segment>
 </net>
 <net name="RED" class="0">
