@@ -6144,7 +6144,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <text x="218.44" y="76.2" size="2.54" layer="95" font="vector">Charger Relay Control</text>
 <text x="50.8" y="116.84" size="2.54" layer="95" font="vector">CAN Termination</text>
 <text x="96.52" y="78.74" size="2.54" layer="95" font="vector">Microcontrollers</text>
-<text x="157.48" y="254" size="2.54" layer="95" font="vector">Status LED</text>
+<text x="157.48" y="254" size="2.54" layer="95" font="vector">Power LED</text>
 <text x="33.02" y="254" size="2.54" layer="95" font="vector">External 12V Power</text>
 <text x="48.26" y="228.6" size="2.54" layer="95" font="vector">Regulated 5V Power</text>
 </plain>
@@ -6174,7 +6174,6 @@ Schurter 0751.0110 Brass Fuse Clip
 </instance>
 <instance part="ZENER" gate="G$1" x="116.84" y="170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="115.0874" y="166.37" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="120.4214" y="166.37" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND8" gate="1" x="116.84" y="160.02" smashed="yes">
 <attribute name="VALUE" x="114.3" y="157.48" size="1.778" layer="96"/>
@@ -6315,7 +6314,6 @@ Schurter 0751.0110 Brass Fuse Clip
 </instance>
 <instance part="D3" gate="1" x="284.48" y="55.88" smashed="yes" rot="MR90">
 <attribute name="NAME" x="286.2326" y="54.61" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="280.8986" y="52.07" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="U$3" gate="G$1" x="302.26" y="45.72" smashed="yes" rot="R90"/>
 <instance part="CHARGER" gate="-2" x="322.58" y="58.42" smashed="yes" rot="MR180">
