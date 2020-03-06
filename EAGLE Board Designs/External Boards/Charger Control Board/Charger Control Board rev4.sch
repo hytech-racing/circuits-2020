@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -6213,7 +6213,7 @@ Source: http://www.molex.com</description>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="68">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="STATUS_3.1" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
+<part name="STATUS_3.5" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="GND17" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND18" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
@@ -6529,7 +6529,7 @@ Source: http://www.molex.com</description>
 <attribute name="VALUE" x="316.23" y="171.958" size="1.778" layer="96"/>
 <attribute name="TOLERANCE" x="317.5" y="175.26" size="0.127" layer="96" display="off"/>
 </instance>
-<instance part="STATUS_3.1" gate="LED" x="307.34" y="175.26" smashed="yes" rot="R270">
+<instance part="STATUS_3.5" gate="LED" x="307.34" y="175.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="300.228" y="171.704" size="1.778" layer="95"/>
 <attribute name="VALUE" x="302.768" y="169.545" size="1.778" layer="96"/>
 </instance>
@@ -6713,7 +6713,7 @@ Source: http://www.molex.com</description>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="STATUS_3.1" gate="LED" pin="C"/>
+<pinref part="STATUS_3.5" gate="LED" pin="C"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="302.26" y1="175.26" x2="294.64" y2="175.26" width="0.1524" layer="91"/>
 </segment>
@@ -7057,7 +7057,7 @@ Source: http://www.molex.com</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="STATUS_3.1" gate="LED" pin="A"/>
+<pinref part="STATUS_3.5" gate="LED" pin="A"/>
 <wire x1="309.88" y1="175.26" x2="312.42" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
