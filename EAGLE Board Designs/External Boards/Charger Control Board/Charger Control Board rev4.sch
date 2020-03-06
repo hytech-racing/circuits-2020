@@ -6129,7 +6129,7 @@ Source: http://www.molex.com</description>
 <part name="ZENER" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="DIODE_ZENER"/>
 <part name="GND8" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="Q1" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
-<part name="U$2" library="HyTechDevices" deviceset="CPC1002N" device=""/>
+<part name="U1" library="HyTechDevices" deviceset="CPC1002N" device=""/>
 <part name="GND12" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="360">
 <attribute name="TOLERANCE" value="1%"/>
@@ -6358,7 +6358,7 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="133.35" y="165.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.35" y="154.94" size="1.778" layer="95"/>
 </instance>
-<instance part="U$2" gate="G$1" x="246.38" y="66.04" smashed="yes">
+<instance part="U1" gate="G$1" x="246.38" y="66.04" smashed="yes">
 <attribute name="NAME" x="238.76" y="72.39" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="238.76" y="58.42" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -6630,7 +6630,7 @@ Source: http://www.molex.com</description>
 <wire x1="116.84" y1="162.56" x2="116.84" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="CONTROL-"/>
+<pinref part="U1" gate="G$1" pin="CONTROL-"/>
 <wire x1="236.22" y1="63.5" x2="228.6" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
@@ -6809,7 +6809,7 @@ Source: http://www.molex.com</description>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="CONTROL+"/>
+<pinref part="U1" gate="G$1" pin="CONTROL+"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="68.58" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
 </segment>
@@ -6828,7 +6828,7 @@ Source: http://www.molex.com</description>
 </net>
 <net name="CHARGE_CONTROL" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="DC-"/>
+<pinref part="U1" gate="G$1" pin="DC-"/>
 <wire x1="256.54" y1="63.5" x2="284.48" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="D3" gate="1" pin="C"/>
 <wire x1="284.48" y1="63.5" x2="284.48" y2="60.96" width="0.1524" layer="91"/>
@@ -6915,7 +6915,7 @@ Source: http://www.molex.com</description>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="DC+"/>
+<pinref part="U1" gate="G$1" pin="DC+"/>
 <wire x1="256.54" y1="68.58" x2="261.62" y2="68.58" width="0.1524" layer="91"/>
 <label x="261.62" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>

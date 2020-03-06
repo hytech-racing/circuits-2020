@@ -8,7 +8,7 @@
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -3685,7 +3685,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="6.35" y="35.687" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="CAN_TRANSCEIVER_3.2" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="10.16" y="54.356" smashed="yes" rot="MR270">
-<attribute name="NAME" x="10.16" y="58.166" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="10.16" y="56.896" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
 <attribute name="VALUE" x="10.16" y="51.816" size="0.6096" layer="28" rot="MR180" align="bottom-center"/>
 </element>
 <element name="CHARGE" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="CHARGE CONTROL" x="82.55" y="74.422" smashed="yes" rot="R270">
@@ -3701,11 +3701,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="66.167" y="61.8871" size="1.016" layer="25" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="65.8622" y="61.849" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
-<element name="D6" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="55.626" y="27.686" smashed="yes" rot="MR180">
-<attribute name="NAME" x="55.626" y="29.5021" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<element name="D6" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="56.388" y="27.813" smashed="yes" rot="MR180">
+<attribute name="NAME" x="56.388" y="28.829" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
 </element>
-<element name="D7" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="41.148" y="27.686" smashed="yes" rot="MR180">
-<attribute name="NAME" x="41.148" y="29.5021" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<element name="D7" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="41.91" y="27.813" smashed="yes" rot="MR180">
+<attribute name="NAME" x="41.91" y="28.829" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
 </element>
 <element name="IMD_SHUTDOWN_RLY" library="HyTechDevices" package="RELAY_DPDT" value="RT424009" x="41.91" y="7.112" smashed="yes" rot="R90"/>
 <element name="LATCH" library="HyTechDevices" package="LED-805" value="White" x="21.59" y="43.18" smashed="yes" rot="R270">
@@ -3732,17 +3732,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="POWERTAIL" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="Powerswitch Tail" x="6.35" y="9.525" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.255" y="9.525" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
 </element>
-<element name="Q1" library="HyTechDevices" package="SOT23" value="" x="10.668" y="12.192" smashed="yes" rot="MR180">
-<attribute name="NAME" x="13.208" y="12.6238" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="VALUE" x="12.065" y="11.303" size="0.3048" layer="28" rot="MR180" align="bottom-center"/>
+<element name="Q1" library="HyTechDevices" package="SOT23" value="" x="10.795" y="12.192" smashed="yes" rot="MR180">
+<attribute name="NAME" x="13.335" y="12.6238" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="12.192" y="11.303" size="0.3048" layer="28" rot="MR180" align="bottom-center"/>
 </element>
 <element name="R9" library="HyTechDevices" package="0603-RES" value="60" x="10.922" y="37.846" smashed="yes" rot="MR270">
 <attribute name="NAME" x="11.684" y="37.8841" size="1.016" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="10.922" y="37.846" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R2" library="HyTechDevices" package="0603-RES" value="10k" x="55.626" y="21.336" smashed="yes" rot="MR180">
-<attribute name="NAME" x="55.626" y="23.4061" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="1%" x="55.626" y="21.336" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R2" library="HyTechDevices" package="0603-RES" value="10k" x="56.388" y="22.606" smashed="yes" rot="MR180">
+<attribute name="NAME" x="56.388" y="21.59" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="TOLERANCE" value="1%" x="56.388" y="22.606" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R3" library="HyTechDevices" package="0603-RES" value="2k" x="35.052" y="3.556" smashed="yes">
 <attribute name="NAME" x="35.052" y="2.54" size="1.016" layer="25" font="vector" align="top-center"/>
@@ -3760,17 +3760,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="15.24" y="31.496" size="1.016" layer="25" font="vector" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="15.24" y="30.48" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R11" library="HyTechDevices" package="0603-RES" value="20k" x="10.668" y="16.256" smashed="yes" rot="MR90">
-<attribute name="NAME" x="11.3919" y="16.256" size="1.016" layer="26" font="vector" rot="MR90" align="bottom-center"/>
-<attribute name="TOLERANCE" value="1%" x="10.668" y="16.256" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="R11" library="HyTechDevices" package="0603-RES" value="20k" x="10.795" y="16.256" smashed="yes" rot="MR90">
+<attribute name="NAME" x="11.5189" y="16.256" size="1.016" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="TOLERANCE" value="1%" x="10.795" y="16.256" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R12" library="HyTechDevices" package="0603-RES" value="5.1k" x="6.096" y="13.208" smashed="yes" rot="MR180">
 <attribute name="NAME" x="3.302" y="12.7381" size="1.016" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="6.096" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R13" library="HyTechDevices" package="0603-RES" value="20" x="41.148" y="24.638" smashed="yes" rot="MR180">
-<attribute name="NAME" x="41.148" y="26.7081" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="1%" x="41.148" y="24.638" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R13" library="HyTechDevices" package="0603-RES" value="20" x="41.91" y="24.638" smashed="yes" rot="MR180">
+<attribute name="NAME" x="41.91" y="25.654" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
+<attribute name="TOLERANCE" value="1%" x="41.91" y="24.638" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R6" library="HyTechDevices" package="0603-RES" value="5.1k" x="15.24" y="43.18" smashed="yes">
 <attribute name="NAME" x="15.24" y="44.196" size="1.016" layer="25" font="vector" align="bottom-center"/>
@@ -3792,13 +3792,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="43.942" y="53.213" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
 <attribute name="TOLERANCE" value="1%" x="42.926" y="53.213" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R16" library="HyTechDevices" package="0603-RES" value="10k" x="41.148" y="21.336" smashed="yes" rot="MR180">
-<attribute name="NAME" x="41.148" y="23.4061" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="1%" x="41.148" y="21.336" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R16" library="HyTechDevices" package="0603-RES" value="10k" x="41.91" y="22.606" smashed="yes" rot="MR180">
+<attribute name="NAME" x="41.91" y="21.59" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="TOLERANCE" value="1%" x="41.91" y="22.606" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R1" library="HyTechDevices" package="0603-RES" value="20" x="55.626" y="24.638" smashed="yes" rot="MR180">
-<attribute name="NAME" x="55.626" y="26.7081" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="1%" x="55.626" y="24.638" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R1" library="HyTechDevices" package="0603-RES" value="20" x="56.388" y="24.638" smashed="yes" rot="MR180">
+<attribute name="NAME" x="56.388" y="25.654" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
+<attribute name="TOLERANCE" value="1%" x="56.388" y="24.638" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="LATCH_BUTTON" library="HyTechDevices" package="TACTILE_SWITCH_SMD_6.2MM_TALL" value="" x="7.62" y="40.386" smashed="yes">
 <attribute name="NAME" x="7.62" y="43.561" size="1.016" layer="25" font="vector" align="bottom-center"/>
@@ -3811,29 +3811,29 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U$1" library="HyTechDevices" package="SOT23" value="CDSOT23-T24CAN-Q" x="7.366" y="37.592" smashed="yes" rot="MR0">
 <attribute name="NAME" x="4.572" y="37.9222" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U$2" library="HyTechDevices" package="SOP04" value="CPC1002N" x="60.706" y="59.69" smashed="yes">
-<attribute name="NAME" x="58.166" y="58.674" size="0.8128" layer="25" rot="R90"/>
+<element name="U1" library="HyTechDevices" package="SOP04" value="CPC1002N" x="60.706" y="59.69" smashed="yes">
+<attribute name="NAME" x="63.246" y="59.69" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
 <attribute name="VALUE" x="64.516" y="57.15" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$4" library="HyTechDevices" package="TEENSY_3.2_SIMPLE" value="TEENSY_3.2_SIMPLE" x="41.91" y="45.72" smashed="yes" rot="R90"/>
 <element name="SHUTDOWN_BUTTON" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="Shutdown Button" x="82.55" y="13.335" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.709" y="13.335" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
 </element>
-<element name="ZENER" library="HyTechDevices" package="SOT23" value="DIODE_ZENER" x="10.668" y="19.558" smashed="yes" rot="MR0">
-<attribute name="NAME" x="14.478" y="19.8882" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<element name="ZENER" library="HyTechDevices" package="SOT23" value="DIODE_ZENER" x="10.795" y="19.558" smashed="yes" rot="MR0">
+<attribute name="NAME" x="14.605" y="19.8882" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
 <element name="U$5" library="HyTechDevices" package="TEENSY_3.5_EXT_RTC" value="TEENSY_3.5_EXT_RTC" x="67.31" y="64.77" smashed="yes" rot="R90"/>
 <element name="CAN_TRANSCEIVER_3.5" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="10.16" y="73.406" smashed="yes" rot="MR270">
-<attribute name="NAME" x="10.16" y="77.216" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="10.16" y="75.946" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
 <attribute name="VALUE" x="10.16" y="70.866" size="0.6096" layer="28" rot="MR180" align="bottom-center"/>
 </element>
 <element name="C6" library="HyTechDevices" package="0603-CAP" value="1uF" x="18.415" y="73.406" smashed="yes" rot="MR270">
-<attribute name="NAME" x="19.304" y="73.406" size="1.016" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="19.431" y="73.406" size="1.016" layer="26" font="vector" rot="MR270" align="top-center"/>
 <attribute name="TOLERANCE" value="5%" x="18.415" y="73.406" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="18.415" y="73.406" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C7" library="HyTechDevices" package="0603-CAP" value=".1uF" x="16.383" y="73.406" smashed="yes" rot="MR270">
-<attribute name="NAME" x="14.732" y="73.406" size="1.016" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="15.367" y="73.406" size="1.016" layer="26" font="vector" rot="MR270" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="16.383" y="73.406" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="16.383" y="73.406" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -3854,15 +3854,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R35" library="HyTechDevices" package="0603-RES" value="6.8k" x="64.008" y="3.556" smashed="yes">
 <attribute name="NAME" x="64.008" y="2.54" size="1.016" layer="25" font="vector" align="top-center"/>
 </element>
-<element name="R36" library="HyTechDevices" package="0603-RES" value="10k" x="66.802" y="27.94" smashed="yes" rot="MR180">
-<attribute name="NAME" x="66.802" y="27.2161" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<element name="R36" library="HyTechDevices" package="0603-RES" value="10k" x="66.802" y="27.813" smashed="yes" rot="MR180">
+<attribute name="NAME" x="66.802" y="28.829" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
 </element>
-<element name="Q4" library="HyTechDevices" package="SOT23" value="" x="66.802" y="24.13" smashed="yes" rot="MR180">
-<attribute name="NAME" x="66.802" y="24.5618" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="VALUE" x="68.199" y="23.241" size="0.3048" layer="28" rot="MR180" align="bottom-center"/>
+<element name="Q4" library="HyTechDevices" package="SOT23" value="" x="66.802" y="24.638" smashed="yes" rot="MR180">
+<attribute name="NAME" x="68.834" y="24.638" size="1.016" layer="26" font="vector" rot="MR270" align="top-center"/>
+<attribute name="VALUE" x="68.199" y="23.749" size="0.3048" layer="28" rot="MR180" align="bottom-center"/>
 </element>
 <element name="D19" library="HyTechDevices" package="SOT23" value="MMBZ5246BLT1G" x="66.802" y="32.004" smashed="yes" rot="MR270">
-<attribute name="NAME" x="68.453" y="32.0548" size="1.016" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="66.802" y="34.036" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
 </element>
 <element name="SHUTDOWNFUSE" library="HyTechDevices" package="MINI-BLADE_FUSE_HOLDER" value="" x="27.94" y="16.002" smashed="yes" rot="R90">
 <attribute name="RATING" value="4A" x="19.05" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3887,43 +3887,43 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R34" library="HyTechDevices" package="0603-RES" value="1.2K" x="15.24" y="40.005" smashed="yes">
 <attribute name="NAME" x="15.24" y="41.021" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="R26" library="HyTechDevices" package="0603-RES" value="43k" x="35.052" y="37.084" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.052" y="36.068" size="1.016" layer="25" font="vector" align="top-center"/>
+<element name="R26" library="HyTechDevices" package="0603-RES" value="43k" x="35.052" y="36.83" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.052" y="35.814" size="1.016" layer="25" font="vector" align="top-center"/>
 </element>
-<element name="R27" library="HyTechDevices" package="0603-RES" value="12k" x="35.052" y="39.37" smashed="yes">
-<attribute name="NAME" x="35.052" y="40.386" size="1.016" layer="25" font="vector" align="bottom-center"/>
+<element name="R27" library="HyTechDevices" package="0603-RES" value="12k" x="35.052" y="38.862" smashed="yes">
+<attribute name="NAME" x="35.052" y="39.878" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="R28" library="HyTechDevices" package="0603-RES" value="43k" x="49.53" y="37.084" smashed="yes" rot="R180">
-<attribute name="NAME" x="49.53" y="36.068" size="1.016" layer="25" font="vector" align="top-center"/>
+<element name="R28" library="HyTechDevices" package="0603-RES" value="43k" x="49.53" y="36.83" smashed="yes" rot="R180">
+<attribute name="NAME" x="49.53" y="35.814" size="1.016" layer="25" font="vector" align="top-center"/>
 </element>
-<element name="R29" library="HyTechDevices" package="0603-RES" value="12k" x="49.53" y="39.37" smashed="yes">
-<attribute name="NAME" x="49.53" y="40.386" size="1.016" layer="25" font="vector" align="bottom-center"/>
+<element name="R29" library="HyTechDevices" package="0603-RES" value="12k" x="49.53" y="38.862" smashed="yes">
+<attribute name="NAME" x="49.53" y="39.878" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="R30" library="HyTechDevices" package="0603-RES" value="43k" x="64.008" y="37.084" smashed="yes" rot="R180">
-<attribute name="NAME" x="64.008" y="36.068" size="1.016" layer="25" font="vector" align="top-center"/>
+<element name="R30" library="HyTechDevices" package="0603-RES" value="43k" x="64.008" y="36.83" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.008" y="35.814" size="1.016" layer="25" font="vector" align="top-center"/>
 </element>
-<element name="R31" library="HyTechDevices" package="0603-RES" value="12k" x="64.008" y="39.37" smashed="yes">
-<attribute name="NAME" x="64.008" y="40.386" size="1.016" layer="25" font="vector" align="bottom-center"/>
+<element name="R31" library="HyTechDevices" package="0603-RES" value="12k" x="64.008" y="38.862" smashed="yes">
+<attribute name="NAME" x="64.008" y="39.878" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="D10" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="40.132" y="37.084" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.132" y="36.068" size="1.016" layer="25" font="vector" align="top-center"/>
+<element name="D10" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="40.132" y="36.83" smashed="yes" rot="R180">
+<attribute name="NAME" x="40.132" y="35.814" size="1.016" layer="25" font="vector" align="top-center"/>
 </element>
-<element name="D11" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="54.61" y="37.084" smashed="yes" rot="R180">
-<attribute name="NAME" x="54.61" y="36.068" size="1.016" layer="25" font="vector" align="top-center"/>
+<element name="D11" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="54.61" y="36.83" smashed="yes" rot="R180">
+<attribute name="NAME" x="54.61" y="35.814" size="1.016" layer="25" font="vector" align="top-center"/>
 </element>
-<element name="D12" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="68.072" y="37.084" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.072" y="36.068" size="1.016" layer="25" font="vector" align="top-center"/>
+<element name="D12" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="68.072" y="36.83" smashed="yes" rot="R180">
+<attribute name="NAME" x="68.072" y="35.814" size="1.016" layer="25" font="vector" align="top-center"/>
 </element>
 <element name="BMS_SHUTDOWN_RLY1" library="HyTechDevices" package="RELAY_DPDT" value="RT424009" x="70.866" y="7.112" smashed="yes" rot="R90"/>
-<element name="R18" library="HyTechDevices" package="0603-RES" value="20" x="66.802" y="20.574" smashed="yes" rot="MR0">
-<attribute name="NAME" x="66.802" y="22.3139" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="1%" x="66.802" y="20.574" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R18" library="HyTechDevices" package="0603-RES" value="20" x="66.802" y="20.574" smashed="yes" rot="MR180">
+<attribute name="NAME" x="66.802" y="19.558" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="TOLERANCE" value="1%" x="66.802" y="20.574" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R19" library="HyTechDevices" package="0603-RES" value="43k" x="25.146" y="38.1" smashed="yes" rot="MR180">
-<attribute name="NAME" x="25.146" y="37.1221" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<element name="R19" library="HyTechDevices" package="0603-RES" value="43k" x="25.146" y="36.83" smashed="yes" rot="MR180">
+<attribute name="NAME" x="25.146" y="35.8521" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="R20" library="HyTechDevices" package="0603-RES" value="12k" x="25.146" y="40.386" smashed="yes" rot="MR0">
-<attribute name="NAME" x="25.146" y="42.3799" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<element name="R20" library="HyTechDevices" package="0603-RES" value="12k" x="25.146" y="38.862" smashed="yes" rot="MR0">
+<attribute name="NAME" x="25.146" y="40.8559" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
 <element name="D8" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="24.384" y="33.02" smashed="yes" rot="MR90">
 <attribute name="NAME" x="25.273" y="32.8549" size="1.016" layer="26" font="vector" rot="MR90" align="bottom-center"/>
@@ -3947,7 +3947,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="Q1" pad="2"/>
 <contactref element="R12" pad="1"/>
 <contactref element="ZENER" pad="1"/>
-<contactref element="U$2" pad="2"/>
+<contactref element="U1" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="CAN_TRANSCEIVER_3.2" pad="2"/>
@@ -4052,10 +4052,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="Q1" pad="3"/>
 <wire x1="6.35" y1="8.275" x2="9.291" y2="8.275" width="0.508" layer="16"/>
 <wire x1="9.291" y1="8.275" x2="10.668" y2="9.652" width="0.508" layer="16"/>
-<wire x1="10.668" y1="9.652" x2="10.668" y2="11.192" width="0.508" layer="16"/>
+<wire x1="10.668" y1="9.652" x2="10.795" y2="11.192" width="0.508" layer="16"/>
 </signal>
 <signal name="N$10">
-<contactref element="U$2" pad="1"/>
+<contactref element="U1" pad="1"/>
 <contactref element="R14" pad="2"/>
 <wire x1="59.436" y1="56.69" x2="55.254" y2="56.69" width="0.254" layer="1"/>
 <wire x1="55.254" y1="56.69" x2="55.206" y2="56.642" width="0.254" layer="1"/>
@@ -4070,7 +4070,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="38.1" y1="49.022" x2="38.1" y2="46.99" width="0.254" layer="1"/>
 </signal>
 <signal name="CHARGE_CONTROL">
-<contactref element="U$2" pad="3"/>
+<contactref element="U1" pad="3"/>
 <contactref element="D3" pad="C"/>
 <contactref element="U$3" pad="C2"/>
 <wire x1="65.13315" y1="62.69" x2="65.151" y2="62.749" width="0.254" layer="1"/>
@@ -4154,7 +4154,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="10.414" y1="55.626" x2="11.049" y2="56.261" width="0.254" layer="16"/>
 </signal>
 <signal name="+12V">
-<contactref element="U$2" pad="4"/>
+<contactref element="U1" pad="4"/>
 <contactref element="MAIN" pad="P$4"/>
 <contactref element="D14" pad="C"/>
 <contactref element="BOARDFUSE" pad="R2"/>
@@ -4170,10 +4170,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="8.696" y1="20.574" x2="11.684" y2="20.574" width="1.016" layer="1"/>
 <wire x1="11.684" y1="20.574" x2="15.24" y2="17.018" width="1.016" layer="1"/>
 <wire x1="15.24" y1="17.018" x2="15.24" y2="16.002" width="1.016" layer="1"/>
-<wire x1="67.652" y1="20.574" x2="69.48" y2="20.574" width="0.254" layer="16"/>
 <wire x1="69.48" y1="20.574" x2="69.977" y2="21.071" width="0.254" layer="16"/>
-<wire x1="67.652" y1="20.574" x2="67.652" y2="19.392" width="0.508" layer="16"/>
-<wire x1="67.652" y1="19.392" x2="67.31" y2="19.05" width="0.508" layer="16"/>
 <via x="67.31" y="19.05" extent="1-16" drill="0.35"/>
 <wire x1="67.31" y1="19.05" x2="60.96" y2="19.05" width="0.508" layer="1"/>
 <wire x1="60.96" y1="19.05" x2="21.6916" y2="19.05" width="0.508" layer="1"/>
@@ -4184,7 +4181,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="60.706" y1="59.69" x2="60.706" y2="19.304" width="0.508" layer="16"/>
 <wire x1="60.706" y1="19.304" x2="60.96" y2="19.05" width="0.508" layer="16"/>
 <via x="60.96" y="19.05" extent="1-16" drill="0.35"/>
-<wire x1="15.24" y1="16.002" x2="18.6436" y2="16.002" width="1.524" layer="1"/>
+<wire x1="18.6436" y1="16.002" x2="15.24" y2="16.002" width="1.524" layer="16"/>
+<wire x1="67.31" y1="19.05" x2="66.802" y2="19.05" width="0.508" layer="16"/>
+<wire x1="66.802" y1="19.05" x2="65.952" y2="19.9" width="0.508" layer="16"/>
+<wire x1="65.952" y1="19.9" x2="65.952" y2="20.574" width="0.508" layer="16"/>
+<wire x1="69.977" y1="21.071" x2="67.956" y2="19.05" width="0.254" layer="16"/>
+<wire x1="67.956" y1="19.05" x2="67.31" y2="19.05" width="0.254" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="R15" pad="1"/>
@@ -4203,9 +4205,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="81.534" y1="9.652" x2="82.55" y2="10.668" width="1.016" layer="1"/>
 <wire x1="82.55" y1="10.668" x2="82.55" y2="12.085" width="1.016" layer="1"/>
 <wire x1="66.294" y1="7.112" x2="68.834" y2="9.652" width="1.016" layer="1"/>
-<wire x1="68.972" y1="37.084" x2="70.358" y2="37.084" width="0.254" layer="1"/>
-<via x="70.358" y="37.084" extent="1-16" drill="0.35"/>
-<wire x1="70.358" y1="37.084" x2="72.898" y2="34.544" width="0.254" layer="16"/>
+<wire x1="68.972" y1="36.83" x2="70.612" y2="36.83" width="0.254" layer="1"/>
+<via x="70.612" y="36.83" extent="1-16" drill="0.35"/>
+<wire x1="70.612" y1="36.83" x2="72.898" y2="34.544" width="0.254" layer="16"/>
 <wire x1="72.898" y1="34.544" x2="72.898" y2="14.986" width="0.254" layer="16"/>
 <wire x1="72.898" y1="14.986" x2="75.799" y2="12.085" width="0.254" layer="16"/>
 <wire x1="75.799" y1="12.085" x2="82.55" y2="12.085" width="0.254" layer="16"/>
@@ -4233,12 +4235,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="10.434" y1="25.42" x2="11.176" y2="26.162" width="0.254" layer="1"/>
 <wire x1="11.176" y1="26.162" x2="11.176" y2="32.004" width="0.254" layer="1"/>
 <wire x1="11.176" y1="32.004" x2="12.827" y2="33.655" width="0.254" layer="1"/>
-<wire x1="54.776" y1="24.638" x2="54.776" y2="21.336" width="0.254" layer="16"/>
+<wire x1="55.538" y1="24.638" x2="55.538" y2="22.606" width="0.254" layer="16"/>
 <wire x1="8.85" y1="25.42" x2="10.14" y2="25.42" width="0.254" layer="1"/>
 <wire x1="14.224" y1="21.336" x2="53.594" y2="21.336" width="0.254" layer="1"/>
 <via x="53.594" y="21.336" extent="1-16" drill="0.35"/>
-<wire x1="53.594" y1="21.336" x2="54.776" y2="21.336" width="0.254" layer="16"/>
 <wire x1="10.14" y1="25.42" x2="14.224" y2="21.336" width="0.254" layer="1"/>
+<wire x1="53.594" y1="21.336" x2="54.864" y2="22.606" width="0.254" layer="16"/>
+<wire x1="54.864" y1="22.606" x2="55.538" y2="22.606" width="0.254" layer="16"/>
 </signal>
 <signal name="OKHS">
 <contactref element="R7" pad="1"/>
@@ -4250,15 +4253,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="10.16" y1="34.29" x2="10.16" y2="28.194" width="0.254" layer="1"/>
 <wire x1="10.16" y1="28.194" x2="9.886" y2="27.92" width="0.254" layer="1"/>
 <wire x1="9.886" y1="27.92" x2="8.85" y2="27.92" width="0.254" layer="1"/>
-<wire x1="40.298" y1="24.638" x2="40.298" y2="23.114" width="0.254" layer="16"/>
-<wire x1="40.298" y1="23.114" x2="40.298" y2="21.336" width="0.254" layer="16"/>
 <via x="39.116" y="23.114" extent="1-16" drill="0.35"/>
-<wire x1="39.116" y1="23.114" x2="40.298" y2="23.114" width="0.254" layer="16"/>
 <wire x1="8.85" y1="27.92" x2="12.192" y2="24.578" width="0.254" layer="16"/>
 <wire x1="12.192" y1="24.578" x2="12.192" y2="24.384" width="0.254" layer="16"/>
 <via x="12.192" y="24.384" extent="1-16" drill="0.35"/>
 <wire x1="12.192" y1="24.384" x2="13.462" y2="23.114" width="0.254" layer="1"/>
 <wire x1="13.462" y1="23.114" x2="39.116" y2="23.114" width="0.254" layer="1"/>
+<wire x1="41.06" y1="24.638" x2="41.06" y2="23.114" width="0.254" layer="16"/>
+<wire x1="41.06" y1="23.114" x2="41.06" y2="22.606" width="0.254" layer="16"/>
+<wire x1="39.116" y1="23.114" x2="40.64" y2="24.638" width="0.254" layer="16"/>
+<wire x1="40.64" y1="24.638" x2="41.06" y2="24.638" width="0.254" layer="16"/>
 </signal>
 <signal name="N$19">
 <contactref element="R3" pad="2"/>
@@ -4272,12 +4276,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="D1" pad="A"/>
 <wire x1="46.228" y1="32.12" x2="48.884" y2="32.12" width="0.254" layer="16"/>
 <wire x1="48.895" y1="32.131" x2="48.884" y2="32.12" width="0.254" layer="16"/>
-<wire x1="53.594" y1="27.686" x2="52.578" y2="28.702" width="0.254" layer="16"/>
-<wire x1="52.578" y1="28.702" x2="49.149" y2="32.131" width="0.254" layer="16"/>
-<wire x1="48.895" y1="32.131" x2="49.149" y2="32.131" width="0.254" layer="16"/>
-<wire x1="53.594" y1="27.686" x2="54.726" y2="27.686" width="0.254" layer="16"/>
+<wire x1="52.578" y1="28.702" x2="51.943" y2="29.337" width="0.254" layer="16"/>
+<wire x1="49.149" y1="32.131" x2="51.943" y2="29.337" width="0.254" layer="16"/>
 <wire x1="56.388" y1="12.1158" x2="52.578" y2="15.9258" width="0.254" layer="16"/>
-<wire x1="52.578" y1="15.9258" x2="52.578" y2="28.702" width="0.254" layer="16"/>
+<wire x1="52.578" y1="15.9258" x2="52.578" y2="21.844" width="0.254" layer="16"/>
+<wire x1="54.356" y1="23.622" x2="52.578" y2="21.844" width="0.254" layer="16"/>
+<wire x1="55.488" y1="27.813" x2="53.594" y2="27.813" width="0.254" layer="16"/>
+<wire x1="53.594" y1="27.813" x2="53.467" y2="27.813" width="0.254" layer="16"/>
+<wire x1="53.467" y1="27.813" x2="53.34" y2="27.94" width="0.254" layer="16"/>
+<wire x1="51.943" y1="29.337" x2="53.086" y2="28.194" width="0.254" layer="16"/>
+<wire x1="53.086" y1="28.194" x2="53.34" y2="27.94" width="0.254" layer="16"/>
+<wire x1="54.356" y1="27.686" x2="54.356" y2="23.622" width="0.254" layer="16"/>
+<wire x1="48.895" y1="32.131" x2="49.149" y2="32.131" width="0.254" layer="16"/>
+<wire x1="53.34" y1="27.94" x2="53.34" y2="27.94" width="0.254" layer="16"/>
+<wire x1="53.594" y1="27.813" x2="53.467" y2="27.813" width="0.254" layer="16"/>
+<wire x1="53.467" y1="27.813" x2="53.086" y2="28.194" width="0.254" layer="16"/>
+<wire x1="54.356" y1="27.686" x2="55.488" y2="27.813" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SHUTDOWN_B">
 <contactref element="BMS_SHUTDOWN_RLY" pad="6"/>
@@ -4290,13 +4304,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="36.703" y1="9.398" x2="46.736" y2="9.398" width="1.016" layer="1"/>
 <wire x1="46.736" y1="9.398" x2="48.895" y2="11.557" width="1.016" layer="1"/>
 <wire x1="48.895" y1="11.557" x2="48.895" y2="12.1158" width="1.016" layer="1"/>
-<wire x1="41.032" y1="37.084" x2="44.196" y2="37.084" width="0.508" layer="1"/>
-<wire x1="45.212" y1="36.068" x2="45.212" y2="29.972" width="0.508" layer="1"/>
 <via x="45.212" y="29.972" extent="1-16" drill="0.35"/>
+<wire x1="45.212" y1="35.052" x2="45.212" y2="29.972" width="0.508" layer="1"/>
 <wire x1="45.212" y1="29.972" x2="45.212" y2="13.716" width="0.508" layer="16"/>
 <wire x1="46.8122" y1="12.1158" x2="48.895" y2="12.1158" width="0.508" layer="16"/>
-<wire x1="44.196" y1="37.084" x2="45.212" y2="36.068" width="0.508" layer="1"/>
 <wire x1="45.212" y1="13.716" x2="46.8122" y2="12.1158" width="0.508" layer="16"/>
+<wire x1="41.032" y1="36.83" x2="43.434" y2="36.83" width="0.508" layer="1"/>
+<wire x1="43.434" y1="36.83" x2="45.212" y2="35.052" width="0.508" layer="1"/>
 </signal>
 <signal name="N$32">
 <contactref element="R4" pad="2"/>
@@ -4314,7 +4328,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="39.359" y1="27.697" x2="38.227" y2="28.829" width="0.254" layer="16"/>
 <wire x1="38.227" y1="28.829" x2="34.925" y2="32.131" width="0.254" layer="16"/>
 <wire x1="34.417" y1="32.131" x2="34.925" y2="32.131" width="0.254" layer="16"/>
-<wire x1="40.259" y1="27.697" x2="40.248" y2="27.686" width="0.254" layer="16"/>
+<wire x1="40.259" y1="27.697" x2="41.01" y2="27.813" width="0.254" layer="16"/>
 <wire x1="41.91" y1="12.1158" x2="38.227" y2="15.7988" width="0.254" layer="16"/>
 <wire x1="38.227" y1="15.7988" x2="38.227" y2="28.829" width="0.254" layer="16"/>
 </signal>
@@ -4352,7 +4366,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="34.417" y1="12.1158" x2="30.988" y2="15.5448" width="1.016" layer="16"/>
 <wire x1="24.384" y1="26.0604" x2="24.5364" y2="25.908" width="0.254" layer="16"/>
 <wire x1="24.384" y1="32.12" x2="24.384" y2="26.0604" width="0.254" layer="16"/>
-<wire x1="27.94" y1="25.908" x2="24.5364" y2="25.908" width="1.524" layer="1"/>
+<wire x1="27.94" y1="25.908" x2="24.5364" y2="25.908" width="1.524" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="LATCH" pad="A"/>
@@ -4373,9 +4387,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="MAIN" pad="P$8"/>
 <contactref element="R11" pad="2"/>
 <contactref element="ZENER" pad="3"/>
-<wire x1="10.668" y1="17.106" x2="10.668" y2="20.558" width="0.508" layer="16"/>
-<wire x1="10.668" y1="20.558" x2="10.668" y2="21.102" width="0.508" layer="16"/>
-<wire x1="10.668" y1="21.102" x2="8.85" y2="22.92" width="0.508" layer="16"/>
+<wire x1="8.85" y1="22.92" x2="10.795" y2="20.975" width="0.508" layer="16"/>
+<wire x1="10.795" y1="20.975" x2="10.795" y2="20.558" width="0.508" layer="16"/>
+<wire x1="10.795" y1="20.558" x2="10.795" y2="17.106" width="0.508" layer="16"/>
 </signal>
 <signal name="N$29">
 <contactref element="POWER_5V" pad="A"/>
@@ -4394,19 +4408,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="61.214" y1="9.652" x2="63.373" y2="11.811" width="1.016" layer="1"/>
 <wire x1="63.373" y1="11.811" x2="63.373" y2="12.1158" width="1.016" layer="1"/>
 <wire x1="63.373" y1="12.1158" x2="59.69" y2="15.7988" width="0.254" layer="16"/>
-<wire x1="59.69" y1="36.068" x2="58.674" y2="37.084" width="0.254" layer="16"/>
-<via x="58.674" y="37.084" extent="1-16" drill="0.35"/>
-<wire x1="58.674" y1="37.084" x2="55.51" y2="37.084" width="0.254" layer="1"/>
-<wire x1="59.69" y1="15.7988" x2="59.69" y2="36.068" width="0.254" layer="16"/>
+<wire x1="59.69" y1="35.814" x2="58.674" y2="36.83" width="0.254" layer="16"/>
+<via x="58.674" y="36.83" extent="1-16" drill="0.35"/>
+<wire x1="58.674" y1="36.83" x2="55.51" y2="36.83" width="0.254" layer="1"/>
+<wire x1="59.69" y1="15.7988" x2="59.69" y2="35.814" width="0.254" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="R11" pad="1"/>
 <contactref element="R12" pad="2"/>
 <contactref element="Q1" pad="1"/>
-<wire x1="9.718" y1="13.192" x2="9.718" y2="14.456" width="0.508" layer="16"/>
-<wire x1="9.718" y1="14.456" x2="10.668" y2="15.406" width="0.508" layer="16"/>
-<wire x1="9.718" y1="13.192" x2="9.702" y2="13.208" width="0.508" layer="16"/>
-<wire x1="9.702" y1="13.208" x2="6.946" y2="13.208" width="0.508" layer="16"/>
+<wire x1="10.795" y1="15.406" x2="9.845" y2="14.456" width="0.508" layer="16"/>
+<wire x1="9.845" y1="14.456" x2="9.845" y2="13.192" width="0.508" layer="16"/>
+<wire x1="9.845" y1="13.192" x2="6.962" y2="13.192" width="0.508" layer="16"/>
+<wire x1="6.962" y1="13.192" x2="6.946" y2="13.208" width="0.508" layer="16"/>
 </signal>
 <signal name="CHARGER_2">
 <contactref element="U$3" pad="S2"/>
@@ -4456,19 +4470,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="BMS_SHUTDOWN_RLY" pad="COIL+"/>
 <contactref element="R1" pad="2"/>
 <contactref element="D6" pad="C"/>
-<wire x1="56.526" y1="27.686" x2="56.526" y2="24.688" width="0.254" layer="16"/>
-<wire x1="56.526" y1="24.688" x2="56.476" y2="24.638" width="0.254" layer="16"/>
-<wire x1="56.526" y1="27.686" x2="56.388" y2="27.824" width="0.254" layer="16"/>
-<wire x1="56.388" y1="32.131" x2="56.388" y2="27.824" width="0.254" layer="16"/>
+<wire x1="57.238" y1="24.638" x2="57.238" y2="27.636" width="0.254" layer="16"/>
+<wire x1="57.238" y1="27.636" x2="57.288" y2="27.813" width="0.254" layer="16"/>
+<wire x1="57.288" y1="27.813" x2="56.388" y2="28.713" width="0.254" layer="16"/>
+<wire x1="56.388" y1="28.713" x2="56.388" y2="32.131" width="0.254" layer="16"/>
 </signal>
 <signal name="N$12">
 <contactref element="D7" pad="C"/>
 <contactref element="IMD_SHUTDOWN_RLY" pad="COIL+"/>
 <contactref element="R13" pad="2"/>
-<wire x1="42.048" y1="27.686" x2="42.048" y2="24.688" width="0.254" layer="16"/>
-<wire x1="42.048" y1="24.688" x2="41.998" y2="24.638" width="0.254" layer="16"/>
-<wire x1="41.91" y1="32.131" x2="42.048" y2="31.993" width="0.254" layer="16"/>
-<wire x1="42.048" y1="31.993" x2="42.048" y2="27.686" width="0.254" layer="16"/>
+<wire x1="41.91" y1="32.131" x2="42.81" y2="31.231" width="0.254" layer="16"/>
+<wire x1="42.81" y1="31.231" x2="42.81" y2="27.813" width="0.254" layer="16"/>
+<wire x1="42.81" y1="27.813" x2="42.81" y2="24.688" width="0.254" layer="16"/>
+<wire x1="42.81" y1="24.688" x2="42.76" y2="24.638" width="0.254" layer="16"/>
 </signal>
 <signal name="VBAT_RTC">
 <contactref element="U$16" pad="+_1"/>
@@ -4494,8 +4508,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$4" pad="D12"/>
 <wire x1="65.802" y1="32.004" x2="65.802" y2="28.09" width="0.254" layer="16"/>
 <wire x1="65.802" y1="28.09" x2="65.869" y2="28.023" width="0.254" layer="16"/>
-<wire x1="65.869" y1="28.023" x2="65.952" y2="27.94" width="0.254" layer="16"/>
-<wire x1="65.852" y1="25.13" x2="65.852" y2="28.006" width="0.254" layer="16"/>
+<wire x1="65.869" y1="28.023" x2="65.952" y2="27.813" width="0.254" layer="16"/>
+<wire x1="65.852" y1="25.638" x2="65.852" y2="28.006" width="0.254" layer="16"/>
 <wire x1="65.852" y1="28.006" x2="65.869" y2="28.023" width="0.254" layer="16"/>
 <wire x1="40.64" y1="46.99" x2="64.008" y2="46.99" width="0.254" layer="1"/>
 <via x="65.786" y="45.212" extent="1-16" drill="0.35"/>
@@ -4521,10 +4535,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="D14" pad="A"/>
 <contactref element="Q4" pad="3"/>
 <contactref element="BMS_SHUTDOWN_RLY1" pad="COIL+"/>
-<wire x1="66.802" y1="23.13" x2="69.718" y2="23.13" width="0.254" layer="16"/>
-<wire x1="69.718" y1="23.13" x2="69.977" y2="22.871" width="0.254" layer="16"/>
-<wire x1="69.977" y1="22.871" x2="70.866" y2="23.76" width="0.254" layer="16"/>
-<wire x1="70.866" y1="23.76" x2="70.866" y2="32.131" width="0.254" layer="16"/>
+<wire x1="66.802" y1="23.638" x2="67.569" y2="22.871" width="0.254" layer="16"/>
+<wire x1="67.569" y1="22.871" x2="69.977" y2="22.871" width="0.254" layer="16"/>
+<wire x1="70.866" y1="23.76" x2="69.977" y2="22.871" width="0.254" layer="16"/>
+<wire x1="70.866" y1="32.131" x2="70.866" y2="23.76" width="0.254" layer="16"/>
 </signal>
 <signal name="SHUTDOWN_E">
 <contactref element="SHUTDOWN_BUTTON" pad="P$1"/>
@@ -4552,8 +4566,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="25.312" y1="12.7" x2="25.312" y2="15.2264" width="1.524" layer="16"/>
 <wire x1="25.312" y1="15.2264" x2="24.5364" y2="16.002" width="1.524" layer="16"/>
 <wire x1="25.42" y1="6.35" x2="25.42" y2="8.85" width="1.524" layer="1"/>
-<wire x1="27.94" y1="16.002" x2="24.5364" y2="16.002" width="1.524" layer="1"/>
-<wire x1="15.24" y1="25.908" x2="18.6436" y2="25.908" width="1.524" layer="1"/>
+<wire x1="18.6436" y1="25.908" x2="15.24" y2="25.908" width="1.524" layer="16"/>
+<wire x1="24.5364" y1="16.002" x2="27.94" y2="16.002" width="1.524" layer="16"/>
 </signal>
 <signal name="N$31">
 <contactref element="SOFTWARE" pad="A"/>
@@ -4564,67 +4578,69 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R27" pad="1"/>
 <contactref element="R26" pad="2"/>
 <contactref element="U$4" pad="D8(TX3)"/>
-<wire x1="34.202" y1="39.37" x2="34.202" y2="37.084" width="0.254" layer="1"/>
-<wire x1="30.48" y1="46.99" x2="30.48" y2="41.91" width="0.254" layer="1"/>
-<wire x1="33.02" y1="39.37" x2="34.202" y2="39.37" width="0.254" layer="1"/>
-<wire x1="30.48" y1="41.91" x2="33.02" y2="39.37" width="0.254" layer="1"/>
+<wire x1="34.202" y1="38.862" x2="34.202" y2="36.83" width="0.254" layer="1"/>
+<wire x1="34.202" y1="38.862" x2="32.766" y2="38.862" width="0.254" layer="1"/>
+<wire x1="32.766" y1="38.862" x2="30.48" y2="41.148" width="0.254" layer="1"/>
+<wire x1="30.48" y1="41.148" x2="30.48" y2="46.99" width="0.254" layer="1"/>
 </signal>
 <signal name="SHUTDOWN_C_READ">
 <contactref element="R28" pad="2"/>
 <contactref element="R29" pad="1"/>
 <contactref element="U$4" pad="D9(RX2)"/>
-<wire x1="48.68" y1="39.37" x2="48.68" y2="37.084" width="0.254" layer="1"/>
+<wire x1="48.68" y1="38.862" x2="48.68" y2="36.83" width="0.254" layer="1"/>
 <wire x1="33.02" y1="46.99" x2="33.02" y2="43.18" width="0.254" layer="1"/>
-<wire x1="47.156" y1="40.894" x2="48.68" y2="39.37" width="0.254" layer="1"/>
 <wire x1="33.02" y1="43.18" x2="35.306" y2="40.894" width="0.254" layer="1"/>
-<wire x1="35.306" y1="40.894" x2="47.156" y2="40.894" width="0.254" layer="1"/>
+<wire x1="48.006" y1="40.894" x2="48.768" y2="40.132" width="0.254" layer="1"/>
+<wire x1="48.768" y1="40.132" x2="48.768" y2="38.95" width="0.254" layer="1"/>
+<wire x1="48.768" y1="38.95" x2="48.68" y2="38.862" width="0.254" layer="1"/>
+<wire x1="35.306" y1="40.894" x2="48.006" y2="40.894" width="0.254" layer="1"/>
 </signal>
 <signal name="SHUTDOWN_D_READ">
 <contactref element="R31" pad="1"/>
 <contactref element="R30" pad="2"/>
 <contactref element="U$4" pad="D10(TX2)"/>
-<wire x1="63.158" y1="37.084" x2="63.158" y2="39.37" width="0.254" layer="1"/>
+<wire x1="63.158" y1="36.83" x2="63.158" y2="38.862" width="0.254" layer="1"/>
 <wire x1="35.56" y1="46.99" x2="35.56" y2="43.688" width="0.254" layer="1"/>
-<wire x1="35.56" y1="43.688" x2="37.338" y2="41.91" width="0.254" layer="1"/>
-<wire x1="61.722" y1="41.91" x2="63.246" y2="40.386" width="0.254" layer="1"/>
-<wire x1="63.246" y1="40.386" x2="63.246" y2="39.458" width="0.254" layer="1"/>
-<wire x1="63.246" y1="39.458" x2="63.158" y2="39.37" width="0.254" layer="1"/>
-<wire x1="37.338" y1="41.91" x2="61.722" y2="41.91" width="0.254" layer="1"/>
+<wire x1="37.338" y1="41.91" x2="35.56" y2="43.688" width="0.254" layer="1"/>
+<wire x1="63.158" y1="38.862" x2="63.158" y2="40.132" width="0.254" layer="1"/>
+<wire x1="63.158" y1="40.132" x2="61.38" y2="41.91" width="0.254" layer="1"/>
+<wire x1="61.38" y1="41.91" x2="37.338" y2="41.91" width="0.254" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="R26" pad="1"/>
 <contactref element="D10" pad="C"/>
-<wire x1="35.902" y1="37.084" x2="39.232" y2="37.084" width="0.254" layer="1"/>
+<wire x1="35.902" y1="36.83" x2="39.232" y2="36.83" width="0.254" layer="1"/>
 </signal>
 <signal name="N$20">
 <contactref element="R28" pad="1"/>
 <contactref element="D11" pad="C"/>
-<wire x1="50.38" y1="37.084" x2="53.71" y2="37.084" width="0.254" layer="1"/>
+<wire x1="50.38" y1="36.83" x2="53.71" y2="36.83" width="0.254" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="R30" pad="1"/>
 <contactref element="D12" pad="C"/>
-<wire x1="64.858" y1="37.084" x2="67.172" y2="37.084" width="0.254" layer="1"/>
+<wire x1="64.858" y1="36.83" x2="67.172" y2="36.83" width="0.254" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="BMS_SHUTDOWN_RLY1" pad="COIL-"/>
 <contactref element="R18" pad="2"/>
-<wire x1="65.952" y1="20.574" x2="63.373" y2="23.153" width="0.254" layer="16"/>
-<wire x1="63.373" y1="23.153" x2="63.373" y2="32.131" width="0.254" layer="16"/>
+<wire x1="63.373" y1="24.853" x2="63.373" y2="32.131" width="0.254" layer="16"/>
+<wire x1="67.652" y1="20.574" x2="63.373" y2="24.853" width="0.254" layer="16"/>
 </signal>
 <signal name="SHUTDOWN_A_READ">
 <contactref element="R20" pad="1"/>
 <contactref element="R19" pad="2"/>
 <contactref element="U$4" pad="D7(RX3)"/>
-<wire x1="25.996" y1="38.1" x2="25.996" y2="40.386" width="0.254" layer="16"/>
-<wire x1="25.996" y1="40.386" x2="27.94" y2="42.33" width="0.254" layer="16"/>
-<wire x1="27.94" y1="42.33" x2="27.94" y2="46.99" width="0.254" layer="16"/>
+<wire x1="25.996" y1="36.83" x2="25.996" y2="38.862" width="0.254" layer="16"/>
+<wire x1="27.94" y1="43.18" x2="27.94" y2="46.99" width="0.254" layer="16"/>
+<wire x1="25.996" y1="38.862" x2="25.996" y2="41.236" width="0.254" layer="16"/>
+<wire x1="25.996" y1="41.236" x2="27.94" y2="43.18" width="0.254" layer="16"/>
 </signal>
 <signal name="N$14">
 <contactref element="R19" pad="1"/>
 <contactref element="D8" pad="C"/>
 <wire x1="24.384" y1="33.92" x2="24.384" y2="38.012" width="0.254" layer="16"/>
-<wire x1="24.384" y1="38.012" x2="24.296" y2="38.1" width="0.254" layer="16"/>
+<wire x1="24.384" y1="38.012" x2="24.296" y2="36.83" width="0.254" layer="16"/>
 </signal>
 <signal name="N$11">
 <contactref element="R15" pad="2"/>
@@ -4664,6 +4680,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="4,16,4c5edcb82dd66273"/>
 <approved hash="4,16,d6d3f28cc64a2d4a"/>
 <approved hash="4,16,6731533103a79701"/>
+<approved hash="4,1,1baaa5b2c020d056"/>
 </errors>
 </board>
 </drawing>
