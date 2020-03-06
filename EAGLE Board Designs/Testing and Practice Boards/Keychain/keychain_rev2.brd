@@ -9,7 +9,7 @@
 </settings>
 <grid distance="0.01" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -1026,7 +1026,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle " x="23.876" y="23.241" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="Amphenol ICC" x="23.876" y="23.241" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="10118192-0001LF" x="23.876" y="23.241" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="22.097959375" y="28.194109375" size="1.00001875" layer="26" rot="MR270"/>
+<attribute name="NAME" x="22.732959375" y="23.241109375" size="1.016" layer="26" font="vector" rot="MR270" align="bottom-center"/>
 <attribute name="PACKAGE" value="None" x="23.876" y="23.241" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="23.876" y="23.241" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="30.226359375" y="28.321290625" size="1.000059375" layer="28" rot="MR270"/>
