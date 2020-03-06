@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -134,6 +134,7 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="156" name="HVSpacing" color="12" fill="1" visible="no" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
@@ -4374,6 +4375,8 @@ Source: http://www.molex.com</description>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$1" library="HyTechFrames" deviceset="FRAME_A_L" device=""/>
 <part name="D1" library="HyTechDevices" deviceset="DIODE_ZENER" device="0603"/>
+<part name="D2" library="HyTechDevices" deviceset="DIODE_ZENER" device=""/>
+<part name="D3" library="HyTechDevices" deviceset="DIODE_ZENER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4460,8 +4463,8 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="92.456" y="-14.732" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="94.615" y="-14.732" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND2" gate="1" x="-30.48" y="-43.18" smashed="yes">
-<attribute name="VALUE" x="-33.02" y="-45.72" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="-30.48" y="-48.26" smashed="yes">
+<attribute name="VALUE" x="-33.02" y="-50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="43.18" y="-17.78" smashed="yes">
 <attribute name="VALUE" x="40.64" y="-20.32" size="1.778" layer="96"/>
@@ -4523,15 +4526,15 @@ Source: http://www.molex.com</description>
 <instance part="GND3" gate="1" x="55.88" y="93.98" smashed="yes">
 <attribute name="VALUE" x="53.34" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="-38.1" y="-35.56" smashed="yes">
-<attribute name="NAME" x="-41.91" y="-34.0614" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-41.91" y="-38.862" size="1.778" layer="96"/>
-<attribute name="TOLERANCE" x="-38.1" y="-35.56" size="0.127" layer="96" display="off"/>
+<instance part="R7" gate="G$1" x="-38.1" y="-38.1" smashed="yes">
+<attribute name="NAME" x="-41.91" y="-36.6014" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-41.91" y="-41.402" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="-38.1" y="-38.1" size="0.127" layer="96" display="off"/>
 </instance>
-<instance part="R4" gate="G$1" x="81.28" y="-35.56" smashed="yes" rot="MR180">
-<attribute name="NAME" x="77.47" y="-37.0586" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="77.47" y="-32.258" size="1.778" layer="96" rot="MR180"/>
-<attribute name="TOLERANCE" x="81.28" y="-35.56" size="0.127" layer="96" rot="MR180" display="off"/>
+<instance part="R4" gate="G$1" x="81.28" y="-38.1" smashed="yes" rot="MR180">
+<attribute name="NAME" x="77.47" y="-39.5986" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="77.47" y="-34.798" size="1.778" layer="96" rot="MR180"/>
+<attribute name="TOLERANCE" x="81.28" y="-38.1" size="0.127" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="-17.78" y="104.14" smashed="yes">
 <attribute name="VALUE" x="-20.32" y="101.6" size="1.778" layer="96"/>
@@ -4568,6 +4571,12 @@ Source: http://www.molex.com</description>
 </instance>
 <instance part="D1" gate="G$1" x="-12.7" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="-14.4526" y="107.95" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="D2" gate="G$1" x="-38.1" y="-33.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="-34.29" y="-34.7726" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="D3" gate="G$1" x="81.28" y="-33.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.09" y="-34.7726" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -4666,12 +4675,16 @@ Source: http://www.molex.com</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="-30.48" y1="-27.94" x2="-30.48" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-27.94" x2="-30.48" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="-30.48" y1="-35.56" x2="-30.48" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="-35.56" x2="-30.48" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="-30.48" y="-35.56"/>
+<wire x1="-30.48" y1="-33.02" x2="-30.48" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-38.1" x2="-30.48" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-38.1" x2="-30.48" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-38.1"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="-33.02" y1="-33.02" x2="-30.48" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-33.02"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -4702,10 +4715,14 @@ Source: http://www.molex.com</description>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="-35.56" x2="88.9" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-35.56" x2="88.9" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-35.56" x2="88.9" y2="-40.64" width="0.1524" layer="91"/>
-<junction x="88.9" y="-35.56"/>
+<wire x1="86.36" y1="-38.1" x2="88.9" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-38.1" x2="88.9" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-33.02" x2="88.9" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-38.1" x2="88.9" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="88.9" y="-38.1"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="86.36" y1="-33.02" x2="88.9" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="88.9" y="-33.02"/>
 </segment>
 <segment>
 <pinref part="MAX4622" gate="G$1" pin="GND"/>
@@ -4798,17 +4815,17 @@ Source: http://www.molex.com</description>
 </net>
 <net name="SIGNAL" class="0">
 <segment>
-<wire x1="-35.56" y1="106.68" x2="-35.56" y2="104.14" width="0.1524" layer="91"/>
-<label x="-38.1" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="104.14" x2="-35.56" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="106.68" x2="-38.1" y2="104.14" width="0.1524" layer="91"/>
+<label x="-40.64" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="104.14" x2="-38.1" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="X2" gate="-4" pin="S"/>
 <pinref part="X2" gate="-3" pin="S"/>
-<wire x1="-35.56" y1="104.14" x2="-33.02" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="106.68" x2="-35.56" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="99.06" x2="-35.56" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="99.06" x2="-35.56" y2="104.14" width="0.1524" layer="91"/>
-<junction x="-35.56" y="104.14"/>
+<wire x1="-38.1" y1="104.14" x2="-33.02" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="106.68" x2="-38.1" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="99.06" x2="-38.1" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="99.06" x2="-38.1" y2="104.14" width="0.1524" layer="91"/>
+<junction x="-38.1" y="104.14"/>
 </segment>
 <segment>
 <pinref part="MAX4622" gate="G$1" pin="IN2"/>
@@ -4862,13 +4879,18 @@ Source: http://www.molex.com</description>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="-40.64" y1="-27.94" x2="-45.72" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-27.94" x2="-43.18" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-48.26" y="-27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="-43.18" y1="-27.94" x2="-45.72" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="-27.94" x2="-48.26" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="-35.56" x2="-45.72" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="-35.56" x2="-45.72" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-38.1" x2="-45.72" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="-38.1" x2="-45.72" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="-45.72" y="-27.94"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="-40.64" y1="-33.02" x2="-43.18" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-33.02" x2="-43.18" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="-43.18" y="-27.94"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4893,13 +4915,18 @@ Source: http://www.molex.com</description>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="78.74" y1="-27.94" x2="73.66" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-27.94" x2="76.2" y2="-27.94" width="0.1524" layer="91"/>
 <label x="71.12" y="-27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="-27.94" x2="73.66" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-27.94" x2="71.12" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-27.94" x2="73.66" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-27.94" x2="73.66" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="73.66" y="-27.94"/>
-<wire x1="73.66" y1="-35.56" x2="76.2" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-38.1" x2="76.2" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-27.94" x2="76.2" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="76.2" y="-27.94"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="76.2" y1="-33.02" x2="78.74" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="THERM" class="0">
