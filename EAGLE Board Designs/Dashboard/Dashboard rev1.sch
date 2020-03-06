@@ -5702,6 +5702,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="D1" library="HyTechDevices" deviceset="DIODE_ZENER" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="120"/>
 </parts>
 <sheets>
 <sheet>
@@ -5709,6 +5710,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <text x="127" y="22.86" size="2.54" layer="97">Leonid Pozdneev</text>
 <text x="195.58" y="15.24" size="2.54" layer="97">Schematic of the Dashboard PCB for HT05</text>
 <text x="170.18" y="121.92" size="1.778" layer="97">Voltage regulation for the buzzer.</text>
+<text x="91.44" y="203.2" size="1.778" layer="97">CAN Termination for testing.</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="231.14" y="170.18" smashed="yes">
@@ -6034,6 +6036,10 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </instance>
 <instance part="P+11" gate="1" x="195.58" y="116.84" smashed="yes">
 <attribute name="VALUE" x="197.866" y="120.396" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R10" gate="G$1" x="106.68" y="198.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="110.49" y="196.6214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="110.49" y="201.422" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -6484,6 +6490,11 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="55.88" y1="187.96" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
 <label x="60.96" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="198.12" x2="99.06" y2="198.12" width="0.1524" layer="91"/>
+<label x="99.06" y="198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CANH" class="0">
 <segment>
@@ -6497,6 +6508,11 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="53.34" y1="190.5" x2="53.34" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="185.42" x2="60.96" y2="185.42" width="0.1524" layer="91"/>
 <label x="60.96" y="185.42" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="198.12" x2="114.3" y2="198.12" width="0.1524" layer="91"/>
+<label x="114.3" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
