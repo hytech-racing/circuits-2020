@@ -23,19 +23,19 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -3686,7 +3686,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="CAN_TRANSCEIVER_3.2" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="10.16" y="54.356" smashed="yes" rot="MR270">
 <attribute name="NAME" x="10.16" y="56.896" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
-<attribute name="VALUE" x="10.16" y="51.816" size="0.6096" layer="28" rot="MR180" align="bottom-center"/>
 </element>
 <element name="CHARGE" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="CHARGE CONTROL" x="82.55" y="74.422" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.455" y="74.422" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
@@ -3699,7 +3698,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="D1" library="HyTechDevices" package="0805_D" value="DIODE" x="65.151" y="61.849" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.167" y="61.8871" size="1.016" layer="25" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="65.8622" y="61.849" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="D8" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="56.388" y="27.813" smashed="yes" rot="MR180">
 <attribute name="NAME" x="56.388" y="28.829" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
@@ -3813,7 +3811,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="U1" library="HyTechDevices" package="SOP04" value="CPC1002N" x="60.706" y="59.69" smashed="yes">
 <attribute name="NAME" x="63.246" y="59.69" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
-<attribute name="VALUE" x="64.516" y="57.15" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$4" library="HyTechDevices" package="TEENSY_3.2_SIMPLE" value="TEENSY_3.2_SIMPLE" x="41.91" y="45.72" smashed="yes" rot="R90"/>
 <element name="SHUTDOWN_BUTTON" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="Shutdown Button" x="82.55" y="13.335" smashed="yes" rot="R270">
@@ -3825,7 +3822,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U$3" library="HyTechDevices" package="TEENSY_3.5_EXT_RTC" value="TEENSY_3.5_EXT_RTC" x="67.31" y="64.77" smashed="yes" rot="R90"/>
 <element name="CAN_TRANSCEIVER_3.5" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="10.16" y="73.406" smashed="yes" rot="MR270">
 <attribute name="NAME" x="10.16" y="75.946" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
-<attribute name="VALUE" x="10.16" y="70.866" size="0.6096" layer="28" rot="MR180" align="bottom-center"/>
 </element>
 <element name="C6" library="HyTechDevices" package="0603-CAP" value="1uF" x="18.415" y="73.406" smashed="yes" rot="MR270">
 <attribute name="NAME" x="19.431" y="73.406" size="1.016" layer="26" font="vector" rot="MR270" align="top-center"/>
