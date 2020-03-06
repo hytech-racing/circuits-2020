@@ -6087,11 +6087,11 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="D19" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="GND37" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$7" library="HyTechFrames" deviceset="FRAME_B_L" device=""/>
-<part name="5ASHUTDOWNFUSE" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE">
-<attribute name="RATING" value="5A"/>
+<part name="SHUTDOWNFUSE" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE">
+<attribute name="RATING" value="4A"/>
 </part>
-<part name="5ABOARDFUSE" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE">
-<attribute name="RATING" value="5A"/>
+<part name="BOARDFUSE" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE">
+<attribute name="RATING" value="3A"/>
 </part>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="POWER" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="POWER"/>
@@ -6134,6 +6134,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="GND22" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND25" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="D2" library="HyTechDevices" deviceset="DIODE_ZENER" device="0603"/>
+<part name="CHARGER_CONTROL" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Charger Control"/>
 </parts>
 <sheets>
 <sheet>
@@ -6373,12 +6374,12 @@ Schurter 0751.0110 Brass Fuse Clip
 <attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="97"/>
 <attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="97"/>
 </instance>
-<instance part="5ASHUTDOWNFUSE" gate="G$1" x="73.66" y="241.3" smashed="yes">
+<instance part="SHUTDOWNFUSE" gate="G$1" x="73.66" y="241.3" smashed="yes">
 <attribute name="NAME" x="68.58" y="242.57" size="1.27" layer="95"/>
 <attribute name="VALUE" x="76.2" y="242.57" size="1.27" layer="96"/>
 <attribute name="RATING" x="73.66" y="241.3" size="0.127" layer="96" display="off"/>
 </instance>
-<instance part="5ABOARDFUSE" gate="G$1" x="73.66" y="248.92" smashed="yes">
+<instance part="BOARDFUSE" gate="G$1" x="73.66" y="248.92" smashed="yes">
 <attribute name="NAME" x="68.58" y="250.19" size="1.27" layer="95"/>
 <attribute name="VALUE" x="76.2" y="250.19" size="1.27" layer="96"/>
 <attribute name="RATING" x="73.66" y="248.92" size="0.127" layer="96" display="off"/>
@@ -6426,6 +6427,13 @@ Schurter 0751.0110 Brass Fuse Clip
 </instance>
 <instance part="D2" gate="G$1" x="60.96" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.2074" y="240.03" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="CHARGER_CONTROL" gate="-2" x="287.02" y="76.2" smashed="yes">
+<attribute name="NAME" x="289.56" y="75.438" size="1.524" layer="95"/>
+</instance>
+<instance part="CHARGER_CONTROL" gate="-1" x="287.02" y="78.74" smashed="yes">
+<attribute name="NAME" x="289.56" y="77.978" size="1.524" layer="95"/>
+<attribute name="VALUE" x="286.258" y="80.137" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6562,6 +6570,11 @@ Schurter 0751.0110 Brass Fuse Clip
 <wire x1="48.26" y1="205.74" x2="48.26" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="203.2" x2="60.96" y2="203.2" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="CHARGER_CONTROL" gate="-2" pin="S"/>
+<wire x1="284.48" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
+<label x="279.4" y="76.2" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CANH" class="0">
 <segment>
@@ -6653,6 +6666,11 @@ Schurter 0751.0110 Brass Fuse Clip
 <wire x1="292.1" y1="60.96" x2="284.48" y2="60.96" width="0.1524" layer="91"/>
 <junction x="284.48" y="60.96"/>
 </segment>
+<segment>
+<pinref part="CHARGER_CONTROL" gate="-1" pin="S"/>
+<wire x1="284.48" y1="78.74" x2="279.4" y2="78.74" width="0.1524" layer="91"/>
+<label x="279.4" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -6740,7 +6758,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <pinref part="MAIN" gate="-4" pin="S"/>
 </segment>
 <segment>
-<pinref part="5ABOARDFUSE" gate="G$1" pin="2"/>
+<pinref part="BOARDFUSE" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="248.92" x2="88.9" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+12V"/>
 </segment>
@@ -6906,15 +6924,15 @@ Schurter 0751.0110 Brass Fuse Clip
 </net>
 <net name="SHUTDOWN_A" class="0">
 <segment>
-<pinref part="5ASHUTDOWNFUSE" gate="G$1" pin="2"/>
+<pinref part="SHUTDOWNFUSE" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="241.3" x2="83.82" y2="241.3" width="0.1524" layer="91"/>
 <label x="83.82" y="241.3" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+12VIN" class="0">
 <segment>
-<pinref part="5ASHUTDOWNFUSE" gate="G$1" pin="1"/>
-<pinref part="5ABOARDFUSE" gate="G$1" pin="1"/>
+<pinref part="SHUTDOWNFUSE" gate="G$1" pin="1"/>
+<pinref part="BOARDFUSE" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="248.92" x2="68.58" y2="248.92" width="0.1524" layer="91"/>
 <junction x="66.04" y="248.92"/>
 <wire x1="68.58" y1="241.3" x2="66.04" y2="241.3" width="0.1524" layer="91"/>
