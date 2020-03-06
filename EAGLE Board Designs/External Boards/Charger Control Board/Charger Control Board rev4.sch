@@ -228,6 +228,7 @@
 <wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.127" layer="21"/>
 <wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="21"/>
 <wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.127" layer="21"/>
+<text x="8.89" y="33.3375" size="2.54" layer="21" align="center">3.2</text>
 </package>
 <package name="DIL08">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
@@ -1055,47 +1056,6 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 </package>
-<package name="TEENSY_3.2_SIMPLE_SMD">
-<wire x1="17.78" y1="35.56" x2="17.78" y2="0" width="0.127" layer="21"/>
-<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="36.322" x2="12.7" y2="36.322" width="0.127" layer="21"/>
-<wire x1="12.7" y1="36.322" x2="12.7" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="35.56" x2="5.08" y2="36.322" width="0.127" layer="21"/>
-<wire x1="0" y1="35.56" x2="5.08" y2="35.56" width="0.127" layer="21"/>
-<wire x1="12.7" y1="35.56" x2="17.78" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.127" layer="21"/>
-<wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="21"/>
-<wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.127" layer="21"/>
-<smd name="GND" x="-0.508" y="34.29" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D1(TX1)" x="-0.508" y="29.21" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D3(CANTX)" x="-0.508" y="24.13" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D5" x="-0.508" y="19.05" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D7(RX3)" x="-0.508" y="13.97" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D9(RX2)" x="-0.508" y="8.89" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D11" x="-0.508" y="3.81" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D0(RX1)" x="3.048" y="31.75" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D2" x="3.048" y="26.67" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D4(CANRX)" x="3.048" y="21.59" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D6" x="3.048" y="16.51" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D8(TX3)" x="3.048" y="11.43" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D10(TX2)" x="3.048" y="6.35" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D12" x="3.048" y="1.27" dx="1.905" dy="1.016" layer="1"/>
-<smd name="VIN" x="14.732" y="34.29" dx="1.905" dy="1.016" layer="1"/>
-<smd name="AGND" x="18.288" y="31.75" dx="1.905" dy="1.016" layer="1"/>
-<smd name="3.3V" x="14.732" y="29.21" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A9" x="18.288" y="26.67" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A8" x="14.732" y="24.13" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A7" x="18.288" y="21.59" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A6" x="14.732" y="19.05" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A5" x="18.288" y="16.51" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A4" x="14.732" y="13.97" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A3" x="18.288" y="11.43" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A2" x="14.732" y="8.89" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A1" x="18.288" y="6.35" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A0" x="14.732" y="3.81" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D13" x="18.288" y="1.27" dx="1.905" dy="1.016" layer="1"/>
-</package>
 <package name="1X02_LOCK_LONGPADS">
 <description>This footprint was designed to help hold the alignment of a through-hole component (i.e.  6-pin header) while soldering it into place.
 You may notice that each hole has been shifted either up or down by 0.005 of an inch from it's more standard position (which is a perfectly straight line).
@@ -1418,7 +1378,7 @@ MX150L™ Vertical PCB Header</description>
 <pad name="C2" x="25.25" y="11.45" drill="0.85" diameter="1.9" shape="square"/>
 <pad name="C1" x="4.95" y="11.45" drill="0.85" diameter="1.9" shape="square"/>
 </package>
-<package name="TEENSY_3.5_EXT">
+<package name="TEENSY_3.5_EXT_RTC">
 <pad name="AGND" x="16.51" y="57.15" drill="0.8" shape="long"/>
 <pad name="D13" x="16.51" y="26.67" drill="0.8" shape="long"/>
 <pad name="A0" x="16.51" y="29.21" drill="0.8" shape="long"/>
@@ -1438,7 +1398,7 @@ MX150L™ Vertical PCB Header</description>
 <pad name="D2" x="1.27" y="52.07" drill="0.8" shape="long"/>
 <pad name="GND" x="1.27" y="59.69" drill="0.8" shape="long"/>
 <pad name="VIN" x="16.51" y="59.69" drill="0.8" shape="long"/>
-<pad name="3.3V" x="16.51" y="54.61" drill="0.8" shape="long"/>
+<pad name="3.3V3" x="16.51" y="54.61" drill="0.8" shape="long"/>
 <pad name="A9" x="16.51" y="52.07" drill="0.8" shape="long"/>
 <pad name="D0(RX1)" x="1.27" y="57.15" drill="0.8" shape="long" rot="R180"/>
 <pad name="D1(TX1)" x="1.27" y="54.61" drill="0.8" shape="long" rot="R180"/>
@@ -1458,7 +1418,7 @@ MX150L™ Vertical PCB Header</description>
 <wire x1="5.08" y1="60.96" x2="5.08" y2="55.88" width="0.127" layer="21"/>
 <wire x1="5.08" y1="55.88" x2="12.7" y2="55.88" width="0.127" layer="21"/>
 <wire x1="12.7" y1="55.88" x2="12.7" y2="60.96" width="0.127" layer="21"/>
-<pad name="3.3V_1" x="1.27" y="24.13" drill="0.8" shape="long"/>
+<pad name="3.3V" x="1.27" y="24.13" drill="0.8" shape="long"/>
 <pad name="D24" x="1.27" y="21.59" drill="0.8" shape="long"/>
 <pad name="D25" x="1.27" y="19.05" drill="0.8" shape="long"/>
 <pad name="D26" x="1.27" y="16.51" drill="0.8" shape="long"/>
@@ -1468,7 +1428,7 @@ MX150L™ Vertical PCB Header</description>
 <pad name="D30" x="1.27" y="6.35" drill="0.8" shape="long"/>
 <pad name="A12" x="1.27" y="3.81" drill="0.8" shape="long"/>
 <pad name="A13" x="1.27" y="1.27" drill="0.8" shape="long"/>
-<pad name="GND_1" x="16.51" y="24.13" drill="0.8" shape="long"/>
+<pad name="GND3" x="16.51" y="24.13" drill="0.8" shape="long"/>
 <pad name="A22" x="16.51" y="21.59" drill="0.8" shape="long"/>
 <pad name="A21" x="16.51" y="19.05" drill="0.8" shape="long"/>
 <pad name="A20" x="16.51" y="16.51" drill="0.8" shape="long"/>
@@ -1479,10 +1439,11 @@ MX150L™ Vertical PCB Header</description>
 <pad name="A15" x="16.51" y="3.81" drill="0.8" shape="long"/>
 <pad name="A14" x="16.51" y="1.27" drill="0.8" shape="long"/>
 <pad name="VBAT" x="3.81" y="13.97" drill="0.8" shape="long" rot="R90"/>
-<pad name="3.3V_2" x="6.35" y="13.97" drill="0.8" shape="long" rot="R90"/>
-<pad name="GND_2" x="8.89" y="13.97" drill="0.8" shape="long" rot="R90"/>
-<pad name="PROG" x="11.43" y="13.97" drill="0.8" shape="long" rot="R90"/>
+<pad name="3.3V2" x="6.35" y="13.97" drill="0.8" shape="long" rot="R90"/>
+<pad name="GND2" x="8.89" y="13.97" drill="0.8" shape="long" rot="R90"/>
+<pad name="PRGM" x="11.43" y="13.97" drill="0.8" shape="long" rot="R90"/>
 <pad name="RST" x="13.97" y="13.97" drill="0.8" shape="long" rot="R90"/>
+<text x="8.89" y="58.7375" size="2.54" layer="21" align="center">3.5</text>
 </package>
 <package name="CR-2450/G1AN">
 <circle x="0" y="0" radius="12.446" width="0.254" layer="21"/>
@@ -1624,6 +1585,149 @@ FUSE</text>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 </package>
+<package name="MINIFIT_5566-4">
+<description>&lt;b&gt;Mini-Fit Junior connector 4 pole&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com</description>
+<wire x1="-4.7" y1="4.5" x2="4.7" y2="4.5" width="0.254" layer="21"/>
+<wire x1="4.7" y1="4.5" x2="4.7" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="4.7" y1="-3.3" x2="4.7" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="4.7" y1="-4.9" x2="-4.7" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="-4.7" y1="-4.9" x2="-4.7" y2="4.5" width="0.254" layer="21"/>
+<wire x1="4.7" y1="-2.2" x2="4.7" y2="-3.3" width="0.254" layer="21" curve="-180"/>
+<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="27"/>
+<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="27"/>
+<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="27"/>
+<pad name="1" x="2.1" y="-2.75" drill="1.4" shape="square"/>
+<pad name="2" x="-2.1" y="-2.75" drill="1.4" shape="square"/>
+<pad name="3" x="2.1" y="2.75" drill="1.4" shape="square"/>
+<pad name="4" x="-2.1" y="2.75" drill="1.4" shape="square"/>
+<text x="0" y="-5.08" size="1.27" layer="25" align="top-center">&gt;NAME</text>
+<text x="0" y="6.35" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="NANO-FIT_RIGHT_ANGLE-4-SURFACE">
+<smd name="4" x="-1.25" y="3.3" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="1" x="1.25" y="0" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="3" x="1.25" y="3.3" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="2" x="-1.25" y="0" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="P$5" x="-3.52" y="-4.93" dx="1.1" dy="8.2" layer="1"/>
+<smd name="P$6" x="3.52" y="-4.93" dx="1.1" dy="8.2" layer="1"/>
+<wire x1="-3" y1="5" x2="3" y2="5" width="0.127" layer="21"/>
+<wire x1="3" y1="5" x2="3" y2="0" width="0.127" layer="21"/>
+<wire x1="3" y1="0" x2="5" y2="0" width="0.127" layer="21"/>
+<wire x1="5" y1="0" x2="5" y2="-10" width="0.127" layer="21"/>
+<wire x1="5" y1="-10" x2="2" y2="-10" width="0.127" layer="21"/>
+<wire x1="2" y1="-10" x2="2" y2="-11" width="0.127" layer="21"/>
+<wire x1="2" y1="-11" x2="-2" y2="-11" width="0.127" layer="21"/>
+<wire x1="-2" y1="-10" x2="-5" y2="-10" width="0.127" layer="21"/>
+<wire x1="-5" y1="-10" x2="-5" y2="0" width="0.127" layer="21"/>
+<wire x1="-5" y1="0" x2="-3" y2="0" width="0.127" layer="21"/>
+<wire x1="-3" y1="0" x2="-3" y2="5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-10" x2="-2" y2="-11" width="0.127" layer="21"/>
+</package>
+<package name="NANO-FIT_VERTICAL-4">
+<description>105312-1204 Nano-Fit™ Vertical Header, Through Hole, Dual Row, 4 Circuits</description>
+<pad name="P$1" x="-1.25" y="0" drill="1.2"/>
+<pad name="P$2" x="1.25" y="0" drill="1.2"/>
+<pad name="P$3" x="-1.25" y="2.5" drill="1.2"/>
+<pad name="P$4" x="1.25" y="2.5" drill="1.2"/>
+<wire x1="-3" y1="4.25" x2="3" y2="4.25" width="0.127" layer="21"/>
+<wire x1="3" y1="4.25" x2="3" y2="2.32" width="0.127" layer="21"/>
+<wire x1="-3" y1="4.25" x2="-3" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.75" x2="-2.6" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-1.75" x2="2.6" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-1.75" x2="3" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="3" y1="-1.75" x2="3" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-1.75" x2="-2.6" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-4.6" x2="2.6" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-4.6" x2="2.6" y2="-1.75" width="0.127" layer="21"/>
+<hole x="0" y="-1.34" drill="1.3"/>
+</package>
+<package name="DURACLIK_RIGHT_ANGLE-4">
+<smd name="1" x="3" y="8.13" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="1" y="8.13" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="3" x="-1" y="8.13" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="4" x="-3" y="8.13" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$1" x="5.55" y="2.65" dx="5.3" dy="1.7" layer="1" rot="R90"/>
+<smd name="P$2" x="-5.55" y="2.65" dx="5.3" dy="1.7" layer="1" rot="R90"/>
+<wire x1="7" y1="8" x2="7" y2="-1" width="0.127" layer="21"/>
+<wire x1="7" y1="-1" x2="-7" y2="-1" width="0.127" layer="21"/>
+<wire x1="-4" y1="10" x2="-4" y2="6" width="0.127" layer="21"/>
+<wire x1="-4" y1="6" x2="4" y2="6" width="0.127" layer="21"/>
+<wire x1="4" y1="6" x2="4" y2="10" width="0.127" layer="21"/>
+<wire x1="4" y1="10" x2="5" y2="10" width="0.127" layer="21"/>
+<wire x1="5" y1="10" x2="7" y2="8" width="0.127" layer="21"/>
+<wire x1="-4" y1="10" x2="-5" y2="10" width="0.127" layer="21"/>
+<wire x1="-5" y1="10" x2="-7" y2="8" width="0.127" layer="21"/>
+<wire x1="-7" y1="8" x2="-7" y2="-1" width="0.127" layer="21"/>
+</package>
+<package name="DURACLIK_VERTICAL-4">
+<smd name="1" x="3" y="7.68" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="1" y="7.68" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="3" x="-1" y="7.68" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="4" x="-3" y="7.68" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$1" x="6.6" y="2.1" dx="4.2" dy="2" layer="1" rot="R90"/>
+<smd name="P$2" x="-6.6" y="2.1" dx="4.2" dy="2" layer="1" rot="R90"/>
+<wire x1="8" y1="5" x2="8" y2="-1" width="0.127" layer="21"/>
+<wire x1="8" y1="-1" x2="-8" y2="-1" width="0.127" layer="21"/>
+<wire x1="-8" y1="-1" x2="-8" y2="5" width="0.127" layer="21"/>
+<wire x1="-8" y1="5" x2="-5" y2="9" width="0.127" layer="21"/>
+<wire x1="-5" y1="9" x2="-4" y2="9" width="0.127" layer="21"/>
+<wire x1="-4" y1="9" x2="-4" y2="6" width="0.127" layer="21"/>
+<wire x1="-4" y1="6" x2="4" y2="6" width="0.127" layer="21"/>
+<wire x1="4" y1="6" x2="4" y2="9" width="0.127" layer="21"/>
+<wire x1="4" y1="9" x2="5" y2="9" width="0.127" layer="21"/>
+<wire x1="5" y1="9" x2="8" y2="5" width="0.127" layer="21"/>
+</package>
+<package name="MX150L_VERTICAL-4">
+<description>19428-0011
+&lt;br&gt;
+&lt;br&gt;
+MX150L™ Vertical PCB Header</description>
+<pad name="1" x="-2.921" y="2.9972" drill="1.778" diameter="3.81"/>
+<pad name="2" x="2.921" y="2.9972" drill="1.778" diameter="3.81"/>
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-15.24" x2="15.24" y2="-15.24" width="0.127" layer="21"/>
+<hole x="-19.05" y="0" drill="4.191"/>
+<hole x="19.05" y="0" drill="4.191"/>
+<wire x1="-15.24" y1="15.24" x2="-24.13" y2="0" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-15.24" x2="-24.13" y2="0" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-15.24" x2="24.13" y2="0" width="0.127" layer="21"/>
+<wire x1="15.24" y1="15.24" x2="24.13" y2="0" width="0.127" layer="21"/>
+<circle x="-19.05" y="0" radius="4" width="0.127" layer="21"/>
+<circle x="19.05" y="0" radius="4" width="0.127" layer="21"/>
+<pad name="3" x="-2.921" y="-2.9972" drill="1.778" diameter="3.81"/>
+<pad name="4" x="2.921" y="-2.9972" drill="1.778" diameter="3.81"/>
+<circle x="-19.05" y="0" radius="4" width="0.127" layer="22"/>
+<circle x="19.05" y="0" radius="4" width="0.127" layer="22"/>
+<hole x="-8.763" y="2.921" drill="1.651"/>
+</package>
+<package name="MX150L_RIGHT_ANGLE-4">
+<pad name="P$1" x="17.6784" y="2.921" drill="1.524"/>
+<pad name="P$2" x="23.5204" y="2.921" drill="1.524"/>
+<pad name="P$3" x="17.6784" y="-2.921" drill="1.524"/>
+<pad name="P$4" x="23.5204" y="-2.921" drill="1.524"/>
+<hole x="0" y="0" drill="4.7752"/>
+<hole x="41.2496" y="0" drill="4.7752"/>
+<wire x1="-3.81" y1="-12.446" x2="45.0596" y2="-12.446" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="7.8994" x2="45.0596" y2="7.8994" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="7.8994" x2="-3.81" y2="-12.446" width="0.127" layer="21"/>
+<wire x1="45.0596" y1="7.8994" x2="45.0596" y2="-12.446" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-25.4" x2="27.94" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="27.94" y1="-25.4" x2="27.94" y2="-12.7" width="0.127" layer="21"/>
+</package>
+<package name="AUTOSPORT_12-04">
+<circle x="0" y="0" radius="8.72" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="3.81" drill="2"/>
+<pad name="P$2" x="3.7084" y="0.889" drill="2"/>
+<pad name="P$3" x="0" y="-2.1082" drill="2"/>
+<pad name="P$4" x="-3.7084" y="0.889" drill="2"/>
+<hole x="-10.2884" y="-10.2884" drill="3.3"/>
+<hole x="10.2884" y="10.2884" drill="3.3"/>
+<circle x="-10.2884" y="-10.2884" radius="3" width="0.127" layer="40"/>
+<circle x="10.2884" y="10.2884" radius="3" width="0.127" layer="40"/>
+<circle x="0" y="0" radius="13" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TEENSY_3.2_SIMPLE">
@@ -1634,7 +1738,7 @@ FUSE</text>
 <wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
 <wire x1="20.32" y1="0" x2="20.32" y2="40.64" width="0.254" layer="94"/>
 <wire x1="20.32" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
-<text x="5.08" y="1.27" size="1.778" layer="95">Teensy 3.2</text>
+<text x="10.31875" y="1.27" size="1.778" layer="95" align="bottom-center">Teensy 3.2</text>
 <pin name="D2" x="-2.54" y="30.48" visible="pin" length="short"/>
 <pin name="D3(CANTX)" x="-2.54" y="27.94" visible="pin" length="short"/>
 <pin name="D4(CANRX)" x="-2.54" y="25.4" visible="pin" length="short"/>
@@ -1948,7 +2052,7 @@ FUSE</text>
 <wire x1="17.78" y1="0" x2="17.78" y2="2.54" width="0.254" layer="94"/>
 <wire x1="17.78" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
 </symbol>
-<symbol name="TEENSY_3.5_SIMPLE_RTC">
+<symbol name="TEENSY_3.5_EXT_RTC">
 <pin name="D0(RX1)" x="-2.54" y="66.04" visible="pin" length="short"/>
 <pin name="D1(TX1)" x="-2.54" y="63.5" visible="pin" length="short"/>
 <pin name="GND" x="-2.54" y="68.58" visible="pin" length="short"/>
@@ -1956,7 +2060,7 @@ FUSE</text>
 <wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
 <wire x1="20.32" y1="0" x2="20.32" y2="73.66" width="0.254" layer="94"/>
 <wire x1="20.32" y1="73.66" x2="0" y2="73.66" width="0.254" layer="94"/>
-<text x="5.08" y="70.866" size="1.778" layer="95">Teensy 3.5</text>
+<text x="10.31875" y="70.866" size="1.778" layer="95" align="bottom-center">Teensy 3.5</text>
 <pin name="D2" x="-2.54" y="60.96" visible="pin" length="short"/>
 <pin name="D3(CANTX)" x="-2.54" y="58.42" visible="pin" length="short"/>
 <pin name="D4(CANRX)" x="-2.54" y="55.88" visible="pin" length="short"/>
@@ -1979,10 +2083,10 @@ FUSE</text>
 <pin name="A7" x="22.86" y="55.88" visible="pin" length="short" rot="R180"/>
 <pin name="A9" x="22.86" y="60.96" visible="pin" length="short" rot="R180"/>
 <pin name="A8" x="22.86" y="58.42" visible="pin" length="short" rot="R180"/>
-<pin name="3.3V" x="22.86" y="63.5" visible="pin" length="short" rot="R180"/>
+<pin name="3.3V3" x="22.86" y="63.5" visible="pin" length="short" rot="R180"/>
 <pin name="VIN" x="22.86" y="68.58" visible="pin" length="short" rot="R180"/>
 <pin name="AGND" x="22.86" y="66.04" visible="pin" length="short" rot="R180"/>
-<pin name="3.3V_1" x="-2.54" y="33.02" visible="pin" length="short"/>
+<pin name="3.3V" x="-2.54" y="33.02" visible="pin" length="short"/>
 <pin name="D24" x="-2.54" y="30.48" visible="pin" length="short"/>
 <pin name="D25" x="-2.54" y="27.94" visible="pin" length="short"/>
 <pin name="D26" x="-2.54" y="25.4" visible="pin" length="short"/>
@@ -2001,11 +2105,11 @@ FUSE</text>
 <pin name="A20" x="22.86" y="25.4" visible="pin" length="short" rot="R180"/>
 <pin name="A21" x="22.86" y="27.94" visible="pin" length="short" rot="R180"/>
 <pin name="A22" x="22.86" y="30.48" visible="pin" length="short" rot="R180"/>
-<pin name="GND_1" x="22.86" y="33.02" visible="pin" length="short" rot="R180"/>
+<pin name="GND3" x="22.86" y="33.02" visible="pin" length="short" rot="R180"/>
 <pin name="VBAT" x="5.08" y="-2.54" visible="pin" length="short" rot="R90"/>
-<pin name="3.3V_2" x="7.62" y="-2.54" visible="pin" length="short" rot="R90"/>
-<pin name="GND_2" x="10.16" y="-2.54" visible="pin" length="short" rot="R90"/>
-<pin name="PROG" x="12.7" y="-2.54" visible="pin" length="short" rot="R90"/>
+<pin name="3.3V2" x="7.62" y="-2.54" visible="pin" length="short" rot="R90"/>
+<pin name="GND2" x="10.16" y="-2.54" visible="pin" length="short" rot="R90"/>
+<pin name="PRGM" x="12.7" y="-2.54" visible="pin" length="short" rot="R90"/>
 <pin name="RST" x="15.24" y="-2.54" visible="pin" length="short" rot="R90"/>
 </symbol>
 <symbol name="CR-2450/G1AN">
@@ -2090,47 +2194,12 @@ FUSE</text>
 </symbols>
 <devicesets>
 <deviceset name="TEENSY_3.2_SIMPLE">
-<description>Simple version of the Teensy 3.2 board that only uses the 2 main rows of pins, not the inner pins or the pins opposite the usb port.</description>
+<description>Simple version of the Teensy 3.2 board that only uses the 2 main rows of pins, with no perpendicular row with VBat or inner pins.</description>
 <gates>
 <gate name="G$1" symbol="TEENSY_3.2_SIMPLE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TEENSY_3.2_SIMPLE">
-<connects>
-<connect gate="G$1" pin="3.3V" pad="3.3V"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="A8" pad="A8"/>
-<connect gate="G$1" pin="A9" pad="A9"/>
-<connect gate="G$1" pin="AGND" pad="AGND"/>
-<connect gate="G$1" pin="D0(RX1)" pad="D0(RX1)"/>
-<connect gate="G$1" pin="D1(TX1)" pad="D1(TX1)"/>
-<connect gate="G$1" pin="D10(TX2)" pad="D10(TX2)"/>
-<connect gate="G$1" pin="D11" pad="D11"/>
-<connect gate="G$1" pin="D12" pad="D12"/>
-<connect gate="G$1" pin="D13" pad="D13"/>
-<connect gate="G$1" pin="D2" pad="D2"/>
-<connect gate="G$1" pin="D3(CANTX)" pad="D3(CANTX)"/>
-<connect gate="G$1" pin="D4(CANRX)" pad="D4(CANRX)"/>
-<connect gate="G$1" pin="D5" pad="D5"/>
-<connect gate="G$1" pin="D6" pad="D6"/>
-<connect gate="G$1" pin="D7(RX3)" pad="D7(RX3)"/>
-<connect gate="G$1" pin="D8(TX3)" pad="D8(TX3)"/>
-<connect gate="G$1" pin="D9(RX2)" pad="D9(RX2)"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VIN" pad="VIN"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="TEENSY_3.2_SIMPLE_SMD">
 <connects>
 <connect gate="G$1" pin="3.3V" pad="3.3V"/>
 <connect gate="G$1" pin="A0" pad="A0"/>
@@ -3028,17 +3097,17 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEENSY_3.5_EXT">
-<description>Simple version of the Teensy 3.5 board that only uses the 2 main rows of pins, plus the perpendicular row with VBat.</description>
+<deviceset name="TEENSY_3.5_EXT_RTC">
+<description>Extended version of the Teensy 3.5 board that only uses the 2 main rows of pins, plus the perpendicular row with VBat.</description>
 <gates>
-<gate name="G$1" symbol="TEENSY_3.5_SIMPLE_RTC" x="0" y="0"/>
+<gate name="G$1" symbol="TEENSY_3.5_EXT_RTC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TEENSY_3.5_EXT">
+<device name="" package="TEENSY_3.5_EXT_RTC">
 <connects>
 <connect gate="G$1" pin="3.3V" pad="3.3V"/>
-<connect gate="G$1" pin="3.3V_1" pad="3.3V_1"/>
-<connect gate="G$1" pin="3.3V_2" pad="3.3V_2"/>
+<connect gate="G$1" pin="3.3V2" pad="3.3V2"/>
+<connect gate="G$1" pin="3.3V3" pad="3.3V3"/>
 <connect gate="G$1" pin="A0" pad="A0"/>
 <connect gate="G$1" pin="A1" pad="A1"/>
 <connect gate="G$1" pin="A12" pad="A12"/>
@@ -3083,9 +3152,9 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="D8(TX3)" pad="D8(TX3)"/>
 <connect gate="G$1" pin="D9(RX2)" pad="D9(RX2)"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND_1" pad="GND_1"/>
-<connect gate="G$1" pin="GND_2" pad="GND_2"/>
-<connect gate="G$1" pin="PROG" pad="PROG"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="GND3" pad="GND3"/>
+<connect gate="G$1" pin="PRGM" pad="PRGM"/>
 <connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="VBAT" pad="VBAT"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
@@ -3239,6 +3308,111 @@ Schurter 0751.0110 Brass Fuse Clip
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONNECTOR-4" prefix="X">
+<description>&lt;b&gt;Mini-Fit Junior connector 4 pole&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="5.08" addlevel="always"/>
+<gate name="-2" symbol="M" x="0" y="2.54" addlevel="always"/>
+<gate name="-3" symbol="M" x="0" y="0" addlevel="always"/>
+<gate name="-4" symbol="M" x="0" y="-2.54" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="MINIFIT_5566-4">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="NANO-FIT_RIGHT_ANGLE-4-SURFACE" package="NANO-FIT_RIGHT_ANGLE-4-SURFACE">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NANO-FIT-VERTICAL-4" package="NANO-FIT_VERTICAL-4">
+<connects>
+<connect gate="-1" pin="S" pad="P$1"/>
+<connect gate="-2" pin="S" pad="P$2"/>
+<connect gate="-3" pin="S" pad="P$3"/>
+<connect gate="-4" pin="S" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DURACLIK_RIGHT_ANGLE-4" package="DURACLIK_RIGHT_ANGLE-4">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DURACLIK_VERTICAL-4" package="DURACLIK_VERTICAL-4">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MX150L_VERTICAL-4" package="MX150L_VERTICAL-4">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MX150-RIGHT_ANGLE-4" package="MX150L_RIGHT_ANGLE-4">
+<connects>
+<connect gate="-1" pin="S" pad="P$1"/>
+<connect gate="-2" pin="S" pad="P$2"/>
+<connect gate="-3" pin="S" pad="P$3"/>
+<connect gate="-4" pin="S" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AUTOSPORT" package="AUTOSPORT_12-04">
+<connects>
+<connect gate="-1" pin="S" pad="P$1"/>
+<connect gate="-2" pin="S" pad="P$2"/>
+<connect gate="-3" pin="S" pad="P$3"/>
+<connect gate="-4" pin="S" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6023,7 +6197,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="D3" library="HyTechDevices" deviceset="DIODE" device="0805" value="DIODE"/>
 <part name="U$3" library="HyTechDevices" deviceset="KT12-1A-40L-THT" device=""/>
 <part name="CHARGER" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="CHARGE CONTROL"/>
-<part name="U$5" library="HyTechDevices" deviceset="TEENSY_3.5_EXT" device=""/>
+<part name="U$5" library="HyTechDevices" deviceset="TEENSY_3.5_EXT_RTC" device=""/>
 <part name="CAN_TRANSCEIVER_3.5" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND11" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
@@ -6094,7 +6268,6 @@ Schurter 0751.0110 Brass Fuse Clip
 <attribute name="RATING" value="3A"/>
 </part>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
-<part name="POWER" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="POWER"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="REG" library="HyTechDevices" deviceset="OKI-78SR-5" device="" value="5V"/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -6134,7 +6307,9 @@ Schurter 0751.0110 Brass Fuse Clip
 <part name="GND22" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND25" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="D2" library="HyTechDevices" deviceset="DIODE_ZENER" device="0603"/>
-<part name="CHARGER_CONTROL" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="Charger Control"/>
+<part name="POWER" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4" value="POWER"/>
+<part name="X1" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="LATCHING"/>
+<part name="GND28" library="HyTechSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6387,13 +6562,6 @@ Schurter 0751.0110 Brass Fuse Clip
 <instance part="P+5" gate="1" x="88.9" y="251.46" smashed="yes">
 <attribute name="VALUE" x="96.52" y="251.46" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="POWER" gate="-2" x="43.18" y="248.92" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="249.682" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="POWER" gate="-1" x="43.18" y="246.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="247.142" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="43.942" y="244.983" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND2" gate="1" x="50.8" y="236.22" smashed="yes">
 <attribute name="VALUE" x="48.26" y="233.68" size="1.778" layer="96"/>
 </instance>
@@ -6428,12 +6596,18 @@ Schurter 0751.0110 Brass Fuse Clip
 <instance part="D2" gate="G$1" x="60.96" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.2074" y="240.03" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="CHARGER_CONTROL" gate="-2" x="287.02" y="76.2" smashed="yes">
-<attribute name="NAME" x="289.56" y="75.438" size="1.524" layer="95"/>
+<instance part="POWER" gate="-1" x="38.1" y="248.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="35.56" y="248.158" size="1.524" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="38.862" y="250.317" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="CHARGER_CONTROL" gate="-1" x="287.02" y="78.74" smashed="yes">
-<attribute name="NAME" x="289.56" y="77.978" size="1.524" layer="95"/>
-<attribute name="VALUE" x="286.258" y="80.137" size="1.778" layer="96"/>
+<instance part="POWER" gate="-2" x="38.1" y="246.38" smashed="yes" rot="MR0">
+<attribute name="NAME" x="35.56" y="245.618" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="POWER" gate="-3" x="38.1" y="243.84" smashed="yes" rot="MR0">
+<attribute name="NAME" x="35.56" y="243.078" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="POWER" gate="-4" x="38.1" y="241.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="35.56" y="240.538" size="1.524" layer="95" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -6550,12 +6724,15 @@ Schurter 0751.0110 Brass Fuse Clip
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="50.8" y1="238.76" x2="50.8" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="246.38" x2="45.72" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="POWER" gate="-1" pin="S"/>
+<wire x1="50.8" y1="238.76" x2="50.8" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="238.76" x2="60.96" y2="238.76" width="0.1524" layer="91"/>
 <junction x="50.8" y="238.76"/>
+<pinref part="POWER" gate="-2" pin="S"/>
+<pinref part="POWER" gate="-4" pin="S"/>
+<wire x1="40.64" y1="246.38" x2="40.64" y2="241.3" width="0.1524" layer="91"/>
+<junction x="40.64" y="241.3"/>
+<wire x1="40.64" y1="241.3" x2="50.8" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -6569,11 +6746,6 @@ Schurter 0751.0110 Brass Fuse Clip
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="205.74" x2="48.26" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="203.2" x2="60.96" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="CHARGER_CONTROL" gate="-2" pin="S"/>
-<wire x1="284.48" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
-<label x="279.4" y="76.2" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -6665,11 +6837,6 @@ Schurter 0751.0110 Brass Fuse Clip
 <wire x1="284.48" y1="60.96" x2="284.48" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="60.96" x2="284.48" y2="60.96" width="0.1524" layer="91"/>
 <junction x="284.48" y="60.96"/>
-</segment>
-<segment>
-<pinref part="CHARGER_CONTROL" gate="-1" pin="S"/>
-<wire x1="284.48" y1="78.74" x2="279.4" y2="78.74" width="0.1524" layer="91"/>
-<label x="279.4" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -6919,7 +7086,7 @@ Schurter 0751.0110 Brass Fuse Clip
 <wire x1="337.82" y1="124.46" x2="337.82" y2="127" width="0.1524" layer="91"/>
 <pinref part="U$16" gate="G$1" pin="-"/>
 <wire x1="347.98" y1="124.46" x2="347.98" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="GND_2"/>
+<pinref part="U$5" gate="G$1" pin="GND2"/>
 </segment>
 </net>
 <net name="SHUTDOWN_A" class="0">
@@ -6937,13 +7104,20 @@ Schurter 0751.0110 Brass Fuse Clip
 <junction x="66.04" y="248.92"/>
 <wire x1="68.58" y1="241.3" x2="66.04" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="241.3" x2="66.04" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="POWER" gate="-2" pin="S"/>
 <wire x1="66.04" y1="248.92" x2="60.96" y2="248.92" width="0.1524" layer="91"/>
 <label x="53.34" y="248.92" size="1.778" layer="95"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="60.96" y1="248.92" x2="45.72" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="246.38" x2="60.96" y2="248.92" width="0.1524" layer="91"/>
 <junction x="60.96" y="248.92"/>
+<pinref part="POWER" gate="-3" pin="S"/>
+<wire x1="40.64" y1="243.84" x2="43.18" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="POWER" gate="-1" pin="S"/>
+<wire x1="40.64" y1="248.92" x2="43.18" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="243.84" x2="43.18" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="248.92" x2="45.72" y2="248.92" width="0.1524" layer="91"/>
+<junction x="43.18" y="248.92"/>
+<label x="45.72" y="248.92" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SHUTDOWN_E" class="0">
@@ -7243,6 +7417,16 @@ Schurter 0751.0110 Brass Fuse Clip
 <instance part="GND25" gate="1" x="129.54" y="124.46" smashed="yes">
 <attribute name="VALUE" x="127" y="121.92" size="1.778" layer="96"/>
 </instance>
+<instance part="X1" gate="-2" x="106.68" y="208.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="104.14" y="209.042" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X1" gate="-1" x="106.68" y="205.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="104.14" y="206.502" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.442" y="204.343" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND28" gate="1" x="111.76" y="200.66" smashed="yes">
+<attribute name="VALUE" x="109.22" y="198.12" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7340,6 +7524,12 @@ Schurter 0751.0110 Brass Fuse Clip
 <wire x1="116.84" y1="129.54" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="129.54" x2="129.54" y2="127" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="109.22" y1="205.74" x2="111.76" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="205.74" x2="111.76" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -7482,11 +7672,15 @@ Schurter 0751.0110 Brass Fuse Clip
 <wire x1="83.82" y1="210.82" x2="104.14" y2="210.82" width="0.1524" layer="91"/>
 <label x="86.36" y="210.82" size="1.778" layer="95"/>
 <pinref part="D9" gate="1" pin="C"/>
-<wire x1="104.14" y1="210.82" x2="114.3" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="210.82" x2="109.22" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="210.82" x2="114.3" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="210.82" x2="104.14" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="241.3" x2="149.86" y2="241.3" width="0.1524" layer="91"/>
 <junction x="104.14" y="210.82"/>
 <label x="116.84" y="241.3" size="1.778" layer="95"/>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="109.22" y1="210.82" x2="109.22" y2="208.28" width="0.1524" layer="91"/>
+<junction x="109.22" y="210.82"/>
 </segment>
 </net>
 <net name="SHUTDOWN_A" class="0">
