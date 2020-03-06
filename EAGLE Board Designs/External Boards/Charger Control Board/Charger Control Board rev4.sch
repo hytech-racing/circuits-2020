@@ -6173,7 +6173,7 @@ Source: http://www.molex.com</description>
 <part name="BMS_OK" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
 <part name="OKHS" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
 <part name="GND24" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="S1" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD"/>
+<part name="LATCH_BUTTON" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD"/>
 <part name="GND5" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
 <attribute name="TOLERANCE" value="1%"/>
@@ -6196,7 +6196,7 @@ Source: http://www.molex.com</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="HyTechDevices" deviceset="DIODE" device="0805" value="DIODE"/>
 <part name="U$3" library="HyTechDevices" deviceset="KT12-1A-40L-THT" device=""/>
-<part name="CHARGER" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="CHARGE CONTROL"/>
+<part name="CHARGE" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="CHARGE CONTROL"/>
 <part name="U$5" library="HyTechDevices" deviceset="TEENSY_3.5_EXT_RTC" device=""/>
 <part name="CAN_TRANSCEIVER_3.5" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND11" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -6308,7 +6308,7 @@ Source: http://www.molex.com</description>
 <part name="GND25" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="D2" library="HyTechDevices" deviceset="DIODE_ZENER" device="0603"/>
 <part name="POWER" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4" value="POWER"/>
-<part name="X1" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="LATCHING"/>
+<part name="LATCHING" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="LATCHING"/>
 <part name="GND28" library="HyTechSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -6492,10 +6492,10 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="286.2326" y="54.61" size="1.778" layer="95" rot="MR90"/>
 </instance>
 <instance part="U$3" gate="G$1" x="302.26" y="45.72" smashed="yes" rot="R90"/>
-<instance part="CHARGER" gate="-2" x="322.58" y="58.42" smashed="yes" rot="MR180">
+<instance part="CHARGE" gate="-2" x="322.58" y="58.42" smashed="yes" rot="MR180">
 <attribute name="NAME" x="325.12" y="59.182" size="1.524" layer="95" rot="MR180"/>
 </instance>
-<instance part="CHARGER" gate="-1" x="322.58" y="55.88" smashed="yes" rot="MR180">
+<instance part="CHARGE" gate="-1" x="322.58" y="55.88" smashed="yes" rot="MR180">
 <attribute name="NAME" x="325.12" y="56.642" size="1.524" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="316.738" y="59.563" size="1.778" layer="96" rot="MR180" align="top-left"/>
 </instance>
@@ -7013,7 +7013,7 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="U$3" gate="G$1" pin="S2"/>
 <wire x1="304.8" y1="63.5" x2="314.96" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="CHARGER" gate="-2" pin="S"/>
+<pinref part="CHARGE" gate="-2" pin="S"/>
 <wire x1="320.04" y1="58.42" x2="314.96" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="63.5" x2="314.96" y2="58.42" width="0.1524" layer="91"/>
 <label x="304.8" y="48.26" size="1.778" layer="95"/>
@@ -7021,7 +7021,7 @@ Source: http://www.molex.com</description>
 </net>
 <net name="CHARGER_1" class="0">
 <segment>
-<pinref part="CHARGER" gate="-1" pin="S"/>
+<pinref part="CHARGE" gate="-1" pin="S"/>
 <wire x1="320.04" y1="55.88" x2="314.96" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="S1"/>
 <wire x1="314.96" y1="55.88" x2="314.96" y2="48.26" width="0.1524" layer="91"/>
@@ -7320,7 +7320,7 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="83.312" y="214.376" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="83.312" y="216.535" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="S1" gate="1" x="119.38" y="210.82" smashed="yes" rot="R270">
+<instance part="LATCH_BUTTON" gate="1" x="119.38" y="210.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="116.84" y="207.01" size="1.778" layer="95"/>
 <attribute name="VALUE" x="122.555" y="214.63" size="1.778" layer="96"/>
 </instance>
@@ -7417,10 +7417,10 @@ Source: http://www.molex.com</description>
 <instance part="GND25" gate="1" x="129.54" y="124.46" smashed="yes">
 <attribute name="VALUE" x="127" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-2" x="106.68" y="208.28" smashed="yes" rot="R180">
+<instance part="LATCHING" gate="-2" x="106.68" y="208.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="104.14" y="209.042" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-1" x="106.68" y="205.74" smashed="yes" rot="R180">
+<instance part="LATCHING" gate="-1" x="106.68" y="205.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="104.14" y="206.502" size="1.524" layer="95" rot="R180"/>
 <attribute name="VALUE" x="107.442" y="204.343" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -7481,8 +7481,8 @@ Source: http://www.molex.com</description>
 <wire x1="91.44" y1="248.92" x2="83.82" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="S1" gate="1" pin="S"/>
-<pinref part="S1" gate="1" pin="S1"/>
+<pinref part="LATCH_BUTTON" gate="1" pin="S"/>
+<pinref part="LATCH_BUTTON" gate="1" pin="S1"/>
 <wire x1="124.46" y1="210.82" x2="124.46" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="129.54" y1="210.82" x2="124.46" y2="210.82" width="0.1524" layer="91"/>
@@ -7526,7 +7526,7 @@ Source: http://www.molex.com</description>
 <pinref part="R31" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="LATCHING" gate="-1" pin="S"/>
 <wire x1="109.22" y1="205.74" x2="111.76" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="205.74" x2="111.76" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
@@ -7665,8 +7665,8 @@ Source: http://www.molex.com</description>
 </segment>
 <segment>
 <pinref part="LATCH" gate="LED" pin="C"/>
-<pinref part="S1" gate="1" pin="P"/>
-<pinref part="S1" gate="1" pin="P1"/>
+<pinref part="LATCH_BUTTON" gate="1" pin="P"/>
+<pinref part="LATCH_BUTTON" gate="1" pin="P1"/>
 <wire x1="114.3" y1="210.82" x2="114.3" y2="208.28" width="0.1524" layer="91"/>
 <junction x="114.3" y="210.82"/>
 <wire x1="83.82" y1="210.82" x2="104.14" y2="210.82" width="0.1524" layer="91"/>
@@ -7678,7 +7678,7 @@ Source: http://www.molex.com</description>
 <wire x1="104.14" y1="241.3" x2="149.86" y2="241.3" width="0.1524" layer="91"/>
 <junction x="104.14" y="210.82"/>
 <label x="116.84" y="241.3" size="1.778" layer="95"/>
-<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="LATCHING" gate="-2" pin="S"/>
 <wire x1="109.22" y1="210.82" x2="109.22" y2="208.28" width="0.1524" layer="91"/>
 <junction x="109.22" y="210.82"/>
 </segment>
@@ -7906,24 +7906,6 @@ Source: http://www.molex.com</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="102,1,-111.76,-20.32,GND,N$60,,,,"/>
-<approved hash="102,1,-30.48,-22.86,GND,N$60,,,,"/>
-<approved hash="201,1,-30.48,-22.86,GND,GND\, N$60,,,,"/>
-<approved hash="201,1,-111.76,-20.32,GND,GND\, N$60,,,,"/>
-<approved hash="208,1,91.44,-15.24,+5V,sup,,,,"/>
-<approved hash="208,1,149.86,-10.16,+5V,sup,,,,"/>
-<approved hash="208,1,5.08,53.34,+5V,sup,,,,"/>
-<approved hash="208,1,10.16,48.26,+5V,out,,,,"/>
-<approved hash="208,1,-43.18,20.32,+5V,sup,,,,"/>
-<approved hash="208,1,-43.18,30.48,+5V,sup,,,,"/>
-<approved hash="208,1,91.44,-55.88,+5V,sup,,,,"/>
-<approved hash="208,1,149.86,-55.88,+5V,sup,,,,"/>
-<approved hash="113,1,-88.9,48.6004,Q1,,,,,"/>
-<approved hash="113,1,12.7,22.5654,S1,,,,,"/>
-<approved hash="113,1,69.4271,46.3296,5ASHUTDOWNFUSE,,,,,"/>
-<approved hash="113,1,68.58,38.7096,5ABOARDFUSE,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
