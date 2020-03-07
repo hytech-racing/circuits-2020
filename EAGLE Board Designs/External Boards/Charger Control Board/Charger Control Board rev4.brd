@@ -3691,7 +3691,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="7.62" y="35.687" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="CAN_TRANSCEIVER_3.2" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="10.16" y="54.356" smashed="yes" rot="MR270">
-<attribute name="NAME" x="10.16" y="56.896" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
+<attribute name="NAME" x="10.16" y="57.15" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
 </element>
 <element name="CHARGE" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="CHARGE CONTROL" x="82.55" y="74.422" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.455" y="74.422" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
@@ -3737,7 +3737,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="8.255" y="9.525" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
 </element>
 <element name="Q1" library="HyTechDevices" package="SOT23" value="" x="10.795" y="12.192" smashed="yes" rot="MR180">
-<attribute name="NAME" x="8.763" y="12.192" size="1.016" layer="26" font="vector" rot="MR90" align="top-center"/>
+<attribute name="NAME" x="9.017" y="12.192" size="1.016" layer="26" font="vector" rot="MR90" align="top-center"/>
 <attribute name="VALUE" x="12.192" y="11.303" size="0.3048" layer="28" rot="MR180" align="bottom-center"/>
 </element>
 <element name="R28" library="HyTechDevices" package="0603-RES" value="60" x="11.43" y="37.846" smashed="yes" rot="MR270">
@@ -3813,7 +3813,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="U$5" library="HyTechDevices" package="KT12-1A-40L-THT" value="KT12-1A-40L-THT" x="80.01" y="40.767" smashed="yes" rot="R90"/>
 <element name="U2" library="HyTechDevices" package="SOT23" value="CDSOT23-T24CAN-Q" x="6.35" y="37.846" smashed="yes" rot="MR0">
-<attribute name="NAME" x="4.318" y="37.846" size="1.016" layer="26" font="vector" rot="MR90" align="top-center"/>
+<attribute name="NAME" x="3.556" y="37.846" size="1.016" layer="26" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="U1" library="HyTechDevices" package="SOP04" value="CPC1002N" x="60.706" y="59.69" smashed="yes">
 <attribute name="NAME" x="63.246" y="59.69" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
@@ -3823,11 +3823,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="84.709" y="13.335" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
 </element>
 <element name="D6" library="HyTechDevices" package="SOT23" value="DIODE_ZENER" x="10.795" y="19.558" smashed="yes" rot="MR0">
-<attribute name="NAME" x="8.763" y="19.558" size="1.016" layer="26" font="vector" rot="MR90" align="top-center"/>
+<attribute name="NAME" x="9.017" y="19.558" size="1.016" layer="26" font="vector" rot="MR90" align="top-center"/>
 </element>
 <element name="U$3" library="HyTechDevices" package="TEENSY_3.5_EXT_RTC" value="TEENSY_3.5_EXT_RTC" x="67.31" y="64.77" smashed="yes" rot="R90"/>
 <element name="CAN_TRANSCEIVER_3.5" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="10.16" y="73.406" smashed="yes" rot="MR270">
-<attribute name="NAME" x="10.16" y="75.946" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
+<attribute name="NAME" x="10.16" y="76.2" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
 </element>
 <element name="C6" library="HyTechDevices" package="0603-CAP" value="1uF" x="18.415" y="73.406" smashed="yes" rot="MR270">
 <attribute name="NAME" x="19.431" y="73.406" size="1.016" layer="26" font="vector" rot="MR270" align="top-center"/>
@@ -4174,19 +4174,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="65.786" y1="19.0246" x2="59.436" y2="19.0246" width="0.508" layer="1"/>
 <wire x1="59.436" y1="19.0246" x2="21.6662" y2="19.0246" width="0.508" layer="1"/>
 <wire x1="21.6662" y1="19.0246" x2="18.6436" y2="16.002" width="0.508" layer="1"/>
-<wire x1="59.436" y1="62.69" x2="60.706" y2="61.42" width="0.508" layer="1"/>
-<wire x1="60.706" y1="61.42" x2="60.706" y2="59.69" width="0.508" layer="1"/>
-<via x="60.706" y="59.69" extent="1-16" drill="0.508"/>
-<wire x1="60.706" y1="59.69" x2="59.182" y2="58.166" width="0.508" layer="16"/>
-<wire x1="59.182" y1="58.166" x2="59.182" y2="19.2786" width="0.508" layer="16"/>
+<wire x1="59.436" y1="62.69" x2="59.436" y2="59.436" width="0.508" layer="1"/>
+<via x="59.436" y="59.436" extent="1-16" drill="0.508"/>
+<wire x1="59.436" y1="59.436" x2="59.182" y2="59.182" width="0.508" layer="16"/>
+<wire x1="59.182" y1="59.182" x2="59.182" y2="19.2786" width="0.508" layer="16"/>
 <wire x1="59.182" y1="19.2786" x2="59.436" y2="19.0246" width="0.508" layer="16"/>
 <via x="59.436" y="19.0246" extent="1-16" drill="0.508"/>
 <wire x1="18.6436" y1="16.002" x2="15.24" y2="16.002" width="1.524" layer="16"/>
 <wire x1="65.786" y1="19.0246" x2="65.278" y2="19.0246" width="0.508" layer="16"/>
 <wire x1="65.278" y1="19.0246" x2="64.428" y2="19.8746" width="0.508" layer="16"/>
 <wire x1="64.428" y1="19.8746" x2="64.428" y2="20.5486" width="0.508" layer="16"/>
-<wire x1="68.453" y1="21.0456" x2="66.432" y2="19.0246" width="0.254" layer="16"/>
-<wire x1="66.432" y1="19.0246" x2="65.786" y2="19.0246" width="0.254" layer="16"/>
+<wire x1="65.786" y1="19.0246" x2="65.8114" y2="19.05" width="0.508" layer="16"/>
+<wire x1="67.564" y1="19.05" x2="68.453" y2="19.939" width="0.508" layer="16"/>
+<wire x1="68.453" y1="19.939" x2="68.453" y2="21.0456" width="0.508" layer="16"/>
+<wire x1="65.8114" y1="19.05" x2="67.564" y2="19.05" width="0.508" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="R3" pad="1"/>
@@ -4648,8 +4649,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$11">
 <contactref element="R3" pad="2"/>
 <contactref element="U$4" pad="A8"/>
-<wire x1="42.926" y1="52.363" x2="27.647" y2="52.363" width="0.254" layer="1"/>
-<wire x1="27.647" y1="52.363" x2="17.78" y2="62.23" width="0.254" layer="1"/>
+<wire x1="42.926" y1="52.363" x2="42.418" y2="51.855" width="0.254" layer="1"/>
+<wire x1="42.418" y1="51.855" x2="24.599" y2="51.855" width="0.254" layer="1"/>
+<wire x1="24.599" y1="51.855" x2="17.78" y2="58.674" width="0.254" layer="1"/>
+<wire x1="17.78" y1="58.674" x2="17.78" y2="62.23" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
