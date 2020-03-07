@@ -3026,6 +3026,9 @@ Designed by Arvind Srinivasan, Yvonne Yeh</text>
 <dimension x1="0" y1="83.82" x2="86.36" y2="83.82" x3="43.18" y3="86.106" textsize="1.778" layer="20"/>
 <dimension x1="86.36" y1="83.82" x2="86.36" y2="0" x3="89.408" y3="41.91" textsize="1.778" layer="20"/>
 <dimension x1="80.2894" y1="40.9702" x2="72.1614" y2="34.4932" x3="76.6653875" y3="37.179559375" textsize="1.778" layer="156"/>
+<dimension x1="80.2386" y1="42.0116" x2="70.7136" y2="41.9862" x3="75.47440625" y3="42.63355625" textsize="1.778" layer="156"/>
+<dimension x1="81.3054" y1="40.8686" x2="79.2226" y2="29.7434" x3="82.357509375" y3="34.914065625" textsize="1.778" layer="156"/>
+<dimension x1="80.2386" y1="69.9516" x2="70.7136" y2="69.9262" x3="75.477928125" y3="69.253171875" textsize="1.778" layer="156"/>
 </plain>
 <libraries>
 <library name="HyTechDevices">
