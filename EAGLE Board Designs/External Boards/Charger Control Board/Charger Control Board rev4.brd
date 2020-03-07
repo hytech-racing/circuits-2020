@@ -3718,11 +3718,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="BMS_OK" library="HyTechDevices" package="LED-805" value="Green" x="21.59" y="33.655" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.59" y="34.671" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="SHUTDOWN_B" library="HyTechDevices" package="LED-805" value="Yellow" x="39.624" y="3.5306" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.624" y="4.5466" size="1.016" layer="25" font="vector" align="bottom-center"/>
+<element name="SHUTDOWN_B" library="HyTechDevices" package="LED-805" value="Yellow" x="39.624" y="3.302" smashed="yes" rot="R270">
+<attribute name="NAME" x="39.624" y="4.318" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="SHUTDOWN_C" library="HyTechDevices" package="LED-805" value="Green" x="53.594" y="3.5306" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.594" y="4.5466" size="1.016" layer="25" font="vector" align="bottom-center"/>
+<element name="SHUTDOWN_C" library="HyTechDevices" package="LED-805" value="Green" x="53.594" y="3.302" smashed="yes" rot="R270">
+<attribute name="NAME" x="53.594" y="4.318" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="POWER_5V" library="HyTechDevices" package="LED-805" value="Purple" x="21.59" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.59" y="31.496" size="1.016" layer="25" font="vector" align="bottom-center"/>
@@ -3748,13 +3748,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="55.372" y="21.5646" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="55.372" y="22.5806" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R15" library="HyTechDevices" package="0603-RES" value="2k" x="34.544" y="3.5306" smashed="yes">
-<attribute name="NAME" x="34.544" y="2.5146" size="1.016" layer="25" font="vector" align="top-center"/>
-<attribute name="TOLERANCE" value="1%" x="34.544" y="3.5306" size="1.778" layer="27" display="off"/>
+<element name="R15" library="HyTechDevices" package="0603-RES" value="2k" x="34.544" y="3.302" smashed="yes">
+<attribute name="NAME" x="34.544" y="2.286" size="1.016" layer="25" font="vector" align="top-center"/>
+<attribute name="TOLERANCE" value="1%" x="34.544" y="3.302" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R16" library="HyTechDevices" package="0603-RES" value="20k" x="48.514" y="3.5306" smashed="yes">
-<attribute name="NAME" x="48.514" y="2.5146" size="1.016" layer="25" font="vector" align="top-center"/>
-<attribute name="TOLERANCE" value="1%" x="48.514" y="3.5306" size="1.778" layer="27" display="off"/>
+<element name="R16" library="HyTechDevices" package="0603-RES" value="20k" x="48.514" y="3.302" smashed="yes">
+<attribute name="NAME" x="48.514" y="2.286" size="1.016" layer="25" font="vector" align="top-center"/>
+<attribute name="TOLERANCE" value="1%" x="48.514" y="3.302" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R26" library="HyTechDevices" package="0603-RES" value="60" x="12.192" y="34.29" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.192" y="33.274" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
@@ -3850,11 +3850,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="D7" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="68.453" y="21.9456" smashed="yes" rot="MR270">
 <attribute name="NAME" x="69.469" y="21.9837" size="1.016" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
-<element name="SHUTDOWN_D" library="HyTechDevices" package="LED-805" value="Red" x="67.564" y="3.5306" smashed="yes" rot="R270">
-<attribute name="NAME" x="67.564" y="4.5466" size="1.016" layer="25" font="vector" align="bottom-center"/>
+<element name="SHUTDOWN_D" library="HyTechDevices" package="LED-805" value="Red" x="67.564" y="3.302" smashed="yes" rot="R270">
+<attribute name="NAME" x="67.564" y="4.318" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="R17" library="HyTechDevices" package="0603-RES" value="6.8k" x="62.484" y="3.5306" smashed="yes">
-<attribute name="NAME" x="62.484" y="2.5146" size="1.016" layer="25" font="vector" align="top-center"/>
+<element name="R17" library="HyTechDevices" package="0603-RES" value="6.8k" x="62.484" y="3.302" smashed="yes">
+<attribute name="NAME" x="62.484" y="2.286" size="1.016" layer="25" font="vector" align="top-center"/>
 </element>
 <element name="R25" library="HyTechDevices" package="0603-RES" value="10k" x="65.278" y="27.7876" smashed="yes" rot="MR180">
 <attribute name="NAME" x="65.278" y="28.8036" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
@@ -4198,8 +4198,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="SHUTDOWN_BUTTON" pad="P$2"/>
 <contactref element="D4" pad="A"/>
 <contactref element="BMS_SHUTDOWN_RLY1" pad="5"/>
-<wire x1="61.849" y1="7.112" x2="61.849" y2="3.9996" width="0.254" layer="1"/>
-<wire x1="61.849" y1="3.9996" x2="61.634" y2="3.5306" width="0.254" layer="1"/>
+<wire x1="61.849" y1="7.112" x2="61.849" y2="4.064" width="0.254" layer="1"/>
+<wire x1="61.849" y1="4.064" x2="61.849" y2="3.9996" width="0.254" layer="1"/>
 <wire x1="61.849" y1="7.112" x2="64.77" y2="7.0866" width="1.016" layer="1"/>
 <wire x1="67.31" y1="9.6266" x2="81.5086" y2="9.6266" width="1.016" layer="1"/>
 <wire x1="81.5086" y1="9.6266" x2="82.55" y2="10.668" width="1.016" layer="1"/>
@@ -4214,6 +4214,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="71.374" y1="14.9606" x2="74.275" y2="12.0596" width="0.254" layer="16"/>
 <wire x1="82.5246" y1="12.0596" x2="82.55" y2="12.085" width="0.254" layer="16"/>
 <wire x1="82.5246" y1="12.0596" x2="74.275" y2="12.0596" width="0.254" layer="16"/>
+<wire x1="61.849" y1="3.9996" x2="61.849" y2="3.517" width="0.254" layer="1"/>
+<wire x1="61.849" y1="3.517" x2="61.634" y2="3.302" width="0.254" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="CAN_TERM" pad="2"/>
@@ -4270,7 +4272,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$19">
 <contactref element="R15" pad="2"/>
 <contactref element="SHUTDOWN_B" pad="A"/>
-<wire x1="35.394" y1="3.5306" x2="38.574" y2="3.5306" width="0.254" layer="1"/>
+<wire x1="35.394" y1="3.302" x2="38.574" y2="3.302" width="0.254" layer="1"/>
 </signal>
 <signal name="BMS_PWR_STEP">
 <contactref element="BMS_SHUTDOWN_RLY" pad="3"/>
@@ -4293,8 +4295,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="IMD_SHUTDOWN_RLY" pad="5"/>
 <contactref element="R15" pad="1"/>
 <contactref element="D2" pad="A"/>
-<wire x1="33.909" y1="7.112" x2="33.909" y2="3.9996" width="0.254" layer="1"/>
-<wire x1="33.909" y1="3.9996" x2="33.694" y2="3.5306" width="0.254" layer="1"/>
 <wire x1="33.909" y1="7.112" x2="36.195" y2="9.3726" width="1.016" layer="1"/>
 <wire x1="36.195" y1="9.3726" x2="45.72" y2="9.3726" width="1.016" layer="1"/>
 <wire x1="45.72" y1="9.3726" x2="47.879" y2="11.5316" width="1.016" layer="1"/>
@@ -4306,11 +4306,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="44.196" y1="13.6906" x2="45.7962" y2="12.0904" width="0.508" layer="16"/>
 <wire x1="40.524" y1="36.8046" x2="42.418" y2="36.8046" width="0.508" layer="1"/>
 <wire x1="42.418" y1="36.8046" x2="44.196" y2="35.0266" width="0.508" layer="1"/>
+<wire x1="33.909" y1="3.517" x2="33.694" y2="3.302" width="0.254" layer="1"/>
+<wire x1="33.909" y1="7.112" x2="33.909" y2="3.517" width="0.254" layer="1"/>
 </signal>
 <signal name="N$32">
 <contactref element="R16" pad="2"/>
 <contactref element="SHUTDOWN_C" pad="A"/>
-<wire x1="49.364" y1="3.5306" x2="52.544" y2="3.5306" width="0.254" layer="1"/>
+<wire x1="49.364" y1="3.302" x2="52.544" y2="3.302" width="0.254" layer="1"/>
 </signal>
 <signal name="IMD_PWR_STEP">
 <contactref element="IMD_SHUTDOWN_RLY" pad="3"/>
@@ -4398,8 +4400,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R16" pad="1"/>
 <contactref element="BMS_SHUTDOWN_RLY1" pad="6"/>
 <contactref element="D3" pad="A"/>
-<wire x1="47.879" y1="7.112" x2="47.879" y2="3.9996" width="0.254" layer="1"/>
-<wire x1="47.879" y1="3.9996" x2="47.664" y2="3.5306" width="0.254" layer="1"/>
+<wire x1="47.879" y1="7.112" x2="47.879" y2="4.064" width="0.254" layer="1"/>
+<wire x1="47.879" y1="4.064" x2="47.879" y2="3.9996" width="0.254" layer="1"/>
 <wire x1="47.879" y1="7.112" x2="50.419" y2="9.6266" width="1.016" layer="1"/>
 <wire x1="50.419" y1="9.6266" x2="59.69" y2="9.6266" width="1.016" layer="1"/>
 <wire x1="59.69" y1="9.6266" x2="61.849" y2="11.7856" width="1.016" layer="1"/>
@@ -4409,6 +4411,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="56.642" y="36.8046" extent="1-16" drill="0.254"/>
 <wire x1="56.642" y1="36.8046" x2="54.494" y2="36.8046" width="0.254" layer="1"/>
 <wire x1="58.166" y1="15.7734" x2="58.166" y2="35.2806" width="0.254" layer="16"/>
+<wire x1="47.879" y1="3.9996" x2="47.879" y2="3.517" width="0.254" layer="1"/>
+<wire x1="47.879" y1="3.517" x2="47.664" y2="3.302" width="0.254" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R19" pad="1"/>
@@ -4528,7 +4532,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$30">
 <contactref element="SHUTDOWN_D" pad="A"/>
 <contactref element="R17" pad="2"/>
-<wire x1="63.334" y1="3.5306" x2="66.514" y2="3.5306" width="0.254" layer="1"/>
+<wire x1="63.334" y1="3.302" x2="66.514" y2="3.302" width="0.254" layer="1"/>
 </signal>
 <signal name="N$33">
 <contactref element="D7" pad="A"/>
