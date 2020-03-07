@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -30,7 +30,7 @@
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -134,7 +134,7 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="156" name="HVSpacing" color="12" fill="1" visible="no" active="yes"/>
+<layer number="156" name="HVSpacing" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
@@ -3025,6 +3025,7 @@
 Designed by Arvind Srinivasan, Yvonne Yeh</text>
 <dimension x1="0" y1="83.82" x2="86.36" y2="83.82" x3="43.18" y3="86.106" textsize="1.778" layer="20"/>
 <dimension x1="86.36" y1="83.82" x2="86.36" y2="0" x3="89.408" y3="41.91" textsize="1.778" layer="20"/>
+<dimension x1="80.2894" y1="40.9702" x2="72.1614" y2="34.4932" x3="76.6653875" y3="37.179559375" textsize="1.778" layer="156"/>
 </plain>
 <libraries>
 <library name="HyTechDevices">
@@ -4200,10 +4201,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="81.534" y1="9.652" x2="82.55" y2="10.668" width="1.016" layer="1"/>
 <wire x1="82.55" y1="10.668" x2="82.55" y2="12.085" width="1.016" layer="1"/>
 <wire x1="66.294" y1="7.112" x2="68.834" y2="9.652" width="1.016" layer="1"/>
-<wire x1="69.988" y1="36.83" x2="71.12" y2="36.83" width="0.254" layer="1"/>
-<via x="71.12" y="36.83" extent="1-16" drill="0.254"/>
-<wire x1="71.12" y1="36.83" x2="72.898" y2="35.052" width="0.254" layer="16"/>
-<wire x1="72.898" y1="35.052" x2="72.898" y2="14.986" width="0.254" layer="16"/>
+<wire x1="69.988" y1="36.83" x2="69.977" y2="36.819" width="0.254" layer="1"/>
+<wire x1="69.977" y1="36.819" x2="69.977" y2="34.5186" width="0.254" layer="1"/>
+<via x="69.977" y="34.5186" extent="1-16" drill="0.254"/>
+<wire x1="72.898" y1="33.2486" x2="71.628" y2="34.5186" width="0.254" layer="16"/>
+<wire x1="69.977" y1="34.5186" x2="71.628" y2="34.5186" width="0.254" layer="16"/>
+<wire x1="72.898" y1="33.2486" x2="72.898" y2="14.986" width="0.254" layer="16"/>
 <wire x1="72.898" y1="14.986" x2="75.799" y2="12.085" width="0.254" layer="16"/>
 <wire x1="75.799" y1="12.085" x2="82.55" y2="12.085" width="0.254" layer="16"/>
 </signal>
