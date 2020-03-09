@@ -5639,14 +5639,14 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="CR1" library="HyTechDevices" deviceset="ABM3B" device="" value="16MHz, 10pF"/>
 <part name="GND3" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C4" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="14pF"/>
-<part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="14pF"/>
+<part name="C4" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15pF"/>
+<part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15pF"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="GND4" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND5" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="CR2" library="HyTechDevices" deviceset="ABM3B" device="" value="16MHz, 10pF"/>
-<part name="C9" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="14pF"/>
-<part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="14pF"/>
+<part name="C9" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15pF"/>
+<part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15pF"/>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -5664,12 +5664,12 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <part name="AMS" library="HyTechDevices" deviceset="LED" device="" value="Red"/>
 <part name="SSOK" library="HyTechDevices" deviceset="LED" device="" value="Yellow"/>
 <part name="IMD" library="HyTechDevices" deviceset="LED" device="" value="Red"/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10"/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="14.7"/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="14.7"/>
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="14.7"/>
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="14.7"/>
 <part name="Q2" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 <part name="Q4" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 <part name="Q3" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
