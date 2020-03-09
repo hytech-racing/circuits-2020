@@ -3,7 +3,7 @@
 <eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -1657,11 +1657,11 @@ design rules under a new name.</description>
 <board_group name="LEFT_VIAS"/>
 </groups>
 <elements>
-<element name="C44" library="HyTechDevices" package="0603-CAP" value="1 uF" x="34.671" y="27.686" smashed="yes" rot="R90">
+<element name="C44" library="HyTechDevices" package="0603-CAP" value="1uF" x="34.671" y="27.686" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.179" y="26.035" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="35.814" y="26.67" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C45" library="HyTechDevices" package="0603-CAP" value=".1 uF" x="36.83" y="27.686" smashed="yes" rot="R90">
+<element name="C45" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="36.83" y="27.686" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.465" y="25.908" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="37.973" y="26.67" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
@@ -1751,7 +1751,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="79.121" y="35.56" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="76.454" y="36.449" size="0.4064" layer="28" font="vector" rot="MR180"/>
 </element>
-<element name="C101" library="HyTechDevices" package="0603-CAP" value=".1uF" x="77.47" y="37.338" smashed="yes" rot="MR180">
+<element name="C101" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="77.47" y="37.338" smashed="yes" rot="MR180">
 <attribute name="NAME" x="79.0956" y="37.6936" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="76.454" y="38.481" size="0.4064" layer="28" font="vector" rot="MR180"/>
 </element>
@@ -1759,7 +1759,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.3784" y="55.753" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="31.5214" y="55.118" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C33" library="HyTechDevices" package="0603-CAP" value=".1uF" x="30.5054" y="51.943" smashed="yes" rot="R180">
+<element name="C33" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="30.5054" y="51.943" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.6324" y="50.9016" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="31.5214" y="53.086" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1767,7 +1767,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.386" y="59.1312" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="37.973" y="59.944" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C35" library="HyTechDevices" package="0603-CAP" value=".1uF" x="36.957" y="56.769" smashed="yes" rot="R180">
+<element name="C35" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="36.957" y="56.769" smashed="yes" rot="R180">
 <attribute name="NAME" x="40.3352" y="57.0484" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="37.973" y="57.912" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1783,7 +1783,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.053" y="45.847" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="43.688" y="44.45" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C41" library="HyTechDevices" package="0603-CAP" value=".1uF" x="44.704" y="43.561" smashed="yes">
+<element name="C41" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="44.704" y="43.561" smashed="yes">
 <attribute name="NAME" x="43.053" y="43.815" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="43.688" y="42.418" size="0.4064" layer="27" font="vector"/>
 </element>
@@ -1829,7 +1829,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.575" y="90.424" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="29.972" y="89.789" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C2" library="HyTechDevices" package="0603-CAP" value=".1uF" x="28.956" y="86.614" smashed="yes" rot="R180">
+<element name="C2" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="28.956" y="86.614" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.575" y="85.598" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="29.972" y="87.757" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1837,7 +1837,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="36.4236" y="94.2594" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="36.83" y="93.599" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C4" library="HyTechDevices" package="0603-CAP" value=".1uF" x="35.814" y="90.424" smashed="yes" rot="R180">
+<element name="C4" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="35.814" y="90.424" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.465" y="89.662" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="36.83" y="91.567" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1853,7 +1853,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="44.323" y="79.248" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="43.688" y="80.899" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C14" library="HyTechDevices" package="0603-CAP" value=".1uF" x="42.672" y="77.724" smashed="yes" rot="R180">
+<element name="C14" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="42.672" y="77.724" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.323" y="77.216" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="43.688" y="78.867" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1889,15 +1889,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.0708" y="94.234" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="33.4518" y="93.599" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R8" library="HyTechDevices" package="0603-RES" value="120" x="42.672" y="83.82" smashed="yes">
+<element name="R8" library="HyTechDevices" package="0603-RES" value="350" x="42.672" y="83.82" smashed="yes">
 <attribute name="NAME" x="44.323" y="83.566" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="41.656" y="82.677" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="R7" library="HyTechDevices" package="0603-RES" value="120" x="42.672" y="85.852" smashed="yes" rot="R180">
+<element name="R7" library="HyTechDevices" package="0603-RES" value="350" x="42.672" y="85.852" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.323" y="85.598" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="43.688" y="86.995" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R6" library="HyTechDevices" package="0603-RES" value="120" x="42.672" y="87.884" smashed="yes" rot="R180">
+<element name="R6" library="HyTechDevices" package="0603-RES" value="350" x="42.672" y="87.884" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.323" y="87.63" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="43.688" y="89.027" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1905,11 +1905,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="49.657" y="83.82" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="46.99" y="82.931" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C15" library="HyTechDevices" package="0603-CAP" value=".1uF" x="48.006" y="82.042" smashed="yes">
+<element name="C15" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="48.006" y="82.042" smashed="yes">
 <attribute name="NAME" x="49.657" y="81.788" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="46.99" y="80.899" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="R9" library="HyTechDevices" package="0603-RES" value="1.27k" x="49.022" y="87.376" smashed="yes" rot="R180">
+<element name="R9" library="HyTechDevices" package="0603-RES" value="3.6k" x="49.022" y="87.376" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.943" y="87.63" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="50.038" y="88.519" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1952,7 +1952,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="27.305" y="69.469" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="30.607" y="69.977" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C21" library="HyTechDevices" package="0603-CAP" value=".1uF" x="29.591" y="70.866" smashed="yes" rot="R180">
+<element name="C21" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="29.591" y="70.866" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.305" y="72.009" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="30.607" y="72.009" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1960,7 +1960,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="35.179" y="77.216" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="35.56" y="76.835" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C12" library="HyTechDevices" package="0603-CAP" value=".1uF" x="34.544" y="73.66" smashed="yes" rot="R180">
+<element name="C12" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="34.544" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.195" y="72.644" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="35.56" y="74.803" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1976,7 +1976,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="42.799" y="62.484" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="43.434" y="60.833" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C23" library="HyTechDevices" package="0603-CAP" value=".1uF" x="38.862" y="61.976" smashed="yes" rot="R270">
+<element name="C23" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="38.862" y="61.976" smashed="yes" rot="R270">
 <attribute name="NAME" x="40.64" y="61.087" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="37.719" y="62.992" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
@@ -2012,15 +2012,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.845" y="75.946" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="32.512" y="76.835" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R34" library="HyTechDevices" package="0603-RES" value="120" x="43.18" y="70.104" smashed="yes">
+<element name="R34" library="HyTechDevices" package="0603-RES" value="350" x="43.18" y="70.104" smashed="yes">
 <attribute name="NAME" x="44.831" y="69.85" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="42.164" y="68.961" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="R33" library="HyTechDevices" package="0603-RES" value="120" x="43.18" y="72.136" smashed="yes" rot="R180">
+<element name="R33" library="HyTechDevices" package="0603-RES" value="350" x="43.18" y="72.136" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.831" y="71.882" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="44.196" y="73.279" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R23" library="HyTechDevices" package="0603-RES" value="120" x="43.18" y="74.168" smashed="yes" rot="R180">
+<element name="R23" library="HyTechDevices" package="0603-RES" value="350" x="43.18" y="74.168" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.831" y="73.914" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="44.196" y="75.311" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -2028,11 +2028,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.673" y="64.516" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="48.006" y="63.881" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C28" library="HyTechDevices" package="0603-CAP" value=".1uF" x="49.022" y="62.992" smashed="yes">
+<element name="C28" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="49.022" y="62.992" smashed="yes">
 <attribute name="NAME" x="50.673" y="62.738" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="48.006" y="61.849" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="R24" library="HyTechDevices" package="0603-RES" value="1.27k" x="48.514" y="74.168" smashed="yes" rot="R180">
+<element name="R24" library="HyTechDevices" package="0603-RES" value="3.6k" x="48.514" y="74.168" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.165" y="73.914" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="49.53" y="75.311" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -2065,15 +2065,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="86.741" y="63.246" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="84.328" y="63.881" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R37" library="HyTechDevices" package="0603-RES" value="120" x="44.45" y="64.008" smashed="yes">
+<element name="R37" library="HyTechDevices" package="0603-RES" value="350" x="44.45" y="64.008" smashed="yes">
 <attribute name="NAME" x="42.9514" y="64.1096" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="46.609" y="61.976" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R36" library="HyTechDevices" package="0603-RES" value="120" x="44.45" y="66.04" smashed="yes" rot="R180">
+<element name="R36" library="HyTechDevices" package="0603-RES" value="350" x="44.45" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.9514" y="66.1924" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="45.466" y="67.183" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R35" library="HyTechDevices" package="0603-RES" value="120" x="44.45" y="68.072" smashed="yes" rot="R180">
+<element name="R35" library="HyTechDevices" package="0603-RES" value="350" x="44.45" y="68.072" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.799" y="68.326" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="45.466" y="69.215" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -2081,11 +2081,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.165" y="69.6214" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="47.498" y="68.961" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C25" library="HyTechDevices" package="0603-CAP" value=".1uF" x="48.514" y="72.136" smashed="yes">
+<element name="C25" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="48.514" y="72.136" smashed="yes">
 <attribute name="NAME" x="50.1396" y="71.628" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="48.006" y="71.501" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="R38" library="HyTechDevices" package="0603-RES" value="1.27k" x="49.022" y="67.056" smashed="yes" rot="R180">
+<element name="R38" library="HyTechDevices" package="0603-RES" value="3.6k" x="49.022" y="67.056" smashed="yes" rot="R180">
 <attribute name="NAME" x="52.705" y="67.31" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="50.038" y="68.199" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -2094,7 +2094,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="54.229" y="54.102" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="51.308" y="53.467" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C39" library="HyTechDevices" package="0603-CAP" value=".1uF" x="52.324" y="52.578" smashed="yes">
+<element name="C39" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="52.324" y="52.578" smashed="yes">
 <attribute name="NAME" x="54.229" y="52.324" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="51.308" y="51.435" size="0.4064" layer="27" font="vector"/>
 </element>
@@ -2102,7 +2102,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.8" y="44.069" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="48.514" y="46.609" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C42" library="HyTechDevices" package="0603-CAP" value=".1uF" x="47.625" y="45.593" smashed="yes" rot="R270">
+<element name="C42" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="47.625" y="45.593" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.514" y="44.069" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="46.482" y="46.609" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
@@ -2110,19 +2110,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.641" y="52.324" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="48.006" y="53.975" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C36" library="HyTechDevices" package="0603-CAP" value=".1uF" x="46.99" y="54.864" smashed="yes" rot="R180">
+<element name="C36" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="46.99" y="54.864" smashed="yes" rot="R180">
 <attribute name="NAME" x="48.641" y="54.356" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="48.006" y="56.007" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R22" library="HyTechDevices" package="0603-RES" value="1.27k" x="42.672" y="81.788" smashed="yes">
+<element name="R22" library="HyTechDevices" package="0603-RES" value="3.6k" x="42.672" y="81.788" smashed="yes">
 <attribute name="NAME" x="44.323" y="81.28" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="41.656" y="80.645" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="R44" library="HyTechDevices" package="0603-RES" value="1.27k" x="42.672" y="50.292" smashed="yes" rot="R270">
+<element name="R44" library="HyTechDevices" package="0603-RES" value="3.6k" x="42.672" y="50.292" smashed="yes" rot="R270">
 <attribute name="NAME" x="44.704" y="49.403" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="41.529" y="51.308" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R43" library="HyTechDevices" package="0603-RES" value="1.27k" x="42.672" y="53.34" smashed="yes" rot="R90">
+<element name="R43" library="HyTechDevices" package="0603-RES" value="3.6k" x="42.672" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.704" y="52.451" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="43.815" y="52.324" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
@@ -2133,7 +2133,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="51.689" y="92.202" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="48.768" y="91.313" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C7" library="HyTechDevices" package="0603-CAP" value=".1uF" x="49.784" y="90.424" smashed="yes">
+<element name="C7" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="49.784" y="90.424" smashed="yes">
 <attribute name="NAME" x="51.689" y="90.17" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="48.768" y="89.281" size="0.4064" layer="27" font="vector"/>
 </element>
@@ -2141,7 +2141,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.165" y="77.724" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="47.498" y="77.089" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C17" library="HyTechDevices" package="0603-CAP" value=".1uF" x="48.514" y="76.2" smashed="yes">
+<element name="C17" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="48.514" y="76.2" smashed="yes">
 <attribute name="NAME" x="50.165" y="75.946" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="47.498" y="75.057" size="0.4064" layer="27" font="vector"/>
 </element>
