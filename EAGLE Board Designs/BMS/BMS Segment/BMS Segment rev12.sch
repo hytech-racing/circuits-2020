@@ -2638,6 +2638,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$6" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$7" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$8" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="J_CELL_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
+<part name="AMS_CELL_TEST" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
+<part name="J_THERM_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
+<part name="AMS_THERM_TEST" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
 </parts>
 <sheets>
 <sheet>
@@ -3449,6 +3457,28 @@ set chip address</text>
 <instance part="U$6" gate="G$1" x="-175.26" y="-88.9" smashed="yes" rot="R180"/>
 <instance part="U$7" gate="G$1" x="2.54" y="-33.02" smashed="yes" rot="R270"/>
 <instance part="U$8" gate="G$1" x="5.08" y="205.74" smashed="yes" rot="R270"/>
+<instance part="J_CELL_A" gate="G$1" x="-172.72" y="276.86" smashed="yes">
+<attribute name="NAME" x="-176.53" y="278.3586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-176.53" y="273.558" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="-172.72" y="276.86" size="0.127" layer="96" display="off"/>
+</instance>
+<instance part="AMS_CELL_TEST" gate="-2" x="-187.96" y="289.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="-190.5" y="290.322" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="AMS_CELL_TEST" gate="-1" x="-187.96" y="287.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="-190.5" y="287.782" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="J_THERM_A" gate="G$1" x="50.8" y="251.46" smashed="yes">
+<attribute name="NAME" x="46.99" y="252.9586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.99" y="248.158" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="50.8" y="251.46" size="0.127" layer="96" display="off"/>
+</instance>
+<instance part="AMS_THERM_TEST" gate="-2" x="50.8" y="233.68" smashed="yes" rot="R270">
+<attribute name="NAME" x="50.038" y="231.14" size="1.524" layer="95" rot="R270"/>
+</instance>
+<instance part="AMS_THERM_TEST" gate="-1" x="53.34" y="233.68" smashed="yes" rot="R270">
+<attribute name="NAME" x="52.578" y="231.14" size="1.524" layer="95" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5392,23 +5422,24 @@ set chip address</text>
 <portref moduleinst="THERM_FILTER9" port="GPIO"/>
 </segment>
 </net>
-<net name="GPIO3_A" class="0">
+<net name="GPIO3_A_POST" class="0">
 <segment>
-<wire x1="17.78" y1="251.46" x2="50.8" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="251.46" x2="45.72" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GPI03"/>
-<label x="50.8" y="251.46" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<portref moduleinst="THERM_FILTER8" port="GPIO"/>
-<wire x1="107.95" y1="256.54" x2="106.68" y2="256.54" width="0.1524" layer="91"/>
-<label x="106.68" y="256.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J_THERM_A" gate="G$1" pin="1"/>
+<pinref part="AMS_THERM_TEST" gate="-2" pin="S"/>
+<wire x1="50.8" y1="236.22" x2="50.8" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="243.84" x2="45.72" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="243.84" x2="45.72" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="248.92" x2="45.72" y2="251.46" width="0.1524" layer="91"/>
+<junction x="45.72" y="251.46"/>
 </segment>
 </net>
 <net name="GPIO2_A" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GPI02"/>
-<wire x1="40.64" y1="248.92" x2="17.78" y2="248.92" width="0.1524" layer="91"/>
-<label x="40.64" y="248.92" size="1.778" layer="95" xref="yes"/>
+<wire x1="33.02" y1="248.92" x2="17.78" y2="248.92" width="0.1524" layer="91"/>
+<label x="33.02" y="248.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <portref moduleinst="THERM_FILTER7" port="GPIO"/>
@@ -5488,11 +5519,8 @@ set chip address</text>
 <pinref part="U$1" gate="G$1" pin="VREF1"/>
 </segment>
 </net>
-<net name="SENSE17" class="0">
+<net name="SENSE17_POST" class="0">
 <segment>
-<pinref part="F17" gate="G$1" pin="2"/>
-<label x="-195.58" y="276.86" size="1.778" layer="95"/>
-<wire x1="-160.02" y1="276.86" x2="-205.74" y2="276.86" width="0.1524" layer="91"/>
 <portref moduleinst="DRAIN17" port="CELL+"/>
 <junction x="-127" y="299.72"/>
 <portref moduleinst="DRAIN18" port="CELL-"/>
@@ -5500,6 +5528,12 @@ set chip address</text>
 <wire x1="-127" y1="299.72" x2="-160.02" y2="299.72" width="0.1524" layer="91"/>
 <label x="-139.7" y="299.72" size="1.778" layer="95"/>
 <wire x1="-160.02" y1="299.72" x2="-160.02" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="-160.02" y1="276.86" x2="-167.64" y2="276.86" width="0.1524" layer="91"/>
+<pinref part="J_CELL_A" gate="G$1" pin="2"/>
+<pinref part="AMS_CELL_TEST" gate="-2" pin="S"/>
+<wire x1="-185.42" y1="289.56" x2="-167.64" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="289.56" x2="-167.64" y2="276.86" width="0.1524" layer="91"/>
+<junction x="-167.64" y="276.86"/>
 </segment>
 </net>
 <net name="SENSE16" class="0">
@@ -5683,6 +5717,35 @@ set chip address</text>
 <wire x1="15.24" y1="-25.4" x2="15.24" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-22.86" x2="-2.54" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-2.54" y="-22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SENSE17_PRE" class="0">
+<segment>
+<pinref part="F17" gate="G$1" pin="2"/>
+<wire x1="-177.8" y1="276.86" x2="-205.74" y2="276.86" width="0.1524" layer="91"/>
+<label x="-195.58" y="276.86" size="1.778" layer="95"/>
+<pinref part="J_CELL_A" gate="G$1" pin="1"/>
+<wire x1="-177.8" y1="276.86" x2="-177.8" y2="287.02" width="0.1524" layer="91"/>
+<junction x="-177.8" y="276.86"/>
+<pinref part="AMS_CELL_TEST" gate="-1" pin="S"/>
+<wire x1="-177.8" y1="287.02" x2="-185.42" y2="287.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GPIO3_A_PRE" class="0">
+<segment>
+<pinref part="J_THERM_A" gate="G$1" pin="2"/>
+<junction x="55.88" y="251.46"/>
+<wire x1="55.88" y1="243.84" x2="55.88" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="243.84" x2="55.88" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="AMS_THERM_TEST" gate="-1" pin="S"/>
+<wire x1="53.34" y1="236.22" x2="53.34" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="251.46" x2="58.42" y2="251.46" width="0.1524" layer="91"/>
+<label x="58.42" y="251.46" size="1.778" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<portref moduleinst="THERM_FILTER8" port="GPIO"/>
+<wire x1="107.95" y1="256.54" x2="106.68" y2="256.54" width="0.1524" layer="91"/>
+<label x="106.68" y="256.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
