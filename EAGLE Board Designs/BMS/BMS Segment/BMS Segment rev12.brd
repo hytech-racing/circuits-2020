@@ -1136,7 +1136,8 @@
 <rectangle x1="91.0414" y1="214.009" x2="92.3622" y2="214.0598" layer="51" rot="R90"/>
 <rectangle x1="91.397" y1="211.0118" x2="91.905" y2="211.0626" layer="51" rot="R90"/>
 <rectangle x1="90.9906" y1="214.009" x2="92.3114" y2="214.0598" layer="51" rot="R90"/>
-<text x="89.027" y="22.225" size="1.016" layer="51" font="vector" rot="R270" align="center">HyTech 2020 BMS Segment rev12
+<text x="89.027" y="22.225" size="1.016" layer="51" font="vector" rot="R270" align="center">HyTech Racing 2020
+BMS Segment rev12
 Designed by Arvind Srinivasan,
 based on rev10 by Yvonne Yeh</text>
 <text x="14.27" y="206.7" size="2.032" layer="51" font="vector" rot="SR90" align="center">DANGER HIGH VOLTAGE</text>
@@ -4419,7 +4420,7 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="15mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
@@ -4458,7 +4459,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="30mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -4470,7 +4471,7 @@ design rules under a new name.</description>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
+<param name="checkValues" value="1"/>
 <param name="checkNames" value="1"/>
 <param name="checkWireStubs" value="1"/>
 <param name="checkPolygonWidth" value="0"/>
@@ -8115,9 +8116,9 @@ design rules under a new name.</description>
 <via x="90.508" y="136.679" extent="1-16" drill="0.381"/>
 <wire x1="90.508" y1="153.289" x2="90.508" y2="136.679" width="0.254" layer="16"/>
 <wire x1="90.508" y1="136.679" x2="91.1854" y2="136.0016" width="0.4064" layer="1"/>
-<wire x1="105.199" y1="167.048" x2="102.997" y2="164.846" width="0.254" layer="16"/>
-<wire x1="102.997" y1="164.846" x2="102.065" y2="164.846" width="0.254" layer="16"/>
-<wire x1="102.065" y1="164.846" x2="90.508" y2="153.289" width="0.254" layer="16"/>
+<wire x1="105.199" y1="167.048" x2="103.124" y2="164.973" width="0.254" layer="16"/>
+<wire x1="103.124" y1="164.973" x2="102.192" y2="164.973" width="0.254" layer="16"/>
+<wire x1="102.192" y1="164.973" x2="90.508" y2="153.289" width="0.254" layer="16"/>
 <wire x1="105.199" y1="183.23201875" x2="105.199" y2="167.048" width="0.254" layer="16"/>
 <wire x1="91.1854" y1="136.0016" x2="91.1854" y2="135.0064" width="0.4064" layer="1"/>
 </signal>
@@ -8140,10 +8141,10 @@ design rules under a new name.</description>
 <wire x1="88.857" y1="141.251" x2="88.984" y2="141.378" width="0.4064" layer="16"/>
 <wire x1="89.657" y1="153.416" x2="89.657" y2="142.305" width="0.254" layer="16"/>
 <wire x1="89.657" y1="142.305" x2="88.857" y2="141.505" width="0.254" layer="16"/>
-<wire x1="104.581678125" y1="167.319678125" x2="102.616" y2="165.354" width="0.254" layer="16"/>
-<wire x1="102.616" y1="165.354" x2="101.595" y2="165.354" width="0.254" layer="16"/>
+<wire x1="104.581678125" y1="167.319678125" x2="102.87" y2="165.608" width="0.254" layer="16"/>
+<wire x1="102.87" y1="165.608" x2="101.849" y2="165.608" width="0.254" layer="16"/>
 <wire x1="104.581678125" y1="183.137678125" x2="104.581678125" y2="167.319678125" width="0.254" layer="16"/>
-<wire x1="101.595" y1="165.354" x2="89.657" y2="153.416" width="0.254" layer="16"/>
+<wire x1="101.849" y1="165.608" x2="89.657" y2="153.416" width="0.254" layer="16"/>
 <wire x1="91.1854" y1="131.0064" x2="89.1956" y2="131.0064" width="0.4064" layer="1"/>
 </signal>
 <signal name="GPIO1_A">
@@ -8684,61 +8685,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="4,1,4804a6ce256c166e"/>
-<approved hash="4,1,bd65026ad9c50ac2"/>
-<approved hash="4,1,9f6421abfcd421ef"/>
-<approved hash="4,1,2d07c9d5545765d5"/>
-<approved hash="4,1,3008871b5fb28023"/>
-<approved hash="4,1,347511cd57bce914"/>
-<approved hash="4,1,084ee4ac64fa481c"/>
-<approved hash="4,1,ab2345e1c66aeaaf"/>
-<approved hash="4,1,fac74ce09b1748b4"/>
-<approved hash="4,1,1bfca5db7fa8abb5"/>
-<approved hash="4,1,3352093752c20e02"/>
-<approved hash="4,1,07576843f4624240"/>
-<approved hash="4,1,347511cd57bce914"/>
-<approved hash="4,1,536722ef9e9b0704"/>
-<approved hash="4,1,83b56043f7edc119"/>
-<approved hash="4,1,6361f195d6b963e5"/>
-<approved hash="4,1,5355a4e7dfb04684"/>
-<approved hash="4,16,084ee4ac64fa481c"/>
-<approved hash="4,16,ab2345e1c66aeaaf"/>
-<approved hash="4,16,fac74ce09b1748b4"/>
-<approved hash="4,16,1bfca5db7fa8abb5"/>
-<approved hash="4,16,3352093752c20e02"/>
-<approved hash="4,16,07576843f4624240"/>
-<approved hash="4,16,83b56043f7edc119"/>
-<approved hash="4,16,4804a6ce256c166e"/>
-<approved hash="4,16,bd65026ad9c50ac2"/>
-<approved hash="4,16,9f6421abfcd421ef"/>
-<approved hash="4,16,2d07c9d5545765d5"/>
-<approved hash="4,16,3008871b5fb28023"/>
-<approved hash="4,1,ae62cbe58d31a9d7"/>
-<approved hash="4,1,d6dc11613be3e71d"/>
-<approved hash="4,1,03e5400de41dcb6d"/>
-<approved hash="4,1,daef06644b6e8ec9"/>
-<approved hash="4,1,711822446cb878f6"/>
-<approved hash="4,1,ba100f4a504cb1bc"/>
-<approved hash="4,1,be36cc5ca5553c88"/>
-<approved hash="4,1,8a4fc8237956a539"/>
-<approved hash="4,16,03e5400de41dcb6d"/>
-<approved hash="4,16,daef06644b6e8ec9"/>
-<approved hash="4,16,55866aea3362ad31"/>
-<approved hash="4,16,ba100f4a504cb1bc"/>
-<approved hash="4,16,be36cc5ca5553c88"/>
-<approved hash="4,16,8a4fc8237956a539"/>
-<approved hash="4,16,afd0bf4dbf3dc1c0"/>
-<approved hash="4,1,7d61e89d6a3bfbe6"/>
-<approved hash="4,1,964250ff7a6de4e1"/>
-<approved hash="4,1,54c7a5427e2d46e4"/>
-<approved hash="4,16,d521b73ef7cda950"/>
-<approved hash="4,1,dba4e6924f941bec"/>
-<approved hash="4,1,bcb3690bdb6010f8"/>
-<approved hash="4,16,6361f195d6b963e5"/>
-<approved hash="4,16,e51bf6529116a524"/>
-<approved hash="4,16,6103f4bf482a6425"/>
-<approved hash="4,16,bf2f3f68e0951a24"/>
-<approved hash="4,16,ae62cbe58d31a9d7"/>
 <approved hash="7,39,741474321eca1eec"/>
 <approved hash="7,39,e3ad24a0c9d36ba6"/>
 <approved hash="7,39,23f366e5dbd6a338"/>
