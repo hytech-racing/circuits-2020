@@ -7956,10 +7956,10 @@ MX150L™ Vertical PCB Header</description>
 <package name="5X20MM_FUSE">
 <smd name="P$1" x="-7.493" y="0" dx="5.08" dy="5.588" layer="1" rot="R90"/>
 <smd name="P$2" x="7.493" y="0" dx="5.08" dy="5.588" layer="1" rot="R90"/>
-<wire x1="-10.3505" y1="2.6035" x2="10.3505" y2="2.6035" width="0.127" layer="21"/>
-<wire x1="10.3505" y1="2.6035" x2="10.3505" y2="-2.6035" width="0.127" layer="21"/>
-<wire x1="10.3505" y1="-2.6035" x2="-10.3505" y2="-2.6035" width="0.127" layer="21"/>
-<wire x1="-10.3505" y1="-2.6035" x2="-10.3505" y2="2.6035" width="0.127" layer="21"/>
+<wire x1="-10.414" y1="2.667" x2="10.414" y2="2.667" width="0.127" layer="21"/>
+<wire x1="10.414" y1="2.667" x2="10.414" y2="-2.667" width="0.127" layer="21"/>
+<wire x1="10.414" y1="-2.667" x2="-10.414" y2="-2.667" width="0.127" layer="21"/>
+<wire x1="-10.414" y1="-2.667" x2="-10.414" y2="2.667" width="0.127" layer="21"/>
 </package>
 <package name="SM51589PEL">
 <smd name="1" x="0" y="0" dx="1.905" dy="0.635" layer="1" rot="R90"/>
