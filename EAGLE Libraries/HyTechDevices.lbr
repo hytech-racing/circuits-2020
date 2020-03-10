@@ -5504,7 +5504,7 @@ Updated for XBee Pro based off &lt;a href="https://www.sparkfun.com/datasheets/W
 <wire x1="-6.35" y1="-2.75" x2="6.35" y2="-2.75" width="0.1524" layer="21"/>
 <wire x1="-6.35" y1="-2.75" x2="-6.35" y2="2.75" width="0.1524" layer="21"/>
 <wire x1="6.35" y1="-2.75" x2="6.35" y2="2.75" width="0.1524" layer="21"/>
-<text x="0" y="0" size="1.27" layer="21" align="center">LTC6804</text>
+<text x="0" y="0" size="1.016" layer="21" align="center">LTC6804</text>
 </package>
 <package name="MSOP-16">
 <smd name="1" x="-0.1" y="-0.5" dx="0.305" dy="0.889" layer="1" rot="R180"/>
@@ -10145,7 +10145,7 @@ Same pad spacing as SOIC-16, but larger footprint</description>
 <wire x1="-6.35" y1="-2.75" x2="6.35" y2="-2.75" width="0.1524" layer="21"/>
 <wire x1="-6.35" y1="-2.75" x2="-6.35" y2="2.75" width="0.1524" layer="21"/>
 <wire x1="6.35" y1="-2.75" x2="6.35" y2="2.75" width="0.1524" layer="21"/>
-<text x="0" y="0" size="1.27" layer="21" align="center">LTC6811</text>
+<text x="0" y="0" size="1.016" layer="21" align="center">LTC6811</text>
 </package>
 </packages>
 <symbols>
