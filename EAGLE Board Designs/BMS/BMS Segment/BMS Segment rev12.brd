@@ -35,8 +35,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -49,11 +49,11 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -2939,16 +2939,6 @@ based on rev10 by Yvonne Yeh</text>
 <wire x1="95.3" y1="247.11" x2="0" y2="247.11" width="0" layer="20"/>
 <wire x1="0" y1="247.11" x2="0" y2="226.72538125" width="0" layer="20"/>
 <wire x1="0" y1="226.72538125" x2="9" y2="226.72538125" width="0" layer="20"/>
-<hole x="5" y="239.11" drill="3.6"/>
-<hole x="5" y="181.73" drill="3.6"/>
-<hole x="5" y="151.78" drill="3.6"/>
-<hole x="5" y="101.78" drill="3.6"/>
-<hole x="5" y="71.84" drill="3.6"/>
-<hole x="5" y="14.46" drill="3.6"/>
-<hole x="101.65" y="37.86" drill="3.6"/>
-<hole x="101.65" y="91.78" drill="3.6"/>
-<hole x="103.65" y="161.78" drill="3.6"/>
-<hole x="103.65" y="215.71" drill="3.6"/>
 <text x="106.172" y="101.727" size="1.016" layer="51" font="vector" rot="R180" align="center">0</text>
 <text x="102.362" y="101.727" size="1.016" layer="51" font="vector" rot="R180" align="center">0</text>
 <text x="98.552" y="101.727" size="1.016" layer="51" font="vector" rot="R180" align="center">0</text>
@@ -3275,16 +3265,6 @@ based on rev10 by Yvonne Yeh</text>
 <rectangle x1="70.485" y1="-0.254" x2="83.312" y2="9.144" layer="51"/>
 <text x="92.964" y="34.036" size="1.016" layer="51" font="vector" rot="R270" align="center">DRIVE_B</text>
 <text x="92.964" y="163.068" size="1.016" layer="51" font="vector" rot="R90" align="center">DRIVE_A</text>
-<circle x="5" y="239.11" radius="3" width="0.127" layer="39"/>
-<circle x="5" y="181.73" radius="3" width="0.127" layer="39"/>
-<circle x="5" y="151.78" radius="3" width="0.127" layer="39"/>
-<circle x="5" y="71.84" radius="3" width="0.127" layer="39"/>
-<circle x="5" y="101.78" radius="3" width="0.127" layer="39"/>
-<circle x="5" y="14.46" radius="3" width="0.127" layer="39"/>
-<circle x="103.65" y="215.71" radius="3" width="0.127" layer="39"/>
-<circle x="103.65" y="161.78" radius="3" width="0.127" layer="39"/>
-<circle x="101.65" y="91.78" radius="3" width="0.127" layer="39"/>
-<circle x="101.65" y="37.86" radius="3" width="0.127" layer="39"/>
 <text x="89.047" y="245.205" size="2.032" layer="51" font="vector" align="center">Cell 18</text>
 <rectangle x1="49.9823" y1="179.094159375" x2="57.37878125" y2="179.111940625" layer="51" rot="R90"/>
 <rectangle x1="49.91118125" y1="179.1119375" x2="57.4143375" y2="179.12971875" layer="51" rot="R90"/>
@@ -4164,17 +4144,7 @@ based on rev10 by Yvonne Yeh</text>
 <rectangle x1="47.093053125" y1="179.10305" x2="47.395309375" y2="179.120825" layer="51" rot="R90"/>
 <rectangle x1="47.11083125" y1="179.103046875" x2="47.34196875" y2="179.120828125" layer="51" rot="R90"/>
 <rectangle x1="47.164171875" y1="179.103053125" x2="47.253071875" y2="179.120828125" layer="51" rot="R90"/>
-<circle x="101.65" y="91.78" radius="3" width="0.127" layer="41"/>
-<circle x="101.65" y="37.86" radius="3" width="0.127" layer="41"/>
-<circle x="103.65" y="161.78" radius="3" width="0.127" layer="39"/>
-<circle x="103.65" y="161.78" radius="3" width="0.127" layer="41"/>
-<circle x="103.65" y="215.71" radius="3" width="0.127" layer="41"/>
 <circle x="5" y="239.11" radius="3" width="0.127" layer="41"/>
-<circle x="5" y="151.78" radius="3" width="0.127" layer="39"/>
-<circle x="5" y="151.78" radius="3" width="0.127" layer="41"/>
-<circle x="5" y="71.84" radius="3" width="0.127" layer="41"/>
-<circle x="5" y="14.46" radius="3" width="0.127" layer="39"/>
-<circle x="5" y="14.46" radius="3" width="0.127" layer="41"/>
 </plain>
 <libraries>
 <library name="HyTechDevices">
@@ -4297,7 +4267,7 @@ based on rev10 by Yvonne Yeh</text>
 <wire x1="-6.35" y1="-2.75" x2="6.35" y2="-2.75" width="0.1524" layer="21"/>
 <wire x1="-6.35" y1="-2.75" x2="-6.35" y2="2.75" width="0.1524" layer="21"/>
 <wire x1="6.35" y1="-2.75" x2="6.35" y2="2.75" width="0.1524" layer="21"/>
-<text x="0" y="0" size="1.27" layer="21" align="center">LTC6811</text>
+<text x="0" y="0" size="1.016" layer="21" align="center">LTC6811</text>
 </package>
 <package name="NANO-FIT_VERTICAL-2">
 <description>105309-1202
@@ -4397,6 +4367,13 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <package name="TEST_POINT">
 <circle x="0" y="0" radius="1.5875" width="0.127" layer="21"/>
 <pad name="P$1" x="0" y="0" drill="1.6002" rot="R90"/>
+</package>
+<package name="M3_MOUNTING">
+<hole x="0" y="0" drill="3.3528"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="42"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="40"/>
 </package>
 </packages>
 </library>
@@ -5558,6 +5535,16 @@ design rules under a new name.</description>
 <element name="U$6" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="101.65" y="83.392" smashed="yes" rot="R90"/>
 <element name="U$7" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="95.504" y="34.036" smashed="yes"/>
 <element name="U$8" library="HyTechDevices" package="TEST_POINT" value="TEST_POINT" x="95.504" y="163.068" smashed="yes"/>
+<element name="U$9" library="HyTechDevices" package="M3_MOUNTING" value="" x="103.65" y="215.71" smashed="yes"/>
+<element name="U$10" library="HyTechDevices" package="M3_MOUNTING" value="" x="5" y="239.11" smashed="yes"/>
+<element name="U$11" library="HyTechDevices" package="M3_MOUNTING" value="" x="5" y="151.78" smashed="yes"/>
+<element name="U$12" library="HyTechDevices" package="M3_MOUNTING" value="" x="5" y="181.73" smashed="yes"/>
+<element name="U$13" library="HyTechDevices" package="M3_MOUNTING" value="" x="5" y="71.84" smashed="yes"/>
+<element name="U$14" library="HyTechDevices" package="M3_MOUNTING" value="" x="5" y="101.78" smashed="yes"/>
+<element name="U$15" library="HyTechDevices" package="M3_MOUNTING" value="" x="103.65" y="161.78" smashed="yes"/>
+<element name="U$16" library="HyTechDevices" package="M3_MOUNTING" value="" x="101.65" y="91.78" smashed="yes"/>
+<element name="U$17" library="HyTechDevices" package="M3_MOUNTING" value="" x="5" y="14.46" smashed="yes"/>
+<element name="U$18" library="HyTechDevices" package="M3_MOUNTING" value="" x="101.65" y="37.86" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VREF1_B">
