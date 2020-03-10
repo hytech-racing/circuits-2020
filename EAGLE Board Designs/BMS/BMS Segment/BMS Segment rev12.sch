@@ -315,12 +315,12 @@ chip</description>
 <text x="-0.9" y="-0.7" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="5X20MM_FUSE">
-<smd name="P$1" x="-7.5" y="0" dx="4.999990625" dy="5.4999875" layer="1" rot="R90"/>
-<smd name="P$2" x="7.5" y="0" dx="4.999990625" dy="5.4999875" layer="1" rot="R90"/>
-<wire x1="-10" y1="2.6" x2="10" y2="2.6" width="0.127" layer="21"/>
-<wire x1="10" y1="2.6" x2="10" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="10" y1="-2.6" x2="-10" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-10" y1="-2.6" x2="-10" y2="2.6" width="0.127" layer="21"/>
+<smd name="P$1" x="-7.493" y="0" dx="5.08" dy="5.588" layer="1" rot="R90"/>
+<smd name="P$2" x="7.493" y="0" dx="5.08" dy="5.588" layer="1" rot="R90"/>
+<wire x1="-10.414" y1="2.667" x2="10.414" y2="2.667" width="0.127" layer="21"/>
+<wire x1="10.414" y1="2.667" x2="10.414" y2="-2.667" width="0.127" layer="21"/>
+<wire x1="10.414" y1="-2.667" x2="-10.414" y2="-2.667" width="0.127" layer="21"/>
+<wire x1="-10.414" y1="-2.667" x2="-10.414" y2="2.667" width="0.127" layer="21"/>
 </package>
 <package name="CTZ3">
 <description>CTZ3 Series land pattern for variable capacitor - CTZ3E-50C-W1-PF</description>
