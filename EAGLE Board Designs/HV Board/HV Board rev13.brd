@@ -3924,7 +3924,7 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="5%" x="8.382" y="6.604" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="8.382" y="6.604" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="C17" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="10.414" y="6.604" smashed="yes" rot="MR90">
+<element name="C17" library="HyTechDevices" package="0603-CAP" value="1uF" x="10.414" y="6.604" smashed="yes" rot="MR90">
 <attribute name="NAME" x="11.43" y="6.604" size="0.762" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="10.414" y="6.604" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="10.414" y="6.604" size="1.778" layer="28" rot="MR90" display="off"/>
