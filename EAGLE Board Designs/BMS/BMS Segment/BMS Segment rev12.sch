@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2073,7 +2073,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="LED1" library="HyTechDevices" deviceset="LED" device="-0603" value="RED">
 <attribute name="DKPN" value="350-2038-1-ND"/>
 </part>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="806R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 </parts>
@@ -2662,7 +2662,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="12.7" y="365.76" size="1.778" layer="97" align="bottom-center">RM (TERMINATION) is only to be connected on LAST segment</text>
 <text x="-266.7" y="327.66" size="6.4516" layer="97">Circuit A (Upper 9 Cells)</text>
 <text x="-266.7" y="68.58" size="6.4516" layer="97">Circuit B (Lower 9 Cells)</text>
-<text x="-195.58" y="137.16" size="1.778" layer="97">V-_A / SENSE9</text>
+<text x="-198.12" y="137.16" size="1.778" layer="95" font="vector">V-_A / SENSE9</text>
 <text x="-139.7" y="78.74" size="1.778" layer="97">SENSE9</text>
 <text x="-248.92" y="132.08" size="3.2258" layer="97" align="bottom-right">CELL 9 IS SHARED BY 
 CIRCUIT A AND CIRCUIT B</text>
@@ -2796,8 +2796,8 @@ set chip address</text>
 </instance>
 <instance part="C6_B" gate="G$1" x="-109.22" y="99.06" smashed="yes">
 <attribute name="NAME" x="-107.696" y="101.981" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-107.696" y="96.901" size="1.778" layer="96"/>
-<attribute name="VOLTAGE" x="-115.316" y="96.52" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-110.744" y="96.901" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="VOLTAGE" x="-103.124" y="96.52" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="TOLERANCE" x="-109.22" y="99.06" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F9" gate="G$1" x="-210.82" y="137.16" smashed="yes">
@@ -2937,11 +2937,9 @@ set chip address</text>
 <attribute name="TOLERANCE" x="-121.92" y="86.36" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="TRANSFORMER" gate="G$1" x="7.62" y="111.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.7" y="96.52" size="1.778" layer="95" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="12.7" y="124.587" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
 <instance part="TRANSFORMER" gate="G$2" x="7.62" y="350.52" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.7" y="335.28" size="1.778" layer="95" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="12.7" y="363.347" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
 <instance part="RM_B" gate="G$1" x="40.64" y="111.76" smashed="yes" rot="R270">
@@ -3073,10 +3071,10 @@ set chip address</text>
 <attribute name="VALUE" x="44.45" y="292.862" size="1.778" layer="96" rot="R180"/>
 <attribute name="TOLERANCE" x="40.64" y="289.56" size="0.127" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R1_A" gate="G$1" x="-121.92" y="345.44" smashed="yes">
-<attribute name="NAME" x="-125.73" y="346.9386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-125.73" y="342.138" size="1.778" layer="96"/>
-<attribute name="TOLERANCE" x="-121.92" y="345.44" size="0.127" layer="96" display="off"/>
+<instance part="R1_A" gate="G$1" x="-121.92" y="342.9" smashed="yes">
+<attribute name="NAME" x="-125.73" y="344.3986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-125.73" y="339.598" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="-121.92" y="342.9" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="U$1" gate="G$1" x="-5.08" y="302.26" smashed="yes"/>
 <instance part="C4_A" gate="G$1" x="-15.24" y="330.2" smashed="yes" rot="MR0">
@@ -3085,11 +3083,11 @@ set chip address</text>
 <attribute name="VOLTAGE" x="-15.24" y="330.2" size="0.127" layer="96" rot="MR0" display="off"/>
 <attribute name="TOLERANCE" x="-15.24" y="330.2" size="0.127" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="C6_A" gate="G$1" x="-109.22" y="337.82" smashed="yes">
-<attribute name="NAME" x="-107.696" y="340.741" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-107.696" y="335.661" size="1.778" layer="96"/>
-<attribute name="VOLTAGE" x="-115.316" y="335.28" size="1.778" layer="96"/>
-<attribute name="TOLERANCE" x="-109.22" y="337.82" size="0.127" layer="96" display="off"/>
+<instance part="C6_A" gate="G$1" x="-109.22" y="335.28" smashed="yes">
+<attribute name="NAME" x="-107.696" y="338.201" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-110.744" y="333.121" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="VOLTAGE" x="-103.124" y="332.74" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="TOLERANCE" x="-109.22" y="335.28" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="F18" gate="G$1" x="-210.82" y="279.4" smashed="yes">
 <attribute name="NAME" x="-218.44" y="279.654" size="1.778" layer="95" font="vector"/>
@@ -3162,11 +3160,11 @@ set chip address</text>
 <instance part="SUPPLY30" gate="1" x="-127" y="134.62" smashed="yes">
 <attribute name="VALUE" x="-127" y="134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY31" gate="1" x="-109.22" y="330.2" smashed="yes">
-<attribute name="VALUE" x="-106.68" y="332.74" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY31" gate="1" x="-109.22" y="327.66" smashed="yes">
+<attribute name="VALUE" x="-109.22" y="327.66" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY32" gate="1" x="63.5" y="248.92" smashed="yes">
-<attribute name="VALUE" x="63.5" y="246.38" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY32" gate="1" x="68.58" y="254" smashed="yes" rot="R90">
+<attribute name="VALUE" x="68.58" y="254" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY33" gate="1" x="-15.24" y="322.58" smashed="yes">
 <attribute name="VALUE" x="-15.24" y="322.58" size="1.778" layer="96" rot="R180"/>
@@ -3289,7 +3287,7 @@ set chip address</text>
 <attribute name="VALUE" x="58.42" y="320.04" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY47" gate="1" x="63.5" y="281.94" smashed="yes" rot="R180">
-<attribute name="VALUE" x="63.5" y="284.48" size="1.778" layer="96"/>
+<attribute name="VALUE" x="63.5" y="281.94" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY48" gate="1" x="139.7" y="269.24" smashed="yes">
 <attribute name="VALUE" x="140.716" y="269.24" size="1.778" layer="96"/>
@@ -3403,14 +3401,14 @@ set chip address</text>
 <attribute name="NAME" x="16.51" y="208.28" size="1.778" layer="95"/>
 <attribute name="VALUE" x="16.51" y="205.74" size="1.778" layer="96"/>
 </instance>
-<instance part="C7_A" gate="G$1" x="-96.52" y="355.6" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-98.044" y="358.521" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-98.044" y="353.441" size="1.778" layer="96" rot="MR0"/>
-<attribute name="VOLTAGE" x="-98.044" y="350.52" size="1.778" layer="96" rot="MR0"/>
-<attribute name="TOLERANCE" x="-96.52" y="355.6" size="0.127" layer="96" rot="MR0" display="off"/>
+<instance part="C7_A" gate="G$1" x="-109.22" y="353.06" smashed="yes">
+<attribute name="NAME" x="-107.696" y="355.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-110.744" y="350.901" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="VOLTAGE" x="-103.124" y="350.52" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="TOLERANCE" x="-109.22" y="353.06" size="0.127" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY69" gate="1" x="-96.52" y="347.98" smashed="yes">
-<attribute name="VALUE" x="-96.52" y="347.98" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY69" gate="1" x="-109.22" y="345.44" smashed="yes">
+<attribute name="VALUE" x="-109.22" y="345.44" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="RIN_A" gate="G$1" x="-121.92" y="360.68" smashed="yes">
 <attribute name="NAME" x="-125.73" y="362.1786" size="1.778" layer="95"/>
@@ -3431,7 +3429,7 @@ set chip address</text>
 <attribute name="VALUE" x="16.51" y="-33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="C7_B" gate="G$1" x="-109.22" y="119.38" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-103.124" y="122.301" size="1.778" layer="95" rot="MR0"/>
+<attribute name="NAME" x="-107.696" y="122.301" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-110.744" y="117.221" size="1.778" layer="96" rot="MR0"/>
 <attribute name="VOLTAGE" x="-103.124" y="116.84" size="1.778" layer="96" rot="MR0"/>
 <attribute name="TOLERANCE" x="-109.22" y="119.38" size="0.127" layer="96" rot="MR0" display="off"/>
@@ -3462,22 +3460,22 @@ set chip address</text>
 <attribute name="VALUE" x="-176.53" y="273.558" size="1.778" layer="96"/>
 <attribute name="TOLERANCE" x="-172.72" y="276.86" size="0.127" layer="96" display="off"/>
 </instance>
-<instance part="AMS_CELL_TEST" gate="-2" x="-187.96" y="289.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="-190.5" y="290.322" size="1.524" layer="95" rot="R180"/>
+<instance part="AMS_CELL_TEST" gate="-2" x="-238.76" y="289.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="-241.3" y="290.322" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="AMS_CELL_TEST" gate="-1" x="-187.96" y="287.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="-190.5" y="287.782" size="1.524" layer="95" rot="R180"/>
+<instance part="AMS_CELL_TEST" gate="-1" x="-238.76" y="287.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="-241.3" y="287.782" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="J_THERM_A" gate="G$1" x="50.8" y="251.46" smashed="yes">
-<attribute name="NAME" x="46.99" y="252.9586" size="1.778" layer="95"/>
+<attribute name="NAME" x="41.91" y="252.9586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.99" y="248.158" size="1.778" layer="96"/>
 <attribute name="TOLERANCE" x="50.8" y="251.46" size="0.127" layer="96" display="off"/>
 </instance>
-<instance part="AMS_THERM_TEST" gate="-2" x="50.8" y="233.68" smashed="yes" rot="R270">
-<attribute name="NAME" x="50.038" y="231.14" size="1.524" layer="95" rot="R270"/>
+<instance part="AMS_THERM_TEST" gate="-2" x="60.96" y="238.76" smashed="yes">
+<attribute name="NAME" x="63.5" y="237.998" size="1.524" layer="95"/>
 </instance>
-<instance part="AMS_THERM_TEST" gate="-1" x="53.34" y="233.68" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.578" y="231.14" size="1.524" layer="95" rot="R270"/>
+<instance part="AMS_THERM_TEST" gate="-1" x="60.96" y="241.3" smashed="yes">
+<attribute name="NAME" x="63.5" y="240.538" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -3625,7 +3623,7 @@ set chip address</text>
 <net name="SENSE7" class="0">
 <segment>
 <pinref part="F7" gate="G$1" pin="2"/>
-<label x="-195.58" y="35.56" size="1.778" layer="95"/>
+<label x="-198.12" y="35.56" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN7" port="CELL+"/>
 <wire x1="-127" y1="43.18" x2="-157.48" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-157.48" y1="43.18" x2="-157.48" y2="35.56" width="0.1524" layer="91"/>
@@ -3640,7 +3638,7 @@ set chip address</text>
 <segment>
 <wire x1="-157.48" y1="33.02" x2="-205.74" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="F6" gate="G$1" pin="2"/>
-<label x="-195.58" y="33.02" size="1.778" layer="95"/>
+<label x="-198.12" y="33.02" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN6" port="CELL+"/>
 <wire x1="-157.48" y1="33.02" x2="-157.48" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-157.48" y1="25.4" x2="-127" y2="25.4" width="0.1524" layer="91"/>
@@ -3653,7 +3651,7 @@ set chip address</text>
 <net name="SENSE4" class="0">
 <segment>
 <pinref part="F4" gate="G$1" pin="2"/>
-<label x="-195.58" y="27.94" size="1.778" layer="95"/>
+<label x="-198.12" y="27.94" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN4" port="CELL+"/>
 <wire x1="-162.56" y1="27.94" x2="-205.74" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="27.94" x2="-162.56" y2="-17.78" width="0.1524" layer="91"/>
@@ -3698,7 +3696,7 @@ set chip address</text>
 <segment>
 <wire x1="-165.1" y1="25.4" x2="-205.74" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="F3" gate="G$1" pin="2"/>
-<label x="-195.58" y="25.4" size="1.778" layer="95"/>
+<label x="-198.12" y="25.4" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN3" port="CELL+"/>
 <wire x1="-165.1" y1="25.4" x2="-165.1" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="-35.56" x2="-127" y2="-35.56" width="0.1524" layer="91"/>
@@ -3773,7 +3771,7 @@ set chip address</text>
 <wire x1="-167.64" y1="-53.34" x2="-167.64" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="22.86" x2="-205.74" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="F2" gate="G$1" pin="2"/>
-<label x="-195.58" y="22.86" size="1.778" layer="95"/>
+<label x="-198.12" y="22.86" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN2" port="CELL+"/>
 <wire x1="-167.64" y1="-53.34" x2="-127" y2="-53.34" width="0.1524" layer="91"/>
 <label x="-139.7" y="-53.34" size="1.778" layer="95"/>
@@ -3801,7 +3799,7 @@ set chip address</text>
 <net name="SENSE18" class="0">
 <segment>
 <pinref part="F18" gate="G$1" pin="2"/>
-<label x="-195.58" y="279.4" size="1.778" layer="95"/>
+<label x="-198.12" y="279.4" size="1.778" layer="95"/>
 <wire x1="-205.74" y1="279.4" x2="-162.56" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="325.12" x2="-162.56" y2="317.5" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="317.5" x2="-162.56" y2="279.4" width="0.1524" layer="91"/>
@@ -3809,16 +3807,16 @@ set chip address</text>
 <wire x1="-127" y1="317.5" x2="-162.56" y2="317.5" width="0.1524" layer="91"/>
 <junction x="-162.56" y="317.5"/>
 <label x="-139.7" y="317.5" size="1.778" layer="95"/>
-<wire x1="-134.62" y1="345.44" x2="-127" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="342.9" x2="-127" y2="342.9" width="0.1524" layer="91"/>
 <pinref part="R1_A" gate="G$1" pin="1"/>
 <pinref part="RU1_A" gate="G$1" pin="1"/>
 <wire x1="-127" y1="325.12" x2="-134.62" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="325.12" x2="-162.56" y2="325.12" width="0.1524" layer="91"/>
-<wire x1="-134.62" y1="345.44" x2="-134.62" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="342.9" x2="-134.62" y2="360.68" width="0.1524" layer="91"/>
 <pinref part="RIN_A" gate="G$1" pin="1"/>
 <wire x1="-134.62" y1="360.68" x2="-127" y2="360.68" width="0.1524" layer="91"/>
-<wire x1="-134.62" y1="345.44" x2="-134.62" y2="325.12" width="0.1524" layer="91"/>
-<junction x="-134.62" y="345.44"/>
+<wire x1="-134.62" y1="342.9" x2="-134.62" y2="325.12" width="0.1524" layer="91"/>
+<junction x="-134.62" y="342.9"/>
 <junction x="-134.62" y="325.12"/>
 </segment>
 </net>
@@ -3907,7 +3905,7 @@ set chip address</text>
 <pinref part="F8" gate="G$1" pin="2"/>
 <wire x1="-160.02" y1="38.1" x2="-205.74" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-160.02" y1="38.1" x2="-160.02" y2="60.96" width="0.1524" layer="91"/>
-<label x="-195.58" y="38.1" size="1.778" layer="95"/>
+<label x="-198.12" y="38.1" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN8" port="CELL+"/>
 <wire x1="-127" y1="60.96" x2="-160.02" y2="60.96" width="0.1524" layer="91"/>
 <label x="-139.7" y="60.96" size="1.778" layer="95"/>
@@ -3956,7 +3954,7 @@ set chip address</text>
 <segment>
 <pinref part="F5" gate="G$1" pin="2"/>
 <wire x1="-205.74" y1="30.48" x2="-160.02" y2="30.48" width="0.1524" layer="91"/>
-<label x="-195.58" y="30.48" size="1.778" layer="95"/>
+<label x="-198.12" y="30.48" size="1.778" layer="95" font="vector"/>
 <wire x1="-160.02" y1="30.48" x2="-160.02" y2="0" width="0.1524" layer="91"/>
 <wire x1="-160.02" y1="0" x2="-127" y2="0" width="0.1524" layer="91"/>
 <portref moduleinst="DRAIN5" port="CELL+"/>
@@ -4133,7 +4131,7 @@ set chip address</text>
 <wire x1="-205.74" y1="17.78" x2="-172.72" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="17.78" x2="-172.72" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="F0" gate="G$1" pin="2"/>
-<label x="-195.58" y="17.78" size="1.778" layer="95"/>
+<label x="-198.12" y="17.78" size="1.778" layer="95" font="vector"/>
 <wire x1="-172.72" y1="-88.9" x2="-127" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="-127" y="-88.9"/>
 <pinref part="R2_B" gate="G$1" pin="1"/>
@@ -4562,7 +4560,7 @@ set chip address</text>
 <label x="-139.7" y="-71.12" size="1.778" layer="95"/>
 <wire x1="-170.18" y1="20.32" x2="-205.74" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="2"/>
-<label x="-195.58" y="20.32" size="1.778" layer="95"/>
+<label x="-198.12" y="20.32" size="1.778" layer="95" font="vector"/>
 <wire x1="-170.18" y1="20.32" x2="-170.18" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4802,7 +4800,7 @@ set chip address</text>
 <segment>
 <pinref part="C1_A" gate="G$1" pin="2"/>
 <pinref part="SUPPLY32" gate="1" pin="V-"/>
-<wire x1="63.5" y1="251.46" x2="63.5" y2="254" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="254" x2="63.5" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="V-"/>
@@ -4816,8 +4814,8 @@ set chip address</text>
 </segment>
 <segment>
 <pinref part="C6_A" gate="G$1" pin="2"/>
-<wire x1="-109.22" y1="335.28" x2="-109.22" y2="332.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY31" gate="1" pin="V-"/>
+<wire x1="-109.22" y1="330.2" x2="-109.22" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="DRAIN18" port="V-"/>
@@ -4892,7 +4890,7 @@ set chip address</text>
 <segment>
 <pinref part="C7_A" gate="G$1" pin="2"/>
 <pinref part="SUPPLY69" gate="1" pin="V-"/>
-<wire x1="-96.52" y1="350.52" x2="-96.52" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="347.98" x2="-109.22" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8_A" gate="G$1" pin="2"/>
@@ -4904,11 +4902,11 @@ set chip address</text>
 <segment>
 <pinref part="C6_A" gate="G$1" pin="1"/>
 <pinref part="R1_A" gate="G$1" pin="2"/>
-<label x="-93.98" y="345.44" size="1.778" layer="95" xref="yes"/>
-<wire x1="-116.84" y1="345.44" x2="-109.22" y2="345.44" width="0.1524" layer="91"/>
-<wire x1="-109.22" y1="345.44" x2="-109.22" y2="342.9" width="0.1524" layer="91"/>
-<wire x1="-109.22" y1="345.44" x2="-93.98" y2="345.44" width="0.1524" layer="91"/>
-<junction x="-109.22" y="345.44"/>
+<label x="-93.98" y="342.9" size="1.778" layer="95" xref="yes"/>
+<wire x1="-116.84" y1="342.9" x2="-109.22" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="342.9" x2="-109.22" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="342.9" x2="-93.98" y2="342.9" width="0.1524" layer="91"/>
+<junction x="-109.22" y="342.9"/>
 </segment>
 <segment>
 <wire x1="-7.62" y1="299.72" x2="-15.24" y2="299.72" width="0.1524" layer="91"/>
@@ -5428,10 +5426,9 @@ set chip address</text>
 <pinref part="U$1" gate="G$1" pin="GPI03"/>
 <pinref part="J_THERM_A" gate="G$1" pin="1"/>
 <pinref part="AMS_THERM_TEST" gate="-2" pin="S"/>
-<wire x1="50.8" y1="236.22" x2="50.8" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="243.84" x2="45.72" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="243.84" x2="45.72" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="248.92" x2="45.72" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="238.76" x2="50.8" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="238.76" x2="45.72" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="238.76" x2="45.72" y2="251.46" width="0.1524" layer="91"/>
 <junction x="45.72" y="251.46"/>
 </segment>
 </net>
@@ -5531,7 +5528,7 @@ set chip address</text>
 <wire x1="-160.02" y1="276.86" x2="-167.64" y2="276.86" width="0.1524" layer="91"/>
 <pinref part="J_CELL_A" gate="G$1" pin="2"/>
 <pinref part="AMS_CELL_TEST" gate="-2" pin="S"/>
-<wire x1="-185.42" y1="289.56" x2="-167.64" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="-236.22" y1="289.56" x2="-167.64" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="289.56" x2="-167.64" y2="276.86" width="0.1524" layer="91"/>
 <junction x="-167.64" y="276.86"/>
 </segment>
@@ -5539,7 +5536,7 @@ set chip address</text>
 <net name="SENSE16" class="0">
 <segment>
 <pinref part="F16" gate="G$1" pin="2"/>
-<label x="-195.58" y="274.32" size="1.778" layer="95"/>
+<label x="-198.12" y="274.32" size="1.778" layer="95"/>
 <portref moduleinst="DRAIN16" port="CELL+"/>
 <wire x1="-127" y1="281.94" x2="-157.48" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="-157.48" y1="281.94" x2="-157.48" y2="274.32" width="0.1524" layer="91"/>
@@ -5554,7 +5551,7 @@ set chip address</text>
 <segment>
 <wire x1="-157.48" y1="271.78" x2="-205.74" y2="271.78" width="0.1524" layer="91"/>
 <pinref part="F15" gate="G$1" pin="2"/>
-<label x="-195.58" y="271.78" size="1.778" layer="95"/>
+<label x="-198.12" y="271.78" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN15" port="CELL+"/>
 <wire x1="-157.48" y1="271.78" x2="-157.48" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="-157.48" y1="264.16" x2="-127" y2="264.16" width="0.1524" layer="91"/>
@@ -5568,7 +5565,7 @@ set chip address</text>
 <segment>
 <pinref part="F14" gate="G$1" pin="2"/>
 <wire x1="-205.74" y1="269.24" x2="-160.02" y2="269.24" width="0.1524" layer="91"/>
-<label x="-195.58" y="269.24" size="1.778" layer="95"/>
+<label x="-198.12" y="269.24" size="1.778" layer="95" font="vector"/>
 <wire x1="-160.02" y1="269.24" x2="-160.02" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="-160.02" y1="238.76" x2="-127" y2="238.76" width="0.1524" layer="91"/>
 <portref moduleinst="DRAIN14" port="CELL+"/>
@@ -5585,7 +5582,7 @@ set chip address</text>
 <net name="SENSE13" class="0">
 <segment>
 <pinref part="F13" gate="G$1" pin="2"/>
-<label x="-195.58" y="266.7" size="1.778" layer="95"/>
+<label x="-198.12" y="266.7" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN13" port="CELL+"/>
 <wire x1="-162.56" y1="266.7" x2="-205.74" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="266.7" x2="-162.56" y2="220.98" width="0.1524" layer="91"/>
@@ -5600,7 +5597,7 @@ set chip address</text>
 <segment>
 <wire x1="-165.1" y1="264.16" x2="-205.74" y2="264.16" width="0.1524" layer="91"/>
 <pinref part="F12" gate="G$1" pin="2"/>
-<label x="-195.58" y="264.16" size="1.778" layer="95"/>
+<label x="-198.12" y="264.16" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN12" port="CELL+"/>
 <wire x1="-165.1" y1="264.16" x2="-165.1" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="203.2" x2="-127" y2="203.2" width="0.1524" layer="91"/>
@@ -5615,7 +5612,7 @@ set chip address</text>
 <wire x1="-167.64" y1="185.42" x2="-167.64" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="261.62" x2="-205.74" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="F11" gate="G$1" pin="2"/>
-<label x="-195.58" y="261.62" size="1.778" layer="95"/>
+<label x="-198.12" y="261.62" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN11" port="CELL+"/>
 <wire x1="-167.64" y1="185.42" x2="-127" y2="185.42" width="0.1524" layer="91"/>
 <label x="-139.7" y="185.42" size="1.778" layer="95"/>
@@ -5634,7 +5631,7 @@ set chip address</text>
 <label x="-139.7" y="167.64" size="1.778" layer="95"/>
 <wire x1="-170.18" y1="259.08" x2="-205.74" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="F10" gate="G$1" pin="2"/>
-<label x="-195.58" y="259.08" size="1.778" layer="95"/>
+<label x="-198.12" y="259.08" size="1.778" layer="95" font="vector"/>
 <wire x1="-170.18" y1="259.08" x2="-170.18" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5689,10 +5686,12 @@ set chip address</text>
 <net name="VIN_A" class="0">
 <segment>
 <pinref part="C7_A" gate="G$1" pin="1"/>
-<junction x="-96.52" y="360.68"/>
+<junction x="-109.22" y="360.68"/>
 <pinref part="RIN_A" gate="G$1" pin="2"/>
-<wire x1="-96.52" y1="360.68" x2="-116.84" y2="360.68" width="0.1524" layer="91"/>
-<wire x1="-96.52" y1="360.68" x2="-93.98" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="358.14" x2="-109.22" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="360.68" x2="-116.84" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="358.14" x2="-109.22" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="360.68" x2="-93.98" y2="360.68" width="0.1524" layer="91"/>
 <label x="-93.98" y="360.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -5723,24 +5722,23 @@ set chip address</text>
 <segment>
 <pinref part="F17" gate="G$1" pin="2"/>
 <wire x1="-177.8" y1="276.86" x2="-205.74" y2="276.86" width="0.1524" layer="91"/>
-<label x="-195.58" y="276.86" size="1.778" layer="95"/>
+<label x="-198.12" y="276.86" size="1.778" layer="95"/>
 <pinref part="J_CELL_A" gate="G$1" pin="1"/>
 <wire x1="-177.8" y1="276.86" x2="-177.8" y2="287.02" width="0.1524" layer="91"/>
 <junction x="-177.8" y="276.86"/>
 <pinref part="AMS_CELL_TEST" gate="-1" pin="S"/>
-<wire x1="-177.8" y1="287.02" x2="-185.42" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="287.02" x2="-236.22" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO3_A_PRE" class="0">
 <segment>
 <pinref part="J_THERM_A" gate="G$1" pin="2"/>
 <junction x="55.88" y="251.46"/>
-<wire x1="55.88" y1="243.84" x2="55.88" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="243.84" x2="55.88" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="241.3" x2="55.88" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="241.3" x2="55.88" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="AMS_THERM_TEST" gate="-1" pin="S"/>
-<wire x1="53.34" y1="236.22" x2="53.34" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="251.46" x2="58.42" y2="251.46" width="0.1524" layer="91"/>
-<label x="58.42" y="251.46" size="1.778" layer="95" font="vector" xref="yes"/>
+<wire x1="55.88" y1="251.46" x2="66.04" y2="251.46" width="0.1524" layer="91"/>
+<label x="66.04" y="251.46" size="1.778" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <portref moduleinst="THERM_FILTER8" port="GPIO"/>

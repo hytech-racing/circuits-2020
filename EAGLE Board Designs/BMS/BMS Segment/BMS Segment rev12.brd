@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -9,7 +9,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -24,17 +24,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="3" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,10 +47,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -3258,12 +3258,12 @@ based on rev10 by Yvonne Yeh</text>
 <wire x1="71.7296" y1="232.5624" x2="72.0852" y2="232.2068" width="0.1524" layer="51"/>
 <wire x1="72.136" y1="232.156" x2="72.136" y2="232.41" width="0.1524" layer="51"/>
 <wire x1="72.136" y1="232.156" x2="71.882" y2="232.156" width="0.1524" layer="51"/>
-<wire x1="65.405" y1="9.144" x2="65.405" y2="-0.254" width="0.4064" layer="51"/>
+<wire x1="65.405" y1="8.636" x2="65.405" y2="-0.254" width="0.4064" layer="51"/>
 <wire x1="65.405" y1="-0.254" x2="83.312" y2="-0.254" width="0.4064" layer="51"/>
-<wire x1="83.312" y1="-0.254" x2="83.312" y2="9.144" width="0.4064" layer="51"/>
-<wire x1="83.312" y1="9.144" x2="65.405" y2="9.144" width="0.4064" layer="51"/>
-<text x="68.76" y="4.318" size="6.096" layer="51" font="vector" align="center">#</text>
-<rectangle x1="70.485" y1="-0.254" x2="83.312" y2="9.144" layer="51"/>
+<wire x1="83.312" y1="-0.254" x2="83.312" y2="8.636" width="0.4064" layer="51"/>
+<wire x1="83.312" y1="8.636" x2="65.405" y2="8.636" width="0.4064" layer="51"/>
+<text x="68.76" y="4.191" size="6.096" layer="51" font="vector" align="center">#</text>
+<rectangle x1="70.485" y1="-0.254" x2="83.312" y2="8.636" layer="51"/>
 <text x="92.964" y="34.036" size="1.016" layer="51" font="vector" rot="R270" align="center">DRIVE_B</text>
 <text x="98.044" y="163.068" size="1.016" layer="51" font="vector" rot="R90" align="center">DRIVE_A</text>
 <text x="89.047" y="245.205" size="2.032" layer="51" font="vector" align="center">Cell 18</text>
@@ -4870,35 +4870,27 @@ design rules under a new name.</description>
 </element>
 <element name="J1_B" library="HyTechDevices" package="0603-RES" value="0" x="106.172" y="97.409" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="106.172" y="97.409" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="106.8832" y="97.409" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J2_B" library="HyTechDevices" package="0603-RES" value="0" x="104.267" y="97.409" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="104.267" y="97.409" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="104.9782" y="97.409" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J3_B" library="HyTechDevices" package="0603-RES" value="0" x="102.362" y="97.409" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="102.362" y="97.409" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="103.0732" y="97.409" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J4_B" library="HyTechDevices" package="0603-RES" value="0" x="100.457" y="97.409" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="100.457" y="97.409" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="101.1682" y="97.409" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J5_B" library="HyTechDevices" package="0603-RES" value="0" x="98.552" y="97.409" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="98.552" y="97.409" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="99.2632" y="97.409" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J6_B" library="HyTechDevices" package="0603-RES" value="0" x="96.647" y="97.409" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="96.647" y="97.409" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="97.3582" y="97.409" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J7_B" library="HyTechDevices" package="0603-RES" value="0" x="94.742" y="97.409" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="94.742" y="97.409" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="95.4532" y="97.409" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J8_B" library="HyTechDevices" package="0603-RES" value="0" x="92.837" y="97.409" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="92.837" y="97.409" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="93.5482" y="97.409" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="THERM_FILTER1:C" library="HyTechDevices" package="0603-CAP" value="10nF" x="12.7" y="25.019" smashed="yes" rot="R180">
 <attribute name="TOLERANCE" value="5%" x="12.7" y="25.019" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5100,35 +5092,27 @@ design rules under a new name.</description>
 </element>
 <element name="J1_A" library="HyTechDevices" package="0603-RES" value="0" x="105.664" y="198.487" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="105.664" y="198.487" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="106.3752" y="198.487" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J2_A" library="HyTechDevices" package="0603-RES" value="0" x="103.759" y="198.487" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="103.759" y="198.487" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="104.4702" y="198.487" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J3_A" library="HyTechDevices" package="0603-RES" value="0" x="101.854" y="198.487" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="101.854" y="198.487" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="102.5652" y="198.487" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J4_A" library="HyTechDevices" package="0603-RES" value="0" x="99.949" y="198.487" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="99.949" y="198.487" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="100.6602" y="198.487" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J5_A" library="HyTechDevices" package="0603-RES" value="0" x="98.044" y="198.487" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="98.044" y="198.487" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="98.7552" y="198.487" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J6_A" library="HyTechDevices" package="0603-RES" value="0" x="96.139" y="198.487" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="96.139" y="198.487" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="96.8502" y="198.487" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J7_A" library="HyTechDevices" package="0603-RES" value="0" x="94.234" y="198.487" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="94.234" y="198.487" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="94.9452" y="198.487" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="J8_A" library="HyTechDevices" package="0603-RES" value="0" x="92.329" y="198.487" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="92.329" y="198.487" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="93.0402" y="198.487" size="0.3048" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="DRAIN10:C" library="HyTechDevices" package="0603-CAP" value="10nF" x="71.374" y="140.335" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="5%" x="71.374" y="140.335" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5420,75 +5404,75 @@ design rules under a new name.</description>
 <attribute name="DKPN" value="350-2038-1-ND" x="69.596" y="233.299" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="68.4276" y="233.2482" size="0.4064" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
-<element name="DRAIN1:R1" library="HyTechDevices" package="0603-RES" value="100R" x="21.59" y="14.097" smashed="yes" rot="R270">
+<element name="DRAIN1:R1" library="HyTechDevices" package="0603-RES" value="806R" x="21.59" y="14.097" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="1%" x="21.59" y="14.097" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="20.574" y="14.097" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN2:R1" library="HyTechDevices" package="0603-RES" value="100R" x="72.898" y="20.701" smashed="yes" rot="R90">
+<element name="DRAIN2:R1" library="HyTechDevices" package="0603-RES" value="806R" x="72.898" y="20.701" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="72.898" y="20.701" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="71.9582" y="20.701" size="1.016" layer="27" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="DRAIN3:R1" library="HyTechDevices" package="0603-RES" value="100R" x="35.56" y="35.052" smashed="yes" rot="R270">
+<element name="DRAIN3:R1" library="HyTechDevices" package="0603-RES" value="806R" x="35.56" y="35.052" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="1%" x="35.56" y="35.052" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.8488" y="35.052" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN4:R1" library="HyTechDevices" package="0603-RES" value="100R" x="72.898" y="47.371" smashed="yes" rot="R90">
+<element name="DRAIN4:R1" library="HyTechDevices" package="0603-RES" value="806R" x="72.898" y="47.371" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="72.898" y="47.371" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="71.8312" y="47.371" size="1.016" layer="27" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="DRAIN5:R1" library="HyTechDevices" package="0603-RES" value="100R" x="35.56" y="61.722" smashed="yes" rot="R270">
+<element name="DRAIN5:R1" library="HyTechDevices" package="0603-RES" value="806R" x="35.56" y="61.722" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="1%" x="35.56" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.8488" y="61.722" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN6:R1" library="HyTechDevices" package="0603-RES" value="100R" x="72.898" y="74.041" smashed="yes" rot="R90">
+<element name="DRAIN6:R1" library="HyTechDevices" package="0603-RES" value="806R" x="72.898" y="74.041" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="72.898" y="74.041" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="71.8058" y="74.041" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN7:R1" library="HyTechDevices" package="0603-RES" value="100R" x="35.56" y="88.392" smashed="yes" rot="R270">
+<element name="DRAIN7:R1" library="HyTechDevices" package="0603-RES" value="806R" x="35.56" y="88.392" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="1%" x="35.56" y="88.392" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.5948" y="88.392" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN8:R1" library="HyTechDevices" package="0603-RES" value="100R" x="72.898" y="100.711" smashed="yes" rot="R90">
+<element name="DRAIN8:R1" library="HyTechDevices" package="0603-RES" value="806R" x="72.898" y="100.711" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="72.898" y="100.711" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="71.8058" y="100.711" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN9:R1" library="HyTechDevices" package="0603-RES" value="100R" x="35.56" y="114.935" smashed="yes" rot="R270">
+<element name="DRAIN9:R1" library="HyTechDevices" package="0603-RES" value="806R" x="35.56" y="114.935" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="1%" x="35.56" y="114.935" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.5948" y="114.935" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN10:R1" library="HyTechDevices" package="0603-RES" value="100R" x="72.898" y="127.381" smashed="yes" rot="R90">
+<element name="DRAIN10:R1" library="HyTechDevices" package="0603-RES" value="806R" x="72.898" y="127.381" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="72.898" y="127.381" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="71.9328" y="127.381" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN11:R1" library="HyTechDevices" package="0603-RES" value="100R" x="35.56" y="141.605" smashed="yes" rot="R270">
+<element name="DRAIN11:R1" library="HyTechDevices" package="0603-RES" value="806R" x="35.56" y="141.605" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="1%" x="35.56" y="141.605" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.5948" y="141.605" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN12:R1" library="HyTechDevices" package="0603-RES" value="100R" x="72.898" y="153.924" smashed="yes" rot="R90">
+<element name="DRAIN12:R1" library="HyTechDevices" package="0603-RES" value="806R" x="72.898" y="153.924" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="72.898" y="153.924" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="71.8312" y="153.924" size="1.016" layer="27" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="DRAIN13:R1" library="HyTechDevices" package="0603-RES" value="100R" x="35.56" y="168.275" smashed="yes" rot="R270">
+<element name="DRAIN13:R1" library="HyTechDevices" package="0603-RES" value="806R" x="35.56" y="168.275" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="1%" x="35.56" y="168.275" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.7218" y="168.275" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN14:R1" library="HyTechDevices" package="0603-RES" value="100R" x="72.898" y="180.594" smashed="yes" rot="R90">
+<element name="DRAIN14:R1" library="HyTechDevices" package="0603-RES" value="806R" x="72.898" y="180.594" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="72.898" y="180.594" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="71.3232" y="180.594" size="1.016" layer="27" font="vector" rot="R90" align="center"/>
 </element>
-<element name="DRAIN15:R1" library="HyTechDevices" package="0603-RES" value="100R" x="35.56" y="194.945" smashed="yes" rot="R270">
+<element name="DRAIN15:R1" library="HyTechDevices" package="0603-RES" value="806R" x="35.56" y="194.945" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="1%" x="35.56" y="194.945" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.5948" y="194.945" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN16:R1" library="HyTechDevices" package="0603-RES" value="100R" x="72.898" y="207.264" smashed="yes" rot="R90">
+<element name="DRAIN16:R1" library="HyTechDevices" package="0603-RES" value="806R" x="72.898" y="207.264" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="72.898" y="207.264" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="71.3232" y="207.264" size="1.016" layer="27" font="vector" rot="R90" align="center"/>
 </element>
-<element name="DRAIN17:R1" library="HyTechDevices" package="0603-RES" value="100R" x="35.56" y="221.615" smashed="yes" rot="R270">
+<element name="DRAIN17:R1" library="HyTechDevices" package="0603-RES" value="806R" x="35.56" y="221.615" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="1%" x="35.56" y="221.615" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.8488" y="221.615" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
-<element name="DRAIN18:R1" library="HyTechDevices" package="0603-RES" value="100R" x="69.088" y="228.6" smashed="yes" rot="R90">
+<element name="DRAIN18:R1" library="HyTechDevices" package="0603-RES" value="806R" x="69.088" y="228.6" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="69.088" y="228.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="67.5132" y="228.6" size="1.016" layer="27" font="vector" rot="R90" align="center"/>
 </element>
@@ -5547,13 +5531,11 @@ design rules under a new name.</description>
 <element name="U$17" library="HyTechDevices" package="M3_MOUNTING" value="" x="5" y="14.46" smashed="yes"/>
 <element name="U$18" library="HyTechDevices" package="M3_MOUNTING" value="" x="101.65" y="37.86" smashed="yes"/>
 <element name="J_CELL_A" library="HyTechDevices" package="0603-RES" value="" x="17.78" y="238.76" smashed="yes">
-<attribute name="NAME" x="16.891" y="239.522" size="0.4064" layer="25" font="vector"/>
 <attribute name="TOLERANCE" value="1%" x="17.78" y="238.76" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="16.764" y="237.617" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="AMS_CELL_TEST" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="CONNECTOR-2NANO-FIT_VERTICAL-2" x="12.03461875" y="243.554" smashed="yes"/>
 <element name="J_THERM_A" library="HyTechDevices" package="0603-RES" value="" x="38.1" y="238.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.989" y="237.998" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="TOLERANCE" value="1%" x="38.1" y="238.76" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="39.116" y="239.903" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
