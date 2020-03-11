@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3719,13 +3719,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="BMS_OK" library="HyTechDevices" package="LED-805" value="Green" x="21.59" y="33.655" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.59" y="34.671" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="SHUTDOWN_B" library="HyTechDevices" package="LED-805" value="Yellow" x="39.624" y="3.302" smashed="yes" rot="R270">
+<element name="SHUTDOWN_B" library="HyTechDevices" package="LED-805" value="Orange" x="39.624" y="3.302" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.624" y="4.318" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="SHUTDOWN_C" library="HyTechDevices" package="LED-805" value="Green" x="53.594" y="3.302" smashed="yes" rot="R270">
+<element name="SHUTDOWN_C" library="HyTechDevices" package="LED-805" value="Orange" x="53.594" y="3.302" smashed="yes" rot="R270">
 <attribute name="NAME" x="53.594" y="4.318" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="POWER_5V" library="HyTechDevices" package="LED-805" value="Purple" x="21.59" y="30.48" smashed="yes" rot="R270">
+<element name="POWER_5V" library="HyTechDevices" package="LED-805" value="Blue" x="21.59" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.59" y="31.496" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="OKHS" library="HyTechDevices" package="LED-805" value="Yellow" x="21.59" y="36.83" smashed="yes" rot="R270">
@@ -3749,11 +3749,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="55.372" y="21.5646" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="55.372" y="22.5806" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R15" library="HyTechDevices" package="0603-RES" value="2k" x="34.544" y="3.302" smashed="yes">
+<element name="R15" library="HyTechDevices" package="0603-RES" value="1k" x="34.544" y="3.302" smashed="yes">
 <attribute name="NAME" x="34.544" y="2.286" size="1.016" layer="25" font="vector" align="top-center"/>
 <attribute name="TOLERANCE" value="1%" x="34.544" y="3.302" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R16" library="HyTechDevices" package="0603-RES" value="20k" x="48.514" y="3.302" smashed="yes">
+<element name="R16" library="HyTechDevices" package="0603-RES" value="1k" x="48.514" y="3.302" smashed="yes">
 <attribute name="NAME" x="48.514" y="2.286" size="1.016" layer="25" font="vector" align="top-center"/>
 <attribute name="TOLERANCE" value="1%" x="48.514" y="3.302" size="1.778" layer="27" display="off"/>
 </element>
@@ -3761,7 +3761,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="12.192" y="33.274" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="12.192" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R14" library="HyTechDevices" package="0603-RES" value="270" x="15.24" y="30.48" smashed="yes">
+<element name="R14" library="HyTechDevices" package="0603-RES" value="1k" x="15.24" y="30.48" smashed="yes">
 <attribute name="NAME" x="15.24" y="31.496" size="1.016" layer="25" font="vector" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="15.24" y="30.48" size="1.778" layer="27" display="off"/>
 </element>
@@ -3777,15 +3777,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="41.402" y="25.6286" size="1.016" layer="26" font="vector" rot="MR180" align="top-center"/>
 <attribute name="TOLERANCE" value="1%" x="41.402" y="24.6126" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R4" library="HyTechDevices" package="0603-RES" value="5.1k" x="15.24" y="43.18" smashed="yes">
+<element name="R4" library="HyTechDevices" package="0603-RES" value="1k" x="15.24" y="43.18" smashed="yes">
 <attribute name="NAME" x="15.24" y="44.196" size="1.016" layer="25" font="vector" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="15.24" y="43.18" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R9" library="HyTechDevices" package="0603-RES" value="2k" x="15.24" y="36.83" smashed="yes">
+<element name="R9" library="HyTechDevices" package="0603-RES" value="1k" x="15.24" y="36.83" smashed="yes">
 <attribute name="NAME" x="15.24" y="37.846" size="1.016" layer="25" font="vector" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="15.24" y="36.83" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R13" library="HyTechDevices" package="0603-RES" value="680" x="15.24" y="33.655" smashed="yes">
+<element name="R13" library="HyTechDevices" package="0603-RES" value="1k" x="15.24" y="33.655" smashed="yes">
 <attribute name="NAME" x="15.24" y="34.671" size="1.016" layer="25" font="vector" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="15.24" y="33.655" size="1.778" layer="27" display="off"/>
 </element>
@@ -3793,7 +3793,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="54.356" y="57.658" size="1.016" layer="25" font="vector" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="54.356" y="56.642" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="HyTechDevices" package="0603-RES" value="68" x="42.926" y="53.213" smashed="yes" rot="R270">
+<element name="R3" library="HyTechDevices" package="0603-RES" value="1k" x="42.926" y="53.213" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.942" y="53.213" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
 <attribute name="TOLERANCE" value="1%" x="42.926" y="53.213" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -3840,7 +3840,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="TOLERANCE" value="5%" x="16.383" y="73.406" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="16.383" y="73.406" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R1" library="HyTechDevices" package="0603-RES" value="68" x="68.326" y="72.644" smashed="yes" rot="R270">
+<element name="R1" library="HyTechDevices" package="0603-RES" value="1k" x="68.326" y="72.644" smashed="yes" rot="R270">
 <attribute name="NAME" x="69.342" y="72.644" size="1.016" layer="25" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="TOLERANCE" value="1%" x="68.326" y="72.644" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -3851,10 +3851,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="D7" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="68.453" y="21.9456" smashed="yes" rot="MR270">
 <attribute name="NAME" x="69.469" y="21.9837" size="1.016" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
-<element name="SHUTDOWN_D" library="HyTechDevices" package="LED-805" value="Red" x="67.564" y="3.302" smashed="yes" rot="R270">
+<element name="SHUTDOWN_D" library="HyTechDevices" package="LED-805" value="Orange" x="67.564" y="3.302" smashed="yes" rot="R270">
 <attribute name="NAME" x="67.564" y="4.318" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="R17" library="HyTechDevices" package="0603-RES" value="6.8k" x="62.484" y="3.302" smashed="yes">
+<element name="R17" library="HyTechDevices" package="0603-RES" value="1k" x="62.484" y="3.302" smashed="yes">
 <attribute name="NAME" x="62.484" y="2.286" size="1.016" layer="25" font="vector" align="top-center"/>
 </element>
 <element name="R25" library="HyTechDevices" package="0603-RES" value="10k" x="65.278" y="27.7876" smashed="yes" rot="MR180">
@@ -3887,7 +3887,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="SOFTWARE" library="HyTechDevices" package="LED-805" value="Red" x="21.59" y="40.005" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.59" y="41.021" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="R5" library="HyTechDevices" package="0603-RES" value="1.2K" x="15.24" y="40.005" smashed="yes">
+<element name="R5" library="HyTechDevices" package="0603-RES" value="1k" x="15.24" y="40.005" smashed="yes">
 <attribute name="NAME" x="15.24" y="41.021" size="1.016" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="R10" library="HyTechDevices" package="0603-RES" value="43k" x="34.544" y="36.8046" smashed="yes" rot="R180">

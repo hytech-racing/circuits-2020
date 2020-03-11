@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -6149,7 +6149,7 @@ Source: http://www.molex.com</description>
 <part name="GND88" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="68">
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="STATUS_3.2" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
@@ -6175,18 +6175,18 @@ Source: http://www.molex.com</description>
 <part name="GND24" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="LATCH_BUTTON" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD"/>
 <part name="GND5" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="P+42" library="supply1" deviceset="+5V" device=""/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="680">
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="POWER_5V" library="HyTechDevices" deviceset="LED" device="-0805" value="Purple"/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="270">
+<part name="POWER_5V" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND23" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -6210,7 +6210,7 @@ Source: http://www.molex.com</description>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND14" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="68">
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="STATUS_3.5" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
@@ -6220,16 +6220,16 @@ Source: http://www.molex.com</description>
 <part name="$$U$3" library="HyTechDevices" deviceset="CR-2450/G1AN" device=""/>
 <part name="U$6" library="HyTechFrames" deviceset="FRAME_B_L" device=""/>
 <part name="IMD_SHUTDOWN_RLY" library="HyTechDevices" deviceset="RT424009" device=""/>
-<part name="SHUTDOWN_B" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
+<part name="SHUTDOWN_B" library="HyTechDevices" deviceset="LED" device="-0805" value="Orange"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="BMS_SHUTDOWN_RLY" library="HyTechDevices" deviceset="RT424009" device=""/>
-<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="20k">
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="SHUTDOWN_C" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
+<part name="SHUTDOWN_C" library="HyTechDevices" deviceset="LED" device="-0805" value="Orange"/>
 <part name="GND20" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="D8" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D9" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
@@ -6251,9 +6251,9 @@ Source: http://www.molex.com</description>
 </part>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="D7" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
-<part name="SHUTDOWN_D" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
+<part name="SHUTDOWN_D" library="HyTechDevices" deviceset="LED" device="-0805" value="Orange"/>
 <part name="GND34" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="6.8k"/>
+<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k"/>
 <part name="GND35" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R25" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="GND36" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -6282,7 +6282,7 @@ Source: http://www.molex.com</description>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+14" library="supply1" deviceset="+12V" device=""/>
 <part name="SOFTWARE" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1.2K"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k"/>
 <part name="GND33" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k"/>
@@ -7281,7 +7281,6 @@ Source: http://www.molex.com</description>
 </instance>
 <instance part="D10" gate="G$1" x="353.06" y="243.84" smashed="yes" rot="MR90">
 <attribute name="NAME" x="354.33" y="239.5474" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="374.65" y="245.3386" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND37" gate="1" x="353.06" y="233.68" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="355.6" y="231.14" size="1.778" layer="96" rot="MR0"/>
