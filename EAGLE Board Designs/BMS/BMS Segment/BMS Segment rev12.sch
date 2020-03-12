@@ -2638,14 +2638,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$6" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$7" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$8" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="J_CELL_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES">
+<part name="J_CELL_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="AMS_CELL_TEST" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
-<part name="J_THERM_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES">
+<part name="AMS_CELL_TEST" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="AMS_CELL_TEST"/>
+<part name="J_THERM_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="AMS_THERM_TEST" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
+<part name="AMS_THERM_TEST" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="AMS_THERM_TEST"/>
 </parts>
 <sheets>
 <sheet>

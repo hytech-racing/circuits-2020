@@ -35,7 +35,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -1146,14 +1146,14 @@ based on rev10 by Yvonne Yeh</text>
 <text x="90.297" y="239.49" size="13.208" layer="51" font="vector" align="center">+</text>
 <text x="90.297" y="6.35" size="13.208" layer="51" font="vector" align="center">-</text>
 <text x="89.047" y="0.635" size="2.032" layer="51" font="vector" align="center">Cell 0</text>
-<text x="17.78" y="9.017" size="3.048" layer="51" rot="SR90" align="center">0</text>
-<text x="96.52" y="147.32" size="2.032" layer="51" font="vector" rot="SR270" align="top-center">TS</text>
-<wire x1="107.492" y1="107.228" x2="97.79" y2="107.228" width="0.8128" layer="51"/>
-<wire x1="97.79" y1="107.228" x2="97.79" y2="154.418" width="0.8128" layer="51"/>
-<wire x1="97.79" y1="154.418" x2="107.492" y2="154.418" width="0.8128" layer="51"/>
-<text x="99.06" y="147.32" size="2.032" layer="51" font="vector" rot="SR270" align="bottom-center">isoSPI</text>
-<text x="99.06" y="114.3" size="2.032" layer="51" font="vector" rot="SR270" align="bottom-center">isoSPI</text>
-<text x="96.52" y="114.3" size="2.032" layer="51" font="vector" rot="SR270" align="top-center">TS</text>
+<text x="17.399" y="9.017" size="3.048" layer="51" rot="SR90" align="center">0</text>
+<text x="95.25" y="147.32" size="2.032" layer="51" font="vector" rot="SR270" align="top-center">TS</text>
+<wire x1="107.492" y1="107.228" x2="96.52" y2="107.228" width="0.8128" layer="51"/>
+<wire x1="96.52" y1="107.228" x2="96.52" y2="154.418" width="0.8128" layer="51"/>
+<wire x1="96.52" y1="154.418" x2="107.492" y2="154.418" width="0.8128" layer="51"/>
+<text x="97.79" y="147.32" size="2.032" layer="51" font="vector" rot="SR270" align="bottom-center">isoSPI</text>
+<text x="97.79" y="114.3" size="2.032" layer="51" font="vector" rot="SR270" align="bottom-center">isoSPI</text>
+<text x="95.25" y="114.3" size="2.032" layer="51" font="vector" rot="SR270" align="top-center">TS</text>
 <rectangle x1="50.4903" y1="71.398159375" x2="57.88678125" y2="71.415940625" layer="51" rot="R90"/>
 <rectangle x1="50.41918125" y1="71.4159375" x2="57.9223375" y2="71.43371875" layer="51" rot="R90"/>
 <rectangle x1="50.37473125" y1="71.42483125" x2="57.93123125" y2="71.44260625" layer="51" rot="R90"/>
@@ -2910,13 +2910,13 @@ based on rev10 by Yvonne Yeh</text>
 <rectangle x1="47.093053125" y1="125.12805" x2="47.395309375" y2="125.145825" layer="51" rot="R90"/>
 <rectangle x1="47.11083125" y1="125.128046875" x2="47.34196875" y2="125.145828125" layer="51" rot="R90"/>
 <rectangle x1="47.164171875" y1="125.128053125" x2="47.253071875" y2="125.145828125" layer="51" rot="R90"/>
-<wire x1="97.79" y1="154.418" x2="107.492" y2="154.418" width="0.8128" layer="52"/>
-<wire x1="97.79" y1="107.228" x2="97.79" y2="154.418" width="0.8128" layer="52"/>
-<wire x1="107.492" y1="107.228" x2="97.79" y2="107.228" width="0.8128" layer="52"/>
-<text x="99.06" y="114.3" size="2.032" layer="52" font="vector" rot="MR90" align="bottom-center">isoSPI</text>
-<text x="99.06" y="147.32" size="2.032" layer="52" font="vector" rot="MR90" align="bottom-center">isoSPI</text>
-<text x="96.52" y="147.32" size="2.032" layer="52" font="vector" rot="MR270" align="bottom-center">TS</text>
-<text x="96.52" y="114.3" size="2.032" layer="52" font="vector" rot="MR270" align="bottom-center">TS</text>
+<wire x1="96.52" y1="154.418" x2="107.492" y2="154.418" width="0.8128" layer="52"/>
+<wire x1="96.52" y1="107.228" x2="96.52" y2="154.418" width="0.8128" layer="52"/>
+<wire x1="107.492" y1="107.228" x2="96.52" y2="107.228" width="0.8128" layer="52"/>
+<text x="97.79" y="114.3" size="2.032" layer="52" font="vector" rot="MR90" align="bottom-center">isoSPI</text>
+<text x="97.79" y="147.32" size="2.032" layer="52" font="vector" rot="MR90" align="bottom-center">isoSPI</text>
+<text x="95.25" y="147.32" size="2.032" layer="52" font="vector" rot="MR270" align="bottom-center">TS</text>
+<text x="95.25" y="114.3" size="2.032" layer="52" font="vector" rot="MR270" align="bottom-center">TS</text>
 <dimension x1="92.3036" y1="123.6094" x2="102.108" y2="123.584" x3="97.209746875" y3="125.120696875" textsize="1.778" layer="156"/>
 <dimension x1="101.981" y1="119.52" x2="92.2274" y2="119.52" x3="97.1042" y3="119.773996875" textsize="1.778" layer="156"/>
 <dimension x1="92.2782" y1="138.57" x2="102.5144" y2="138.57" x3="97.3963" y3="137.554" textsize="1.778" layer="156"/>
@@ -4394,10 +4394,10 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <designrules name="DRC Advanced Circuits *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
+Die Standard-Design-Rules sind so gewählt, dass sie für
+die meisten Anwendungen passen. Sollte ihre Platine
 besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
+Einstellungen hier und speichern die Design Rules unter
 einem neuen Namen ab.</description>
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
@@ -5334,7 +5334,7 @@ design rules under a new name.</description>
 </element>
 <element name="DRAIN1:LED1" library="HyTechDevices" package="LED-603" value="RED" x="21.59" y="9.017" smashed="yes">
 <attribute name="DKPN" value="350-2038-1-ND" x="21.59" y="9.017" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.701" y="9.017" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="20.574" y="9.017" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
 <element name="DRAIN2:LED1" library="HyTechDevices" package="LED-603" value="RED" x="72.898" y="25.019" smashed="yes" rot="R180">
 <attribute name="DKPN" value="350-2038-1-ND" x="72.898" y="25.019" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5530,16 +5530,20 @@ design rules under a new name.</description>
 <element name="U$16" library="HyTechDevices" package="M3_MOUNTING" value="" x="101.65" y="91.78" smashed="yes"/>
 <element name="U$17" library="HyTechDevices" package="M3_MOUNTING" value="" x="5" y="14.46" smashed="yes"/>
 <element name="U$18" library="HyTechDevices" package="M3_MOUNTING" value="" x="101.65" y="37.86" smashed="yes"/>
-<element name="J_CELL_A" library="HyTechDevices" package="0603-RES" value="" x="17.78" y="238.76" smashed="yes">
+<element name="J_CELL_A" library="HyTechDevices" package="0603-RES" value="0R" x="17.78" y="238.76" smashed="yes">
 <attribute name="TOLERANCE" value="1%" x="17.78" y="238.76" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.764" y="237.617" size="0.4064" layer="27" font="vector"/>
+<attribute name="VALUE" x="17.78" y="239.776" size="1.016" layer="27" font="vector" align="bottom-center"/>
 </element>
-<element name="AMS_CELL_TEST" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="CONNECTOR-2NANO-FIT_VERTICAL-2" x="12.03461875" y="243.554" smashed="yes"/>
-<element name="J_THERM_A" library="HyTechDevices" package="0603-RES" value="" x="38.1" y="238.76" smashed="yes" rot="R180">
-<attribute name="TOLERANCE" value="1%" x="38.1" y="238.76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="39.116" y="239.903" size="0.4064" layer="27" font="vector" rot="R180"/>
+<element name="AMS_CELL_TEST" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="AMS_CELL_TEST" x="12.03461875" y="243.554" smashed="yes">
+<attribute name="VALUE" x="12.03461875" y="245.459" size="1.016" layer="27" font="vector" align="bottom-center"/>
 </element>
-<element name="AMS_THERM_TEST" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="CONNECTOR-2NANO-FIT_VERTICAL-2" x="27.94" y="243.554" smashed="yes"/>
+<element name="J_THERM_A" library="HyTechDevices" package="0603-RES" value="0R" x="33.02" y="238.76" smashed="yes" rot="R180">
+<attribute name="TOLERANCE" value="1%" x="33.02" y="238.76" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="33.02" y="239.776" size="1.016" layer="27" font="vector" align="bottom-center"/>
+</element>
+<element name="AMS_THERM_TEST" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="AMS_THERM_TEST" x="27.27461875" y="243.554" smashed="yes">
+<attribute name="VALUE" x="27.27461875" y="245.459" size="1.016" layer="27" font="vector" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="VREF1_B">
@@ -8024,14 +8028,13 @@ design rules under a new name.</description>
 <wire x1="46.8914375" y1="235.444575" x2="43.18" y2="235.444575" width="0.381" layer="1"/>
 <contactref element="J_THERM_A" pad="1"/>
 <contactref element="AMS_THERM_TEST" pad="P$2"/>
-<wire x1="38.95" y1="238.76" x2="39.37" y2="238.76" width="0.381" layer="1"/>
-<wire x1="39.37" y1="238.76" x2="39.864575" y2="238.76" width="0.381" layer="1"/>
+<wire x1="33.87" y1="238.76" x2="39.864575" y2="238.76" width="0.381" layer="1"/>
 <wire x1="39.864575" y1="238.76" x2="43.18" y2="235.444575" width="0.381" layer="1"/>
-<wire x1="29.19" y1="243.554" x2="34.576" y2="243.554" width="0.381" layer="1"/>
-<wire x1="34.576" y1="243.554" x2="39.37" y2="238.76" width="0.381" layer="1"/>
 <wire x1="98.038" y1="181.3004" x2="97.071" y2="181.3004" width="0.254" layer="1"/>
 <wire x1="96.2296" y1="182.1418" x2="96.2296" y2="182.358" width="0.254" layer="1"/>
 <wire x1="97.071" y1="181.3004" x2="96.2296" y2="182.1418" width="0.254" layer="1"/>
+<wire x1="33.87" y1="238.76" x2="29.076" y2="243.554" width="0.381" layer="1"/>
+<wire x1="29.076" y1="243.554" x2="28.52461875" y2="243.554" width="0.381" layer="1"/>
 </signal>
 <signal name="GPIO2_A">
 <contactref element="U$1" pad="28"/>
@@ -8164,10 +8167,10 @@ design rules under a new name.</description>
 <contactref element="AMS_CELL_TEST" pad="P$2"/>
 <wire x1="64.77" y1="219.71" x2="63.5" y2="218.44" width="0.381" layer="1"/>
 <wire x1="18.63" y1="238.76" x2="21.17" y2="236.22" width="0.381" layer="1"/>
-<wire x1="35.56" y1="236.22" x2="21.17" y2="236.22" width="0.381" layer="1"/>
-<via x="35.56" y="236.22" extent="1-16" drill="0.35"/>
-<wire x1="35.56" y1="236.22" x2="46.99" y2="224.79" width="0.381" layer="16"/>
-<wire x1="46.99" y1="224.79" x2="50.8" y2="224.79" width="0.381" layer="16"/>
+<wire x1="31.75" y1="236.22" x2="21.17" y2="236.22" width="0.381" layer="1"/>
+<via x="31.75" y="236.22" extent="1-16" drill="0.35"/>
+<wire x1="31.75" y1="236.22" x2="43.18" y2="224.79" width="0.381" layer="16"/>
+<wire x1="43.18" y1="224.79" x2="50.8" y2="224.79" width="0.381" layer="16"/>
 <wire x1="50.8" y1="224.79" x2="54.61" y2="220.98" width="0.381" layer="16"/>
 <wire x1="54.61" y1="220.98" x2="54.61" y2="218.44" width="0.381" layer="16"/>
 <wire x1="13.28461875" y1="243.554" x2="13.836" y2="243.554" width="0.381" layer="1"/>
@@ -8652,16 +8655,17 @@ design rules under a new name.</description>
 <contactref element="J_THERM_A" pad="2"/>
 <contactref element="THERM_FILTER8:R" pad="1"/>
 <contactref element="THERM_FILTER8:C" pad="1"/>
-<wire x1="37.25" y1="238.76" x2="36.83" y2="238.34" width="0.381" layer="1"/>
-<wire x1="36.83" y1="238.34" x2="36.83" y2="237.49" width="0.381" layer="1"/>
-<wire x1="36.83" y1="236.22" x2="36.83" y2="237.49" width="0.381" layer="1"/>
 <wire x1="13.55" y1="234.569" x2="13.55" y2="231.14" width="0.381" layer="1"/>
-<wire x1="29.21" y1="237.49" x2="36.83" y2="237.49" width="0.381" layer="1"/>
-<wire x1="29.21" y1="237.49" x2="26.69" y2="240.01" width="0.381" layer="1"/>
-<wire x1="26.69" y1="240.01" x2="26.69" y2="243.554" width="0.381" layer="1"/>
 <wire x1="13.55" y1="234.569" x2="13.931" y2="234.95" width="0.381" layer="1"/>
-<wire x1="13.931" y1="234.95" x2="35.56" y2="234.95" width="0.381" layer="1"/>
-<wire x1="35.56" y1="234.95" x2="36.83" y2="236.22" width="0.381" layer="1"/>
+<wire x1="13.931" y1="234.95" x2="31.75" y2="234.95" width="0.381" layer="1"/>
+<wire x1="26.02461875" y1="243.554" x2="26.05311875" y2="243.5255" width="0.381" layer="1"/>
+<wire x1="26.05311875" y1="243.5255" x2="26.05311875" y2="240.64688125" width="0.381" layer="1"/>
+<wire x1="29.21" y1="237.49" x2="26.05311875" y2="240.64688125" width="0.381" layer="1"/>
+<wire x1="31.75" y1="234.95" x2="33.02" y2="236.22" width="0.381" layer="1"/>
+<wire x1="33.02" y1="236.22" x2="33.02" y2="237.49" width="0.381" layer="1"/>
+<wire x1="33.02" y1="237.49" x2="33.02" y2="237.91" width="0.381" layer="1"/>
+<wire x1="33.02" y1="237.91" x2="32.17" y2="238.76" width="0.381" layer="1"/>
+<wire x1="33.02" y1="237.49" x2="29.21" y2="237.49" width="0.381" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -8789,13 +8793,12 @@ design rules under a new name.</description>
 <approved hash="7,39,e3ad24a0c9d36ba6"/>
 <approved hash="4,1,757af7bf4f531d20"/>
 <approved hash="4,1,9aa3e87f4ffd11df"/>
-<approved hash="4,1,589633b1e0276b81"/>
-<approved hash="4,1,34b395c429e4b404"/>
 <approved hash="4,16,757af7bf4f531d20"/>
 <approved hash="4,16,9aa3e87f4ffd11df"/>
-<approved hash="4,16,589633b1e0276b81"/>
-<approved hash="4,16,34b395c429e4b404"/>
-<approved hash="7,39,741e74761e8e1ee6"/>
+<approved hash="4,1,597ab30421e9af2d"/>
+<approved hash="4,1,baaf94ca694b77dc"/>
+<approved hash="4,16,597ab30421e9af2d"/>
+<approved hash="4,16,baaf94ca694b77dc"/>
 </errors>
 </board>
 </drawing>
