@@ -24,17 +24,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="3" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -48,19 +48,19 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -3257,9 +3257,9 @@ based on rev10 by Yvonne Yeh</text>
 <wire x1="83.312" y1="8.636" x2="65.405" y2="8.636" width="0.4064" layer="51"/>
 <text x="68.76" y="4.191" size="6.096" layer="51" font="vector" align="center">#</text>
 <rectangle x1="70.485" y1="-0.254" x2="83.312" y2="8.636" layer="51"/>
-<text x="92.964" y="34.036" size="1.016" layer="51" font="vector" rot="R270" align="center">DRIVE_B</text>
+<text x="98.044" y="34.036" size="1.016" layer="51" font="vector" rot="R270" align="center">DRIVE_B</text>
 <text x="92.964" y="162.56" size="1.016" layer="51" font="vector" rot="R90" align="center">DRIVE_A</text>
-<text x="89.047" y="245.205" size="2.032" layer="51" font="vector" align="center">Cell 18</text>
+<text x="89.047" y="245.205" size="2.032" layer="51" font="vector" align="center">Cell 17</text>
 <rectangle x1="49.9823" y1="179.094159375" x2="57.37878125" y2="179.111940625" layer="51" rot="R90"/>
 <rectangle x1="49.91118125" y1="179.1119375" x2="57.4143375" y2="179.12971875" layer="51" rot="R90"/>
 <rectangle x1="49.86673125" y1="179.12083125" x2="57.42323125" y2="179.13860625" layer="51" rot="R90"/>
@@ -5522,7 +5522,7 @@ design rules under a new name.</description>
 <element name="U$18" library="HyTechDevices" package="M3_MOUNTING" value="" x="101.65" y="37.86" smashed="yes"/>
 <element name="J_CELL_A" library="HyTechDevices" package="0603-RES" value="0R" x="17.78" y="238.76" smashed="yes">
 <attribute name="TOLERANCE" value="1%" x="17.78" y="238.76" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="JUMPER" x="17.78" y="238.76" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="JUMPER" x="17.78" y="237.744" size="1.016" layer="27" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="17.78" y="239.776" size="1.016" layer="27" font="vector" rot="R180" align="top-center"/>
 </element>
 <element name="AMS_CELL_TEST" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="AMS_CELL_TEST" x="12.03461875" y="243.554" smashed="yes">
@@ -5530,7 +5530,7 @@ design rules under a new name.</description>
 </element>
 <element name="J_THERM_A" library="HyTechDevices" package="0603-RES" value="0R" x="33.02" y="238.76" smashed="yes" rot="R180">
 <attribute name="TOLERANCE" value="1%" x="33.02" y="238.76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="JUMPER" x="33.02" y="238.76" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="JUMPER" x="33.02" y="237.744" size="1.016" layer="27" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="33.02" y="239.776" size="1.016" layer="27" font="vector" rot="R180" align="top-center"/>
 </element>
 <element name="AMS_THERM_TEST" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="AMS_THERM_TEST" x="27.27461875" y="243.554" smashed="yes">
