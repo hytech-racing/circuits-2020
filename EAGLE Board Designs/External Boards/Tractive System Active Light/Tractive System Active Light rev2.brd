@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3827,16 +3827,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="LED3" library="HyTechDevices" package="XP-E2" value="RED" x="-29.9466" y="12.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-29.9466" y="10.4775" size="1.016" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="LED2" library="HyTechDevices" package="XP-E2" value="GRN" x="24.8666" y="17.78" smashed="yes">
+<element name="LED2" library="HyTechDevices" package="XP-E2" value="GREEN" x="24.8666" y="17.78" smashed="yes">
 <attribute name="NAME" x="24.8666" y="15.5575" size="1.016" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="LED5" library="HyTechDevices" package="XP-E2" value="GRN" x="24.8666" y="17.78" smashed="yes" rot="MR0">
+<element name="LED5" library="HyTechDevices" package="XP-E2" value="GREEN" x="24.8666" y="17.78" smashed="yes" rot="MR0">
 <attribute name="NAME" x="24.8666" y="15.5575" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="LED6" library="HyTechDevices" package="XP-E2" value="GRN" x="-24.8666" y="17.78" smashed="yes" rot="MR0">
+<element name="LED6" library="HyTechDevices" package="XP-E2" value="GREEN" x="-24.8666" y="17.78" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-24.8666" y="15.5575" size="1.016" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="LED1" library="HyTechDevices" package="XP-E2" value="GRN" x="-24.8666" y="17.78" smashed="yes">
+<element name="LED1" library="HyTechDevices" package="XP-E2" value="GREEN" x="-24.8666" y="17.78" smashed="yes">
 <attribute name="NAME" x="-24.8666" y="15.5575" size="1.016" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="LED7" library="HyTechDevices" package="XP-E2" value="RED" x="29.9466" y="12.7" smashed="yes" rot="MR180">
@@ -3911,15 +3911,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="TOLERANCE" value="1%" x="5.97154375" y="32.52343125" size="0.127" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="X2" library="HyTechDevices" package="NANO-FIT_RIGHT_ANGLE-4-SURFACE" value="MAIN" x="0" y="29.21" smashed="yes" rot="MR0"/>
-<element name="D3" library="HyTechDevices" package="0603_D" value="DIODE_ZENER0603" x="8.382" y="29.8475375" smashed="yes" rot="MR270">
+<element name="D3" library="HyTechDevices" package="0603_D" value="D15V0S1U2LP1608" x="8.382" y="29.8475375" smashed="yes" rot="MR270">
 <attribute name="NAME" x="9.4005375" y="29.831028125" size="1.016" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
 <element name="$$U$1" library="HyTechDevices" package="M3_MOUNTING" value="" x="-18.5166" y="24.13" smashed="yes"/>
 <element name="U$2" library="HyTechDevices" package="M3_MOUNTING" value="" x="18.5166" y="24.13" smashed="yes"/>
-<element name="D2" library="HyTechDevices" package="SOT23" value="DIODE_ZENER" x="12.065" y="27.94" smashed="yes" rot="R180">
+<element name="D2" library="HyTechDevices" package="SOT23" value="MMBZ5246BLT1G" x="12.065" y="27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.097" y="27.94" size="1.016" layer="25" font="vector" rot="R90" align="top-center"/>
 </element>
-<element name="D1" library="HyTechDevices" package="SOT23" value="DIODE_ZENER" x="-12.065" y="27.94" smashed="yes" rot="R180">
+<element name="D1" library="HyTechDevices" package="SOT23" value="MMBZ5246BLT1G" x="-12.065" y="27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="-14.097" y="27.94" size="1.016" layer="25" font="vector" rot="R270" align="top-center"/>
 </element>
 </elements>
@@ -4152,7 +4152,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="4.699" y1="28.754071875" x2="2.650171875" y2="30.8029" width="0.381" layer="16"/>
 <wire x1="8.382" y1="28.9975375" x2="8.382" y2="27.178" width="0.381" layer="16"/>
 </signal>
-<signal name="SIGNAL">
+<signal name="60V_THRESHOLD_SIGNAL">
 <contactref element="MAX4622" pad="10"/>
 <contactref element="R7" pad="2"/>
 <contactref element="X2" pad="4"/>
@@ -4201,7 +4201,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="-6.35" y1="19.47" x2="-8.382" y2="19.47" width="0.381" layer="1"/>
 <wire x1="-1.050309375" y1="31.022309375" x2="-1.050309375" y2="25.307309375" width="0.254" layer="1"/>
 </signal>
-<signal name="GRN">
+<signal name="GREEN">
 <contactref element="MAX4622" pad="5"/>
 <contactref element="Q2" pad="1"/>
 <contactref element="R3" pad="1"/>

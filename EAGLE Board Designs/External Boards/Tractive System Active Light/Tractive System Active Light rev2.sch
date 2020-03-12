@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4304,7 +4304,7 @@ Source: http://www.molex.com</description>
 <part name="Q1" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 <part name="NA555" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
 <part name="LED3" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="RED"/>
-<part name="LED2" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GRN"/>
+<part name="LED2" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GREEN"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
@@ -4325,9 +4325,9 @@ Source: http://www.molex.com</description>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="20">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="LED5" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GRN"/>
-<part name="LED6" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GRN"/>
-<part name="LED1" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GRN"/>
+<part name="LED5" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GREEN"/>
+<part name="LED6" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GREEN"/>
+<part name="LED1" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GREEN"/>
 <part name="LED7" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="RED"/>
 <part name="LED4" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="RED"/>
 <part name="LED8" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="RED"/>
@@ -4374,9 +4374,9 @@ Source: http://www.molex.com</description>
 <part name="X2" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT_RIGHT_ANGLE-4-SURFACE" value="MAIN"/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$1" library="HyTechFrames" deviceset="FRAME_A_L" device=""/>
-<part name="D3" library="HyTechDevices" deviceset="DIODE_ZENER" device="0603"/>
-<part name="D2" library="HyTechDevices" deviceset="DIODE_ZENER" device=""/>
-<part name="D1" library="HyTechDevices" deviceset="DIODE_ZENER" device=""/>
+<part name="D3" library="HyTechDevices" deviceset="DIODE_ZENER" device="0603" value="D15V0S1U2LP1608"/>
+<part name="D2" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
+<part name="D1" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 </parts>
 <sheets>
 <sheet>
@@ -4532,8 +4532,8 @@ Source: http://www.molex.com</description>
 <attribute name="TOLERANCE" x="-38.1" y="-38.1" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="81.28" y="-38.1" smashed="yes" rot="MR180">
-<attribute name="NAME" x="77.47" y="-39.5986" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="77.47" y="-34.798" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="77.47" y="-36.6014" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="77.47" y="-41.402" size="1.778" layer="96" font="vector"/>
 <attribute name="TOLERANCE" x="81.28" y="-38.1" size="0.127" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="-17.78" y="104.14" smashed="yes">
@@ -4813,7 +4813,7 @@ Source: http://www.molex.com</description>
 <junction x="-25.4" y="114.3"/>
 </segment>
 </net>
-<net name="SIGNAL" class="0">
+<net name="60V_THRESHOLD_SIGNAL" class="0">
 <segment>
 <wire x1="-38.1" y1="106.68" x2="-38.1" y2="104.14" width="0.1524" layer="91"/>
 <label x="-40.64" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
@@ -4871,7 +4871,7 @@ Source: http://www.molex.com</description>
 <junction x="43.18" y="30.48"/>
 </segment>
 </net>
-<net name="GRN" class="0">
+<net name="GREEN" class="0">
 <segment>
 <pinref part="MAX4622" gate="G$1" pin="NC4"/>
 <wire x1="-20.32" y1="73.66" x2="-22.86" y2="73.66" width="0.1524" layer="91"/>
