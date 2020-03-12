@@ -35,8 +35,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -1147,13 +1147,13 @@ based on rev10 by Yvonne Yeh</text>
 <text x="90.297" y="6.35" size="13.208" layer="51" font="vector" align="center">-</text>
 <text x="89.047" y="0.635" size="2.032" layer="51" font="vector" align="center">Cell 0</text>
 <text x="17.78" y="9.017" size="3.048" layer="51" rot="SR90" align="center">0</text>
-<text x="95.25" y="147.32" size="2.032" layer="51" font="vector" rot="SR270" align="top-center">TS</text>
+<text x="95.25" y="147.32" size="2.032" layer="51" font="vector" rot="R270" align="top-center">TS</text>
 <wire x1="107.492" y1="107.228" x2="96.52" y2="107.228" width="0.8128" layer="51"/>
 <wire x1="96.52" y1="107.228" x2="96.52" y2="154.418" width="0.8128" layer="51"/>
 <wire x1="96.52" y1="154.418" x2="107.492" y2="154.418" width="0.8128" layer="51"/>
-<text x="97.79" y="147.32" size="2.032" layer="51" font="vector" rot="SR270" align="bottom-center">isoSPI</text>
-<text x="97.79" y="114.3" size="2.032" layer="51" font="vector" rot="SR270" align="bottom-center">isoSPI</text>
-<text x="95.25" y="114.3" size="2.032" layer="51" font="vector" rot="SR270" align="top-center">TS</text>
+<text x="97.79" y="147.32" size="2.032" layer="51" font="vector" rot="R270" align="bottom-center">isoSPI</text>
+<text x="97.79" y="114.3" size="2.032" layer="51" font="vector" rot="R270" align="bottom-center">isoSPI</text>
+<text x="95.25" y="114.3" size="2.032" layer="51" font="vector" rot="R270" align="top-center">TS</text>
 <rectangle x1="50.4903" y1="71.398159375" x2="57.88678125" y2="71.415940625" layer="51" rot="R90"/>
 <rectangle x1="50.41918125" y1="71.4159375" x2="57.9223375" y2="71.43371875" layer="51" rot="R90"/>
 <rectangle x1="50.37473125" y1="71.42483125" x2="57.93123125" y2="71.44260625" layer="51" rot="R90"/>
@@ -2913,8 +2913,8 @@ based on rev10 by Yvonne Yeh</text>
 <wire x1="96.52" y1="154.418" x2="107.492" y2="154.418" width="0.8128" layer="52"/>
 <wire x1="96.52" y1="107.228" x2="96.52" y2="154.418" width="0.8128" layer="52"/>
 <wire x1="107.492" y1="107.228" x2="96.52" y2="107.228" width="0.8128" layer="52"/>
-<text x="97.79" y="114.3" size="2.032" layer="52" font="vector" rot="MR90" align="bottom-center">isoSPI</text>
-<text x="97.79" y="147.32" size="2.032" layer="52" font="vector" rot="MR90" align="bottom-center">isoSPI</text>
+<text x="97.79" y="114.3" size="2.032" layer="52" font="vector" rot="SMR90" align="bottom-center">isoSPI</text>
+<text x="97.79" y="147.32" size="2.032" layer="52" font="vector" rot="MR270" align="top-center">isoSPI</text>
 <text x="95.25" y="147.32" size="2.032" layer="52" font="vector" rot="MR270" align="bottom-center">TS</text>
 <text x="95.25" y="114.3" size="2.032" layer="52" font="vector" rot="MR270" align="bottom-center">TS</text>
 <dimension x1="92.3036" y1="123.6094" x2="102.108" y2="123.584" x3="97.209746875" y3="125.120696875" textsize="1.778" layer="156"/>
