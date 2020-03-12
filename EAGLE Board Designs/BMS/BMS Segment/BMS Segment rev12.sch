@@ -2405,28 +2405,28 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="J1_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J1_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J2_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J2_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J3_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J3_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J4_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J4_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J5_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J5_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J6_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J6_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J7_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J7_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J8_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J8_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="SUPPLY14" library="supply2" deviceset="V-" device=""/>
@@ -2549,28 +2549,28 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="J1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J1_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J2_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J2_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J3_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J3_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J4_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J4_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J5_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J5_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J6_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J6_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J7_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J7_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="J8_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0">
+<part name="J8_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="0R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="SUPPLY43" library="supply1" deviceset="V-" device=""/>
