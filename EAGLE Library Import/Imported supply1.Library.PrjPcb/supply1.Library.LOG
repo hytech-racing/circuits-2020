@@ -1,0 +1,64 @@
+Importer Log Report
+Project : Group
+
+Section : Analyze Document - C:\Users\ethan\Documents\GitHub\hytech-racing\circuits-2020\EAGLE Libraries\HyTechDevices.lbr
+    Analyzing data of C:\Users\ethan\Documents\GitHub\hytech-racing\circuits-2020\EAGLE Libraries\HyTechDevices.lbr
+    Load settings
+    Load layers 175
+    Load library
+    Load Library library
+    Load Library ""
+    Load Packages 298
+    ERROR: Unhandled typepackages3d
+    Load Symbols 174
+    Load DeviceSets 211
+    ERROR: Unhandled typepackage3dinstances
+EndSection
+
+Section : Analyze Document - C:\Users\ethan\Documents\GitHub\hytech-racing\circuits-2020\EAGLE Libraries\HyTechFrames.lbr
+    Analyzing data of C:\Users\ethan\Documents\GitHub\hytech-racing\circuits-2020\EAGLE Libraries\HyTechFrames.lbr
+    Load settings
+    Load layers 67
+    Load library
+    Load Library library
+    Load Library ""
+    Load Packages 0
+    Load Symbols 3
+    Load DeviceSets 2
+EndSection
+
+Section : Analyze Document - C:\Users\ethan\Documents\GitHub\hytech-racing\circuits-2020\EAGLE Libraries\HyTechSymbols.lbr
+    Analyzing data of C:\Users\ethan\Documents\GitHub\hytech-racing\circuits-2020\EAGLE Libraries\HyTechSymbols.lbr
+    Load settings
+    Load layers 161
+    Load library
+    Load Library library
+    Load Library ""
+    Load Packages 0
+    Load Symbols 46
+    Load DeviceSets 46
+EndSection
+
+Section : Analyze Document - C:\Users\ethan\Documents\GitHub\hytech-racing\circuits-2020\EAGLE Libraries\supply1.lbr
+    Analyzing data of C:\Users\ethan\Documents\GitHub\hytech-racing\circuits-2020\EAGLE Libraries\supply1.lbr
+    Load settings
+    Load layers 59
+    Load library
+    Load Library library
+    Load Library ""
+    Load Packages 0
+    Load Symbols 29
+    Load DeviceSets 28
+EndSection
+
+Section : Analyze Document - C:\Users\ethan\Documents\GitHub\hytech-racing\circuits-2020\EAGLE Libraries\supply2.lbr
+    Analyzing data of C:\Users\ethan\Documents\GitHub\hytech-racing\circuits-2020\EAGLE Libraries\supply2.lbr
+    Load settings
+    Load layers 59
+    Load library
+    Load Library library
+    Load Library ""
+    Load Packages 1
+    Load Symbols 50
+    Load DeviceSets 50
+EndSection
