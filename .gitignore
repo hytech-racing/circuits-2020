@@ -3,4 +3,19 @@
 *.s#*
 *.l#*
 *.lck
-EAGLE Libraries/Controller Library.lbr
+
+# gerber and drill files
+*.gbl
+*.gtl
+*.gbr
+*.gbr
+*.gbs
+*.gts
+*.gbr
+*.gbo
+*.gto
+*.gtp
+*.drl
+
+# CAMOutput folder
+**/CAMOutput
