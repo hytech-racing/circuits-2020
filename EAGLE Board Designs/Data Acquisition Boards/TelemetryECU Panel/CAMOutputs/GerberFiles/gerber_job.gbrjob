@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-12-16T21:12:59Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "TelemetryECU rev1 Panel"
+        },
+        "Owner": "Leonid Pozdneev <leo.pozdneev@gmail.com>",
+        "Size": {
+            "X": 375.8438,
+            "Y": 100.381
+        }
+    }
+}
