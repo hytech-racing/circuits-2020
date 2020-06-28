@@ -1,5 +1,5 @@
 description[en] = <b>Seeed Studio Design Rules (2 Layers)</b>\n<p>\nThe default Design Rules have been set to cover\na wide range of applications.\n<p>\nSource: <a href="http://support.seeedstudio.com/knowledgebase/articles/447362-fusion-pcb-specification">Seeed Studio</a>\n</p>
-layerSetup = (1+16)
+layerSetup = (1*16)
 mtCopper = 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm
 mtIsolate = 1.53mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm
 mdWireWire = 6mil

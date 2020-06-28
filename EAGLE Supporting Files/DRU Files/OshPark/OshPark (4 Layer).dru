@@ -1,5 +1,5 @@
 description[en] = <b>OSH Park Design Rules (4 Layers)</b>\n<p>\nPlease make sure your boards conform to these design rules.\n</p>\n<p>\nNote, that not all DRC settings must be set by the manufacturer. Several can be adjusted for the design, including those listed on our docs page here. \n<a href="http://docs.oshpark.com/design-tools/eagle/design-rules-files/">Adjustable Settings</a>\n</p>\n<p>\nSource: <a href="https://docs.oshpark.com/design-tools/eagle/design-rules-files/">OshPark</a>\n</p>
-layerSetup = (1*2*15*16)
+layerSetup = (1+2*15+16)
 mtCopper = 0.035559375mm 0.01778125mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.01778125mm 0.035559375mm
 mtIsolate = 0.17018125mm 47mil 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.17018125mm
 mdWireWire = 5mil
