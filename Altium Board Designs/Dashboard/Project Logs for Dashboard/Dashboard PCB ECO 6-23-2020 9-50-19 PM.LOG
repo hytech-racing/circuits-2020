@@ -1,0 +1,10 @@
+Change Component Comment : Designator=L4 Old Comment=AMS New Comment=Red
+Change Component Comment : Designator=L5 Old Comment=IMD New Comment=Red
+Change Component Comment : Designator=L2 Old Comment=MC New Comment=Red
+Change Component Comment : Designator=L3 Old Comment=MODE New Comment=Green
+Change Component Comment : Designator=L6 Old Comment=SSOK New Comment=Amber
+Change Component Comment : Designator=L1 Old Comment=START New Comment=Blue
+Added Member To Class: ClassName=Dashboard Member=Component IC5 DMG3406L-7
+Added Member To Class: ClassName=Dashboard Member=Component IC6 DMG3406L-7
+Added Member To Class: ClassName=Dashboard Member=Component R9 14.7 Ohms
+Added Member To Class: ClassName=Dashboard Member=Component Z2 MMBZ5245BTS-7-F

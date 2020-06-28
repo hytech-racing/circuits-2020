@@ -1,0 +1,13 @@
+Removed Member From Class: ClassName=Dashboard Member=C7
+Added Pin To Net: NetName=+5 Pin=L1-V+
+Added Pin To Net: NetName=NetL1_2 Pin=L1-V-
+Added Pin To Net: NetName=+5 Pin=L2-V+
+Added Pin To Net: NetName=NetL2_2 Pin=L2-V-
+Added Pin To Net: NetName=+5 Pin=L3-V+
+Added Pin To Net: NetName=NetL3_2 Pin=L3-V-
+Added Pin To Net: NetName=+5 Pin=L4-V+
+Added Pin To Net: NetName=NetL4_2 Pin=L4-V-
+Added Pin To Net: NetName=+5 Pin=L5-V+
+Added Pin To Net: NetName=NetL5_2 Pin=L5-V-
+Added Pin To Net: NetName=NetL6_1 Pin=L6-V+
+Added Pin To Net: NetName=NetL6_2 Pin=L6-V-
