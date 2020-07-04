@@ -2670,8 +2670,8 @@ CIRCUIT A AND CIRCUIT B</text>
 set chip address</text>
 <text x="60.96" y="307.34" size="1.778" layer="95">0Ω resistors to
 set chip address</text>
-<text x="0" y="302.26" size="1.778" layer="95">LTC6811-2</text>
-<text x="0" y="63.5" size="1.778" layer="95">LTC6811-2</text>
+<text x="-5.08" y="302.26" size="1.778" layer="95">LTC6811-2</text>
+<text x="-5.08" y="63.5" size="1.778" layer="95">LTC6811-2</text>
 </plain>
 <moduleinsts>
 <moduleinst name="DRAIN1" module="DRAIN+FILTER" x="-111.76" y="-76.2">
