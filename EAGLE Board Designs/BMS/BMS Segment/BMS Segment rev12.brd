@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -24,19 +24,19 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="3" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -60,7 +60,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -5656,9 +5656,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="101.1138125" y1="60.057046875" x2="99.611" y2="58.554234375" width="0.254" layer="16"/>
 <wire x1="99.611" y1="54.596" x2="99.611" y2="58.554234375" width="0.254" layer="16"/>
 <contactref element="U$4" pad="1"/>
-<wire x1="96.52" y1="40.358" x2="96.792" y2="40.358" width="0.254" layer="1"/>
-<wire x1="93.388" y1="39.61" x2="94.136" y2="40.358" width="0.254" layer="1"/>
-<wire x1="93.388" y1="39.61" x2="93.388" y2="38.594" width="0.254" layer="1"/>
 <via x="93.388" y="38.594" extent="1-16" drill="0.381"/>
 <wire x1="96.055" y1="51.04" x2="96.055" y2="42.277" width="0.254" layer="16"/>
 <wire x1="96.055" y1="42.277" x2="93.388" y2="39.61" width="0.254" layer="16"/>
@@ -5667,7 +5664,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="U$7" pad="P$1"/>
 <wire x1="95.504" y1="34.036" x2="93.388" y2="36.025" width="0.254" layer="16"/>
 <wire x1="93.388" y1="36.025" x2="93.388" y2="38.594" width="0.254" layer="16"/>
-<wire x1="94.136" y1="40.358" x2="96.52" y2="40.358" width="0.254" layer="1"/>
+<wire x1="93.388" y1="38.594" x2="95.152" y2="40.358" width="0.254" layer="1"/>
+<wire x1="95.152" y1="40.358" x2="96.792" y2="40.358" width="0.254" layer="1"/>
 </signal>
 <signal name="V+_B">
 <contactref element="U$2" pad="1"/>
@@ -5883,7 +5881,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="88.943" y1="66.5892" x2="84.879" y2="62.5252" width="0.254" layer="1"/>
 <wire x1="84.879" y1="62.5252" x2="84.879" y2="44.221" width="0.254" layer="1"/>
 <wire x1="23.89491875" y1="21.33005625" x2="23.876" y2="21.248" width="0.254" layer="1"/>
-<wire x1="87.3901375" y1="19.6344" x2="90.932" y2="23.1762625" width="0.254" layer="16"/>
 <wire x1="90.932" y1="23.1762625" x2="90.932" y2="42.168" width="0.254" layer="16"/>
 <wire x1="84.879" y1="44.221" x2="85.3" y2="43.8" width="0.254" layer="1"/>
 <via x="85.3" y="43.8" extent="1-16" drill="0.381"/>
@@ -5891,10 +5888,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="86" y1="43.1" x2="90" y2="43.1" width="0.254" layer="16"/>
 <wire x1="90" y1="43.1" x2="90.932" y2="42.168" width="0.254" layer="16"/>
 <via x="25.0952" y="19.6596" extent="1-16" drill="0.381"/>
-<wire x1="25.0952" y1="19.6596" x2="87.3649375" y2="19.6596" width="0.254" layer="16"/>
-<wire x1="87.3649375" y1="19.6596" x2="87.3901375" y2="19.6344" width="0.254" layer="16"/>
 <wire x1="25.0952" y1="19.6596" x2="23.89491875" y2="20.85988125" width="0.254" layer="1"/>
 <wire x1="23.89491875" y1="20.85988125" x2="23.89491875" y2="21.33005625" width="0.254" layer="1"/>
+<wire x1="87.4153375" y1="19.6596" x2="90.932" y2="23.1762625" width="0.254" layer="16"/>
+<wire x1="25.0952" y1="19.6596" x2="87.4153375" y2="19.6596" width="0.254" layer="16"/>
 </signal>
 <signal name="C2_B">
 <contactref element="U$2" pad="22"/>
@@ -6219,9 +6216,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="89.1494" y1="39.0174" x2="73.6076" y2="39.0174" width="0.254" layer="16"/>
 <via x="89.5858" y="38.581" extent="1-16" drill="0.381"/>
 <wire x1="39.0017" y1="45.1993" x2="39.116" y2="45.085" width="0.254" layer="1"/>
-<wire x1="91.313" y1="47.8" x2="91.313" y2="43.3737375" width="0.254" layer="16"/>
-<wire x1="91.313" y1="43.3737375" x2="91.4654" y2="43.2213375" width="0.254" layer="16"/>
-<wire x1="91.4654" y1="43.2213375" x2="91.4654" y2="38.7858" width="0.254" layer="16"/>
 <wire x1="91.4654" y1="38.7858" x2="91.7067" y2="38.5445" width="0.254" layer="16"/>
 <via x="91.7067" y="38.5445" extent="1-16" drill="0.381"/>
 <wire x1="91.7067" y1="38.5445" x2="89.6223" y2="38.5445" width="0.254" layer="1"/>
@@ -6236,6 +6230,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="92.753" y1="67.423" x2="92.753" y2="68.2082" width="0.254" layer="1"/>
 <wire x1="23.876" y1="47.918" x2="26.5947" y2="45.1993" width="0.254" layer="1"/>
 <wire x1="26.5947" y1="45.1993" x2="39.0017" y2="45.1993" width="0.254" layer="1"/>
+<wire x1="91.313" y1="47.8" x2="91.4654" y2="47.6476" width="0.254" layer="16"/>
+<wire x1="91.4654" y1="47.6476" x2="91.4654" y2="38.7858" width="0.254" layer="16"/>
 </signal>
 <signal name="C5_B">
 <contactref element="U$2" pad="16"/>
@@ -8443,10 +8439,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="26.333" y1="5.9055" x2="26.416" y2="6.35" width="0.254" layer="1"/>
 <wire x1="26.333" y1="5.9055" x2="21.717" y2="5.9055" width="0.254" layer="1"/>
 <wire x1="21.717" y1="5.9055" x2="20.7772" y2="5.9055" width="0.254" layer="1"/>
-<wire x1="21.59" y1="8.267" x2="21.59" y2="6.0325" width="0.254" layer="1"/>
-<wire x1="21.59" y1="6.0325" x2="21.717" y2="5.9055" width="0.254" layer="1"/>
 <wire x1="18.4752" y1="8.2075" x2="20.7772" y2="5.9055" width="0.254" layer="1"/>
 <wire x1="18.4752" y1="12.319" x2="18.4752" y2="8.2075" width="0.254" layer="1"/>
+<wire x1="21.717" y1="5.9055" x2="21.59" y2="6.0325" width="0.254" layer="1"/>
+<wire x1="21.59" y1="6.0325" x2="21.59" y2="8.267" width="0.254" layer="1"/>
 </signal>
 <signal name="DRAIN2:N$1">
 <contactref element="DRAIN2:LED1" pad="A"/>
