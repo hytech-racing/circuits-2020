@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -523,11 +523,11 @@ Source: Sonnenschein</description>
 <part name="THERM6" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
 <part name="THERM5" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
 <part name="THERM4" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
-<part name="HVP800_HVD" library="HyTechSymbols" deviceset="M02" device=""/>
+<part name="HVP800" library="HyTechSymbols" deviceset="M02" device=""/>
 <part name="CAN/POWER_IN" library="HyTechSymbols" deviceset="M04" device=""/>
 <part name="CAN/POWER_OUT" library="HyTechSymbols" deviceset="M04" device=""/>
 <part name="AIR1" library="HyTechSymbols" deviceset="RELAY" device="" value=""/>
-<part name="FUSE" library="HyTechSymbols" deviceset="FUSE" device="" value="175A"/>
+<part name="FUSE_SMD" library="HyTechSymbols" deviceset="FUSE" device="" value="175A"/>
 <part name="SMD1" library="HyTechSymbols" deviceset="M02" device=""/>
 <part name="THERM21" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
 <part name="THERM20" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
@@ -580,8 +580,6 @@ Source: Sonnenschein</description>
 <part name="THERM3" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
 <part name="THERM2" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
 <part name="THERM1" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
-<part name="SMD2A" library="HyTechSymbols" deviceset="M02" device=""/>
-<part name="SMD2B" library="HyTechSymbols" deviceset="M02" device=""/>
 <part name="SMD3" library="HyTechSymbols" deviceset="M02" device=""/>
 </parts>
 <sheets>
@@ -590,12 +588,11 @@ Source: Sonnenschein</description>
 <text x="-106.68" y="121.92" size="2.54" layer="97">ACCUMULATOR SEGMENT 4</text>
 <wire x1="-200.66" y1="20.32" x2="-200.66" y2="22.86" width="0.6096" layer="156"/>
 <wire x1="-203.2" y1="20.32" x2="-200.66" y2="20.32" width="0.6096" layer="156"/>
-<wire x1="-205.74" y1="-106.68" x2="-177.8" y2="-106.68" width="0.6096" layer="156"/>
+<wire x1="-218.44" y1="-106.68" x2="-177.8" y2="-106.68" width="0.6096" layer="156"/>
 <wire x1="5.08" y1="-106.68" x2="35.56" y2="-106.68" width="0.6096" layer="156"/>
 <wire x1="259.08" y1="-106.68" x2="281.94" y2="-106.68" width="0.6096" layer="156"/>
 <wire x1="-177.8" y1="22.86" x2="-200.66" y2="22.86" width="0.6096" layer="156"/>
 <wire x1="-218.44" y1="-55.88" x2="-218.44" y2="-106.68" width="0.6096" layer="156"/>
-<wire x1="-218.44" y1="-106.68" x2="-208.28" y2="-106.68" width="0.6096" layer="156"/>
 <wire x1="292.1" y1="-109.22" x2="299.72" y2="-109.22" width="0.6096" layer="156"/>
 <wire x1="299.72" y1="-109.22" x2="299.72" y2="-129.54" width="0.6096" layer="156"/>
 <wire x1="279.4" y1="22.86" x2="279.4" y2="2.54" width="0.6096" layer="156"/>
@@ -611,8 +608,7 @@ Source: Sonnenschein</description>
 <text x="-106.68" y="-7.62" size="2.54" layer="97">ACCUMULATOR SEGMENT 2</text>
 <text x="147.32" y="-7.62" size="2.54" layer="97">ACCUMULATOR SEGMENT 1</text>
 <wire x1="38.1" y1="-106.68" x2="76.2" y2="-106.68" width="0.6096" layer="156"/>
-<wire x1="-218.44" y1="2.54" x2="-205.74" y2="2.54" width="0.6096" layer="156"/>
-<wire x1="-203.2" y1="2.54" x2="279.4" y2="2.54" width="0.6096" layer="156"/>
+<wire x1="-218.44" y1="2.54" x2="279.4" y2="2.54" width="0.6096" layer="156"/>
 </plain>
 <moduleinsts>
 <moduleinst name="BMS_SEGMENT4" module="BMS_SEGMENT" x="-86.36" y="78.74">
@@ -783,7 +779,7 @@ Source: Sonnenschein</description>
 <attribute name="NAME" x="148.082" y="-114.046" size="1.524" layer="95"/>
 <attribute name="VALUE" x="145.923" y="-112.522" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="HVP800_HVD" gate="G$1" x="-248.92" y="22.86" smashed="yes">
+<instance part="HVP800" gate="G$1" x="-248.92" y="22.86" smashed="yes">
 <attribute name="VALUE" x="-254" y="15.24" size="1.778" layer="96"/>
 <attribute name="NAME" x="-254" y="26.162" size="1.778" layer="95"/>
 </instance>
@@ -799,9 +795,9 @@ Source: Sonnenschein</description>
 <attribute name="VALUE" x="283.21" y="-98.171" size="1.778" layer="96" rot="MR180"/>
 <attribute name="PART" x="283.21" y="-100.33" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="FUSE" gate="G$1" x="-218.44" y="-50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="-219.71" y="-55.88" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-219.71" y="-48.26" size="1.27" layer="96" rot="R90"/>
+<instance part="FUSE_SMD" gate="G$1" x="-218.44" y="-50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="-214.63" y="-55.88" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-219.71" y="-53.34" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="SMD1" gate="G$1" x="38.1" y="-101.6" smashed="yes" rot="R270">
 <attribute name="VALUE" x="30.48" y="-96.52" size="1.778" layer="96" rot="R270"/>
@@ -974,14 +970,6 @@ Source: Sonnenschein</description>
 <instance part="THERM1" gate="G$1" x="228.6" y="-111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="229.362" y="-114.046" size="1.524" layer="95"/>
 <attribute name="VALUE" x="227.203" y="-112.522" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SMD2A" gate="G$1" x="-205.74" y="-101.6" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-213.36" y="-96.52" size="1.778" layer="96" rot="R270"/>
-<attribute name="NAME" x="-202.438" y="-96.52" size="1.778" layer="95" rot="R270"/>
-</instance>
-<instance part="SMD2B" gate="G$1" x="-205.74" y="-2.54" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-198.12" y="-7.62" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="-209.042" y="-7.62" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="SMD3" gate="G$1" x="38.1" y="27.94" smashed="yes" rot="R270">
 <attribute name="VALUE" x="30.48" y="33.02" size="1.778" layer="96" rot="R270"/>
