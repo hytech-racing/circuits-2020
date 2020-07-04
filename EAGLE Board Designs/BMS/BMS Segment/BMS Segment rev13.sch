@@ -135,6 +135,7 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="HVSpacing" color="12" fill="1" visible="no" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
@@ -257,8 +258,8 @@
 <wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.6096" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-0.889" y="-1.016" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -1013,6 +1014,12 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="CONTACT_SPRING">
+<pad name="P$1" x="0" y="0" drill="0.51" diameter="1.83" rot="R90"/>
+<circle x="0" y="0" radius="1.395" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="40"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -1740,6 +1747,14 @@ Dimensions: 5 mm x 20 mm
 <technology name=""/>
 </technologies>
 </device>
+<device name="_SPRING_CONTACT" package="CONTACT_SPRING">
+<connects>
+<connect gate="G$1" pin="S" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CONNECTOR-2" prefix="X">
@@ -2351,16 +2366,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="F0" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="CELL9" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL8" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL7" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL6" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL4" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL5" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL3" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL2" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL1" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL0" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL9" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL8" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL7" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL6" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL4" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL5" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL3" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL2" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL1" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL0" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
 <part name="RU2_B" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
@@ -2498,15 +2513,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="F10" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="CELL18" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL17" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL16" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL15" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL13" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL14" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL12" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL11" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
-<part name="CELL10" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL18" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL17" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL16" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL15" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL13" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL14" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL12" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL11" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
+<part name="CELL10" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
 <part name="RU2_A" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
@@ -2670,8 +2685,8 @@ CIRCUIT A AND CIRCUIT B</text>
 set chip address</text>
 <text x="60.96" y="307.34" size="1.778" layer="95">0Ω resistors to
 set chip address</text>
-<text x="0" y="302.26" size="1.778" layer="95">LTC6811-2</text>
-<text x="0" y="63.5" size="1.778" layer="95">LTC6811-2</text>
+<text x="-5.08" y="302.26" size="1.778" layer="95">LTC6811-2</text>
+<text x="-5.08" y="63.5" size="1.778" layer="95">LTC6811-2</text>
 </plain>
 <moduleinsts>
 <moduleinst name="DRAIN1" module="DRAIN+FILTER" x="-111.76" y="-76.2">
