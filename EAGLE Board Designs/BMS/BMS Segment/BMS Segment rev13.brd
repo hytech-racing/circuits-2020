@@ -5999,8 +5999,9 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="46.5" y1="239.279" x2="52.3115" y2="233.4675" width="0.254" layer="1"/>
 <wire x1="65.024" y1="231.2" x2="65.024" y2="230.378" width="0.254" layer="1"/>
 <wire x1="65.024" y1="230.378" x2="64.516" y2="229.87" width="0.254" layer="1"/>
-<wire x1="76.454" y1="242.355" x2="73.748" y2="239.649" width="0.254" layer="1"/>
-<wire x1="73.748" y1="239.649" x2="69.678" y2="239.649" width="0.254" layer="1"/>
+<wire x1="72.39" y1="239.649" x2="69.678" y2="239.649" width="0.254" layer="1"/>
+<wire x1="76.454" y1="242.355" x2="75.096" y2="242.355" width="0.254" layer="1"/>
+<wire x1="75.096" y1="242.355" x2="72.39" y2="239.649" width="0.254" layer="1"/>
 </signal>
 <signal name="CC9" class="1">
 <contactref element="F9" pad="P$1"/>
@@ -6123,8 +6124,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <signal name="DRAIN2:GATE">
 <contactref element="DRAIN2:GATE" pad="1"/>
 <contactref element="DRAIN2:PFET" pad="1"/>
-<wire x1="81.534" y1="32.932" x2="78.939" y2="30.337" width="0.254" layer="1"/>
-<wire x1="78.939" y1="30.337" x2="73.848" y2="30.337" width="0.254" layer="1"/>
+<wire x1="81.534" y1="32.932" x2="80.181" y2="31.579" width="0.254" layer="1"/>
+<wire x1="76.2" y1="30.337" x2="73.848" y2="30.337" width="0.254" layer="1"/>
+<wire x1="80.181" y1="31.579" x2="77.442" y2="31.579" width="0.254" layer="1"/>
+<wire x1="77.442" y1="31.579" x2="76.2" y2="30.337" width="0.254" layer="1"/>
 </signal>
 <signal name="DRAIN3:GATE">
 <contactref element="DRAIN3:GATE" pad="1"/>
@@ -6135,8 +6138,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <signal name="DRAIN4:GATE">
 <contactref element="DRAIN4:GATE" pad="1"/>
 <contactref element="DRAIN4:PFET" pad="1"/>
-<wire x1="79.114" y1="57.007" x2="81.534" y2="59.602" width="0.254" layer="1"/>
-<wire x1="73.848" y1="57.007" x2="79.114" y2="57.007" width="0.254" layer="1"/>
+<wire x1="81.534" y1="59.602" x2="80.235553125" y2="58.20965625" width="0.254" layer="1"/>
+<wire x1="76.2" y1="57.007" x2="73.848" y2="57.007" width="0.254" layer="1"/>
+<wire x1="80.235553125" y1="58.20965625" x2="77.40265625" y2="58.20965625" width="0.254" layer="1"/>
+<wire x1="77.40265625" y1="58.20965625" x2="76.2" y2="57.007" width="0.254" layer="1"/>
 </signal>
 <signal name="C0_B">
 <contactref element="U$2" pad="26"/>
@@ -6259,8 +6264,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <signal name="DRAIN6:GATE">
 <contactref element="DRAIN6:GATE" pad="1"/>
 <contactref element="DRAIN6:PFET" pad="1"/>
-<wire x1="79.114" y1="83.677" x2="81.534" y2="86.272" width="0.254" layer="1"/>
-<wire x1="73.848" y1="83.677" x2="79.114" y2="83.677" width="0.254" layer="1"/>
+<wire x1="81.534" y1="86.272" x2="80.235553125" y2="84.87965625" width="0.254" layer="1"/>
+<wire x1="76.2" y1="83.677" x2="73.848" y2="83.677" width="0.254" layer="1"/>
+<wire x1="80.235553125" y1="84.87965625" x2="77.40265625" y2="84.87965625" width="0.254" layer="1"/>
+<wire x1="77.40265625" y1="84.87965625" x2="76.2" y2="83.677" width="0.254" layer="1"/>
 </signal>
 <signal name="UNUSED2_B">
 <contactref element="U$2" pad="14"/>
@@ -6317,8 +6324,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <signal name="DRAIN8:GATE">
 <contactref element="DRAIN8:GATE" pad="1"/>
 <contactref element="DRAIN8:PFET" pad="1"/>
-<wire x1="79.114" y1="110.347" x2="81.534" y2="112.942" width="0.254" layer="1"/>
-<wire x1="73.848" y1="110.347" x2="79.114" y2="110.347" width="0.254" layer="1"/>
+<wire x1="81.534" y1="112.942" x2="80.235553125" y2="111.54965625" width="0.254" layer="1"/>
+<wire x1="76.2" y1="110.347" x2="73.848" y2="110.347" width="0.254" layer="1"/>
+<wire x1="80.235553125" y1="111.54965625" x2="77.40265625" y2="111.54965625" width="0.254" layer="1"/>
+<wire x1="77.40265625" y1="111.54965625" x2="76.2" y2="110.347" width="0.254" layer="1"/>
 </signal>
 <signal name="S8_B">
 <contactref element="U$2" pad="11"/>
@@ -6460,8 +6469,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="11.7348" y1="1.8915" x2="10.7069" y2="1.8915" width="0.254" layer="1"/>
 <wire x1="21.59" y1="14.947" x2="21.706975" y2="15.11278125" width="0.254" layer="1"/>
 <wire x1="23.622" y1="9.1186" x2="23.622" y2="14.224" width="0.254" layer="1"/>
-<wire x1="23.622" y1="9.1186" x2="24.2316" y2="8.509" width="0.254" layer="1"/>
-<wire x1="27.94" y1="8.509" x2="24.2316" y2="8.509" width="0.254" layer="1"/>
+<wire x1="24.2316" y1="8.509" x2="23.622" y2="9.1186" width="0.254" layer="1"/>
 <wire x1="101.473" y1="100.951" x2="97.409" y2="100.951" width="0.254" layer="1"/>
 <wire x1="93.726" y1="100.951" x2="97.409" y2="100.951" width="0.254" layer="1"/>
 <wire x1="93.98" y1="80.987" x2="93.98" y2="82.55" width="0.254" layer="1"/>
@@ -6471,7 +6479,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="48.133" y1="44.489" x2="48.3616" y2="44.489" width="0.254" layer="1"/>
 <wire x1="48.3616" y1="44.489" x2="51.054" y2="44.489" width="0.254" layer="1"/>
 <via x="84.963" y="40.132" extent="1-16" drill="0.381"/>
-<wire x1="84.963" y1="40.0304" x2="84.963" y2="40.132" width="0.254" layer="1"/>
 <wire x1="84.963" y1="40.132" x2="88.054" y2="40.132" width="0.254" layer="16"/>
 <wire x1="88.689" y1="40.767" x2="88.689" y2="46.595" width="0.254" layer="1"/>
 <wire x1="48.133" y1="50.546" x2="48.133" y2="44.489" width="0.254" layer="16"/>
@@ -6563,7 +6570,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="69.4817" y1="35.5727" x2="70.485" y2="36.576" width="0.254" layer="1"/>
 <wire x1="82.931" y1="36.576" x2="84.963" y2="38.608" width="0.254" layer="1"/>
 <wire x1="70.485" y1="36.576" x2="82.931" y2="36.576" width="0.254" layer="1"/>
-<wire x1="84.963" y1="38.608" x2="84.963" y2="40.0304" width="0.254" layer="1"/>
+<wire x1="84.963" y1="38.608" x2="84.963" y2="40.132" width="0.254" layer="1"/>
 <wire x1="69.4817" y1="33.26266875" x2="69.4817" y2="35.5727" width="0.254" layer="1"/>
 <wire x1="3.556" y1="23.348" x2="5.227" y2="25.019" width="0.254" layer="1"/>
 <wire x1="93.726" y1="100.951" x2="89.3162" y2="100.951" width="0.254" layer="1"/>
@@ -6626,8 +6633,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="102.45" y1="49.188" x2="101.473" y2="50.165" width="0.254" layer="1"/>
 <wire x1="31.496" y1="6.35" x2="33.146" y2="8" width="0.254" layer="1"/>
 <wire x1="33.146" y1="8" x2="46.507" y2="8" width="0.254" layer="1"/>
-<wire x1="31.496" y1="6.35" x2="30.099" y2="6.35" width="0.254" layer="1"/>
-<wire x1="30.099" y1="6.35" x2="27.94" y2="8.509" width="0.254" layer="1"/>
 <wire x1="71.374" y1="112.942" x2="70.8524" y2="112.942" width="0.254" layer="1"/>
 <wire x1="70.8524" y1="112.942" x2="69.4944" y2="114.3" width="0.254" layer="1"/>
 <wire x1="39.116" y1="49.618" x2="40.2472" y2="49.618" width="0.254" layer="1"/>
@@ -6641,6 +6646,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="94.189" y1="80.987" x2="95.166" y2="80.01" width="0.254" layer="1"/>
 <wire x1="3.556" y1="94.722" x2="6.878" y2="94.722" width="0.254" layer="16"/>
 <wire x1="6.878" y1="94.722" x2="7.62" y2="93.98" width="0.254" layer="16"/>
+<wire x1="31.496" y1="6.35" x2="29.337" y2="8.509" width="0.254" layer="1"/>
+<wire x1="29.337" y1="8.509" x2="24.2316" y2="8.509" width="0.254" layer="1"/>
 </signal>
 <signal name="S10_B">
 <contactref element="U$2" pad="7"/>
@@ -6989,10 +6996,12 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <signal name="DRAIN10:GATE">
 <contactref element="DRAIN10:GATE" pad="1"/>
 <contactref element="DRAIN10:PFET" pad="1"/>
-<wire x1="81.534" y1="139.485" x2="79.241" y2="137.017" width="0.254" layer="1"/>
-<wire x1="79.241" y1="137.017" x2="75.692" y2="137.017" width="0.254" layer="1"/>
-<wire x1="75.692" y1="137.017" x2="75.295" y2="137.017" width="0.254" layer="1"/>
-<wire x1="73.848" y1="137.017" x2="75.295" y2="137.017" width="0.254" layer="1"/>
+<wire x1="81.534" y1="139.485" x2="80.890246875" y2="138.792115625" width="0.254" layer="1"/>
+<wire x1="73.848" y1="137.017" x2="76.2" y2="137.017" width="0.254" layer="1"/>
+<wire x1="80.890246875" y1="138.792115625" x2="80.52813125" y2="138.43" width="0.254" layer="1"/>
+<wire x1="80.52813125" y1="138.43" x2="77.47" y2="138.43" width="0.254" layer="1"/>
+<wire x1="77.47" y1="138.43" x2="76.2" y2="137.16" width="0.254" layer="1"/>
+<wire x1="76.2" y1="137.16" x2="76.2" y2="137.017" width="0.254" layer="1"/>
 </signal>
 <signal name="DRAIN11:GATE">
 <contactref element="DRAIN11:GATE" pad="1"/>
@@ -7003,9 +7012,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <signal name="DRAIN12:GATE">
 <contactref element="DRAIN12:GATE" pad="1"/>
 <contactref element="DRAIN12:PFET" pad="1"/>
-<wire x1="79.697" y1="164.143" x2="81.534" y2="166.155" width="0.254" layer="1"/>
-<wire x1="73.848" y1="163.56" x2="79.114" y2="163.56" width="0.254" layer="1"/>
-<wire x1="79.114" y1="163.56" x2="79.697" y2="164.143" width="0.254" layer="1"/>
+<wire x1="81.534" y1="166.155" x2="80.315825" y2="164.820775" width="0.254" layer="1"/>
+<wire x1="76.2" y1="163.56" x2="73.848" y2="163.56" width="0.254" layer="1"/>
+<wire x1="80.315825" y1="164.820775" x2="77.460775" y2="164.820775" width="0.254" layer="1"/>
+<wire x1="77.460775" y1="164.820775" x2="76.2" y2="163.56" width="0.254" layer="1"/>
 </signal>
 <signal name="DRAIN13:GATE">
 <contactref element="DRAIN13:GATE" pad="1"/>
@@ -7017,8 +7027,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="DRAIN14:GATE" pad="1"/>
 <contactref element="DRAIN14:PFET" pad="1"/>
 <wire x1="81.534" y1="192.825" x2="81.534" y2="192.77840625" width="0.254" layer="1"/>
-<wire x1="81.534" y1="192.77840625" x2="78.98559375" y2="190.23" width="0.254" layer="1"/>
-<wire x1="78.98559375" y1="190.23" x2="73.848" y2="190.23" width="0.254" layer="1"/>
+<wire x1="81.534" y1="192.77840625" x2="80.267796875" y2="191.512203125" width="0.254" layer="1"/>
+<wire x1="76.2" y1="190.23" x2="73.848" y2="190.23" width="0.254" layer="1"/>
+<wire x1="80.267796875" y1="191.512203125" x2="77.482203125" y2="191.512203125" width="0.254" layer="1"/>
+<wire x1="77.482203125" y1="191.512203125" x2="76.2" y2="190.23" width="0.254" layer="1"/>
 </signal>
 <signal name="DRAIN15:GATE">
 <contactref element="DRAIN15:GATE" pad="1"/>
@@ -7031,8 +7043,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <signal name="DRAIN16:GATE">
 <contactref element="DRAIN16:GATE" pad="1"/>
 <contactref element="DRAIN16:PFET" pad="1"/>
-<wire x1="81.534" y1="219.495" x2="78.939" y2="216.9" width="0.254" layer="1"/>
-<wire x1="78.939" y1="216.9" x2="73.848" y2="216.9" width="0.254" layer="1"/>
+<wire x1="81.534" y1="219.495" x2="80.2445" y2="218.2055" width="0.254" layer="1"/>
+<wire x1="76.2" y1="216.9" x2="73.848" y2="216.9" width="0.254" layer="1"/>
+<wire x1="80.2445" y1="218.2055" x2="77.5055" y2="218.2055" width="0.254" layer="1"/>
+<wire x1="77.5055" y1="218.2055" x2="76.2" y2="216.9" width="0.254" layer="1"/>
 </signal>
 <signal name="DRAIN17:GATE">
 <contactref element="DRAIN17:GATE" pad="1"/>
@@ -7043,8 +7057,9 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <signal name="DRAIN18:GATE">
 <contactref element="DRAIN18:GATE" pad="1"/>
 <contactref element="DRAIN18:PFET" pad="1"/>
-<wire x1="81.534" y1="242.355" x2="77.796" y2="238.617" width="0.254" layer="1"/>
-<wire x1="77.796" y1="238.617" x2="70.546" y2="238.617" width="0.254" layer="1"/>
+<wire x1="70.546" y1="238.617" x2="71.673" y2="237.49" width="0.254" layer="1"/>
+<wire x1="71.673" y1="237.49" x2="76.669" y2="237.49" width="0.254" layer="1"/>
+<wire x1="76.669" y1="237.49" x2="81.534" y2="242.355" width="0.254" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U$1" pad="44"/>
@@ -8615,9 +8630,9 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="DRAIN18:PFET" pad="3"/>
 <contactref element="DRAIN18:DISCHARGE" pad="1"/>
 <wire x1="69.596" y1="236.617" x2="69.596" y2="234.049" width="0.254" layer="1"/>
-<wire x1="75.184" y1="237.49" x2="78.232" y2="234.442" width="0.254" layer="1"/>
-<wire x1="69.596" y1="236.617" x2="70.469" y2="237.49" width="0.254" layer="1"/>
-<wire x1="70.469" y1="237.49" x2="75.184" y2="237.49" width="0.254" layer="1"/>
+<wire x1="69.596" y1="236.617" x2="70.247" y2="235.966" width="0.254" layer="1"/>
+<wire x1="70.247" y1="235.966" x2="76.708" y2="235.966" width="0.254" layer="1"/>
+<wire x1="76.708" y1="235.966" x2="78.232" y2="234.442" width="0.254" layer="1"/>
 </signal>
 <signal name="SENSE17_PRE">
 <contactref element="F17" pad="P$2"/>
