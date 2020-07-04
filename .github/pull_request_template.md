@@ -8,27 +8,18 @@
 - - [ ] Did that PR get *approved* yet?
 - [ ] Did you pull `master` into your branch?
 - - [ ] Did you *check for merge conflicts*?
-- - [ ] Did you *resolve* any that occured?
-- [ ] Did you write a description of the board below
-- - [ ] If a revision, did you bullet the *major changes*?
-- - [ ] If a new board, did you bullet the *major features*?
-- [ ] Did you export a picture(s) of the full schematic?
-- - [ ] Did you *insert them* as instructed?
-- - [ ] Are they *readable*?
-- [ ] Did you export a picture(s) of the full board?
-- - [ ] Did you *insert them* as instructed?
-- - [ ] Are they *readable*?
-- [ ] Did you link any necessary datasheets?
-- [ ] Did you assign the right people for review?
+- - [ ] Did you *resolve* any that occurred? ***If you are having trouble or are confused, contact a lead!***
+- [ ] Did you fill out the below template?
+- [ ] Did you assign the right people for review (on the right)?
 
 ## Board Description
-*Describe the contents of the pull request. If it's a new board, what is it's purpose and features. If it's a revision, what are the changes?*
+*Describe the contents of the pull request. If it's a new board, what is its purpose and features. If it's a revision, what are the changes?*
 
 ## Schematic
-*Insert a high resolution picture of the schematic here. Highlight any important changes if needed. See [here](https://gist.github.com/vinkla/dca76249ba6b73c5dd66a4e986df4c8d) for instructions.*
+*Insert a high resolution picture of the schematic here (use File -> Export -> Image). Highlight any important changes if needed. See [here](https://gist.github.com/vinkla/dca76249ba6b73c5dd66a4e986df4c8d) for instructions.*
 
 ## Board
-*Put a high resolution picture of the board design here. Highlight any important changes if needed. See [here](https://gist.github.com/vinkla/dca76249ba6b73c5dd66a4e986df4c8d) for instructions.*
+*Put a high resolution picture of the board design here (use File -> Export -> Image). Highlight any important changes if needed. See [here](https://gist.github.com/vinkla/dca76249ba6b73c5dd66a4e986df4c8d) for instructions.*
 
 ## Additional Information
-*Put any additional information and/or useful links here.*
+*Put any additional datasheets, information and/or useful links here.*
