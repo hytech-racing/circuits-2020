@@ -4,7 +4,7 @@
 
 ## Checklist
 - [ ] Did you create any new parts in our library?
-- - [ ] Did you *make a PR* for them in `eagle-support-2020`
+- - [ ] Did you *make a PR* for them in `circuits-support-2020`
 - - [ ] Did that PR get *approved* yet?
 - [ ] Did you pull `master` into your branch?
 - - [ ] Did you *check for merge conflicts*?
@@ -20,8 +20,6 @@
 - - [ ] Are they *readable*?
 - [ ] Did you link any necessary datasheets?
 - [ ] Did you assign the right people for review?
-- - [ ] Did you *tell them* you made this PR?
-- [ ] Did you fill out this checklist?
 
 ## Board Description
 *Describe the contents of the pull request. If it's a new board, what is it's purpose and features. If it's a revision, what are the changes?*
