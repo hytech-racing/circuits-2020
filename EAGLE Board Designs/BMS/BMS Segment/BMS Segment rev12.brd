@@ -5249,19 +5249,19 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="DRAIN17:DISCHARGE" library="HyTechDevices" package="PWR163" value="5R" x="28.956" y="226.441" smashed="yes">
 <attribute name="TOLERANCE" value="5%" x="28.956" y="226.441" size="2.032" layer="27" font="vector" display="off"/>
 </element>
-<element name="DRAIN18:C" library="HyTechDevices" package="0603-CAP" value="10nF" x="71.374" y="241.935" smashed="yes" rot="R270">
-<attribute name="TOLERANCE" value="5%" x="71.374" y="241.935" size="2.032" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="VALUE" x="70.358" y="241.935" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="10V" x="71.374" y="241.935" size="2.032" layer="27" font="vector" rot="R270" display="off"/>
+<element name="DRAIN18:C" library="HyTechDevices" package="0603-CAP" value="10nF" x="71.374" y="243.205" smashed="yes" rot="R270">
+<attribute name="TOLERANCE" value="5%" x="71.374" y="243.205" size="2.032" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VALUE" x="70.358" y="243.205" size="1.016" layer="27" font="vector" rot="R270" align="top-center"/>
+<attribute name="VOLTAGE" value="10V" x="71.374" y="243.205" size="2.032" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="DRAIN18:GATE" library="HyTechDevices" package="0603-RES" value="3K3" x="81.534" y="241.935" smashed="yes" rot="R90">
-<attribute name="TOLERANCE" value="1%" x="81.534" y="241.935" size="2.032" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="VALUE" x="80.518" y="241.935" size="1.016" layer="27" font="vector" rot="R90" align="bottom-center"/>
+<element name="DRAIN18:GATE" library="HyTechDevices" package="0603-RES" value="3K3" x="81.534" y="243.205" smashed="yes" rot="R90">
+<attribute name="TOLERANCE" value="1%" x="81.534" y="243.205" size="2.032" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VALUE" x="80.518" y="243.205" size="1.016" layer="27" font="vector" rot="R90" align="bottom-center"/>
 </element>
 <element name="DRAIN18:PFET" library="HyTechDevices" package="SOT23" value="P-CHANNEL_MOSFET_DMP3099L-7" x="69.596" y="237.617" smashed="yes" rot="R180"/>
-<element name="DRAIN18:R" library="HyTechDevices" package="0603-RES" value="100R" x="76.454" y="241.935" smashed="yes" rot="R90">
-<attribute name="TOLERANCE" value="1%" x="76.454" y="241.935" size="2.032" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="VALUE" x="75.438" y="241.935" size="1.016" layer="27" font="vector" rot="R90" align="bottom-center"/>
+<element name="DRAIN18:R" library="HyTechDevices" package="0603-RES" value="100R" x="76.454" y="243.205" smashed="yes" rot="R90">
+<attribute name="TOLERANCE" value="1%" x="76.454" y="243.205" size="2.032" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VALUE" x="75.438" y="243.205" size="1.016" layer="27" font="vector" rot="R90" align="bottom-center"/>
 </element>
 <element name="DRAIN18:DISCHARGE" library="HyTechDevices" package="PWR163" value="5R" x="75.692" y="227.076" smashed="yes" rot="R180">
 <attribute name="TOLERANCE" value="5%" x="75.692" y="227.076" size="2.032" layer="27" font="vector" rot="R180" display="off"/>
@@ -5996,8 +5996,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="46.5" y1="239.279" x2="52.3115" y2="233.4675" width="0.254" layer="1"/>
 <wire x1="65.024" y1="231.2" x2="65.024" y2="230.378" width="0.254" layer="1"/>
 <wire x1="65.024" y1="230.378" x2="64.516" y2="229.87" width="0.254" layer="1"/>
-<wire x1="76.454" y1="241.085" x2="75.018" y2="239.649" width="0.254" layer="1"/>
-<wire x1="75.018" y1="239.649" x2="69.678" y2="239.649" width="0.254" layer="1"/>
+<wire x1="76.454" y1="242.355" x2="73.748" y2="239.649" width="0.254" layer="1"/>
+<wire x1="73.748" y1="239.649" x2="69.678" y2="239.649" width="0.254" layer="1"/>
 </signal>
 <signal name="CC9" class="1">
 <contactref element="F9" pad="P$1"/>
@@ -7040,8 +7040,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <signal name="DRAIN18:GATE">
 <contactref element="DRAIN18:GATE" pad="1"/>
 <contactref element="DRAIN18:PFET" pad="1"/>
-<wire x1="81.534" y1="241.085" x2="79.066" y2="238.617" width="0.254" layer="1"/>
-<wire x1="79.066" y1="238.617" x2="70.546" y2="238.617" width="0.254" layer="1"/>
+<wire x1="81.534" y1="242.355" x2="77.796" y2="238.617" width="0.254" layer="1"/>
+<wire x1="77.796" y1="238.617" x2="70.546" y2="238.617" width="0.254" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U$1" pad="44"/>
@@ -7362,8 +7362,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="61.5" y1="119.92" x2="60.516" y2="120.904" width="0.254" layer="1"/>
 <via x="92.118" y="54.977" extent="1-16" drill="0.381"/>
 <wire x1="40.005" y1="206.629" x2="42.252" y2="204.382" width="0.254" layer="1"/>
-<wire x1="71.374" y1="241.085" x2="69.277" y2="241.085" width="0.254" layer="1"/>
-<wire x1="69.277" y1="241.085" x2="63.7" y2="235.508" width="0.254" layer="1"/>
 <wire x1="34.036" y1="209.511" x2="37.123" y2="209.511" width="0.254" layer="1"/>
 <wire x1="37.123" y1="209.511" x2="40.005" y2="206.629" width="0.254" layer="1"/>
 <wire x1="56.1848" y1="200.279" x2="56.046" y2="200.4178" width="0.254" layer="1"/>
@@ -7436,9 +7434,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="105.668" y1="179.31" x2="105.668" y2="182.485" width="0.254" layer="1"/>
 <wire x1="105.668" y1="182.485" x2="105.668" y2="185.66" width="0.254" layer="1"/>
 <wire x1="105.668" y1="185.66" x2="106.8565" y2="186.8485" width="0.254" layer="1"/>
-<wire x1="106.8565" y1="186.8485" x2="106.8565" y2="189.23" width="0.254" layer="1"/>
-<wire x1="106.8565" y1="189.23" x2="106.8565" y2="192.6095" width="0.254" layer="1"/>
+<wire x1="106.8565" y1="186.8485" x2="106.8565" y2="192.6095" width="0.254" layer="1"/>
 <wire x1="106.8565" y1="192.6095" x2="105.918" y2="193.548" width="0.254" layer="1"/>
+<wire x1="71.374" y1="242.355" x2="70.547" y2="242.355" width="0.254" layer="1"/>
+<wire x1="70.547" y1="242.355" x2="63.7" y2="235.508" width="0.254" layer="1"/>
 </signal>
 <signal name="V+_A">
 <contactref element="C6_A" pad="1"/>
@@ -7457,20 +7456,21 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="U$1" pad="6"/>
 <wire x1="91.288" y1="188.3004" x2="90.297" y2="188.3004" width="0.254" layer="1"/>
 <wire x1="87.9905" y1="190.6069" x2="90.297" y2="188.3004" width="0.254" layer="1"/>
-<wire x1="76.454" y1="242.785" x2="71.374" y2="242.785" width="0.254" layer="1"/>
+<wire x1="76.454" y1="244.055" x2="71.374" y2="244.055" width="0.254" layer="1"/>
 <wire x1="87.9905" y1="239.7711" x2="87.9905" y2="190.6069" width="0.254" layer="1"/>
-<wire x1="83.9411" y1="243.8205" x2="87.9905" y2="239.7711" width="0.254" layer="1"/>
-<wire x1="76.454" y1="242.785" x2="77.4895" y2="243.8205" width="0.254" layer="1"/>
-<wire x1="77.4895" y1="243.8205" x2="83.9411" y2="243.8205" width="0.254" layer="1"/>
+<wire x1="76.454" y1="244.055" x2="78.955" y2="244.055" width="0.254" layer="1"/>
+<wire x1="78.955" y1="244.055" x2="80.01" y2="245.11" width="0.254" layer="1"/>
+<wire x1="80.01" y1="245.11" x2="82.6516" y2="245.11" width="0.254" layer="1"/>
+<wire x1="82.6516" y1="245.11" x2="87.9905" y2="239.7711" width="0.254" layer="1"/>
 </signal>
 <signal name="S10_A">
 <contactref element="DRAIN18:GATE" pad="2"/>
 <contactref element="U$1" pad="7"/>
 <wire x1="91.288" y1="187.8004" x2="89.9776" y2="187.8004" width="0.254" layer="1"/>
 <wire x1="89.9776" y1="187.8004" x2="87.3936" y2="190.3844" width="0.254" layer="1"/>
-<wire x1="87.3936" y1="239.1488" x2="87.3936" y2="190.3844" width="0.254" layer="1"/>
-<wire x1="81.534" y1="242.785" x2="83.7574" y2="242.785" width="0.254" layer="1"/>
-<wire x1="83.7574" y1="242.785" x2="87.3936" y2="239.1488" width="0.254" layer="1"/>
+<wire x1="87.3936" y1="238.76" x2="87.3936" y2="190.3844" width="0.254" layer="1"/>
+<wire x1="81.534" y1="244.055" x2="82.0986" y2="244.055" width="0.254" layer="1"/>
+<wire x1="82.0986" y1="244.055" x2="87.3936" y2="238.76" width="0.254" layer="1"/>
 </signal>
 <signal name="C9_A">
 <contactref element="DRAIN17:R" pad="2"/>
@@ -8904,10 +8904,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <approved hash="18,29,28117b86c6376055"/>
 <approved hash="18,29,84551e765e71c452"/>
 <approved hash="18,29,953e763abbe39415"/>
-<approved hash="18,29,9133cc0d4615d7d9"/>
 <approved hash="18,29,e6779fd55fd8267a"/>
 <approved hash="18,29,ad7e20dce0c76d65"/>
-<approved hash="18,29,20e98da04b4e2af5"/>
 <approved hash="18,29,97ecf9c0d1070a66"/>
 <approved hash="18,29,4c83f6e136e58c87"/>
 <approved hash="18,29,d33ca0346037133f"/>
@@ -9051,6 +9049,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <approved hash="7,39,24c24b8a951500a6"/>
 <approved hash="7,39,080608c63b3e3bfe"/>
 <approved hash="7,39,101e10764d8e4de6"/>
+<approved hash="18,29,9689f26bfff757e7"/>
+<approved hash="18,29,2077b7e9f1bbaad7"/>
 </errors>
 </board>
 </drawing>
