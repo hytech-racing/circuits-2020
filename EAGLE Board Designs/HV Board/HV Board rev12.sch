@@ -1952,7 +1952,8 @@ Source: http://www.molex.com</description>
 <pin name="EN" x="-12.7" y="-5.08" length="middle"/>
 <pin name="WDI" x="12.7" y="-5.08" length="middle" rot="R180"/>
 <pin name="VCC" x="12.7" y="5.08" length="middle" rot="R180"/>
-<text x="-7.62" y="10.16" size="1.778" layer="95">STWD100</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="LTC6820">
 <pin name="PHA" x="-12.7" y="-10.16" length="short"/>
@@ -4484,7 +4485,10 @@ corresponds to 60V on TS</text>
 <instance part="P+22" gate="1" x="101.6" y="-248.92" smashed="yes" rot="R270">
 <attribute name="VALUE" x="93.98" y="-248.92" size="1.778" layer="96"/>
 </instance>
-<instance part="U10" gate="G$1" x="142.24" y="-284.48" smashed="yes" rot="MR0"/>
+<instance part="U10" gate="G$1" x="142.24" y="-284.48" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="149.86" y="-294.64" size="1.778" layer="96" rot="MR0" align="top-left"/>
+<attribute name="NAME" x="149.86" y="-274.32" size="1.778" layer="95" rot="MR0"/>
+</instance>
 <instance part="P+23" gate="1" x="121.92" y="-266.7" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="127" y="-264.16" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -4529,7 +4533,7 @@ corresponds to 60V on TS</text>
 </instance>
 <instance part="U11" gate="G$1" x="124.46" y="-317.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="124.46" y="-304.8" size="1.778" layer="95"/>
-<attribute name="VALUE" x="137.16" y="-327.787" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="137.16" y="-327.787" size="1.778" layer="96" rot="MR0" align="top-left"/>
 </instance>
 <instance part="R20" gate="G$1" x="144.78" y="-317.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="146.2786" y="-313.69" size="1.778" layer="95" rot="R270"/>
