@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -134,6 +134,7 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="HVSpacing" color="12" fill="1" visible="no" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
@@ -1139,15 +1140,6 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1524" layer="21"/>
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1524" layer="21"/>
 </package>
-<package name="PWR163">
-<smd name="PAD" x="0" y="0" dx="7.874" dy="8.509" layer="1"/>
-<smd name="1" x="-2.54" y="-7.9375" dx="3.81" dy="1.651" layer="1" rot="R90"/>
-<smd name="2" x="2.54" y="-7.9375" dx="3.81" dy="1.651" layer="1" rot="R90"/>
-<wire x1="-4.064" y1="3.6195" x2="4.064" y2="3.6195" width="0.127" layer="21"/>
-<wire x1="4.064" y1="3.6195" x2="4.064" y2="-3.6195" width="0.127" layer="21"/>
-<wire x1="4.064" y1="-3.6195" x2="-4.064" y2="-3.6195" width="0.127" layer="21"/>
-<wire x1="-4.064" y1="-3.6195" x2="-4.064" y2="3.6195" width="0.127" layer="21"/>
-</package>
 <package name="MX150L_VERTICAL-4">
 <description>19428-0011
 &lt;br&gt;
@@ -1623,47 +1615,6 @@ Source: http://www.molex.com</description>
 <rectangle x1="-1.4091" y1="2.25" x2="-1.2059" y2="3.121" layer="51"/>
 <rectangle x1="-2.0591" y1="2.25" x2="-1.8559" y2="3.121" layer="51"/>
 </package>
-<package name="TEENSY_3.2_SIMPLE_SMD">
-<wire x1="17.78" y1="35.56" x2="17.78" y2="0" width="0.127" layer="21"/>
-<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="36.322" x2="12.7" y2="36.322" width="0.127" layer="21"/>
-<wire x1="12.7" y1="36.322" x2="12.7" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="35.56" x2="5.08" y2="36.322" width="0.127" layer="21"/>
-<wire x1="0" y1="35.56" x2="5.08" y2="35.56" width="0.127" layer="21"/>
-<wire x1="12.7" y1="35.56" x2="17.78" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.127" layer="21"/>
-<wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="21"/>
-<wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.127" layer="21"/>
-<smd name="GND" x="-0.508" y="34.29" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D1(TX1)" x="-0.508" y="29.21" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D3(CANTX)" x="-0.508" y="24.13" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D5" x="-0.508" y="19.05" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D7(RX3)" x="-0.508" y="13.97" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D9(RX2)" x="-0.508" y="8.89" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D11" x="-0.508" y="3.81" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D0(RX1)" x="3.048" y="31.75" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D2" x="3.048" y="26.67" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D4(CANRX)" x="3.048" y="21.59" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D6" x="3.048" y="16.51" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D8(TX3)" x="3.048" y="11.43" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D10(TX2)" x="3.048" y="6.35" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D12" x="3.048" y="1.27" dx="1.905" dy="1.016" layer="1"/>
-<smd name="VIN" x="14.732" y="34.29" dx="1.905" dy="1.016" layer="1"/>
-<smd name="AGND" x="18.288" y="31.75" dx="1.905" dy="1.016" layer="1"/>
-<smd name="3.3V" x="14.732" y="29.21" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A9" x="18.288" y="26.67" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A8" x="14.732" y="24.13" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A7" x="18.288" y="21.59" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A6" x="14.732" y="19.05" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A5" x="18.288" y="16.51" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A4" x="14.732" y="13.97" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A3" x="18.288" y="11.43" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A2" x="14.732" y="8.89" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A1" x="18.288" y="6.35" dx="1.905" dy="1.016" layer="1"/>
-<smd name="A0" x="14.732" y="3.81" dx="1.905" dy="1.016" layer="1"/>
-<smd name="D13" x="18.288" y="1.27" dx="1.905" dy="1.016" layer="1"/>
-</package>
 <package name="SOT23">
 <description>&lt;B&gt; SOT-23 &lt;/B&gt;</description>
 <wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.127" layer="21"/>
@@ -1810,6 +1761,15 @@ Source: http://www.molex.com</description>
 <smd name="16" x="-4.445" y="4.650003125" dx="0.6604" dy="2.032" layer="1"/>
 <text x="-4.064" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-5.461" y="-1.778" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="PWR163">
+<smd name="PAD" x="0" y="0" dx="7.874" dy="8.509" layer="1"/>
+<smd name="1" x="-2.54" y="-7.366" dx="2.54" dy="1.143" layer="1" rot="R90"/>
+<smd name="2" x="2.54" y="-7.366" dx="2.54" dy="1.143" layer="1" rot="R90"/>
+<wire x1="-4.064" y1="4.3815" x2="4.064" y2="4.3815" width="0.127" layer="21"/>
+<wire x1="4.064" y1="4.3815" x2="4.064" y2="-4.3815" width="0.127" layer="21"/>
+<wire x1="4.064" y1="-4.3815" x2="-4.064" y2="-4.3815" width="0.127" layer="21"/>
+<wire x1="-4.064" y1="-4.3815" x2="-4.064" y2="4.3815" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2946,8 +2906,8 @@ It is replaced by MCP2561.
 </device>
 </devices>
 </deviceset>
-<deviceset name="STWD100">
-<description>STWD100 Watchdog timer</description>
+<deviceset name="STWD100NYWY3F">
+<description>STWD100 Watchdog Timer (open-drain configuration)</description>
 <gates>
 <gate name="G$1" symbol="STWD100" x="-7.62" y="7.62"/>
 </gates>
@@ -3111,41 +3071,6 @@ Source: http://www.molex.com</description>
 </gates>
 <devices>
 <device name="" package="TEENSY_3.2_SIMPLE">
-<connects>
-<connect gate="G$1" pin="3.3V" pad="3.3V"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="A8" pad="A8"/>
-<connect gate="G$1" pin="A9" pad="A9"/>
-<connect gate="G$1" pin="AGND" pad="AGND"/>
-<connect gate="G$1" pin="D0(RX1)" pad="D0(RX1)"/>
-<connect gate="G$1" pin="D1(TX1)" pad="D1(TX1)"/>
-<connect gate="G$1" pin="D10(TX2)" pad="D10(TX2)"/>
-<connect gate="G$1" pin="D11" pad="D11"/>
-<connect gate="G$1" pin="D12" pad="D12"/>
-<connect gate="G$1" pin="D13" pad="D13"/>
-<connect gate="G$1" pin="D2" pad="D2"/>
-<connect gate="G$1" pin="D3(CANTX)" pad="D3(CANTX)"/>
-<connect gate="G$1" pin="D4(CANRX)" pad="D4(CANRX)"/>
-<connect gate="G$1" pin="D5" pad="D5"/>
-<connect gate="G$1" pin="D6" pad="D6"/>
-<connect gate="G$1" pin="D7(RX3)" pad="D7(RX3)"/>
-<connect gate="G$1" pin="D8(TX3)" pad="D8(TX3)"/>
-<connect gate="G$1" pin="D9(RX2)" pad="D9(RX2)"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VIN" pad="VIN"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="TEENSY_3.2_SIMPLE_SMD">
 <connects>
 <connect gate="G$1" pin="3.3V" pad="3.3V"/>
 <connect gate="G$1" pin="A0" pad="A0"/>
@@ -3705,7 +3630,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="UCC21520A">
-<description>UCC212520A &lt;a href="http://www.ti.com/lit/ds/symlink/ucc21520-q1.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<description>UCC21520A &lt;a href="http://www.ti.com/lit/ds/symlink/ucc21520-q1.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="UCC21520A" x="-10.16" y="-10.16"/>
 </gates>
@@ -3994,7 +3919,7 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U10" library="HyTechDevices" deviceset="STWD100" device=""/>
+<part name="U10" library="HyTechDevices" deviceset="STWD100NYWY3F" device=""/>
 <part name="P+23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="430">
 <attribute name="TOLERANCE" value="1%"/>
