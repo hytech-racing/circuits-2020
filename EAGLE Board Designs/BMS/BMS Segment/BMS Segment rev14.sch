@@ -2095,9 +2095,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
-<text x="88.9" y="17.78" size="1.778" layer="97">Gate Drive</text>
-<text x="2.54" y="60.96" size="5.08" layer="97">See LTC6804 DATASHEET pg.61</text>
-<text x="88.9" y="43.18" size="1.778" layer="97">Cell Input</text>
+<text x="88.9" y="17.78" size="1.778" layer="97" align="center-left">Gate Drive</text>
+<text x="17.78" y="48.26" size="1.778" layer="97">See LTC6811 Datasheet pg.70</text>
+<text x="88.9" y="43.18" size="1.778" layer="97" align="center-left">Cell Input</text>
 </plain>
 <instances>
 <instance part="GATE" gate="G$1" x="55.88" y="17.78" smashed="yes">
