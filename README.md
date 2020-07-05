@@ -23,6 +23,10 @@ Repository for all of the circuits for the 2019-2020 car.
 2. Download and install [EAGLE](https://www.autodesk.com/products/eagle/overview)
 3. Get the free [Educational License](https://www.autodesk.com/education/free-software/eagle) (a .edu email address is required)
 
+<!-- ## View on CADLAB
+View design diffs on [CADLAB.io](https://cadlab.io/project/1277).
+ -->
+
 ## Circuit Board Versioning Scheme
 * New boards must start their numbering at revision 1.
 * Revision numbers must be incremented by 1 when a physical board is manufactured, but not at any other time.
