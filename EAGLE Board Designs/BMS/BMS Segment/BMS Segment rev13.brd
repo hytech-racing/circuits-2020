@@ -4183,8 +4183,8 @@ based on rev10 by Yvonne Yeh</text>
 <wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.6096" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-0.889" y="-1.016" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -7828,7 +7828,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="U$1" pad="37"/>
 <wire x1="98.976" y1="202.678" x2="95.25" y2="202.678" width="0.254" layer="1"/>
 <wire x1="98.038" y1="184.8004" x2="98.038" y2="185.3004" width="0.254" layer="1"/>
-<wire x1="98.038" y1="186.8004" x2="97.4344" y2="186.8004" width="0.254" layer="1"/>
 <wire x1="98.038" y1="185.3004" x2="97.409" y2="185.3004" width="0.254" layer="1"/>
 <via x="101.60780625" y="185.01920625" extent="1-16" drill="0.381"/>
 <wire x1="101.60780625" y1="185.01920625" x2="102.913" y2="183.7140125" width="0.254" layer="16"/>
@@ -7854,7 +7853,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="101.083" y1="171.704" x2="98.951" y2="171.704" width="0.254" layer="1"/>
 <wire x1="97.409" y1="185.3004" x2="96.817" y2="185.8924" width="0.254" layer="1"/>
 <wire x1="96.817" y1="185.8924" x2="96.817" y2="187.4178" width="0.254" layer="1"/>
-<wire x1="97.4344" y1="186.8004" x2="96.817" y2="187.4178" width="0.254" layer="1"/>
 <wire x1="103.802" y1="199.39" x2="103.759" y2="199.337" width="0.254" layer="1"/>
 <wire x1="98.976" y1="202.678" x2="99.06" y2="202.678" width="0.254" layer="1"/>
 <wire x1="99.06" y1="202.678" x2="99.06" y2="202.594" width="0.254" layer="1"/>
@@ -7875,6 +7873,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="99.992" y1="199.38" x2="99.949" y2="199.337" width="0.254" layer="1"/>
 <wire x1="103.802" y1="201.662" x2="103.802" y2="199.39" width="0.254" layer="1"/>
 <wire x1="96.182" y1="201.746" x2="95.25" y2="202.678" width="0.254" layer="1"/>
+<wire x1="97.159" y1="187.0701875" x2="97.159" y2="187.0758" width="0.254" layer="1"/>
+<wire x1="97.159" y1="187.0758" x2="96.817" y2="187.4178" width="0.254" layer="1"/>
+<wire x1="98.038" y1="186.8004" x2="97.4287875" y2="186.8004" width="0.254" layer="1"/>
+<wire x1="97.4287875" y1="186.8004" x2="97.159" y2="187.0701875" width="0.254" layer="1"/>
 </signal>
 <signal name="DRIVE_A">
 <contactref element="U$1" pad="38"/>

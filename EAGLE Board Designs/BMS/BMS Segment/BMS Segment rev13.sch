@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -135,6 +135,7 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="HVSpacing" color="12" fill="1" visible="no" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
@@ -257,8 +258,8 @@
 <wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.6096" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-0.889" y="-1.016" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -1013,6 +1014,12 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="CONTACT_SPRING">
+<pad name="P$1" x="0" y="0" drill="0.51" diameter="1.83" rot="R90"/>
+<circle x="0" y="0" radius="1.395" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="40"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -1733,6 +1740,14 @@ Dimensions: 5 mm x 20 mm
 </technologies>
 </device>
 <device name="" package="KEYSTONE5203">
+<connects>
+<connect gate="G$1" pin="S" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SPRING_CONTACT" package="CONTACT_SPRING">
 <connects>
 <connect gate="G$1" pin="S" pad="P$1"/>
 </connects>
