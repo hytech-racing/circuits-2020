@@ -21,5 +21,5 @@
 - [ ] Did you pull `master` into your branch?
 - - [ ] Did you *check for merge conflicts*?
 - - [ ] Did you *resolve* any that occurred? ***If you are having trouble or are confused, contact a lead!***
-- [ ] Did you fill out the below template?
+- [ ] Did you fill out the above template?
 - [ ] Did you assign the right people for review (on the right)?
