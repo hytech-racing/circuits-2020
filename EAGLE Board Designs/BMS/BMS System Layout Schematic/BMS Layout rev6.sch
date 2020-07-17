@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -581,6 +581,7 @@ Source: Sonnenschein</description>
 <part name="THERM2" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
 <part name="THERM1" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
 <part name="SMD3" library="HyTechSymbols" deviceset="M02" device=""/>
+<part name="HVD" library="HyTechSymbols" deviceset="M02" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -596,7 +597,6 @@ Source: Sonnenschein</description>
 <wire x1="292.1" y1="-109.22" x2="299.72" y2="-109.22" width="0.6096" layer="156"/>
 <wire x1="299.72" y1="-109.22" x2="299.72" y2="-129.54" width="0.6096" layer="156"/>
 <wire x1="279.4" y1="22.86" x2="279.4" y2="2.54" width="0.6096" layer="156"/>
-<wire x1="299.72" y1="-129.54" x2="-228.6" y2="-129.54" width="0.6096" layer="156"/>
 <wire x1="-228.6" y1="-129.54" x2="-228.6" y2="20.32" width="0.6096" layer="156"/>
 <wire x1="-228.6" y1="20.32" x2="-243.84" y2="20.32" width="0.6096" layer="156"/>
 <wire x1="-213.36" y1="22.86" x2="-243.84" y2="22.86" width="0.6096" layer="156"/>
@@ -609,6 +609,8 @@ Source: Sonnenschein</description>
 <text x="147.32" y="-7.62" size="2.54" layer="97">ACCUMULATOR SEGMENT 1</text>
 <wire x1="38.1" y1="-106.68" x2="76.2" y2="-106.68" width="0.6096" layer="156"/>
 <wire x1="-218.44" y1="2.54" x2="279.4" y2="2.54" width="0.6096" layer="156"/>
+<wire x1="-228.6" y1="-129.54" x2="35.56" y2="-129.54" width="0.6096" layer="156"/>
+<wire x1="38.1" y1="-129.54" x2="299.72" y2="-129.54" width="0.6096" layer="156"/>
 </plain>
 <moduleinsts>
 <moduleinst name="BMS_SEGMENT4" module="BMS_SEGMENT" x="-86.36" y="78.74">
@@ -974,6 +976,10 @@ Source: Sonnenschein</description>
 <instance part="SMD3" gate="G$1" x="38.1" y="27.94" smashed="yes" rot="R270">
 <attribute name="VALUE" x="30.48" y="33.02" size="1.778" layer="96" rot="R270"/>
 <attribute name="NAME" x="41.402" y="33.02" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="HVD" gate="G$1" x="35.56" y="-134.62" smashed="yes" rot="R90">
+<attribute name="VALUE" x="43.18" y="-139.7" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="32.258" y="-139.7" size="1.778" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>
