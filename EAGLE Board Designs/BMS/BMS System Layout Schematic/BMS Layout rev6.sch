@@ -475,6 +475,33 @@ Source: Sonnenschein</description>
 </sheet>
 </sheets>
 </module>
+<module name="ENERGY_METER" prefix="" dx="30.48" dy="30.48">
+<ports>
+<port name="HV-" side="left" coord="-7.62" direction="in"/>
+<port name="HV+" side="right" coord="-12.7" direction="in"/>
+<port name="HV_OUT" side="right" coord="-7.62" direction="out"/>
+<port name="12_VIN" side="left" coord="2.54" direction="io"/>
+<port name="GND" side="left" coord="5.08" direction="io"/>
+<port name="CANH_IN" side="left" coord="7.62" direction="io"/>
+<port name="CANL_IN" side="left" coord="10.16" direction="in"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
 </modules>
 <parts>
 <part name="C72" library="HyTechSymbols" deviceset="BATTERY_1_CELL" device=""/>
@@ -597,9 +624,7 @@ Source: Sonnenschein</description>
 <wire x1="292.1" y1="-109.22" x2="299.72" y2="-109.22" width="0.6096" layer="156"/>
 <wire x1="299.72" y1="-109.22" x2="299.72" y2="-129.54" width="0.6096" layer="156"/>
 <wire x1="279.4" y1="22.86" x2="279.4" y2="2.54" width="0.6096" layer="156"/>
-<wire x1="-228.6" y1="-129.54" x2="-228.6" y2="20.32" width="0.6096" layer="156"/>
 <wire x1="-228.6" y1="20.32" x2="-243.84" y2="20.32" width="0.6096" layer="156"/>
-<wire x1="-213.36" y1="22.86" x2="-243.84" y2="22.86" width="0.6096" layer="156"/>
 <wire x1="-218.44" y1="-45.72" x2="-218.44" y2="2.54" width="0.6096" layer="156"/>
 <wire x1="259.08" y1="22.86" x2="279.4" y2="22.86" width="0.6096" layer="156"/>
 <text x="144.78" y="121.92" size="2.54" layer="97">ACCUMULATOR SEGMENT 3</text>
@@ -611,6 +636,11 @@ Source: Sonnenschein</description>
 <wire x1="-218.44" y1="2.54" x2="279.4" y2="2.54" width="0.6096" layer="156"/>
 <wire x1="-228.6" y1="-129.54" x2="35.56" y2="-129.54" width="0.6096" layer="156"/>
 <wire x1="38.1" y1="-129.54" x2="299.72" y2="-129.54" width="0.6096" layer="156"/>
+<wire x1="-228.6" y1="-129.54" x2="-228.6" y2="-30.48" width="0.6096" layer="156"/>
+<wire x1="-228.6" y1="20.32" x2="-228.6" y2="10.16" width="0.6096" layer="156"/>
+<wire x1="-243.84" y1="22.86" x2="-223.52" y2="22.86" width="0.6096" layer="156"/>
+<wire x1="-223.52" y1="22.86" x2="-223.52" y2="10.16" width="0.6096" layer="156"/>
+<wire x1="-223.52" y1="22.86" x2="-213.36" y2="22.86" width="0.6096" layer="156"/>
 </plain>
 <moduleinsts>
 <moduleinst name="BMS_SEGMENT4" module="BMS_SEGMENT" x="-86.36" y="78.74">
@@ -630,6 +660,9 @@ Source: Sonnenschein</description>
 </moduleinst>
 <moduleinst name="100A_CURRENT_SENSE" module="CURRENT_SENSE" x="-236.22" y="124.46">
 <attribute name="NAME" value="100A_CURRENT_SENSE" x="-236.22" y="129.54" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="ENERGY_METER1" module="ENERGY_METER" x="-236.22" y="-10.16" rot="R90">
+<attribute name="NAME" x="-236.22" y="-10.16" size="2.032" layer="95" rot="R90" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -789,9 +822,9 @@ Source: Sonnenschein</description>
 <attribute name="VALUE" x="-254" y="93.98" size="1.778" layer="96"/>
 <attribute name="NAME" x="-254" y="109.982" size="1.778" layer="95"/>
 </instance>
-<instance part="CAN/POWER_OUT" gate="G$1" x="-248.92" y="83.82" smashed="yes">
-<attribute name="VALUE" x="-254" y="76.2" size="1.778" layer="96"/>
-<attribute name="NAME" x="-254" y="92.202" size="1.778" layer="95"/>
+<instance part="CAN/POWER_OUT" gate="G$1" x="-243.84" y="-30.48" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-251.46" y="-25.4" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="-235.458" y="-25.4" size="1.778" layer="95" rot="R270"/>
 </instance>
 <instance part="AIR1" gate="1" x="287.02" y="-116.84" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="283.21" y="-98.171" size="1.778" layer="96" rot="MR180"/>
@@ -1038,7 +1071,9 @@ Source: Sonnenschein</description>
 <wire x1="-154.94" y1="102.87" x2="-154.94" y2="99.06" width="0.762" layer="92"/>
 <wire x1="-154.94" y1="102.87" x2="-149.86" y2="102.87" width="0.762" layer="92"/>
 <wire x1="-149.86" y1="102.87" x2="-149.86" y2="85.09" width="0.762" layer="92"/>
-<wire x1="-149.86" y1="85.09" x2="-241.3" y2="85.09" width="0.762" layer="92"/>
+<wire x1="-149.86" y1="85.09" x2="-256.54" y2="85.09" width="0.762" layer="92"/>
+<wire x1="-256.54" y1="85.09" x2="-256.54" y2="-43.18" width="0.762" layer="92"/>
+<wire x1="-256.54" y1="-43.18" x2="-242.57" y2="-38.1" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="B$7">
@@ -1048,7 +1083,7 @@ Source: Sonnenschein</description>
 </bus>
 <bus name="B$8">
 <segment>
-<wire x1="-241.3" y1="88.9" x2="-241.3" y2="81.28" width="0.762" layer="92"/>
+<wire x1="-238.76" y1="-38.1" x2="-246.38" y2="-38.1" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -1477,19 +1512,19 @@ Source: Sonnenschein</description>
 <net name="B$8" class="0">
 <segment>
 <pinref part="CAN/POWER_OUT" gate="G$1" pin="4"/>
-<wire x1="-243.84" y1="88.9" x2="-241.3" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-238.76" y1="-35.56" x2="-238.76" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CAN/POWER_OUT" gate="G$1" pin="3"/>
-<wire x1="-243.84" y1="86.36" x2="-241.3" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="-35.56" x2="-241.3" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CAN/POWER_OUT" gate="G$1" pin="2"/>
-<wire x1="-243.84" y1="83.82" x2="-241.3" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="-35.56" x2="-243.84" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CAN/POWER_OUT" gate="G$1" pin="1"/>
-<wire x1="-243.84" y1="81.28" x2="-241.3" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-246.38" y1="-35.56" x2="-246.38" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
