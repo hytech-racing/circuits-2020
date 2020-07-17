@@ -4754,8 +4754,8 @@ design rules under a new name.</description>
 <wire x1="28.2194" y1="61.9252" x2="28.2194" y2="87.1633375" width="0.254" layer="1"/>
 <wire x1="32.6992625" y1="88.4682" x2="37.9316625" y2="93.7006" width="0.254" layer="1"/>
 <wire x1="37.9316625" y1="93.7006" x2="49.7176125" y2="93.7006" width="0.254" layer="1"/>
-<contactref element="U$11" pad="A9"/>
-<wire x1="22.2504" y1="12.319" x2="20.0788" y2="14.4906" width="0" layer="19" extent="1-1"/>
+<contactref element="U$11" pad="D8(TX3)"/>
+<wire x1="20.0788" y1="14.4906" x2="37.4904" y2="27.559" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAN1CONTROL">
 <contactref element="U$5" pad="2"/>
@@ -4772,8 +4772,8 @@ design rules under a new name.</description>
 <wire x1="56.6582" y1="92.2782" x2="55.739" y2="93.1974" width="0.254" layer="16"/>
 <wire x1="55.739" y1="93.1974" x2="50.338" y2="93.1974" width="0.254" layer="16"/>
 <wire x1="50.2412" y1="93.2942" x2="50.338" y2="93.1974" width="0.254" layer="16"/>
-<contactref element="U$11" pad="A8"/>
-<wire x1="22.2504" y1="14.859" x2="22.1488" y2="14.859" width="0" layer="19" extent="1-1"/>
+<contactref element="U$11" pad="D9(RX2)"/>
+<wire x1="22.1488" y1="14.859" x2="37.4904" y2="30.099" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAN1DRIVE">
 <contactref element="U$5" pad="7"/>
@@ -5605,14 +5605,12 @@ design rules under a new name.</description>
 <signal name="CS1_TEENSY">
 <contactref element="U$52" pad="3"/>
 <wire x1="39.8686" y1="29.0416" x2="38.8112" y2="30.099" width="0.254" layer="16"/>
-<wire x1="37.4904" y1="30.099" x2="38.8112" y2="30.099" width="0.254" layer="16"/>
 <wire x1="39.8686" y1="22.5297375" x2="40.44543125" y2="21.95290625" width="0.254" layer="16"/>
 <wire x1="46.5888" y1="6.4096" x2="46.6074" y2="6.391" width="0.254" layer="16"/>
 <wire x1="40.44543125" y1="10.8625625" x2="44.89839375" y2="6.4096" width="0.254" layer="16"/>
 <wire x1="44.89839375" y1="6.4096" x2="46.5888" y2="6.4096" width="0.254" layer="16"/>
 <wire x1="39.8686" y1="29.0416" x2="39.8686" y2="22.5297375" width="0.254" layer="16"/>
 <wire x1="40.44543125" y1="21.95290625" x2="40.44543125" y2="10.8625625" width="0.254" layer="16"/>
-<contactref element="U$11" pad="D9(RX2)"/>
 </signal>
 <signal name="MOSI_TEENSY">
 <contactref element="U$52" pad="5"/>
@@ -5696,6 +5694,8 @@ design rules under a new name.</description>
 <wire x1="43.5356" y1="11.1252" x2="43.46803125" y2="11.05763125" width="0.254" layer="1"/>
 <wire x1="43.46803125" y1="11.05763125" x2="23.32051875" y2="11.05763125" width="0.254" layer="1"/>
 <contactref element="U$11" pad="3.3V"/>
+<contactref element="U$11" pad="A8"/>
+<wire x1="22.2504" y1="9.9875125" x2="22.2504" y2="14.859" width="0" layer="19" extent="1-1"/>
 <wire x1="22.2504" y1="9.779" x2="22.2504" y2="9.9875125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BSPD_OK_READ">
@@ -6063,7 +6063,9 @@ design rules under a new name.</description>
 <signal name="WATCHDOG_IN">
 <contactref element="R7" pad="2"/>
 <contactref element="U$9" pad="WDI"/>
+<contactref element="U$11" pad="A9"/>
 <wire x1="-7.024" y1="-56.896" x2="-7.874" y2="-94.996" width="0" layer="19" extent="1-1"/>
+<wire x1="22.2504" y1="12.319" x2="-7.024" y2="-56.896" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="Q1" pad="1"/>
@@ -6198,7 +6200,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="TEENSY_OK">
 <contactref element="U$52" pad="4"/>
-<wire x1="37.4904" y1="32.639" x2="38.481" y2="32.639" width="0.254" layer="16"/>
 <wire x1="38.481" y1="32.639" x2="38.608" y2="32.766" width="0.254" layer="16"/>
 <wire x1="38.608" y1="32.766" x2="40.275" y2="31.099" width="0.254" layer="16"/>
 <wire x1="40.275" y1="22.698075" x2="40.85183125" y2="22.12124375" width="0.254" layer="16"/>
@@ -6206,7 +6207,6 @@ design rules under a new name.</description>
 <wire x1="40.275" y1="31.099" x2="40.275" y2="22.698075" width="0.254" layer="16"/>
 <wire x1="46.6074" y1="7.041" x2="44.84173125" y2="7.041" width="0.254" layer="16"/>
 <wire x1="44.84173125" y1="7.041" x2="40.85183125" y2="11.0309" width="0.254" layer="16"/>
-<contactref element="U$11" pad="D10(TX2)"/>
 </signal>
 <signal name="N$9">
 <contactref element="R10" pad="2"/>
@@ -6304,6 +6304,9 @@ design rules under a new name.</description>
 <contactref element="U$11" pad="D5"/>
 <contactref element="U$24" pad="7"/>
 <wire x1="37.4904" y1="19.939" x2="-73.025" y2="-252.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS1_TEENSY1">
+<contactref element="U$11" pad="D10(TX2)"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -12111,20 +12111,6 @@ See documentation for details.</text>
 <wire x1="302.26" y1="134.62" x2="299.72" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="FAN2CONTROL" class="0">
-<segment>
-<wire x1="149.86" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
-<label x="152.4" y="58.42" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$11" gate="G$1" pin="A9"/>
-</segment>
-</net>
-<net name="FAN1CONTROL" class="0">
-<segment>
-<wire x1="149.86" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
-<label x="152.4" y="55.88" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$11" gate="G$1" pin="A8"/>
-</segment>
-</net>
 <net name="CS1_5V" class="0">
 <segment>
 <wire x1="391.16" y1="236.22" x2="396.24" y2="236.22" width="0.1524" layer="91"/>
@@ -12162,11 +12148,6 @@ See documentation for details.</text>
 </segment>
 </net>
 <net name="CS1_TEENSY" class="0">
-<segment>
-<label x="121.92" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$11" gate="G$1" pin="D9(RX2)"/>
-<wire x1="124.46" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U$52" gate="G$1" pin="A2"/>
 <wire x1="213.36" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
@@ -12438,6 +12419,11 @@ See documentation for details.</text>
 <pinref part="U$52" gate="G$1" pin="OE"/>
 <wire x1="213.36" y1="38.1" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
 <label x="205.74" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="A8"/>
+<wire x1="149.86" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
+<label x="152.4" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BSPD_OK_READ" class="0">
@@ -12840,11 +12826,6 @@ See documentation for details.</text>
 <wire x1="213.36" y1="48.26" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
 <label x="205.74" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<label x="121.92" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$11" gate="G$1" pin="D10(TX2)"/>
-<wire x1="124.46" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="TEENSY_OK_5V" class="0">
 <segment>
@@ -13028,6 +13009,34 @@ See documentation for details.</text>
 <pinref part="U$24" gate="G$1" pin="VOUTB"/>
 <wire x1="274.32" y1="195.58" x2="279.4" y2="195.58" width="0.1524" layer="91"/>
 <label x="279.4" y="195.58" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CS1_TEENSY1" class="0">
+<segment>
+<wire x1="124.46" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$11" gate="G$1" pin="D10(TX2)"/>
+<label x="121.92" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="FAN2CONTROL" class="0">
+<segment>
+<wire x1="124.46" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<label x="121.92" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$11" gate="G$1" pin="D8(TX3)"/>
+</segment>
+</net>
+<net name="FAN1CONTROL" class="0">
+<segment>
+<wire x1="124.46" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
+<label x="121.92" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$11" gate="G$1" pin="D9(RX2)"/>
+</segment>
+</net>
+<net name="WATCHDOG_IN" class="0">
+<segment>
+<pinref part="U$11" gate="G$1" pin="A9"/>
+<wire x1="149.86" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
+<label x="152.4" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
