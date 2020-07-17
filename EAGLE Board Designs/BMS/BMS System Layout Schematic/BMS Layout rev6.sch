@@ -418,21 +418,21 @@ Source: Sonnenschein</description>
 </module>
 <module name="BMS_MICROCONTROLLER" prefix="" dx="40.64" dy="30.48">
 <ports>
-<port name="ISOSPI-P" side="right" coord="-5.08" direction="out"/>
-<port name="ISOPSI-M" side="right" coord="-2.54" direction="out"/>
-<port name="12V_SUPPLY_IN" side="left" coord="12.7" direction="in"/>
-<port name="GND_IN" side="left" coord="10.16" direction="in"/>
-<port name="CANL_IN" side="left" coord="7.62" direction="in"/>
-<port name="CANH_IN" side="left" coord="5.08" direction="in"/>
-<port name="12V_SUPPLY_OUT" side="right" coord="12.7" direction="out"/>
-<port name="GND_OUT" side="right" coord="10.16" direction="out"/>
-<port name="CANL_OUT" side="right" coord="7.62" direction="out"/>
-<port name="CANH_OUT" side="right" coord="5.08" direction="out"/>
+<port name="ISOSPI-P" side="right" coord="-5.08" direction="io"/>
+<port name="ISOPSI-M" side="right" coord="-2.54" direction="io"/>
+<port name="12V_IN" side="left" coord="12.7" direction="pwr"/>
+<port name="GND_IN" side="left" coord="10.16" direction="pwr"/>
+<port name="CANL_IN" side="left" coord="7.62" direction="io"/>
+<port name="CANH_IN" side="left" coord="5.08" direction="io"/>
+<port name="12V_ENERGY_METER" side="right" coord="12.7" direction="pwr"/>
+<port name="GND_ENERGY_METER" side="right" coord="10.16" direction="pwr"/>
+<port name="CANL_ENERGY_METER" side="right" coord="7.62" direction="io"/>
+<port name="CANH_ENERGY_METER" side="right" coord="5.08" direction="io"/>
 <port name="BMS_OK" side="right" coord="-12.7" direction="out"/>
-<port name="CUR_5V" side="left" coord="-12.7" direction="out"/>
-<port name="CUR_SENSE" side="left" coord="-10.16" direction="in"/>
-<port name="CUR_REF" side="left" coord="-7.62" direction="in"/>
-<port name="GND" side="left" coord="-5.08" direction="in"/>
+<port name="5V_CURRENT_SENSOR" side="left" coord="-12.7" direction="pwr"/>
+<port name="CURRENT_IN" side="left" coord="-10.16" direction="in"/>
+<port name="CURRENT_REFERENCE_IN" side="left" coord="-7.62" direction="in"/>
+<port name="GND_CURRENT_SENSOR" side="left" coord="-5.08" direction="pwr"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -451,12 +451,12 @@ Source: Sonnenschein</description>
 </sheet>
 </sheets>
 </module>
-<module name="CURRENT_SENSE" prefix="" dx="35.56" dy="20.32">
+<module name="CURRENT_SENSE" prefix="" dx="40.64" dy="20.32">
 <ports>
-<port name="CUR_5V" side="right" coord="0" direction="in"/>
-<port name="CUR_SENSE" side="right" coord="-2.54" direction="out"/>
-<port name="CUR_REF" side="right" coord="-5.08" direction="out"/>
-<port name="GND" side="right" coord="-7.62" direction="out"/>
+<port name="5V_IN" side="right" coord="0" direction="pwr"/>
+<port name="CURRENT_OUT" side="right" coord="-2.54" direction="out"/>
+<port name="CURRENT_REFERENCE_OUT" side="right" coord="-5.08" direction="out"/>
+<port name="GND_IN" side="right" coord="-7.62" direction="pwr"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -480,10 +480,10 @@ Source: Sonnenschein</description>
 <port name="HV-" side="left" coord="-7.62" direction="in"/>
 <port name="HV+" side="right" coord="-12.7" direction="in"/>
 <port name="HV_OUT" side="right" coord="-7.62" direction="out"/>
-<port name="12_VIN" side="left" coord="2.54" direction="io"/>
-<port name="GND" side="left" coord="5.08" direction="io"/>
-<port name="CANH_IN" side="left" coord="7.62" direction="io"/>
-<port name="CANL_IN" side="left" coord="10.16" direction="in"/>
+<port name="12_VIN" side="left" coord="5.08" direction="pwr"/>
+<port name="GND" side="left" coord="7.62" direction="pwr"/>
+<port name="CANH_IN" side="left" coord="10.16" direction="io"/>
+<port name="CANL_IN" side="left" coord="12.7" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -552,7 +552,6 @@ Source: Sonnenschein</description>
 <part name="THERM4" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
 <part name="HVP800" library="HyTechSymbols" deviceset="M02" device=""/>
 <part name="CAN/POWER_IN" library="HyTechSymbols" deviceset="M04" device=""/>
-<part name="CAN/POWER_OUT" library="HyTechSymbols" deviceset="M04" device=""/>
 <part name="AIR1" library="HyTechSymbols" deviceset="RELAY" device="" value=""/>
 <part name="FUSE_SMD" library="HyTechSymbols" deviceset="FUSE" device="" value="175A"/>
 <part name="SMD1" library="HyTechSymbols" deviceset="M02" device=""/>
@@ -608,12 +607,12 @@ Source: Sonnenschein</description>
 <part name="THERM2" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
 <part name="THERM1" library="HyTechSymbols" deviceset="THERMISTOR" device="" value=""/>
 <part name="SMD3" library="HyTechSymbols" deviceset="M02" device=""/>
-<part name="HVD" library="HyTechSymbols" deviceset="M02" device=""/>
+<part name="HVD" library="HyTechSymbols" deviceset="M02" device="" value="HIROSE"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-106.68" y="121.92" size="2.54" layer="97">ACCUMULATOR SEGMENT 4</text>
+<text x="-86.36" y="121.92" size="4.064" layer="97" align="bottom-center">ACCUMULATOR SEGMENT 4</text>
 <wire x1="-200.66" y1="20.32" x2="-200.66" y2="22.86" width="0.6096" layer="156"/>
 <wire x1="-203.2" y1="20.32" x2="-200.66" y2="20.32" width="0.6096" layer="156"/>
 <wire x1="-218.44" y1="-106.68" x2="-177.8" y2="-106.68" width="0.6096" layer="156"/>
@@ -627,11 +626,11 @@ Source: Sonnenschein</description>
 <wire x1="-228.6" y1="20.32" x2="-243.84" y2="20.32" width="0.6096" layer="156"/>
 <wire x1="-218.44" y1="-45.72" x2="-218.44" y2="2.54" width="0.6096" layer="156"/>
 <wire x1="259.08" y1="22.86" x2="279.4" y2="22.86" width="0.6096" layer="156"/>
-<text x="144.78" y="121.92" size="2.54" layer="97">ACCUMULATOR SEGMENT 3</text>
+<text x="167.64" y="121.92" size="4.064" layer="97" align="bottom-center">ACCUMULATOR SEGMENT 3</text>
 <wire x1="5.08" y1="22.86" x2="35.56" y2="22.86" width="0.6096" layer="156"/>
 <wire x1="38.1" y1="22.86" x2="76.2" y2="22.86" width="0.6096" layer="156"/>
-<text x="-106.68" y="-7.62" size="2.54" layer="97">ACCUMULATOR SEGMENT 2</text>
-<text x="147.32" y="-7.62" size="2.54" layer="97">ACCUMULATOR SEGMENT 1</text>
+<text x="-86.36" y="-7.62" size="4.064" layer="97" align="bottom-center">ACCUMULATOR SEGMENT 2</text>
+<text x="167.64" y="-7.62" size="4.064" layer="97" align="bottom-center">ACCUMULATOR SEGMENT 1</text>
 <wire x1="38.1" y1="-106.68" x2="76.2" y2="-106.68" width="0.6096" layer="156"/>
 <wire x1="-218.44" y1="2.54" x2="279.4" y2="2.54" width="0.6096" layer="156"/>
 <wire x1="-228.6" y1="-129.54" x2="35.56" y2="-129.54" width="0.6096" layer="156"/>
@@ -658,11 +657,11 @@ Source: Sonnenschein</description>
 <moduleinst name="BMS_MICROCONTROLLER" module="BMS_MICROCONTROLLER" x="-182.88" y="111.76" rot="MR180">
 <attribute name="NAME" x="-182.88" y="111.76" size="2.032" layer="95" rot="MR180" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="100A_CURRENT_SENSE" module="CURRENT_SENSE" x="-236.22" y="124.46">
-<attribute name="NAME" value="100A_CURRENT_SENSE" x="-236.22" y="129.54" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="100A_CURRENT_SENSOR" module="CURRENT_SENSE" x="-236.22" y="124.46">
+<attribute name="NAME" value="100A_CURRENT_SENSOR" x="-236.22" y="127" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="ENERGY_METER1" module="ENERGY_METER" x="-236.22" y="-10.16" rot="R90">
-<attribute name="NAME" x="-236.22" y="-10.16" size="2.032" layer="95" rot="R90" align="bottom-center"/>
+<moduleinst name="ENERGY_METER" module="ENERGY_METER" x="-236.22" y="-10.16" rot="R90">
+<attribute name="NAME" value="ENERGY_METER" x="-236.22" y="-10.16" size="2.032" layer="95" rot="R90" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -821,10 +820,6 @@ Source: Sonnenschein</description>
 <instance part="CAN/POWER_IN" gate="G$1" x="-248.92" y="101.6" smashed="yes">
 <attribute name="VALUE" x="-254" y="93.98" size="1.778" layer="96"/>
 <attribute name="NAME" x="-254" y="109.982" size="1.778" layer="95"/>
-</instance>
-<instance part="CAN/POWER_OUT" gate="G$1" x="-243.84" y="-30.48" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-251.46" y="-25.4" size="1.778" layer="96" rot="R270"/>
-<attribute name="NAME" x="-235.458" y="-25.4" size="1.778" layer="95" rot="R270"/>
 </instance>
 <instance part="AIR1" gate="1" x="287.02" y="-116.84" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="283.21" y="-98.171" size="1.778" layer="96" rot="MR180"/>
@@ -1072,8 +1067,9 @@ Source: Sonnenschein</description>
 <wire x1="-154.94" y1="102.87" x2="-149.86" y2="102.87" width="0.762" layer="92"/>
 <wire x1="-149.86" y1="102.87" x2="-149.86" y2="85.09" width="0.762" layer="92"/>
 <wire x1="-149.86" y1="85.09" x2="-256.54" y2="85.09" width="0.762" layer="92"/>
-<wire x1="-256.54" y1="85.09" x2="-256.54" y2="-43.18" width="0.762" layer="92"/>
-<wire x1="-256.54" y1="-43.18" x2="-242.57" y2="-38.1" width="0.762" layer="92"/>
+<wire x1="-256.54" y1="85.09" x2="-256.54" y2="-38.1" width="0.762" layer="92"/>
+<wire x1="-256.54" y1="-38.1" x2="-245.11" y2="-38.1" width="0.762" layer="92"/>
+<wire x1="-245.11" y1="-38.1" x2="-245.11" y2="-33.02" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="B$7">
@@ -1083,7 +1079,7 @@ Source: Sonnenschein</description>
 </bus>
 <bus name="B$8">
 <segment>
-<wire x1="-238.76" y1="-38.1" x2="-246.38" y2="-38.1" width="0.762" layer="92"/>
+<wire x1="-241.3" y1="-33.02" x2="-248.92" y2="-33.02" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -1459,7 +1455,7 @@ Source: Sonnenschein</description>
 <wire x1="-208.28" y1="101.6" x2="-210.82" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BMS_MICROCONTROLLER" port="12V_SUPPLY_IN"/>
+<portref moduleinst="BMS_MICROCONTROLLER" port="12V_IN"/>
 <wire x1="-208.28" y1="99.06" x2="-210.82" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1475,19 +1471,19 @@ Source: Sonnenschein</description>
 </net>
 <net name="B$6" class="0">
 <segment>
-<portref moduleinst="BMS_MICROCONTROLLER" port="CANH_OUT"/>
+<portref moduleinst="BMS_MICROCONTROLLER" port="CANH_ENERGY_METER"/>
 <wire x1="-157.48" y1="106.68" x2="-154.94" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BMS_MICROCONTROLLER" port="CANL_OUT"/>
+<portref moduleinst="BMS_MICROCONTROLLER" port="CANL_ENERGY_METER"/>
 <wire x1="-157.48" y1="104.14" x2="-154.94" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BMS_MICROCONTROLLER" port="GND_OUT"/>
+<portref moduleinst="BMS_MICROCONTROLLER" port="GND_ENERGY_METER"/>
 <wire x1="-157.48" y1="101.6" x2="-154.94" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BMS_MICROCONTROLLER" port="12V_SUPPLY_OUT"/>
+<portref moduleinst="BMS_MICROCONTROLLER" port="12V_ENERGY_METER"/>
 <wire x1="-157.48" y1="99.06" x2="-154.94" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1511,48 +1507,44 @@ Source: Sonnenschein</description>
 </net>
 <net name="B$8" class="0">
 <segment>
-<pinref part="CAN/POWER_OUT" gate="G$1" pin="4"/>
-<wire x1="-238.76" y1="-35.56" x2="-238.76" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="-30.48" x2="-241.3" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CAN/POWER_OUT" gate="G$1" pin="3"/>
-<wire x1="-241.3" y1="-35.56" x2="-241.3" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="-30.48" x2="-243.84" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CAN/POWER_OUT" gate="G$1" pin="2"/>
-<wire x1="-243.84" y1="-35.56" x2="-243.84" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-246.38" y1="-30.48" x2="-246.38" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CAN/POWER_OUT" gate="G$1" pin="1"/>
-<wire x1="-246.38" y1="-35.56" x2="-246.38" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-248.92" y1="-33.02" x2="-248.92" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<portref moduleinst="BMS_MICROCONTROLLER" port="CUR_5V"/>
-<portref moduleinst="100A_CURRENT_SENSE" port="CUR_5V"/>
-<wire x1="-213.36" y1="124.46" x2="-208.28" y2="124.46" width="0.1524" layer="91"/>
+<portref moduleinst="BMS_MICROCONTROLLER" port="5V_CURRENT_SENSOR"/>
+<portref moduleinst="100A_CURRENT_SENSOR" port="5V_IN"/>
+<wire x1="-210.82" y1="124.46" x2="-208.28" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<portref moduleinst="BMS_MICROCONTROLLER" port="CUR_SENSE"/>
-<portref moduleinst="100A_CURRENT_SENSE" port="CUR_SENSE"/>
-<wire x1="-213.36" y1="121.92" x2="-208.28" y2="121.92" width="0.1524" layer="91"/>
+<portref moduleinst="BMS_MICROCONTROLLER" port="CURRENT_IN"/>
+<portref moduleinst="100A_CURRENT_SENSOR" port="CURRENT_OUT"/>
+<wire x1="-210.82" y1="121.92" x2="-208.28" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<portref moduleinst="BMS_MICROCONTROLLER" port="CUR_REF"/>
-<portref moduleinst="100A_CURRENT_SENSE" port="CUR_REF"/>
-<wire x1="-213.36" y1="119.38" x2="-208.28" y2="119.38" width="0.1524" layer="91"/>
+<portref moduleinst="BMS_MICROCONTROLLER" port="CURRENT_REFERENCE_IN"/>
+<portref moduleinst="100A_CURRENT_SENSOR" port="CURRENT_REFERENCE_OUT"/>
+<wire x1="-210.82" y1="119.38" x2="-208.28" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<portref moduleinst="BMS_MICROCONTROLLER" port="GND"/>
-<portref moduleinst="100A_CURRENT_SENSE" port="GND"/>
-<wire x1="-213.36" y1="116.84" x2="-208.28" y2="116.84" width="0.1524" layer="91"/>
+<portref moduleinst="BMS_MICROCONTROLLER" port="GND_CURRENT_SENSOR"/>
+<portref moduleinst="100A_CURRENT_SENSOR" port="GND_IN"/>
+<wire x1="-210.82" y1="116.84" x2="-208.28" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
