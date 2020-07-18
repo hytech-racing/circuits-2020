@@ -1146,7 +1146,7 @@ based on rev10 by Yvonne Yeh</text>
 <text x="90.297" y="239.49" size="13.208" layer="51" font="vector" align="center">+</text>
 <text x="90.297" y="6.35" size="13.208" layer="51" font="vector" align="center">-</text>
 <text x="89.047" y="0.635" size="2.032" layer="51" font="vector" align="center">Cell 0</text>
-<text x="17.78" y="9.017" size="3.048" layer="51" font="vector" rot="SR90" align="center">0</text>
+<text x="19.05" y="9.017" size="3.048" layer="51" font="vector" rot="SR90" align="center">0</text>
 <text x="95.25" y="147.32" size="2.032" layer="51" font="vector" rot="R270" align="top-center">TS</text>
 <wire x1="107.492" y1="107.228" x2="96.52" y2="107.228" width="1.016" layer="51"/>
 <wire x1="96.52" y1="107.228" x2="96.52" y2="154.418" width="1.016" layer="51"/>
