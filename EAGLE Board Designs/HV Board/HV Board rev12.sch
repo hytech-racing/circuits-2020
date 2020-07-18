@@ -6804,7 +6804,7 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 </parts>
 <sheets>
 <sheet>
-<description>GLV Systems</description>
+<description>GLV Systems (Main IO, LEDs, Power, Current Sensors, AIRs, and BMS)</description>
 <plain>
 <text x="22.86" y="-163.83" size="1.778" layer="97">Current sensor 1: ISB-300-A-804</text>
 <text x="266.7" y="-48.26" size="1.778" layer="97">See pg. 19 about Pull-Up Resistance Considerations</text>
@@ -9098,7 +9098,7 @@ corner frequency = fclk / 100 = 1 kHz</text>
 </nets>
 </sheet>
 <sheet>
-<description>HV Systems</description>
+<description>HV Systems (Discharge, Precharge, and TSAL/Voltage Indicator)</description>
 <plain>
 <text x="10.16" y="182.88" size="1.778" layer="97">Main HV+ and HV-
 (Externally Fused)</text>
