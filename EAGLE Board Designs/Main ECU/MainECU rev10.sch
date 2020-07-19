@@ -7558,6 +7558,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="+3V7" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="150"/>
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="150"/>
+<part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
+<part name="GND21" library="HyTechSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8788,6 +8790,7 @@ to limit current or drop voltage</text>
 <text x="347.98" y="15.24" size="2.54" layer="97">Shutdown ciruitry</text>
 <text x="50.8" y="139.7" size="1.778" layer="91" rot="R90">fix values for new analog circuitry
 4.29 V</text>
+<text x="106.68" y="170.18" size="1.778" layer="91">this needs to be 5V as well</text>
 </plain>
 <instances>
 <instance part="IMD_SHUTDOWN_RLY1" gate="G$1" x="53.34" y="243.84" smashed="yes" rot="R270">
@@ -11656,6 +11659,13 @@ See documentation for details.</text>
 <attribute name="NAME" x="275.3614" y="181.61" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="280.162" y="181.61" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="R31" gate="G$1" x="210.82" y="33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="209.3214" y="29.21" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="214.122" y="29.21" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND21" gate="1" x="210.82" y="22.86" smashed="yes">
+<attribute name="VALUE" x="208.28" y="20.32" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11789,6 +11799,11 @@ See documentation for details.</text>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="180.34" x2="276.86" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="177.8" x2="276.86" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND21" gate="1" pin="GND"/>
+<wire x1="210.82" y1="27.94" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="R31" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SHUTDOWN_C" class="0">
@@ -12417,13 +12432,11 @@ See documentation for details.</text>
 </segment>
 <segment>
 <pinref part="U$52" gate="G$1" pin="OE"/>
-<wire x1="213.36" y1="38.1" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="38.1" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
 <label x="205.74" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$11" gate="G$1" pin="A8"/>
-<wire x1="149.86" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
-<label x="152.4" y="55.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="38.1" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
+<junction x="210.82" y="38.1"/>
 </segment>
 </net>
 <net name="BSPD_OK_READ" class="0">
@@ -12825,6 +12838,11 @@ See documentation for details.</text>
 <pinref part="U$52" gate="G$1" pin="A3"/>
 <wire x1="213.36" y1="48.26" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
 <label x="205.74" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="A8"/>
+<wire x1="149.86" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
+<label x="152.4" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TEENSY_OK_5V" class="0">

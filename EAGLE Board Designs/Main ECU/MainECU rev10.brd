@@ -2735,6 +2735,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-72.009" y="-259.842" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="-72.136" y="-261.747" size="0.4064" layer="27" font="vector"/>
 </element>
+<element name="R31" library="HyTechDevices" package="0603-RES" value="" x="-74.168" y="-263.652" smashed="yes">
+<attribute name="NAME" x="-75.057" y="-262.89" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="-75.184" y="-264.795" size="0.4064" layer="27" font="vector"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -3150,6 +3154,7 @@ design rules under a new name.</description>
 <contactref element="U$24" pad="4"/>
 <contactref element="R29" pad="1"/>
 <contactref element="R30" pad="1"/>
+<contactref element="R31" pad="1"/>
 <wire x1="-64.516" y1="-190.72" x2="-63.52" y2="-183.134" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.024" y1="-199.61" x2="-64.516" y2="-190.72" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.024" y1="-209.008" x2="-65.024" y2="-199.61" width="0" layer="19" extent="1-1"/>
@@ -3164,6 +3169,7 @@ design rules under a new name.</description>
 <wire x1="-70.485" y1="-257.87" x2="-75.018" y2="-247.904" width="0" layer="19" extent="1-1"/>
 <wire x1="-71.97" y1="-260.604" x2="-70.485" y2="-257.87" width="0" layer="19" extent="1-1"/>
 <wire x1="-75.018" y1="-260.604" x2="-71.97" y2="-260.604" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.018" y1="-263.652" x2="-75.018" y2="-260.604" width="0" layer="19" extent="1-1"/>
 <wire x1="-41.736" y1="-182.56" x2="-63.52" y2="-183.134" width="0" layer="19" extent="1-1"/>
 <wire x1="-41.736" y1="-186.624" x2="-41.736" y2="-182.56" width="0" layer="19" extent="1-1"/>
 <wire x1="-33.462" y1="-177.53" x2="-41.736" y2="-182.56" width="0" layer="19" extent="1-1"/>
@@ -5694,9 +5700,9 @@ design rules under a new name.</description>
 <wire x1="43.5356" y1="11.1252" x2="43.46803125" y2="11.05763125" width="0.254" layer="1"/>
 <wire x1="43.46803125" y1="11.05763125" x2="23.32051875" y2="11.05763125" width="0.254" layer="1"/>
 <contactref element="U$11" pad="3.3V"/>
-<contactref element="U$11" pad="A8"/>
-<wire x1="22.2504" y1="9.9875125" x2="22.2504" y2="14.859" width="0" layer="19" extent="1-1"/>
-<wire x1="22.2504" y1="9.779" x2="22.2504" y2="9.9875125" width="0" layer="19" extent="1-1"/>
+<contactref element="R31" pad="2"/>
+<wire x1="22.2504" y1="9.779" x2="-73.318" y2="-263.652" width="0" layer="19" extent="1-1"/>
+<wire x1="22.2504" y1="9.9875125" x2="22.2504" y2="9.779" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BSPD_OK_READ">
 <contactref element="R149" pad="2"/>
@@ -6207,6 +6213,8 @@ design rules under a new name.</description>
 <wire x1="40.275" y1="31.099" x2="40.275" y2="22.698075" width="0.254" layer="16"/>
 <wire x1="46.6074" y1="7.041" x2="44.84173125" y2="7.041" width="0.254" layer="16"/>
 <wire x1="44.84173125" y1="7.041" x2="40.85183125" y2="11.0309" width="0.254" layer="16"/>
+<contactref element="U$11" pad="A8"/>
+<wire x1="22.2504" y1="14.859" x2="38.481" y2="32.639" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$9">
 <contactref element="R10" pad="2"/>
