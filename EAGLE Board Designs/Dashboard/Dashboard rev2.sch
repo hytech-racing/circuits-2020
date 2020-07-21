@@ -6823,6 +6823,38 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <pinref part="U1" gate="G$1" pin="ADC6"/>
 </segment>
 </net>
+<net name="THERMAL" class="0">
+<segment>
+<pinref part="START" gate="G$1" pin="X"/>
+<wire x1="22.86" y1="114.3" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
+<label x="25.4" y="114.3" size="0.6096" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="MC" gate="G$1" pin="X"/>
+<wire x1="22.86" y1="96.52" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
+<label x="25.4" y="96.52" size="0.6096" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="MODE" gate="G$1" pin="X"/>
+<wire x1="22.86" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
+<label x="25.4" y="78.74" size="0.6096" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="IMD" gate="G$1" pin="X"/>
+<wire x1="22.86" y1="60.96" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
+<label x="25.4" y="60.96" size="0.6096" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="AMS" gate="G$1" pin="X"/>
+<wire x1="22.86" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+<label x="25.4" y="43.18" size="0.6096" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="SSOK" gate="G$1" pin="X"/>
+<wire x1="22.86" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
+<label x="25.4" y="33.02" size="0.6096" layer="95" rot="R180"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
