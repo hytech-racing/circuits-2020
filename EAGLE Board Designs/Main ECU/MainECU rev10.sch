@@ -7404,9 +7404,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND3" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="D3" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="Q1" library="HyTechDevices" deviceset="P-CHANNEL_MOSFET_DMP3099L-7" device=""/>
@@ -7567,20 +7565,50 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND43" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND44" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND45" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="P+41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="+3V9" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="+3V10" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="C18" library="HyTechDevices" deviceset="TEST_POINT" device="" value="12V_TEST"/>
+<part name="U$30" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="U$31" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="3V3_TEST1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
 <description>Inputs/Outputs and Power</description>
 <plain>
 <text x="73.914" y="194.056" size="1.016" layer="95">Pedals 5V</text>
-<text x="69.85" y="196.85" size="1.016" layer="95">CANL for
-Motor Controller</text>
+<text x="69.85" y="196.85" size="1.016" layer="95">CANH for
+dash</text>
 <text x="73.914" y="186.436" size="1.016" layer="95">Pedals 5V</text>
 <text x="281.94" y="22.86" size="2.54" layer="97">Leonid Pozdneev</text>
 <text x="347.98" y="15.24" size="2.54" layer="97">Board power distribution, connectors, and I/O.</text>
 <text x="15.24" y="215.9" size="1.27" layer="91">need 6 for wheel speed
 3 for break
 4 for dashboard?</text>
+<text x="35.56" y="254" size="1.778" layer="91" rot="R90">4 outputs</text>
+<text x="25.4" y="248.158" size="1.778" layer="91">dash input</text>
+<text x="31.242" y="204.978" size="1.778" layer="91">dash input</text>
+<text x="33.528" y="197.358" size="1.778" layer="91">empty</text>
+<text x="31.75" y="175.768" size="1.778" layer="91">empty</text>
+<text x="28.194" y="182.118" size="1.778" layer="91">dash input</text>
+<text x="33.02" y="210.82" size="1.778" layer="91">dash input</text>
+<text x="35.56" y="213.36" size="1.778" layer="91" rot="R90">3 out</text>
+<text x="66.294" y="173.736" size="1.016" layer="95">Pedals 5V</text>
+<text x="52.07" y="176.53" size="1.016" layer="95">CANL for
+dash</text>
+<text x="54.61" y="260.35" size="1.016" layer="95">12V for
+dash</text>
+<text x="52.07" y="181.61" size="1.016" layer="95">GND for
+brake</text>
+<text x="52.07" y="217.17" size="1.016" layer="95">GND for
+dash</text>
+<text x="52.07" y="257.81" size="1.016" layer="95">12V for
+wheelspeed</text>
+<text x="57.15" y="214.63" size="1.016" layer="95">12V for
+wheelspeed</text>
 </plain>
 <instances>
 <instance part="X5" gate="-13" x="48.26" y="231.14" smashed="yes" rot="MR0">
@@ -7715,8 +7743,8 @@ Motor Controller</text>
 <instance part="GND50" gate="1" x="53.34" y="137.16" smashed="yes">
 <attribute name="VALUE" x="50.8" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="GND57" gate="1" x="81.28" y="185.42" smashed="yes">
-<attribute name="VALUE" x="78.74" y="182.88" size="1.778" layer="96"/>
+<instance part="GND57" gate="1" x="81.28" y="180.34" smashed="yes">
+<attribute name="VALUE" x="78.74" y="177.8" size="1.778" layer="96"/>
 </instance>
 <instance part="P+10" gate="1" x="81.28" y="198.12" smashed="yes">
 <attribute name="VALUE" x="83.82" y="200.66" size="1.778" layer="96" rot="R180"/>
@@ -8041,6 +8069,15 @@ Motor Controller</text>
 <instance part="GND45" gate="1" x="76.2" y="226.06" smashed="yes">
 <attribute name="VALUE" x="73.66" y="223.52" size="1.778" layer="96"/>
 </instance>
+<instance part="P+41" gate="1" x="71.12" y="177.8" smashed="yes">
+<attribute name="VALUE" x="73.66" y="180.34" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+43" gate="1" x="76.2" y="264.16" smashed="yes">
+<attribute name="VALUE" x="83.82" y="264.16" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+44" gate="1" x="81.28" y="218.44" smashed="yes">
+<attribute name="VALUE" x="88.9" y="218.44" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8059,8 +8096,13 @@ Motor Controller</text>
 </segment>
 <segment>
 <pinref part="GND57" gate="1" pin="GND"/>
-<wire x1="50.8" y1="187.96" x2="81.28" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="187.96" x2="73.66" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-30" pin="S"/>
+<pinref part="X5" gate="-32" pin="S"/>
+<wire x1="50.8" y1="182.88" x2="73.66" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="182.88" x2="73.66" y2="187.96" width="0.1524" layer="91"/>
+<junction x="73.66" y="182.88"/>
+<wire x1="73.66" y1="182.88" x2="81.28" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND68" gate="1" pin="GND"/>
@@ -8202,6 +8244,11 @@ Motor Controller</text>
 <pinref part="X5" gate="-15" pin="S"/>
 <pinref part="X5" gate="-16" pin="S"/>
 <pinref part="GND45" gate="1" pin="GND"/>
+<wire x1="50.8" y1="218.44" x2="78.74" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-18" pin="S"/>
+<wire x1="78.74" y1="218.44" x2="78.74" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="228.6" x2="76.2" y2="228.6" width="0.1524" layer="91"/>
+<junction x="76.2" y="228.6"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -8289,6 +8336,21 @@ Motor Controller</text>
 <wire x1="157.48" y1="254" x2="157.48" y2="251.46" width="0.1524" layer="91"/>
 <junction x="157.48" y="254"/>
 </segment>
+<segment>
+<wire x1="76.2" y1="261.62" x2="60.96" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-1" pin="S"/>
+<pinref part="P+43" gate="1" pin="+12V"/>
+<pinref part="X5" gate="-2" pin="S"/>
+<wire x1="60.96" y1="261.62" x2="50.8" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="259.08" x2="60.96" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="259.08" x2="60.96" y2="261.62" width="0.1524" layer="91"/>
+<junction x="60.96" y="261.62"/>
+</segment>
+<segment>
+<wire x1="81.28" y1="215.9" x2="50.8" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-19" pin="S"/>
+<pinref part="P+44" gate="1" pin="+12V"/>
+</segment>
 </net>
 <net name="FAN1-" class="0">
 <segment>
@@ -8324,15 +8386,15 @@ Motor Controller</text>
 </net>
 <net name="BMS_OK" class="0">
 <segment>
-<label x="55.88" y="185.42" size="1.016" layer="95" xref="yes"/>
-<wire x1="50.8" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
+<label x="58.42" y="185.42" size="1.016" layer="95" xref="yes"/>
+<wire x1="50.8" y1="185.42" x2="58.42" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-31" pin="S"/>
 </segment>
 </net>
 <net name="OKHS" class="0">
 <segment>
-<label x="55.88" y="180.34" size="1.016" layer="95" xref="yes"/>
-<wire x1="50.8" y1="180.34" x2="55.88" y2="180.34" width="0.1524" layer="91"/>
+<label x="58.42" y="180.34" size="1.016" layer="95" xref="yes"/>
+<wire x1="50.8" y1="180.34" x2="58.42" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-33" pin="S"/>
 </segment>
 </net>
@@ -8376,11 +8438,16 @@ Motor Controller</text>
 <wire x1="50.8" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="P+34" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="P+41" gate="1" pin="+5V"/>
+<wire x1="50.8" y1="175.26" x2="71.12" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-35" pin="S"/>
+</segment>
 </net>
 <net name="LATCH_EXT_BUTTON" class="0">
 <segment>
-<label x="55.88" y="170.18" size="1.016" layer="95" xref="yes"/>
-<wire x1="50.8" y1="170.18" x2="55.88" y2="170.18" width="0.1524" layer="91"/>
+<label x="58.42" y="170.18" size="1.016" layer="95" xref="yes"/>
+<wire x1="50.8" y1="170.18" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-37" pin="S"/>
 </segment>
 </net>
@@ -8438,6 +8505,11 @@ Motor Controller</text>
 <wire x1="266.7" y1="193.04" x2="269.24" y2="193.04" width="0.1524" layer="91"/>
 <label x="269.24" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X5" gate="-34" pin="S"/>
+<wire x1="50.8" y1="177.8" x2="58.42" y2="177.8" width="0.1524" layer="91"/>
+<label x="58.42" y="177.8" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="CANH" class="0">
 <segment>
@@ -8461,6 +8533,11 @@ Motor Controller</text>
 <pinref part="U$42" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="187.96" x2="269.24" y2="187.96" width="0.1524" layer="91"/>
 <label x="269.24" y="187.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X5" gate="-26" pin="S"/>
+<wire x1="50.8" y1="198.12" x2="58.42" y2="198.12" width="0.1524" layer="91"/>
+<label x="58.42" y="198.12" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SIGNAL_ACCEL2" class="0">
@@ -8762,6 +8839,41 @@ Motor Controller</text>
 <pinref part="X5" gate="-5" pin="S"/>
 </segment>
 </net>
+<net name="SIGNAL_BRAKE_2" class="0">
+<segment>
+<pinref part="X5" gate="-23" pin="S"/>
+<wire x1="50.8" y1="205.74" x2="58.42" y2="205.74" width="0.1524" layer="91"/>
+<label x="58.42" y="205.74" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="WS1_IN" class="0">
+<segment>
+<pinref part="X5" gate="-3" pin="S"/>
+<wire x1="50.8" y1="256.54" x2="55.88" y2="256.54" width="0.1524" layer="91"/>
+<label x="55.88" y="256.54" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="WS2_IN" class="0">
+<segment>
+<pinref part="X5" gate="-4" pin="S"/>
+<wire x1="50.8" y1="254" x2="55.88" y2="254" width="0.1524" layer="91"/>
+<label x="55.88" y="254" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="WS3_IN" class="0">
+<segment>
+<pinref part="X5" gate="-20" pin="S"/>
+<wire x1="50.8" y1="213.36" x2="58.42" y2="213.36" width="0.1524" layer="91"/>
+<label x="58.42" y="213.36" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="WS4_IN" class="0">
+<segment>
+<pinref part="X5" gate="-21" pin="S"/>
+<wire x1="50.8" y1="210.82" x2="58.42" y2="210.82" width="0.1524" layer="91"/>
+<label x="58.42" y="210.82" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -9029,14 +9141,8 @@ Motor Controller</text>
 <instance part="GND2" gate="1" x="165.1" y="162.56" smashed="yes">
 <attribute name="VALUE" x="162.56" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="P+1" gate="1" x="134.62" y="180.34" smashed="yes">
-<attribute name="VALUE" x="137.16" y="182.88" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND3" gate="1" x="185.42" y="144.78" smashed="yes">
 <attribute name="VALUE" x="182.88" y="142.24" size="1.778" layer="96"/>
-</instance>
-<instance part="P+2" gate="1" x="208.28" y="157.48" smashed="yes">
-<attribute name="VALUE" x="210.82" y="160.02" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R3" gate="G$1" x="231.14" y="180.34" smashed="yes" rot="R270">
 <attribute name="NAME" x="224.536" y="181.3306" size="1.778" layer="95"/>
@@ -9264,6 +9370,12 @@ Motor Controller</text>
 </instance>
 <instance part="GND18" gate="1" x="170.18" y="157.48" smashed="yes">
 <attribute name="VALUE" x="167.64" y="154.94" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V9" gate="G$1" x="134.62" y="180.34" smashed="yes">
+<attribute name="VALUE" x="137.16" y="182.88" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V10" gate="G$1" x="208.28" y="157.48" smashed="yes">
+<attribute name="VALUE" x="210.82" y="160.02" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -9624,18 +9736,6 @@ Motor Controller</text>
 <pinref part="R107" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="142.24" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<wire x1="137.16" y1="175.26" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="175.26" x2="134.62" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="P+1" gate="1" pin="+5V"/>
-<pinref part="U$9" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="P+2" gate="1" pin="+5V"/>
-<wire x1="208.28" y1="154.94" x2="208.28" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <wire x1="101.6" y1="104.14" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
@@ -10088,17 +10188,6 @@ Motor Controller</text>
 <label x="365.76" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="WATCHDOG_IN" class="0">
-<segment>
-<wire x1="137.16" y1="165.1" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
-<label x="129.54" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="165.1" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="162.56" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
-<junction x="132.08" y="165.1"/>
-<pinref part="U$9" gate="G$1" pin="WDI"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
@@ -10121,18 +10210,6 @@ Motor Controller</text>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="246.38" y1="167.64" x2="243.84" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TEENSY_OK_5V" class="0">
-<segment>
-<wire x1="187.96" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
-<label x="182.88" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$10" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="370.84" y1="76.2" x2="365.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="365.76" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -10291,6 +10368,43 @@ Motor Controller</text>
 <pinref part="LED4" gate="LED" pin="A"/>
 </segment>
 </net>
+<net name="WATCHDOG_IN" class="0">
+<segment>
+<wire x1="137.16" y1="165.1" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
+<label x="129.54" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="165.1" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="162.56" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
+<junction x="132.08" y="165.1"/>
+<pinref part="U$9" gate="G$1" pin="WDI"/>
+</segment>
+</net>
+<net name="TEENSY_OK" class="0">
+<segment>
+<wire x1="187.96" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
+<label x="182.88" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$10" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="370.84" y1="76.2" x2="365.76" y2="76.2" width="0.1524" layer="91"/>
+<label x="365.76" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<wire x1="137.16" y1="175.26" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="175.26" x2="134.62" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="VCC"/>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<wire x1="208.28" y1="154.94" x2="208.28" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="5"/>
+<pinref part="+3V10" gate="G$1" pin="+3V3"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -10304,6 +10418,12 @@ Motor Controller</text>
 <text x="281.94" y="22.86" size="2.54" layer="97">Leonid Pozdneev</text>
 <text x="347.98" y="15.24" size="2.54" layer="97">Telemetry system circuitry.</text>
 <text x="289.56" y="152.4" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
+<text x="256.54" y="81.28" size="1.778" layer="91">don't need resistor between ADC and TXB
+MCP has a rise time of 100 ns
+slew rate of 0.05 V/ns
+the capacitance is 10 pF with a via -&gt; current of 0.05 mA
+since we have no via the current is less
+(based on ADI staying well grounded)</text>
 </plain>
 <instances>
 <instance part="U$43" gate="G$1" x="109.22" y="38.1" smashed="yes"/>
@@ -11637,6 +11757,12 @@ only one per signal on
 <text x="152.4" y="68.58" size="1.778" layer="97">Using Teensy 3.3V as enable signal</text>
 <text x="292.1" y="203.2" size="1.27" layer="91">maybe make this 5v logic</text>
 <text x="289.56" y="208.28" size="1.778" layer="91">680 Hz max</text>
+<text x="246.38" y="124.46" size="1.778" layer="91">don't need resistor between ADC and TXB
+MCP has a rise time of 100 ns
+slew rate of 0.05 V/ns
+the capacitance is 10 pF with a via -&gt; current of 0.05 mA
+since we have no via the current is less
+(based on ADI staying well grounded)</text>
 </plain>
 <instances>
 <instance part="CAN3" gate="G$1" x="68.58" y="63.5" smashed="yes" rot="R180">
@@ -12045,6 +12171,10 @@ only one per signal on
 <instance part="GND35" gate="1" x="314.96" y="101.6" smashed="yes">
 <attribute name="VALUE" x="312.42" y="99.06" size="1.778" layer="96"/>
 </instance>
+<instance part="C18" gate="G$1" x="114.3" y="149.86" smashed="yes"/>
+<instance part="U$30" gate="G$1" x="114.3" y="144.78" smashed="yes"/>
+<instance part="U$31" gate="G$1" x="114.3" y="134.62" smashed="yes"/>
+<instance part="3V3_TEST1" gate="G$1" x="114.3" y="139.7" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -12844,6 +12974,11 @@ only one per signal on
 <junction x="50.8" y="228.6"/>
 <pinref part="U$56" gate="G$1" pin="VINA+"/>
 </segment>
+<segment>
+<pinref part="U$30" gate="G$1" pin="P$1"/>
+<wire x1="111.76" y1="144.78" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
+<label x="106.68" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SIGNAL_BRAKE_1" class="0">
 <segment>
@@ -12854,6 +12989,11 @@ only one per signal on
 <wire x1="99.06" y1="180.34" x2="101.6" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="182.88" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
 <junction x="99.06" y="180.34"/>
+</segment>
+<segment>
+<pinref part="3V3_TEST1" gate="G$1" pin="P$1"/>
+<wire x1="111.76" y1="139.7" x2="106.68" y2="139.7" width="0.1524" layer="91"/>
+<label x="106.68" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SIGNAL_ACCEL1" class="0">
@@ -12868,6 +13008,11 @@ only one per signal on
 <pinref part="U$56" gate="G$1" pin="VINB+"/>
 <wire x1="76.2" y1="226.06" x2="101.6" y2="226.06" width="0.1524" layer="91"/>
 <junction x="101.6" y="226.06"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="P$1"/>
+<wire x1="111.76" y1="149.86" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
+<label x="106.68" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ACCEL2_BUFF" class="0">
@@ -13113,6 +13258,11 @@ only one per signal on
 <pinref part="U$58" gate="G$1" pin="VINA+"/>
 <wire x1="58.42" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
 <junction x="40.64" y="182.88"/>
+</segment>
+<segment>
+<pinref part="U$31" gate="G$1" pin="P$1"/>
+<wire x1="111.76" y1="134.62" x2="106.68" y2="134.62" width="0.1524" layer="91"/>
+<label x="106.68" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TEENSY_OK" class="0">
