@@ -5609,6 +5609,10 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
 <part name="GND16" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="D3" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
+<part name="GND17" library="HyTechSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5956,6 +5960,21 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <instance part="GND16" gate="1" x="220.98" y="43.18" smashed="yes">
 <attribute name="VALUE" x="218.44" y="40.64" size="1.778" layer="96"/>
 </instance>
+<instance part="D3" gate="1" x="119.38" y="40.64" smashed="yes">
+<attribute name="NAME" x="115.57" y="42.3926" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.57" y="37.0586" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="134.62" y="40.64" smashed="yes">
+<attribute name="NAME" x="130.81" y="42.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="130.81" y="37.338" size="1.778" layer="96"/>
+</instance>
+<instance part="R14" gate="G$1" x="152.4" y="40.64" smashed="yes">
+<attribute name="NAME" x="148.59" y="42.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="148.59" y="37.338" size="1.778" layer="96"/>
+</instance>
+<instance part="GND17" gate="1" x="160.02" y="38.1" smashed="yes">
+<attribute name="VALUE" x="157.48" y="35.56" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6167,6 +6186,11 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="45.72" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="40.64" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -6853,6 +6877,43 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <pinref part="SSOK" gate="G$1" pin="X"/>
 <wire x1="22.86" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
 <label x="25.4" y="33.02" size="0.6096" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="SHUTDOWN_H" class="0">
+<segment>
+<pinref part="X1" gate="-6" pin="S"/>
+<wire x1="50.8" y1="187.96" x2="50.8" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="182.88" x2="60.96" y2="182.88" width="0.1524" layer="91"/>
+<label x="60.96" y="182.88" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D3" gate="1" pin="A"/>
+<wire x1="114.3" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
+<label x="111.76" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SHUTDOWN_H_READ" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="ADC7"/>
+<wire x1="246.38" y1="162.56" x2="248.92" y2="162.56" width="0.1524" layer="91"/>
+<label x="248.92" y="162.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="40.64" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="40.64" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
+<junction x="144.78" y="40.64"/>
+<wire x1="144.78" y1="48.26" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
+<label x="142.24" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="D3" gate="1" pin="C"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
