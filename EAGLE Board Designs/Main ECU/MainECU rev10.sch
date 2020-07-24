@@ -7330,7 +7330,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="ACC1_PD1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="ACC2_PD1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="U$56" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
-<part name="BRAKE_PU1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="BRAKE_PU2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="C86" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C87" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="U$60" library="HyTechDevices" deviceset="MAX7480" device=""/>
@@ -7428,7 +7428,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="P+25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="BRAKE_PU2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="BRAKE_PU1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="P+24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$17" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="U$20" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
@@ -11905,7 +11905,7 @@ since we have no via the current is less
 <attribute name="NAME" x="61.595" y="235.585" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.817" y="222.504" size="1.778" layer="96"/>
 </instance>
-<instance part="BRAKE_PU1" gate="G$1" x="99.06" y="187.96" smashed="yes" rot="MR90">
+<instance part="BRAKE_PU2" gate="G$1" x="99.06" y="187.96" smashed="yes" rot="MR90">
 <attribute name="NAME" x="115.57" y="185.6486" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="104.648" y="188.214" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -12032,7 +12032,7 @@ since we have no via the current is less
 <instance part="P+27" gate="1" x="198.12" y="147.32" smashed="yes">
 <attribute name="VALUE" x="200.66" y="149.86" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BRAKE_PU2" gate="G$1" x="40.64" y="193.04" smashed="yes" rot="MR90">
+<instance part="BRAKE_PU1" gate="G$1" x="40.64" y="193.04" smashed="yes" rot="MR90">
 <attribute name="NAME" x="57.15" y="190.7286" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="46.228" y="193.294" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -12536,7 +12536,7 @@ since we have no via the current is less
 <wire x1="198.12" y1="180.34" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BRAKE_PU1" gate="G$1" pin="2"/>
+<pinref part="BRAKE_PU2" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="195.58" x2="99.06" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="P+22" gate="1" pin="+5V"/>
 </segment>
@@ -12948,18 +12948,18 @@ since we have no via the current is less
 </net>
 <net name="SIGNAL_BRAKE_1" class="0">
 <segment>
-<pinref part="U$58" gate="G$1" pin="VINB+"/>
-<wire x1="76.2" y1="180.34" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
-<label x="101.6" y="180.34" size="1.27" layer="95" xref="yes"/>
-<pinref part="BRAKE_PU1" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="180.34" x2="101.6" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="182.88" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
-<junction x="99.06" y="180.34"/>
-</segment>
-<segment>
 <pinref part="3V3_TEST1" gate="G$1" pin="P$1"/>
 <wire x1="111.76" y1="139.7" x2="106.68" y2="139.7" width="0.1524" layer="91"/>
 <label x="106.68" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<label x="38.1" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="182.88" x2="38.1" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="187.96" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="BRAKE_PU1" gate="G$1" pin="1"/>
+<pinref part="U$58" gate="G$1" pin="VINA+"/>
+<wire x1="58.42" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
+<junction x="40.64" y="182.88"/>
 </segment>
 </net>
 <net name="SIGNAL_ACCEL1" class="0">
@@ -13091,12 +13091,12 @@ since we have no via the current is less
 <label x="149.86" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$58" gate="G$1" pin="VOUTB"/>
-<pinref part="U$58" gate="G$1" pin="VINB-"/>
-<wire x1="76.2" y1="185.42" x2="76.2" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="185.42" x2="81.28" y2="185.42" width="0.1524" layer="91"/>
-<junction x="76.2" y="185.42"/>
-<label x="81.28" y="185.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="58.42" y1="187.96" x2="58.42" y2="195.58" width="0.1524" layer="91"/>
+<label x="58.42" y="195.58" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$58" gate="G$1" pin="VOUTA"/>
+<pinref part="U$58" gate="G$1" pin="VINA-"/>
+<wire x1="58.42" y1="185.42" x2="58.42" y2="187.96" width="0.1524" layer="91"/>
+<junction x="58.42" y="187.96"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -13171,12 +13171,12 @@ since we have no via the current is less
 <label x="149.86" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="187.96" x2="58.42" y2="195.58" width="0.1524" layer="91"/>
-<label x="58.42" y="195.58" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$58" gate="G$1" pin="VOUTA"/>
-<pinref part="U$58" gate="G$1" pin="VINA-"/>
-<wire x1="58.42" y1="185.42" x2="58.42" y2="187.96" width="0.1524" layer="91"/>
-<junction x="58.42" y="187.96"/>
+<pinref part="U$58" gate="G$1" pin="VOUTB"/>
+<pinref part="U$58" gate="G$1" pin="VINB-"/>
+<wire x1="76.2" y1="185.42" x2="76.2" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="185.42" x2="81.28" y2="185.42" width="0.1524" layer="91"/>
+<junction x="76.2" y="185.42"/>
+<label x="81.28" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -13211,24 +13211,24 @@ since we have no via the current is less
 <net name="+5V1" class="0">
 <segment>
 <wire x1="40.64" y1="200.66" x2="40.64" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="BRAKE_PU2" gate="G$1" pin="2"/>
+<pinref part="BRAKE_PU1" gate="G$1" pin="2"/>
 <pinref part="P+24" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="SIGNAL_BRAKE_2" class="0">
 <segment>
-<label x="38.1" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="40.64" y1="182.88" x2="38.1" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="187.96" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="BRAKE_PU2" gate="G$1" pin="1"/>
-<pinref part="U$58" gate="G$1" pin="VINA+"/>
-<wire x1="58.42" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
-<junction x="40.64" y="182.88"/>
-</segment>
-<segment>
 <pinref part="U$31" gate="G$1" pin="P$1"/>
 <wire x1="111.76" y1="134.62" x2="106.68" y2="134.62" width="0.1524" layer="91"/>
 <label x="106.68" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$58" gate="G$1" pin="VINB+"/>
+<wire x1="76.2" y1="180.34" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
+<label x="101.6" y="180.34" size="1.27" layer="95" xref="yes"/>
+<pinref part="BRAKE_PU2" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="180.34" x2="101.6" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="182.88" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
+<junction x="99.06" y="180.34"/>
 </segment>
 </net>
 <net name="TEENSY_OK" class="0">
