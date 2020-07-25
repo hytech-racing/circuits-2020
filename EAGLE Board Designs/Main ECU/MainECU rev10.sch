@@ -7569,30 +7569,26 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="+3V9" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="+3V10" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="C18" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="12V_TEST"/>
-<part name="U$30" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
-<part name="U$31" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
-<part name="3V3_TEST1" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="READ_ACCEL1_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="12V_TEST"/>
+<part name="READ_ACCEL2_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="READ_BRAKE2_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="READ_BRAKE1_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
 <part name="U$32" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C19" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="12V_TEST"/>
-<part name="U$11" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
-<part name="U$33" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
-<part name="3V3_TEST2" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
-<part name="C20" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="12V_TEST"/>
-<part name="U$34" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
-<part name="U$35" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
-<part name="3V3_TEST3" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
-<part name="U$36" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="SIGNAL_ACCEL1_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="12V_TEST"/>
+<part name="SIGNAL_ACCEL2_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="SIGNAL_BRAKE2_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="SIGNAL_BRAKE1_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="ACCEL1_BUFF_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="12V_TEST"/>
+<part name="ACCEL2_BUFF_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="BRAKE2_BUFF_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="BRAKE1_BUFF_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="SIGNAL_GND" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
 <part name="U$39" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
-<part name="U$41" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
-<part name="GND46" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND47" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND48" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="U$48" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
-<part name="GND49" library="HyTechSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12187,37 +12183,29 @@ since we have no via the current is less
 <instance part="GND35" gate="1" x="314.96" y="101.6" smashed="yes">
 <attribute name="VALUE" x="312.42" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="C18" gate="G$1" x="114.3" y="149.86" smashed="yes"/>
-<instance part="U$30" gate="G$1" x="114.3" y="144.78" smashed="yes"/>
-<instance part="U$31" gate="G$1" x="114.3" y="134.62" smashed="yes"/>
-<instance part="3V3_TEST1" gate="G$1" x="114.3" y="139.7" smashed="yes"/>
+<instance part="READ_ACCEL1_TEST" gate="G$1" x="114.3" y="149.86" smashed="yes"/>
+<instance part="READ_ACCEL2_TEST" gate="G$1" x="114.3" y="144.78" smashed="yes"/>
+<instance part="READ_BRAKE2_TEST" gate="G$1" x="114.3" y="134.62" smashed="yes"/>
+<instance part="READ_BRAKE1_TEST" gate="G$1" x="114.3" y="139.7" smashed="yes"/>
 <instance part="U$32" gate="G$1" x="127" y="33.02" smashed="yes"/>
 <instance part="P+24" gate="1" x="40.64" y="203.2" smashed="yes">
 <attribute name="VALUE" x="43.18" y="205.74" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C19" gate="G$1" x="35.56" y="149.86" smashed="yes"/>
-<instance part="U$11" gate="G$1" x="35.56" y="144.78" smashed="yes"/>
-<instance part="U$33" gate="G$1" x="35.56" y="134.62" smashed="yes"/>
-<instance part="3V3_TEST2" gate="G$1" x="35.56" y="139.7" smashed="yes"/>
-<instance part="C20" gate="G$1" x="76.2" y="149.86" smashed="yes"/>
-<instance part="U$34" gate="G$1" x="76.2" y="144.78" smashed="yes"/>
-<instance part="U$35" gate="G$1" x="76.2" y="134.62" smashed="yes"/>
-<instance part="3V3_TEST3" gate="G$1" x="76.2" y="139.7" smashed="yes"/>
-<instance part="U$36" gate="G$1" x="35.56" y="129.54" smashed="yes"/>
+<instance part="SIGNAL_ACCEL1_TEST" gate="G$1" x="35.56" y="149.86" smashed="yes"/>
+<instance part="SIGNAL_ACCEL2_TEST" gate="G$1" x="35.56" y="144.78" smashed="yes"/>
+<instance part="SIGNAL_BRAKE2_TEST" gate="G$1" x="35.56" y="134.62" smashed="yes"/>
+<instance part="SIGNAL_BRAKE1_TEST" gate="G$1" x="35.56" y="139.7" smashed="yes"/>
+<instance part="ACCEL1_BUFF_TEST" gate="G$1" x="76.2" y="149.86" smashed="yes"/>
+<instance part="ACCEL2_BUFF_TEST" gate="G$1" x="76.2" y="144.78" smashed="yes"/>
+<instance part="BRAKE2_BUFF_TEST" gate="G$1" x="76.2" y="134.62" smashed="yes"/>
+<instance part="BRAKE1_BUFF_TEST" gate="G$1" x="76.2" y="139.7" smashed="yes"/>
+<instance part="SIGNAL_GND" gate="G$1" x="35.56" y="129.54" smashed="yes"/>
 <instance part="U$39" gate="G$1" x="76.2" y="129.54" smashed="yes"/>
-<instance part="U$41" gate="G$1" x="114.3" y="129.54" smashed="yes"/>
-<instance part="GND46" gate="1" x="109.22" y="124.46" smashed="yes">
-<attribute name="VALUE" x="106.68" y="121.92" size="1.778" layer="96"/>
+<instance part="GND47" gate="1" x="71.12" y="127" smashed="yes">
+<attribute name="VALUE" x="68.58" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="GND47" gate="1" x="66.04" y="127" smashed="yes">
-<attribute name="VALUE" x="63.5" y="124.46" size="1.778" layer="96"/>
-</instance>
-<instance part="GND48" gate="1" x="30.48" y="124.46" smashed="yes">
-<attribute name="VALUE" x="27.94" y="121.92" size="1.778" layer="96"/>
-</instance>
-<instance part="U$48" gate="G$1" x="76.2" y="124.46" smashed="yes"/>
-<instance part="GND49" gate="1" x="71.12" y="119.38" smashed="yes">
-<attribute name="VALUE" x="68.58" y="116.84" size="1.778" layer="96"/>
+<instance part="GND48" gate="1" x="30.48" y="127" smashed="yes">
+<attribute name="VALUE" x="27.94" y="124.46" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -12477,27 +12465,14 @@ since we have no via the current is less
 <pinref part="GND35" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND46" gate="1" pin="GND"/>
-<wire x1="109.22" y1="127" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="129.54" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U$41" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
 <pinref part="GND47" gate="1" pin="GND"/>
-<wire x1="66.04" y1="129.54" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="129.54" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U$39" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="GND48" gate="1" pin="GND"/>
-<wire x1="30.48" y1="127" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U$36" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
-<pinref part="GND49" gate="1" pin="GND"/>
-<wire x1="71.12" y1="121.92" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U$48" gate="G$1" pin="P$1"/>
+<pinref part="SIGNAL_GND" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="SHUTDOWN_C" class="0">
@@ -12987,7 +12962,7 @@ since we have no via the current is less
 <pinref part="U$26" gate="G$1" pin="CH0"/>
 </segment>
 <segment>
-<pinref part="3V3_TEST1" gate="G$1" pin="P$1"/>
+<pinref part="READ_BRAKE1_TEST" gate="G$1" pin="P$1"/>
 <wire x1="111.76" y1="139.7" x2="109.22" y2="139.7" width="0.1524" layer="91"/>
 <label x="109.22" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13004,7 +12979,7 @@ since we have no via the current is less
 <pinref part="U$26" gate="G$1" pin="CH2"/>
 </segment>
 <segment>
-<pinref part="U$30" gate="G$1" pin="P$1"/>
+<pinref part="READ_ACCEL2_TEST" gate="G$1" pin="P$1"/>
 <wire x1="111.76" y1="144.78" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
 <label x="109.22" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13021,7 +12996,7 @@ since we have no via the current is less
 <pinref part="U$26" gate="G$1" pin="CH3"/>
 </segment>
 <segment>
-<pinref part="C18" gate="G$1" pin="P$1"/>
+<pinref part="READ_ACCEL1_TEST" gate="G$1" pin="P$1"/>
 <wire x1="111.76" y1="149.86" x2="109.22" y2="149.86" width="0.1524" layer="91"/>
 <label x="109.22" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13040,7 +13015,7 @@ since we have no via the current is less
 <junction x="101.6" y="226.06"/>
 </segment>
 <segment>
-<pinref part="U$11" gate="G$1" pin="P$1"/>
+<pinref part="SIGNAL_ACCEL2_TEST" gate="G$1" pin="P$1"/>
 <wire x1="33.02" y1="144.78" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
 <label x="30.48" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13056,7 +13031,7 @@ since we have no via the current is less
 <junction x="40.64" y="182.88"/>
 </segment>
 <segment>
-<pinref part="3V3_TEST2" gate="G$1" pin="P$1"/>
+<pinref part="SIGNAL_BRAKE1_TEST" gate="G$1" pin="P$1"/>
 <wire x1="33.02" y1="139.7" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
 <label x="30.48" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13075,7 +13050,7 @@ since we have no via the current is less
 <pinref part="U$56" gate="G$1" pin="VINA+"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="P$1"/>
+<pinref part="SIGNAL_ACCEL1_TEST" gate="G$1" pin="P$1"/>
 <wire x1="33.02" y1="149.86" x2="30.48" y2="149.86" width="0.1524" layer="91"/>
 <label x="30.48" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13097,7 +13072,7 @@ since we have no via the current is less
 <label x="81.28" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$34" gate="G$1" pin="P$1"/>
+<pinref part="ACCEL2_BUFF_TEST" gate="G$1" pin="P$1"/>
 <wire x1="73.66" y1="144.78" x2="71.12" y2="144.78" width="0.1524" layer="91"/>
 <label x="71.12" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13164,7 +13139,7 @@ since we have no via the current is less
 <label x="60.96" y="241.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C20" gate="G$1" pin="P$1"/>
+<pinref part="ACCEL1_BUFF_TEST" gate="G$1" pin="P$1"/>
 <wire x1="73.66" y1="149.86" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
 <label x="71.12" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13264,7 +13239,7 @@ since we have no via the current is less
 <label x="81.28" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$35" gate="G$1" pin="P$1"/>
+<pinref part="BRAKE2_BUFF_TEST" gate="G$1" pin="P$1"/>
 <wire x1="73.66" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
 <label x="71.12" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13303,7 +13278,7 @@ since we have no via the current is less
 <pinref part="U$26" gate="G$1" pin="CH1"/>
 </segment>
 <segment>
-<pinref part="U$31" gate="G$1" pin="P$1"/>
+<pinref part="READ_BRAKE2_TEST" gate="G$1" pin="P$1"/>
 <wire x1="111.76" y1="134.62" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
 <label x="109.22" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13319,7 +13294,7 @@ since we have no via the current is less
 <junction x="99.06" y="180.34"/>
 </segment>
 <segment>
-<pinref part="U$33" gate="G$1" pin="P$1"/>
+<pinref part="SIGNAL_BRAKE2_TEST" gate="G$1" pin="P$1"/>
 <wire x1="33.02" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
 <label x="30.48" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13548,7 +13523,7 @@ since we have no via the current is less
 <junction x="58.42" y="187.96"/>
 </segment>
 <segment>
-<pinref part="3V3_TEST3" gate="G$1" pin="P$1"/>
+<pinref part="BRAKE1_BUFF_TEST" gate="G$1" pin="P$1"/>
 <wire x1="73.66" y1="139.7" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
 <label x="71.12" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
