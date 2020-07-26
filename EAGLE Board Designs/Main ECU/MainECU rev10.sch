@@ -13392,9 +13392,9 @@ since we have no via the current is less
 <label x="248.92" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
-<label x="121.92" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="D1(TX1)"/>
+<wire x1="124.46" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
+<label x="121.92" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="D2"/>
 </segment>
 </net>
 <net name="WATCHDOG_IN" class="0">
@@ -13460,14 +13460,14 @@ since we have no via the current is less
 </net>
 <net name="WS2_READ" class="0">
 <segment>
-<wire x1="124.46" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
-<label x="121.92" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="D2"/>
-</segment>
-<segment>
 <pinref part="U$18" gate="G$1" pin="VOUTB"/>
 <wire x1="274.32" y1="231.14" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
 <label x="279.4" y="231.14" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="124.46" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+<label x="121.92" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="D1(TX1)"/>
 </segment>
 </net>
 <net name="BRAKE_LIGHT_CTRL" class="0">
