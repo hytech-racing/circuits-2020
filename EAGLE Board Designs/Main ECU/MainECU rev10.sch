@@ -13394,18 +13394,11 @@ since we have no via the current is less
 <pinref part="U$32" gate="G$1" pin="D9(RX2)"/>
 </segment>
 </net>
-<net name="FAN2CONTROL" class="0">
+<net name="FAN1CONTROL" class="0">
 <segment>
 <wire x1="124.46" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
 <label x="121.92" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$32" gate="G$1" pin="D5"/>
-</segment>
-</net>
-<net name="FAN1CONTROL" class="0">
-<segment>
-<wire x1="124.46" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
-<label x="121.92" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="D6"/>
 </segment>
 </net>
 <net name="BRAKE1_BUFF" class="0">
@@ -13472,6 +13465,13 @@ since we have no via the current is less
 <wire x1="149.86" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
 <label x="152.4" y="63.5" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$32" gate="G$1" pin="A9"/>
+</segment>
+</net>
+<net name="FAN2CONTROL" class="0">
+<segment>
+<wire x1="124.46" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<label x="121.92" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="D6"/>
 </segment>
 </net>
 </nets>
