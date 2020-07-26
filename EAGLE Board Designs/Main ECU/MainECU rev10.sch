@@ -11120,13 +11120,6 @@ since we have no via the current is less
 <pinref part="U$50" gate="G$1" pin="FILTER"/>
 </segment>
 </net>
-<net name="12VIN" class="0">
-<segment>
-<wire x1="38.1" y1="254" x2="33.02" y2="254" width="0.1524" layer="91"/>
-<label x="33.02" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$49" gate="G$1" pin="IP+"/>
-</segment>
-</net>
 <net name="N$123" class="0">
 <segment>
 <pinref part="C56" gate="G$1" pin="1"/>
@@ -11222,13 +11215,6 @@ since we have no via the current is less
 <pinref part="LED31" gate="LED" pin="C"/>
 <pinref part="R130" gate="G$1" pin="2"/>
 <wire x1="269.24" y1="45.72" x2="266.7" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="12VUNFUSED" class="0">
-<segment>
-<wire x1="38.1" y1="246.38" x2="33.02" y2="246.38" width="0.1524" layer="91"/>
-<label x="33.02" y="246.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$49" gate="G$1" pin="IP-"/>
 </segment>
 </net>
 <net name="N$130" class="0">
@@ -11713,6 +11699,20 @@ since we have no via the current is less
 <pinref part="P+103" gate="1" pin="+12V"/>
 <pinref part="R151" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="165.1" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="12VIN" class="0">
+<segment>
+<wire x1="38.1" y1="246.38" x2="33.02" y2="246.38" width="0.1524" layer="91"/>
+<label x="33.02" y="246.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$49" gate="G$1" pin="IP-"/>
+</segment>
+</net>
+<net name="12VUNFUSED" class="0">
+<segment>
+<wire x1="38.1" y1="254" x2="33.02" y2="254" width="0.1524" layer="91"/>
+<label x="33.02" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$49" gate="G$1" pin="IP+"/>
 </segment>
 </net>
 </nets>
