@@ -4661,11 +4661,11 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="CELL2" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="79" y="27.096" smashed="yes" rot="MR270">
 <attribute name="NAME" x="87.63" y="27.096" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
-<element name="CELL1" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="29" y="3.246" smashed="yes" rot="MR270">
-<attribute name="NAME" x="19.05" y="3.246" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<element name="CELL1" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="33.528" y="11.43" smashed="yes" rot="MR270">
+<attribute name="NAME" x="23.578" y="11.43" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
-<element name="CELL0" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="75.66" y="3.246" smashed="yes" rot="MR270">
-<attribute name="NAME" x="83.82" y="3.246" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<element name="CELL0" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="77.47" y="5.334" smashed="yes" rot="MR270">
+<attribute name="NAME" x="85.63" y="5.334" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="DRAIN1:GATE" library="HyTechDevices" package="0603-RES" value="3K3" x="12.7" y="9.525" smashed="yes" rot="R180">
 <attribute name="TOLERANCE" value="1%" x="12.7" y="9.525" size="2.032" layer="27" font="vector" rot="R180" display="off"/>
@@ -5016,8 +5016,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="F10" library="HyTechDevices" package="5X20MM_FUSE" value="0001.2704.11" x="54" y="131.206" smashed="yes" rot="R180">
 <attribute name="RATING" value="1A" x="54" y="131.206" size="2.032" layer="27" font="vector" rot="R180" display="off"/>
 </element>
-<element name="CELL18" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="75.66" y="237.136" smashed="yes" rot="MR270">
-<attribute name="NAME" x="83.82" y="237.136" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<element name="CELL18" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="77.47" y="234.95" smashed="yes" rot="MR270">
+<attribute name="NAME" x="85.63" y="234.95" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL17" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="29" y="217.256" smashed="yes" rot="MR270">
 <attribute name="NAME" x="19.05" y="217.256" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
@@ -6079,7 +6079,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="43.268775" y1="14.206" x2="40.480075" y2="11.4173" width="0.254" layer="1"/>
 <wire x1="36.2409" y1="11.4173" x2="29" y2="4.1764" width="0.254" layer="16"/>
 <wire x1="36.2409" y1="11.4173" x2="40.480075" y2="11.4173" width="0.254" layer="16"/>
-<wire x1="29" y1="3.246" x2="29" y2="4.1764" width="0.254" layer="16"/>
+<wire x1="33.528" y1="11.43" x2="29" y2="4.1764" width="0.254" layer="16"/>
 </signal>
 <signal name="CC0" class="1">
 <contactref element="F0" pad="P$1"/>
@@ -6087,7 +6087,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <via x="57.4294" y="5.3086" extent="1-16" drill="0.381"/>
 <wire x1="57.4294" y1="5.3086" x2="61.3974" y2="5.3086" width="0.254" layer="1"/>
 <wire x1="61.3974" y1="5.3086" x2="61.493" y2="5.206" width="0.254" layer="1"/>
-<wire x1="75.66" y1="3.246" x2="75.62" y2="2.286" width="0.254" layer="16"/>
+<wire x1="77.47" y1="5.334" x2="75.62" y2="2.286" width="0.254" layer="16"/>
 <wire x1="72.39" y1="2.286" x2="75.62" y2="2.286" width="0.254" layer="16"/>
 <wire x1="57.4294" y1="5.3086" x2="69.3674" y2="5.3086" width="0.254" layer="16"/>
 <wire x1="69.3674" y1="5.3086" x2="72.39" y2="2.286" width="0.254" layer="16"/>
@@ -7723,7 +7723,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="60.96" y1="237.686" x2="61.493" y2="237.686" width="0.254" layer="1"/>
 <wire x1="57.6896" y1="237.744" x2="57.6756" y2="237.73" width="0.254" layer="16"/>
 <wire x1="74.549" y1="237.744" x2="57.6896" y2="237.744" width="0.254" layer="16"/>
-<wire x1="75.66" y1="237.136" x2="74.941" y2="238.136" width="0.254" layer="16"/>
+<wire x1="77.47" y1="234.95" x2="74.941" y2="238.136" width="0.254" layer="16"/>
 <wire x1="74.941" y1="238.136" x2="74.549" y2="237.744" width="0.254" layer="16"/>
 <wire x1="57.6756" y1="237.73" x2="60.916" y2="237.73" width="0.254" layer="1"/>
 <wire x1="60.916" y1="237.73" x2="60.96" y2="237.686" width="0.254" layer="1"/>
