@@ -10427,6 +10427,7 @@ slew rate of 0.05 V/ns
 the capacitance is 10 pF with a via -&gt; current of 0.05 mA
 since we have no via the current is less
 (based on ADI staying well grounded)</text>
+<text x="17.78" y="264.16" size="1.778" layer="91">swapped direction so current will read as negative b4 code change</text>
 </plain>
 <instances>
 <instance part="U$43" gate="G$1" x="109.22" y="38.1" smashed="yes"/>
@@ -11830,7 +11831,6 @@ only one per signal on
 <text x="195.58" y="124.46" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="33.02" y="254" size="1.778" layer="97">Place note on PCB</text>
 <text x="152.4" y="68.58" size="1.778" layer="97">Using Teensy 3.3V as enable signal</text>
-<text x="292.1" y="203.2" size="1.27" layer="91">maybe make this 5v logic</text>
 <text x="289.56" y="208.28" size="1.778" layer="91">680 Hz max</text>
 <text x="246.38" y="124.46" size="1.778" layer="91">don't need resistor between ADC and TXB
 MCP has a rise time of 100 ns
@@ -12781,9 +12781,9 @@ since we have no via the current is less
 <junction x="398.78" y="58.42"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="48.26" x2="152.4" y2="48.26" width="0.1524" layer="91"/>
-<label x="152.4" y="48.26" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="A3"/>
+<wire x1="149.86" y1="45.72" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
+<label x="152.4" y="45.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="N$135" class="0">
@@ -12881,11 +12881,6 @@ since we have no via the current is less
 </net>
 <net name="SHUTDOWN_B_READ" class="0">
 <segment>
-<wire x1="149.86" y1="43.18" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
-<label x="152.4" y="43.18" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="A1"/>
-</segment>
-<segment>
 <pinref part="R146" gate="G$1" pin="1"/>
 <pinref part="R145" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="124.46" x2="398.78" y2="124.46" width="0.1524" layer="91"/>
@@ -12894,13 +12889,13 @@ since we have no via the current is less
 <wire x1="398.78" y1="129.54" x2="398.78" y2="124.46" width="0.1524" layer="91"/>
 <junction x="398.78" y="124.46"/>
 </segment>
+<segment>
+<wire x1="149.86" y1="40.64" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
+<label x="152.4" y="40.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="A0"/>
+</segment>
 </net>
 <net name="SHUTDOWN_C_READ" class="0">
-<segment>
-<wire x1="149.86" y1="45.72" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
-<label x="152.4" y="45.72" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="A2"/>
-</segment>
 <segment>
 <pinref part="R148" gate="G$1" pin="1"/>
 <pinref part="R147" gate="G$1" pin="2"/>
@@ -12909,6 +12904,11 @@ since we have no via the current is less
 <wire x1="398.78" y1="111.76" x2="393.7" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="111.76" x2="398.78" y2="116.84" width="0.1524" layer="91"/>
 <junction x="398.78" y="111.76"/>
+</segment>
+<segment>
+<wire x1="149.86" y1="43.18" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
+<label x="152.4" y="43.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="N$146" class="0">
@@ -13356,9 +13356,9 @@ since we have no via the current is less
 <label x="398.78" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="40.64" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
-<label x="152.4" y="40.64" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="A0"/>
+<wire x1="149.86" y1="48.26" x2="152.4" y2="48.26" width="0.1524" layer="91"/>
+<label x="152.4" y="48.26" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="A3"/>
 </segment>
 </net>
 <net name="SOFTWARE_OK_READ" class="0">
