@@ -7600,6 +7600,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND49" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C81" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="LED5" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
 </parts>
 <sheets>
 <sheet>
@@ -9380,6 +9382,14 @@ wheelspeed</text>
 <instance part="+3V10" gate="G$1" x="208.28" y="157.48" smashed="yes">
 <attribute name="VALUE" x="210.82" y="160.02" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="LED5" gate="LED" x="388.62" y="218.44" smashed="yes" rot="MR270">
+<attribute name="NAME" x="393.192" y="214.884" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="393.192" y="212.725" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="R2" gate="G$1" x="375.92" y="218.44" smashed="yes" rot="MR180">
+<attribute name="NAME" x="372.11" y="216.9414" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="372.11" y="221.742" size="1.778" layer="96" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9841,6 +9851,11 @@ wheelspeed</text>
 <pinref part="IMD_SHUTDOWN_RLY1" gate="G$1" pin="6"/>
 <label x="45.72" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="48.26" y1="218.44" x2="45.72" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="370.84" y1="218.44" x2="365.76" y2="218.44" width="0.1524" layer="91"/>
+<label x="365.76" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SHUTDOWN_D" class="0">
@@ -10406,6 +10421,20 @@ wheelspeed</text>
 <wire x1="208.28" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="5"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
+</segment>
+</net>
+<net name="GND2" class="0">
+<segment>
+<pinref part="LED5" gate="LED" pin="C"/>
+<wire x1="393.7" y1="218.44" x2="401.32" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="208.28" x2="401.32" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="LED5" gate="LED" pin="A"/>
+<wire x1="386.08" y1="218.44" x2="381" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
