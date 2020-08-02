@@ -12778,9 +12778,9 @@ since we have no via the current is less
 <junction x="398.78" y="99.06"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
-<label x="152.4" y="53.34" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="A5"/>
+<wire x1="149.86" y1="50.8" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
+<label x="152.4" y="50.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="A4"/>
 </segment>
 </net>
 <net name="BMS_OK_READ" class="0">
@@ -12794,9 +12794,9 @@ since we have no via the current is less
 <junction x="398.78" y="83.82"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="50.8" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
-<label x="152.4" y="50.8" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="A4"/>
+<wire x1="149.86" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
+<label x="152.4" y="53.34" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="A5"/>
 </segment>
 </net>
 <net name="SHUTDOWN_D_READ" class="0">
