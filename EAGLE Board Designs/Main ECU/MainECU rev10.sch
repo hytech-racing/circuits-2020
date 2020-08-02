@@ -13485,9 +13485,9 @@ since we have no via the current is less
 <label x="279.4" y="195.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
-<label x="121.92" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="D8(TX3)"/>
+<wire x1="124.46" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
+<label x="121.92" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="D7(RX3)"/>
 </segment>
 </net>
 <net name="WS3_READ" class="0">
@@ -13497,9 +13497,9 @@ since we have no via the current is less
 <label x="248.92" y="198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
-<label x="121.92" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="D7(RX3)"/>
+<wire x1="124.46" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
+<label x="121.92" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="D2"/>
 </segment>
 </net>
 <net name="WS4_READ" class="0">
@@ -13509,9 +13509,9 @@ since we have no via the current is less
 <label x="248.92" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
-<label x="121.92" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="D2"/>
+<wire x1="124.46" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+<label x="121.92" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="D1(TX1)"/>
 </segment>
 </net>
 <net name="INVERTER_CTRL" class="0">
@@ -13561,9 +13561,9 @@ since we have no via the current is less
 <label x="279.4" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
-<label x="121.92" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$32" gate="G$1" pin="D1(TX1)"/>
+<wire x1="124.46" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<label x="121.92" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$32" gate="G$1" pin="D8(TX3)"/>
 </segment>
 </net>
 <net name="BRAKE_LIGHT_CTRL" class="0">
