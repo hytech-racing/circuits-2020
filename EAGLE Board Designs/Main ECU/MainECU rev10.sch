@@ -7271,7 +7271,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R129" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="33"/>
 <part name="LED31" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="R130" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.2k"/>
-<part name="LED32" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
+<part name="MQTT_CONN" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
 <part name="R133" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="U$45" library="HyTechDevices" deviceset="CR-2450/G1AN" device=""/>
 <part name="U$46" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
@@ -10501,7 +10501,7 @@ since we have no via the current is less
 <attribute name="NAME" x="278.13" y="44.2214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="278.13" y="49.022" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED32" gate="LED" x="261.62" y="58.42" smashed="yes" rot="R90">
+<instance part="MQTT_CONN" gate="LED" x="261.62" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="266.192" y="61.976" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="64.135" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -11317,7 +11317,7 @@ since we have no via the current is less
 </net>
 <net name="N$130" class="0">
 <segment>
-<pinref part="LED32" gate="LED" pin="C"/>
+<pinref part="MQTT_CONN" gate="LED" pin="C"/>
 <pinref part="R133" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="58.42" x2="269.24" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -11325,7 +11325,7 @@ since we have no via the current is less
 <net name="N$131" class="0">
 <segment>
 <pinref part="U$44" gate="G$1" pin="AD0/DIO0"/>
-<pinref part="LED32" gate="LED" pin="A"/>
+<pinref part="MQTT_CONN" gate="LED" pin="A"/>
 <wire x1="254" y1="58.42" x2="259.08" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
