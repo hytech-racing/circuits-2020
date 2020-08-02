@@ -7142,21 +7142,21 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND68" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C" library="HyTechDevices" deviceset="TEST_POINT" device="" value="12V_TEST"/>
+<part name="12V_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="" value="12V_TEST"/>
 <part name="U$15" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$19" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="GND78" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+65" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="IMD_SHUTDOWN_RLY1" library="HyTechDevices" deviceset="RT424009" device=""/>
-<part name="LED12" library="HyTechDevices" deviceset="LED" device="-0805" value="White"/>
-<part name="LED19" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
-<part name="LED21" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
+<part name="LATCH_BTN" library="HyTechDevices" deviceset="LED" device="-0805" value="White"/>
+<part name="BMS_OK" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
+<part name="B" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
 <part name="R91" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="GND102" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R92" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20k"/>
-<part name="LED22" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
-<part name="LED23" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
+<part name="C" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
+<part name="OKHS" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
 <part name="D33" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D34" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="S2" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD"/>
@@ -7178,7 +7178,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R105" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="330"/>
 <part name="GND117" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R107" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="LED28" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
+<part name="BRAKE_HIGH" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
 <part name="R108" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="R109" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
 <part name="U$40" library="HyTechDevices" deviceset="SN74AHC1G09" device=""/>
@@ -7196,17 +7196,17 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="Q2" library="HyTechDevices" deviceset="P-CHANNEL_MOSFET_DMP3099L-7" device=""/>
 <part name="D40" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="GND127" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="LED29" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
+<part name="D" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="R117" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
 <part name="GND97" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R93" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="GND98" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R100" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="R103" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
-<part name="LED24" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
+<part name="CURRENT_HIGH" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
 <part name="C29" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.47µ"/>
 <part name="GND116" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="LED25" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
+<part name="BSPD_OK" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="R98" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
 <part name="R99" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="68"/>
 <part name="REG1" library="HyTechDevices" deviceset="OKI-78SR-5" device="" value="5V"/>
@@ -7215,8 +7215,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C50" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="P+72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+80" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="LED26" library="HyTechDevices" deviceset="LED" device="-0805" value="Purple"/>
-<part name="R106" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="270"/>
+<part name="5V" library="HyTechDevices" deviceset="LED" device="-0805" value="Purple"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="270"/>
 <part name="GND96" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+81" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="5ASHUTDOWNFUSE1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE"/>
@@ -7227,7 +7227,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R119" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="GND105" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="INVERTER_PWR_RELAY1" library="HyTechDevices" deviceset="G5LE" device=""/>
-<part name="LED27" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
+<part name="INVERTER" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="GND106" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R120" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.2k"/>
 <part name="P+84" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -7472,13 +7472,13 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4"/>
 <part name="GND17" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="LED1" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
+<part name="E" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
-<part name="LED2" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
+<part name="SW_OK" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
 <part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20k"/>
-<part name="LED3" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
-<part name="LED4" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
+<part name="WTCHDG_OK" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
+<part name="TEENSY_OK" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="GND18" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7600,7 +7600,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND49" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C81" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="LED5" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
+<part name="A" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
 </parts>
 <sheets>
@@ -7806,7 +7806,7 @@ wheelspeed</text>
 <instance part="GND68" gate="1" x="81.28" y="170.18" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="83.82" y="167.64" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C" gate="G$1" x="114.3" y="254" smashed="yes"/>
+<instance part="12V_TEST" gate="G$1" x="114.3" y="254" smashed="yes"/>
 <instance part="U$15" gate="G$1" x="114.3" y="248.92" smashed="yes"/>
 <instance part="U$19" gate="G$1" x="114.3" y="238.76" smashed="yes"/>
 <instance part="GND78" gate="1" x="104.14" y="233.68" smashed="yes" rot="MR0">
@@ -7839,11 +7839,11 @@ wheelspeed</text>
 <instance part="P+80" gate="1" x="157.48" y="261.62" smashed="yes">
 <attribute name="VALUE" x="160.528" y="265.684" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED26" gate="LED" x="254" y="238.76" smashed="yes">
+<instance part="5V" gate="LED" x="254" y="238.76" smashed="yes">
 <attribute name="NAME" x="257.048" y="237.998" size="1.778" layer="95"/>
 <attribute name="VALUE" x="257.048" y="235.331" size="1.778" layer="96"/>
 </instance>
-<instance part="R106" gate="G$1" x="254" y="248.92" smashed="yes" rot="R270">
+<instance part="R5" gate="G$1" x="254" y="248.92" smashed="yes" rot="R270">
 <attribute name="NAME" x="256.286" y="249.4026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="256.286" y="246.634" size="1.778" layer="96"/>
 </instance>
@@ -7879,7 +7879,7 @@ wheelspeed</text>
 <attribute name="VALUE" x="185.42" y="88.9" size="1.778" layer="96"/>
 </instance>
 <instance part="INVERTER_PWR_RELAY1" gate="G$1" x="210.82" y="154.94" smashed="yes" rot="R270"/>
-<instance part="LED27" gate="LED" x="149.86" y="127" smashed="yes" rot="MR0">
+<instance part="INVERTER" gate="LED" x="149.86" y="127" smashed="yes" rot="MR0">
 <attribute name="NAME" x="146.304" y="122.428" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="144.145" y="122.428" size="1.778" layer="96" rot="MR90"/>
 </instance>
@@ -8153,7 +8153,7 @@ wheelspeed</text>
 <wire x1="187.96" y1="241.3" x2="187.96" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED26" gate="LED" pin="C"/>
+<pinref part="5V" gate="LED" pin="C"/>
 <pinref part="GND96" gate="1" pin="GND"/>
 <wire x1="254" y1="231.14" x2="254" y2="233.68" width="0.1524" layer="91"/>
 </segment>
@@ -8163,7 +8163,7 @@ wheelspeed</text>
 <pinref part="Q5" gate="G$1" pin="S"/>
 </segment>
 <segment>
-<pinref part="LED27" gate="LED" pin="C"/>
+<pinref part="INVERTER" gate="LED" pin="C"/>
 <pinref part="GND106" gate="1" pin="GND"/>
 <wire x1="149.86" y1="116.84" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -8284,7 +8284,7 @@ wheelspeed</text>
 <segment>
 <pinref part="P+60" gate="1" pin="+12V"/>
 <wire x1="109.22" y1="259.08" x2="109.22" y2="254" width="0.1524" layer="91"/>
-<pinref part="C" gate="G$1" pin="P$1"/>
+<pinref part="12V_TEST" gate="G$1" pin="P$1"/>
 <wire x1="109.22" y1="254" x2="111.76" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8444,7 +8444,7 @@ wheelspeed</text>
 <wire x1="104.14" y1="248.92" x2="111.76" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R106" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="P+81" gate="1" pin="+5V"/>
 <wire x1="254" y1="254" x2="254" y2="256.54" width="0.1524" layer="91"/>
 </segment>
@@ -8608,8 +8608,8 @@ wheelspeed</text>
 </net>
 <net name="N$113" class="0">
 <segment>
-<pinref part="LED26" gate="LED" pin="A"/>
-<pinref part="R106" gate="G$1" pin="2"/>
+<pinref part="5V" gate="LED" pin="A"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="254" y1="243.84" x2="254" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8676,7 +8676,7 @@ wheelspeed</text>
 </net>
 <net name="N$116" class="0">
 <segment>
-<pinref part="LED27" gate="LED" pin="A"/>
+<pinref part="INVERTER" gate="LED" pin="A"/>
 <pinref part="R120" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="129.54" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
 </segment>
@@ -8895,15 +8895,15 @@ wheelspeed</text>
 <instance part="IMD_SHUTDOWN_RLY1" gate="G$1" x="53.34" y="243.84" smashed="yes" rot="R270">
 <attribute name="VALUE" x="55.88" y="210.82" size="1.778" layer="94" align="bottom-center"/>
 </instance>
-<instance part="LED12" gate="LED" x="378.46" y="228.6" smashed="yes" rot="MR90">
+<instance part="LATCH_BTN" gate="LED" x="378.46" y="228.6" smashed="yes" rot="MR90">
 <attribute name="NAME" x="373.888" y="232.156" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="373.888" y="234.315" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="LED19" gate="LED" x="388.62" y="187.96" smashed="yes" rot="MR270">
+<instance part="BMS_OK" gate="LED" x="388.62" y="187.96" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="184.404" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="182.245" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED21" gate="LED" x="388.62" y="165.1" smashed="yes" rot="MR270">
+<instance part="B" gate="LED" x="388.62" y="165.1" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="161.544" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="159.385" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -8918,10 +8918,10 @@ wheelspeed</text>
 <attribute name="NAME" x="372.11" y="150.9014" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="372.11" y="155.702" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="LED22" gate="LED" x="388.62" y="152.4" smashed="yes" rot="MR270">
+<instance part="C" gate="LED" x="388.62" y="152.4" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="148.844" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="LED23" gate="LED" x="388.62" y="177.8" smashed="yes" rot="MR270">
+<instance part="OKHS" gate="LED" x="388.62" y="177.8" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="174.244" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="172.085" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9003,7 +9003,7 @@ wheelspeed</text>
 <attribute name="NAME" x="64.2874" y="139.7" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="64.262" y="136.652" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED28" gate="LED" x="388.62" y="101.6" smashed="yes" rot="MR270">
+<instance part="BRAKE_HIGH" gate="LED" x="388.62" y="101.6" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="98.044" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="95.885" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9070,7 +9070,7 @@ wheelspeed</text>
 <instance part="GND127" gate="1" x="45.72" y="114.3" smashed="yes">
 <attribute name="VALUE" x="43.18" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="LED29" gate="LED" x="388.62" y="139.7" smashed="yes" rot="MR270">
+<instance part="D" gate="LED" x="388.62" y="139.7" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="136.144" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="133.985" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9096,7 +9096,7 @@ wheelspeed</text>
 <attribute name="NAME" x="239.8014" y="224.79" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="244.602" y="224.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED24" gate="LED" x="388.62" y="114.3" smashed="yes" rot="MR270">
+<instance part="CURRENT_HIGH" gate="LED" x="388.62" y="114.3" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="110.744" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="108.585" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9107,7 +9107,7 @@ wheelspeed</text>
 <instance part="GND116" gate="1" x="187.96" y="48.26" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="190.5" y="45.72" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED25" gate="LED" x="388.62" y="198.12" smashed="yes" rot="MR270">
+<instance part="BSPD_OK" gate="LED" x="388.62" y="198.12" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="194.564" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="192.405" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9338,7 +9338,7 @@ wheelspeed</text>
 <instance part="P+32" gate="1" x="129.54" y="124.46" smashed="yes">
 <attribute name="VALUE" x="132.08" y="127" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED1" gate="LED" x="388.62" y="127" smashed="yes" rot="MR270">
+<instance part="E" gate="LED" x="388.62" y="127" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="123.444" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="121.285" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9346,7 +9346,7 @@ wheelspeed</text>
 <attribute name="NAME" x="372.11" y="125.5014" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="372.11" y="130.302" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="LED2" gate="LED" x="388.62" y="208.28" smashed="yes" rot="MR270">
+<instance part="SW_OK" gate="LED" x="388.62" y="208.28" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="204.724" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="202.565" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9358,10 +9358,10 @@ wheelspeed</text>
 <attribute name="NAME" x="372.11" y="87.4014" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="372.11" y="92.202" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="LED3" gate="LED" x="388.62" y="88.9" smashed="yes" rot="MR270">
+<instance part="WTCHDG_OK" gate="LED" x="388.62" y="88.9" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="85.344" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="LED4" gate="LED" x="388.62" y="76.2" smashed="yes" rot="MR270">
+<instance part="TEENSY_OK" gate="LED" x="388.62" y="76.2" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="72.644" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="70.485" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9382,7 +9382,7 @@ wheelspeed</text>
 <instance part="+3V10" gate="G$1" x="208.28" y="157.48" smashed="yes">
 <attribute name="VALUE" x="210.82" y="160.02" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED5" gate="LED" x="388.62" y="218.44" smashed="yes" rot="MR270">
+<instance part="A" gate="LED" x="388.62" y="218.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="214.884" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="212.725" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9434,20 +9434,20 @@ wheelspeed</text>
 <pinref part="R114" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="LED23" gate="LED" pin="C"/>
-<pinref part="LED19" gate="LED" pin="C"/>
+<pinref part="OKHS" gate="LED" pin="C"/>
+<pinref part="BMS_OK" gate="LED" pin="C"/>
 <wire x1="393.7" y1="187.96" x2="401.32" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="187.96" x2="401.32" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="177.8" x2="393.7" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="LED21" gate="LED" pin="C"/>
+<pinref part="B" gate="LED" pin="C"/>
 <wire x1="401.32" y1="177.8" x2="401.32" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="165.1" x2="393.7" y2="165.1" width="0.1524" layer="91"/>
 <junction x="401.32" y="177.8"/>
-<pinref part="LED22" gate="LED" pin="C"/>
+<pinref part="C" gate="LED" pin="C"/>
 <wire x1="401.32" y1="165.1" x2="401.32" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="152.4" x2="393.7" y2="152.4" width="0.1524" layer="91"/>
 <junction x="401.32" y="165.1"/>
-<pinref part="LED29" gate="LED" pin="C"/>
+<pinref part="D" gate="LED" pin="C"/>
 <wire x1="401.32" y1="152.4" x2="401.32" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="139.7" x2="393.7" y2="139.7" width="0.1524" layer="91"/>
 <junction x="401.32" y="152.4"/>
@@ -9466,27 +9466,27 @@ wheelspeed</text>
 <wire x1="386.08" y1="63.5" x2="401.32" y2="63.5" width="0.1524" layer="91"/>
 <junction x="386.08" y="63.5"/>
 <junction x="401.32" y="63.5"/>
-<pinref part="LED24" gate="LED" pin="C"/>
+<pinref part="CURRENT_HIGH" gate="LED" pin="C"/>
 <wire x1="393.7" y1="114.3" x2="401.32" y2="114.3" width="0.1524" layer="91"/>
 <junction x="401.32" y="114.3"/>
-<pinref part="LED28" gate="LED" pin="C"/>
+<pinref part="BRAKE_HIGH" gate="LED" pin="C"/>
 <wire x1="393.7" y1="101.6" x2="401.32" y2="101.6" width="0.1524" layer="91"/>
 <junction x="401.32" y="101.6"/>
-<pinref part="LED25" gate="LED" pin="C"/>
+<pinref part="BSPD_OK" gate="LED" pin="C"/>
 <wire x1="393.7" y1="198.12" x2="401.32" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="198.12" x2="401.32" y2="187.96" width="0.1524" layer="91"/>
 <junction x="401.32" y="187.96"/>
-<pinref part="LED2" gate="LED" pin="C"/>
+<pinref part="SW_OK" gate="LED" pin="C"/>
 <wire x1="393.7" y1="208.28" x2="401.32" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="198.12" x2="401.32" y2="208.28" width="0.1524" layer="91"/>
 <junction x="401.32" y="198.12"/>
-<pinref part="LED1" gate="LED" pin="C"/>
+<pinref part="E" gate="LED" pin="C"/>
 <wire x1="393.7" y1="127" x2="401.32" y2="127" width="0.1524" layer="91"/>
 <junction x="401.32" y="127"/>
-<pinref part="LED3" gate="LED" pin="C"/>
+<pinref part="WTCHDG_OK" gate="LED" pin="C"/>
 <wire x1="393.7" y1="88.9" x2="401.32" y2="88.9" width="0.1524" layer="91"/>
 <junction x="401.32" y="88.9"/>
-<pinref part="LED4" gate="LED" pin="C"/>
+<pinref part="TEENSY_OK" gate="LED" pin="C"/>
 <wire x1="393.7" y1="76.2" x2="401.32" y2="76.2" width="0.1524" layer="91"/>
 <junction x="401.32" y="76.2"/>
 </segment>
@@ -9677,7 +9677,7 @@ wheelspeed</text>
 <net name="N$97" class="0">
 <segment>
 <pinref part="R91" gate="G$1" pin="2"/>
-<pinref part="LED21" gate="LED" pin="A"/>
+<pinref part="B" gate="LED" pin="A"/>
 <wire x1="381" y1="165.1" x2="386.08" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9712,7 +9712,7 @@ wheelspeed</text>
 <net name="N$98" class="0">
 <segment>
 <pinref part="R92" gate="G$1" pin="2"/>
-<pinref part="LED22" gate="LED" pin="A"/>
+<pinref part="C" gate="LED" pin="A"/>
 <wire x1="381" y1="152.4" x2="386.08" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9813,7 +9813,7 @@ wheelspeed</text>
 </net>
 <net name="LATCH_EXT_BUTTON" class="0">
 <segment>
-<pinref part="LED12" gate="LED" pin="C"/>
+<pinref part="LATCH_BTN" gate="LED" pin="C"/>
 <wire x1="373.38" y1="228.6" x2="365.76" y2="228.6" width="0.1524" layer="91"/>
 <label x="365.76" y="228.6" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
@@ -9873,21 +9873,21 @@ wheelspeed</text>
 </net>
 <net name="N$99" class="0">
 <segment>
-<pinref part="LED12" gate="LED" pin="A"/>
+<pinref part="LATCH_BTN" gate="LED" pin="A"/>
 <wire x1="381" y1="228.6" x2="383.54" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="R94" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$100" class="0">
 <segment>
-<pinref part="LED23" gate="LED" pin="A"/>
+<pinref part="OKHS" gate="LED" pin="A"/>
 <pinref part="R95" gate="G$1" pin="2"/>
 <wire x1="381" y1="177.8" x2="386.08" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$101" class="0">
 <segment>
-<pinref part="LED19" gate="LED" pin="A"/>
+<pinref part="BMS_OK" gate="LED" pin="A"/>
 <pinref part="R96" gate="G$1" pin="2"/>
 <wire x1="381" y1="187.96" x2="386.08" y2="187.96" width="0.1524" layer="91"/>
 </segment>
@@ -9936,13 +9936,13 @@ wheelspeed</text>
 <segment>
 <pinref part="R117" gate="G$1" pin="2"/>
 <wire x1="381" y1="139.7" x2="386.08" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="LED29" gate="LED" pin="A"/>
+<pinref part="D" gate="LED" pin="A"/>
 </segment>
 </net>
 <net name="N$102" class="0">
 <segment>
 <pinref part="R108" gate="G$1" pin="2"/>
-<pinref part="LED24" gate="LED" pin="A"/>
+<pinref part="CURRENT_HIGH" gate="LED" pin="A"/>
 <wire x1="381" y1="114.3" x2="386.08" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9964,7 +9964,7 @@ wheelspeed</text>
 <net name="N$103" class="0">
 <segment>
 <pinref part="R109" gate="G$1" pin="2"/>
-<pinref part="LED28" gate="LED" pin="A"/>
+<pinref part="BRAKE_HIGH" gate="LED" pin="A"/>
 <wire x1="386.08" y1="101.6" x2="381" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10070,7 +10070,7 @@ wheelspeed</text>
 </net>
 <net name="N$108" class="0">
 <segment>
-<pinref part="LED25" gate="LED" pin="A"/>
+<pinref part="BSPD_OK" gate="LED" pin="A"/>
 <pinref part="R98" gate="G$1" pin="2"/>
 <wire x1="381" y1="198.12" x2="386.08" y2="198.12" width="0.1524" layer="91"/>
 </segment>
@@ -10361,21 +10361,21 @@ wheelspeed</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="LED" pin="A"/>
+<pinref part="E" gate="LED" pin="A"/>
 <wire x1="386.08" y1="127" x2="381" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="LED" pin="A"/>
+<pinref part="SW_OK" gate="LED" pin="A"/>
 <wire x1="386.08" y1="208.28" x2="381" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="LED3" gate="LED" pin="A"/>
+<pinref part="WTCHDG_OK" gate="LED" pin="A"/>
 <wire x1="381" y1="88.9" x2="386.08" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10383,7 +10383,7 @@ wheelspeed</text>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="381" y1="76.2" x2="386.08" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="LED4" gate="LED" pin="A"/>
+<pinref part="TEENSY_OK" gate="LED" pin="A"/>
 </segment>
 </net>
 <net name="WATCHDOG_IN" class="0">
@@ -10425,7 +10425,7 @@ wheelspeed</text>
 </net>
 <net name="GND2" class="0">
 <segment>
-<pinref part="LED5" gate="LED" pin="C"/>
+<pinref part="A" gate="LED" pin="C"/>
 <wire x1="393.7" y1="218.44" x2="401.32" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="208.28" x2="401.32" y2="218.44" width="0.1524" layer="91"/>
 </segment>
@@ -10433,7 +10433,7 @@ wheelspeed</text>
 <net name="N$34" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="LED5" gate="LED" pin="A"/>
+<pinref part="A" gate="LED" pin="A"/>
 <wire x1="386.08" y1="218.44" x2="381" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
