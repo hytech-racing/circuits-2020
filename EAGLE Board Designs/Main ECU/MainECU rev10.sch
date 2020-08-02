@@ -7602,6 +7602,10 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C81" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="A" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
+<part name="3V3" library="HyTechDevices" deviceset="LED" device="-0805" value="Purple"/>
+<part name="R33" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="270"/>
+<part name="GND51" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8102,6 +8106,20 @@ wheelspeed</text>
 <instance part="P+2" gate="1" x="76.2" y="210.82" smashed="yes">
 <attribute name="VALUE" x="83.82" y="210.82" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="3V3" gate="LED" x="271.78" y="238.76" smashed="yes">
+<attribute name="NAME" x="274.828" y="237.998" size="1.778" layer="95"/>
+<attribute name="VALUE" x="274.828" y="235.331" size="1.778" layer="96"/>
+</instance>
+<instance part="R33" gate="G$1" x="271.78" y="248.92" smashed="yes" rot="R270">
+<attribute name="NAME" x="274.066" y="249.4026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="274.066" y="246.634" size="1.778" layer="96"/>
+</instance>
+<instance part="GND51" gate="1" x="271.78" y="228.6" smashed="yes">
+<attribute name="VALUE" x="269.24" y="226.06" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V11" gate="G$1" x="271.78" y="259.08" smashed="yes">
+<attribute name="VALUE" x="274.32" y="261.62" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8268,6 +8286,11 @@ wheelspeed</text>
 <wire x1="78.74" y1="218.44" x2="78.74" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="228.6" x2="76.2" y2="228.6" width="0.1524" layer="91"/>
 <junction x="76.2" y="228.6"/>
+</segment>
+<segment>
+<pinref part="3V3" gate="LED" pin="C"/>
+<pinref part="GND51" gate="1" pin="GND"/>
+<wire x1="271.78" y1="231.14" x2="271.78" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -8726,6 +8749,11 @@ wheelspeed</text>
 <wire x1="99.06" y1="243.84" x2="99.06" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
+<segment>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="271.78" y1="254" x2="271.78" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="+3V11" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="GND_CURRENT" class="0">
 <segment>
@@ -8878,6 +8906,13 @@ wheelspeed</text>
 <pinref part="X5" gate="-21" pin="S"/>
 <wire x1="50.8" y1="210.82" x2="58.42" y2="210.82" width="0.1524" layer="91"/>
 <label x="58.42" y="210.82" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="3V3" gate="LED" pin="A"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="271.78" y1="243.84" x2="271.78" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
