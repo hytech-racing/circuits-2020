@@ -7444,7 +7444,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND8" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="CAL_BRAKE" library="HyTechDevices" deviceset="TRIMPOT_3296" device="C"/>
 <part name="GND114" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100"/>
 <part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="2.2µ"/>
@@ -7606,6 +7605,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R33" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="270"/>
 <part name="GND51" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9287,9 +9287,6 @@ wheelspeed</text>
 <instance part="GND114" gate="1" x="55.88" y="68.58" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="58.42" y="66.04" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="P+12" gate="1" x="55.88" y="91.44" smashed="yes">
-<attribute name="VALUE" x="58.42" y="93.98" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="R12" gate="G$1" x="66.04" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="64.2874" y="63.5" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="64.262" y="60.452" size="1.778" layer="96" rot="R180"/>
@@ -9424,6 +9421,9 @@ wheelspeed</text>
 <instance part="R2" gate="G$1" x="375.92" y="218.44" smashed="yes" rot="MR180">
 <attribute name="NAME" x="372.11" y="216.9414" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="372.11" y="221.742" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="P+12" gate="1" x="55.88" y="91.44" smashed="yes">
+<attribute name="VALUE" x="58.42" y="93.98" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -9829,6 +9829,11 @@ wheelspeed</text>
 <wire x1="129.54" y1="119.38" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="P+32" gate="1" pin="+5V"/>
 <pinref part="U$13" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="55.88" y1="88.9" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="CAL_BRAKE" gate="G$1" pin="1"/>
+<pinref part="P+12" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="IMD_PWR_STEP1" class="0">
@@ -10281,13 +10286,6 @@ wheelspeed</text>
 <wire x1="55.88" y1="71.12" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="CAL_BRAKE" gate="G$1" pin="3"/>
 <pinref part="GND114" gate="1" pin="GND"/>
-</segment>
-</net>
-<net name="+5V2" class="0">
-<segment>
-<wire x1="55.88" y1="88.9" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="CAL_BRAKE" gate="G$1" pin="1"/>
-<pinref part="P+12" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="SIGNAL_BRAKE1" class="0">
