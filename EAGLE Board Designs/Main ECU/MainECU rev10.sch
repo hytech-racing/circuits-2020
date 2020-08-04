@@ -7269,7 +7269,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND128" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="LED30" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
 <part name="R129" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="33"/>
-<part name="LED31" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
+<part name="ASSOC" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="R130" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.2k"/>
 <part name="MQTT_CONN" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
 <part name="R133" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="0"/>
@@ -10488,7 +10488,7 @@ since we have no via the current is less
 <attribute name="NAME" x="176.53" y="41.6814" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="176.53" y="46.482" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="LED31" gate="LED" x="261.62" y="45.72" smashed="yes" rot="R90">
+<instance part="ASSOC" gate="LED" x="261.62" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="266.192" y="49.276" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="266.192" y="51.435" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -11298,14 +11298,14 @@ since we have no via the current is less
 </net>
 <net name="N$128" class="0">
 <segment>
-<pinref part="LED31" gate="LED" pin="A"/>
+<pinref part="ASSOC" gate="LED" pin="A"/>
 <wire x1="259.08" y1="45.72" x2="254" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U$44" gate="G$1" pin="ASC/AD5/DIO5"/>
 </segment>
 </net>
 <net name="N$129" class="0">
 <segment>
-<pinref part="LED31" gate="LED" pin="C"/>
+<pinref part="ASSOC" gate="LED" pin="C"/>
 <pinref part="R130" gate="G$1" pin="2"/>
 <wire x1="269.24" y1="45.72" x2="266.7" y2="45.72" width="0.1524" layer="91"/>
 </segment>
