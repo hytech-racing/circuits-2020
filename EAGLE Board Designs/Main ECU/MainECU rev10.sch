@@ -7604,6 +7604,12 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND51" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="C18" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C19" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="GND52" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="C20" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C21" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="GND53" library="HyTechSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10786,6 +10792,17 @@ since we have no via the current is less
 <attribute name="NAME" x="199.644" y="165.481" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.644" y="160.401" size="1.778" layer="96"/>
 </instance>
+<instance part="C18" gate="G$1" x="144.78" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="143.256" y="101.219" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="143.256" y="106.299" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C19" gate="G$1" x="137.16" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="135.636" y="101.219" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="135.636" y="106.299" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND52" gate="1" x="142.24" y="96.52" smashed="yes">
+<attribute name="VALUE" x="139.7" y="93.98" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11033,6 +11050,14 @@ since we have no via the current is less
 <wire x1="401.32" y1="208.28" x2="398.78" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND49" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="GND52" gate="1" pin="GND"/>
+<wire x1="142.24" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
+<junction x="142.24" y="99.06"/>
+</segment>
 </net>
 <net name="GND_CURRENT" class="0">
 <segment>
@@ -11101,6 +11126,12 @@ since we have no via the current is less
 <wire x1="132.08" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="P+88" gate="1" pin="+5V"/>
 <wire x1="134.62" y1="106.68" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
+<junction x="134.62" y="106.68"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
+<junction x="137.16" y="106.68"/>
 </segment>
 <segment>
 <pinref part="U$47" gate="G$1" pin="!SHDN"/>
@@ -11909,8 +11940,8 @@ since we have no via the current is less
 <attribute name="NAME" x="374.65" y="60.1726" size="1.778" layer="95"/>
 <attribute name="VALUE" x="364.49" y="54.8386" size="1.778" layer="96"/>
 </instance>
-<instance part="P+101" gate="1" x="152.4" y="76.2" smashed="yes">
-<attribute name="VALUE" x="150.114" y="76.708" size="1.778" layer="96"/>
+<instance part="P+101" gate="1" x="152.4" y="88.9" smashed="yes">
+<attribute name="VALUE" x="150.114" y="89.408" size="1.778" layer="96"/>
 </instance>
 <instance part="R145" gate="G$1" x="388.62" y="124.46" smashed="yes">
 <attribute name="NAME" x="384.81" y="125.9586" size="1.778" layer="95"/>
@@ -12278,6 +12309,17 @@ since we have no via the current is less
 <instance part="GND48" gate="1" x="30.48" y="127" smashed="yes">
 <attribute name="VALUE" x="27.94" y="124.46" size="1.778" layer="96"/>
 </instance>
+<instance part="C20" gate="G$1" x="165.1" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="163.576" y="78.359" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="163.576" y="83.439" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C21" gate="G$1" x="157.48" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="155.956" y="78.359" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="155.956" y="83.439" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND53" gate="1" x="162.56" y="73.66" smashed="yes">
+<attribute name="VALUE" x="160.02" y="71.12" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12544,6 +12586,14 @@ since we have no via the current is less
 <wire x1="30.48" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SIGNAL_GND" gate="G$1" pin="P$1"/>
 </segment>
+<segment>
+<wire x1="157.48" y1="76.2" x2="162.56" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
+<junction x="162.56" y="76.2"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="GND53" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="SHUTDOWN_C" class="0">
 <segment>
@@ -12677,8 +12727,15 @@ since we have no via the current is less
 <segment>
 <wire x1="149.86" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="P+101" gate="1" pin="+5V"/>
-<wire x1="152.4" y1="71.12" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="71.12" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$32" gate="G$1" pin="VIN"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="83.82" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<junction x="152.4" y="83.82"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="83.82" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
+<junction x="157.48" y="83.82"/>
 </segment>
 <segment>
 <pinref part="P+102" gate="1" pin="+5V"/>
