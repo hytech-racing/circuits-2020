@@ -7142,9 +7142,9 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND68" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="12V_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="" value="12V_TEST"/>
-<part name="U$15" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="U$19" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="12V_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="12V_TEST"/>
+<part name="U$15" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="U$19" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
 <part name="GND78" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+65" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -7385,7 +7385,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C27" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
 <part name="R65" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
 <part name="C28" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
-<part name="3V3_TEST" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="3V3_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
 <part name="U$1" library="HyTechFrames" deviceset="FRAME_B_L" device=""/>
 <part name="U$2" library="HyTechFrames" deviceset="FRAME_B_L" device=""/>
 <part name="U$3" library="HyTechFrames" deviceset="FRAME_B_L" device=""/>
@@ -8898,32 +8898,18 @@ wheelspeed</text>
 <label x="58.42" y="205.74" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="WS1_IN" class="0">
+<net name="WS3_IN" class="0">
 <segment>
 <pinref part="X5" gate="-3" pin="S"/>
 <wire x1="50.8" y1="256.54" x2="55.88" y2="256.54" width="0.1524" layer="91"/>
 <label x="55.88" y="256.54" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="WS2_IN" class="0">
+<net name="WS4_IN" class="0">
 <segment>
 <pinref part="X5" gate="-4" pin="S"/>
 <wire x1="50.8" y1="254" x2="55.88" y2="254" width="0.1524" layer="91"/>
 <label x="55.88" y="254" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="WS3_IN" class="0">
-<segment>
-<pinref part="X5" gate="-20" pin="S"/>
-<wire x1="50.8" y1="213.36" x2="58.42" y2="213.36" width="0.1524" layer="91"/>
-<label x="58.42" y="213.36" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="WS4_IN" class="0">
-<segment>
-<pinref part="X5" gate="-21" pin="S"/>
-<wire x1="50.8" y1="210.82" x2="58.42" y2="210.82" width="0.1524" layer="91"/>
-<label x="58.42" y="210.82" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -8931,6 +8917,20 @@ wheelspeed</text>
 <pinref part="3V3" gate="LED" pin="A"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="243.84" x2="271.78" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="WS1_IN" class="0">
+<segment>
+<pinref part="X5" gate="-20" pin="S"/>
+<wire x1="50.8" y1="213.36" x2="58.42" y2="213.36" width="0.1524" layer="91"/>
+<label x="58.42" y="213.36" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="WS2_IN" class="0">
+<segment>
+<pinref part="X5" gate="-21" pin="S"/>
+<wire x1="50.8" y1="210.82" x2="58.42" y2="210.82" width="0.1524" layer="91"/>
+<label x="58.42" y="210.82" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
