@@ -9893,6 +9893,9 @@ wheelspeed</text>
 <wire x1="101.6" y1="132.08" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="P+33" gate="1" pin="+5V"/>
 <pinref part="U$20" gate="G$1" pin="VDD"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="147.32" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
+<junction x="101.6" y="147.32"/>
 </segment>
 <segment>
 <pinref part="P+18" gate="1" pin="+5V"/>
