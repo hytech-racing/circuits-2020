@@ -7279,7 +7279,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C59" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
 <part name="C60" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C61" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="MTK3339_BREAKOUT1" library="HyTechDevices" deviceset="M09" device=""/>
+<part name="MTK3339_BREAKOUT" library="HyTechDevices" deviceset="M09" device=""/>
 <part name="GND135" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R134" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="C65" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -10650,7 +10650,7 @@ since we have no via the current is less
 <attribute name="NAME" x="277.876" y="245.999" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="277.876" y="251.079" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="MTK3339_BREAKOUT1" gate="G$1" x="340.36" y="63.5" smashed="yes" rot="R180">
+<instance part="MTK3339_BREAKOUT" gate="G$1" x="340.36" y="63.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="345.44" y="76.2" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="345.44" y="47.498" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -10950,7 +10950,7 @@ since we have no via the current is less
 <pinref part="U$50" gate="G$1" pin="IP-"/>
 </segment>
 <segment>
-<pinref part="MTK3339_BREAKOUT1" gate="G$1" pin="7"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="7"/>
 <pinref part="GND135" gate="1" pin="GND"/>
 <wire x1="327.66" y1="55.88" x2="335.28" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -11199,7 +11199,7 @@ since we have no via the current is less
 <wire x1="332.74" y1="48.26" x2="320.04" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="48.26" x2="320.04" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="P+93" gate="1" pin="+5V"/>
-<pinref part="MTK3339_BREAKOUT1" gate="G$1" pin="8"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="8"/>
 <wire x1="335.28" y1="53.34" x2="332.74" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="53.34" x2="332.74" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -11489,7 +11489,7 @@ since we have no via the current is less
 <label x="106.68" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MTK3339_BREAKOUT1" gate="G$1" pin="3"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="3"/>
 <wire x1="335.28" y1="66.04" x2="320.04" y2="66.04" width="0.1524" layer="91"/>
 <label x="320.04" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11547,14 +11547,14 @@ since we have no via the current is less
 </net>
 <net name="N$139" class="0">
 <segment>
-<pinref part="MTK3339_BREAKOUT1" gate="G$1" pin="2"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="2"/>
 <wire x1="335.28" y1="68.58" x2="332.74" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R134" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MTK3339_DOUT" class="0">
 <segment>
-<pinref part="MTK3339_BREAKOUT1" gate="G$1" pin="5"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="5"/>
 <wire x1="335.28" y1="60.96" x2="320.04" y2="60.96" width="0.1524" layer="91"/>
 <label x="320.04" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11566,7 +11566,7 @@ since we have no via the current is less
 </net>
 <net name="MTK3339_DIN" class="0">
 <segment>
-<pinref part="MTK3339_BREAKOUT1" gate="G$1" pin="6"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="6"/>
 <wire x1="335.28" y1="58.42" x2="320.04" y2="58.42" width="0.1524" layer="91"/>
 <label x="320.04" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11578,7 +11578,7 @@ since we have no via the current is less
 </net>
 <net name="MTK3339_FIX" class="0">
 <segment>
-<pinref part="MTK3339_BREAKOUT1" gate="G$1" pin="4"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="4"/>
 <wire x1="335.28" y1="63.5" x2="320.04" y2="63.5" width="0.1524" layer="91"/>
 <label x="320.04" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
