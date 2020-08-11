@@ -7280,15 +7280,11 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C60" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C61" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="MTK3339_BREAKOUT" library="HyTechDevices" deviceset="M09" device=""/>
-<part name="GND135" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R134" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="C65" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="P+88" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+91" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+93" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+94" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+96" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+97" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$49" library="HyTechDevices" deviceset="ACHS-7121" device=""/>
 <part name="U$50" library="HyTechDevices" deviceset="ACHS-7121" device=""/>
 <part name="GND132" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7628,6 +7624,10 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND63" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="C33" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="GND64" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="GND135" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="R134" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
+<part name="P+97" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+93" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10654,13 +10654,6 @@ since we have no via the current is less
 <attribute name="VALUE" x="345.44" y="76.2" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="345.44" y="47.498" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="GND135" gate="1" x="327.66" y="53.34" smashed="yes">
-<attribute name="VALUE" x="325.12" y="50.8" size="1.778" layer="96"/>
-</instance>
-<instance part="R134" gate="G$1" x="327.66" y="71.12" smashed="yes">
-<attribute name="NAME" x="323.85" y="72.6186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="323.85" y="67.818" size="1.778" layer="96"/>
-</instance>
 <instance part="C65" gate="G$1" x="180.34" y="58.42" smashed="yes" rot="MR90">
 <attribute name="NAME" x="183.642" y="53.721" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="184.404" y="61.341" size="1.778" layer="96" rot="MR0"/>
@@ -10671,17 +10664,11 @@ since we have no via the current is less
 <instance part="P+91" gate="1" x="238.76" y="256.54" smashed="yes">
 <attribute name="VALUE" x="241.3" y="259.08" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+93" gate="1" x="320.04" y="53.34" smashed="yes">
-<attribute name="VALUE" x="322.58" y="55.88" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="P+94" gate="1" x="109.22" y="213.36" smashed="yes">
 <attribute name="VALUE" x="111.76" y="215.9" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+96" gate="1" x="109.22" y="261.62" smashed="yes">
 <attribute name="VALUE" x="111.76" y="264.16" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+97" gate="1" x="320.04" y="76.2" smashed="yes">
-<attribute name="VALUE" x="322.58" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$49" gate="G$1" x="43.18" y="238.76" smashed="yes"/>
 <instance part="U$50" gate="G$1" x="43.18" y="190.5" smashed="yes"/>
@@ -10925,6 +10912,19 @@ since we have no via the current is less
 <instance part="GND52" gate="1" x="142.24" y="96.52" smashed="yes">
 <attribute name="VALUE" x="139.7" y="93.98" size="1.778" layer="96"/>
 </instance>
+<instance part="GND135" gate="1" x="322.58" y="68.58" smashed="yes">
+<attribute name="VALUE" x="320.04" y="66.04" size="1.778" layer="96"/>
+</instance>
+<instance part="R134" gate="G$1" x="314.96" y="53.34" smashed="yes">
+<attribute name="NAME" x="311.15" y="54.8386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="311.15" y="50.038" size="1.778" layer="96"/>
+</instance>
+<instance part="P+97" gate="1" x="304.8" y="58.42" smashed="yes">
+<attribute name="VALUE" x="307.34" y="60.96" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+93" gate="1" x="330.2" y="73.66" smashed="yes">
+<attribute name="VALUE" x="332.74" y="76.2" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10948,11 +10948,6 @@ since we have no via the current is less
 <wire x1="38.1" y1="198.12" x2="35.56" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="GND128" gate="1" pin="GND"/>
 <pinref part="U$50" gate="G$1" pin="IP-"/>
-</segment>
-<segment>
-<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="7"/>
-<pinref part="GND135" gate="1" pin="GND"/>
-<wire x1="327.66" y1="55.88" x2="335.28" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R133" gate="G$1" pin="1"/>
@@ -11180,6 +11175,13 @@ since we have no via the current is less
 <wire x1="142.24" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <junction x="142.24" y="99.06"/>
 </segment>
+<segment>
+<pinref part="GND135" gate="1" pin="GND"/>
+<wire x1="322.58" y1="71.12" x2="327.66" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="3"/>
+<wire x1="335.28" y1="66.04" x2="327.66" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="66.04" x2="327.66" y2="71.12" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND_CURRENT" class="0">
 <segment>
@@ -11189,20 +11191,6 @@ since we have no via the current is less
 </segment>
 </net>
 <net name="+5V" class="0">
-<segment>
-<pinref part="P+97" gate="1" pin="+5V"/>
-<wire x1="320.04" y1="73.66" x2="320.04" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R134" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="71.12" x2="322.58" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="332.74" y1="48.26" x2="320.04" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="48.26" x2="320.04" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="P+93" gate="1" pin="+5V"/>
-<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="8"/>
-<wire x1="335.28" y1="53.34" x2="332.74" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="53.34" x2="332.74" y2="48.26" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U$49" gate="G$1" pin="VDD"/>
 <wire x1="66.04" y1="256.54" x2="109.22" y2="256.54" width="0.1524" layer="91"/>
@@ -11348,6 +11336,18 @@ since we have no via the current is less
 <wire x1="182.88" y1="251.46" x2="182.88" y2="254" width="0.1524" layer="91"/>
 <pinref part="P+45" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="P+97" gate="1" pin="+5V"/>
+<wire x1="304.8" y1="55.88" x2="304.8" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R134" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="53.34" x2="309.88" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="335.28" y1="68.58" x2="330.2" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="68.58" x2="330.2" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="P+93" gate="1" pin="+5V"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="N$122" class="0">
 <segment>
@@ -11489,9 +11489,9 @@ since we have no via the current is less
 <label x="106.68" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="3"/>
-<wire x1="335.28" y1="66.04" x2="320.04" y2="66.04" width="0.1524" layer="91"/>
-<label x="320.04" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="330.2" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="7"/>
+<wire x1="335.28" y1="55.88" x2="330.2" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$132" class="0">
@@ -11545,47 +11545,40 @@ since we have no via the current is less
 <label x="398.78" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$139" class="0">
-<segment>
-<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="2"/>
-<wire x1="335.28" y1="68.58" x2="332.74" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R134" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="MTK3339_DOUT" class="0">
-<segment>
-<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="5"/>
-<wire x1="335.28" y1="60.96" x2="320.04" y2="60.96" width="0.1524" layer="91"/>
-<label x="320.04" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$43" gate="G$1" pin="D0(RX1)"/>
 <wire x1="106.68" y1="104.14" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
 <label x="104.14" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="335.28" y1="60.96" x2="330.2" y2="60.96" width="0.1524" layer="91"/>
+<label x="330.2" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="5"/>
+</segment>
 </net>
 <net name="MTK3339_DIN" class="0">
-<segment>
-<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="6"/>
-<wire x1="335.28" y1="58.42" x2="320.04" y2="58.42" width="0.1524" layer="91"/>
-<label x="320.04" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$43" gate="G$1" pin="D1(TX1)"/>
 <wire x1="106.68" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <label x="104.14" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="335.28" y1="63.5" x2="330.2" y2="63.5" width="0.1524" layer="91"/>
+<label x="330.2" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="4"/>
+</segment>
 </net>
 <net name="MTK3339_FIX" class="0">
-<segment>
-<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="4"/>
-<wire x1="335.28" y1="63.5" x2="320.04" y2="63.5" width="0.1524" layer="91"/>
-<label x="320.04" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$43" gate="G$1" pin="D2"/>
 <wire x1="106.68" y1="99.06" x2="104.14" y2="99.06" width="0.1524" layer="91"/>
 <label x="104.14" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="335.28" y1="58.42" x2="330.2" y2="58.42" width="0.1524" layer="91"/>
+<label x="330.2" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -11989,6 +11982,13 @@ since we have no via the current is less
 <wire x1="38.1" y1="254" x2="33.02" y2="254" width="0.1524" layer="91"/>
 <label x="33.02" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$49" gate="G$1" pin="IP+"/>
+</segment>
+</net>
+<net name="N$139" class="0">
+<segment>
+<wire x1="335.28" y1="53.34" x2="320.04" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R134" gate="G$1" pin="2"/>
+<pinref part="MTK3339_BREAKOUT" gate="G$1" pin="8"/>
 </segment>
 </net>
 </nets>
