@@ -7159,7 +7159,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="OKHS" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
 <part name="D33" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D34" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
-<part name="S2" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD"/>
+<part name="S1" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD"/>
 <part name="R94" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="5.1k"/>
 <part name="P+68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R95" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
@@ -8987,7 +8987,7 @@ wheelspeed</text>
 <attribute name="NAME" x="52.07" y="253.2126" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.07" y="247.8786" size="1.778" layer="96"/>
 </instance>
-<instance part="S2" gate="1" x="381" y="63.5" smashed="yes" rot="MR270">
+<instance part="S1" gate="1" x="381" y="63.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="383.54" y="69.85" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="377.825" y="67.31" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9549,8 +9549,8 @@ wheelspeed</text>
 <pinref part="GND97" gate="1" pin="GND"/>
 <wire x1="401.32" y1="139.7" x2="401.32" y2="127" width="0.1524" layer="91"/>
 <junction x="401.32" y="139.7"/>
-<pinref part="S2" gate="1" pin="P"/>
-<pinref part="S2" gate="1" pin="P1"/>
+<pinref part="S1" gate="1" pin="P"/>
+<pinref part="S1" gate="1" pin="P1"/>
 <wire x1="401.32" y1="127" x2="401.32" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="114.3" x2="401.32" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="101.6" x2="401.32" y2="88.9" width="0.1524" layer="91"/>
@@ -9987,8 +9987,8 @@ wheelspeed</text>
 <label x="203.2" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="1" pin="S"/>
-<pinref part="S2" gate="1" pin="S1"/>
+<pinref part="S1" gate="1" pin="S"/>
+<pinref part="S1" gate="1" pin="S1"/>
 <wire x1="375.92" y1="63.5" x2="375.92" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="63.5" x2="370.84" y2="63.5" width="0.1524" layer="91"/>
 <junction x="375.92" y="63.5"/>
