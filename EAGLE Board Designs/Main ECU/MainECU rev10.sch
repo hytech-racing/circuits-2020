@@ -7628,6 +7628,9 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R134" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="P+97" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+93" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="C34" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="GND65" library="HyTechSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7973,12 +7976,12 @@ wheelspeed</text>
 <instance part="GND111" gate="1" x="175.26" y="127" smashed="yes">
 <attribute name="VALUE" x="172.72" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="U$42" gate="G$1" x="259.08" y="190.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="264.16" y="195.58" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="279.4" y="182.88" size="1.778" layer="96" rot="MR0"/>
+<instance part="U$42" gate="G$1" x="185.42" y="187.96" smashed="yes" rot="MR0">
+<attribute name="NAME" x="190.5" y="193.04" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="205.74" y="180.34" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND112" gate="1" x="248.92" y="187.96" smashed="yes">
-<attribute name="VALUE" x="246.38" y="185.42" size="1.778" layer="96"/>
+<instance part="GND112" gate="1" x="175.26" y="185.42" smashed="yes">
+<attribute name="VALUE" x="172.72" y="182.88" size="1.778" layer="96"/>
 </instance>
 <instance part="C51" gate="G$1" x="134.62" y="251.46" smashed="yes">
 <attribute name="NAME" x="136.144" y="254.381" size="1.778" layer="95"/>
@@ -8142,6 +8145,16 @@ wheelspeed</text>
 <instance part="+3V11" gate="G$1" x="271.78" y="259.08" smashed="yes">
 <attribute name="VALUE" x="274.32" y="261.62" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="P+46" gate="1" x="215.9" y="195.58" smashed="yes">
+<attribute name="VALUE" x="218.44" y="198.12" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C34" gate="G$1" x="213.36" y="190.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="211.836" y="187.579" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="211.836" y="192.659" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND65" gate="1" x="213.36" y="182.88" smashed="yes">
+<attribute name="VALUE" x="208.28" y="180.34" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8230,7 +8243,7 @@ wheelspeed</text>
 <segment>
 <pinref part="U$42" gate="G$1" pin="3"/>
 <pinref part="GND112" gate="1" pin="GND"/>
-<wire x1="248.92" y1="190.5" x2="254" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="187.96" x2="180.34" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C51" gate="G$1" pin="2"/>
@@ -8313,6 +8326,10 @@ wheelspeed</text>
 <pinref part="3V3" gate="LED" pin="C"/>
 <pinref part="GND51" gate="1" pin="GND"/>
 <wire x1="271.78" y1="231.14" x2="271.78" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C34" gate="G$1" pin="1"/>
+<pinref part="GND65" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -8512,6 +8529,13 @@ wheelspeed</text>
 <wire x1="50.8" y1="175.26" x2="71.12" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-35" pin="S"/>
 </segment>
+<segment>
+<wire x1="215.9" y1="180.34" x2="215.9" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="P+46" gate="1" pin="+5V"/>
+<pinref part="C34" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="193.04" x2="215.9" y2="193.04" width="0.1524" layer="91"/>
+<junction x="215.9" y="193.04"/>
+</segment>
 </net>
 <net name="LATCH_EXT_BUTTON" class="0">
 <segment>
@@ -8571,8 +8595,8 @@ wheelspeed</text>
 </segment>
 <segment>
 <pinref part="U$42" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="193.04" x2="269.24" y2="193.04" width="0.1524" layer="91"/>
-<label x="269.24" y="193.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="193.04" y1="190.5" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
+<label x="195.58" y="190.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X5" gate="-34" pin="S"/>
@@ -8600,8 +8624,8 @@ wheelspeed</text>
 </segment>
 <segment>
 <pinref part="U$42" gate="G$1" pin="2"/>
-<wire x1="266.7" y1="187.96" x2="269.24" y2="187.96" width="0.1524" layer="91"/>
-<label x="269.24" y="187.96" size="1.27" layer="95" xref="yes"/>
+<wire x1="193.04" y1="185.42" x2="195.58" y2="185.42" width="0.1524" layer="91"/>
+<label x="195.58" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X5" gate="-26" pin="S"/>
