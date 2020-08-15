@@ -3108,12 +3108,6 @@ design rules under a new name.</description>
 <vertex x="-20.32" y="102.362"/>
 <vertex x="-20.32" y="108.204"/>
 </polygon>
-<polygon width="0.0254" layer="16">
-<vertex x="99.314" y="1.524"/>
-<vertex x="99.314" y="-4.318"/>
-<vertex x="-13.97" y="-4.318"/>
-<vertex x="-13.97" y="1.524"/>
-</polygon>
 <wire x1="65.2526" y1="19.304" x2="66.294" y2="19.304" width="0.508" layer="1"/>
 <wire x1="66.294" y1="19.304" x2="67.144" y2="18.454" width="0.508" layer="1"/>
 <wire x1="67.144" y1="18.454" x2="67.144" y2="14.986" width="0.508" layer="1"/>
@@ -6716,6 +6710,14 @@ design rules under a new name.</description>
 <vertex x="-13.97" y="-4.318"/>
 <vertex x="45.72" y="-4.318"/>
 <vertex x="45.72" y="1.524"/>
+</polygon>
+</signal>
+<signal name="GND4">
+<polygon width="0.0254" layer="16">
+<vertex x="99.314" y="1.524"/>
+<vertex x="99.314" y="-4.318"/>
+<vertex x="-13.97" y="-4.318"/>
+<vertex x="-13.97" y="1.524"/>
 </polygon>
 </signal>
 </signals>
