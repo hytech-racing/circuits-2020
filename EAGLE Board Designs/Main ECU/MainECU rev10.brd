@@ -5935,6 +5935,24 @@ design rules under a new name.</description>
 <vertex x="92.8878" y="90.7796"/>
 <vertex x="77.0636" y="90.7796"/>
 </polygon>
+<via x="77.724" y="100.584" extent="1-16" drill="0.35"/>
+<via x="80.264" y="100.584" extent="1-16" drill="0.35"/>
+<via x="82.804" y="100.584" extent="1-16" drill="0.35"/>
+<via x="85.344" y="100.584" extent="1-16" drill="0.35"/>
+<via x="87.884" y="100.584" extent="1-16" drill="0.35"/>
+<via x="92.202" y="100.584" extent="1-16" drill="0.35"/>
+<via x="92.202" y="91.44" extent="1-16" drill="0.35"/>
+<via x="87.884" y="91.44" extent="1-16" drill="0.35"/>
+<via x="85.344" y="91.44" extent="1-16" drill="0.35"/>
+<via x="82.804" y="91.44" extent="1-16" drill="0.35"/>
+<via x="80.264" y="91.44" extent="1-16" drill="0.35"/>
+<via x="77.724" y="91.44" extent="1-16" drill="0.35"/>
+<via x="77.724" y="94.488" extent="1-16" drill="0.35"/>
+<via x="80.264" y="94.488" extent="1-16" drill="0.35"/>
+<via x="82.804" y="94.488" extent="1-16" drill="0.35"/>
+<via x="82.804" y="97.536" extent="1-16" drill="0.35"/>
+<via x="80.264" y="97.536" extent="1-16" drill="0.35"/>
+<via x="77.724" y="97.536" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="GND">
 <polygon width="0.0254" layer="2">
@@ -6742,6 +6760,24 @@ design rules under a new name.</description>
 <vertex x="92.8878" y="78.5876"/>
 <vertex x="77.0636" y="78.5876"/>
 </polygon>
+<via x="77.724" y="88.392" extent="1-16" drill="0.35"/>
+<via x="80.264" y="88.392" extent="1-16" drill="0.35"/>
+<via x="82.804" y="88.392" extent="1-16" drill="0.35"/>
+<via x="85.344" y="88.392" extent="1-16" drill="0.35"/>
+<via x="87.884" y="88.392" extent="1-16" drill="0.35"/>
+<via x="92.202" y="88.392" extent="1-16" drill="0.35"/>
+<via x="92.202" y="79.248" extent="1-16" drill="0.35"/>
+<via x="87.884" y="79.248" extent="1-16" drill="0.35"/>
+<via x="85.344" y="79.248" extent="1-16" drill="0.35"/>
+<via x="82.804" y="79.248" extent="1-16" drill="0.35"/>
+<via x="80.264" y="79.248" extent="1-16" drill="0.35"/>
+<via x="77.724" y="79.248" extent="1-16" drill="0.35"/>
+<via x="77.724" y="82.296" extent="1-16" drill="0.35"/>
+<via x="80.264" y="82.296" extent="1-16" drill="0.35"/>
+<via x="82.804" y="82.296" extent="1-16" drill="0.35"/>
+<via x="82.804" y="85.344" extent="1-16" drill="0.35"/>
+<via x="80.264" y="85.344" extent="1-16" drill="0.35"/>
+<via x="77.724" y="85.344" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
