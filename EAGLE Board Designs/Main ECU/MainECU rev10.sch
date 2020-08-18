@@ -7296,7 +7296,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+99" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+100" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+89" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="CAN100" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
+<part name="CAN1" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND126" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+90" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
@@ -7357,7 +7357,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+114" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+120" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND134" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="CAN101" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
+<part name="CAN2" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND129" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+98" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C121" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -10718,7 +10718,7 @@ since we have no via the current is less
 <instance part="P+89" gate="1" x="289.56" y="264.16" smashed="yes">
 <attribute name="VALUE" x="292.1" y="266.7" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="CAN101" gate="G$1" x="50.8" y="96.52" smashed="yes" rot="R180">
+<instance part="CAN2" gate="G$1" x="50.8" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.165" y="102.235" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND129" gate="1" x="30.48" y="83.82" smashed="yes">
@@ -10983,7 +10983,7 @@ since we have no via the current is less
 <pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CAN101" gate="G$1" pin="2"/>
+<pinref part="CAN2" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="91.44" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C122" gate="G$1" pin="1"/>
@@ -11000,7 +11000,7 @@ since we have no via the current is less
 <segment>
 <pinref part="GND129" gate="1" pin="GND"/>
 <wire x1="30.48" y1="86.36" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="CAN101" gate="G$1" pin="8"/>
+<pinref part="CAN2" gate="G$1" pin="8"/>
 <wire x1="30.48" y1="88.9" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -11268,7 +11268,7 @@ since we have no via the current is less
 <pinref part="P+89" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="CAN101" gate="G$1" pin="3"/>
+<pinref part="CAN2" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="93.98" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
@@ -11703,21 +11703,21 @@ since we have no via the current is less
 </net>
 <net name="CANL" class="0">
 <segment>
-<pinref part="CAN101" gate="G$1" pin="6"/>
+<pinref part="CAN2" gate="G$1" pin="6"/>
 <wire x1="30.48" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 <label x="30.48" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CANH" class="0">
 <segment>
-<pinref part="CAN101" gate="G$1" pin="7"/>
+<pinref part="CAN2" gate="G$1" pin="7"/>
 <label x="30.48" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="33.02" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX_TELEM" class="0">
 <segment>
-<pinref part="CAN101" gate="G$1" pin="4"/>
+<pinref part="CAN2" gate="G$1" pin="4"/>
 <wire x1="53.34" y1="96.52" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="96.52" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
@@ -11731,7 +11731,7 @@ since we have no via the current is less
 </net>
 <net name="TX_TELEM" class="0">
 <segment>
-<pinref part="CAN101" gate="G$1" pin="1"/>
+<pinref part="CAN2" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="88.9" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
@@ -12035,7 +12035,7 @@ since we have no via the current is less
 (based on ADI staying well grounded)</text>
 </plain>
 <instances>
-<instance part="CAN100" gate="G$1" x="43.18" y="63.5" smashed="yes" rot="R180">
+<instance part="CAN1" gate="G$1" x="43.18" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.545" y="69.215" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND126" gate="1" x="22.86" y="50.8" smashed="yes">
@@ -12529,7 +12529,7 @@ since we have no via the current is less
 <junction x="416.56" y="137.16"/>
 </segment>
 <segment>
-<pinref part="CAN100" gate="G$1" pin="2"/>
+<pinref part="CAN1" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="58.42" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C118" gate="G$1" pin="1"/>
@@ -12546,7 +12546,7 @@ since we have no via the current is less
 <segment>
 <pinref part="GND126" gate="1" pin="GND"/>
 <wire x1="22.86" y1="53.34" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="CAN100" gate="G$1" pin="8"/>
+<pinref part="CAN1" gate="G$1" pin="8"/>
 <wire x1="22.86" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12874,7 +12874,7 @@ since we have no via the current is less
 <pinref part="P+22" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="CAN100" gate="G$1" pin="3"/>
+<pinref part="CAN1" gate="G$1" pin="3"/>
 <wire x1="45.72" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="60.96" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
@@ -12959,14 +12959,14 @@ since we have no via the current is less
 </net>
 <net name="CANL" class="0">
 <segment>
-<pinref part="CAN100" gate="G$1" pin="6"/>
+<pinref part="CAN1" gate="G$1" pin="6"/>
 <wire x1="22.86" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 <label x="22.86" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CANH" class="0">
 <segment>
-<pinref part="CAN100" gate="G$1" pin="7"/>
+<pinref part="CAN1" gate="G$1" pin="7"/>
 <label x="22.86" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="25.4" y1="58.42" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -13479,7 +13479,7 @@ since we have no via the current is less
 </net>
 <net name="RX_MAIN" class="0">
 <segment>
-<pinref part="CAN100" gate="G$1" pin="4"/>
+<pinref part="CAN1" gate="G$1" pin="4"/>
 <wire x1="45.72" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="63.5" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
@@ -13493,7 +13493,7 @@ since we have no via the current is less
 </net>
 <net name="TX_MAIN" class="0">
 <segment>
-<pinref part="CAN100" gate="G$1" pin="1"/>
+<pinref part="CAN1" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="55.88" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
