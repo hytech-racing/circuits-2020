@@ -7178,7 +7178,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R34" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="330"/>
 <part name="GND117" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R44" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="BRAKE_HIGH" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
+<part name="BRAKE" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
 <part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
 <part name="U$9" library="HyTechDevices" deviceset="SN74AHC1G09" device=""/>
@@ -7203,7 +7203,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND98" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R131" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="R130" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
-<part name="CURRENT_HIGH" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
+<part name="CURRENT" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
 <part name="C12" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.47µ"/>
 <part name="GND116" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="BSPD" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
@@ -9081,7 +9081,7 @@ wheelspeed</text>
 <attribute name="NAME" x="64.2874" y="139.7" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="64.262" y="136.652" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BRAKE_HIGH" gate="LED" x="388.62" y="101.6" smashed="yes" rot="MR270">
+<instance part="BRAKE" gate="LED" x="388.62" y="101.6" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="98.044" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="95.885" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9174,7 +9174,7 @@ wheelspeed</text>
 <attribute name="NAME" x="239.8014" y="224.79" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="244.602" y="224.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CURRENT_HIGH" gate="LED" x="388.62" y="114.3" smashed="yes" rot="MR270">
+<instance part="CURRENT" gate="LED" x="388.62" y="114.3" smashed="yes" rot="MR270">
 <attribute name="NAME" x="393.192" y="110.744" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="393.192" y="108.585" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -9732,10 +9732,10 @@ wheelspeed</text>
 <wire x1="386.08" y1="63.5" x2="401.32" y2="63.5" width="0.1524" layer="91"/>
 <junction x="386.08" y="63.5"/>
 <junction x="401.32" y="63.5"/>
-<pinref part="CURRENT_HIGH" gate="LED" pin="C"/>
+<pinref part="CURRENT" gate="LED" pin="C"/>
 <wire x1="393.7" y1="114.3" x2="401.32" y2="114.3" width="0.1524" layer="91"/>
 <junction x="401.32" y="114.3"/>
-<pinref part="BRAKE_HIGH" gate="LED" pin="C"/>
+<pinref part="BRAKE" gate="LED" pin="C"/>
 <wire x1="393.7" y1="101.6" x2="401.32" y2="101.6" width="0.1524" layer="91"/>
 <junction x="401.32" y="101.6"/>
 <pinref part="BSPD" gate="LED" pin="C"/>
@@ -10128,7 +10128,7 @@ wheelspeed</text>
 <net name="N$102" class="0">
 <segment>
 <pinref part="R29" gate="G$1" pin="2"/>
-<pinref part="CURRENT_HIGH" gate="LED" pin="A"/>
+<pinref part="CURRENT" gate="LED" pin="A"/>
 <wire x1="381" y1="114.3" x2="386.08" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10150,7 +10150,7 @@ wheelspeed</text>
 <net name="N$103" class="0">
 <segment>
 <pinref part="R30" gate="G$1" pin="2"/>
-<pinref part="BRAKE_HIGH" gate="LED" pin="A"/>
+<pinref part="BRAKE" gate="LED" pin="A"/>
 <wire x1="386.08" y1="101.6" x2="381" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
