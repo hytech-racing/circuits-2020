@@ -7327,10 +7327,10 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="D7" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="R123" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
-<part name="PU2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="PU1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="PD1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="PU2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="PD2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="PD1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="U$100" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
 <part name="BR2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="C100" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -12150,19 +12150,19 @@ since we have no via the current is less
 <attribute name="NAME" x="405.13" y="72.6186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="405.13" y="67.818" size="1.778" layer="96"/>
 </instance>
-<instance part="PU2" gate="G$1" x="50.8" y="236.22" smashed="yes" rot="MR90">
+<instance part="PU1" gate="G$1" x="50.8" y="236.22" smashed="yes" rot="MR90">
 <attribute name="NAME" x="49.022" y="233.9086" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="48.768" y="236.728" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="PU1" gate="G$1" x="101.6" y="233.68" smashed="yes" rot="R90">
+<instance part="PU2" gate="G$1" x="101.6" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="103.886" y="231.8766" size="1.778" layer="95"/>
 <attribute name="VALUE" x="103.886" y="234.696" size="1.778" layer="96"/>
 </instance>
-<instance part="PD1" gate="G$1" x="101.6" y="218.44" smashed="yes" rot="R270">
+<instance part="PD2" gate="G$1" x="101.6" y="218.44" smashed="yes" rot="R270">
 <attribute name="NAME" x="103.632" y="215.8746" size="1.778" layer="95"/>
 <attribute name="VALUE" x="103.632" y="218.694" size="1.778" layer="96"/>
 </instance>
-<instance part="PD2" gate="G$1" x="50.8" y="220.98" smashed="yes" rot="MR270">
+<instance part="PD1" gate="G$1" x="50.8" y="220.98" smashed="yes" rot="MR270">
 <attribute name="NAME" x="44.45" y="219.4814" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="45.212" y="222.504" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -12610,7 +12610,7 @@ since we have no via the current is less
 <wire x1="86.36" y1="210.82" x2="86.36" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="210.82" x2="78.74" y2="210.82" width="0.1524" layer="91"/>
 <junction x="55.88" y="210.82"/>
-<pinref part="PD2" gate="G$1" pin="2"/>
+<pinref part="PD1" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="210.82" x2="55.88" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="215.9" x2="50.8" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="210.82" x2="55.88" y2="210.82" width="0.1524" layer="91"/>
@@ -12623,7 +12623,7 @@ since we have no via the current is less
 <junction x="78.74" y="210.82"/>
 <wire x1="86.36" y1="210.82" x2="101.6" y2="210.82" width="0.1524" layer="91"/>
 <junction x="86.36" y="210.82"/>
-<pinref part="PD1" gate="G$1" pin="2"/>
+<pinref part="PD2" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="210.82" x2="101.6" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
@@ -12789,12 +12789,12 @@ since we have no via the current is less
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="PU1" gate="G$1" pin="2"/>
+<pinref part="PU2" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="241.3" x2="101.6" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="P+20" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="PU2" gate="G$1" pin="2"/>
+<pinref part="PU1" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="241.3" x2="50.8" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
@@ -13281,10 +13281,10 @@ since we have no via the current is less
 <net name="SIGNAL_ACCEL2" class="0">
 <segment>
 <label x="104.14" y="226.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="PD1" gate="G$1" pin="1"/>
+<pinref part="PD2" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="223.52" x2="101.6" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="226.06" x2="104.14" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="PU1" gate="G$1" pin="1"/>
+<pinref part="PU2" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="228.6" x2="101.6" y2="226.06" width="0.1524" layer="91"/>
 <junction x="101.6" y="226.06"/>
 <pinref part="U$100" gate="G$1" pin="VINB+"/>
@@ -13317,9 +13317,9 @@ since we have no via the current is less
 <segment>
 <wire x1="48.26" y1="228.6" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
 <label x="48.26" y="228.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="PD2" gate="G$1" pin="1"/>
+<pinref part="PD1" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="226.06" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="PU2" gate="G$1" pin="1"/>
+<pinref part="PU1" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="231.14" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
 <junction x="50.8" y="228.6"/>
 <wire x1="58.42" y1="228.6" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
@@ -13827,47 +13827,15 @@ since we have no via the current is less
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,50.8,198.12,X5-26,S,,,,"/>
-<approved hash="101,1,50.8,177.8,X5-34,S,,,,"/>
-<approved hash="101,1,50.8,175.26,X5-35,S,,,,"/>
-<approved hash="102,3,200.66,91.44,VCC,+3V3,,,,"/>
-<approved hash="202,3,200.66,81.28,U$44,RESET,,,,"/>
-<approved hash="202,3,200.66,71.12,U$44,DTR/DI8,,,,"/>
-<approved hash="202,3,248.92,76.2,U$44,VREF,,,,"/>
-<approved hash="104,1,248.92,50.8,U$5,VCC,+12V,,,"/>
 <approved hash="208,1,228.6,254,+3V3,out,,,,"/>
 <approved hash="208,1,236.22,259.08,+3V3,sup,,,,"/>
 <approved hash="208,1,99.06,248.92,+3V3,sup,,,,"/>
-<approved hash="208,3,198.12,93.98,+3V3,sup,,,,"/>
-<approved hash="208,3,200.66,91.44,+3V3,sup,,,,"/>
-<approved hash="208,4,157.48,78.74,+3V3,sup,,,,"/>
 <approved hash="208,1,81.28,195.58,+5V,sup,,,,"/>
 <approved hash="208,1,104.14,254,+5V,sup,,,,"/>
 <approved hash="208,1,254,256.54,+5V,sup,,,,"/>
 <approved hash="208,1,180.34,254,+5V,out,,,,"/>
 <approved hash="208,1,187.96,259.08,+5V,sup,,,,"/>
-<approved hash="208,2,226.06,124.46,+5V,sup,,,,"/>
-<approved hash="208,2,104.14,124.46,+5V,sup,,,,"/>
-<approved hash="208,2,127,121.92,+5V,sup,,,,"/>
-<approved hash="208,2,60.96,129.54,+5V,sup,,,,"/>
 <approved hash="208,2,401.32,231.14,+5V,sup,,,,"/>
-<approved hash="208,2,210.82,93.98,+5V,sup,,,,"/>
-<approved hash="208,2,218.44,71.12,+5V,sup,,,,"/>
-<approved hash="208,2,50.8,76.2,+5V,sup,,,,"/>
-<approved hash="208,2,88.9,76.2,+5V,sup,,,,"/>
-<approved hash="208,3,317.5,129.54,+5V,sup,,,,"/>
-<approved hash="208,3,317.5,106.68,+5V,sup,,,,"/>
-<approved hash="208,3,132.08,256.54,+5V,sup,,,,"/>
-<approved hash="208,3,132.08,208.28,+5V,sup,,,,"/>
-<approved hash="208,3,238.76,246.38,+5V,sup,,,,"/>
-<approved hash="208,3,238.76,198.12,+5V,sup,,,,"/>
-<approved hash="208,3,292.1,205.74,+5V,sup,,,,"/>
-<approved hash="208,3,134.62,137.16,+5V,sup,,,,"/>
-<approved hash="208,3,195.58,228.6,+5V,sup,,,,"/>
-<approved hash="208,3,289.56,254,+5V,sup,,,,"/>
-<approved hash="208,3,73.66,129.54,+5V,sup,,,,"/>
-<approved hash="208,3,320.04,81.28,+5V,sup,,,,"/>
-<approved hash="208,4,281.94,185.42,+5V,sup,,,,"/>
 <approved hash="208,4,101.6,241.3,+5V,sup,,,,"/>
 <approved hash="208,4,50.8,243.84,+5V,sup,,,,"/>
 <approved hash="208,4,78.74,236.22,+5V,sup,,,,"/>
@@ -13879,36 +13847,6 @@ since we have no via the current is less
 <approved hash="208,4,144.78,172.72,+5V,sup,,,,"/>
 <approved hash="208,4,198.12,180.34,+5V,sup,,,,"/>
 <approved hash="208,4,99.06,195.58,+5V,sup,,,,"/>
-<approved hash="208,4,342.9,248.92,+5V,sup,,,,"/>
-<approved hash="208,4,345.44,177.8,+5V,sup,,,,"/>
-<approved hash="208,4,124.46,124.46,+5V,sup,,,,"/>
-<approved hash="208,4,190.5,129.54,+5V,sup,,,,"/>
-<approved hash="208,4,190.5,78.74,+5V,sup,,,,"/>
-<approved hash="110,1,340.36,243.84,GND,N$89,,,,"/>
-<approved hash="110,1,340.36,243.84,GND,N$89,,,,"/>
-<approved hash="110,1,340.36,238.76,GND,N$91,,,,"/>
-<approved hash="110,1,340.36,238.76,GND,N$91,,,,"/>
-<approved hash="110,1,340.36,195.58,GND,N$94,,,,"/>
-<approved hash="110,1,340.36,195.58,GND,N$94,,,,"/>
-<approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,1,61.7905,221.59,5AFUSE1,,,,,"/>
-<approved hash="113,1,112.205,248.92,U$15,,,,,"/>
-<approved hash="113,1,112.205,238.76,U$19,,,,,"/>
-<approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
-<approved hash="113,2,381,114.005,S2,,,,,"/>
-<approved hash="113,1,172.688,209.702,5ASHUTDOWNFUSE1,,,,,"/>
-<approved hash="113,1,172.976,217.83,5ABOARDFUSE1,,,,,"/>
-<approved hash="113,1,187.96,148.93,Q4,,,,,"/>
-<approved hash="113,1,182.88,100.67,Q5,,,,,"/>
-<approved hash="113,3,215.796,139.596,FRAME3,,,,,"/>
-<approved hash="113,3,264.16,250.406,U$47,,,,,"/>
-<approved hash="113,3,328.976,115.28,MTK3339_BREAKOUT1,,,,,"/>
-<approved hash="113,3,264.16,202.146,U$51,,,,,"/>
-<approved hash="113,4,215.796,139.596,FRAME4,,,,,"/>
-<approved hash="113,4,170.18,212.306,U$60,,,,,"/>
-<approved hash="113,4,170.18,247.866,U$57,,,,,"/>
-<approved hash="113,4,170.18,176.746,U$61,,,,,"/>
-<approved hash="113,1,112.205,243.84,3V3_TEST,,,,,"/>
 </errors>
 </schematic>
 </drawing>
