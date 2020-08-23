@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="20" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
+<grid distance="20" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,15 +23,15 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1626,22 +1626,22 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <board_group name="DXF"/>
 </groups>
 <elements>
-<element name="C4" library="HyTechDevices" package="0603-CAP" value="15pF" x="0.492" y="13.4833" smashed="yes">
+<element name="C2" library="HyTechDevices" package="0603-CAP" value="15pF" x="0.492" y="13.4833" smashed="yes">
 <attribute name="NAME" x="-0.1176" y="14.0167" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C3" library="HyTechDevices" package="0603-CAP" value="15pF" x="1.9398" y="22.1701" smashed="yes">
+<element name="C8" library="HyTechDevices" package="0603-CAP" value="15pF" x="1.9398" y="22.1701" smashed="yes">
 <attribute name="NAME" x="1.3048" y="23.2877" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C9" library="HyTechDevices" package="0603-CAP" value="15pF" x="22.844" y="21.3573" smashed="yes" rot="R270">
+<element name="C13" library="HyTechDevices" package="0603-CAP" value="15pF" x="22.844" y="21.3573" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.4376" y="24.0243" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C8" library="HyTechDevices" package="0603-CAP" value="15pF" x="13.954" y="21.3573" smashed="yes" rot="R270">
+<element name="C12" library="HyTechDevices" package="0603-CAP" value="15pF" x="13.954" y="21.3573" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.5476" y="24.0243" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="C1" library="HyTechDevices" package="0603-CAP" value="0.22uF" x="-5.08" y="13.1531" smashed="yes">
 <attribute name="NAME" x="-7.7089" y="12.7213" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C2" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="-3.6576" y="22.2504" smashed="yes" rot="R180">
+<element name="C7" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="-3.6576" y="22.2504" smashed="yes" rot="R180">
 <attribute name="NAME" x="-3.1938" y="23.3254" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="CR2" library="HyTechDevices" package="ABM3B" value="16MHz, 10pF" x="21.32" y="23.1353" smashed="yes" rot="R180">
@@ -1651,22 +1651,22 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <attribute name="NAME" x="0.8288" y="16.9967" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="SOT223" package3d_urn="urn:adsk.eagle:package:28541/2" value="LM340S" x="-7.128" y="17.8013" smashed="yes" rot="R90">
-<attribute name="NAME" x="-7.1788" y="15.2613" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="-5.7998" y="18.272" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="-2.048" y="58.4413" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-5.8072" y="15.2613" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="MCP2515" library="HyTechDevices" package="TSSOP-20" value="MCP2515TSSOP" x="6.969" y="17.8013" smashed="yes" rot="R270">
+<element name="MCP2" library="HyTechDevices" package="TSSOP-20" value="MCP2515TSSOP" x="6.969" y="17.8013" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.5075" y="15.4478" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="5.1862" y="13.2651" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="MCP2551" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="1.254" y="7.6413" smashed="yes" rot="R90">
+<element name="MCP1" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="1.254" y="7.6413" smashed="yes" rot="R90">
 <attribute name="VALUE" x="1.5535" y="7.6421" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="Q6" library="HyTechDevices" package="SOT23" value="" x="28.178" y="6.8793" smashed="yes" rot="R270">
+<element name="Q1" library="HyTechDevices" package="SOT23" value="" x="28.178" y="6.8793" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.5082" y="6.8793" size="0.8128" layer="25" rot="R270" align="top-center"/>
 <attribute name="VALUE" x="29.067" y="5.4823" size="0.3048" layer="27" rot="R270" align="bottom-center"/>
 </element>
-<element name="Q2" library="HyTechDevices" package="SOT23" value="" x="28.178" y="23.3893" smashed="yes" rot="R270">
+<element name="Q6" library="HyTechDevices" package="SOT23" value="" x="28.178" y="23.3893" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.5082" y="23.3893" size="0.8128" layer="25" rot="R270" align="top-center"/>
 <attribute name="VALUE" x="29.067" y="21.9923" size="0.3048" layer="27" rot="R270" align="bottom-center"/>
 </element>
@@ -1674,33 +1674,33 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <attribute name="NAME" x="28.5082" y="16.7853" size="0.8128" layer="25" rot="R270" align="top-center"/>
 <attribute name="VALUE" x="29.067" y="15.3883" size="0.3048" layer="27" rot="R270" align="bottom-center"/>
 </element>
-<element name="Q3" library="HyTechDevices" package="SOT23" value="" x="28.178" y="20.0873" smashed="yes" rot="R270">
+<element name="Q5" library="HyTechDevices" package="SOT23" value="" x="28.178" y="20.0873" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.5082" y="20.0873" size="0.8128" layer="25" rot="R270" align="top-center"/>
 <attribute name="VALUE" x="29.067" y="18.6903" size="0.3048" layer="27" rot="R270" align="bottom-center"/>
 </element>
-<element name="Q5" library="HyTechDevices" package="SOT23" value="" x="28.178" y="10.1813" smashed="yes" rot="R270">
+<element name="Q2" library="HyTechDevices" package="SOT23" value="" x="28.178" y="10.1813" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.5082" y="10.1813" size="0.8128" layer="25" rot="R270" align="top-center"/>
 <attribute name="VALUE" x="29.067" y="8.7843" size="0.3048" layer="27" rot="R270" align="bottom-center"/>
 </element>
-<element name="Q1" library="HyTechDevices" package="SOT23" value="" x="28.1526" y="13.5087" smashed="yes" rot="R270">
+<element name="Q3" library="HyTechDevices" package="SOT23" value="" x="28.1526" y="13.5087" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.4828" y="13.5087" size="0.8128" layer="25" rot="R270" align="top-center"/>
 <attribute name="VALUE" x="29.0416" y="12.1117" size="0.3048" layer="27" rot="R270" align="bottom-center"/>
 </element>
-<element name="R1" library="HyTechDevices" package="0603-RES" value="10k" x="11.668" y="21.3573" smashed="yes" rot="R90">
+<element name="R10" library="HyTechDevices" package="0603-RES" value="10k" x="11.668" y="21.3573" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.0744" y="23.0337" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R2" library="HyTechDevices" package="0603-RES" value="10" x="31.226" y="21.7129" smashed="yes" rot="R180">
+<element name="R13" library="HyTechDevices" package="0603-RES" value="10" x="31.226" y="21.7129" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.1216" y="22.1193" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="32.0896" y="22.7289" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R6" library="HyTechDevices" package="0603-RES" value="10k" x="17.034" y="4.2967" smashed="yes">
 <attribute name="NAME" x="17.6116" y="3.2217" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R4" library="HyTechDevices" package="0603-RES" value="10" x="31.226" y="15.1343" smashed="yes" rot="R180">
+<element name="R11" library="HyTechDevices" package="0603-RES" value="10" x="31.226" y="15.1343" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.1216" y="15.5407" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="32.0896" y="16.1503" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R3" library="HyTechDevices" package="0603-RES" value="14.7" x="31.226" y="18.4363" smashed="yes" rot="R180">
+<element name="R12" library="HyTechDevices" package="0603-RES" value="14.7" x="31.226" y="18.4363" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.1216" y="18.8427" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="32.0896" y="19.4523" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1708,11 +1708,11 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <attribute name="NAME" x="34.1216" y="8.9367" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="32.0896" y="9.5463" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R9" library="HyTechDevices" package="0603-RES" value="14.7" x="31.226" y="5.4569" smashed="yes" rot="R180">
+<element name="R7" library="HyTechDevices" package="0603-RES" value="14.7" x="31.226" y="5.4569" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.1216" y="5.8633" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="32.0896" y="6.4729" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R7" library="HyTechDevices" package="0603-RES" value="14.7" x="31.226" y="11.8069" smashed="yes" rot="R180">
+<element name="R9" library="HyTechDevices" package="0603-RES" value="14.7" x="31.226" y="11.8069" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.1216" y="12.2133" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="32.0896" y="12.8229" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1733,29 +1733,29 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <attribute name="VALUE" x="13.357640625" y="18.95896875" size="0.81336875" layer="27" rot="R270"/>
 </element>
 <element name="X1" library="HyTechDevices" package="NANO-FIT_VERTICAL-6" value="CONNECTOR-6NANO-FIT_VERTICAL-6" x="-7.5979" y="6.5999" smashed="yes" rot="R270"/>
-<element name="$$X2" library="HyTechDevices" package="NANO-FIT_VERTICAL-8" value="CONNECTOR-8NANO-FIT_VERTICAL-8" x="40.624" y="7.1079" smashed="yes" rot="R90"/>
-<element name="C11" library="HyTechDevices" package="0603-CAP" value="1uF" x="6.2197" y="9.1399" smashed="yes" rot="R90">
+<element name="$$X1" library="HyTechDevices" package="NANO-FIT_VERTICAL-8" value="CONNECTOR-8NANO-FIT_VERTICAL-8" x="40.624" y="7.1079" smashed="yes" rot="R90"/>
+<element name="C4" library="HyTechDevices" package="0603-CAP" value="1uF" x="6.2197" y="9.1399" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.1501" y="8.5049" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C12" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="6.2197" y="6.1173" smashed="yes" rot="R270">
+<element name="C3" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="6.2197" y="6.1173" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.2329" y="5.4397" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C5" library="HyTechDevices" package="0603-CAP" value="1uF" x="5.4958" y="22.3987" smashed="yes">
+<element name="C9" library="HyTechDevices" package="0603-CAP" value="1uF" x="5.4958" y="22.3987" smashed="yes">
 <attribute name="NAME" x="4.8608" y="23.5163" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C6" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="8.5184" y="22.3987" smashed="yes" rot="R180">
+<element name="C10" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="8.5184" y="22.3987" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.4074" y="24.3291" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C10" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="24.9776" y="21.3573" smashed="yes" rot="R90">
+<element name="C14" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="24.9776" y="21.3573" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.3586" y="22.9067" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C14" library="HyTechDevices" package="0603-CAP" value=".1uF" x="20.558" y="6.8793" smashed="yes">
+<element name="C6" library="HyTechDevices" package="0603-CAP" value=".1uF" x="20.558" y="6.8793" smashed="yes">
 <attribute name="NAME" x="19.669" y="5.2537" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C13" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="17.002" y="6.8793" smashed="yes" rot="R180">
+<element name="C5" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="17.002" y="6.8793" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.891" y="6.0157" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C7" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="13.2936" y="16.8615" smashed="yes" rot="R90">
+<element name="C11" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="13.2936" y="16.8615" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.684" y="16.3535" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="14.3096" y="15.9725" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
@@ -1764,15 +1764,15 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <attribute name="NAME" x="12.4808" y="12.4419" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="16.0368" y="3.0439" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="D1" library="HyTechDevices" package="SOT23" value="DIODE_ZENER" x="21.3868" y="3.3274" smashed="yes" rot="R180">
+<element name="D3" library="HyTechDevices" package="SOT23" value="DIODE_ZENER" x="21.3868" y="3.3274" smashed="yes" rot="R180">
 <attribute name="NAME" x="21.3868" y="2.9972" size="0.635" layer="25" rot="R180" align="top-center"/>
 <attribute name="VALUE" x="19.9898" y="2.4384" size="0.3048" layer="27" rot="R180" align="bottom-center"/>
 </element>
-<element name="R10" library="HyTechDevices" package="0603-RES" value="120" x="0.4826" y="11.43" smashed="yes" rot="R180">
+<element name="R5" library="HyTechDevices" package="0603-RES" value="120" x="0.4826" y="11.43" smashed="yes" rot="R180">
 <attribute name="NAME" x="1.4732" y="12.8016" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="1.3462" y="12.446" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R5" library="HyTechDevices" package="YAG_YC248-M" value="10k" x="38.227" y="20.2692" smashed="yes">
+<element name="R14" library="HyTechDevices" package="YAG_YC248-M" value="10k" x="38.227" y="20.2692" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="38.227" y="20.2692" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="YC248-JR-0710KL" x="38.227" y="20.2692" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="39.7764" y="19.0246" size="0.8128" layer="25" ratio="6" rot="SR0"/>
@@ -1806,23 +1806,23 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <attribute name="NAME" x="-17.8562" y="4.5847" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="-15.4432" y="5.0546" size="0.3048" layer="27" rot="R180" align="top-center"/>
 </element>
-<element name="R11" library="HyTechDevices" package="0603-RES" value="43k" x="-15.4432" y="6.7564" smashed="yes">
+<element name="R3" library="HyTechDevices" package="0603-RES" value="43k" x="-15.4432" y="6.7564" smashed="yes">
 <attribute name="NAME" x="-17.4498" y="7.4422" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-16.4592" y="5.6134" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="R12" library="HyTechDevices" package="0603-RES" value="12k" x="-15.4432" y="9.1694" smashed="yes" rot="R180">
+<element name="R4" library="HyTechDevices" package="0603-RES" value="12k" x="-15.4432" y="9.1694" smashed="yes" rot="R180">
 <attribute name="NAME" x="-17.4498" y="9.8552" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-14.4272" y="10.3124" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="D3" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="-22.3266" y="4.3561" smashed="yes" rot="R180">
+<element name="D1" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="-22.3266" y="4.3561" smashed="yes" rot="R180">
 <attribute name="NAME" x="-25.3746" y="4.6482" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="-22.3266" y="5.0673" size="0.3048" layer="27" rot="R180" align="top-center"/>
 </element>
-<element name="R13" library="HyTechDevices" package="0603-RES" value="43k" x="-22.352" y="6.604" smashed="yes">
+<element name="R1" library="HyTechDevices" package="0603-RES" value="43k" x="-22.352" y="6.604" smashed="yes">
 <attribute name="NAME" x="-24.511" y="7.366" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-23.368" y="5.461" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="R14" library="HyTechDevices" package="0603-RES" value="12k" x="-22.352" y="9.144" smashed="yes" rot="R180">
+<element name="R2" library="HyTechDevices" package="0603-RES" value="12k" x="-22.352" y="9.144" smashed="yes" rot="R180">
 <attribute name="NAME" x="-24.511" y="9.398" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-21.336" y="10.287" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -1832,39 +1832,39 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <contactref element="U1" pad="3"/>
 <contactref element="U1" pad="5"/>
 <contactref element="U1" pad="21"/>
-<contactref element="MCP2515" pad="10"/>
-<contactref element="C3" pad="1"/>
-<contactref element="C4" pad="2"/>
+<contactref element="MCP2" pad="10"/>
+<contactref element="C8" pad="1"/>
+<contactref element="C2" pad="2"/>
 <contactref element="CR1" pad="P$2"/>
 <contactref element="CR1" pad="P$4"/>
 <contactref element="CR2" pad="P$2"/>
 <contactref element="CR2" pad="P$4"/>
-<contactref element="C9" pad="1"/>
-<contactref element="C8" pad="2"/>
+<contactref element="C13" pad="1"/>
+<contactref element="C12" pad="2"/>
 <contactref element="IC1" pad="4"/>
 <contactref element="IC1" pad="2"/>
 <contactref element="C1" pad="1"/>
-<contactref element="C2" pad="2"/>
-<contactref element="MCP2551" pad="8"/>
-<contactref element="R9" pad="2"/>
-<contactref element="Q6" pad="3"/>
+<contactref element="C7" pad="2"/>
+<contactref element="MCP1" pad="8"/>
+<contactref element="R7" pad="2"/>
+<contactref element="Q1" pad="3"/>
 <contactref element="Z2" pad="P$1"/>
 <contactref element="Z1" pad="P$3"/>
 <contactref element="Z2" pad="P$2"/>
 <contactref element="Z2" pad="P$3"/>
 <contactref element="Z1" pad="P$1"/>
 <contactref element="Z1" pad="P$2"/>
-<contactref element="$$X2" pad="P$8"/>
+<contactref element="$$X1" pad="P$8"/>
 <contactref element="X1" pad="P$2"/>
-<contactref element="MCP2551" pad="2"/>
-<contactref element="C12" pad="2"/>
-<contactref element="C11" pad="2"/>
-<contactref element="C6" pad="2"/>
-<contactref element="C5" pad="2"/>
-<contactref element="C14" pad="2"/>
+<contactref element="MCP1" pad="2"/>
+<contactref element="C3" pad="2"/>
+<contactref element="C4" pad="2"/>
 <contactref element="C10" pad="2"/>
-<contactref element="C13" pad="2"/>
-<contactref element="C7" pad="2"/>
+<contactref element="C9" pad="2"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C14" pad="2"/>
+<contactref element="C5" pad="2"/>
+<contactref element="C11" pad="2"/>
 <wire x1="6.2197" y1="5.2673" x2="6.2197" y2="5.3299" width="0.254" layer="1"/>
 <wire x1="6.2197" y1="5.3299" x2="4.4163" y2="7.1333" width="0.254" layer="1"/>
 <wire x1="4.4163" y1="7.1333" x2="3.981" y2="7.1333" width="0.254" layer="1"/>
@@ -1904,8 +1904,8 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="19.6563" y1="22.5384" x2="17.2687" y2="20.1508" width="0.254" layer="1"/>
 <wire x1="17.2687" y1="20.1508" x2="16.3543" y2="20.1508" width="0.254" layer="1"/>
 <contactref element="Q4" pad="3"/>
-<contactref element="Q1" pad="3"/>
-<contactref element="Q5" pad="3"/>
+<contactref element="Q3" pad="3"/>
+<contactref element="Q2" pad="3"/>
 <wire x1="38.5666" y1="16.90468125" x2="38.5666" y2="16.254440625" width="0.254" layer="1"/>
 <wire x1="38.5666" y1="16.254440625" x2="38.5666" y2="15.6042" width="0.254" layer="1"/>
 <wire x1="38.5666" y1="15.6042" x2="38.5666" y2="14.56788125" width="0.254" layer="1"/>
@@ -1955,14 +1955,14 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="30.4005" y1="10.1813" x2="28.26235625" y2="10.1813" width="0.254" layer="16"/>
 <wire x1="28.26235625" y1="10.1813" x2="25.063828125" y2="13.379828125" width="0.254" layer="16"/>
 <wire x1="27.095828125" y1="13.379828125" x2="25.77315625" y2="14.7025" width="0.254" layer="16"/>
-<contactref element="R5" pad="14"/>
-<contactref element="R5" pad="13"/>
-<contactref element="R5" pad="12"/>
-<contactref element="R5" pad="11"/>
+<contactref element="R14" pad="14"/>
+<contactref element="R14" pad="13"/>
+<contactref element="R14" pad="12"/>
+<contactref element="R14" pad="11"/>
 <wire x1="39.1287" y1="21.0192" x2="39.1287" y2="20.5192" width="0.254" layer="1"/>
 <wire x1="39.1287" y1="20.5192" x2="39.1287" y2="20.0192" width="0.254" layer="1"/>
 <wire x1="39.1287" y1="20.0192" x2="39.1287" y2="19.5192" width="0.254" layer="1"/>
-<contactref element="R12" pad="2"/>
+<contactref element="R4" pad="2"/>
 <wire x1="-11.2171" y1="17.7389" x2="-10.227" y2="17.7389" width="0.254" layer="1"/>
 <wire x1="-16.2932" y1="9.1694" x2="-16.2814" y2="9.1812" width="0.254" layer="1"/>
 <wire x1="-16.2814" y1="12.6746" x2="-16.2814" y2="9.1812" width="0.254" layer="1"/>
@@ -1973,10 +1973,10 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="39.116" y1="16.90468125" x2="40.0558" y2="16.90468125" width="0.254" layer="1"/>
 <wire x1="25.8158" y1="16.7599" x2="25.8158" y2="14.74514375" width="0.254" layer="16"/>
 <wire x1="25.8158" y1="14.74514375" x2="25.77315625" y2="14.7025" width="0.254" layer="16"/>
-<contactref element="Q2" pad="3"/>
-<contactref element="R5" pad="15"/>
-<contactref element="Q3" pad="3"/>
-<contactref element="R5" pad="16"/>
+<contactref element="Q6" pad="3"/>
+<contactref element="R14" pad="15"/>
+<contactref element="Q5" pad="3"/>
+<contactref element="R14" pad="16"/>
 <wire x1="39.1287" y1="21.0192" x2="39.1287" y2="22.0192" width="0.254" layer="1"/>
 <wire x1="29.1526" y1="13.5087" x2="28.01850625" y2="13.5087" width="0.254" layer="1"/>
 <wire x1="28.01850625" y1="13.5087" x2="28.015303125" y2="13.511903125" width="0.254" layer="1"/>
@@ -2202,7 +2202,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="39.624" y1="22.86" x2="39.624" y2="19.9844" width="1.27" layer="1"/>
 <wire x1="39.116" y1="16.90468125" x2="39.116" y2="13.2494" width="1.27" layer="1"/>
 <wire x1="39.116" y1="13.2494" x2="38.5666" y2="12.7" width="1.27" layer="1"/>
-<contactref element="R14" pad="2"/>
+<contactref element="R2" pad="2"/>
 <wire x1="-23.202" y1="9.144" x2="-19.6714" y2="12.6746" width="0.254" layer="1"/>
 <wire x1="-19.6714" y1="12.6746" x2="-16.2814" y2="12.6746" width="0.254" layer="1"/>
 <wire x1="-8.6352" y1="5.5626" x2="-12.6746" y2="5.5626" width="1.27" layer="1"/>
@@ -2211,20 +2211,20 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <signal name="+5V">
 <contactref element="U1" pad="4"/>
 <contactref element="U1" pad="6"/>
-<contactref element="R1" pad="2"/>
+<contactref element="R10" pad="2"/>
 <contactref element="R6" pad="2"/>
 <contactref element="IC1" pad="3"/>
-<contactref element="C2" pad="1"/>
-<contactref element="MCP2551" pad="3"/>
-<contactref element="C12" pad="1"/>
-<contactref element="C11" pad="1"/>
-<contactref element="C5" pad="1"/>
-<contactref element="C6" pad="1"/>
-<contactref element="MCP2515" pad="20"/>
-<contactref element="U1" pad="18"/>
-<contactref element="C10" pad="1"/>
-<contactref element="C13" pad="1"/>
 <contactref element="C7" pad="1"/>
+<contactref element="MCP1" pad="3"/>
+<contactref element="C3" pad="1"/>
+<contactref element="C4" pad="1"/>
+<contactref element="C9" pad="1"/>
+<contactref element="C10" pad="1"/>
+<contactref element="MCP2" pad="20"/>
+<contactref element="U1" pad="18"/>
+<contactref element="C14" pad="1"/>
+<contactref element="C5" pad="1"/>
+<contactref element="C11" pad="1"/>
 <wire x1="-2.8076" y1="22.2504" x2="-2.8076" y2="21.3343" width="1.016" layer="1"/>
 <wire x1="-4.0292" y1="20.1127" x2="-2.8076" y2="21.3343" width="1.016" layer="1"/>
 <wire x1="17.8722" y1="9.1325" x2="17.8722" y2="6.8995" width="0.254" layer="1"/>
@@ -2339,7 +2339,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="SCK">
 <contactref element="U1" pad="17"/>
-<contactref element="MCP2515" pad="14"/>
+<contactref element="MCP2" pad="14"/>
 <wire x1="9.8868" y1="16.8263" x2="9.9054" y2="16.8077" width="0.254" layer="1"/>
 <wire x1="9.9054" y1="16.8077" x2="10.52713125" y2="16.8077" width="0.254" layer="1"/>
 <wire x1="10.7924" y1="13.13803125" x2="14.66513125" y2="9.2653" width="0.254" layer="1"/>
@@ -2357,7 +2357,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="MISO">
 <contactref element="U1" pad="16"/>
-<contactref element="MCP2515" pad="17"/>
+<contactref element="MCP2" pad="17"/>
 <wire x1="10.51443125" y1="18.7831" x2="9.8936" y2="18.7831" width="0.254" layer="1"/>
 <wire x1="9.8868" y1="18.7763" x2="9.8936" y2="18.7831" width="0.254" layer="1"/>
 <wire x1="11.7315" y1="17.56603125" x2="10.51443125" y2="18.7831" width="0.254" layer="1"/>
@@ -2376,7 +2376,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="MOSI">
 <contactref element="U1" pad="15"/>
-<contactref element="MCP2515" pad="16"/>
+<contactref element="MCP2" pad="16"/>
 <wire x1="11.2623" y1="17.34713125" x2="10.47633125" y2="18.1331" width="0.254" layer="1"/>
 <wire x1="10.47633125" y1="18.1331" x2="9.8936" y2="18.1331" width="0.254" layer="1"/>
 <wire x1="9.8868" y1="18.1263" x2="9.8936" y2="18.1331" width="0.254" layer="1"/>
@@ -2396,7 +2396,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="CS">
 <contactref element="U1" pad="14"/>
-<contactref element="MCP2515" pad="18"/>
+<contactref element="MCP2" pad="18"/>
 <wire x1="9.8868" y1="19.4263" x2="10.5383" y2="19.4263" width="0.254" layer="1"/>
 <wire x1="12.1887" y1="13.89096875" x2="13.039834375" y2="13.039834375" width="0.254" layer="1"/>
 <wire x1="13.039834375" y1="13.039834375" x2="13.84716875" y2="12.2325" width="0.254" layer="1"/>
@@ -2405,16 +2405,16 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="12.1887" y1="17.7759" x2="12.1887" y2="13.89096875" width="0.254" layer="1"/>
 </signal>
 <signal name="N$1">
-<contactref element="MCP2515" pad="19"/>
-<contactref element="R1" pad="1"/>
+<contactref element="MCP2" pad="19"/>
+<contactref element="R10" pad="1"/>
 <wire x1="9.8868" y1="20.0763" x2="9.8978" y2="20.0873" width="0.254" layer="1"/>
 <wire x1="9.8978" y1="20.0873" x2="11.668" y2="20.0873" width="0.254" layer="1"/>
 <wire x1="11.668" y1="20.0873" x2="11.668" y2="20.5073" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="CR1" pad="P$3"/>
-<contactref element="C4" pad="1"/>
-<contactref element="MCP2515" pad="9"/>
+<contactref element="C2" pad="1"/>
+<contactref element="MCP2" pad="9"/>
 <wire x1="-0.6891" y1="15.8836" x2="-0.5113" y2="15.7058" width="0.254" layer="1"/>
 <wire x1="-0.5113" y1="15.7058" x2="-0.5113" y2="13.6366" width="0.254" layer="1"/>
 <wire x1="-0.5113" y1="13.6366" x2="-0.358" y2="13.4833" width="0.254" layer="1"/>
@@ -2427,9 +2427,9 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="4.2766" y1="12.4673" x2="5.2314" y2="13.4221" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
-<contactref element="C3" pad="2"/>
+<contactref element="C8" pad="2"/>
 <contactref element="CR1" pad="P$1"/>
-<contactref element="MCP2515" pad="8"/>
+<contactref element="MCP2" pad="8"/>
 <wire x1="3.387" y1="16.1763" x2="1.6985" y2="17.8648" width="0.254" layer="1"/>
 <wire x1="1.6985" y1="19.9476" x2="1.6985" y2="17.8648" width="0.254" layer="1"/>
 <wire x1="3.387" y1="16.1763" x2="4.3512" y2="16.1763" width="0.254" layer="1"/>
@@ -2438,8 +2438,8 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="1.5198" y1="20.9001" x2="1.5198" y2="20.1263" width="0.254" layer="1"/>
 </signal>
 <signal name="TX">
-<contactref element="MCP2551" pad="1"/>
-<contactref element="MCP2515" pad="1"/>
+<contactref element="MCP1" pad="1"/>
+<contactref element="MCP2" pad="1"/>
 <wire x1="4.94073125" y1="20.7331" x2="5.7013" y2="19.97253125" width="0.254" layer="1"/>
 <wire x1="4.94073125" y1="20.7331" x2="4.358" y2="20.7331" width="0.254" layer="1"/>
 <wire x1="4.3512" y1="20.7263" x2="4.358" y2="20.7331" width="0.254" layer="1"/>
@@ -2452,8 +2452,8 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="2.27" y1="9.829275" x2="2.27" y2="6.5583" width="0.254" layer="1"/>
 </signal>
 <signal name="RX">
-<contactref element="MCP2551" pad="4"/>
-<contactref element="MCP2515" pad="2"/>
+<contactref element="MCP1" pad="4"/>
+<contactref element="MCP2" pad="2"/>
 <wire x1="4.3512" y1="20.0763" x2="3.6526" y2="20.0763" width="0.254" layer="1"/>
 <wire x1="3.6526" y1="20.0763" x2="3.3749" y2="20.354" width="0.254" layer="1"/>
 <wire x1="3.3749" y1="20.354" x2="3.3749" y2="21.0906" width="0.254" layer="1"/>
@@ -2465,13 +2465,13 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="6.1585" y1="20.17803125" x2="6.1585" y2="13.0192" width="0.254" layer="1"/>
 </signal>
 <signal name="CANL">
-<contactref element="MCP2551" pad="6"/>
+<contactref element="MCP1" pad="6"/>
 <contactref element="X1" pad="P$4"/>
 <wire x1="-1.346" y1="8.2763" x2="-1.6635" y2="8.2763" width="0.254" layer="1"/>
 <wire x1="-1.6635" y1="8.2763" x2="-1.6889" y2="8.2509" width="0.254" layer="1"/>
 <wire x1="-1.6889" y1="8.2509" x2="-4.2489" y2="8.2509" width="0.254" layer="1"/>
 <wire x1="-4.2489" y1="8.2509" x2="-5.0979" y2="9.0999" width="0.254" layer="1"/>
-<contactref element="R10" pad="2"/>
+<contactref element="R5" pad="2"/>
 <wire x1="-1.346" y1="8.2763" x2="-1.2911" y2="8.3312" width="0.254" layer="1"/>
 <wire x1="0.2159" y1="10.3641" x2="-0.3674" y2="10.9474" width="0.254" layer="1"/>
 <wire x1="-0.3674" y1="10.9474" x2="-0.3674" y2="11.43" width="0.254" layer="1"/>
@@ -2480,13 +2480,13 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="0.2159" y1="8.8519" x2="0.2159" y2="10.3641" width="0.254" layer="1"/>
 </signal>
 <signal name="CANH">
-<contactref element="MCP2551" pad="7"/>
+<contactref element="MCP1" pad="7"/>
 <contactref element="X1" pad="P$5"/>
 <wire x1="-1.346" y1="7.0063" x2="-1.6635" y2="7.0063" width="0.254" layer="1"/>
 <wire x1="-1.6635" y1="7.0063" x2="-1.6889" y2="6.9809" width="0.254" layer="1"/>
 <wire x1="-1.6889" y1="6.9809" x2="-4.7169" y2="6.9809" width="0.254" layer="1"/>
 <wire x1="-5.0979" y1="6.5999" x2="-4.7169" y2="6.9809" width="0.254" layer="1"/>
-<contactref element="R10" pad="1"/>
+<contactref element="R5" pad="1"/>
 <wire x1="-1.346" y1="7.0063" x2="-1.3419" y2="7.0104" width="0.254" layer="1"/>
 <wire x1="-1.3419" y1="7.0104" x2="-0.4572" y2="7.0104" width="0.254" layer="1"/>
 <wire x1="-0.4572" y1="7.0104" x2="0.8246" y2="8.2922" width="0.254" layer="1"/>
@@ -2496,7 +2496,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <signal name="N$5">
 <contactref element="U1" pad="7"/>
 <contactref element="CR2" pad="P$1"/>
-<contactref element="C9" pad="2"/>
+<contactref element="C13" pad="2"/>
 <wire x1="22.6925" y1="20.4048" x2="20.9263" y2="20.4048" width="0.254" layer="1"/>
 <wire x1="20.9263" y1="20.4048" x2="20.6723" y2="20.1508" width="0.254" layer="1"/>
 <wire x1="20.4183" y1="20.1508" x2="20.6723" y2="20.1508" width="0.254" layer="1"/>
@@ -2510,7 +2510,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <signal name="N$6">
 <contactref element="U1" pad="8"/>
 <contactref element="CR2" pad="P$3"/>
-<contactref element="C8" pad="1"/>
+<contactref element="C12" pad="1"/>
 <wire x1="13.954" y1="22.2073" x2="16.0232" y2="22.2073" width="0.254" layer="1"/>
 <wire x1="16.0232" y1="22.2073" x2="16.3543" y2="22.5384" width="0.254" layer="1"/>
 <wire x1="16.4866" y1="17.7325" x2="17.0722" y2="17.7325" width="0.254" layer="1"/>
@@ -2538,7 +2538,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <signal name="+12V">
 <contactref element="IC1" pad="1"/>
 <contactref element="C1" pad="2"/>
-<contactref element="$$X2" pad="P$1"/>
+<contactref element="$$X1" pad="P$1"/>
 <contactref element="X1" pad="P$1"/>
 <wire x1="-4.23" y1="13.1531" x2="-4.0292" y2="13.2411" width="1.27" layer="1"/>
 <wire x1="-4.0292" y1="15.4899" x2="-4.0292" y2="13.2411" width="1.27" layer="1"/>
@@ -2548,7 +2548,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="-4.1919" y1="13.4833" x2="-4.23" y2="13.4452" width="1.27" layer="1"/>
 <wire x1="-4.23" y1="13.4452" x2="-4.23" y2="13.1531" width="1.27" layer="1"/>
 <wire x1="-4.1919" y1="13.4833" x2="-4.1919" y2="11.8101" width="1.27" layer="1"/>
-<contactref element="D1" pad="3"/>
+<contactref element="D3" pad="3"/>
 <wire x1="22.6095625" y1="1.872675" x2="39.138775" y2="1.872675" width="0.254" layer="16"/>
 <wire x1="39.138775" y1="1.872675" x2="40.624" y2="3.3579" width="0.254" layer="16"/>
 <wire x1="21.3868" y1="2.3274" x2="22.1548375" y2="2.3274" width="0.254" layer="1"/>
@@ -2568,7 +2568,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="-2.1713" y1="3.6733" x2="0.822475" y2="3.6733" width="0.254" layer="1"/>
 </signal>
 <signal name="BUZZER_CTRL">
-<contactref element="Q6" pad="1"/>
+<contactref element="Q1" pad="1"/>
 <contactref element="U1" pad="28"/>
 <wire x1="24.96173125" y1="13.0917" x2="24.2314" y2="13.0917" width="0.254" layer="1"/>
 <wire x1="24.1722" y1="13.0325" x2="24.2314" y2="13.0917" width="0.254" layer="1"/>
@@ -2585,7 +2585,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="36.671759375" y1="13.163590625" x2="33.110165625" y2="9.601996875" width="0.254" layer="1"/>
 <wire x1="33.110165625" y1="8.043134375" x2="33.110165625" y2="9.601996875" width="0.254" layer="1"/>
 <wire x1="30.3751" y1="7.6874" x2="30.3878" y2="7.6747" width="0.254" layer="1"/>
-<contactref element="R5" pad="6"/>
+<contactref element="R14" pad="6"/>
 <wire x1="36.671759375" y1="13.2674" x2="36.735259375" y2="13.3309" width="0.254" layer="1"/>
 <wire x1="37.08173125" y1="13.3309" x2="36.735259375" y2="13.3309" width="0.254" layer="1"/>
 <wire x1="37.76395625" y1="14.013125" x2="37.08173125" y2="13.3309" width="0.254" layer="1"/>
@@ -2598,7 +2598,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="LED_START_CTRL">
 <contactref element="U1" pad="2"/>
-<contactref element="Q2" pad="1"/>
+<contactref element="Q6" pad="1"/>
 <contactref element="Z2" pad="P$6"/>
 <wire x1="21.8638" y1="18.50933125" x2="21.8638" y2="17.7409" width="0.254" layer="1"/>
 <wire x1="21.8722" y1="17.7325" x2="21.8638" y2="17.7409" width="0.254" layer="1"/>
@@ -2609,7 +2609,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="26.3666" y1="20.34956875" x2="26.3666" y2="23.5279" width="0.254" layer="1"/>
 <wire x1="31.60846875" y1="24.30408125" x2="31.57325" y2="24.3393" width="0.254" layer="1"/>
 <wire x1="31.57325" y1="24.3393" x2="27.178" y2="24.3393" width="0.254" layer="1"/>
-<contactref element="R5" pad="2"/>
+<contactref element="R14" pad="2"/>
 <wire x1="37.995475" y1="21.56200625" x2="38.1889" y2="21.75543125" width="0.254" layer="1"/>
 <wire x1="38.1889" y1="21.75543125" x2="38.1889" y2="22.282975" width="0.254" layer="1"/>
 <wire x1="37.3253" y1="21.5192" x2="37.36810625" y2="21.56200625" width="0.254" layer="1"/>
@@ -2628,7 +2628,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="BTN_MARK_READ">
 <contactref element="U1" pad="23"/>
-<contactref element="$$X2" pad="P$2"/>
+<contactref element="$$X1" pad="P$2"/>
 <wire x1="22.321" y1="7.8201" x2="21.8722" y2="8.2689" width="0.254" layer="1"/>
 <wire x1="21.8722" y1="9.1325" x2="21.8722" y2="8.2689" width="0.254" layer="1"/>
 <wire x1="22.321" y1="7.8201" x2="22.321" y2="6.03895625" width="0.254" layer="1"/>
@@ -2640,7 +2640,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="BTN_MODE_READ">
 <contactref element="U1" pad="24"/>
-<contactref element="$$X2" pad="P$5"/>
+<contactref element="$$X1" pad="P$5"/>
 <wire x1="22.6722" y1="9.1325" x2="22.8672" y2="8.9375" width="0.254" layer="1"/>
 <wire x1="22.8672" y1="8.9375" x2="22.8672" y2="6.16909375" width="0.254" layer="1"/>
 <wire x1="22.8672" y1="6.16909375" x2="26.72899375" y2="2.3073" width="0.254" layer="1"/>
@@ -2649,7 +2649,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="BTN_MC_CYCLE_READ">
 <contactref element="U1" pad="25"/>
-<contactref element="$$X2" pad="P$3"/>
+<contactref element="$$X1" pad="P$3"/>
 <wire x1="24.2896" y1="6.03985625" x2="27.10775625" y2="3.2217" width="0.254" layer="1"/>
 <wire x1="27.10775625" y1="3.2217" x2="33.65035625" y2="3.2217" width="0.254" layer="1"/>
 <wire x1="33.65035625" y1="3.2217" x2="37.51675625" y2="7.0881" width="0.254" layer="1"/>
@@ -2661,7 +2661,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="BTN_START_READ">
 <contactref element="U1" pad="26"/>
-<contactref element="$$X2" pad="P$6"/>
+<contactref element="$$X1" pad="P$6"/>
 <wire x1="24.1722" y1="11.4325" x2="23.9774" y2="11.2377" width="0.254" layer="1"/>
 <wire x1="23.9774" y1="11.2377" x2="23.285425" y2="11.2377" width="0.254" layer="1"/>
 <wire x1="23.285425" y1="11.2377" x2="23.092" y2="11.044275" width="0.254" layer="1"/>
@@ -2699,12 +2699,12 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="35.94043125" y1="2.9141" x2="36.579165625" y2="3.552834375" width="0.254" layer="16"/>
 </signal>
 <signal name="BUZZER_OUT">
-<contactref element="Q6" pad="2"/>
+<contactref element="Q1" pad="2"/>
 <wire x1="27.178" y1="5.9293" x2="27.178" y2="5.8785" width="0.254" layer="1"/>
 <wire x1="28.9204" y1="4.1361" x2="27.178" y2="5.8785" width="0.254" layer="1"/>
 <wire x1="28.9204" y1="4.1361" x2="33.24673125" y2="4.1361" width="0.254" layer="1"/>
-<contactref element="$$X2" pad="P$4"/>
-<contactref element="D1" pad="1"/>
+<contactref element="$$X1" pad="P$4"/>
+<contactref element="D3" pad="1"/>
 <wire x1="23.4442" y1="3.81" x2="22.9268" y2="4.3274" width="0.254" layer="1"/>
 <wire x1="22.9268" y1="4.3274" x2="22.3368" y2="4.3274" width="0.254" layer="1"/>
 <via x="23.4442" y="3.81" extent="1-16" drill="0.35"/>
@@ -2721,21 +2721,21 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="36.8938" y1="7.78316875" x2="36.8938" y2="8.86746875" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="R2" pad="2"/>
-<contactref element="Q2" pad="2"/>
+<contactref element="R13" pad="2"/>
+<contactref element="Q6" pad="2"/>
 <wire x1="27.178" y1="22.4393" x2="28.4422" y2="22.4393" width="0.254" layer="1"/>
 <wire x1="28.4422" y1="22.4393" x2="29.1686" y2="21.7129" width="0.254" layer="1"/>
 <wire x1="29.1686" y1="21.7129" x2="30.376" y2="21.7129" width="0.254" layer="1"/>
 </signal>
 <signal name="N$9">
-<contactref element="R4" pad="2"/>
+<contactref element="R11" pad="2"/>
 <contactref element="Q4" pad="2"/>
 <wire x1="27.178" y1="15.8353" x2="28.4422" y2="15.8353" width="0.254" layer="1"/>
 <wire x1="29.1432" y1="15.1343" x2="30.376" y2="15.1343" width="0.254" layer="1"/>
 <wire x1="28.4422" y1="15.8353" x2="29.1432" y2="15.1343" width="0.254" layer="1"/>
 </signal>
 <signal name="N$10">
-<contactref element="R4" pad="1"/>
+<contactref element="R11" pad="1"/>
 <wire x1="32.076" y1="15.1343" x2="33.0929" y2="15.1343" width="0.254" layer="1"/>
 <wire x1="33.7279" y1="15.7693" x2="33.0929" y2="15.1343" width="0.254" layer="1"/>
 <via x="33.7279" y="15.7693" extent="1-16" drill="0.35"/>
@@ -2747,15 +2747,15 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="30.75746875" y1="19.0812" x2="33.7279" y2="16.11076875" width="0.254" layer="16"/>
 </signal>
 <signal name="N$12">
-<contactref element="Q1" pad="2"/>
-<contactref element="R7" pad="2"/>
+<contactref element="Q3" pad="2"/>
+<contactref element="R9" pad="2"/>
 <wire x1="27.1526" y1="12.5587" x2="28.4676" y2="12.5587" width="0.254" layer="1"/>
 <wire x1="28.4676" y1="12.5587" x2="29.194" y2="11.8323" width="0.254" layer="1"/>
 <wire x1="30.376" y1="11.8069" x2="30.3506" y2="11.8323" width="0.254" layer="1"/>
 <wire x1="30.3506" y1="11.8323" x2="29.194" y2="11.8323" width="0.254" layer="1"/>
 </signal>
 <signal name="N$13">
-<contactref element="R7" pad="1"/>
+<contactref element="R9" pad="1"/>
 <wire x1="34.2867" y1="12.9626" x2="33.9946" y2="12.9626" width="0.254" layer="1"/>
 <wire x1="33.9946" y1="12.9626" x2="32.8389" y2="11.8069" width="0.254" layer="1"/>
 <wire x1="32.076" y1="11.8069" x2="32.8389" y2="11.8069" width="0.254" layer="1"/>
@@ -2770,7 +2770,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="69.978" y1="14.35" x2="69.596" y2="14.732" width="0.254" layer="16"/>
 </signal>
 <signal name="N$15">
-<contactref element="R9" pad="1"/>
+<contactref element="R7" pad="1"/>
 <wire x1="32.076" y1="5.4569" x2="32.0388" y2="5.4941" width="0.254" layer="1"/>
 <wire x1="32.0388" y1="5.4941" x2="32.0388" y2="6.8539" width="0.254" layer="1"/>
 <via x="32.0388" y="6.8539" extent="1-16" drill="0.35"/>
@@ -2793,21 +2793,21 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="32.0642" y1="10.6078" x2="32.0642" y2="10.1813" width="0.254" layer="16"/>
 </signal>
 <signal name="N$17">
-<contactref element="Q5" pad="2"/>
+<contactref element="Q2" pad="2"/>
 <contactref element="R8" pad="2"/>
 <wire x1="27.178" y1="9.2313" x2="28.493" y2="9.2313" width="0.254" layer="1"/>
 <wire x1="28.493" y1="9.2313" x2="29.194" y2="8.5303" width="0.254" layer="1"/>
 <wire x1="29.194" y1="8.5303" x2="30.376" y2="8.5303" width="0.254" layer="1"/>
 </signal>
 <signal name="N$18">
-<contactref element="Q3" pad="2"/>
-<contactref element="R3" pad="2"/>
+<contactref element="Q5" pad="2"/>
+<contactref element="R12" pad="2"/>
 <wire x1="27.178" y1="19.1373" x2="28.5184" y2="19.1373" width="0.254" layer="1"/>
 <wire x1="28.5184" y1="19.1373" x2="29.2194" y2="18.4363" width="0.254" layer="1"/>
 <wire x1="29.2194" y1="18.4363" x2="30.376" y2="18.4363" width="0.254" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="R3" pad="1"/>
+<contactref element="R12" pad="1"/>
 <via x="31.9118" y="20.0111" extent="1-16" drill="0.35"/>
 <wire x1="-8.61484375" y1="17.8562" x2="-19.8374" y2="17.8562" width="0.254" layer="16"/>
 <wire x1="-8.61484375" y1="17.8562" x2="-4.35044375" y2="22.1206" width="0.254" layer="16"/>
@@ -2821,14 +2821,14 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="N$8">
 <contactref element="U1" pad="20"/>
-<contactref element="C14" pad="1"/>
+<contactref element="C6" pad="1"/>
 <wire x1="19.4722" y1="9.1325" x2="19.4794" y2="9.1253" width="0.254" layer="1"/>
 <wire x1="19.4794" y1="9.1253" x2="19.4794" y2="7.1079" width="0.254" layer="1"/>
 <wire x1="19.4794" y1="7.1079" x2="19.708" y2="6.8793" width="0.254" layer="1"/>
 </signal>
 <signal name="LED_MC_ERR_CTRL">
 <contactref element="U1" pad="1"/>
-<contactref element="Q3" pad="1"/>
+<contactref element="Q5" pad="1"/>
 <contactref element="Z2" pad="P$5"/>
 <wire x1="22.6722" y1="17.7325" x2="23.2109" y2="18.2712" width="0.254" layer="1"/>
 <wire x1="23.2109" y1="18.2712" x2="24.97726875" y2="18.2712" width="0.254" layer="1"/>
@@ -2836,7 +2836,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="27.0778" y1="20.37173125" x2="27.0778" y2="20.9371" width="0.254" layer="1"/>
 <wire x1="27.0778" y1="20.9371" x2="27.178" y2="21.0373" width="0.254" layer="1"/>
 <wire x1="36.671759375" y1="16.254440625" x2="35.561559375" y2="16.254440625" width="0.254" layer="1"/>
-<contactref element="R5" pad="1"/>
+<contactref element="R14" pad="1"/>
 <wire x1="29.689225" y1="20.8827" x2="32.762775" y2="20.8827" width="0.254" layer="1"/>
 <wire x1="29.689225" y1="20.8827" x2="29.634825" y2="20.9371" width="0.254" layer="1"/>
 <wire x1="29.634825" y1="20.9371" x2="27.0778" y2="20.9371" width="0.254" layer="1"/>
@@ -2859,7 +2859,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="33.070775" y1="17.5172" x2="33.125390625" y2="17.462584375" width="0.254" layer="1"/>
 <wire x1="33.9299875" y1="16.6579875" x2="35.03203125" y2="15.55594375" width="0.254" layer="1"/>
 <wire x1="35.03203125" y1="15.55594375" x2="36.623503125" y2="15.55594375" width="0.254" layer="1"/>
-<contactref element="R5" pad="3"/>
+<contactref element="R14" pad="3"/>
 <wire x1="37.3253" y1="21.0192" x2="37.2825" y2="20.9764" width="0.254" layer="1"/>
 <wire x1="35.1364625" y1="19.7509" x2="35.1364625" y2="19.5828875" width="0.254" layer="1"/>
 <wire x1="37.2825" y1="20.9764" x2="36.3619625" y2="20.9764" width="0.254" layer="1"/>
@@ -2873,7 +2873,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="LED_IMD_CTRL">
 <contactref element="U1" pad="31"/>
-<contactref element="Q1" pad="1"/>
+<contactref element="Q3" pad="1"/>
 <contactref element="Z1" pad="P$6"/>
 <wire x1="29.6841875" y1="14.3041" x2="29.6333875" y2="14.3549" width="0.254" layer="1"/>
 <wire x1="29.6333875" y1="14.3549" x2="27.2564" y2="14.3549" width="0.254" layer="1"/>
@@ -2886,7 +2886,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="36.669484375" y1="14.56560625" x2="35.052" y2="14.56560625" width="0.254" layer="1"/>
 <wire x1="35.052" y1="14.56560625" x2="33.0675" y2="14.56560625" width="0.254" layer="1"/>
 <wire x1="33.0675" y1="14.56560625" x2="32.80599375" y2="14.3041" width="0.254" layer="1"/>
-<contactref element="R5" pad="4"/>
+<contactref element="R14" pad="4"/>
 <via x="35.7460625" y="17.8719875" extent="1-16" drill="0.35"/>
 <wire x1="37.3253" y1="20.5192" x2="37.2825" y2="20.4764" width="0.254" layer="1"/>
 <wire x1="36.50854375" y1="20.4764" x2="37.2825" y2="20.4764" width="0.254" layer="1"/>
@@ -2903,7 +2903,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="LED_AMS_CTRL">
 <contactref element="U1" pad="30"/>
-<contactref element="Q5" pad="1"/>
+<contactref element="Q2" pad="1"/>
 <contactref element="Z1" pad="P$5"/>
 <wire x1="27.3453" y1="10.964" x2="33.36403125" y2="10.964" width="0.254" layer="1"/>
 <wire x1="27.3453" y1="10.964" x2="27.178" y2="11.1313" width="0.254" layer="1"/>
@@ -2913,7 +2913,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="26.2327" y1="11.72546875" x2="26.82686875" y2="11.1313" width="0.254" layer="1"/>
 <wire x1="24.96173125" y1="14.6917" x2="26.2327" y2="13.42073125" width="0.254" layer="1"/>
 <wire x1="26.2327" y1="13.42073125" x2="26.2327" y2="11.72546875" width="0.254" layer="1"/>
-<contactref element="R5" pad="5"/>
+<contactref element="R14" pad="5"/>
 <wire x1="33.36403125" y1="10.964" x2="36.21353125" y2="13.8135" width="0.254" layer="1"/>
 <wire x1="36.21353125" y1="13.8135" x2="36.56761875" y2="13.8135" width="0.254" layer="1"/>
 <wire x1="36.56761875" y1="13.8135" x2="36.671759375" y2="13.917640625" width="0.254" layer="1"/>
@@ -2928,7 +2928,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="37.2825" y1="19.9764" x2="37.3253" y2="20.0192" width="0.254" layer="1"/>
 </signal>
 <signal name="N$11">
-<contactref element="R2" pad="1"/>
+<contactref element="R13" pad="1"/>
 <wire x1="32.076" y1="21.7129" x2="32.076" y2="23.1616" width="0.254" layer="1"/>
 <wire x1="32.076" y1="23.1616" x2="31.7086" y2="23.529" width="0.254" layer="1"/>
 <wire x1="31.7086" y1="23.529" x2="31.5435" y2="23.529" width="0.254" layer="1"/>
@@ -2947,7 +2947,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="BTN_EXTRA">
 <contactref element="U1" pad="27"/>
-<contactref element="$$X2" pad="P$7"/>
+<contactref element="$$X1" pad="P$7"/>
 <wire x1="24.1722" y1="12.2325" x2="24.367" y2="12.0377" width="0.254" layer="1"/>
 <wire x1="24.367" y1="12.0377" x2="25.058975" y2="12.0377" width="0.254" layer="1"/>
 <wire x1="25.058975" y1="12.0377" x2="25.257" y2="11.839675" width="0.254" layer="1"/>
@@ -2962,13 +2962,13 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="N$7">
 <contactref element="D2" pad="C"/>
-<contactref element="R11" pad="1"/>
+<contactref element="R3" pad="1"/>
 <wire x1="-16.2932" y1="6.7564" x2="-16.3432" y2="6.7064" width="0.254" layer="1"/>
 <wire x1="-16.3432" y1="6.7064" x2="-16.3432" y2="4.3434" width="0.254" layer="1"/>
 </signal>
 <signal name="SSOK_READ">
-<contactref element="R11" pad="2"/>
-<contactref element="R12" pad="1"/>
+<contactref element="R3" pad="2"/>
+<contactref element="R4" pad="1"/>
 <wire x1="-14.5932" y1="6.7564" x2="-14.5932" y2="9.1694" width="0.254" layer="1"/>
 <via x="18.2057" y="10.8839" extent="1-16" drill="0.35"/>
 <wire x1="18.2057" y1="10.8839" x2="9.5697" y2="10.8839" width="0.254" layer="16"/>
@@ -3042,7 +3042,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="SHUTDOWN_H">
 <contactref element="X1" pad="P$6"/>
-<contactref element="D3" pad="A"/>
+<contactref element="D1" pad="A"/>
 <wire x1="-21.4266" y1="4.3561" x2="-20.1041" y2="4.3561" width="0.254" layer="1"/>
 <wire x1="-20.1041" y1="4.3561" x2="-18.796" y2="3.048" width="0.254" layer="1"/>
 <via x="-18.796" y="3.048" extent="1-16" drill="0.35"/>
@@ -3053,8 +3053,8 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 </signal>
 <signal name="SHUTDOWN_H_READ">
 <contactref element="U1" pad="22"/>
-<contactref element="R13" pad="2"/>
-<contactref element="R14" pad="1"/>
+<contactref element="R1" pad="2"/>
+<contactref element="R2" pad="1"/>
 <wire x1="21.0722" y1="9.1325" x2="21.0722" y2="10.4238" width="0.254" layer="1"/>
 <wire x1="21.0722" y1="10.4238" x2="19.812" y2="11.684" width="0.254" layer="1"/>
 <via x="19.812" y="11.684" extent="1-16" drill="0.35"/>
@@ -3070,8 +3070,8 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <via x="-18.796" y="10.668" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$14">
-<contactref element="D3" pad="C"/>
-<contactref element="R13" pad="1"/>
+<contactref element="D1" pad="C"/>
+<contactref element="R1" pad="1"/>
 <wire x1="-23.202" y1="6.604" x2="-23.2266" y2="6.5794" width="0.254" layer="1"/>
 <wire x1="-23.2266" y1="6.5794" x2="-23.2266" y2="4.3561" width="0.254" layer="1"/>
 </signal>
