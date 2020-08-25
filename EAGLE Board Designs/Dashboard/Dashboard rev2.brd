@@ -2668,12 +2668,12 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="-13.07" y1="3.8354" x2="-13.578" y2="4.3434" width="0.254" layer="1"/>
 <wire x1="-14.5432" y1="4.3434" x2="-13.578" y2="4.3434" width="0.254" layer="1"/>
 <contactref element="SSOK" pad="A"/>
-<wire x1="58.1286" y1="10.8846" x2="58.1286" y2="14.35" width="0.254" layer="16"/>
-<wire x1="36.579165625" y1="3.552834375" x2="37.61443125" y2="4.5881" width="0.254" layer="16"/>
+<wire x1="58.1286" y1="12.4975" x2="58.1286" y2="14.35" width="0.254" layer="16"/>
+<wire x1="35.94043125" y1="2.9141" x2="37.61443125" y2="4.5881" width="0.254" layer="16"/>
 <wire x1="41.13356875" y1="4.5881" x2="41.14966875" y2="4.572" width="0.254" layer="16"/>
 <wire x1="37.61443125" y1="4.5881" x2="41.13356875" y2="4.5881" width="0.254" layer="16"/>
-<wire x1="41.14966875" y1="4.572" x2="51.816" y2="4.572" width="0.254" layer="16"/>
-<wire x1="51.816" y1="4.572" x2="58.1286" y2="10.8846" width="0.254" layer="16"/>
+<wire x1="41.14966875" y1="4.572" x2="50.2031" y2="4.572" width="0.254" layer="16"/>
+<wire x1="50.2031" y1="4.572" x2="58.1286" y2="12.4975" width="0.254" layer="16"/>
 <via x="0.508" y="2.9141" extent="1-16" drill="0.35"/>
 <wire x1="-5.60746875" y1="2.8697" x2="-4.58833125" y2="2.8697" width="0.254" layer="1"/>
 <wire x1="-7.5979" y1="4.0999" x2="-6.83766875" y2="4.0999" width="0.254" layer="1"/>
@@ -2681,7 +2681,6 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="-4.58833125" y1="2.8697" x2="-4.54393125" y2="2.9141" width="0.254" layer="1"/>
 <wire x1="-4.54393125" y1="2.9141" x2="0.508" y2="2.9141" width="0.254" layer="1"/>
 <wire x1="0.508" y1="2.9141" x2="35.94043125" y2="2.9141" width="0.254" layer="16"/>
-<wire x1="35.94043125" y1="2.9141" x2="36.579165625" y2="3.552834375" width="0.254" layer="16"/>
 </signal>
 <signal name="BUZZER_OUT">
 <contactref element="Q1" pad="2"/>
