@@ -5530,10 +5530,10 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="HyTechDevices" deviceset="ATMEGA328P-AU" device=""/>
+<part name="ATMEGA" library="HyTechDevices" deviceset="ATMEGA328P-AU" device=""/>
 <part name="U$1" library="HyTechFrames" deviceset="FRAME_A_L" device=""/>
-<part name="MCP1" library="HyTechDevices" deviceset="MCP2551" device=""/>
-<part name="MCP2" library="HyTechDevices" deviceset="MCP2515" device="TSSOP"/>
+<part name="MCP2551" library="HyTechDevices" deviceset="MCP2551" device=""/>
+<part name="MCP2515" library="HyTechDevices" deviceset="MCP2515" device="TSSOP"/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND2" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -5552,7 +5552,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM340S" device="" package3d_urn="urn:adsk.eagle:package:28541/2"/>
+<part name="LM340" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM340S" device="" package3d_urn="urn:adsk.eagle:package:28541/2"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -5623,7 +5623,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <text x="91.44" y="203.2" size="1.778" layer="97">CAN Termination for testing.</text>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="231.14" y="170.18" smashed="yes">
+<instance part="ATMEGA" gate="G$1" x="231.14" y="170.18" smashed="yes">
 <attribute name="NAME" x="220.9645" y="199.4346" size="2.54388125" layer="95"/>
 <attribute name="VALUE" x="213.3531" y="138.4086" size="2.54171875" layer="96"/>
 </instance>
@@ -5633,10 +5633,10 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <attribute name="SHEET" x="260.35" y="1.27" size="2.54" layer="97"/>
 <attribute name="DRAWING_NAME" x="204.47" y="22.86" size="2.54" layer="97"/>
 </instance>
-<instance part="MCP1" gate="G$1" x="134.62" y="185.42" smashed="yes" rot="R180">
+<instance part="MCP2551" gate="G$1" x="134.62" y="185.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="131.445" y="173.355" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="MCP2" gate="G$1" x="119.38" y="119.38" smashed="yes">
+<instance part="MCP2515" gate="G$1" x="119.38" y="119.38" smashed="yes">
 <attribute name="NAME" x="122.555" y="144.145" size="1.778" layer="95"/>
 </instance>
 <instance part="GND1" gate="1" x="248.92" y="139.7" smashed="yes">
@@ -5701,7 +5701,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <instance part="P+5" gate="1" x="195.58" y="152.4" smashed="yes">
 <attribute name="VALUE" x="193.04" y="152.4" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC1" gate="G$1" x="45.72" y="160.02" smashed="yes">
+<instance part="LM340" gate="G$1" x="45.72" y="160.02" smashed="yes">
 <attribute name="NAME" x="40.64" y="166.37" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.72" y="166.37" size="1.778" layer="96"/>
 </instance>
@@ -5981,13 +5981,13 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="ATMEGA" gate="G$1" pin="GND"/>
 <wire x1="246.38" y1="144.78" x2="248.92" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="248.92" y1="144.78" x2="248.92" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MCP2" gate="G$1" pin="VSS"/>
+<pinref part="MCP2515" gate="G$1" pin="VSS"/>
 <wire x1="116.84" y1="119.38" x2="114.3" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="119.38" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -6031,9 +6031,9 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <junction x="175.26" y="154.94"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND@2"/>
+<pinref part="LM340" gate="G$1" pin="GND@2"/>
 <wire x1="45.72" y1="154.94" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND@1"/>
+<pinref part="LM340" gate="G$1" pin="GND@1"/>
 <wire x1="45.72" y1="149.86" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="154.94" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
@@ -6048,7 +6048,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="58.42" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="8"/>
+<pinref part="MCP2551" gate="G$1" pin="8"/>
 <wire x1="116.84" y1="177.8" x2="114.3" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="114.3" y1="177.8" x2="114.3" y2="175.26" width="0.1524" layer="91"/>
@@ -6091,7 +6091,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="50.8" y1="198.12" x2="63.5" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="2"/>
+<pinref part="MCP2551" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="180.34" x2="142.24" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="180.34" x2="142.24" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="175.26" x2="144.78" y2="175.26" width="0.1524" layer="91"/>
@@ -6195,11 +6195,11 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="VCC"/>
+<pinref part="ATMEGA" gate="G$1" pin="VCC"/>
 <wire x1="246.38" y1="193.04" x2="248.92" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="248.92" y1="193.04" x2="248.92" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="AVCC"/>
+<pinref part="ATMEGA" gate="G$1" pin="AVCC"/>
 <wire x1="248.92" y1="195.58" x2="248.92" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="195.58" x2="248.92" y2="195.58" width="0.1524" layer="91"/>
 <junction x="248.92" y="195.58"/>
@@ -6228,7 +6228,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="142.24" y1="157.48" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
 <junction x="142.24" y="157.48"/>
-<pinref part="MCP2" gate="G$1" pin="VDD"/>
+<pinref part="MCP2515" gate="G$1" pin="VDD"/>
 <wire x1="137.16" y1="139.7" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="157.48" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
 </segment>
@@ -6238,7 +6238,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="195.58" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
+<pinref part="LM340" gate="G$1" pin="OUT"/>
 <wire x1="55.88" y1="162.56" x2="58.42" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
 <wire x1="58.42" y1="162.56" x2="58.42" y2="165.1" width="0.1524" layer="91"/>
@@ -6269,7 +6269,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <pinref part="AMS" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="3"/>
+<pinref part="MCP2551" gate="G$1" pin="3"/>
 <wire x1="137.16" y1="182.88" x2="142.24" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="182.88" x2="142.24" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="187.96" x2="144.78" y2="187.96" width="0.1524" layer="91"/>
@@ -6292,12 +6292,12 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB5"/>
+<pinref part="ATMEGA" gate="G$1" pin="PB5"/>
 <wire x1="215.9" y1="175.26" x2="210.82" y2="175.26" width="0.1524" layer="91"/>
 <label x="210.82" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP2" gate="G$1" pin="SCK"/>
+<pinref part="MCP2515" gate="G$1" pin="SCK"/>
 <wire x1="137.16" y1="127" x2="142.24" y2="127" width="0.1524" layer="91"/>
 <label x="142.24" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6309,12 +6309,12 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB4"/>
+<pinref part="ATMEGA" gate="G$1" pin="PB4"/>
 <wire x1="215.9" y1="177.8" x2="210.82" y2="177.8" width="0.1524" layer="91"/>
 <label x="210.82" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP2" gate="G$1" pin="SO"/>
+<pinref part="MCP2515" gate="G$1" pin="SO"/>
 <wire x1="137.16" y1="132.08" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
 <label x="142.24" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6326,12 +6326,12 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB3"/>
+<pinref part="ATMEGA" gate="G$1" pin="PB3"/>
 <wire x1="215.9" y1="180.34" x2="210.82" y2="180.34" width="0.1524" layer="91"/>
 <label x="210.82" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP2" gate="G$1" pin="SI"/>
+<pinref part="MCP2515" gate="G$1" pin="SI"/>
 <wire x1="137.16" y1="129.54" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
 <label x="142.24" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6343,19 +6343,19 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="CS" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB2"/>
+<pinref part="ATMEGA" gate="G$1" pin="PB2"/>
 <wire x1="215.9" y1="182.88" x2="210.82" y2="182.88" width="0.1524" layer="91"/>
 <label x="210.82" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP2" gate="G$1" pin="CS"/>
+<pinref part="MCP2515" gate="G$1" pin="CS"/>
 <wire x1="137.16" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
 <label x="142.24" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="MCP2" gate="G$1" pin="RSTN"/>
+<pinref part="MCP2515" gate="G$1" pin="RSTN"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="137.16" x2="157.48" y2="137.16" width="0.1524" layer="91"/>
 </segment>
@@ -6365,7 +6365,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <pinref part="CR1" gate="G$1" pin="3"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="119.38" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="MCP2" gate="G$1" pin="OSC1"/>
+<pinref part="MCP2515" gate="G$1" pin="OSC1"/>
 <wire x1="116.84" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="121.92" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
@@ -6377,7 +6377,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="CR1" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="129.54" x2="93.98" y2="127" width="0.1524" layer="91"/>
-<pinref part="MCP2" gate="G$1" pin="OSC2"/>
+<pinref part="MCP2515" gate="G$1" pin="OSC2"/>
 <wire x1="116.84" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="124.46" x2="111.76" y2="127" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="127" x2="93.98" y2="127" width="0.1524" layer="91"/>
@@ -6386,35 +6386,35 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="TX" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="1"/>
+<pinref part="MCP2551" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="177.8" x2="139.7" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="177.8" x2="139.7" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="172.72" x2="142.24" y2="172.72" width="0.1524" layer="91"/>
 <label x="142.24" y="172.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP2" gate="G$1" pin="TXCAN"/>
+<pinref part="MCP2515" gate="G$1" pin="TXCAN"/>
 <wire x1="116.84" y1="139.7" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
 <label x="114.3" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RX" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="4"/>
+<pinref part="MCP2551" gate="G$1" pin="4"/>
 <wire x1="137.16" y1="185.42" x2="139.7" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="185.42" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="190.5" x2="142.24" y2="190.5" width="0.1524" layer="91"/>
 <label x="142.24" y="190.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP2" gate="G$1" pin="RXCAN"/>
+<pinref part="MCP2515" gate="G$1" pin="RXCAN"/>
 <wire x1="116.84" y1="137.16" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
 <label x="114.3" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CANL" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="6"/>
+<pinref part="MCP2551" gate="G$1" pin="6"/>
 <wire x1="116.84" y1="182.88" x2="109.22" y2="182.88" width="0.1524" layer="91"/>
 <label x="109.22" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6433,7 +6433,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="CANH" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="7"/>
+<pinref part="MCP2551" gate="G$1" pin="7"/>
 <wire x1="116.84" y1="180.34" x2="109.22" y2="180.34" width="0.1524" layer="91"/>
 <label x="109.22" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6452,7 +6452,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB6"/>
+<pinref part="ATMEGA" gate="G$1" pin="PB6"/>
 <wire x1="215.9" y1="172.72" x2="203.2" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="CR2" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="172.72" x2="203.2" y2="175.26" width="0.1524" layer="91"/>
@@ -6464,7 +6464,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB7"/>
+<pinref part="ATMEGA" gate="G$1" pin="PB7"/>
 <wire x1="215.9" y1="170.18" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="170.18" x2="203.2" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="CR2" gate="G$1" pin="3"/>
@@ -6477,7 +6477,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <net name="RESET" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="PC6/!RESET"/>
+<pinref part="ATMEGA" gate="G$1" pin="PC6/!RESET"/>
 <wire x1="208.28" y1="149.86" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
 <label x="209.55" y="148.336" size="1.27" layer="95"/>
 </segment>
@@ -6489,7 +6489,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="IN"/>
+<pinref part="LM340" gate="G$1" pin="IN"/>
 <wire x1="38.1" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
 <wire x1="35.56" y1="162.56" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
@@ -6526,7 +6526,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="60.96" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PC5"/>
+<pinref part="ATMEGA" gate="G$1" pin="PC5"/>
 <wire x1="215.9" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
 <label x="213.36" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6538,7 +6538,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="LED_START_CTRL" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD4"/>
+<pinref part="ATMEGA" gate="G$1" pin="PD4"/>
 <wire x1="246.38" y1="177.8" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
 <label x="248.92" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6559,7 +6559,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="BTN_MARK_READ" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC0"/>
+<pinref part="ATMEGA" gate="G$1" pin="PC0"/>
 <wire x1="215.9" y1="165.1" x2="213.36" y2="165.1" width="0.1524" layer="91"/>
 <label x="213.36" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6571,7 +6571,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="BTN_MODE_READ" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC1"/>
+<pinref part="ATMEGA" gate="G$1" pin="PC1"/>
 <wire x1="215.9" y1="162.56" x2="213.36" y2="162.56" width="0.1524" layer="91"/>
 <label x="213.36" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6583,7 +6583,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="BTN_MC_CYCLE_READ" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC2"/>
+<pinref part="ATMEGA" gate="G$1" pin="PC2"/>
 <wire x1="215.9" y1="160.02" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
 <label x="213.36" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6595,7 +6595,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="BTN_START_READ" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC3"/>
+<pinref part="ATMEGA" gate="G$1" pin="PC3"/>
 <wire x1="215.9" y1="157.48" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
 <label x="213.36" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6713,7 +6713,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="AREF"/>
+<pinref part="ATMEGA" gate="G$1" pin="AREF"/>
 <wire x1="215.9" y1="193.04" x2="208.28" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="193.04" x2="208.28" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="200.66" x2="200.66" y2="200.66" width="0.1524" layer="91"/>
@@ -6723,7 +6723,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="LED_MC_ERR_CTRL" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD3"/>
+<pinref part="ATMEGA" gate="G$1" pin="PD3"/>
 <wire x1="246.38" y1="180.34" x2="248.92" y2="180.34" width="0.1524" layer="91"/>
 <label x="248.92" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6744,7 +6744,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="LED_MODE_CTRL" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD2"/>
+<pinref part="ATMEGA" gate="G$1" pin="PD2"/>
 <wire x1="246.38" y1="182.88" x2="248.92" y2="182.88" width="0.1524" layer="91"/>
 <label x="248.92" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6764,7 +6764,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="LED_IMD_CTRL" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD1"/>
+<pinref part="ATMEGA" gate="G$1" pin="PD1"/>
 <wire x1="246.38" y1="185.42" x2="248.92" y2="185.42" width="0.1524" layer="91"/>
 <label x="248.92" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6785,7 +6785,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="LED_AMS_CTRL" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD0"/>
+<pinref part="ATMEGA" gate="G$1" pin="PD0"/>
 <wire x1="246.38" y1="187.96" x2="248.92" y2="187.96" width="0.1524" layer="91"/>
 <label x="248.92" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6813,7 +6813,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="BTN_EXTRA" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC4"/>
+<pinref part="ATMEGA" gate="G$1" pin="PC4"/>
 <wire x1="215.9" y1="154.94" x2="213.36" y2="154.94" width="0.1524" layer="91"/>
 <label x="213.36" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6844,7 +6844,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <segment>
 <wire x1="246.38" y1="165.1" x2="248.92" y2="165.1" width="0.1524" layer="91"/>
 <label x="248.92" y="165.1" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="ADC6"/>
+<pinref part="ATMEGA" gate="G$1" pin="ADC6"/>
 </segment>
 </net>
 <net name="THERMAL" class="0">
@@ -6894,7 +6894,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="SHUTDOWN_H_READ" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="ADC7"/>
+<pinref part="ATMEGA" gate="G$1" pin="ADC7"/>
 <wire x1="246.38" y1="162.56" x2="248.92" y2="162.56" width="0.1524" layer="91"/>
 <label x="248.92" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
