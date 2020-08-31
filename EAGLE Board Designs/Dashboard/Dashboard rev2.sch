@@ -1423,6 +1423,29 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="4.064" y1="-4.3815" x2="-4.064" y2="-4.3815" width="0.127" layer="21"/>
 <wire x1="-4.064" y1="-4.3815" x2="-4.064" y2="4.3815" width="0.127" layer="21"/>
 </package>
+<package name="SOT223">
+<description>&lt;b&gt;SOT-223&lt;/b&gt;
+&lt;br&gt;
+&lt;a href="https://github.com/sparkfun/SparkFun-Eagle-Libraries"&gt;Source: Sparkfun Eagle Library</description>
+<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="1.651" x2="3.2766" y2="1.651" width="0.2032" layer="21"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<smd name="1" x="-2.3" y="-3.15" dx="1.5" dy="2.2352" layer="1"/>
+<smd name="2" x="0" y="-3.15" dx="1.5" dy="2.2352" layer="1"/>
+<smd name="3" x="2.3" y="-3.15" dx="1.5" dy="2.2352" layer="1"/>
+<smd name="4" x="0" y="3.15" dx="3.8" dy="2.2" layer="1"/>
+<text x="-0.8255" y="4.5085" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.0795" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X03" urn="urn:adsk.eagle:package:22462/2" type="model">
@@ -1768,6 +1791,21 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <vertex x="-2.54" y="-1.27"/>
 <vertex x="0" y="0"/>
 </polygon>
+</symbol>
+<symbol name="LM340">
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
+<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
+<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
+<text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
+<pin name="GND1" x="-2.54" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2744,6 +2782,24 @@ general purpose rectifier</description>
 <connects>
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM340">
+<gates>
+<gate name="G$1" symbol="LM340" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GND1" pad="4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5439,87 +5495,6 @@ general purpose rectifier</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="linear" urn="urn:adsk.eagle:library:262">
-<description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
-Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT223" urn="urn:adsk.eagle:footprint:28484/1" library_version="5">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="3.2766" y1="1.778" x2="3.2766" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="3.2766" y1="-1.778" x2="-3.2766" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="-1.778" x2="-3.2766" y2="1.778" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="1.778" x2="3.2766" y2="1.778" width="0.2032" layer="21"/>
-<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
-<text x="1.0208" y="-4.318" size="0.8128" layer="21" ratio="12">3</text>
-<text x="1.905" y="2.54" size="0.8128" layer="21" ratio="12">4</text>
-<text x="-3.4526" y="-4.318" size="0.8128" layer="21" ratio="12">1</text>
-<text x="-1.2906" y="-4.3274" size="0.8128" layer="21" ratio="12">2</text>
-<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT223" urn="urn:adsk.eagle:package:28541/2" type="model" library_version="5">
-<description>Small Outline Transistor</description>
-<packageinstances>
-<packageinstance name="SOT223"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="LM340S" urn="urn:adsk.eagle:symbol:16283/1" library_version="5">
-<wire x1="-5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<text x="-5.08" y="6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND@1" x="-2.54" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="IN" x="-7.62" y="2.54" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
-<pin name="GND@2" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LM340S" urn="urn:adsk.eagle:component:16677/4" prefix="IC" library_version="5">
-<description>&lt;b&gt;3-Terminal Positive Regulators&lt;/b&gt;&lt;p&gt;
-Source: http://cache.national.com/ds/LM/LM340.pdf</description>
-<gates>
-<gate name="G$1" symbol="LM340S" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT223">
-<connects>
-<connect gate="G$1" pin="GND@1" pad="2"/>
-<connect gate="G$1" pin="GND@2" pad="4"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28541/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5552,7 +5527,6 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="LM340" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM340S" device="" package3d_urn="urn:adsk.eagle:package:28541/2"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -5613,11 +5587,12 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
 <part name="GND17" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="LM340" library="HyTechDevices" deviceset="LM340" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="127" y="22.86" size="2.54" layer="97">Leonid Pozdneev</text>
+<text x="127" y="22.86" size="2.54" layer="97">Ethan Weinstock</text>
 <text x="195.58" y="15.24" size="2.54" layer="97">Schematic of the Dashboard PCB for HT05</text>
 <text x="170.18" y="121.92" size="1.778" layer="97">Voltage regulation for the buzzer.</text>
 <text x="91.44" y="203.2" size="1.778" layer="97">CAN Termination for testing.</text>
@@ -5701,15 +5676,11 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <instance part="P+5" gate="1" x="195.58" y="152.4" smashed="yes">
 <attribute name="VALUE" x="193.04" y="152.4" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LM340" gate="G$1" x="45.72" y="160.02" smashed="yes">
-<attribute name="NAME" x="40.64" y="166.37" size="1.778" layer="95"/>
-<attribute name="VALUE" x="45.72" y="166.37" size="1.778" layer="96"/>
-</instance>
 <instance part="P+6" gate="1" x="35.56" y="167.64" smashed="yes">
 <attribute name="VALUE" x="33.02" y="170.18" size="1.778" layer="96"/>
 </instance>
-<instance part="P+7" gate="1" x="58.42" y="167.64" smashed="yes">
-<attribute name="VALUE" x="60.96" y="170.18" size="1.778" layer="96" rot="R180"/>
+<instance part="P+7" gate="1" x="55.88" y="167.64" smashed="yes">
+<attribute name="VALUE" x="58.42" y="170.18" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND7" gate="1" x="45.72" y="144.78" smashed="yes">
 <attribute name="VALUE" x="43.18" y="142.24" size="1.778" layer="96"/>
@@ -5718,9 +5689,9 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <attribute name="NAME" x="34.036" y="154.559" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="34.036" y="159.639" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C7" gate="G$1" x="58.42" y="154.94" smashed="yes">
-<attribute name="NAME" x="59.944" y="157.861" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.944" y="152.781" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="55.88" y="154.94" smashed="yes">
+<attribute name="NAME" x="57.404" y="157.861" size="1.778" layer="95"/>
+<attribute name="VALUE" x="57.404" y="152.781" size="1.778" layer="96"/>
 </instance>
 <instance part="X1" gate="-1" x="48.26" y="200.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="45.72" y="199.898" size="1.524" layer="95" rot="MR0"/>
@@ -5975,6 +5946,10 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <instance part="GND17" gate="1" x="160.02" y="38.1" smashed="yes">
 <attribute name="VALUE" x="157.48" y="35.56" size="1.778" layer="96"/>
 </instance>
+<instance part="LM340" gate="G$1" x="45.72" y="162.56" smashed="yes">
+<attribute name="NAME" x="48.26" y="154.94" size="1.778" layer="95"/>
+<attribute name="VALUE" x="48.26" y="152.4" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6031,9 +6006,7 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <junction x="175.26" y="154.94"/>
 </segment>
 <segment>
-<pinref part="LM340" gate="G$1" pin="GND@2"/>
 <wire x1="45.72" y1="154.94" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="LM340" gate="G$1" pin="GND@1"/>
 <wire x1="45.72" y1="149.86" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="154.94" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
@@ -6044,8 +6017,10 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="35.56" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <junction x="43.18" y="149.86"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="152.4" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="152.4" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="LM340" gate="G$1" pin="GND"/>
+<pinref part="LM340" gate="G$1" pin="GND1"/>
 </segment>
 <segment>
 <pinref part="MCP2551" gate="G$1" pin="8"/>
@@ -6238,13 +6213,13 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <wire x1="195.58" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LM340" gate="G$1" pin="OUT"/>
-<wire x1="55.88" y1="162.56" x2="58.42" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="162.56" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<wire x1="58.42" y1="162.56" x2="58.42" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="162.56" x2="55.88" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="162.56" x2="58.42" y2="160.02" width="0.1524" layer="91"/>
-<junction x="58.42" y="162.56"/>
+<wire x1="55.88" y1="162.56" x2="55.88" y2="160.02" width="0.1524" layer="91"/>
+<junction x="55.88" y="162.56"/>
+<pinref part="LM340" gate="G$1" pin="OUT"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="45.72" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
@@ -6489,13 +6464,13 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="LM340" gate="G$1" pin="IN"/>
 <wire x1="38.1" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
 <wire x1="35.56" y1="162.56" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="160.02" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 <junction x="35.56" y="162.56"/>
+<pinref part="LM340" gate="G$1" pin="IN"/>
 </segment>
 <segment>
 <pinref part="$$X1" gate="-1" pin="S"/>
