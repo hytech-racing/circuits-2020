@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="20" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.5" altunitdist="mil" altunit="mil"/>
@@ -2268,7 +2268,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="-0.5334" y1="23.2791" x2="3.6957" y2="23.2791" width="0.8128" layer="1"/>
 <wire x1="4.2887" y1="23.8721" x2="9.3684" y2="23.8721" width="0.8128" layer="1"/>
 <wire x1="-15.2911" y1="11.5697" x2="-33.1597" y2="11.5697" width="0.508" layer="16"/>
-<wire x1="7.3286" y1="11.5824" x2="-2.0955" y2="11.5824" width="0.508" layer="16"/>
+<wire x1="7.3286" y1="11.5697" x2="-2.1082" y2="11.5697" width="0.508" layer="16"/>
 <wire x1="46.1188625" y1="13.8928" x2="50.8188625" y2="18.5928" width="0.508" layer="16"/>
 <wire x1="9.3684" y1="23.8721" x2="11.5824" y2="23.8721" width="0.8128" layer="1"/>
 <wire x1="11.5824" y1="23.8721" x2="12.772" y2="23.8721" width="0.8128" layer="1"/>
@@ -2300,7 +2300,7 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="-43.4714" y1="14.35" x2="-35.94" y2="14.35" width="0.508" layer="16"/>
 <wire x1="-33.1597" y1="11.5697" x2="-35.94" y2="14.35" width="0.508" layer="16"/>
 <wire x1="-18.0714" y1="14.35" x2="-15.2911" y2="11.5697" width="0.508" layer="16"/>
-<wire x1="7.3286" y1="14.35" x2="7.3286" y2="11.5824" width="0.508" layer="16"/>
+<wire x1="7.3286" y1="14.35" x2="7.3286" y2="11.5697" width="0.508" layer="16"/>
 <wire x1="32.7274" y1="16.0152" x2="32.7274" y2="15.52666875" width="0.508" layer="16"/>
 <wire x1="32.7274" y1="15.52666875" x2="32.7286" y2="15.52546875" width="0.508" layer="16"/>
 <wire x1="32.7286" y1="15.52546875" x2="32.7286" y2="14.35" width="0.508" layer="16"/>
@@ -2484,11 +2484,11 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="-4.2489" y1="8.2509" x2="-5.0979" y2="9.0999" width="0.254" layer="1"/>
 <contactref element="R5" pad="2"/>
 <wire x1="-1.346" y1="8.2763" x2="-1.2911" y2="8.3312" width="0.254" layer="1"/>
-<wire x1="0.2159" y1="10.3641" x2="-0.3674" y2="10.9474" width="0.254" layer="1"/>
-<wire x1="-0.3674" y1="10.9474" x2="-0.3674" y2="11.43" width="0.254" layer="1"/>
+<wire x1="0.2159" y1="10.834" x2="-0.3674" y2="11.4173" width="0.254" layer="1"/>
+<wire x1="-0.3674" y1="11.4173" x2="-0.3674" y2="11.43" width="0.254" layer="1"/>
 <wire x1="-1.2911" y1="8.3312" x2="-0.3048" y2="8.3312" width="0.254" layer="1"/>
 <wire x1="-0.3048" y1="8.3312" x2="0.2159" y2="8.8519" width="0.254" layer="1"/>
-<wire x1="0.2159" y1="8.8519" x2="0.2159" y2="10.3641" width="0.254" layer="1"/>
+<wire x1="0.2159" y1="8.8519" x2="0.2159" y2="10.834" width="0.254" layer="1"/>
 </signal>
 <signal name="CANH">
 <contactref element="MCP2551" pad="7"/>
