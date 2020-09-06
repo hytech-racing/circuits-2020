@@ -1732,6 +1732,8 @@ Source: transistor-fet.lbr</description>
 <wire x1="-1.8542" y1="-0.381" x2="-0.254" y2="-0.381" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="-0.381" x2="-0.254" y2="1.651" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="1.651" x2="-1.8542" y2="1.651" width="0.127" layer="21"/>
+<text x="-2.54" y="2.54" size="0.8128" layer="21" font="vector">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="0.8128" layer="21" font="vector">&gt;Value</text>
 </package>
 <package name="1206">
 <description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
