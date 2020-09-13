@@ -7487,8 +7487,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="+3V5" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R106" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="150"/>
 <part name="R105" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="150"/>
-<part name="R113" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
-<part name="R112" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R113" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
+<part name="R112" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="+3V6" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="U$106" library="HyTechDevices" deviceset="LM293" device="DG4"/>
 <part name="GND20" library="HyTechSymbols" deviceset="GND" device=""/>
