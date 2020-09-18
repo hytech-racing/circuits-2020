@@ -19,7 +19,7 @@ Repository for all of the circuits for the 2019-2020 car.
     * HTTPS: `https://github.com/hytech-racing/circuits-2020.git`
 
 ## Getting Started with EAGLE
-1. Follow HyTech's [Software Guide](https://docs.google.com/document/d/1GRkLYabQtMDBhLXM44oBZ6nKhDef6TY2_k2GFT-w2gI/edit?usp=sharing).
+1. Follow HyTech's [Software Guide](https://github.com/hytech-racing/training/tree/master/Resources).
 2. Download and install [EAGLE](https://www.autodesk.com/products/eagle/overview)
 3. Get the free [Educational License](https://www.autodesk.com/education/free-software/eagle) (a .edu email address is required)
 
