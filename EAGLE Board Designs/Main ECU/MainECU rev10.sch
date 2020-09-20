@@ -2782,6 +2782,12 @@ Source: transistor-fet.lbr</description>
 <pin name="3V3" x="-5.08" y="-10.16" length="middle" direction="pas" swaplevel="1"/>
 <wire x1="1.27" y1="-10.16" x2="0" y2="-10.16" width="0.6096" layer="94"/>
 </symbol>
+<symbol name="JUMPER">
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="P$2" x="5.08" y="-2.54" visible="off" length="short" rot="R90"/>
+<text x="0" y="0.508" size="1.27" layer="94">JUMP</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CONNECTOR-37" prefix="X">
@@ -4438,6 +4444,41 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <connect gate="G$1" pin="TX" pad="5"/>
 <connect gate="G$1" pin="VBAT" pad="7"/>
 <connect gate="G$1" pin="VIN" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER" prefix="J">
+<description>Jumper for changing operation of a device</description>
+<gates>
+<gate name="G$1" symbol="JUMPER" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="0805">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".1" package="1X02">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".3" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7642,6 +7683,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R122" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="GND69" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="+3V12" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="J1" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8685,13 +8727,6 @@ wheelspeed</text>
 <wire x1="50.8" y1="231.14" x2="55.88" y2="231.14" width="0.1524" layer="91"/>
 <label x="55.88" y="231.14" size="1.016" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="X1" gate="-4" pin="S"/>
-<wire x1="50.8" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="86.36" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
-<label x="71.12" y="81.28" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="SHUTDOWN_A" class="0">
 <segment>
@@ -8966,6 +9001,15 @@ wheelspeed</text>
 <pinref part="X100" gate="-21" pin="S"/>
 <wire x1="50.8" y1="210.82" x2="58.42" y2="210.82" width="0.1524" layer="91"/>
 <label x="58.42" y="210.82" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="TEST_CURRENT" class="0">
+<segment>
+<pinref part="X1" gate="-4" pin="S"/>
+<wire x1="50.8" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="86.36" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
+<label x="71.12" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -9548,6 +9592,7 @@ wheelspeed</text>
 <instance part="+3V12" gate="G$1" x="223.52" y="190.5" smashed="yes">
 <attribute name="VALUE" x="226.06" y="193.04" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="J1" gate="G$1" x="33.02" y="132.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -10633,13 +10678,9 @@ wheelspeed</text>
 </net>
 <net name="SIGNAL_CURRENT" class="0">
 <segment>
-<pinref part="R43" gate="G$1" pin="1"/>
-<pinref part="D10" gate="G$1" pin="C"/>
-<wire x1="45.72" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="129.54" x2="45.72" y2="127" width="0.1524" layer="91"/>
-<junction x="45.72" y="129.54"/>
-<label x="38.1" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="45.72" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
+<label x="27.94" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -10665,6 +10706,18 @@ wheelspeed</text>
 <pinref part="U$108" gate="G$1" pin="VIN-"/>
 <wire x1="236.22" y1="152.4" x2="231.14" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="152.4" x2="231.14" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TEST_CURRENT" class="0">
+<segment>
+<pinref part="R43" gate="G$1" pin="1"/>
+<pinref part="D10" gate="G$1" pin="C"/>
+<wire x1="45.72" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="129.54" x2="45.72" y2="127" width="0.1524" layer="91"/>
+<junction x="45.72" y="129.54"/>
+<wire x1="45.72" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="P$2"/>
+<label x="39.878" y="130.556" size="1.016" layer="95"/>
 </segment>
 </net>
 </nets>
