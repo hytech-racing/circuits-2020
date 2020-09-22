@@ -420,6 +420,32 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </deviceset>
 </devicesets>
 </library>
+<library name="HyTechSymbols">
+<packages>
+</packages>
+<symbols>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -432,24 +458,32 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <parts>
 <part name="PO-1" library="HyTechDevices" deviceset="M06" device=""/>
 <part name="PO-2" library="HyTechDevices" deviceset="M06" device=""/>
-<part name="TPS-1" library="HyTechDevices" deviceset="TPS26600" device=""/>
+<part name="U1" library="HyTechDevices" deviceset="TPS26600" device=""/>
+<part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="GND2" library="HyTechSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="PO-1" gate="G$1" x="53.34" y="58.42" smashed="yes">
-<attribute name="VALUE" x="48.26" y="48.26" size="1.778" layer="96"/>
-<attribute name="NAME" x="48.26" y="69.342" size="1.778" layer="95"/>
+<instance part="PO-1" gate="G$1" x="48.26" y="58.42" smashed="yes">
+<attribute name="VALUE" x="43.18" y="48.26" size="1.778" layer="96"/>
+<attribute name="NAME" x="43.18" y="69.342" size="1.778" layer="95"/>
 </instance>
-<instance part="PO-2" gate="G$1" x="124.46" y="60.96" smashed="yes" rot="R180">
-<attribute name="VALUE" x="129.54" y="71.12" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="129.54" y="50.038" size="1.778" layer="95" rot="R180"/>
+<instance part="PO-2" gate="G$1" x="129.54" y="60.96" smashed="yes" rot="R180">
+<attribute name="VALUE" x="134.62" y="71.12" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="134.62" y="50.038" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="TPS-1" gate="G$1" x="88.9" y="60.96" smashed="yes">
+<instance part="U1" gate="G$1" x="88.9" y="60.96" smashed="yes">
 <attribute name="NAME" x="78.486" y="71.374" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="78.486" y="50.546" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="GND1" gate="1" x="106.68" y="50.8" smashed="yes">
+<attribute name="VALUE" x="104.14" y="48.26" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="121.92" y="50.8" smashed="yes">
+<attribute name="VALUE" x="119.38" y="48.26" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -458,145 +492,145 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <net name="SHDN" class="0">
 <segment>
 <pinref part="PO-1" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
-<label x="58.42" y="55.88" size="1.778" layer="95"/>
+<wire x1="53.34" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<label x="55.88" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
-<label x="104.14" y="60.96" size="1.778" layer="95"/>
-<pinref part="TPS-1" gate="G$1" pin="SHDN"/>
+<pinref part="U1" gate="G$1" pin="SHDN"/>
+<label x="106.68" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OUT" class="0">
 <segment>
 <pinref part="PO-2" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
-<label x="119.38" y="66.04" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="124.46" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+<label x="121.92" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
-<label x="104.14" y="68.58" size="1.778" layer="95"/>
-<pinref part="TPS-1" gate="G$1" pin="OUT"/>
+<pinref part="U1" gate="G$1" pin="OUT"/>
+<label x="106.68" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FLT" class="0">
 <segment>
 <pinref part="PO-2" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="63.5" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
-<label x="119.38" y="63.5" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="124.46" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
+<label x="121.92" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="63.5" x2="106.68" y2="63.5" width="0.1524" layer="91"/>
-<label x="104.14" y="63.5" size="1.778" layer="95"/>
-<pinref part="TPS-1" gate="G$1" pin="FLT"/>
+<pinref part="U1" gate="G$1" pin="FLT"/>
+<label x="106.68" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DVDT" class="0">
 <segment>
 <pinref part="PO-2" gate="G$1" pin="3"/>
-<wire x1="119.38" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
-<label x="119.38" y="60.96" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="124.46" y1="60.96" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
+<label x="121.92" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
-<label x="73.66" y="58.42" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="TPS-1" gate="G$1" pin="DVDT"/>
+<pinref part="U1" gate="G$1" pin="DVDT"/>
+<label x="71.12" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IMON" class="0">
 <segment>
 <pinref part="PO-2" gate="G$1" pin="5"/>
-<wire x1="119.38" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
-<label x="119.38" y="55.88" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="124.46" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
+<label x="121.92" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="58.42" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
-<label x="104.14" y="58.42" size="1.778" layer="95"/>
-<pinref part="TPS-1" gate="G$1" pin="IMON"/>
+<pinref part="U1" gate="G$1" pin="IMON"/>
+<label x="106.68" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="PO-2" gate="G$1" pin="6"/>
-<wire x1="119.38" y1="53.34" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
-<label x="119.38" y="53.34" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="124.46" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
-<label x="104.14" y="53.34" size="1.778" layer="95"/>
-<pinref part="TPS-1" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="IN" class="0">
 <segment>
 <wire x1="73.66" y1="68.58" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
-<label x="71.12" y="68.58" size="1.778" layer="95"/>
-<pinref part="TPS-1" gate="G$1" pin="IN"/>
+<label x="71.12" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="IN"/>
 </segment>
 <segment>
 <pinref part="PO-1" gate="G$1" pin="6"/>
-<wire x1="58.42" y1="66.04" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
-<label x="58.42" y="66.04" size="1.778" layer="95"/>
+<wire x1="53.34" y1="66.04" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
+<label x="55.88" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="UVLO" class="0">
 <segment>
 <wire x1="73.66" y1="63.5" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
-<label x="73.66" y="63.5" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="TPS-1" gate="G$1" pin="UVLO"/>
+<pinref part="U1" gate="G$1" pin="UVLO"/>
+<label x="71.12" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PO-1" gate="G$1" pin="5"/>
-<wire x1="58.42" y1="63.5" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
-<label x="58.42" y="63.5" size="1.778" layer="95"/>
+<wire x1="53.34" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="55.88" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OVP" class="0">
 <segment>
 <wire x1="73.66" y1="60.96" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
-<label x="73.66" y="60.96" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="TPS-1" gate="G$1" pin="OVP"/>
+<pinref part="U1" gate="G$1" pin="OVP"/>
+<label x="71.12" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PO-1" gate="G$1" pin="4"/>
-<wire x1="58.42" y1="60.96" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
-<label x="58.42" y="60.96" size="1.778" layer="95"/>
+<wire x1="53.34" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
+<label x="55.88" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MODE" class="0">
 <segment>
 <wire x1="73.66" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
-<label x="73.66" y="55.88" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="TPS-1" gate="G$1" pin="MODE"/>
+<pinref part="U1" gate="G$1" pin="MODE"/>
+<label x="71.12" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PO-1" gate="G$1" pin="3"/>
-<wire x1="58.42" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
-<label x="58.42" y="58.42" size="1.778" layer="95"/>
+<wire x1="53.34" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+<label x="55.88" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RTN" class="0">
 <segment>
 <wire x1="73.66" y1="53.34" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
-<label x="73.66" y="53.34" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="TPS-1" gate="G$1" pin="RTN"/>
+<pinref part="U1" gate="G$1" pin="RTN"/>
+<label x="71.12" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PO-1" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="53.34" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
-<label x="58.42" y="53.34" size="1.778" layer="95"/>
+<wire x1="53.34" y1="53.34" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
+<label x="55.88" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ILIM" class="0">
 <segment>
 <wire x1="104.14" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
-<label x="104.14" y="55.88" size="1.778" layer="95"/>
-<pinref part="TPS-1" gate="G$1" pin="ILIM"/>
+<pinref part="U1" gate="G$1" pin="ILIM"/>
+<label x="106.68" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PO-2" gate="G$1" pin="4"/>
-<wire x1="119.38" y1="58.42" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
-<label x="119.38" y="58.42" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="124.46" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
+<label x="121.92" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -604,11 +638,4 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="9.0" severity="warning">
-Since Version 9.0, EAGLE supports the align property for labels. 
-Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
-for full support of labels. 
-</note>
-</compatibility>
 </eagle>
