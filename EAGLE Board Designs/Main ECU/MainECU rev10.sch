@@ -7723,6 +7723,7 @@ wheelspeed</text>
 wheelspeed</text>
 <text x="52.07" y="247.65" size="1.016" layer="95">12V for
 wheelspeed</text>
+<text x="218.44" y="187.96" size="1.778" layer="97">capacitor to reduce noise when CAN switches layers</text>
 </plain>
 <instances>
 <instance part="X100" gate="-13" x="48.26" y="231.14" smashed="yes" rot="MR0">
@@ -8198,15 +8199,15 @@ wheelspeed</text>
 <instance part="+3V11" gate="G$1" x="271.78" y="259.08" smashed="yes">
 <attribute name="VALUE" x="274.32" y="261.62" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+46" gate="1" x="215.9" y="195.58" smashed="yes">
-<attribute name="VALUE" x="218.44" y="198.12" size="1.778" layer="96" rot="R180"/>
+<instance part="P+46" gate="1" x="213.36" y="198.12" smashed="yes">
+<attribute name="VALUE" x="215.9" y="200.66" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C11" gate="G$1" x="213.36" y="190.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="211.836" y="187.579" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="211.836" y="192.659" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND65" gate="1" x="213.36" y="182.88" smashed="yes">
-<attribute name="VALUE" x="208.28" y="180.34" size="1.778" layer="96"/>
+<instance part="GND65" gate="1" x="213.36" y="180.34" smashed="yes">
+<attribute name="VALUE" x="208.28" y="177.8" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8383,6 +8384,7 @@ wheelspeed</text>
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="GND65" gate="1" pin="GND"/>
+<wire x1="213.36" y1="182.88" x2="213.36" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -8583,11 +8585,9 @@ wheelspeed</text>
 <pinref part="X100" gate="-35" pin="S"/>
 </segment>
 <segment>
-<wire x1="215.9" y1="180.34" x2="215.9" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="P+46" gate="1" pin="+5V"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="193.04" x2="215.9" y2="193.04" width="0.1524" layer="91"/>
-<junction x="215.9" y="193.04"/>
+<wire x1="213.36" y1="193.04" x2="213.36" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LATCH_EXT_BUTTON" class="0">
@@ -10733,13 +10733,13 @@ wheelspeed</text>
 <text x="281.94" y="22.86" size="2.54" layer="97">Leonid Pozdneev</text>
 <text x="347.98" y="15.24" size="2.54" layer="97">Telemetry system circuitry.</text>
 <text x="289.56" y="152.4" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
-<text x="256.54" y="81.28" size="1.778" layer="91">don't need resistor between ADC and TXB
+<text x="256.54" y="81.28" size="1.778" layer="97">don't need resistor between ADC and TXB
 MCP has a rise time of 100 ns
 slew rate of 0.05 V/ns
 the capacitance is 10 pF with a via -&gt; current of 0.05 mA
 since we have no via the current is less
 (based on ADI staying well grounded)</text>
-<text x="17.78" y="264.16" size="1.778" layer="91">swapped direction so current will read as negative b4 code change</text>
+<text x="17.78" y="264.16" size="1.778" layer="97">swapped direction so current will read as negative b4 code change</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="109.22" y="38.1" smashed="yes"/>
@@ -11031,11 +11031,11 @@ since we have no via the current is less
 <instance part="P+103" gate="1" x="88.9" y="170.18" smashed="yes">
 <attribute name="VALUE" x="91.44" y="173.482" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$25" gate="G$1" x="373.38" y="256.54" smashed="yes"/>
-<instance part="U$29" gate="G$1" x="373.38" y="251.46" smashed="yes"/>
-<instance part="U$19" gate="G$1" x="373.38" y="246.38" smashed="yes"/>
-<instance part="U$16" gate="G$1" x="373.38" y="241.3" smashed="yes"/>
-<instance part="U$30" gate="G$1" x="373.38" y="236.22" smashed="yes"/>
+<instance part="U$25" gate="G$1" x="340.36" y="228.6" smashed="yes"/>
+<instance part="U$29" gate="G$1" x="340.36" y="223.52" smashed="yes"/>
+<instance part="U$19" gate="G$1" x="340.36" y="218.44" smashed="yes"/>
+<instance part="U$16" gate="G$1" x="340.36" y="213.36" smashed="yes"/>
+<instance part="U$30" gate="G$1" x="340.36" y="208.28" smashed="yes"/>
 <instance part="U$13" gate="G$1" x="373.38" y="228.6" smashed="yes"/>
 <instance part="U$14" gate="G$1" x="373.38" y="223.52" smashed="yes"/>
 <instance part="U$12" gate="G$1" x="373.38" y="218.44" smashed="yes"/>
@@ -11043,8 +11043,8 @@ since we have no via the current is less
 <instance part="U$18" gate="G$1" x="403.86" y="223.52" smashed="yes"/>
 <instance part="U$23" gate="G$1" x="403.86" y="218.44" smashed="yes"/>
 <instance part="U$28" gate="G$1" x="403.86" y="213.36" smashed="yes"/>
-<instance part="GND46" gate="1" x="368.3" y="233.68" smashed="yes">
-<attribute name="VALUE" x="365.76" y="231.14" size="1.778" layer="96"/>
+<instance part="GND46" gate="1" x="335.28" y="205.74" smashed="yes">
+<attribute name="VALUE" x="332.74" y="203.2" size="1.778" layer="96"/>
 </instance>
 <instance part="U$20" gate="G$1" x="403.86" y="208.28" smashed="yes"/>
 <instance part="GND49" gate="1" x="398.78" y="205.74" smashed="yes">
@@ -11319,7 +11319,7 @@ since we have no via the current is less
 </segment>
 <segment>
 <pinref part="U$30" gate="G$1" pin="P$1"/>
-<wire x1="370.84" y1="236.22" x2="368.3" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="208.28" x2="335.28" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND46" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -11534,8 +11534,8 @@ since we have no via the current is less
 </segment>
 <segment>
 <pinref part="U$25" gate="G$1" pin="P$1"/>
-<wire x1="370.84" y1="256.54" x2="368.3" y2="256.54" width="0.1524" layer="91"/>
-<label x="368.3" y="256.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="337.82" y1="228.6" x2="335.28" y2="228.6" width="0.1524" layer="91"/>
+<label x="335.28" y="228.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COOLINGSENSE" class="0">
@@ -11546,8 +11546,8 @@ since we have no via the current is less
 </segment>
 <segment>
 <pinref part="U$19" gate="G$1" pin="P$1"/>
-<wire x1="370.84" y1="246.38" x2="368.3" y2="246.38" width="0.1524" layer="91"/>
-<label x="368.3" y="246.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="337.82" y1="218.44" x2="335.28" y2="218.44" width="0.1524" layer="91"/>
+<label x="335.28" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="175.26" x2="162.56" y2="175.26" width="0.1524" layer="91"/>
@@ -11895,8 +11895,8 @@ since we have no via the current is less
 </segment>
 <segment>
 <pinref part="U$29" gate="G$1" pin="P$1"/>
-<wire x1="370.84" y1="251.46" x2="368.3" y2="251.46" width="0.1524" layer="91"/>
-<label x="368.3" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="337.82" y1="223.52" x2="335.28" y2="223.52" width="0.1524" layer="91"/>
+<label x="335.28" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$104" gate="G$1" pin="VINA+"/>
@@ -12047,8 +12047,8 @@ since we have no via the current is less
 </segment>
 <segment>
 <pinref part="U$16" gate="G$1" pin="P$1"/>
-<wire x1="370.84" y1="241.3" x2="368.3" y2="241.3" width="0.1524" layer="91"/>
-<label x="368.3" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="337.82" y1="213.36" x2="335.28" y2="213.36" width="0.1524" layer="91"/>
+<label x="335.28" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$107" gate="G$1" pin="VINB+"/>
@@ -12167,7 +12167,7 @@ only one per signal on
 <text x="33.02" y="254" size="1.778" layer="97">Place note on PCB</text>
 <text x="152.4" y="68.58" size="1.778" layer="97">Using Teensy 3.3V as enable signal</text>
 <text x="289.56" y="208.28" size="1.778" layer="91">680 Hz max</text>
-<text x="246.38" y="124.46" size="1.778" layer="91">don't need resistor between ADC and TXB
+<text x="246.38" y="124.46" size="1.778" layer="97">don't need resistor between ADC and TXB
 MCP has a rise time of 100 ns
 slew rate of 0.05 V/ns
 the capacitance is 10 pF with a via -&gt; current of 0.05 mA
