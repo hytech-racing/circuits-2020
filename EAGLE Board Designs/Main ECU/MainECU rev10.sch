@@ -7693,7 +7693,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <text x="69.85" y="196.85" size="1.016" layer="95">CANH for
 dash</text>
 <text x="73.914" y="186.436" size="1.016" layer="95">Pedals 5V</text>
-<text x="281.94" y="22.86" size="2.54" layer="97">Leonid Pozdneev</text>
+<text x="281.94" y="22.86" size="2.54" layer="97">Ethan Weinstock</text>
 <text x="347.98" y="15.24" size="2.54" layer="97">Board power distribution, connectors, and I/O.</text>
 <text x="15.24" y="215.9" size="1.27" layer="97">need 6 for wheel speed
 3 for break
@@ -9397,7 +9397,7 @@ wheelspeed</text>
 <sheet>
 <description>Shutdown Circuitry</description>
 <plain>
-<text x="284.48" y="22.86" size="2.54" layer="97">Leonid Pozdneev</text>
+<text x="284.48" y="22.86" size="2.54" layer="97">Ethan Weinstock</text>
 <text x="347.98" y="15.24" size="2.54" layer="97">Shutdown ciruitry</text>
 <text x="83.82" y="139.7" size="1.778" layer="91" rot="R90">fix values for new analog circuitry
 4.29 V</text>
@@ -10745,7 +10745,7 @@ wheelspeed</text>
 <text x="289.56" y="241.3" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="289.56" y="193.04" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="76.2" y="152.4" size="1.778" layer="97" rot="R180">Alternate stocked: NCP18XV103J0SRB</text>
-<text x="281.94" y="22.86" size="2.54" layer="97">Leonid Pozdneev</text>
+<text x="281.94" y="22.86" size="2.54" layer="97">Ethan Weinstock</text>
 <text x="347.98" y="15.24" size="2.54" layer="97">Telemetry system circuitry.</text>
 <text x="289.56" y="152.4" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="256.54" y="81.28" size="1.778" layer="97">don't need resistor between ADC and TXB
@@ -12176,7 +12176,7 @@ only one per signal on
 <text x="195.58" y="195.58" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="195.58" y="231.14" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="195.58" y="160.02" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
-<text x="281.94" y="22.86" size="2.54" layer="97">Leonid Pozdneev</text>
+<text x="281.94" y="22.86" size="2.54" layer="97">Ethan Weinstock</text>
 <text x="347.98" y="15.24" size="2.54" layer="97">Main microcontroller and analog signals circuitry.</text>
 <text x="195.58" y="124.46" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="33.02" y="254" size="1.778" layer="97">Place note on PCB</text>
