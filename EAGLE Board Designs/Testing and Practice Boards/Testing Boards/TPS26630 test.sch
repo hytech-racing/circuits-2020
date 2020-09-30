@@ -728,6 +728,10 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,24.7227,48.5496,JP1,,,,,"/>
+<approved hash="113,1,117.517,45.4304,JP2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
