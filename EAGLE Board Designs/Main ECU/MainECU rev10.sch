@@ -10343,7 +10343,7 @@ wheelspeed</text>
 <wire x1="198.12" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$104" class="0">
+<net name="CURRENT_HIGH_DIV" class="0">
 <segment>
 <pinref part="R45" gate="G$1" pin="1"/>
 <pinref part="R46" gate="G$1" pin="2"/>
@@ -10354,6 +10354,7 @@ wheelspeed</text>
 <wire x1="99.06" y1="154.94" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U$27" gate="G$1" pin="VIN-"/>
 <wire x1="99.06" y1="132.08" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
+<label x="91.44" y="154.94" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$107" class="0">
@@ -10378,7 +10379,7 @@ wheelspeed</text>
 <pinref part="U$6" gate="G$1" pin="VIN+"/>
 </segment>
 </net>
-<net name="N$110" class="0">
+<net name="CAP_HIGH_DIV" class="0">
 <segment>
 <pinref part="R32" gate="G$1" pin="1"/>
 <pinref part="R31" gate="G$1" pin="2"/>
@@ -10389,6 +10390,7 @@ wheelspeed</text>
 <junction x="241.3" y="99.06"/>
 <wire x1="259.08" y1="78.74" x2="251.46" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="VIN-"/>
+<label x="251.46" y="81.28" size="1.27" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$106" class="0">
@@ -10543,7 +10545,7 @@ wheelspeed</text>
 <wire x1="383.54" y1="167.64" x2="381" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="CURRENT_LOW_DIV" class="0">
 <segment>
 <pinref part="U$26" gate="G$1" pin="VIN+"/>
 <pinref part="R42" gate="G$1" pin="2"/>
@@ -10554,6 +10556,7 @@ wheelspeed</text>
 <wire x1="91.44" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="106.68" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="101.6" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
+<label x="91.44" y="104.14" size="1.27" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SIGNAL_BRAKE1" class="0">
@@ -10576,7 +10579,7 @@ wheelspeed</text>
 <wire x1="101.6" y1="55.88" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="BRAKE_LOW_DIV" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="VIN+"/>
 <wire x1="104.14" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
@@ -10585,6 +10588,7 @@ wheelspeed</text>
 <pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="25.4" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
 <junction x="91.44" y="25.4"/>
+<label x="91.44" y="25.4" size="1.27" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$5" class="0">
