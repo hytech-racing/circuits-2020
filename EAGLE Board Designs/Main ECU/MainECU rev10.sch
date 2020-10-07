@@ -7722,6 +7722,7 @@ wheelspeed</text>
 <text x="52.07" y="247.65" size="1.016" layer="95">12V for
 wheelspeed</text>
 <text x="218.44" y="187.96" size="1.778" layer="97">capacitor to reduce noise when CAN switches layers</text>
+<text x="58.42" y="226.06" size="1.778" layer="97">pedals</text>
 </plain>
 <instances>
 <instance part="X100" gate="-13" x="48.26" y="231.14" smashed="yes" rot="MR0">
@@ -13870,9 +13871,9 @@ since we have no via the current is less
 <label x="248.92" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
-<label x="121.92" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="D2"/>
+<wire x1="124.46" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<label x="121.92" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="D8(TX3)"/>
 </segment>
 </net>
 <net name="WS4_READ" class="0">
@@ -13934,9 +13935,9 @@ since we have no via the current is less
 <label x="279.4" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
-<label x="121.92" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="D8(TX3)"/>
+<wire x1="124.46" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
+<label x="121.92" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="D2"/>
 </segment>
 </net>
 <net name="BRAKE_LIGHT_CTRL" class="0">
