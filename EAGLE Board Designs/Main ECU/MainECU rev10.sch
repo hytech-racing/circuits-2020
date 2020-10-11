@@ -7198,7 +7198,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="D112" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D110" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="GND110" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20"/>
+<part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="68"/>
 <part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="68"/>
 <part name="U$3" library="HyTechDevices" deviceset="RT424009" device=""/>
 <part name="R33" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="680k"/>
@@ -7469,10 +7469,10 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R108" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1130"/>
 <part name="P+37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND16" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="U$25" library="HyTechDevices" deviceset="SN74LVC1G32" device="&quot;"/>
+<part name="U$25" library="HyTechDevices" deviceset="SN74LVC1G32" device="&quot;" value="SN74LVC1G32"/>
 <part name="GND11" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U$18" library="HyTechDevices" deviceset="SN74LVC1G32" device="&quot;"/>
+<part name="U$18" library="HyTechDevices" deviceset="SN74LVC1G32" device="&quot;" value="SN74LVC1G32"/>
 <part name="GND12" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4"/>
@@ -7646,7 +7646,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="OKHS" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="200"/>
 <part name="P+68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="698"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="866"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="976"/>
 <part name="BRAKE" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
 <part name="R35" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="219"/>

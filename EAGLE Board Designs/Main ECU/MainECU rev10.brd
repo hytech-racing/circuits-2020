@@ -2266,7 +2266,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="20.216" y="97.1296" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="20.3581" y="93.6855" size="0.4064" layer="28" font="vector" rot="MR90"/>
 </element>
-<element name="R29" library="HyTechDevices" package="0603-RES" value="20" x="33.4875" y="41.0464" smashed="yes">
+<element name="R29" library="HyTechDevices" package="0603-RES" value="68" x="33.4875" y="41.0464" smashed="yes">
 <attribute name="NAME" x="34.9353" y="42.88" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="32.4715" y="39.9034" size="0.4064" layer="27" font="vector"/>
 </element>
@@ -2429,7 +2429,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="15.7226" y="39.2468" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="15.875" y="41.148" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R11" library="HyTechDevices" package="0603-RES" value="698" x="14.859" y="24.765" smashed="yes" rot="R180">
+<element name="R11" library="HyTechDevices" package="0603-RES" value="866" x="14.859" y="24.765" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.7226" y="24.0068" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="14.859" y="25.7048" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -2635,10 +2635,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.451" y="19.558" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="52.451" y="20.32" size="0.4064" layer="28" font="vector" rot="MR90"/>
 </element>
-<element name="U$25" library="HyTechDevices" package="SOT-23-5" value="SN74LVC1G32&quot;" x="53.34" y="25.9842" smashed="yes" rot="R180">
+<element name="U$25" library="HyTechDevices" package="SOT-23-5" value="SN74LVC1G32" x="53.34" y="25.9842" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.3654" y="26.0572" size="0.8128" layer="25" font="vector" rot="R90" align="center"/>
 </element>
-<element name="U$18" library="HyTechDevices" package="SOT-23-5" value="SN74LVC1G32&quot;" x="50.292" y="34.798" smashed="yes" rot="R180">
+<element name="U$18" library="HyTechDevices" package="SOT-23-5" value="SN74LVC1G32" x="50.292" y="34.798" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.3174" y="34.871" size="0.8128" layer="25" font="vector" rot="R90" align="center"/>
 </element>
 <element name="X1" library="HyTechDevices" package="NANO-FIT_VERTICAL-4" value="CONNECTOR-4NANO-FIT-VERTICAL-4" x="64.77" y="30.226" smashed="yes" rot="R90"/>
