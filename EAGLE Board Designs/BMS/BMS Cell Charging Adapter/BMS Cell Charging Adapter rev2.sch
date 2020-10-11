@@ -633,10 +633,6 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <text x="-7.62" y="3.175" size="0.8128" layer="25" font="vector" ratio="15">&gt;Name</text>
 <text x="-5.969" y="-0.381" size="0.8128" layer="21" font="vector" ratio="15">&gt;Value</text>
 </package>
-<package name="KEYSTONE5222">
-<smd name="P$1" x="0" y="0" dx="15.875" dy="17.78" layer="1"/>
-<text x="0" y="-6.604" size="0.508" layer="25" align="top-center">&gt;NAME</text>
-</package>
 <package name="LLS2V221MELZ">
 <circle x="0" y="0" radius="11" width="0.127" layer="21"/>
 <pad name="P$1" x="-5" y="0" drill="2" shape="long" rot="R90"/>
@@ -833,6 +829,15 @@ MX150L™ Vertical PCB Header</description>
 <pad name="9" x="34.7218" y="-2.921" drill="1.524"/>
 <pad name="5" x="40.5638" y="2.921" drill="1.524"/>
 <pad name="10" x="40.5638" y="-2.921" drill="1.524"/>
+</package>
+<package name="KEYSTONE5222">
+<smd name="P$1" x="0" y="0" dx="11.303" dy="13.208" layer="1"/>
+</package>
+<package name="CONTACT_SPRING">
+<pad name="P$1" x="0" y="0" drill="0.51" diameter="1.83" rot="R90"/>
+<circle x="0" y="0" radius="1.395" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="40"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -1215,6 +1220,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </technologies>
 </device>
 <device name="" package="KEYSTONE5203">
+<connects>
+<connect gate="G$1" pin="S" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SPRING_CONTACT" package="CONTACT_SPRING">
 <connects>
 <connect gate="G$1" pin="S" pad="P$1"/>
 </connects>
@@ -3962,25 +3975,25 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="CELL9" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL8" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL7" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL6" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL4" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL5" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL3" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL2" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL1" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL0" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL18" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL17" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL16" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL15" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL13" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL14" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL12" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL11" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL10" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
+<part name="CELL9" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL8" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL7" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL6" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL4" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL5" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL3" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL2" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL1" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL0" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL18" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL17" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL16" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL15" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL13" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL14" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL12" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL11" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL10" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-10" device=""/>
 <part name="X2" library="HyTechDevices" deviceset="CONNECTOR-10" device=""/>
 <part name="U$1" library="HyTechFrames" deviceset="FRAME_A_L" device=""/>
