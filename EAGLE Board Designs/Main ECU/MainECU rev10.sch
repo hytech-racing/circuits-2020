@@ -7199,7 +7199,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="D110" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="GND110" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20"/>
-<part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20"/>
+<part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="68"/>
 <part name="U$3" library="HyTechDevices" deviceset="RT424009" device=""/>
 <part name="R33" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="680k"/>
 <part name="GND115" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7235,7 +7235,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+80" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="5V" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
-<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="270"/>
+<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="215"/>
 <part name="GND96" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+81" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="5ASHUTDOWNFUSE1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE"/>
@@ -7592,7 +7592,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C114" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="3V3" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
-<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="270"/>
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="30.1"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -7640,36 +7640,36 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="LATCH" library="HyTechDevices" deviceset="LED" device="-0805" value="White"/>
 <part name="BMS" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
 <part name="B" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20k"/>
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="909"/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="C" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
 <part name="OKHS" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="5.1k"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="200"/>
 <part name="P+68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="698"/>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="976"/>
 <part name="BRAKE" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
-<part name="R35" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
-<part name="R34" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
+<part name="R35" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="219"/>
+<part name="R34" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="324"/>
 <part name="D" library="HyTechDevices" deviceset="LED" device="-0805" value="Orange"/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="CURRENT" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
 <part name="BSPD" library="HyTechDevices" deviceset="LED" device="-0805" value="Orange"/>
-<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="976"/>
 <part name="E" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
-<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
+<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="SWOK" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20k"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="976"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="215"/>
 <part name="WDGT" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
 <part name="CUOK" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
-<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="147"/>
 <part name="A" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
-<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="909"/>
 <part name="GND70" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="INV" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
-<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.2k"/>
+<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="30.1"/>
 <part name="S1" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD"/>
 <part name="GND97" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
