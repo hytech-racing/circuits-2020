@@ -4692,7 +4692,9 @@ Designed by Mohammed Arif</text>
 <rectangle x1="96.161" y1="143.7038" x2="96.669" y2="143.7546" layer="51" rot="R90"/>
 <rectangle x1="95.7546" y1="146.701" x2="97.0754" y2="146.7518" layer="51" rot="R90"/>
 <dimension x1="0" y1="271.24" x2="0" y2="-27.6" x3="-22.352" y3="121.82" textsize="1.778" layer="47" unit="inch"/>
-<hole x="52.07" y="137.16" drill="0.35"/>
+<hole x="58.68" y="130.948" drill="4.4958"/>
+<hole x="58.68" y="180.224" drill="4.4958"/>
+<hole x="58.68" y="81.672" drill="4.4958"/>
 </plain>
 <libraries>
 <library name="HyTechDevices">
