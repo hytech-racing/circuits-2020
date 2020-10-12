@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -135,6 +135,7 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="HVSpacing" color="12" fill="1" visible="no" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
@@ -643,10 +644,6 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <smd name="1" x="-0.675" y="-1" dx="0.8" dy="0.9" layer="1"/>
 <smd name="3" x="0" y="1" dx="0.8" dy="0.9" layer="1"/>
 </package>
-<package name="KEYSTONE5222">
-<smd name="P$1" x="0" y="0" dx="15.875" dy="17.78" layer="1"/>
-<text x="0" y="-6.604" size="0.508" layer="25" align="top-center">&gt;NAME</text>
-</package>
 <package name="LLS2V221MELZ">
 <circle x="0" y="0" radius="11" width="0.127" layer="21"/>
 <pad name="P$1" x="-5" y="0" drill="2" shape="long" rot="R90"/>
@@ -862,6 +859,15 @@ Source: http://www.molex.com</description>
 </package>
 <package name="KEYSTONE5203">
 <smd name="P$1" x="0" y="0" dx="9" dy="9" layer="1"/>
+</package>
+<package name="KEYSTONE5222">
+<smd name="P$1" x="0" y="0" dx="11.303" dy="13.208" layer="1"/>
+</package>
+<package name="CONTACT_SPRING">
+<pad name="P$1" x="0" y="0" drill="0.51" diameter="1.83" rot="R90"/>
+<circle x="0" y="0" radius="1.395" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="40"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -1315,6 +1321,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <technology name=""/>
 </technologies>
 </device>
+<device name="_SPRING_CONTACT" package="CONTACT_SPRING">
+<connects>
+<connect gate="G$1" pin="S" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="LED" prefix="LED" uservalue="yes">
@@ -1702,25 +1716,25 @@ In this library the device names are the same as the pin names of the symbols, t
 </module>
 </modules>
 <parts>
-<part name="CELL9" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL8" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL7" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL6" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL4" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL5" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL3" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL2" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL1" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL0" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL18" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL17" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL16" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL15" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL13" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL14" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL12" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL11" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
-<part name="CELL10" library="HyTechDevices" deviceset="BATTERY_SPRING" device="" value="BATTERY_SPRING"/>
+<part name="CELL9" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL8" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL7" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL6" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL4" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL5" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL3" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL2" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL1" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL0" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL18" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL17" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL16" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL15" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL13" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL14" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL12" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL11" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
+<part name="CELL10" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222"/>
 <part name="A_LOWER_OUTPUT" library="HyTechDevices" deviceset="CONNECTOR-14" device=""/>
 <part name="A_LOWER_INPUT" library="HyTechDevices" deviceset="CONNECTOR-14" device=""/>
 <part name="A_UPPER_OUTPUT" library="HyTechDevices" deviceset="CONNECTOR-14" device="NANO-FIT_VERTICAL-14"/>
