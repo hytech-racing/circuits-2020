@@ -2608,8 +2608,8 @@ Designed by Mohammed Arif</text>
 <hole x="5" y="98.986" drill="4.4958"/>
 <hole x="5" y="69.046" drill="4.4958"/>
 <hole x="5" y="11.666" drill="4.4958"/>
-<hole x="103.65" y="38.114" drill="4.4958"/>
-<hole x="103.65" y="88.986" drill="4.4958"/>
+<hole x="101.65" y="38.114" drill="4.4958"/>
+<hole x="101.65" y="88.986" drill="4.4958"/>
 <hole x="103.65" y="158.986" drill="4.4958"/>
 <hole x="103.65" y="201.994" drill="4.4958"/>
 <wire x1="2" y1="-1.524" x2="93.3" y2="-1.524" width="1.27" layer="51"/>
