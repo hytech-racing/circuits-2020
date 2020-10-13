@@ -5871,11 +5871,11 @@ general purpose rectifier</description>
 <attribute name="NAME" x="110.49" y="196.6214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="110.49" y="201.422" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R14" gate="A" x="60.96" y="104.14" smashed="yes" rot="R270">
-<attribute name="NAME" x="62.484" y="104.14" size="1.778" layer="95" rot="R270" align="bottom-center"/>
+<instance part="R14" gate="A" x="63.5" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="65.024" y="124.46" size="1.778" layer="95" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="R14" gate="B" x="60.96" y="121.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="62.484" y="121.92" size="1.778" layer="95" rot="R270" align="bottom-center"/>
+<instance part="R14" gate="B" x="63.5" y="106.68" smashed="yes" rot="R270">
+<attribute name="NAME" x="65.024" y="106.68" size="1.778" layer="95" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="R14" gate="C" x="60.96" y="86.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.484" y="86.36" size="1.778" layer="95" rot="R270" align="bottom-center"/>
@@ -6134,19 +6134,8 @@ general purpose rectifier</description>
 <junction x="71.12" y="63.5"/>
 <junction x="71.12" y="81.28"/>
 <wire x1="71.12" y1="81.28" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R14" gate="B" pin="2"/>
-<wire x1="71.12" y1="99.06" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="R14" gate="A" pin="2"/>
-<wire x1="60.96" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
-<junction x="71.12" y="99.06"/>
-<pinref part="Q6" gate="G$1" pin="S"/>
-<wire x1="53.34" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
-<junction x="60.96" y="116.84"/>
-<pinref part="Q5" gate="G$1" pin="S"/>
-<wire x1="60.96" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
-<junction x="60.96" y="99.06"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
+<wire x1="71.12" y1="99.06" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
 <junction x="60.96" y="81.28"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
@@ -6156,6 +6145,18 @@ general purpose rectifier</description>
 <wire x1="60.96" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
 <junction x="60.96" y="45.72"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
+<wire x1="53.34" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R14" gate="A" pin="2"/>
+<wire x1="63.5" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="119.38" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
+<wire x1="53.34" y1="99.06" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<junction x="71.12" y="99.06"/>
+<pinref part="R14" gate="B" pin="2"/>
+<wire x1="63.5" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="101.6" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<junction x="63.5" y="99.06"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
@@ -6521,8 +6522,9 @@ general purpose rectifier</description>
 <wire x1="53.34" y1="127" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="129.54" x2="45.72" y2="129.54" width="0.1524" layer="91"/>
 <label x="45.72" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R14" gate="B" pin="1"/>
-<wire x1="60.96" y1="127" x2="53.34" y2="127" width="0.1524" layer="91"/>
+<pinref part="R14" gate="A" pin="1"/>
+<wire x1="53.34" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
+<junction x="53.34" y="129.54"/>
 </segment>
 <segment>
 <pinref part="Z2" gate="G$1" pin="C3"/>
@@ -6670,8 +6672,9 @@ general purpose rectifier</description>
 <wire x1="53.34" y1="109.22" x2="53.34" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
 <label x="45.72" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R14" gate="A" pin="1"/>
-<wire x1="60.96" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R14" gate="B" pin="1"/>
+<wire x1="53.34" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
+<junction x="53.34" y="111.76"/>
 </segment>
 <segment>
 <pinref part="Z2" gate="G$1" pin="C2"/>
