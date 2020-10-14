@@ -173,10 +173,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="24.13" y1="25.4" x2="-2.21" y2="25.4" width="0" layer="20"/>
+<wire x1="25.4" y1="25.4" x2="-2.21" y2="25.4" width="0" layer="20"/>
 <wire x1="-2.21" y1="25.4" x2="-2.21" y2="87.62" width="0" layer="20"/>
-<wire x1="-2.21" y1="87.62" x2="24.13" y2="87.62" width="0" layer="20"/>
-<wire x1="24.13" y1="87.62" x2="24.13" y2="25.4" width="0" layer="20"/>
+<wire x1="-2.21" y1="87.62" x2="25.4" y2="87.62" width="0" layer="20"/>
+<wire x1="25.4" y1="87.62" x2="25.4" y2="25.4" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="HyTechDevices">
@@ -870,6 +870,10 @@ design rules under a new name.</description>
 <wire x1="10.29" y1="73.66" x2="10.29" y2="58.42" width="0.508" layer="16"/>
 <wire x1="5.08" y1="62.23" x2="6.48" y2="62.23" width="0.508" layer="16"/>
 <wire x1="6.48" y1="62.23" x2="10.29" y2="58.42" width="0.508" layer="16"/>
+<wire x1="10.29" y1="58.42" x2="10.29" y2="54.61" width="0.508" layer="16"/>
+<wire x1="10.29" y1="54.61" x2="10.29" y2="50.8" width="0.508" layer="16"/>
+<wire x1="10.29" y1="50.8" x2="10.29" y2="46.99" width="0.508" layer="16"/>
+<wire x1="10.29" y1="46.99" x2="10.29" y2="43.18" width="0.508" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
