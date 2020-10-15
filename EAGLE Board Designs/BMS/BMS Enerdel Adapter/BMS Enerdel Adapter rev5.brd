@@ -4388,7 +4388,7 @@ DO NOT MIX</text>
 <dimension x1="0" y1="-50.968" x2="95.3" y2="-50.968" x3="47.65" y3="-55.88" textsize="2.54" layer="47"/>
 <dimension x1="0" y1="280.384" x2="0" y2="-50.968" x3="-8.128" y3="114.708" textsize="2.54" layer="47"/>
 <dimension x1="108" y1="25.4" x2="95.3" y2="25.4" x3="101.65" y3="-55.88" textsize="2.54" layer="47"/>
-<dimension x1="108" y1="25.4" x2="108" y2="221.71" x3="114.808" y3="123.555" textsize="2.54" layer="47"/>
+<dimension x1="108" y1="28.702" x2="108" y2="212.82" x3="114.808" y3="120.761" textsize="2.54" layer="47"/>
 <text x="48.006" y="249.682" size="2.54" layer="52" font="vector" rot="MR180" align="center">DANGER HIGH VOLTAGE</text>
 <hole x="53.848" y="170.688" drill="4.4958"/>
 <hole x="53.848" y="121.412" drill="4.4958"/>
