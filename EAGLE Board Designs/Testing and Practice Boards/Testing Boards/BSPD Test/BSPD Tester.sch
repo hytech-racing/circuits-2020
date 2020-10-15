@@ -696,6 +696,56 @@ MX150L™ Vertical PCB Header</description>
 <text x="-0.635" y="0.635" size="1.016" layer="51" ratio="12">2</text>
 <text x="-3.175" y="0.635" size="1.016" layer="51" ratio="12">3</text>
 </package>
+<package name="SOIC-08">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.908" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.908" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-2.54" y="0" size="0.6096" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2.54" y="0" size="0.6096" layer="27" rot="R270" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<polygon width="0.127" layer="21">
+<vertex x="-1.778" y="-1.016" curve="90"/>
+<vertex x="-1.778" y="-0.762" curve="90"/>
+<vertex x="-2.032" y="-0.762" curve="90"/>
+<vertex x="-2.032" y="-1.016" curve="90"/>
+</polygon>
+</package>
+<package name="DIL08">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -750,6 +800,56 @@ MX150L™ Vertical PCB Header</description>
 <pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="3" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="OPAMP_2_CHANNEL">
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="0" y1="-8.89" x2="12.7" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-8.89" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<text x="0.635" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="0.635" y="-11.43" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VOUTA" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="VINA-" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="VINA+" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="VSS" x="-2.54" y="-7.62" length="short" direction="pas"/>
+<pin name="VINB+" x="15.24" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="VINB-" x="15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="VOUTB" x="15.24" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="VDD" x="15.24" y="0" length="short" direction="pas" rot="R180"/>
+<wire x1="1.016" y1="-1.27" x2="1.016" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-2.54" x2="1.016" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-5.08" x2="1.016" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-6.35" x2="4.572" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-3.81" x2="1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="4.572" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="1.016" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-4.826" x2="1.778" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-5.08" x2="1.778" y2="-5.334" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-5.08" x2="1.524" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.54" x2="2.032" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-5.08" x2="2.032" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="11.684" y1="-8.89" x2="11.684" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="11.684" y1="-7.62" x2="11.684" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="11.684" y1="-5.08" x2="11.684" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="11.684" y1="-3.81" x2="8.128" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="8.128" y1="-6.35" x2="11.684" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-6.35" x2="8.128" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="11.684" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="11.684" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="11.176" y1="-7.62" x2="10.668" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="11.176" y1="-5.08" x2="10.668" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="10.922" y1="-7.366" x2="10.922" y2="-7.874" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-6.35" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1094,6 +1194,44 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="NE5532">
+<description>TI NE5532 Dual Channel Op Amp</description>
+<gates>
+<gate name="G$1" symbol="OPAMP_2_CHANNEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOIC" package="SOIC-08">
+<connects>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VINA+" pad="3"/>
+<connect gate="G$1" pin="VINA-" pad="2"/>
+<connect gate="G$1" pin="VINB+" pad="5"/>
+<connect gate="G$1" pin="VINB-" pad="6"/>
+<connect gate="G$1" pin="VOUTA" pad="1"/>
+<connect gate="G$1" pin="VOUTB" pad="7"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PDIP" package="DIL08">
+<connects>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VINA+" pad="3"/>
+<connect gate="G$1" pin="VINA-" pad="2"/>
+<connect gate="G$1" pin="VINB+" pad="5"/>
+<connect gate="G$1" pin="VINB-" pad="6"/>
+<connect gate="G$1" pin="VOUTA" pad="1"/>
+<connect gate="G$1" pin="VOUTB" pad="7"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1154,6 +1292,7 @@ Source: http://www.molex.com</description>
 <part name="J19" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J20" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J21" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
+<part name="U$1" library="HyTechDevices" deviceset="NE5532" device="SOIC"/>
 </parts>
 <sheets>
 <sheet>
@@ -1292,7 +1431,11 @@ Source: http://www.molex.com</description>
 </instance>
 <instance part="J19" gate="G$1" x="160.02" y="15.24" smashed="yes"/>
 <instance part="J20" gate="G$1" x="353.06" y="86.36" smashed="yes" rot="R90"/>
-<instance part="J21" gate="G$1" x="322.58" y="15.24" smashed="yes"/>
+<instance part="J21" gate="G$1" x="287.02" y="10.16" smashed="yes" rot="R180"/>
+<instance part="U$1" gate="G$1" x="236.22" y="10.16" smashed="yes">
+<attribute name="NAME" x="236.855" y="12.065" size="1.778" layer="95"/>
+<attribute name="VALUE" x="236.855" y="-1.27" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1300,8 +1443,9 @@ Source: http://www.molex.com</description>
 <net name="VCC" class="0">
 <segment>
 <wire x1="154.94" y1="139.7" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="139.7" x2="314.96" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="139.7" x2="251.46" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="251.46" y1="139.7" x2="314.96" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="149.86" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
 <junction x="248.92" y="139.7"/>
 <pinref part="J13" gate="G$1" pin="P$2"/>
@@ -1379,6 +1523,9 @@ Source: http://www.molex.com</description>
 <wire x1="91.44" y1="91.44" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="139.7" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <junction x="154.94" y="109.22"/>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
+<wire x1="251.46" y1="10.16" x2="251.46" y2="139.7" width="0.1524" layer="91"/>
+<junction x="251.46" y="139.7"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-1" pin="S"/>
@@ -1389,14 +1536,12 @@ Source: http://www.molex.com</description>
 </net>
 <net name="CURRENT" class="0">
 <segment>
-<pinref part="X1" gate="-4" pin="S"/>
-<wire x1="231.14" y1="-20.32" x2="228.6" y2="-20.32" width="0.1524" layer="91"/>
-<label x="228.6" y="-20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="165.1" y1="12.7" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
 <label x="172.72" y="12.7" size="1.778" layer="95" xref="yes"/>
 <pinref part="J19" gate="G$1" pin="P$2"/>
+<wire x1="165.1" y1="12.7" x2="223.52" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="12.7" x2="223.52" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VINA+"/>
+<wire x1="223.52" y1="5.08" x2="233.68" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1486,8 +1631,14 @@ Source: http://www.molex.com</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="-10.16" x2="154.94" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-10.16" x2="154.94" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="VSS"/>
+<wire x1="154.94" y1="-30.48" x2="154.94" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="2.54" x2="175.26" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="2.54" x2="175.26" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-30.48" x2="154.94" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="154.94" y="-30.48"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
@@ -1545,14 +1696,14 @@ Source: http://www.molex.com</description>
 </net>
 <net name="BRAKE" class="0">
 <segment>
-<pinref part="X1" gate="-3" pin="S"/>
-<wire x1="231.14" y1="-17.78" x2="228.6" y2="-17.78" width="0.1524" layer="91"/>
-<label x="228.6" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="327.66" y1="12.7" x2="335.28" y2="12.7" width="0.1524" layer="91"/>
-<label x="335.28" y="12.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="281.94" y1="12.7" x2="269.24" y2="12.7" width="0.1524" layer="91"/>
+<label x="269.24" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="J21" gate="G$1" pin="P$2"/>
+<pinref part="U$1" gate="G$1" pin="VINB+"/>
+<wire x1="269.24" y1="12.7" x2="274.32" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="12.7" x2="269.24" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="2.54" x2="251.46" y2="2.54" width="0.1524" layer="91"/>
+<junction x="269.24" y="12.7"/>
 </segment>
 </net>
 <net name="STUPID" class="0">
@@ -1653,9 +1804,39 @@ Source: http://www.molex.com</description>
 <wire x1="350.52" y1="68.58" x2="350.52" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="25.4" x2="340.36" y2="25.4" width="0.1524" layer="91"/>
 <junction x="340.36" y="25.4"/>
-<wire x1="314.96" y1="12.7" x2="322.58" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="12.7" x2="287.02" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="J21" gate="G$1" pin="P$1"/>
 <label x="297.18" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CURRENTOUT" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="VOUTA"/>
+<wire x1="233.68" y1="10.16" x2="231.14" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VINA-"/>
+<wire x1="231.14" y1="10.16" x2="231.14" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="7.62" x2="233.68" y2="7.62" width="0.1524" layer="91"/>
+<label x="228.6" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-4" pin="S"/>
+<wire x1="231.14" y1="-20.32" x2="228.6" y2="-20.32" width="0.1524" layer="91"/>
+<label x="228.6" y="-20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BRAKEOUT" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="VINB-"/>
+<wire x1="251.46" y1="5.08" x2="256.54" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VOUTB"/>
+<wire x1="256.54" y1="5.08" x2="256.54" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="7.62" x2="251.46" y2="7.62" width="0.1524" layer="91"/>
+<label x="259.08" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-3" pin="S"/>
+<wire x1="231.14" y1="-17.78" x2="228.6" y2="-17.78" width="0.1524" layer="91"/>
+<label x="228.6" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
