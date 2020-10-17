@@ -141,6 +141,6 @@ $RECYCLE.BIN/
 .nfs*
 
 # LTSpice files
-.net
-.raw
-.log
+*.net
+*.raw
+*.log
