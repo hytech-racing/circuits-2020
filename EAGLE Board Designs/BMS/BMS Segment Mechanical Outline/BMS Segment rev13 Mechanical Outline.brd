@@ -208,6 +208,10 @@
 <wire x1="95.3" y1="240.252" x2="0" y2="240.252" width="0" layer="20"/>
 <wire x1="0" y1="240.252" x2="0" y2="223.93138125" width="0" layer="20"/>
 <wire x1="0" y1="223.93138125" x2="9" y2="223.93138125" width="0" layer="20"/>
+<dimension x1="95.123" y1="61.595" x2="95.123" y2="0" x3="111.72906875" y3="30.7975" textsize="2.032" layer="47"/>
+<dimension x1="95.25" y1="240.252" x2="95.25" y2="188.722" x3="112.419759375" y3="214.487" textsize="2.032" layer="47"/>
+<dimension x1="0" y1="240.252" x2="0" y2="0" x3="-3.81" y3="120.126" textsize="2.032" layer="47" unit="inch"/>
+<dimension x1="0" y1="240.252" x2="108" y2="240.252" x3="54" y3="247.75574375" textsize="2.032" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="HyTechDevices">
