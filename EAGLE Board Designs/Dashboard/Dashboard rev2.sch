@@ -715,10 +715,10 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="0" y1="0" x2="5.8674" y2="0" width="0.127" layer="25"/>
 <wire x1="5.8674" y1="0" x2="5.8674" y2="3.5814" width="0.127" layer="25"/>
 <wire x1="5.8674" y1="3.5814" x2="0" y2="3.5814" width="0.127" layer="25"/>
-<smd name="P$1" x="0.9017" y="2.9845" dx="1.8034" dy="1.1938" layer="1"/>
-<smd name="P$2" x="4.9657" y="2.9845" dx="1.8034" dy="1.1938" layer="1"/>
-<smd name="P$4" x="0.9017" y="0.5969" dx="1.8034" dy="1.1938" layer="1"/>
-<smd name="P$3" x="4.9657" y="0.5969" dx="1.8034" dy="1.1938" layer="1"/>
+<smd name="GND" x="0.9017" y="2.9845" dx="1.8034" dy="1.1938" layer="1"/>
+<smd name="3" x="4.9657" y="2.9845" dx="1.8034" dy="1.1938" layer="1"/>
+<smd name="1" x="0.9017" y="0.5969" dx="1.8034" dy="1.1938" layer="1"/>
+<smd name="GND2" x="4.9657" y="0.5969" dx="1.8034" dy="1.1938" layer="1"/>
 <text x="-0.254" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.254" y="-1.524" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -1381,7 +1381,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <package name="XP-E2">
 <description>&lt;b&gt;Cree® XLamp® XP-E2 LEDs&lt;/b&gt;&lt;p&gt;
 &lt;a href="https://www.cree.com/led-components/media/documents/XLampXPE2.pdf"&gt;Source: www.cree.com/xlamp .. XLampXP-E2.pdf&lt;/a&gt;</description>
-<circle x="-2.0574" y="-2.0574" radius="0.1524" width="0" layer="51"/>
+<circle x="2.0574" y="2.0574" radius="0.1524" width="0" layer="51"/>
 <circle x="0" y="0" radius="1.25" width="0.2032" layer="51"/>
 <wire x1="-1.778" y1="1.778" x2="1.778" y2="1.778" width="0.2032" layer="51"/>
 <wire x1="1.778" y1="1.778" x2="1.778" y2="-1.778" width="0.2032" layer="51"/>
@@ -1600,8 +1600,8 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="3" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="4" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="GND2" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="CAP">
 <wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
@@ -1805,7 +1805,6 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
 <text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
 <text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
-<pin name="GND1" x="-2.54" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2189,10 +2188,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <devices>
 <device name="" package="ABM3B">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2790,14 +2789,18 @@ general purpose rectifier</description>
 </devices>
 </deviceset>
 <deviceset name="LM340">
+<description>LM340
+&lt;br&gt;&lt;br&gt;
+7.5-35V to 5V SMD regulator
+&lt;br&gt;&lt;br&gt;
+&lt;a href="https://www.mouser.com/ProductDetail/Texas-Instruments/LM340MPX-50-NOPB?qs=sGAEpiMZZMvu8NZDyZ4K0cQiG3JqdhEW"&gt;Mouser link&lt;\a&gt;</description>
 <gates>
 <gate name="G$1" symbol="LM340" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT223">
 <connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="GND1" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
 </connects>
@@ -5980,17 +5983,17 @@ general purpose rectifier</description>
 <wire x1="93.98" y1="109.22" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="106.68" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
 <junction x="88.9" y="106.68"/>
-<pinref part="CR1" gate="G$1" pin="2"/>
+<pinref part="CR1" gate="G$1" pin="GND"/>
 <junction x="88.9" y="124.46"/>
-<pinref part="CR1" gate="G$1" pin="4"/>
+<pinref part="CR1" gate="G$1" pin="GND2"/>
 <junction x="88.9" y="121.92"/>
 </segment>
 <segment>
-<pinref part="CR2" gate="G$1" pin="2"/>
+<pinref part="CR2" gate="G$1" pin="GND"/>
 <wire x1="177.8" y1="172.72" x2="175.26" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="175.26" y1="172.72" x2="175.26" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="CR2" gate="G$1" pin="4"/>
+<pinref part="CR2" gate="G$1" pin="GND2"/>
 <wire x1="175.26" y1="170.18" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="154.94" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="170.18" x2="175.26" y2="170.18" width="0.1524" layer="91"/>
@@ -6008,19 +6011,15 @@ general purpose rectifier</description>
 <segment>
 <wire x1="45.72" y1="154.94" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="149.86" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="154.94" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 <junction x="45.72" y="149.86"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="152.4" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
-<junction x="43.18" y="149.86"/>
+<wire x1="35.56" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="152.4" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="LM340" gate="G$1" pin="GND"/>
-<pinref part="LM340" gate="G$1" pin="GND1"/>
 </segment>
 <segment>
 <pinref part="MCP2551" gate="G$1" pin="8"/>
