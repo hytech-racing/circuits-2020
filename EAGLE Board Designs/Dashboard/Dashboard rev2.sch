@@ -5919,20 +5919,20 @@ general purpose rectifier</description>
 <attribute name="NAME" x="29.972" y="39.116" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="29.972" y="41.275" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D2" gate="1" x="180.34" y="45.72" smashed="yes">
-<attribute name="NAME" x="176.53" y="47.4726" size="1.778" layer="95"/>
-<attribute name="VALUE" x="176.53" y="42.1386" size="1.778" layer="96"/>
+<instance part="D2" gate="1" x="182.88" y="40.64" smashed="yes">
+<attribute name="NAME" x="179.07" y="42.3926" size="1.778" layer="95"/>
+<attribute name="VALUE" x="179.07" y="37.0586" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="195.58" y="45.72" smashed="yes">
-<attribute name="NAME" x="191.77" y="47.2186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="191.77" y="42.418" size="1.778" layer="96"/>
+<instance part="R3" gate="G$1" x="198.12" y="40.64" smashed="yes">
+<attribute name="NAME" x="194.31" y="42.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="194.31" y="37.338" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="213.36" y="45.72" smashed="yes">
-<attribute name="NAME" x="209.55" y="47.2186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="209.55" y="42.418" size="1.778" layer="96"/>
+<instance part="R4" gate="G$1" x="215.9" y="40.64" smashed="yes">
+<attribute name="NAME" x="212.09" y="42.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.09" y="37.338" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="220.98" y="43.18" smashed="yes">
-<attribute name="VALUE" x="218.44" y="40.64" size="1.778" layer="96"/>
+<instance part="GND16" gate="1" x="223.52" y="38.1" smashed="yes">
+<attribute name="VALUE" x="220.98" y="35.56" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="1" x="119.38" y="40.64" smashed="yes">
 <attribute name="NAME" x="115.57" y="42.3926" size="1.778" layer="95"/>
@@ -6160,7 +6160,7 @@ general purpose rectifier</description>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="45.72" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="40.64" x2="220.98" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
@@ -6594,8 +6594,8 @@ general purpose rectifier</description>
 </segment>
 <segment>
 <pinref part="D2" gate="1" pin="A"/>
-<wire x1="175.26" y1="45.72" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
-<label x="172.72" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="177.8" y1="40.64" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
+<label x="175.26" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BUZZER_OUT" class="0">
@@ -6764,19 +6764,19 @@ general purpose rectifier</description>
 <segment>
 <pinref part="D2" gate="1" pin="C"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="40.64" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SSOK_READ" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="45.72" x2="205.74" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="45.72" x2="208.28" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="45.72" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
-<junction x="205.74" y="45.72"/>
-<wire x1="205.74" y1="53.34" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
-<label x="203.2" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="203.2" y1="40.64" x2="208.28" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="40.64" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="40.64" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
+<junction x="208.28" y="40.64"/>
+<wire x1="208.28" y1="48.26" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
+<label x="205.74" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="165.1" x2="248.92" y2="165.1" width="0.1524" layer="91"/>
