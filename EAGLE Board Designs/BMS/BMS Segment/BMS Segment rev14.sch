@@ -1015,7 +1015,7 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 <package name="CONTACT_SPRING">
-<pad name="P$1" x="0" y="0" drill="0.635" diameter="1.8288" rot="R90"/>
+<pad name="P$1" x="0" y="0" drill="0.7366" diameter="1.8288" rot="R90"/>
 <circle x="0" y="0" radius="1.1938" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="1.3208" width="0.127" layer="40"/>
 <circle x="0" y="0" radius="1.3208" width="0.127" layer="39"/>
@@ -4574,8 +4574,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="50.84445" y1="18.38325" x2="51.92395" y2="18.44675" layer="94"/>
 <text x="95.25" y="22.86" locked="yes" size="2.54" layer="94">&gt;DRAWING_NAME</text>
 <text x="148.59" y="2.54" locked="yes" size="2.54" layer="94">&gt;SHEET</text>
-<text x="19.05" y="22.86" locked="yes" size="2.54" layer="94">&gt;ENGINEER</text>
-<text x="66.04" y="10.16" size="2.54" layer="94">&gt;FRAME_DESCRIPTION</text>
 </symbol>
 <symbol name="FRAME_17X11">
 <frame x1="0" y1="0" x2="431.8" y2="279.4" columns="17" rows="11" layer="94" border-bottom="no"/>
@@ -4584,7 +4582,20 @@ In this library the device names are the same as the pin names of the symbols, t
 <devicesets>
 <deviceset name="FRAME_B">
 <description>HyTech Racing Frame (ANSI Size B)
-Prints on US Tabloid Landscape 11" by 17"</description>
+&lt;br&gt;
+Prints on US Tabloid Landscape 11" by 17"
+&lt;br&gt;&lt;br&gt;
+Fill Engineer/Description Fields with Text using the following settings:
+&lt;br&gt;
+Size: 0.1
+&lt;br&gt;
+Ratio: 8%
+&lt;br&gt;
+Line Distance: 50%
+&lt;br&gt;
+Font: Proportional
+&lt;br&gt;
+Layer: 94 Symbol</description>
 <gates>
 <gate name="G$1" symbol="FRAME_17X11" x="0" y="0"/>
 <gate name="G$2" symbol="DOCFIELD" x="262.89" y="0" addlevel="always"/>

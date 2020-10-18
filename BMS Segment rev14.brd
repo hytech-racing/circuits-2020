@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -24,19 +24,19 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="3" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -60,7 +60,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -3949,7 +3949,7 @@ based on rev10 by Yvonne Yeh</text>
 <wire x1="-4.064" y1="-4.3815" x2="-4.064" y2="4.3815" width="0.127" layer="21"/>
 </package>
 <package name="CONTACT_SPRING">
-<pad name="P$1" x="0" y="0" drill="0.7366" diameter="1.8288" rot="R90"/>
+<pad name="P$1" x="0" y="0" drill="0.635" diameter="1.8288" rot="R90"/>
 <circle x="0" y="0" radius="1.1938" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="1.3208" width="0.127" layer="40"/>
 <circle x="0" y="0" radius="1.3208" width="0.127" layer="39"/>
@@ -4370,35 +4370,35 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="VALUE" x="104.564" y="69.709" size="1.016" layer="27" font="vector" align="bottom-center"/>
 </element>
 <element name="CELL9" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="33.528" y="110.49" smashed="yes" rot="MR270">
-<attribute name="NAME" x="28.658" y="110.49" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="23.578" y="110.49" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="U2" library="HyTechDevices" package="LTC6811" value="LTC6811-2" x="94.15" y="68.0452" smashed="yes" rot="R270"/>
 <element name="CELL8" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="73.914" y="107.95" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.464" y="107.95" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="82.544" y="107.95" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL7" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="33.528" y="85.852" smashed="yes" rot="MR270">
-<attribute name="NAME" x="28.658" y="85.725" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="23.578" y="85.725" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL6" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="73.914" y="83.312" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.464" y="83.312" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="82.544" y="83.312" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL4" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="73.914" y="58.674" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.464" y="58.674" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="82.544" y="58.674" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL5" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="33.528" y="61.214" smashed="yes" rot="MR270">
-<attribute name="NAME" x="28.658" y="61.214" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="23.578" y="61.214" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL3" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="33.528" y="36.576" smashed="yes" rot="MR270">
-<attribute name="NAME" x="28.658" y="36.576" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="23.578" y="36.576" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL2" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="73.914" y="34.036" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.464" y="34.036" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="82.544" y="34.036" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL1" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="33.528" y="11.43" smashed="yes" rot="MR270">
-<attribute name="NAME" x="28.658" y="11.43" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="23.578" y="11.43" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL0" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="77.47" y="5.334" smashed="yes" rot="MR270">
-<attribute name="NAME" x="80.55" y="5.334" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="85.63" y="5.334" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="DRAIN1:GATE" library="HyTechDevices" package="0603-RES" value="3K3" x="12.7" y="9.525" smashed="yes" rot="R180">
 <attribute name="TOLERANCE" value="1%" x="12.7" y="9.525" size="2.032" layer="27" font="vector" rot="R180" display="off"/>
@@ -4750,31 +4750,31 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="RATING" value="1A" x="54" y="131.206" size="2.032" layer="27" font="vector" rot="R180" display="off"/>
 </element>
 <element name="CELL18" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="77.47" y="234.95" smashed="yes" rot="MR270">
-<attribute name="NAME" x="80.55" y="234.95" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="85.63" y="234.95" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL17" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="33.528" y="209.296" smashed="yes" rot="MR270">
-<attribute name="NAME" x="28.658" y="209.296" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="23.578" y="209.296" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL16" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="73.914" y="206.756" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.464" y="206.756" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="82.544" y="206.756" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL15" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="33.528" y="184.658" smashed="yes" rot="MR270">
-<attribute name="NAME" x="28.658" y="184.658" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="23.578" y="184.658" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL13" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="33.528" y="160.02" smashed="yes" rot="MR270">
-<attribute name="NAME" x="28.658" y="160.02" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="23.578" y="160.02" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL14" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="73.914" y="182.118" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.464" y="182.118" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="82.544" y="182.118" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL12" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="73.914" y="157.48" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.464" y="157.48" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="82.544" y="157.48" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL11" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="33.528" y="135.382" smashed="yes" rot="MR270">
-<attribute name="NAME" x="28.658" y="135.509" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="23.578" y="135.509" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL10" library="HyTechDevices" package="CONTACT_SPRING" value="BATTERY_SPRING_SPRING_CONTACT" x="73.914" y="132.588" smashed="yes" rot="MR270">
-<attribute name="NAME" x="77.464" y="132.588" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="82.544" y="132.588" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="RU2_A" library="HyTechDevices" package="0603-RES" value="100R" x="67.564" y="190.881" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="67.564" y="190.881" size="2.032" layer="27" font="vector" rot="R90" display="off"/>
