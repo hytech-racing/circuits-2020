@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24,19 +24,19 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="3" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -60,7 +60,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -4128,32 +4128,33 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <clearance class="1" value="3.2004"/>
 </class>
 </classes>
-<designrules name="Advanced Circuits (2 Layer) *">
-<description language="en">&lt;b&gt;Advanced Circuits Design Rules (2 Layers)&lt;/b&gt;
+<designrules name="JLCPCB (2 Layer)">
+<description language="en">&lt;b&gt;JLCPCB Design Rules (2 Layers)&lt;/b&gt;
 &lt;p&gt;
-The default Design Rules have been set to cover a wide range of applications.
+The default Design Rules have been set to cover
+a wide range of applications.
 &lt;p&gt;
-Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Advanced Circuits&lt;/a&gt;
+Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;JLCPCB&lt;/a&gt;
 &lt;/p&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtIsolate" value="1.53mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="5mil"/>
 <param name="mdWirePad" value="5mil"/>
-<param name="mdWireVia" value="5mil"/>
+<param name="mdWireVia" value="8mil"/>
 <param name="mdPadPad" value="5mil"/>
-<param name="mdPadVia" value="5mil"/>
-<param name="mdViaVia" value="5mil"/>
+<param name="mdPadVia" value="10mil"/>
+<param name="mdViaVia" value="20mil"/>
 <param name="mdSmdPad" value="5mil"/>
-<param name="mdSmdVia" value="5mil"/>
+<param name="mdSmdVia" value="10mil"/>
 <param name="mdSmdSmd" value="5mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdCopperDimension" value="0.2mm"/>
+<param name="mdDrill" value="21mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="5mil"/>
-<param name="msDrill" value="10mil"/>
+<param name="msDrill" value="0.3mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -4161,21 +4162,21 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <param name="rvPadBottom" value="0.25"/>
 <param name="rvViaOuter" value="0.25"/>
 <param name="rvViaInner" value="0.25"/>
-<param name="rvMicroViaOuter" value="0.25"/>
-<param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="7mil"/>
+<param name="rvMicroViaOuter" value="0"/>
+<param name="rvMicroViaInner" value="0"/>
+<param name="rlMinPadTop" value="6mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="7mil"/>
+<param name="rlMinPadInner" value="6mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="7mil"/>
+<param name="rlMinPadBottom" value="6mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="5mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="5mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMinViaOuter" value="6mil"/>
+<param name="rlMaxViaOuter" value="12mil"/>
+<param name="rlMinViaInner" value="6mil"/>
+<param name="rlMaxViaInner" value="12mil"/>
+<param name="rlMinMicroViaOuter" value="6mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMinMicroViaInner" value="6mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
@@ -4184,8 +4185,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2.5mil"/>
-<param name="mlMaxStopFrame" value="2.5mil"/>
+<param name="mlMinStopFrame" value="6mil"/>
+<param name="mlMaxStopFrame" value="6mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="30mil"/>
@@ -4196,10 +4197,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkAngle" value="1"/>
+<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="1"/>
+<param name="checkStop" value="0"/>
 <param name="checkValues" value="1"/>
 <param name="checkNames" value="1"/>
 <param name="checkWireStubs" value="1"/>
@@ -4367,35 +4368,35 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="VALUE" x="104.564" y="69.709" size="1.016" layer="27" font="vector" align="bottom-center"/>
 </element>
 <element name="CELL9" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="33.528" y="110.49" smashed="yes" rot="MR270">
-<attribute name="NAME" x="23.578" y="110.49" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="28.658" y="110.49" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="U2" library="HyTechDevices" package="LTC6811" value="LTC6811-2" x="94.15" y="68.0452" smashed="yes" rot="R270"/>
 <element name="CELL8" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="73.914" y="107.95" smashed="yes" rot="MR270">
-<attribute name="NAME" x="82.544" y="107.95" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="77.464" y="107.95" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL7" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="33.528" y="85.852" smashed="yes" rot="MR270">
-<attribute name="NAME" x="23.578" y="85.725" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="28.658" y="85.725" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL6" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="73.914" y="83.312" smashed="yes" rot="MR270">
-<attribute name="NAME" x="82.544" y="83.312" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="77.464" y="83.312" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL4" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="73.914" y="58.674" smashed="yes" rot="MR270">
-<attribute name="NAME" x="82.544" y="58.674" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="77.464" y="58.674" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL5" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="33.528" y="61.214" smashed="yes" rot="MR270">
-<attribute name="NAME" x="23.578" y="61.214" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="28.658" y="61.214" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL3" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="33.528" y="36.576" smashed="yes" rot="MR270">
-<attribute name="NAME" x="23.578" y="36.576" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="28.658" y="36.576" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL2" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="73.914" y="34.036" smashed="yes" rot="MR270">
-<attribute name="NAME" x="82.544" y="34.036" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="77.464" y="34.036" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL1" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="33.528" y="11.43" smashed="yes" rot="MR270">
-<attribute name="NAME" x="23.578" y="11.43" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="28.658" y="11.43" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL0" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="77.47" y="5.334" smashed="yes" rot="MR270">
-<attribute name="NAME" x="85.63" y="5.334" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="80.55" y="5.334" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="DRAIN1:GATE" library="HyTechDevices" package="0603-RES" value="3K3" x="12.7" y="9.525" smashed="yes" rot="R180">
 <attribute name="TOLERANCE" value="1%" x="12.7" y="9.525" size="2.032" layer="27" font="vector" rot="R180" display="off"/>
@@ -4747,31 +4748,31 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="RATING" value="1A" x="54" y="131.206" size="2.032" layer="27" font="vector" rot="R180" display="off"/>
 </element>
 <element name="CELL18" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="77.47" y="234.95" smashed="yes" rot="MR270">
-<attribute name="NAME" x="85.63" y="234.95" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="80.55" y="234.95" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL17" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="33.528" y="209.296" smashed="yes" rot="MR270">
-<attribute name="NAME" x="23.578" y="209.296" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="28.658" y="209.296" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL16" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="73.914" y="206.756" smashed="yes" rot="MR270">
-<attribute name="NAME" x="82.544" y="206.756" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="77.464" y="206.756" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL15" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="33.528" y="184.658" smashed="yes" rot="MR270">
-<attribute name="NAME" x="23.578" y="184.658" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="28.658" y="184.658" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL13" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="33.528" y="160.02" smashed="yes" rot="MR270">
-<attribute name="NAME" x="23.578" y="160.02" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="28.658" y="160.02" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL14" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="73.914" y="182.118" smashed="yes" rot="MR270">
-<attribute name="NAME" x="82.544" y="182.118" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="77.464" y="182.118" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL12" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="73.914" y="157.48" smashed="yes" rot="MR270">
-<attribute name="NAME" x="82.544" y="157.48" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="77.464" y="157.48" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL11" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="33.528" y="135.382" smashed="yes" rot="MR270">
-<attribute name="NAME" x="23.578" y="135.509" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="28.658" y="135.509" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="CELL10" library="HyTechDevices" package="KEYSTONE5222" value="BATTERY_SPRING_KEYSTONE5222" x="73.914" y="132.588" smashed="yes" rot="MR270">
-<attribute name="NAME" x="82.544" y="132.588" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="77.464" y="132.588" size="2.032" layer="28" font="vector" rot="MR270" align="top-center"/>
 </element>
 <element name="RU2_A" library="HyTechDevices" package="0603-RES" value="100R" x="67.564" y="190.881" smashed="yes" rot="R90">
 <attribute name="TOLERANCE" value="1%" x="67.564" y="190.881" size="2.032" layer="27" font="vector" rot="R90" display="off"/>
@@ -5463,12 +5464,12 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="13.55" y1="94.107" x2="14.544" y2="94.107" width="0.254" layer="1"/>
 <wire x1="14.544" y1="94.107" x2="17.719" y2="90.932" width="0.254" layer="1"/>
 <wire x1="93.515" y1="52.183" x2="96.055" y2="49.643" width="0.254" layer="1"/>
-<via x="92.583" y="27.94" extent="1-16" drill="0.381"/>
+<via x="92.583" y="25.4" extent="1-16" drill="0.381"/>
 <wire x1="94.57519375" y1="30.48" x2="100.965" y2="30.48" width="0.254" layer="1"/>
 <wire x1="100.965" y1="30.48" x2="105.77" y2="35.285" width="0.254" layer="1"/>
-<wire x1="92.583" y1="27.94" x2="92.583" y2="28.48780625" width="0.254" layer="1"/>
+<wire x1="92.583" y1="25.4" x2="92.583" y2="28.48780625" width="0.254" layer="1"/>
 <wire x1="92.583" y1="28.48780625" x2="94.57519375" y2="30.48" width="0.254" layer="1"/>
-<wire x1="92.583" y1="27.94" x2="92.583" y2="21.357" width="0.254" layer="16"/>
+<wire x1="92.583" y1="25.4" x2="92.583" y2="21.357" width="0.254" layer="16"/>
 <wire x1="92.583" y1="21.357" x2="87.233" y2="16.007" width="0.254" layer="16"/>
 <wire x1="20.8185" y1="18.5325" x2="20.8185" y2="10.4235" width="0.254" layer="16"/>
 <wire x1="45.08" y1="5.207" x2="55.88" y2="16.007" width="0.254" layer="16"/>
@@ -5584,19 +5585,19 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="DRAIN3:R" pad="2"/>
 <contactref element="DRAIN3:C" pad="1"/>
 <wire x1="90.78" y1="64.2952" x2="87.673" y2="64.2952" width="0.254" layer="1"/>
-<wire x1="87.673" y1="64.2952" x2="84.7139" y2="61.3361" width="0.254" layer="1"/>
-<wire x1="84.7139" y1="61.3361" x2="84.7139" y2="40.3921" width="0.254" layer="1"/>
-<wire x1="90.297" y1="20.484" x2="87.436" y2="17.623" width="0.254" layer="16"/>
+<wire x1="87.673" y1="64.2952" x2="84.0789" y2="60.7011" width="0.254" layer="1"/>
+<wire x1="84.0789" y1="60.7011" x2="84.0789" y2="41.0271" width="0.254" layer="1"/>
+<wire x1="90.297" y1="20.484" x2="87.7535" y2="17.9405" width="0.254" layer="16"/>
 <via x="85.3" y="39.806" extent="1-16" drill="0.381"/>
-<wire x1="85.3" y1="39.806" x2="84.7139" y2="40.3921" width="0.254" layer="1"/>
-<via x="35.6616" y="17.623" extent="1-16" drill="0.381"/>
-<wire x1="35.6616" y1="17.623" x2="87.436" y2="17.623" width="0.254" layer="16"/>
+<wire x1="85.3" y1="39.806" x2="84.0789" y2="41.0271" width="0.254" layer="1"/>
+<via x="35.6616" y="17.9405" extent="1-16" drill="0.381"/>
+<wire x1="35.6616" y1="17.9405" x2="87.7535" y2="17.9405" width="0.254" layer="16"/>
 <wire x1="28.956" y1="18.454" x2="34.036" y2="18.454" width="0.254" layer="1"/>
-<wire x1="34.036" y1="18.454" x2="34.867" y2="17.623" width="0.254" layer="1"/>
-<wire x1="34.867" y1="17.623" x2="35.6616" y2="17.623" width="0.254" layer="1"/>
-<wire x1="85.3" y1="39.806" x2="86.394225" y2="39.806" width="0.254" layer="16"/>
-<wire x1="86.394225" y1="39.806" x2="90.297" y2="35.903225" width="0.254" layer="16"/>
-<wire x1="90.297" y1="35.903225" x2="90.297" y2="20.484" width="0.254" layer="16"/>
+<wire x1="34.036" y1="18.454" x2="34.5495" y2="17.9405" width="0.254" layer="1"/>
+<wire x1="34.5495" y1="17.9405" x2="35.6616" y2="17.9405" width="0.254" layer="1"/>
+<wire x1="85.3" y1="39.806" x2="87.029225" y2="39.806" width="0.254" layer="16"/>
+<wire x1="87.029225" y1="39.806" x2="90.297" y2="36.538225" width="0.254" layer="16"/>
+<wire x1="90.297" y1="36.538225" x2="90.297" y2="20.484" width="0.254" layer="16"/>
 </signal>
 <signal name="S3_B">
 <contactref element="DRAIN3:GATE" pad="2"/>
@@ -5612,8 +5613,9 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="41.6052" y1="16.8656" x2="25.4644" y2="16.8656" width="0.254" layer="1"/>
 <wire x1="25.4644" y1="16.8656" x2="23.876" y2="18.454" width="0.254" layer="1"/>
 <wire x1="90.932" y1="37.004" x2="90.932" y2="20.3822625" width="0.254" layer="16"/>
-<wire x1="85.3" y1="41.006" x2="86.93" y2="41.006" width="0.254" layer="16"/>
-<wire x1="86.93" y1="41.006" x2="90.932" y2="37.004" width="0.254" layer="16"/>
+<wire x1="87.565" y1="40.371" x2="85.935" y2="40.371" width="0.254" layer="16"/>
+<wire x1="85.3" y1="41.006" x2="85.935" y2="40.371" width="0.254" layer="16"/>
+<wire x1="87.565" y1="40.371" x2="90.932" y2="37.004" width="0.254" layer="16"/>
 </signal>
 <signal name="C2_B">
 <contactref element="U2" pad="22"/>
@@ -5931,7 +5933,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="89.6223" y1="35.7505" x2="89.5858" y2="35.787" width="0.254" layer="1"/>
 <via x="91.313" y="45.006" extent="1-16" drill="0.381"/>
 <via x="90.9" y="55.806" extent="1-16" drill="0.381"/>
-<wire x1="90.9" y1="45.72" x2="90.9" y2="55.806" width="0.254" layer="1"/>
+<wire x1="90.9" y1="45.419" x2="90.9" y2="55.806" width="0.254" layer="1"/>
 <wire x1="90.9" y1="55.806" x2="90.9" y2="61.806" width="0.254" layer="16"/>
 <wire x1="90.9" y1="61.806" x2="90.8595" y2="61.8465" width="0.254" layer="16"/>
 <wire x1="43.4079" y1="37.9991" x2="63.5" y2="37.9991" width="0.254" layer="16"/>
@@ -5941,11 +5943,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="91.313" y1="45.006" x2="91.4654" y2="44.8536" width="0.254" layer="16"/>
 <wire x1="91.4654" y1="44.8536" x2="91.4654" y2="35.9918" width="0.254" layer="16"/>
 <wire x1="67.4109" y1="41.91" x2="63.5" y2="37.9991" width="0.254" layer="16"/>
-<wire x1="79.582775" y1="41.91" x2="67.4109" y2="41.91" width="0.254" layer="16"/>
-<wire x1="89.5858" y1="35.787" x2="85.705775" y2="35.787" width="0.254" layer="16"/>
-<wire x1="85.705775" y1="35.787" x2="79.582775" y2="41.91" width="0.254" layer="16"/>
+<wire x1="78.947775" y1="41.91" x2="67.4109" y2="41.91" width="0.254" layer="16"/>
+<wire x1="89.5858" y1="35.787" x2="85.070775" y2="35.787" width="0.254" layer="16"/>
+<wire x1="85.070775" y1="35.787" x2="78.947775" y2="41.91" width="0.254" layer="16"/>
 <wire x1="91.313" y1="45.006" x2="90.9" y2="45.419" width="0.254" layer="1"/>
-<wire x1="90.9" y1="45.419" x2="90.9" y2="45.72" width="0.254" layer="1"/>
 </signal>
 <signal name="C5_B">
 <contactref element="U2" pad="16"/>
@@ -6001,25 +6002,28 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <signal name="S7_B">
 <contactref element="U2" pad="13"/>
 <contactref element="DRAIN6:GATE" pad="2"/>
-<wire x1="90.78" y1="67.7952" x2="86.665" y2="67.7952" width="0.254" layer="1"/>
-<wire x1="86.665" y1="67.7952" x2="82.677" y2="71.7832" width="0.254" layer="1"/>
+<wire x1="83.5801" y1="70.8801" x2="82.677" y2="71.7832" width="0.254" layer="1"/>
 <wire x1="82.677" y1="84.963" x2="82.677" y2="71.7832" width="0.254" layer="1"/>
 <wire x1="81.534" y1="85.178" x2="82.462" y2="85.178" width="0.254" layer="1"/>
 <wire x1="82.462" y1="85.178" x2="82.677" y2="84.963" width="0.254" layer="1"/>
+<wire x1="83.5801" y1="70.0899" x2="83.5801" y2="70.8801" width="0.254" layer="1"/>
+<wire x1="90.78" y1="67.7952" x2="85.8748" y2="67.7952" width="0.254" layer="1"/>
+<wire x1="85.8748" y1="67.7952" x2="83.5801" y2="70.0899" width="0.254" layer="1"/>
 </signal>
 <signal name="C7_B">
 <contactref element="U2" pad="12"/>
 <contactref element="DRAIN6:R" pad="2"/>
 <contactref element="DRAIN6:C" pad="1"/>
-<wire x1="90.78" y1="68.2952" x2="86.957" y2="68.2952" width="0.254" layer="1"/>
-<wire x1="86.957" y1="68.2952" x2="83.312" y2="71.9402" width="0.254" layer="1"/>
-<wire x1="83.312" y1="71.9402" x2="83.312" y2="85.7758" width="0.254" layer="1"/>
+<wire x1="83.312" y1="85.7758" x2="83.312" y2="71.9402" width="0.254" layer="1"/>
 <wire x1="83.312" y1="85.7758" x2="82.2198" y2="86.868" width="0.254" layer="1"/>
-<wire x1="82.2198" y1="86.868" x2="80.01" y2="86.868" width="0.254" layer="1"/>
+<wire x1="82.2198" y1="86.868" x2="78.144" y2="86.868" width="0.254" layer="1"/>
 <wire x1="78.144" y1="86.868" x2="73.064" y2="86.868" width="0.254" layer="1"/>
 <wire x1="71.374" y1="85.178" x2="73.064" y2="86.868" width="0.254" layer="1"/>
 <wire x1="76.454" y1="85.178" x2="78.144" y2="86.868" width="0.254" layer="1"/>
-<wire x1="78.144" y1="86.868" x2="80.01" y2="86.868" width="0.254" layer="1"/>
+<wire x1="83.9761" y1="71.2761" x2="83.312" y2="71.9402" width="0.254" layer="1"/>
+<wire x1="83.9761" y1="70.3289" x2="83.9761" y2="71.2761" width="0.254" layer="1"/>
+<wire x1="90.78" y1="68.2952" x2="86.0098" y2="68.2952" width="0.254" layer="1"/>
+<wire x1="86.0098" y1="68.2952" x2="83.9761" y2="70.3289" width="0.254" layer="1"/>
 </signal>
 <signal name="DRAIN8:GATE">
 <contactref element="DRAIN8:GATE" pad="1"/>
@@ -6030,10 +6034,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <signal name="S8_B">
 <contactref element="U2" pad="11"/>
 <contactref element="DRAIN7:GATE" pad="2"/>
-<wire x1="87.4089125" y1="68.7952" x2="86.24905625" y2="69.95505625" width="0.254" layer="1"/>
-<via x="86.24905625" y="69.95505625" extent="1-16" drill="0.381"/>
-<wire x1="82.55" y1="69.95505625" x2="86.24905625" y2="69.95505625" width="0.254" layer="16"/>
-<wire x1="90.78" y1="68.7952" x2="87.4089125" y2="68.7952" width="0.254" layer="1"/>
+<wire x1="86.7739125" y1="68.7952" x2="85.61405625" y2="69.95505625" width="0.254" layer="1"/>
+<via x="85.61405625" y="69.95505625" extent="1-16" drill="0.381"/>
+<wire x1="82.55" y1="69.95505625" x2="85.61405625" y2="69.95505625" width="0.254" layer="16"/>
+<wire x1="90.78" y1="68.7952" x2="86.7739125" y2="68.7952" width="0.254" layer="1"/>
 <wire x1="26.4541" y1="71.4629" x2="27.96194375" y2="69.95505625" width="0.254" layer="16"/>
 <via x="26.4541" y="71.4629" extent="1-16" drill="0.381"/>
 <wire x1="23.876" y1="71.794" x2="26.123" y2="71.794" width="0.254" layer="1"/>
@@ -6049,10 +6053,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="DRAIN7:C" pad="1"/>
 <wire x1="90.78" y1="69.2952" x2="87.8" y2="69.2952" width="0.254" layer="1"/>
 <wire x1="87.8" y1="69.2952" x2="85.9908" y2="71.1044" width="0.254" layer="1"/>
-<via x="85.8" y="71.1044" extent="1-16" drill="0.381"/>
-<wire x1="85.8" y1="71.1044" x2="82.55" y2="71.1044" width="0.254" layer="16"/>
+<via x="85.165" y="71.1044" extent="1-16" drill="0.381"/>
+<wire x1="85.165" y1="71.1044" x2="82.55" y2="71.1044" width="0.254" layer="16"/>
 <wire x1="37.2364" y1="71.206" x2="37.338" y2="71.1044" width="0.254" layer="16"/>
-<wire x1="85.8" y1="71.1044" x2="85.9908" y2="71.1044" width="0.254" layer="1"/>
+<wire x1="85.165" y1="71.1044" x2="85.9908" y2="71.1044" width="0.254" layer="1"/>
 <via x="37.2364" y="71.206" extent="1-16" drill="0.381"/>
 <wire x1="37.2364" y1="71.206" x2="34.624" y2="71.206" width="0.254" layer="1"/>
 <wire x1="34.624" y1="71.206" x2="34.036" y2="71.794" width="0.254" layer="1"/>
@@ -6355,9 +6359,9 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="U2" pad="7"/>
 <contactref element="DRAIN9:GATE" pad="2"/>
 <wire x1="90.78" y1="70.7952" x2="88.689" y2="70.7952" width="0.254" layer="1"/>
-<wire x1="88.689" y1="70.7952" x2="85.344" y2="74.1402" width="0.254" layer="1"/>
-<wire x1="85.4" y1="90.806" x2="85.344" y2="90.75" width="0.254" layer="1"/>
-<wire x1="85.344" y1="90.75" x2="85.344" y2="74.1402" width="0.254" layer="1"/>
+<wire x1="88.689" y1="70.7952" x2="86.035" y2="73.4492" width="0.254" layer="1"/>
+<wire x1="85.4" y1="90.806" x2="86.035" y2="90.171" width="0.254" layer="1"/>
+<wire x1="86.035" y1="90.171" x2="86.035" y2="73.4492" width="0.254" layer="1"/>
 <via x="41.7905875" y="92.8294125" extent="1-16" drill="0.381"/>
 <wire x1="41.7905875" y1="92.8294125" x2="41.8159875" y2="92.8294125" width="0.254" layer="16"/>
 <wire x1="41.8159875" y1="92.8294125" x2="43.6753" y2="90.9701" width="0.254" layer="16"/>
@@ -6593,12 +6597,12 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="17.504" y1="77.3" x2="17.504" y2="20.295" width="0.254" layer="16"/>
 <wire x1="57.15" y1="15.272" x2="87.466" y2="15.272" width="0.254" layer="16"/>
 <wire x1="87.466" y1="15.272" x2="93.4565" y2="21.2625" width="0.254" layer="16"/>
-<wire x1="93.4565" y1="27.94" x2="93.4565" y2="21.2625" width="0.254" layer="16"/>
+<wire x1="93.4565" y1="26.67" x2="93.4565" y2="21.2625" width="0.254" layer="16"/>
 <wire x1="13.55" y1="80.772" x2="14.032" y2="80.772" width="0.254" layer="1"/>
 <wire x1="14.032" y1="80.772" x2="17.461" y2="77.343" width="0.254" layer="1"/>
-<via x="93.4565" y="27.94" extent="1-16" drill="0.381"/>
+<via x="93.4565" y="26.67" extent="1-16" drill="0.381"/>
 <wire x1="106.278" y1="34.798" x2="101.244225" y2="29.764225" width="0.254" layer="1"/>
-<wire x1="93.4565" y1="28.4325" x2="93.4565" y2="27.94" width="0.254" layer="1"/>
+<wire x1="93.4565" y1="28.4325" x2="93.4565" y2="26.67" width="0.254" layer="1"/>
 <wire x1="101.244225" y1="29.764225" x2="94.788225" y2="29.764225" width="0.254" layer="1"/>
 <wire x1="94.788225" y1="29.764225" x2="93.4565" y2="28.4325" width="0.254" layer="1"/>
 <wire x1="106.278" y1="47.04" x2="106.278" y2="34.798" width="0.254" layer="1"/>
@@ -7012,7 +7016,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="36.0172" y1="153.4668" x2="36.0172" y2="149.4409" width="0.254" layer="16"/>
 <wire x1="36.0172" y1="149.4409" x2="35.4076" y2="148.8313" width="0.254" layer="16"/>
 <via x="35.4076" y="148.8313" extent="1-16" drill="0.381"/>
-<via x="31.2928" y="178.458" extent="1-16" drill="0.381"/>
+<via x="31.2928" y="178.1405" extent="1-16" drill="0.381"/>
 <via x="56.1848" y="197.485" extent="1-16" drill="0.381"/>
 <wire x1="52.705" y1="147.867" x2="51.054" y2="147.867" width="0.254" layer="1"/>
 <wire x1="65.532" y1="191.77" x2="66.4412" y2="190.8608" width="0.254" layer="1"/>
@@ -7033,14 +7037,14 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="56.1848" y1="197.485" x2="56.046" y2="197.6238" width="0.254" layer="1"/>
 <wire x1="56.046" y1="197.6238" x2="56.046" y2="199.009" width="0.254" layer="1"/>
 <wire x1="56.1848" y1="197.485" x2="65.2272" y2="197.485" width="0.254" layer="16"/>
-<wire x1="15.901" y1="181.763" x2="19.206" y2="178.458" width="0.254" layer="16"/>
+<wire x1="15.901" y1="181.763" x2="19.5235" y2="178.1405" width="0.254" layer="16"/>
 <wire x1="11.85" y1="173.863" x2="11.8364" y2="173.8766" width="0.254" layer="1"/>
 <wire x1="11.8364" y1="173.8766" x2="11.8364" y2="177.6984" width="0.254" layer="1"/>
 <wire x1="11.8364" y1="177.6984" x2="15.901" y2="181.763" width="0.254" layer="16"/>
 <wire x1="10.287" y1="206.935" x2="10.287" y2="227.33" width="0.254" layer="16"/>
-<wire x1="19.206" y1="178.458" x2="31.2928" y2="178.458" width="0.254" layer="16"/>
-<wire x1="34.036" y1="180.047" x2="32.447" y2="178.458" width="0.254" layer="1"/>
-<wire x1="32.447" y1="178.458" x2="31.2928" y2="178.458" width="0.254" layer="1"/>
+<wire x1="19.5235" y1="178.1405" x2="31.2928" y2="178.1405" width="0.254" layer="16"/>
+<wire x1="34.036" y1="180.047" x2="32.1295" y2="178.1405" width="0.254" layer="1"/>
+<wire x1="32.1295" y1="178.1405" x2="31.2928" y2="178.1405" width="0.254" layer="1"/>
 <wire x1="98.044" y1="193.89" x2="98.087" y2="193.933" width="0.254" layer="1"/>
 <wire x1="98.087" y1="195.058" x2="98.087" y2="193.933" width="0.254" layer="1"/>
 <wire x1="34.036" y1="126.707" x2="37.377" y2="126.707" width="0.254" layer="1"/>
@@ -7188,12 +7192,12 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <via x="39.37" y="199.898" extent="1-16" drill="0.381"/>
 <wire x1="89.9406" y1="184.5064" x2="91.288" y2="184.5064" width="0.254" layer="1"/>
 <wire x1="86.5886" y1="187.8584" x2="89.9406" y2="184.5064" width="0.254" layer="1"/>
-<via x="86.6064" y="199.8648" extent="1-16" drill="0.381"/>
-<wire x1="86.6064" y1="199.8648" x2="86.5886" y2="199.847" width="0.254" layer="1"/>
-<wire x1="86.5886" y1="199.847" x2="86.5886" y2="187.8584" width="0.254" layer="1"/>
+<via x="85.9714" y="199.8648" extent="1-16" drill="0.381"/>
+<wire x1="85.9714" y1="199.8648" x2="86.5886" y2="199.2476" width="0.254" layer="1"/>
+<wire x1="86.5886" y1="199.2476" x2="86.5886" y2="187.8584" width="0.254" layer="1"/>
 <wire x1="34.036" y1="205.017" x2="39.155" y2="199.898" width="0.254" layer="1"/>
 <wire x1="39.155" y1="199.898" x2="39.37" y2="199.898" width="0.254" layer="1"/>
-<wire x1="86.6064" y1="199.8648" x2="39.4032" y2="199.8648" width="0.254" layer="16"/>
+<wire x1="85.9714" y1="199.8648" x2="39.4032" y2="199.8648" width="0.254" layer="16"/>
 <wire x1="39.4032" y1="199.8648" x2="39.37" y2="199.898" width="0.254" layer="16"/>
 <wire x1="28.956" y1="205.017" x2="34.036" y2="205.017" width="0.254" layer="1"/>
 </signal>
@@ -7203,13 +7207,13 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="91.288" y1="184.0064" x2="89.8056" y2="184.0064" width="0.254" layer="1"/>
 <via x="40.8685875" y="198.9074125" extent="1-16" drill="0.381"/>
 <wire x1="89.8056" y1="184.0064" x2="85.9028" y2="187.9092" width="0.254" layer="1"/>
-<via x="85.9112" y="198.8632" extent="1-16" drill="0.381"/>
-<wire x1="85.9112" y1="198.8632" x2="85.9028" y2="198.8548" width="0.254" layer="1"/>
-<wire x1="85.9028" y1="198.8548" x2="85.9028" y2="187.9092" width="0.254" layer="1"/>
+<via x="85.9112" y="198.2282" extent="1-16" drill="0.381"/>
+<wire x1="85.9112" y1="198.2282" x2="85.9028" y2="198.2198" width="0.254" layer="1"/>
+<wire x1="85.9028" y1="198.2198" x2="85.9028" y2="187.9092" width="0.254" layer="1"/>
 <wire x1="40.8685875" y1="198.9074125" x2="36.7537875" y2="198.9074125" width="0.254" layer="1"/>
 <wire x1="33.02" y1="202.6412" x2="36.7537875" y2="198.9074125" width="0.254" layer="1"/>
-<wire x1="40.8685875" y1="198.9074125" x2="85.8669875" y2="198.9074125" width="0.254" layer="16"/>
-<wire x1="85.8669875" y1="198.9074125" x2="85.9112" y2="198.8632" width="0.254" layer="16"/>
+<wire x1="40.8685875" y1="198.9074125" x2="85.2319875" y2="198.9074125" width="0.254" layer="16"/>
+<wire x1="85.2319875" y1="198.9074125" x2="85.9112" y2="198.2282" width="0.254" layer="16"/>
 <wire x1="23.876" y1="205.017" x2="26.2518" y2="202.6412" width="0.254" layer="1"/>
 <wire x1="26.2518" y1="202.6412" x2="33.02" y2="202.6412" width="0.254" layer="1"/>
 </signal>
@@ -7309,10 +7313,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="U1" pad="19"/>
 <wire x1="91.2458875" y1="179.0485125" x2="91.288" y2="179.0064" width="0.254" layer="1"/>
 <wire x1="44.5516" y1="151.2316" x2="64.77" y2="171.45" width="0.254" layer="16"/>
-<wire x1="79.1056875" y1="171.45" x2="84.98084375" y2="177.32515625" width="0.254" layer="16"/>
-<via x="84.98084375" y="177.32515625" extent="1-16" drill="0.381"/>
-<wire x1="86.700375" y1="179.0485125" x2="84.98084375" y2="177.32898125" width="0.254" layer="1"/>
-<wire x1="84.98084375" y1="177.32515625" x2="84.98084375" y2="177.32898125" width="0.254" layer="1"/>
+<wire x1="79.1056875" y1="171.45" x2="83.71084375" y2="176.05515625" width="0.254" layer="16"/>
+<via x="83.71084375" y="176.05515625" extent="1-16" drill="0.381"/>
+<wire x1="86.700375" y1="179.0485125" x2="83.71084375" y2="176.05898125" width="0.254" layer="1"/>
+<wire x1="83.71084375" y1="176.05515625" x2="83.71084375" y2="176.05898125" width="0.254" layer="1"/>
 <wire x1="86.700375" y1="179.0485125" x2="91.2458875" y2="179.0485125" width="0.254" layer="1"/>
 <wire x1="64.77" y1="171.45" x2="79.1056875" y2="171.45" width="0.254" layer="16"/>
 <wire x1="43.688" y1="150.368" x2="44.5516" y2="151.2316" width="0.254" layer="1"/>
@@ -7538,13 +7542,13 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="U1" pad="37"/>
 <wire x1="98.038" y1="182.0064" x2="98.038" y2="182.5064" width="0.254" layer="1"/>
 <wire x1="98.038" y1="182.5064" x2="97.409" y2="182.5064" width="0.254" layer="1"/>
-<via x="101.60780625" y="182.22520625" extent="1-16" drill="0.381"/>
-<wire x1="101.60780625" y1="182.22520625" x2="102.913" y2="180.9200125" width="0.254" layer="16"/>
+<via x="102.24280625" y="181.59020625" extent="1-16" drill="0.381"/>
+<wire x1="102.24280625" y1="181.59020625" x2="102.913" y2="180.9200125" width="0.254" layer="16"/>
 <wire x1="102.913" y1="180.9200125" x2="102.913" y2="173.144" width="0.254" layer="16"/>
-<wire x1="101.60780625" y1="182.22520625" x2="101.389" y2="182.0064" width="0.254" layer="1"/>
+<wire x1="102.24280625" y1="181.59020625" x2="101.8266125" y2="182.0064" width="0.254" layer="1"/>
 <contactref element="Q1" pad="3"/>
 <contactref element="C8_A" pad="1"/>
-<wire x1="101.389" y1="182.0064" x2="98.038" y2="182.0064" width="0.254" layer="1"/>
+<wire x1="101.8266125" y1="182.0064" x2="98.038" y2="182.0064" width="0.254" layer="1"/>
 <wire x1="96.7757" y1="189.992" x2="96.817" y2="189.9507" width="0.254" layer="1"/>
 <wire x1="96.817" y1="189.9507" x2="96.817" y2="184.6238" width="0.254" layer="1"/>
 <wire x1="96.6615" y1="190.1062" x2="96.7757" y2="189.992" width="0.254" layer="16"/>
@@ -7564,30 +7568,29 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="103.759" y1="193.89" x2="103.759" y2="194.945" width="0.254" layer="1"/>
 <wire x1="92.964" y1="196.215" x2="92.329" y2="195.58" width="0.254" layer="1"/>
 <wire x1="92.964" y1="196.215" x2="93.345" y2="196.215" width="0.254" layer="1"/>
-<wire x1="94.615" y1="196.215" x2="97.79" y2="196.215" width="0.254" layer="1"/>
+<wire x1="94.615" y1="196.215" x2="98.425" y2="196.215" width="0.254" layer="1"/>
 <wire x1="103.759" y1="194.945" x2="102.489" y2="196.215" width="0.254" layer="1"/>
 <wire x1="102.489" y1="196.215" x2="98.425" y2="196.215" width="0.254" layer="1"/>
 <wire x1="92.329" y1="195.58" x2="92.329" y2="193.89" width="0.254" layer="1"/>
 <via x="93.345" y="196.215" extent="1-16" drill="0.381"/>
 <wire x1="93.345" y1="196.215" x2="93.3245" y2="196.1945" width="0.254" layer="16"/>
-<wire x1="93.3245" y1="196.1945" x2="93.3245" y2="195.202275" width="0.254" layer="16"/>
-<wire x1="93.3245" y1="195.202275" x2="96.6615" y2="191.865275" width="0.254" layer="16"/>
-<wire x1="96.6615" y1="191.865275" x2="96.6615" y2="190.1062" width="0.254" layer="16"/>
+<wire x1="93.3245" y1="196.1945" x2="93.3245" y2="194.567275" width="0.254" layer="16"/>
+<wire x1="93.3245" y1="194.567275" x2="96.6615" y2="191.230275" width="0.254" layer="16"/>
+<wire x1="96.6615" y1="191.230275" x2="96.6615" y2="190.1062" width="0.254" layer="16"/>
 <wire x1="96.139" y1="193.89" x2="96.139" y2="194.691" width="0.254" layer="1"/>
 <wire x1="94.615" y1="196.215" x2="93.345" y2="196.215" width="0.254" layer="1"/>
 <wire x1="96.139" y1="194.691" x2="94.615" y2="196.215" width="0.254" layer="1"/>
 <wire x1="99.949" y1="193.89" x2="99.949" y2="194.691" width="0.254" layer="1"/>
-<wire x1="98.425" y1="196.215" x2="97.79" y2="196.215" width="0.254" layer="1"/>
 <wire x1="99.949" y1="194.691" x2="98.425" y2="196.215" width="0.254" layer="1"/>
 </signal>
 <signal name="DRIVE_A">
 <contactref element="U1" pad="38"/>
-<wire x1="98.038" y1="183.0064" x2="99.9942" y2="183.0064" width="0.254" layer="1"/>
-<wire x1="99.9942" y1="183.0064" x2="100.2096" y2="182.791" width="0.254" layer="1"/>
-<via x="100.2096" y="182.791" extent="1-16" drill="0.381"/>
+<wire x1="98.038" y1="183.0064" x2="99.3592" y2="183.0064" width="0.254" layer="1"/>
+<wire x1="99.3592" y1="183.0064" x2="99.5746" y2="182.791" width="0.254" layer="1"/>
+<via x="99.5746" y="182.791" extent="1-16" drill="0.381"/>
 <wire x1="102.2554" y1="180.326" x2="102.2554" y2="173.5724" width="0.254" layer="16"/>
-<wire x1="100.2096" y1="182.791" x2="100.2096" y2="182.3718" width="0.254" layer="16"/>
-<wire x1="100.2096" y1="182.3718" x2="102.2554" y2="180.326" width="0.254" layer="16"/>
+<wire x1="99.5746" y1="182.791" x2="99.7904" y2="182.791" width="0.254" layer="16"/>
+<wire x1="102.2554" y1="180.326" x2="99.7904" y2="182.791" width="0.254" layer="16"/>
 <wire x1="102.2554" y1="173.5724" x2="95.547" y2="166.864" width="0.254" layer="16"/>
 <contactref element="Q1" pad="1"/>
 <wire x1="95.547" y1="166.864" x2="95.547" y2="163.914" width="0.254" layer="16"/>
@@ -7673,23 +7676,21 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="THERM_FILTER9:R" pad="1"/>
 <contactref element="THERM_FILTER9:C" pad="1"/>
 <wire x1="98.038" y1="180.0064" x2="97.3303375" y2="180.0064" width="0.254" layer="1"/>
-<via x="60.5282" y="200.4822" extent="1-16" drill="0.381"/>
+<via x="61.1632" y="201.1172" extent="1-16" drill="0.381"/>
 <via x="93.07404375" y="186.41904375" extent="1-16" drill="0.381"/>
 <wire x1="93.07404375" y1="186.41904375" x2="91.80404375" y2="186.41904375" width="0.254" layer="16"/>
-<wire x1="91.80404375" y1="186.41904375" x2="90.85154375" y2="187.37154375" width="0.254" layer="16"/>
-<wire x1="90.85154375" y1="187.37154375" x2="90.15304375" y2="188.07004375" width="0.254" layer="16"/>
-<wire x1="89.4064" y1="198.6996" x2="89.4064" y2="193.9146" width="0.254" layer="16"/>
+<wire x1="91.80404375" y1="186.41904375" x2="89.4064" y2="188.8166875" width="0.254" layer="16"/>
 <wire x1="57.746" y1="202.438" x2="57.746" y2="199.009" width="0.254" layer="1"/>
-<wire x1="60.5282" y1="200.4822" x2="59.055" y2="199.009" width="0.254" layer="1"/>
+<wire x1="61.1632" y1="201.1172" x2="59.055" y2="199.009" width="0.254" layer="1"/>
 <wire x1="59.055" y1="199.009" x2="57.746" y2="199.009" width="0.254" layer="1"/>
-<wire x1="89.4064" y1="198.6996" x2="87.538" y2="200.568" width="0.254" layer="16"/>
 <wire x1="95.42354375" y1="184.06954375" x2="93.07404375" y2="186.41904375" width="0.254" layer="1"/>
 <wire x1="97.3303375" y1="180.0064" x2="95.42354375" y2="181.91319375" width="0.254" layer="1"/>
 <wire x1="95.42354375" y1="181.91319375" x2="95.42354375" y2="184.06954375" width="0.254" layer="1"/>
-<wire x1="87.538" y1="200.568" x2="60.614" y2="200.568" width="0.254" layer="16"/>
-<wire x1="60.614" y1="200.568" x2="60.5282" y2="200.4822" width="0.254" layer="16"/>
-<wire x1="89.4064" y1="193.9146" x2="89.4064" y2="188.8166875" width="0.254" layer="16"/>
-<wire x1="89.4064" y1="188.8166875" x2="90.15304375" y2="188.07004375" width="0.254" layer="16"/>
+<wire x1="89.4064" y1="198.6996" x2="87.538" y2="200.568" width="0.254" layer="16"/>
+<wire x1="66.04" y1="201.1172" x2="61.1632" y2="201.1172" width="0.254" layer="16"/>
+<wire x1="89.4064" y1="198.6996" x2="89.4064" y2="188.8166875" width="0.254" layer="16"/>
+<wire x1="87.538" y1="200.568" x2="66.5892" y2="200.568" width="0.254" layer="16"/>
+<wire x1="66.5892" y1="200.568" x2="66.04" y2="201.1172" width="0.254" layer="16"/>
 </signal>
 <signal name="GPIO3_A_POST">
 <contactref element="U1" pad="29"/>
@@ -7700,8 +7701,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="95.8486" y1="191.4544" x2="91.767" y2="195.536" width="0.254" layer="16"/>
 <wire x1="91.767" y1="195.536" x2="91.767" y2="222.577" width="0.254" layer="16"/>
 <wire x1="88.892" y1="225.452" x2="54.612" y2="225.452" width="0.254" layer="16"/>
-<via x="53.51" y="226.554" extent="1-16" drill="0.381"/>
-<wire x1="54.612" y1="225.452" x2="53.51" y2="226.554" width="0.254" layer="16"/>
+<via x="52.24" y="227.824" extent="1-16" drill="0.381"/>
+<wire x1="54.612" y1="225.452" x2="52.24" y2="227.824" width="0.254" layer="16"/>
 <contactref element="J_THERM_A" pad="1"/>
 <contactref element="AMS_THERM_TEST" pad="P$2"/>
 <wire x1="33.87" y1="235.966" x2="38.1" y2="235.966" width="0.254" layer="1"/>
@@ -7712,7 +7713,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="32.886" y1="236.95" x2="28.52461875" y2="236.95" width="0.254" layer="1"/>
 <wire x1="38.1" y1="235.966" x2="41.415425" y2="232.650575" width="0.254" layer="1"/>
 <wire x1="41.415425" y1="232.650575" x2="47.413425" y2="232.650575" width="0.254" layer="1"/>
-<wire x1="47.413425" y1="232.650575" x2="53.51" y2="226.554" width="0.254" layer="1"/>
+<wire x1="47.413425" y1="232.650575" x2="52.24" y2="227.824" width="0.254" layer="1"/>
 </signal>
 <signal name="GPIO2_A">
 <contactref element="U1" pad="28"/>
@@ -7740,7 +7741,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="TRANSFORMER" pad="P$7"/>
 <contactref element="R3_A" pad="1"/>
 <contactref element="U1" pad="42"/>
-<via x="101.1946" y="184.44241875" extent="1-16" drill="0.381"/>
+<via x="101.8296" y="184.44241875" extent="1-16" drill="0.381"/>
 <wire x1="90.508" y1="135.702" x2="90.508" y2="133.885" width="0.254" layer="1"/>
 <via x="90.508" y="133.885" extent="1-16" drill="0.381"/>
 <wire x1="90.508" y1="150.495" x2="90.508" y2="133.885" width="0.254" layer="16"/>
@@ -7748,22 +7749,21 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="90.508" y1="150.495" x2="98.9115" y2="158.8985" width="0.254" layer="16"/>
 <wire x1="91.1854" y1="133.2076" x2="91.1854" y2="132.2124" width="0.254" layer="1"/>
 <wire x1="98.9115" y1="160.7605" x2="98.9115" y2="158.8985" width="0.254" layer="16"/>
-<wire x1="101.1946" y1="184.44241875" x2="100.63061875" y2="185.0064" width="0.254" layer="1"/>
-<wire x1="100.63061875" y1="185.0064" x2="98.038" y2="185.0064" width="0.254" layer="1"/>
-<wire x1="105.199" y1="167.048" x2="101.1555" y2="163.0045" width="0.254" layer="16"/>
-<wire x1="101.1555" y1="163.0045" x2="98.9115" y2="160.7605" width="0.254" layer="16"/>
-<wire x1="101.1946" y1="184.44241875" x2="105.199" y2="180.43801875" width="0.254" layer="16"/>
-<wire x1="105.199" y1="180.43801875" x2="105.199" y2="167.048" width="0.254" layer="16"/>
+<wire x1="101.8296" y1="184.44241875" x2="101.26561875" y2="185.0064" width="0.254" layer="1"/>
+<wire x1="101.26561875" y1="185.0064" x2="98.038" y2="185.0064" width="0.254" layer="1"/>
+<wire x1="105.199" y1="167.048" x2="98.9115" y2="160.7605" width="0.254" layer="16"/>
+<wire x1="101.8296" y1="184.44241875" x2="105.199" y2="181.07301875" width="0.254" layer="16"/>
+<wire x1="105.199" y1="181.07301875" x2="105.199" y2="167.048" width="0.254" layer="16"/>
 </signal>
 <signal name="IM_A">
 <contactref element="C3_A" pad="2"/>
 <contactref element="TRANSFORMER" pad="P$9"/>
 <contactref element="U1" pad="41"/>
-<via x="101.14261875" y="183.25461875" extent="1-16" drill="0.381"/>
-<wire x1="101.14261875" y1="183.25461875" x2="99.8908375" y2="184.5064" width="0.254" layer="1"/>
+<via x="100.50761875" y="183.88961875" extent="1-16" drill="0.381"/>
+<wire x1="100.50761875" y1="183.88961875" x2="99.8908375" y2="184.5064" width="0.254" layer="1"/>
 <wire x1="99.8908375" y1="184.5064" x2="98.038" y2="184.5064" width="0.254" layer="1"/>
-<wire x1="101.6707375" y1="183.25461875" x2="101.14261875" y2="183.25461875" width="0.254" layer="16"/>
-<wire x1="104.581678125" y1="180.343678125" x2="101.6707375" y2="183.25461875" width="0.254" layer="16"/>
+<wire x1="101.0357375" y1="183.88961875" x2="100.50761875" y2="183.88961875" width="0.254" layer="16"/>
+<wire x1="104.581678125" y1="180.343678125" x2="101.0357375" y2="183.88961875" width="0.254" layer="16"/>
 <wire x1="88.984" y1="138.584" x2="88.857" y2="138.711" width="0.254" layer="16"/>
 <via x="88.857" y="138.711" extent="1-16" drill="0.381"/>
 <wire x1="89.1956" y1="128.2124" x2="88.857" y2="128.551" width="0.254" layer="1"/>
@@ -8331,15 +8331,18 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="THERM_FILTER8:R" pad="1"/>
 <contactref element="THERM_FILTER8:C" pad="1"/>
 <wire x1="31.75" y1="232.156" x2="33.02" y2="233.426" width="0.254" layer="1"/>
-<wire x1="33.02" y1="233.426" x2="33.02" y2="233.9975" width="0.254" layer="1"/>
-<wire x1="33.02" y1="233.9975" x2="33.02" y2="235.116" width="0.254" layer="1"/>
+<wire x1="33.02" y1="233.426" x2="33.02" y2="233.68" width="0.254" layer="1"/>
+<wire x1="33.02" y1="233.68" x2="33.02" y2="234.6325" width="0.254" layer="1"/>
+<wire x1="33.02" y1="234.6325" x2="33.02" y2="235.116" width="0.254" layer="1"/>
 <wire x1="33.02" y1="235.116" x2="32.17" y2="235.966" width="0.254" layer="1"/>
-<wire x1="33.02" y1="233.9975" x2="27.4290625" y2="233.9975" width="0.254" layer="1"/>
 <wire x1="26.02461875" y1="235.40194375" x2="26.02461875" y2="236.95" width="0.254" layer="1"/>
-<wire x1="27.4290625" y1="233.9975" x2="26.02461875" y2="235.40194375" width="0.254" layer="1"/>
+<wire x1="26.7940625" y1="234.6325" x2="26.02461875" y2="235.40194375" width="0.254" layer="1"/>
 <wire x1="13.55" y1="226.441" x2="13.55" y2="229.87" width="0.254" layer="1"/>
 <wire x1="13.55" y1="229.87" x2="15.836" y2="232.156" width="0.254" layer="1"/>
 <wire x1="15.836" y1="232.156" x2="31.75" y2="232.156" width="0.254" layer="1"/>
+<wire x1="26.7940625" y1="234.6325" x2="27.1115625" y2="234.315" width="0.254" layer="1"/>
+<wire x1="32.385" y1="234.315" x2="33.02" y2="233.68" width="0.254" layer="1"/>
+<wire x1="27.1115625" y1="234.315" x2="32.385" y2="234.315" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -8434,316 +8437,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <approved hash="7,39,e513c2b46da931f6"/>
 <approved hash="7,39,141814f23a0a3ae0"/>
 <approved hash="7,39,e513c4ad6eb02af6"/>
-<approved hash="18,29,7ae2279de79cbae3"/>
-<approved hash="18,29,7893210ae10bb892"/>
-<approved hash="18,29,1b6fc2105bb275d0"/>
-<approved hash="18,29,d96b881608f7ae97"/>
-<approved hash="18,29,3f285c38af55bed7"/>
-<approved hash="18,29,21d20e0809ffead7"/>
-<approved hash="18,29,bf230c39fec23328"/>
-<approved hash="18,29,69c9e49199e06a48"/>
-<approved hash="18,29,24d427126b6268a4"/>
-<approved hash="18,29,f72ff439fec3f324"/>
-<approved hash="18,29,71c5dc91c9e16a44"/>
-<approved hash="18,29,cd27b2ced612d317"/>
-<approved hash="18,29,1f6d916f40463b50"/>
-<approved hash="18,29,3d68d989ede2fc17"/>
-<approved hash="18,29,3f28eceb19003857"/>
-<approved hash="18,29,1f2da50d4fa40710"/>
-<approved hash="18,29,1b6fa18236187b00"/>
-<approved hash="18,29,dd2be87c66e5a447"/>
-<approved hash="18,29,192fb29c27fe7940"/>
-<approved hash="18,29,dfebfb627783a607"/>
-<approved hash="18,29,98e1e62bd235d1eb"/>
-<approved hash="18,29,9614cabb074a9717"/>
-<approved hash="18,29,a6f1df2bed31efeb"/>
-<approved hash="18,29,e2b19ccba9d5abeb"/>
-<approved hash="18,29,58272506650b182a"/>
-<approved hash="18,29,53ecfda0d1587037"/>
-<approved hash="18,29,df5216769a18a40f"/>
-<approved hash="18,29,1d605e8cc7977348"/>
-<approved hash="18,29,d9331ca7d0c961cf"/>
-<approved hash="18,29,19efd45d8fa83688"/>
-<approved hash="18,29,3b545659653efd0f"/>
-<approved hash="18,29,396962a3a6be0848"/>
-<approved hash="18,29,392366c014ba3e0f"/>
-<approved hash="18,29,396dd23ad5494b48"/>
-<approved hash="18,29,272338464b38210f"/>
-<approved hash="18,29,39718cbc94d75448"/>
-<approved hash="18,29,9e504ef446e478bc"/>
-<approved hash="18,29,a0243a46fa416023"/>
-<approved hash="18,29,0ae406d52c505652"/>
-<approved hash="18,29,0f90b7cff7cb4f94"/>
-<approved hash="18,29,51d4ffd8d10d8b1d"/>
-<approved hash="18,29,b18c5c2872be5eec"/>
-<approved hash="18,29,20d4ba4355d31ab3"/>
-<approved hash="18,29,900d7de05e996683"/>
-<approved hash="18,29,5934c35703509933"/>
-<approved hash="18,29,ac0820a9e0a56c04"/>
-<approved hash="18,29,1e304cd444e211af"/>
-<approved hash="18,29,e7337992b9ae270f"/>
-<approved hash="18,29,8a8404f72e563f43"/>
-<approved hash="18,29,9713753df8c5d619"/>
-<approved hash="18,29,20e934b0f27e2ad5"/>
-<approved hash="18,29,01aeb98ff98b41aa"/>
-<approved hash="18,29,a288dceb9ce6e285"/>
-<approved hash="18,29,d1d4ffdad1040942"/>
-<approved hash="18,29,318e5c28722fdc2b"/>
-<approved hash="18,29,e98163e223f9a99a"/>
-<approved hash="18,29,205838b157319a2f"/>
-<approved hash="18,29,9791f83b5b4ee113"/>
-<approved hash="18,29,5ff5c49b049c9ff2"/>
-<approved hash="18,29,a9d522f7e2fb69d9"/>
-<approved hash="18,29,9e404cb444e793d6"/>
-<approved hash="18,29,0af404d52e53bd78"/>
-<approved hash="18,29,03e4bb45fb4143e0"/>
-<approved hash="18,29,5cd722b062bd1cda"/>
-<approved hash="18,29,51f4ffded1417788"/>
-<approved hash="18,29,b18a5c08729aa211"/>
-<approved hash="18,29,9632708bfd9cd7d7"/>
-<approved hash="18,29,21f43030f7c52af3"/>
-<approved hash="18,29,d7fcf9d0d6c3f5f1"/>
-<approved hash="18,29,5e1e277f67721e13"/>
-<approved hash="18,29,37845a0075282058"/>
-<approved hash="18,29,15179876d86d550c"/>
-<approved hash="18,29,043abd1dfd19443e"/>
-<approved hash="18,29,207333095cdc9a51"/>
-<approved hash="18,29,97b6f4af578fe161"/>
-<approved hash="18,29,96cfce3dc3c757c7"/>
-<approved hash="18,29,3b2a9bf2725b2517"/>
-<approved hash="18,29,1b202f863ce2ffd0"/>
-<approved hash="18,29,24f427f26b826884"/>
-<approved hash="18,29,a4d5a411686168a5"/>
-<approved hash="18,29,a0d8a4519d66e71f"/>
-<approved hash="18,29,b8d49c51cd67e713"/>
-<approved hash="18,29,8a94b2ec5d1e7991"/>
-<approved hash="18,29,f0554f5d972d34d2"/>
-<approved hash="18,29,efd709fac5896e51"/>
-<approved hash="18,29,9717d948063a0590"/>
-<approved hash="18,29,f127e2ce32133717"/>
-<approved hash="18,29,33f29cab5cabf3f2"/>
-<approved hash="18,29,34619e1a5e1af461"/>
-<approved hash="18,29,361091895189f610"/>
-<approved hash="18,29,296a54319430e96b"/>
-<approved hash="18,29,34fb49c289c3f4fa"/>
-<approved hash="18,29,36444f538f52f645"/>
-<approved hash="18,29,d3eba2b262b313ea"/>
-<approved hash="18,29,d19aad216d20119b"/>
-<approved hash="18,29,d609af906f911608"/>
-<approved hash="18,29,c5e2b8a978a805e3"/>
-<approved hash="18,29,3b91bb187b19fb90"/>
-<approved hash="18,29,3800458f858ef801"/>
-<approved hash="18,29,1b68709fa835b4d0"/>
-<approved hash="18,29,df286f99e283a7c7"/>
-<approved hash="18,29,1f6c2763bd7a7080"/>
-<approved hash="18,29,dce912015e6de5b7"/>
-<approved hash="18,29,1d2adafb0013b2f0"/>
-<approved hash="18,29,396c8aacce8d8850"/>
-<approved hash="18,29,3b69be560d357d17"/>
-<approved hash="18,29,392de8c268edcb90"/>
-<approved hash="18,29,42f8c99e099282f4"/>
-<approved hash="18,29,09c390a55099c9ff"/>
-<approved hash="18,29,ea4d612c2137aa56"/>
-<approved hash="18,29,a144de259e28e149"/>
-<approved hash="18,29,db1318d8e87a5cff"/>
-<approved hash="18,29,392a14dc9bffc147"/>
-<approved hash="18,29,93b7cad774f45267"/>
-<approved hash="18,29,28770d7373a22955"/>
-<approved hash="18,29,e2ee7bccbbf022d2"/>
-<approved hash="18,29,27e8b0fe9f50ddb1"/>
-<approved hash="18,29,970df06f93142181"/>
-<approved hash="18,29,96b4f2d3ff7057e5"/>
-<approved hash="18,29,2076b675f024aad5"/>
-<approved hash="18,29,17de9db9dda257c5"/>
-<approved hash="18,29,23ebbecb52861a51"/>
-<approved hash="18,29,97167646553a619d"/>
-<approved hash="18,29,953fc605081997d1"/>
-<approved hash="18,29,20f50bb00d42eaf5"/>
-<approved hash="18,29,392a8e42896a4b90"/>
-<approved hash="18,29,39283ab848d53ed7"/>
-<approved hash="18,29,16a1e8ea5bcd5fdb"/>
-<approved hash="18,29,62c01cce2bd02bea"/>
-<approved hash="18,29,245e24106860682e"/>
-<approved hash="18,29,b6b40219f7763d2b"/>
-<approved hash="18,29,7302e4cd9b7c7243"/>
-<approved hash="18,29,24be23306f4068ce"/>
-<approved hash="18,29,feb8fa19f777fd27"/>
-<approved hash="18,29,6b0edccdcb7d724f"/>
-<approved hash="18,29,a4daa40a687a68aa"/>
-<approved hash="18,29,735ec4687670bfb6"/>
-<approved hash="18,29,360d24b88184edc1"/>
-<approved hash="18,29,a4faa7ca6bba688a"/>
-<approved hash="18,29,3b523c6876717fba"/>
-<approved hash="18,29,2e011cb8d185edcd"/>
-<approved hash="18,29,fe6eee31299a2e46"/>
-<approved hash="18,29,2011b39ff58baaf7"/>
-<approved hash="18,29,3921fb35886938cf"/>
-<approved hash="18,29,3f134fcf4fe64d88"/>
-<approved hash="18,29,067340d000d74674"/>
-<approved hash="18,29,132e9a0fda145335"/>
-<approved hash="18,29,b3f45e1072aba586"/>
-<approved hash="18,29,e5cc6faeafab25c9"/>
-<approved hash="18,29,5cd6a6b466b09cd2"/>
-<approved hash="18,29,14d5ffdbdd067192"/>
-<approved hash="18,29,bf12044cc4537f0d"/>
-<approved hash="18,29,748e54287ebb2261"/>
-<approved hash="18,29,738c5e28712aa9aa"/>
-<approved hash="18,29,de404cb444e70569"/>
-<approved hash="18,29,14778e18ce1f5470"/>
-<approved hash="18,29,28164515c42735d1"/>
-<approved hash="18,29,a4d61ca6e855ccd0"/>
-<approved hash="18,29,dd5d503b90201d46"/>
-<approved hash="18,29,9654ef322f3f5659"/>
-<approved hash="18,29,97ecf9c0d1427a08"/>
-<approved hash="18,29,3c6086c646c2fc64"/>
-<approved hash="18,29,ea3c705f3058aa3b"/>
-<approved hash="18,29,fd1077b137bdbd1c"/>
-<approved hash="18,29,5fd04b3c42ee8693"/>
-<approved hash="18,29,b62b2e8a6eb6f617"/>
-<approved hash="18,29,cb6402df285aa9bf"/>
-<approved hash="18,29,c5757c1e4e01899a"/>
-<approved hash="18,29,a4b5a431684168c5"/>
-<approved hash="18,29,8d79841e4e004996"/>
-<approved hash="18,29,f1e1e2c1311635b5"/>
-<approved hash="18,29,5f7dbd46fd461f7d"/>
-<approved hash="18,29,63d8c893889023db"/>
-<approved hash="18,29,cae61210bb1f421a"/>
-<approved hash="18,29,7a93dfea9fe93a90"/>
-<approved hash="18,29,b2e34939bb110bc1"/>
-<approved hash="18,29,4ca61d51dd508ca7"/>
-<approved hash="18,29,43571ecedecf8356"/>
-<approved hash="18,29,44751a2cda2d8474"/>
-<approved hash="18,29,7f0022fbe2fabf01"/>
-<approved hash="18,29,7db12c68ec69bdb0"/>
-<approved hash="18,29,702e29d9e9d8b02f"/>
-<approved hash="18,29,6e6a3025f024ae6b"/>
-<approved hash="18,29,6c1b3d92fd93ac1a"/>
-<approved hash="18,29,18d4414f814ed8d5"/>
-<approved hash="18,29,1f45433c833ddf44"/>
-<approved hash="18,29,16104b8b8b8ad611"/>
-<approved hash="18,29,148155789579d480"/>
-<approved hash="18,29,57232c14ec179720"/>
-<approved hash="18,29,28f0f1578c27a075"/>
-<approved hash="18,29,58d22f8bef8898d1"/>
-<approved hash="18,29,9230beed8e785750"/>
-<approved hash="18,29,5a4129fae9f99a42"/>
-<approved hash="18,29,5ff02b69eb6a9ff3"/>
-<approved hash="18,29,0f04643da43ecf07"/>
-<approved hash="18,29,0d957acebacdcd96"/>
-<approved hash="18,29,01a2769bb698c1a1"/>
-<approved hash="18,29,7c330b24cb27bc30"/>
-<approved hash="18,29,7abc09b5c9b6babf"/>
-<approved hash="18,29,779e0cd7ccd4b79d"/>
-<approved hash="18,29,75ef0160c163b5ec"/>
-<approved hash="18,29,707807f1c7f2b07b"/>
-<approved hash="18,29,96954cc0013e1799"/>
-<approved hash="18,29,6ec90582c581aeca"/>
-<approved hash="18,29,205c8c4c0a496aab"/>
-<approved hash="18,29,6d5a1a13da10ad59"/>
-<approved hash="18,29,6bab189cd89faba8"/>
-<approved hash="18,29,d8c5a5cc65cd18c4"/>
-<approved hash="18,29,dd74a04360421d75"/>
-<approved hash="18,29,c92fb4767477092e"/>
-<approved hash="18,29,d4b8aa076a0614b9"/>
-<approved hash="18,29,cfdeb6e576e40fdf"/>
-<approved hash="18,29,cc4db15471550c4c"/>
-<approved hash="18,29,c2fcb3cb73ca02fd"/>
-<approved hash="18,29,c773be3a7e3b0772"/>
-<approved hash="18,29,3eb747fe87fffeb6"/>
-<approved hash="18,29,2d8851179116ed89"/>
-<approved hash="18,29,2f1956a096a1ef18"/>
-<approved hash="18,29,31d54cdc8cddf1d4"/>
-<approved hash="18,29,3326426d826cf327"/>
-<approved hash="18,29,e5a798ee58ef25a6"/>
-<approved hash="18,29,da569b5d5b5c1a57"/>
-<approved hash="18,29,cae2659ba59b0ae2"/>
-<approved hash="18,29,d3bf7c68bc6813bf"/>
-<approved hash="18,29,cc91670aa70a0c91"/>
-<approved hash="18,29,d42e7fe7bfe7142e"/>
-<approved hash="18,29,d1007af9baf91100"/>
-<approved hash="18,29,d6dd7156b15616dd"/>
-<approved hash="18,29,db4c74c5b4c51b4c"/>
-<approved hash="18,29,ddfb76b4b6b41dfb"/>
-<approved hash="18,29,22888d014d01e288"/>
-<approved hash="18,29,de6a882348231e6a"/>
-<approved hash="18,29,c873622ca22c0873"/>
-<approved hash="18,29,270780f040f0e707"/>
-<approved hash="18,29,20198b924b92e019"/>
-<approved hash="18,29,29b6826f426fe9b6"/>
-<approved hash="18,29,2a2585de45deea25"/>
-<approved hash="18,29,3d3e96f756f7fd3e"/>
-<approved hash="18,29,2cd4874d474decd4"/>
-<approved hash="18,29,3fada8666866ffad"/>
-<approved hash="18,29,3143993c593cf143"/>
-<approved hash="18,29,388f93785378f88f"/>
-<approved hash="18,29,005cabd56bd5c05c"/>
-<approved hash="18,29,939782a673da971e"/>
-<approved hash="18,29,2858752b48abe02d"/>
-<approved hash="18,29,5e364cd444e58b2e"/>
-<approved hash="18,29,17b08cd1ccd657b7"/>
-<approved hash="18,29,96b0485005f517e7"/>
-<approved hash="18,29,9693d84555bdd799"/>
-<approved hash="18,29,940ae96b29665407"/>
-<approved hash="18,29,df03566296791f18"/>
-<approved hash="18,29,205999c85fd62ab5"/>
-<approved hash="18,29,13d4fdd8d101ffc3"/>
-<approved hash="18,29,3a2e830d4309fa2a"/>
-<approved hash="18,29,616716d8d6dba164"/>
-<approved hash="18,29,6316104fd04ca315"/>
-<approved hash="18,29,648513bed3bda486"/>
-<approved hash="18,29,0be67f5fbf5ccbe5"/>
-<approved hash="18,29,06777de8bdebc674"/>
-<approved hash="18,29,04c07279b27ac4c3"/>
-<approved hash="18,29,0351700ab009c352"/>
-<approved hash="18,29,790d0e46ce45b90e"/>
-<approved hash="18,29,66341d2ddd2ea637"/>
-<approved hash="18,29,41c418bfd8be81c5"/>
-<approved hash="18,29,76df2b56eb57b6de"/>
-<approved hash="18,29,754c34c7f4c6b54d"/>
-<approved hash="18,29,6bfd36b4f6b5abfc"/>
-<approved hash="18,29,62883f03ff02a289"/>
-<approved hash="18,29,613938f0f8f1a138"/>
-<approved hash="18,29,67b63a61fa60a7b7"/>
-<approved hash="18,29,1a2747de87dfda26"/>
-<approved hash="18,29,1df24cad8cacddf3"/>
-<approved hash="18,29,10634e1a8e1bd062"/>
-<approved hash="18,29,676c24e60ffec748"/>
-<approved hash="18,29,2751681dde7f1a0f"/>
-<approved hash="18,29,ff577576357abf5b"/>
-<approved hash="18,29,b46c2c4d6c71f450"/>
-<approved hash="18,29,4af404eb2e532bf9"/>
-<approved hash="18,29,61f22e980ecc4c53"/>
-<approved hash="18,29,ebceecdc39813366"/>
-<approved hash="18,29,db6bba99f977ef97"/>
-<approved hash="18,29,f7945a1072982f90"/>
-<approved hash="18,29,196fb5603f71e648"/>
-<approved hash="18,29,16f1aecb9dd19fab"/>
-<approved hash="18,29,4751799bf0f3bb0f"/>
-<approved hash="18,29,20d78b74a407da53"/>
-<approved hash="18,29,9616ccc7afb52093"/>
-<approved hash="18,29,f18e7b2d3b21b182"/>
-<approved hash="18,29,bab52216622afa89"/>
-<approved hash="18,29,ca8204f52e51a5c0"/>
-<approved hash="18,29,207789f40fa46ad5"/>
-<approved hash="18,29,97b575006a5ec51e"/>
-<approved hash="18,29,e8792dafa6702e53"/>
-<approved hash="18,29,e8146e732e7fa818"/>
-<approved hash="18,29,a68821e9e1e56684"/>
-<approved hash="18,29,1cad84024405dcaa"/>
-<approved hash="18,29,f5d2003c1ae30124"/>
-<approved hash="18,29,45a4cb0b0b0e85a1"/>
-<approved hash="18,29,236640dd66576333"/>
-<approved hash="18,29,5ec7c7a687a11ec0"/>
-<approved hash="18,29,b55000cc1adc8389"/>
-<approved hash="18,29,63e440eb6668e158"/>
-<approved hash="18,29,07ce88afc8aa47cb"/>
-<approved hash="4,16,e287a607d9c59d45"/>
-<approved hash="4,16,77a432e1b223f766"/>
-<approved hash="18,29,0929934b534cc92e"/>
-<approved hash="18,29,1c0690a050acdc0a"/>
-<approved hash="18,29,be400cd584e201a4"/>
-<approved hash="18,29,573dc99b09a79701"/>
-<approved hash="18,29,eaf444f52e562f4b"/>
 </errors>
 </board>
 </drawing>
