@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8737,13 +8737,13 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <approved hash="18,29,b55000cc1adc8389"/>
 <approved hash="18,29,63e440eb6668e158"/>
 <approved hash="18,29,07ce88afc8aa47cb"/>
-<approved hash="18,29,6bb6f0d7b0d02bb1"/>
-<approved hash="18,29,7d8bf734b7383d87"/>
-<approved hash="18,29,5ec24ccc44e20728"/>
-<approved hash="18,29,36b0ae0fee33768c"/>
-<approved hash="18,29,ca7604ed2e5629c6"/>
 <approved hash="4,16,e287a607d9c59d45"/>
 <approved hash="4,16,77a432e1b223f766"/>
+<approved hash="18,29,0929934b534cc92e"/>
+<approved hash="18,29,1c0690a050acdc0a"/>
+<approved hash="18,29,be400cd584e201a4"/>
+<approved hash="18,29,573dc99b09a79701"/>
+<approved hash="18,29,eaf444f52e562f4b"/>
 </errors>
 </board>
 </drawing>

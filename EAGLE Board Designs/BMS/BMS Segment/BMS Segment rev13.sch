@@ -4578,6 +4578,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <symbol name="FRAME_17X11">
 <frame x1="0" y1="0" x2="431.8" y2="279.4" columns="17" rows="11" layer="94" border-bottom="no"/>
 </symbol>
+<symbol name="FRAME_11X8.5">
+<frame x1="0" y1="0" x2="279.4" y2="215.9" columns="11" rows="8" layer="94" border-bottom="no"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME_B">
@@ -4607,6 +4610,38 @@ Layer: 94 Symbol</description>
 <attribute name="FRAME_DESCRIPTION" value="Default" constant="no"/>
 <attribute name="ORIENTATION" value="LANDSCAPE"/>
 <attribute name="SIZE" value="B"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FRAME_A">
+<description>HyTech Racing Frame (ANSI Size A)
+&lt;br&gt;
+Prints on US Letter Landscape 8.5" by 11"
+&lt;br&gt;&lt;br&gt;
+Fill Engineer/Description Fields with Text using the following settings:
+&lt;br&gt;
+Size: 0.1
+&lt;br&gt;
+Ratio: 8%
+&lt;br&gt;
+Line Distance: 50%
+&lt;br&gt;
+Font: Proportional
+&lt;br&gt;
+Layer: 94 Symbol</description>
+<gates>
+<gate name="G$1" symbol="FRAME_11X8.5" x="0" y="0"/>
+<gate name="G$2" symbol="DOCFIELD" x="110.49" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="FRAME_DESCRIPTION" value="Default" constant="no"/>
+<attribute name="ORIENTATION" value="LANDSCAPE"/>
+<attribute name="SIZE" value="A"/>
 </technology>
 </technologies>
 </device>
@@ -4661,6 +4696,7 @@ Layer: 94 Symbol</description>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="806R">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
+<part name="U$1" library="HyTechFrames" deviceset="FRAME_A" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4669,6 +4705,8 @@ Layer: 94 Symbol</description>
 <text x="88.9" y="17.78" size="1.778" layer="97" align="center-left">Gate Drive</text>
 <text x="17.78" y="48.26" size="1.778" layer="97">See LTC6811 Datasheet pg.70</text>
 <text x="88.9" y="43.18" size="1.778" layer="97" align="center-left">Cell Input</text>
+<text x="48.26" y="-73.66" size="2.54" layer="94">Arvind Srinivasan</text>
+<text x="95.25" y="-86.36" size="2.54" layer="94">Cell Voltage Filter and Discharge Circuit</text>
 </plain>
 <instances>
 <instance part="GATE" gate="G$1" x="55.88" y="17.78" smashed="yes">
@@ -4707,6 +4745,12 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="13.7414" y="-11.43" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="18.542" y="-11.43" size="1.778" layer="96" rot="R90"/>
 <attribute name="TOLERANCE" x="15.24" y="-7.62" size="0.127" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="U$1" gate="G$1" x="-81.28" y="-96.52" smashed="yes"/>
+<instance part="U$1" gate="G$2" x="29.21" y="-96.52" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="105.41" y="-93.98" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="124.46" y="-73.66" size="2.54" layer="94"/>
+<attribute name="SHEET" x="177.8" y="-93.98" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -4810,11 +4854,14 @@ Layer: 94 Symbol</description>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="SUPPLY27" library="supply2" deviceset="V-" device=""/>
+<part name="U$1" library="HyTechFrames" deviceset="FRAME_A" device=""/>
 </parts>
 <sheets>
 <sheet>
 <description>Cell Thermistor Filter and Resistor Divider</description>
 <plain>
+<text x="-7.62" y="-86.36" size="2.54" layer="94">Arvind Srinivasan</text>
+<text x="39.37" y="-99.06" size="2.54" layer="94">Cell Thermistor Filter and Resistor Divider</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="10.16" y="10.16" smashed="yes" rot="R270">
@@ -4835,6 +4882,12 @@ Layer: 94 Symbol</description>
 </instance>
 <instance part="SUPPLY27" gate="1" x="-10.16" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="-10.16" y="-15.24" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="U$1" gate="G$1" x="-137.16" y="-109.22" smashed="yes"/>
+<instance part="U$1" gate="G$2" x="-26.67" y="-109.22" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="49.53" y="-106.68" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="68.58" y="-86.36" size="2.54" layer="94"/>
+<attribute name="SHEET" x="121.92" y="-106.68" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
