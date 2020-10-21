@@ -1446,6 +1446,42 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <text x="-0.8255" y="4.5085" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.0795" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="1X02">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+</package>
+<package name="0603-JUMP">
+<smd name="1" x="-0.85" y="0" dx="1.2" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.2" dy="1.1" layer="1"/>
+<text x="0" y="0.7239" size="0.3048" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.7112" size="0.3048" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.381" x2="0" y2="0.127" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.381" x2="0" y2="-0.127" width="0.1524" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X03" urn="urn:adsk.eagle:package:22462/2" type="model">
@@ -1805,6 +1841,12 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
 <text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
 <text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
+</symbol>
+<symbol name="JUMPER">
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="P$2" x="5.08" y="-2.54" visible="off" length="short" rot="R90"/>
+<text x="0" y="0.508" size="1.27" layer="94">JUMP</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2803,6 +2845,50 @@ general purpose rectifier</description>
 <connect gate="G$1" pin="GND" pad="2 4"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER" prefix="J">
+<description>Jumper for changing operation of a device</description>
+<gates>
+<gate name="G$1" symbol="JUMPER" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="0805">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".1" package="1X02">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".3" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="0603-JUMP">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5598,6 +5684,7 @@ general purpose rectifier</description>
 <part name="R21" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="28"/>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="200"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="200"/>
+<part name="J2" library="HyTechDevices" deviceset="JUMPER" device="0603"/>
 </parts>
 <sheets>
 <sheet>
@@ -5988,6 +6075,7 @@ general purpose rectifier</description>
 <attribute name="NAME" x="36.83" y="29.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="24.638" size="1.778" layer="96"/>
 </instance>
+<instance part="J2" gate="G$1" x="116.84" y="200.66" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -6460,9 +6548,9 @@ general purpose rectifier</description>
 <label x="60.96" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="198.12" x2="114.3" y2="198.12" width="0.1524" layer="91"/>
-<label x="114.3" y="198.12" size="1.27" layer="95" xref="yes"/>
+<label x="127" y="198.12" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="198.12" x2="127" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -6961,6 +7049,13 @@ general purpose rectifier</description>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="63.5" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <junction x="43.18" y="55.88"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="198.12" x2="116.84" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 </nets>
