@@ -2602,19 +2602,6 @@ Designed by Mohammed Arif</text>
 <wire x1="95.3" y1="264.35" x2="0" y2="264.35" width="0" layer="20"/>
 <wire x1="0" y1="264.35" x2="0" y2="223.93138125" width="0" layer="20"/>
 <wire x1="0" y1="223.93138125" x2="9" y2="223.93138125" width="0" layer="20"/>
-<<<<<<< Updated upstream
-<hole x="5" y="234.284" drill="4.4958"/>
-<hole x="5" y="178.936" drill="4.4958"/>
-<hole x="5" y="149.0114" drill="4.4958"/>
-<hole x="5" y="98.986" drill="4.4958"/>
-<hole x="5" y="69.046" drill="4.4958"/>
-<hole x="5" y="11.666" drill="4.4958"/>
-<hole x="101.65" y="38.114" drill="4.4958"/>
-<hole x="101.65" y="88.986" drill="4.4958"/>
-<hole x="103.65" y="158.986" drill="4.4958"/>
-<hole x="103.65" y="201.994" drill="4.4958"/>
-=======
->>>>>>> Stashed changes
 <wire x1="2" y1="-1.524" x2="93.3" y2="-1.524" width="1.27" layer="51"/>
 <text x="100.38" y="63.754" size="2.286" layer="51" font="vector" rot="R90" align="center">DANGER HIGH VOLTAGE</text>
 <wire x1="2" y1="240.252" x2="93.3" y2="240.252" width="1.27" layer="51"/>
@@ -4695,12 +4682,6 @@ Designed by Mohammed Arif</text>
 <rectangle x1="96.161" y1="143.7038" x2="96.669" y2="143.7546" layer="51" rot="R90"/>
 <rectangle x1="95.7546" y1="146.701" x2="97.0754" y2="146.7518" layer="51" rot="R90"/>
 <dimension x1="0" y1="264.35" x2="0" y2="-27.6" x3="-22.352" y3="118.375" textsize="1.778" layer="47" unit="inch"/>
-<<<<<<< Updated upstream
-<hole x="53.848" y="121.412" drill="4.4958"/>
-<hole x="53.848" y="170.688" drill="4.4958"/>
-<hole x="53.848" y="72.136" drill="4.4958"/>
-=======
->>>>>>> Stashed changes
 </plain>
 <libraries>
 <library name="HyTechDevices">
@@ -4733,8 +4714,6 @@ Source: http://www.molex.com</description>
 <text x="5.715" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
 <text x="-10.16" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<<<<<<< Updated upstream
-=======
 <package name="M4_MOUNTING">
 <hole x="0" y="0" drill="4.5"/>
 <circle x="0" y="0" radius="3.75" width="0.127" layer="39"/>
@@ -4742,7 +4721,6 @@ Source: http://www.molex.com</description>
 <circle x="0" y="0" radius="3.75" width="0.127" layer="41"/>
 <circle x="0" y="0" radius="3.75" width="0.127" layer="42"/>
 </package>
->>>>>>> Stashed changes
 </packages>
 </library>
 </libraries>
@@ -5007,8 +4985,6 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="53.848" y="251.46" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="53.848" y="251.46" size="1.778" layer="27" display="off"/>
 </element>
-<<<<<<< Updated upstream
-=======
 <element name="U$2" library="HyTechDevices" package="M4_MOUNTING" value="" x="5" y="234.284" smashed="yes"/>
 <element name="U$3" library="HyTechDevices" package="M4_MOUNTING" value="" x="5" y="178.936" smashed="yes"/>
 <element name="U$4" library="HyTechDevices" package="M4_MOUNTING" value="" x="5" y="148.986" smashed="yes"/>
@@ -5022,7 +4998,6 @@ design rules under a new name.</description>
 <element name="U$12" library="HyTechDevices" package="M4_MOUNTING" value="" x="53.848" y="170.688" smashed="yes"/>
 <element name="U$13" library="HyTechDevices" package="M4_MOUNTING" value="" x="53.848" y="121.412" smashed="yes"/>
 <element name="U$14" library="HyTechDevices" package="M4_MOUNTING" value="" x="53.848" y="72.136" smashed="yes"/>
->>>>>>> Stashed changes
 </elements>
 <signals>
 <signal name="N$22">
