@@ -7308,12 +7308,12 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="D7" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="R26" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="R132" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
-<part name="PU100" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="PU101" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="PD101" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="PD100" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="PU2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="PU1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="PD1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="PD2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="U100" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
-<part name="BR101" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="BR1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="C101" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C102" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="U45" library="HyTechDevices" deviceset="MAX7480" device=""/>
@@ -7376,7 +7376,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C43" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
 <part name="C44" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C42" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="BR100" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="BR2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="U29" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="U19" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="U6" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
@@ -12248,19 +12248,19 @@ since we have no via the current is less
 <attribute name="NAME" x="405.13" y="72.6186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="405.13" y="67.818" size="1.778" layer="96"/>
 </instance>
-<instance part="PU100" gate="G$1" x="50.8" y="236.22" smashed="yes" rot="MR90">
+<instance part="PU2" gate="G$1" x="50.8" y="236.22" smashed="yes" rot="MR90">
 <attribute name="NAME" x="49.022" y="233.9086" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="48.768" y="236.728" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="PU101" gate="G$1" x="101.6" y="233.68" smashed="yes" rot="R90">
+<instance part="PU1" gate="G$1" x="101.6" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="103.886" y="231.8766" size="1.778" layer="95"/>
 <attribute name="VALUE" x="103.886" y="234.696" size="1.778" layer="96"/>
 </instance>
-<instance part="PD101" gate="G$1" x="101.6" y="218.44" smashed="yes" rot="R270">
+<instance part="PD1" gate="G$1" x="101.6" y="218.44" smashed="yes" rot="R270">
 <attribute name="NAME" x="103.632" y="215.8746" size="1.778" layer="95"/>
 <attribute name="VALUE" x="103.632" y="218.694" size="1.778" layer="96"/>
 </instance>
-<instance part="PD100" gate="G$1" x="50.8" y="220.98" smashed="yes" rot="MR270">
+<instance part="PD2" gate="G$1" x="50.8" y="220.98" smashed="yes" rot="MR270">
 <attribute name="NAME" x="44.45" y="219.4814" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="45.212" y="222.504" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -12268,7 +12268,7 @@ since we have no via the current is less
 <attribute name="NAME" x="61.595" y="235.585" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.817" y="222.504" size="1.778" layer="96"/>
 </instance>
-<instance part="BR101" gate="G$1" x="99.06" y="187.96" smashed="yes" rot="MR90">
+<instance part="BR1" gate="G$1" x="99.06" y="187.96" smashed="yes" rot="MR90">
 <attribute name="NAME" x="105.41" y="185.6486" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="104.648" y="188.214" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -12353,7 +12353,7 @@ since we have no via the current is less
 <attribute name="NAME" x="183.896" y="129.159" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="183.896" y="134.239" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BR100" gate="G$1" x="40.64" y="193.04" smashed="yes" rot="MR90">
+<instance part="BR2" gate="G$1" x="40.64" y="193.04" smashed="yes" rot="MR90">
 <attribute name="NAME" x="46.99" y="190.7286" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="46.228" y="193.294" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -12717,7 +12717,7 @@ since we have no via the current is less
 <wire x1="86.36" y1="210.82" x2="86.36" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="210.82" x2="78.74" y2="210.82" width="0.1524" layer="91"/>
 <junction x="55.88" y="210.82"/>
-<pinref part="PD100" gate="G$1" pin="2"/>
+<pinref part="PD2" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="210.82" x2="55.88" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="215.9" x2="50.8" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="210.82" x2="55.88" y2="210.82" width="0.1524" layer="91"/>
@@ -12730,7 +12730,7 @@ since we have no via the current is less
 <junction x="78.74" y="210.82"/>
 <wire x1="86.36" y1="210.82" x2="101.6" y2="210.82" width="0.1524" layer="91"/>
 <junction x="86.36" y="210.82"/>
-<pinref part="PD101" gate="G$1" pin="2"/>
+<pinref part="PD1" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="210.82" x2="101.6" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
@@ -12963,7 +12963,7 @@ since we have no via the current is less
 <pinref part="P+75" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="PU100" gate="G$1" pin="2"/>
+<pinref part="PU2" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="241.3" x2="50.8" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
@@ -12982,7 +12982,7 @@ since we have no via the current is less
 <pinref part="P+19" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="PU101" gate="G$1" pin="2"/>
+<pinref part="PU1" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="241.3" x2="101.6" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="P+20" gate="1" pin="+5V"/>
 </segment>
@@ -13001,7 +13001,7 @@ since we have no via the current is less
 <pinref part="P+21" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="BR101" gate="G$1" pin="2"/>
+<pinref part="BR1" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="195.58" x2="99.06" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="P+22" gate="1" pin="+5V"/>
 </segment>
@@ -13039,7 +13039,7 @@ since we have no via the current is less
 </segment>
 <segment>
 <wire x1="40.64" y1="200.66" x2="40.64" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="BR100" gate="G$1" pin="2"/>
+<pinref part="BR2" gate="G$1" pin="2"/>
 <pinref part="P+24" gate="1" pin="+5V"/>
 </segment>
 </net>
@@ -13374,10 +13374,10 @@ since we have no via the current is less
 <net name="SIGNAL_ACCEL1" class="0">
 <segment>
 <label x="104.14" y="226.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="PD101" gate="G$1" pin="1"/>
+<pinref part="PD1" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="223.52" x2="101.6" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="226.06" x2="104.14" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="PU101" gate="G$1" pin="1"/>
+<pinref part="PU1" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="228.6" x2="101.6" y2="226.06" width="0.1524" layer="91"/>
 <junction x="101.6" y="226.06"/>
 <pinref part="U100" gate="G$1" pin="VINB+"/>
@@ -13395,7 +13395,7 @@ since we have no via the current is less
 <label x="38.1" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="40.64" y1="182.88" x2="38.1" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="187.96" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="BR100" gate="G$1" pin="1"/>
+<pinref part="BR2" gate="G$1" pin="1"/>
 <pinref part="U101" gate="G$1" pin="VINA+"/>
 <wire x1="58.42" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
 <junction x="40.64" y="182.88"/>
@@ -13410,9 +13410,9 @@ since we have no via the current is less
 <segment>
 <wire x1="48.26" y1="228.6" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
 <label x="48.26" y="228.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="PD100" gate="G$1" pin="1"/>
+<pinref part="PD2" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="226.06" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="PU100" gate="G$1" pin="1"/>
+<pinref part="PU2" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="231.14" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
 <junction x="50.8" y="228.6"/>
 <wire x1="58.42" y1="228.6" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
@@ -13664,7 +13664,7 @@ since we have no via the current is less
 <pinref part="U101" gate="G$1" pin="VINB+"/>
 <wire x1="76.2" y1="180.34" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
 <label x="101.6" y="180.34" size="1.27" layer="95" xref="yes"/>
-<pinref part="BR101" gate="G$1" pin="1"/>
+<pinref part="BR1" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="180.34" x2="101.6" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="182.88" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
 <junction x="99.06" y="180.34"/>
