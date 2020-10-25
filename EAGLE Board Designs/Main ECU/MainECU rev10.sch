@@ -7164,7 +7164,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <parts>
 <part name="X100" library="HyTechDevices" deviceset="CONNECTOR-37" device=""/>
 <part name="X101" library="HyTechDevices" deviceset="CONNECTOR-4" device="AUTOSPORT"/>
-<part name="5AFUSE1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE"/>
+<part name="5AFUSE1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE" value="5A"/>
 <part name="GND50" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="X2" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4"/>
 <part name="GND67" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7193,7 +7193,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="U11" library="HyTechDevices" deviceset="SN74AHC1G09" device=""/>
 <part name="GND119" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="14k"/>
-<part name="C30" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15n"/>
+<part name="C30" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15nF"/>
 <part name="GND122" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R119" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
 <part name="R118" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="4k"/>
@@ -7209,7 +7209,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND98" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R129" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="R139" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
-<part name="C9" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.47µ"/>
+<part name="C9" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.47u"/>
 <part name="GND116" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="68"/>
 <part name="REG2" library="HyTechDevices" deviceset="OKI-78SR-5" device="" value="5V"/>
@@ -7219,8 +7219,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="5V" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="215"/>
 <part name="GND96" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="5ASHUTDOWNFUSE1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE"/>
-<part name="5ABOARDFUSE1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE"/>
+<part name="5ASHUTDOWNFUSE1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE" value="5A"/>
+<part name="5ABOARDFUSE1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE" value="5A"/>
 <part name="R113" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R104" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="GND105" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7231,8 +7231,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND108" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND109" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="Q100" library="HyTechDevices" deviceset="P-CHANNEL_MOSFET_DMP3099L-7" device=""/>
-<part name="Q102" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
-<part name="Q101" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
+<part name="Q102" library="HyTechDevices" deviceset="DMG3406L" device="SOT" value="DMG3406L"/>
+<part name="Q101" library="HyTechDevices" deviceset="DMG3406L" device="SOT" value="DMG3406L"/>
 <part name="R100" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="60"/>
 <part name="CAN_TERM_JMP1" library="HyTechDevices" deviceset="M02" device="_SLIM" value="M02_SLIM"/>
 <part name="D101" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
@@ -7267,19 +7267,19 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="U109" library="HyTechDevices" deviceset="CR-2450/G1AN" device=""/>
 <part name="U104" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
-<part name="U24" library="HyTechDevices" deviceset="MAX7480" device=""/>
+<part name="U24" library="HyTechDevices" deviceset="MAX7480" device="" value="MAX7480"/>
 <part name="C23" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
-<part name="C17" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C21" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C17" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C21" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C119" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="U35" library="HyTechDevices" deviceset="ACHS-7121" device=""/>
 <part name="U103" library="HyTechDevices" deviceset="ACHS-7121" device=""/>
 <part name="GND132" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND131" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="U33" library="HyTechDevices" deviceset="MAX7480" device=""/>
+<part name="U33" library="HyTechDevices" deviceset="MAX7480" device="" value="MAX7480"/>
 <part name="C33" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
-<part name="C26" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C31" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C26" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C31" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="CAN100" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND126" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
@@ -7298,9 +7298,9 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R137" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
 <part name="D2" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="C118" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C117" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C25" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C28" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C117" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C25" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C28" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND138" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND139" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND140" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7308,34 +7308,34 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="D7" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="R26" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="R132" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
-<part name="PU2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="PU1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="PD1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="PD2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="PU2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
+<part name="PU1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
+<part name="PD1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
+<part name="PD2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="U100" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
-<part name="BR1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="BR1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="C101" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C102" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="U45" library="HyTechDevices" deviceset="MAX7480" device=""/>
+<part name="C102" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="U45" library="HyTechDevices" deviceset="MAX7480" device="" value="MAX7480"/>
 <part name="C46" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
-<part name="C49" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C50" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="U44" library="HyTechDevices" deviceset="MAX7480" device=""/>
+<part name="C49" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C50" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="U44" library="HyTechDevices" deviceset="MAX7480" device="" value="MAX7480"/>
 <part name="C45" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
-<part name="C47" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C48" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C47" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C48" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="U101" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
 <part name="C107" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C106" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="U38" library="HyTechDevices" deviceset="MAX7480" device=""/>
+<part name="C106" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="U38" library="HyTechDevices" deviceset="MAX7480" device="" value="MAX7480"/>
 <part name="C38" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
-<part name="C39" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C37" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C39" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C37" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND134" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="CAN101" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND129" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="C120" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C121" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C121" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND130" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="BOARD_TEMP" library="HyTechDevices" deviceset="THERMISTOR_NCP21" device="0805"/>
 <part name="R102" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
@@ -7372,11 +7372,11 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R128" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="U107" library="HyTechDevices" deviceset="SN74AHC1G09" device=""/>
 <part name="U108" library="HyTechDevices" deviceset="STWD100PYW83F" device=""/>
-<part name="U39" library="HyTechDevices" deviceset="MAX7480" device=""/>
+<part name="U39" library="HyTechDevices" deviceset="MAX7480" device="" value="MAX7480"/>
 <part name="C43" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
-<part name="C44" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C42" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="BR2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="C44" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C42" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="BR2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="U29" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="U19" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="U6" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
@@ -7389,7 +7389,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND114" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R39" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100k"/>
 <part name="R43" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100"/>
-<part name="C32" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="2.2µ"/>
+<part name="C32" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="2.2uF"/>
 <part name="GND9" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="D12" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="GND13" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7429,28 +7429,28 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R107" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="150"/>
 <part name="U34" library="HyTechDevices" deviceset="TXB0104" device="TSSOP"/>
 <part name="GND22" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R42" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
+<part name="R42" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="GND23" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U37" library="HyTechDevices" deviceset="MCP3204" device=""/>
-<part name="C7" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C7" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND21" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND24" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U9" library="HyTechDevices" deviceset="TXB0104" device="TSSOP"/>
 <part name="GND25" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R36" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
+<part name="R36" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="GND26" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U8" library="HyTechDevices" deviceset="MCP3204" device=""/>
 <part name="C116" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C115" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C115" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="U105" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
 <part name="GND4" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="C112" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C113" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="U7" library="HyTechDevices" deviceset="MAX7480" device=""/>
+<part name="C113" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="U7" library="HyTechDevices" deviceset="MAX7480" device="" value="MAX7480"/>
 <part name="C10" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
-<part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C35" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C36" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C20" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -7513,32 +7513,32 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="3V3" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="30.1"/>
 <part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND52" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="C4" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND53" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C24" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C24" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND56" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C13" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C13" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND58" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C16" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C16" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND59" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C27" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C27" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND60" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C14" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C14" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND62" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C18" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C18" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND54" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C22" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C22" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND55" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C12" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C12" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND63" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="C19" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C19" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND64" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND135" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="C11" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C11" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND65" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="MTK3339_BREAKOUT" library="HyTechDevices" deviceset="MTK3339" device=""/>
@@ -7581,7 +7581,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND70" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="INV" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="30.1"/>
-<part name="S1" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD"/>
+<part name="S1" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD" value="Switch"/>
 <part name="GND97" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND51" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND71" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7675,7 +7675,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <plain>
 <text x="281.94" y="22.86" size="2.54" layer="94">Ethan Weinstock</text>
 <text x="347.98" y="15.24" size="2.54" layer="94">Board power distribution, connectors, and I/O.</text>
-<text x="218.44" y="187.96" size="1.778" layer="97">capacitor to reduce noise when CAN switches layers</text>
+<text x="220.98" y="187.96" size="1.778" layer="97">capacitor to reduce noise when CAN switches layers</text>
 </plain>
 <instances>
 <instance part="X100" gate="-13" x="48.26" y="231.14" smashed="yes" rot="MR0">
@@ -7805,7 +7805,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </instance>
 <instance part="5AFUSE1" gate="G$1" x="116.84" y="12.7" smashed="yes">
 <attribute name="NAME" x="114.3" y="13.97" size="1.27" layer="95"/>
-<attribute name="VALUE" x="119.38" y="13.97" size="1.27" layer="96"/>
+<attribute name="VALUE" x="118.11" y="10.668" size="1.27" layer="96"/>
 </instance>
 <instance part="GND50" gate="1" x="53.34" y="137.16" smashed="yes">
 <attribute name="VALUE" x="50.8" y="134.62" size="1.778" layer="96"/>
@@ -7860,11 +7860,11 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </instance>
 <instance part="5ASHUTDOWNFUSE1" gate="G$1" x="172.72" y="210.82" smashed="yes" rot="MR180">
 <attribute name="NAME" x="163.322" y="208.534" size="1.27" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="175.26" y="209.55" size="1.27" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="173.482" y="212.852" size="1.27" layer="96" rot="MR180"/>
 </instance>
 <instance part="5ABOARDFUSE1" gate="G$1" x="172.72" y="218.44" smashed="yes" rot="MR180">
 <attribute name="NAME" x="167.64" y="217.17" size="1.27" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="175.26" y="217.17" size="1.27" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="172.72" y="222.25" size="1.27" layer="96" rot="MR180"/>
 </instance>
 <instance part="R113" gate="G$1" x="172.72" y="88.9" smashed="yes" rot="MR90">
 <attribute name="NAME" x="179.832" y="89.1286" size="1.778" layer="95" rot="MR0"/>
@@ -7900,11 +7900,11 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </instance>
 <instance part="Q102" gate="G$1" x="187.96" y="147.32" smashed="yes">
 <attribute name="NAME" x="184.15" y="152.4" size="1.778" layer="95"/>
-<attribute name="VALUE" x="184.15" y="139.7" size="1.778" layer="95"/>
+<attribute name="VALUE" x="179.07" y="142.24" size="1.778" layer="95"/>
 </instance>
 <instance part="Q101" gate="G$1" x="182.88" y="99.06" smashed="yes">
 <attribute name="NAME" x="179.07" y="104.14" size="1.778" layer="95"/>
-<attribute name="VALUE" x="179.07" y="91.44" size="1.778" layer="95"/>
+<attribute name="VALUE" x="175.006" y="93.472" size="1.778" layer="95"/>
 </instance>
 <instance part="R100" gate="G$1" x="132.08" y="190.5" smashed="yes">
 <attribute name="NAME" x="128.27" y="191.9986" size="1.778" layer="95"/>
@@ -8056,12 +8056,12 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <attribute name="NAME" x="367.538" y="84.6074" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="367.538" y="89.662" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C11" gate="G$1" x="213.36" y="190.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="211.836" y="187.579" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="211.836" y="192.659" size="1.778" layer="96" rot="R180"/>
+<instance part="C11" gate="G$1" x="215.9" y="190.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="214.376" y="187.579" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="214.376" y="192.659" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND65" gate="1" x="213.36" y="180.34" smashed="yes">
-<attribute name="VALUE" x="208.28" y="177.8" size="1.778" layer="96"/>
+<instance part="GND65" gate="1" x="215.9" y="180.34" smashed="yes">
+<attribute name="VALUE" x="210.82" y="177.8" size="1.778" layer="96"/>
 </instance>
 <instance part="LATCH" gate="LED" x="370.84" y="251.46" smashed="yes" rot="MR90">
 <attribute name="NAME" x="366.268" y="255.016" size="1.778" layer="95" rot="MR180"/>
@@ -8240,8 +8240,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="P+53" gate="1" x="104.14" y="256.54" smashed="yes">
 <attribute name="VALUE" x="106.68" y="259.08" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+46" gate="1" x="213.36" y="198.12" smashed="yes">
-<attribute name="VALUE" x="215.9" y="200.66" size="1.778" layer="96" rot="R180"/>
+<instance part="P+46" gate="1" x="215.9" y="198.12" smashed="yes">
+<attribute name="VALUE" x="218.44" y="200.66" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+55" gate="1" x="396.24" y="256.54" smashed="yes">
 <attribute name="VALUE" x="398.78" y="259.08" size="1.778" layer="96" rot="R180"/>
@@ -8459,7 +8459,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="GND65" gate="1" pin="GND"/>
-<wire x1="213.36" y1="182.88" x2="213.36" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="182.88" x2="215.9" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="228.6" x2="76.2" y2="228.6" width="0.1524" layer="91"/>
@@ -8657,7 +8657,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="193.04" x2="213.36" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="193.04" x2="215.9" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="P+46" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -9578,7 +9578,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </instance>
 <instance part="C32" gate="G$1" x="68.58" y="45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="74.676" y="42.799" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="74.676" y="47.879" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="77.216" y="47.879" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND9" gate="1" x="68.58" y="35.56" smashed="yes">
 <attribute name="VALUE" x="66.04" y="33.02" size="1.778" layer="96"/>
@@ -9725,7 +9725,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </instance>
 <instance part="S1" gate="1" x="370.84" y="231.14" smashed="yes" rot="MR270">
 <attribute name="NAME" x="373.38" y="237.49" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="367.665" y="234.95" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="374.523" y="225.806" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND97" gate="1" x="391.16" y="226.06" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="393.7" y="223.52" size="1.778" layer="96" rot="MR0"/>
@@ -10970,16 +10970,16 @@ since we have no via the current is less
 <attribute name="NAME" x="199.644" y="165.481" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.644" y="160.401" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="144.78" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="143.256" y="101.219" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="143.256" y="106.299" size="1.778" layer="96" rot="R180"/>
+<instance part="C2" gate="G$1" x="147.32" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="145.796" y="101.219" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="145.796" y="106.299" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C1" gate="G$1" x="137.16" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="135.636" y="101.219" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="135.636" y="106.299" size="1.778" layer="96" rot="R180"/>
+<instance part="C1" gate="G$1" x="139.7" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="138.176" y="101.219" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="138.176" y="106.299" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND52" gate="1" x="142.24" y="96.52" smashed="yes">
-<attribute name="VALUE" x="139.7" y="93.98" size="1.778" layer="96"/>
+<instance part="GND52" gate="1" x="144.78" y="96.52" smashed="yes">
+<attribute name="VALUE" x="142.24" y="93.98" size="1.778" layer="96"/>
 </instance>
 <instance part="GND135" gate="1" x="309.88" y="63.5" smashed="yes">
 <attribute name="VALUE" x="307.34" y="60.96" size="1.778" layer="96"/>
@@ -10995,8 +10995,8 @@ since we have no via the current is less
 <instance part="P+52" gate="1" x="88.9" y="170.18" smashed="yes">
 <attribute name="VALUE" x="85.852" y="171.958" size="1.778" layer="96"/>
 </instance>
-<instance part="P+57" gate="1" x="134.62" y="111.76" smashed="yes">
-<attribute name="VALUE" x="137.16" y="114.3" size="1.778" layer="96" rot="R180"/>
+<instance part="P+57" gate="1" x="137.16" y="111.76" smashed="yes">
+<attribute name="VALUE" x="139.7" y="114.3" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+58" gate="1" x="238.76" y="256.54" smashed="yes">
 <attribute name="VALUE" x="241.3" y="259.08" size="1.778" layer="96" rot="R180"/>
@@ -11297,10 +11297,10 @@ since we have no via the current is less
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND52" gate="1" pin="GND"/>
-<wire x1="142.24" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
-<junction x="142.24" y="99.06"/>
+<wire x1="144.78" y1="99.06" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
+<junction x="144.78" y="99.06"/>
 </segment>
 <segment>
 <pinref part="GND135" gate="1" pin="GND"/>
@@ -11318,14 +11318,14 @@ since we have no via the current is less
 <net name="+5V" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VIN"/>
-<wire x1="132.08" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="106.68" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="106.68" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
-<junction x="134.62" y="106.68"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="106.68" x2="139.7" y2="106.68" width="0.1524" layer="91"/>
 <junction x="137.16" y="106.68"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="139.7" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+<junction x="139.7" y="106.68"/>
 <pinref part="P+57" gate="1" pin="+5V"/>
 </segment>
 <segment>

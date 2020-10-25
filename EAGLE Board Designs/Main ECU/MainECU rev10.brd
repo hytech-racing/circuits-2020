@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -1934,9 +1934,9 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 </pass>
 </autorouter>
 <elements>
-<element name="5ABOARDFUSE1" library="HyTechDevices" package="MINI-BLADE_FUSE_HOLDER" value="" x="50.292" y="69.7992" smashed="yes" rot="R270"/>
-<element name="5AFUSE1" library="HyTechDevices" package="MINI-BLADE_FUSE_HOLDER" value="" x="89.916" y="59.4106" smashed="yes" rot="R90"/>
-<element name="5ASHUTDOWNFUSE1" library="HyTechDevices" package="MINI-BLADE_FUSE_HOLDER" value="" x="43.7388" y="59.944" smashed="yes" rot="R90"/>
+<element name="5ABOARDFUSE1" library="HyTechDevices" package="MINI-BLADE_FUSE_HOLDER" value="5A" x="50.292" y="69.7992" smashed="yes" rot="R270"/>
+<element name="5AFUSE1" library="HyTechDevices" package="MINI-BLADE_FUSE_HOLDER" value="5A" x="89.916" y="59.4106" smashed="yes" rot="R90"/>
+<element name="5ASHUTDOWNFUSE1" library="HyTechDevices" package="MINI-BLADE_FUSE_HOLDER" value="5A" x="43.7388" y="59.944" smashed="yes" rot="R90"/>
 <element name="PD1" library="HyTechDevices" package="0603-RES" value="10k" x="82.677" y="13.462" smashed="yes" rot="MR270">
 <attribute name="NAME" x="82.7278" y="14.9733" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 </element>
@@ -1963,10 +1963,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="NAME" x="73.8378" y="87.122" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="73.533" y="87.4522" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C9" library="HyTechDevices" package="0603-CAP" value="0.47µ" x="43.053" y="28.194" smashed="yes">
+<element name="C9" library="HyTechDevices" package="0603-CAP" value="0.47u" x="43.053" y="28.194" smashed="yes">
 <attribute name="NAME" x="44.5008" y="27.4828" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C30" library="HyTechDevices" package="0603-CAP" value="15n" x="58.42" y="33.528" smashed="yes" rot="R180">
+<element name="C30" library="HyTechDevices" package="0603-CAP" value="15nF" x="58.42" y="33.528" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.8424" y="32.9184" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C105" library="HyTechDevices" package="0603-CAP" value="10uF" x="81.3816" y="57.5056" smashed="yes" rot="MR90">
@@ -2002,19 +2002,19 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="C23" library="HyTechDevices" package="0603-CAP" value="470pF" x="54.1782" y="90.6018" smashed="yes" rot="R180">
 <attribute name="NAME" x="55.0926" y="89.8906" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C17" library="HyTechDevices" package="0603-CAP" value=".1uF" x="50.038" y="100.584" smashed="yes">
+<element name="C17" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="50.038" y="100.584" smashed="yes">
 <attribute name="NAME" x="49.1998" y="101.2698" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C21" library="HyTechDevices" package="0603-CAP" value=".1uF" x="53.4924" y="100.584" smashed="yes">
+<element name="C21" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="53.4924" y="100.584" smashed="yes">
 <attribute name="NAME" x="52.6542" y="101.2952" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C118" library="HyTechDevices" package="0603-CAP" value="1uF" x="37.6682" y="11.0998" smashed="yes" rot="MR180">
 <attribute name="NAME" x="41.9608" y="10.8966" size="0.8128" layer="26" font="vector" rot="MR0"/>
 </element>
-<element name="C117" library="HyTechDevices" package="0603-CAP" value=".1uF" x="37.6682" y="9.0424" smashed="yes" rot="MR180">
+<element name="C117" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="37.6682" y="9.0424" smashed="yes" rot="MR180">
 <attribute name="NAME" x="41.9354" y="8.6106" size="0.8128" layer="26" font="vector" rot="MR0"/>
 </element>
-<element name="C25" library="HyTechDevices" package="0603-CAP" value=".1uF" x="56.388" y="19.7612" smashed="yes">
+<element name="C25" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="56.388" y="19.7612" smashed="yes">
 <attribute name="NAME" x="57.1246" y="17.6022" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C119" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="5.9182" y="90.8948" smashed="yes" rot="MR0">
@@ -2023,34 +2023,34 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="C120" library="HyTechDevices" package="0603-CAP" value="1uF" x="-2.3876" y="23.3934" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-6.7818" y="23.8252" size="0.8128" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="C121" library="HyTechDevices" package="0603-CAP" value=".1uF" x="-2.3876" y="25.4762" smashed="yes" rot="MR180">
+<element name="C121" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="-2.3876" y="25.4762" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-6.7818" y="25.8826" size="0.8128" layer="26" font="vector" rot="MR180"/>
 </element>
 <element name="C33" library="HyTechDevices" package="0603-CAP" value="470pF" x="60.6806" y="90.7288" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.5442" y="89.8906" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C26" library="HyTechDevices" package="0603-CAP" value=".1uF" x="56.9214" y="100.584" smashed="yes">
+<element name="C26" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="56.9214" y="100.584" smashed="yes">
 <attribute name="NAME" x="56.0832" y="101.3206" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C31" library="HyTechDevices" package="0603-CAP" value=".1uF" x="60.0964" y="100.584" smashed="yes">
+<element name="C31" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="60.0964" y="100.584" smashed="yes">
 <attribute name="NAME" x="59.2582" y="101.346" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C28" library="HyTechDevices" package="0603-CAP" value=".1uF" x="58.3692" y="12.1412" smashed="yes" rot="R90">
+<element name="C28" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="58.3692" y="12.1412" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.3344" y="11.8872" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C45" library="HyTechDevices" package="0603-CAP" value="470pF" x="82.0166" y="17.7038" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.9056" y="16.002" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C47" library="HyTechDevices" package="0603-CAP" value=".1uF" x="91.9226" y="19.024596875" smashed="yes" rot="R270">
+<element name="C47" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="91.9226" y="19.024596875" smashed="yes" rot="R270">
 <attribute name="NAME" x="92.5576" y="19.989796875" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C48" library="HyTechDevices" package="0603-CAP" value=".1uF" x="91.9226" y="15.68873125" smashed="yes" rot="R270">
+<element name="C48" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="91.9226" y="15.68873125" smashed="yes" rot="R270">
 <attribute name="NAME" x="92.5576" y="16.83173125" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="C107" library="HyTechDevices" package="0603-CAP" value="1uF" x="74.2442" y="9.1694" smashed="yes" rot="MR0">
 <attribute name="NAME" x="74.9046" y="11.1506" size="0.8128" layer="26" font="vector" rot="MR0"/>
 </element>
-<element name="C106" library="HyTechDevices" package="0603-CAP" value=".1uF" x="74.2442" y="6.858" smashed="yes" rot="MR0">
+<element name="C106" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="74.2442" y="6.858" smashed="yes" rot="MR0">
 <attribute name="NAME" x="74.93" y="5.2324" size="0.8128" layer="26" font="vector" rot="MR0"/>
 </element>
 <element name="C38" library="HyTechDevices" package="0603-CAP" value="470pF" x="70.358" y="13.4112" smashed="yes">
@@ -2059,22 +2059,22 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="C101" library="HyTechDevices" package="0603-CAP" value="1uF" x="84.4804" y="5.7658" smashed="yes" rot="MR0">
 <attribute name="NAME" x="82.9818" y="4.7498" size="0.8128" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="C102" library="HyTechDevices" package="0603-CAP" value=".1uF" x="84.4804" y="8.3058" smashed="yes" rot="MR0">
+<element name="C102" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="84.4804" y="8.3058" smashed="yes" rot="MR0">
 <attribute name="NAME" x="82.9818" y="7.4168" size="0.8128" layer="26" font="vector" rot="MR180"/>
 </element>
 <element name="C46" library="HyTechDevices" package="0603-CAP" value="470pF" x="82.0166" y="9.398" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.9912" y="11.6586" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C49" library="HyTechDevices" package="0603-CAP" value=".1uF" x="91.9226" y="10.828865625" smashed="yes" rot="R270">
+<element name="C49" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="91.9226" y="10.828865625" smashed="yes" rot="R270">
 <attribute name="NAME" x="92.5576" y="12.073465625" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C50" library="HyTechDevices" package="0603-CAP" value=".1uF" x="91.9226" y="7.493" smashed="yes" rot="R270">
+<element name="C50" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="91.9226" y="7.493" smashed="yes" rot="R270">
 <attribute name="NAME" x="92.5068" y="7.9248" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C39" library="HyTechDevices" package="0603-CAP" value=".1uF" x="72.4916" y="3.302" smashed="yes" rot="R180">
+<element name="C39" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="72.4916" y="3.302" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.5076" y="2.7178" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C37" library="HyTechDevices" package="0603-CAP" value=".1uF" x="69.1134" y="3.302" smashed="yes" rot="R180">
+<element name="C37" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="69.1134" y="3.302" smashed="yes" rot="R180">
 <attribute name="NAME" x="70.0024" y="2.6416" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="CAN_TERM_JMP1" library="HyTechDevices" package="1X02_SLIM" value="M02_SLIM" x="92.0496" y="50.038" smashed="yes" rot="R90"/>
@@ -2194,11 +2194,11 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="Q100" library="HyTechDevices" package="SOT23" value="P-CHANNEL_MOSFET_DMP3099L-7" x="61.3156" y="10.8204" smashed="yes" rot="MR270">
 <attribute name="NAME" x="61.3156" y="12.6746" size="0.8128" layer="26" rot="MR180" align="top-center"/>
 </element>
-<element name="Q102" library="HyTechDevices" package="SOT23" value="" x="39.6748" y="51.4604" smashed="yes" rot="MR0">
+<element name="Q102" library="HyTechDevices" package="SOT23" value="DMG3406L" x="39.6748" y="51.4604" smashed="yes" rot="MR0">
 <attribute name="NAME" x="39.6748" y="51.7906" size="0.8128" layer="26" rot="MR0" align="top-center"/>
 <attribute name="VALUE" x="38.2778" y="52.3494" size="0.3048" layer="28" rot="MR0" align="bottom-center"/>
 </element>
-<element name="Q101" library="HyTechDevices" package="SOT23" value="" x="57.0484" y="4.445" smashed="yes" rot="MR270">
+<element name="Q101" library="HyTechDevices" package="SOT23" value="DMG3406L" x="57.0484" y="4.445" smashed="yes" rot="MR270">
 <attribute name="NAME" x="57.023" y="2.7686" size="0.8128" layer="26" rot="MR0" align="top-center"/>
 <attribute name="VALUE" x="56.1594" y="3.048" size="0.3048" layer="28" rot="MR270" align="bottom-center"/>
 </element>
@@ -2359,7 +2359,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 </element>
 <element name="REG2" library="HyTechDevices" package="OKI-78SR" value="5V" x="78.486" y="55.8546" smashed="yes" rot="R270"/>
 <element name="REG1" library="HyTechDevices" package="OKI-78SR" value="3.3V" x="69.6722" y="55.8546" smashed="yes" rot="R270"/>
-<element name="S1" library="HyTechDevices" package="TACTILE_SWITCH_SMD_6.2MM_TALL" value="" x="88.3412" y="34.2392" smashed="yes" rot="R90">
+<element name="S1" library="HyTechDevices" package="TACTILE_SWITCH_SMD_6.2MM_TALL" value="Switch" x="88.3412" y="34.2392" smashed="yes" rot="R90">
 <attribute name="NAME" x="88.392" y="37.7698" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="91.5162" y="34.2392" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
@@ -2385,7 +2385,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="U104" library="HyTechDevices" package="SOIC-08" value="MCP6002SOIC" x="59.0804" y="89.8906" smashed="yes" rot="MR180">
 <attribute name="NAME" x="59.2074" y="90.8304" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U24" library="HyTechDevices" package="SOIC-08" value="" x="52.9844" y="95.6564" smashed="yes" rot="R180">
+<element name="U24" library="HyTechDevices" package="SOIC-08" value="MAX7480" x="52.9844" y="95.6564" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.721" y="95.0722" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="50.4444" y="95.6564" size="0.6096" layer="27" rot="R90" align="bottom-center"/>
 </element>
@@ -2399,25 +2399,25 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="U103" library="HyTechDevices" package="SOP8" value="ACHS-7121" x="64.262" y="80.391" smashed="yes" rot="MR270">
 <attribute name="NAME" x="64.3382" y="80.2132" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 </element>
-<element name="U33" library="HyTechDevices" package="SOIC-08" value="" x="59.0804" y="95.6818" smashed="yes" rot="R180">
+<element name="U33" library="HyTechDevices" package="SOIC-08" value="MAX7480" x="59.0804" y="95.6818" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.4962" y="95.0214" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="56.5404" y="95.6818" size="0.6096" layer="27" rot="R90" align="bottom-center"/>
 </element>
 <element name="U100" library="HyTechDevices" package="SOIC-08" value="MCP6002SOIC" x="89.0016" y="9.1186" smashed="yes" rot="MR180">
 <attribute name="NAME" x="89.1794" y="10.2616" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U44" library="HyTechDevices" package="SOIC-08" value="" x="86.9696" y="17.8308" smashed="yes" rot="R90">
+<element name="U44" library="HyTechDevices" package="SOIC-08" value="MAX7480" x="86.9696" y="17.8308" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.9696" y="18.7452" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="86.9696" y="20.3708" size="0.6096" layer="27" align="bottom-center"/>
 </element>
 <element name="U101" library="HyTechDevices" package="SOIC-08" value="MCP6002SOIC" x="79.0956" y="9.1186" smashed="yes" rot="MR180">
 <attribute name="NAME" x="79.0194" y="8.89" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U45" library="HyTechDevices" package="SOIC-08" value="" x="86.9696" y="10.1092" smashed="yes" rot="R90">
+<element name="U45" library="HyTechDevices" package="SOIC-08" value="MAX7480" x="86.9696" y="10.1092" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.9696" y="10.6426" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="86.9696" y="12.6492" size="0.6096" layer="27" align="bottom-center"/>
 </element>
-<element name="U38" library="HyTechDevices" package="SOIC-08" value="" x="70.6374" y="8.382" smashed="yes">
+<element name="U38" library="HyTechDevices" package="SOIC-08" value="MAX7480" x="70.6374" y="8.382" smashed="yes">
 <attribute name="NAME" x="70.3834" y="7.874" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="73.1774" y="8.382" size="0.6096" layer="27" rot="R270" align="bottom-center"/>
 </element>
@@ -2459,17 +2459,17 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="U108" library="HyTechDevices" package="SOT323-5" value="STWD100PYW83F" x="21.082" y="14.986" smashed="yes" rot="MR90">
 <attribute name="NAME" x="23.368" y="11.684" size="0.8128" layer="26" font="vector" rot="MR0"/>
 </element>
-<element name="U39" library="HyTechDevices" package="SOIC-08" value="" x="77.47" y="8.382" smashed="yes">
+<element name="U39" library="HyTechDevices" package="SOIC-08" value="MAX7480" x="77.47" y="8.382" smashed="yes">
 <attribute name="NAME" x="78.1812" y="8.0518" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="80.01" y="8.382" size="0.6096" layer="27" rot="R270" align="bottom-center"/>
 </element>
 <element name="C43" library="HyTechDevices" package="0603-CAP" value="470pF" x="78.486" y="13.4112" smashed="yes">
 <attribute name="NAME" x="75.057" y="13.0048" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C44" library="HyTechDevices" package="0603-CAP" value=".1uF" x="79.248" y="3.302" smashed="yes" rot="R180">
+<element name="C44" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="79.248" y="3.302" smashed="yes" rot="R180">
 <attribute name="NAME" x="79.883" y="2.6924" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C42" library="HyTechDevices" package="0603-CAP" value=".1uF" x="75.8698" y="3.302" smashed="yes" rot="R180">
+<element name="C42" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="75.8698" y="3.302" smashed="yes" rot="R180">
 <attribute name="NAME" x="76.5048" y="2.6924" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="BR2" library="HyTechDevices" package="0603-RES" value="10k" x="78.486" y="14.224" smashed="yes" rot="MR0">
@@ -2500,7 +2500,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="R43" library="HyTechDevices" package="0603-RES" value="100" x="63.5" y="25.908" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.881" y="25.146" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C32" library="HyTechDevices" package="0603-CAP" value="2.2µ" x="60.198" y="25.2222" smashed="yes" rot="R270">
+<element name="C32" library="HyTechDevices" package="0603-CAP" value="2.2uF" x="60.198" y="25.2222" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.1632" y="23.622" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="D12" library="HyTechDevices" package="SOT23" value="MMBZ5246BLT1G" x="71.374" y="29.21" smashed="yes">
@@ -2597,23 +2597,23 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="U34" library="HyTechDevices" package="TSSOP-14" value="TXB0104TSSOP" x="60.452" y="17.272" smashed="yes">
 <attribute name="NAME" x="60.4472" y="17.2593" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="R42" library="HyTechDevices" package="0603-RES" value="" x="61.468" y="4.318" smashed="yes">
+<element name="R42" library="HyTechDevices" package="0603-RES" value="10k" x="61.468" y="4.318" smashed="yes">
 <attribute name="NAME" x="60.579" y="5.08" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="60.452" y="3.175" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="U37" library="HyTechDevices" package="SO14" value="MCP3204" x="68.326" y="20.574" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.056" y="25.273" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C7" library="HyTechDevices" package="0603-CAP" value=".1uF" x="39.6494" y="79.5528" smashed="yes" rot="R90">
+<element name="C7" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="39.6494" y="79.5528" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.9382" y="79.7814" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C8" library="HyTechDevices" package="0603-CAP" value=".1uF" x="39.6748" y="76.0222" smashed="yes" rot="R270">
+<element name="C8" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="39.6748" y="76.0222" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.862" y="76.4032" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="U9" library="HyTechDevices" package="TSSOP-14" value="TXB0104TSSOP" x="43.4594" y="77.978" smashed="yes">
 <attribute name="NAME" x="43.4292" y="77.7367" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="R36" library="HyTechDevices" package="0603-RES" value="" x="46.99" y="76.3524" smashed="yes" rot="R90">
+<element name="R36" library="HyTechDevices" package="0603-RES" value="10k" x="46.99" y="76.3524" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.0314" y="78.6384" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="48.133" y="75.3364" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
@@ -2623,7 +2623,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="C116" library="HyTechDevices" package="0603-CAP" value="1uF" x="48.514" y="84.582" smashed="yes" rot="MR180">
 <attribute name="NAME" x="44.323" y="84.836" size="0.8128" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="C115" library="HyTechDevices" package="0603-CAP" value=".1uF" x="48.514" y="82.042" smashed="yes" rot="MR180">
+<element name="C115" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="48.514" y="82.042" smashed="yes" rot="MR180">
 <attribute name="NAME" x="44.323" y="82.55" size="0.8128" layer="26" font="vector" rot="MR180"/>
 </element>
 <element name="U105" library="HyTechDevices" package="SOIC-08" value="MCP6002SOIC" x="48.768" y="89.916" smashed="yes" rot="MR180">
@@ -2632,20 +2632,20 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="C112" library="HyTechDevices" package="0603-CAP" value="1uF" x="54.356" y="87.884" smashed="yes" rot="MR0">
 <attribute name="NAME" x="54.356" y="86.2584" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 </element>
-<element name="C113" library="HyTechDevices" package="0603-CAP" value=".1uF" x="54.356" y="90.17" smashed="yes" rot="MR0">
+<element name="C113" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="54.356" y="90.17" smashed="yes" rot="MR0">
 <attribute name="NAME" x="54.356" y="91.1352" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 </element>
-<element name="U7" library="HyTechDevices" package="SOIC-08" value="" x="42.7482" y="97.409" smashed="yes" rot="R180">
+<element name="U7" library="HyTechDevices" package="SOIC-08" value="MAX7480" x="42.7482" y="97.409" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.291" y="97.2058" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="40.2082" y="97.409" size="0.6096" layer="27" rot="R90" align="bottom-center"/>
 </element>
 <element name="C10" library="HyTechDevices" package="0603-CAP" value="470pF" x="43.9674" y="92.6338" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.8564" y="91.8718" size="0.4064" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C5" library="HyTechDevices" package="0603-CAP" value=".1uF" x="38.9636" y="99.5934" smashed="yes" rot="R270">
+<element name="C5" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="38.9636" y="99.5934" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.4556" y="101.1936" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="C6" library="HyTechDevices" package="0603-CAP" value=".1uF" x="38.9636" y="96.139" smashed="yes" rot="R270">
+<element name="C6" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="38.9636" y="96.139" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.37" y="94.3864" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C35" library="HyTechDevices" package="0603-CAP" value="1uF" x="66.294" y="14.986" smashed="yes" rot="R180">
@@ -2712,46 +2712,46 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="C2" library="HyTechDevices" package="0603-CAP" value="1uF" x="-7.3406" y="5.2832" smashed="yes" rot="R270">
 <attribute name="NAME" x="-6.7818" y="7.8486" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C1" library="HyTechDevices" package="0603-CAP" value=".1uF" x="-9.652" y="5.2832" smashed="yes" rot="R270">
+<element name="C1" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="-9.652" y="5.2832" smashed="yes" rot="R270">
 <attribute name="NAME" x="-9.0678" y="7.874" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C4" library="HyTechDevices" package="0603-CAP" value="1uF" x="23.2156" y="5.2832" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.7744" y="7.7724" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C3" library="HyTechDevices" package="0603-CAP" value=".1uF" x="20.828" y="5.2832" smashed="yes" rot="R270">
+<element name="C3" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="20.828" y="5.2832" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.3868" y="7.7724" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C24" library="HyTechDevices" package="0603-CAP" value=".1uF" x="54.356" y="38.1" smashed="yes">
+<element name="C24" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="54.356" y="38.1" smashed="yes">
 <attribute name="NAME" x="55.753" y="37.338" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C13" library="HyTechDevices" package="0603-CAP" value=".1uF" x="46.5582" y="22.098" smashed="yes" rot="R270">
+<element name="C13" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="46.5582" y="22.098" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.371" y="20.4978" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C16" library="HyTechDevices" package="0603-CAP" value=".1uF" x="49.9364" y="26.4414" smashed="yes" rot="R270">
+<element name="C16" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="49.9364" y="26.4414" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.0032" y="24.8666" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C27" library="HyTechDevices" package="0603-CAP" value=".1uF" x="57.277" y="25.2222" smashed="yes" rot="R270">
+<element name="C27" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="57.277" y="25.2222" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.3692" y="23.749" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C14" library="HyTechDevices" package="0603-CAP" value=".1uF" x="46.6598" y="25.9588" smashed="yes">
+<element name="C14" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="46.6598" y="25.9588" smashed="yes">
 <attribute name="NAME" x="48.2092" y="25.0952" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C18" library="HyTechDevices" package="0603-CAP" value=".1uF" x="50.3428" y="38.1" smashed="yes" rot="R180">
+<element name="C18" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="50.3428" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.2318" y="37.338" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C22" library="HyTechDevices" package="0603-CAP" value=".1uF" x="53.6194" y="28.7528" smashed="yes" rot="R180">
+<element name="C22" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="53.6194" y="28.7528" smashed="yes" rot="R180">
 <attribute name="NAME" x="52.5018" y="28.1432" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C12" library="HyTechDevices" package="0603-CAP" value=".1uF" x="45.974" y="15.7861" smashed="yes" rot="R180">
+<element name="C12" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="45.974" y="15.7861" smashed="yes" rot="R180">
 <attribute name="NAME" x="47.625" y="17.5641" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C19" library="HyTechDevices" package="0603-CAP" value=".1uF" x="51.0286" y="15.6464" smashed="yes" rot="R180">
+<element name="C19" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="51.0286" y="15.6464" smashed="yes" rot="R180">
 <attribute name="NAME" x="52.6796" y="17.4244" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R1" library="HyTechDevices" package="0603-RES" value="10k" x="-9.525" y="71.628" smashed="yes" rot="R270">
 <attribute name="NAME" x="-9.017" y="69.977" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C11" library="HyTechDevices" package="0603-CAP" value=".1uF" x="45.7454" y="38.1" smashed="yes">
+<element name="C11" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="45.7454" y="38.1" smashed="yes">
 <attribute name="NAME" x="42.3164" y="38.1" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="MTK3339_BREAKOUT" library="HyTechDevices" package="1X09" value="MTK3339" x="-0.635" y="67.2592" smashed="yes" rot="R180">
