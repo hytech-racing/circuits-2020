@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -4945,9 +4945,9 @@ Source: &lt;a href=&quot;https://docs.oshpark.com/design-tools/eagle/design-rule
 <wire x1="43.942" y1="62.738" x2="42.926" y2="63.754" width="0.254" layer="1"/>
 <wire x1="42.926" y1="63.754" x2="48.602" y2="63.754" width="0.254" layer="1"/>
 <wire x1="48.602" y1="63.754" x2="49.276" y2="63.08" width="0.254" layer="1"/>
+<wire x1="42.926" y1="63.754" x2="42.164" y2="63.754" width="0.254" layer="1"/>
 <contactref element="U$4" pad="D13"/>
-<wire x1="40.64" y1="62.23" x2="42.164" y2="63.754" width="0.254" layer="1"/>
-<wire x1="42.164" y1="63.754" x2="42.926" y2="63.754" width="0.254" layer="1"/>
+<wire x1="42.164" y1="63.754" x2="40.64" y2="62.23" width="0.254" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U$8" pad="VCC"/>
@@ -4991,7 +4991,6 @@ Source: &lt;a href=&quot;https://docs.oshpark.com/design-tools/eagle/design-rule
 <wire x1="42.926" y1="53.936" x2="42.926" y2="56.354" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$11">
-<contactref element="U$4" pad="A0"/>
 <contactref element="R32" pad="2"/>
 <contactref element="U$9" pad="1"/>
 <wire x1="57.404" y1="56.963775" x2="57.404" y2="61.38" width="0.254" layer="1"/>
@@ -4999,10 +4998,12 @@ Source: &lt;a href=&quot;https://docs.oshpark.com/design-tools/eagle/design-rule
 <wire x1="55.435425" y1="54.9952" x2="57.404" y2="56.963775" width="0.254" layer="1"/>
 <wire x1="45.024" y1="56.943" x2="45.024" y2="56.59586875" width="0.254" layer="1"/>
 <wire x1="45.024" y1="56.59586875" x2="46.62466875" y2="54.9952" width="0.254" layer="1"/>
-<wire x1="43.53913125" y1="59.944" x2="40.386" y2="59.944" width="0.254" layer="1"/>
-<wire x1="40.386" y1="59.944" x2="38.1" y2="62.23" width="0.254" layer="1"/>
 <wire x1="45.024" y1="56.943" x2="45.024" y2="58.45913125" width="0.254" layer="1"/>
-<wire x1="45.024" y1="58.45913125" x2="43.53913125" y2="59.944" width="0.254" layer="1"/>
+<contactref element="U$4" pad="A0"/>
+<wire x1="45.024" y1="58.45913125" x2="44.04713125" y2="59.436" width="0.254" layer="1"/>
+<wire x1="44.04713125" y1="59.436" x2="40.64" y2="59.436" width="0.254" layer="1"/>
+<wire x1="40.64" y1="59.436" x2="38.1" y2="61.976" width="0.254" layer="1"/>
+<wire x1="38.1" y1="61.976" x2="38.1" y2="62.23" width="0.254" layer="1"/>
 </signal>
 <signal name="N$23">
 <contactref element="D7" pad="A"/>
@@ -5035,6 +5036,9 @@ Source: &lt;a href=&quot;https://docs.oshpark.com/design-tools/eagle/design-rule
 <contactref element="U$10" pad="1"/>
 <wire x1="76.962" y1="19.606" x2="76.962" y2="17.692" width="0.254" layer="1"/>
 <wire x1="76.962" y1="17.692" x2="76.796" y2="17.526" width="0.254" layer="1"/>
+</signal>
+<signal name="N$28">
+<contactref element="U$4" pad="D12"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
