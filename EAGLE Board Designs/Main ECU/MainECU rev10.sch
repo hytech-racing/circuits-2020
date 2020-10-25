@@ -7209,7 +7209,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND98" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R129" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="R139" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
-<part name="C9" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.47u"/>
+<part name="C9" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.47uF"/>
 <part name="GND116" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="68"/>
 <part name="REG2" library="HyTechDevices" deviceset="OKI-78SR-5" device="" value="5V"/>

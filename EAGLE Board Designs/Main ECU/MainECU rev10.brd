@@ -1963,7 +1963,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="NAME" x="73.8378" y="87.122" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="73.533" y="87.4522" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C9" library="HyTechDevices" package="0603-CAP" value="0.47u" x="43.053" y="28.194" smashed="yes">
+<element name="C9" library="HyTechDevices" package="0603-CAP" value="0.47uF" x="43.053" y="28.194" smashed="yes">
 <attribute name="NAME" x="44.5008" y="27.4828" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C30" library="HyTechDevices" package="0603-CAP" value="15nF" x="58.42" y="33.528" smashed="yes" rot="R180">
