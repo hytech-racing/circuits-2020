@@ -4525,12 +4525,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <packages>
 </packages>
 <symbols>
-<symbol name="+5V" urn="urn:adsk.eagle:symbol:26929/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="+3V3" urn="urn:adsk.eagle:symbol:26950/1" library_version="1">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -4539,19 +4533,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="+5V" urn="urn:adsk.eagle:component:26963/1" prefix="P+" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="+3V3" urn="urn:adsk.eagle:component:26981/1" prefix="+3V3" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -7135,6 +7116,12 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="+5V">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="2.54" y="2.54" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+3V3" prefix="+3V3">
@@ -7154,6 +7141,19 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+12V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+5V" prefix="P+">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -7185,7 +7185,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="U$43" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
 <part name="U$40" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
 <part name="GND78" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+65" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="IMD_SHUTDOWN_RLY1" library="HyTechDevices" deviceset="RT424009" device=""/>
 <part name="GND102" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="D111" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
@@ -7230,11 +7229,9 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND87" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="C105" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C104" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="P+72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="5V" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="215"/>
 <part name="GND96" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+81" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="5ASHUTDOWNFUSE1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE"/>
 <part name="5ABOARDFUSE1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE"/>
 <part name="R113" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
@@ -7288,10 +7285,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C17" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C21" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C119" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="P+88" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+91" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+94" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+96" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$35" library="HyTechDevices" deviceset="ACHS-7121" device=""/>
 <part name="U$103" library="HyTechDevices" deviceset="ACHS-7121" device=""/>
 <part name="GND132" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7300,12 +7293,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C33" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
 <part name="C26" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C31" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="P+99" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+100" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+89" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="CAN100" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND126" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+90" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="R134" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
 <part name="R25" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
@@ -7315,7 +7304,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="D5" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D6" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="D3" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
-<part name="P+101" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="R138" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
 <part name="D1" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
@@ -7324,7 +7312,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="D2" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="C118" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C117" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="P+102" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C25" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C28" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="GND138" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7346,14 +7333,10 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C46" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
 <part name="C49" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C50" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="P+118" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+119" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$44" library="HyTechDevices" deviceset="MAX7480" device=""/>
 <part name="C45" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
 <part name="C47" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C48" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="P+111" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+112" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$101" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
 <part name="C107" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C106" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
@@ -7361,18 +7344,14 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C38" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
 <part name="C39" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C37" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="P+114" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+120" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND134" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="CAN101" library="HyTechDevices" deviceset="MCP2551" device="" value="MCP2551"/>
 <part name="GND129" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+98" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C120" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C121" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="GND130" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="BOARD_TEMP" library="HyTechDevices" deviceset="THERMISTOR_NCP21" device="0805"/>
 <part name="R102" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
-<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$41" library="HyTechDevices" deviceset="N-CHANNEL_MOSFET" device="_HOR_HOLE" value="N-CHANNEL_MOSFET_IRF1324PBF"/>
 <part name="U$42" library="HyTechDevices" deviceset="N-CHANNEL_MOSFET" device="_HOR_HOLE" value="N-CHANNEL_MOSFET_IRF1324PBF"/>
 <part name="R103" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
@@ -7405,37 +7384,23 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND7" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R128" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="U$107" library="HyTechDevices" deviceset="SN74AHC1G09" device=""/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$108" library="HyTechDevices" deviceset="STWD100PYW83F" device=""/>
 <part name="U$39" library="HyTechDevices" deviceset="MAX7480" device=""/>
 <part name="C43" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
 <part name="C44" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C42" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="P+25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="BR100" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="U$29" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="U$19" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="U$6" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND10" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R40" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10.2k"/>
 <part name="R41" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1130"/>
-<part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND8" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="CAL_BRAKE" library="HyTechDevices" deviceset="TRIMPOT_3296" device="C"/>
 <part name="GND114" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7445,23 +7410,17 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND9" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="D12" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="GND13" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$28" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="U$17" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="GND14" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R109" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10.2k"/>
 <part name="R108" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1130"/>
-<part name="P+37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND16" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$25" library="HyTechDevices" deviceset="SN74LVC1G32" device="&quot;" value="SN74LVC1G32"/>
 <part name="GND11" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$18" library="HyTechDevices" deviceset="SN74LVC1G32" device="&quot;" value="SN74LVC1G32"/>
 <part name="GND12" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4"/>
 <part name="GND17" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R126" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
@@ -7490,7 +7449,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="R42" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
 <part name="GND23" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$37" library="HyTechDevices" deviceset="MCP3204" device=""/>
-<part name="P+38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C7" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="GND21" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7503,7 +7461,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="U$8" library="HyTechDevices" deviceset="MCP3204" device=""/>
 <part name="C116" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C115" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="P+23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$105" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
 <part name="GND4" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="C112" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -7512,14 +7469,10 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C10" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
 <part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="P+29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C35" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C36" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="P+40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C20" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C15" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="P+42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND27" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND28" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND29" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7544,7 +7497,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="READ_BRAKE2_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
 <part name="READ_BRAKE1_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
 <part name="U$5" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
-<part name="P+24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SIGNAL_ACCEL1_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="12V_TEST"/>
 <part name="SIGNAL_ACCEL2_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
 <part name="SIGNAL_BRAKE2_TEST" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
@@ -7575,12 +7527,10 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND46" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$22" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE"/>
 <part name="GND49" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C114" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="3V3" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="30.1"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="GND52" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7607,9 +7557,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND64" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND135" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="P+97" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+93" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C11" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="GND65" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7630,7 +7577,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C" library="HyTechDevices" deviceset="LED" device="-0805" value="Yellow"/>
 <part name="OKHS" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="200"/>
-<part name="P+68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="866"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="976"/>
 <part name="BRAKE" library="HyTechDevices" deviceset="LED" device="-0805" value="RED"/>
@@ -7658,8 +7604,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND97" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND51" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND71" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND57" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND72" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+2" library="HyTechSupplies" deviceset="+12V" device=""/>
@@ -7681,6 +7625,62 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+6" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P+47" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P+52" library="HyTechSupplies" deviceset="+12V" device=""/>
+<part name="P+53" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+46" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+55" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+49" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+1" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+56" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+54" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+4" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+5" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+9" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+13" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+30" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+33" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+18" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+7" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+35" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+36" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+37" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+16" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+32" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+12" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+57" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+58" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+59" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+60" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+61" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+62" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+63" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+64" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+11" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+38" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+23" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+29" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+39" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+42" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+45" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+65" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+66" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+67" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+68" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+69" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+70" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+71" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+72" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+73" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+74" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+75" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+3" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+19" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+20" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+21" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+22" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+25" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+27" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+40" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P+24" library="HyTechSupplies" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7845,9 +7845,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="GND78" gate="1" x="104.14" y="233.68" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="106.68" y="231.14" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="P+65" gate="1" x="104.14" y="256.54" smashed="yes">
-<attribute name="VALUE" x="106.68" y="259.08" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="REG2" gate="G$1" x="172.72" y="254" smashed="yes">
 <attribute name="NAME" x="167.64" y="261.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="167.64" y="259.08" size="1.778" layer="96"/>
@@ -7863,9 +7860,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <attribute name="NAME" x="193.294" y="246.253" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="194.564" y="250.571" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+72" gate="1" x="187.96" y="261.62" smashed="yes">
-<attribute name="VALUE" x="190.5" y="264.16" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="5V" gate="LED" x="383.54" y="73.66" smashed="yes" rot="MR270">
 <attribute name="NAME" x="388.112" y="70.358" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="388.112" y="67.691" size="1.778" layer="96" rot="MR0"/>
@@ -7876,9 +7870,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </instance>
 <instance part="GND96" gate="1" x="396.24" y="40.64" smashed="yes">
 <attribute name="VALUE" x="393.7" y="38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="P+81" gate="1" x="360.68" y="76.2" smashed="yes">
-<attribute name="VALUE" x="363.22" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="5ASHUTDOWNFUSE1" gate="G$1" x="172.72" y="210.82" smashed="yes" rot="MR180">
 <attribute name="NAME" x="163.322" y="208.534" size="1.27" layer="95" rot="MR180"/>
@@ -8087,9 +8078,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="+3V11" gate="G$1" x="360.68" y="88.9" smashed="yes">
 <attribute name="VALUE" x="363.22" y="91.44" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+46" gate="1" x="213.36" y="198.12" smashed="yes">
-<attribute name="VALUE" x="215.9" y="200.66" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="C11" gate="G$1" x="213.36" y="190.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="211.836" y="187.579" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="211.836" y="192.659" size="1.778" layer="96" rot="R180"/>
@@ -8128,9 +8116,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="R5" gate="G$1" x="383.54" y="251.46" smashed="yes" rot="MR0">
 <attribute name="NAME" x="387.35" y="252.9586" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="387.35" y="248.158" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="P+68" gate="1" x="396.24" y="256.54" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="393.7" y="259.08" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R11" gate="G$1" x="370.84" y="175.26" smashed="yes" rot="MR180">
 <attribute name="NAME" x="367.03" y="173.7614" size="1.778" layer="95" rot="MR180"/>
@@ -8226,12 +8211,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="GND71" gate="1" x="86.36" y="241.3" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="88.9" y="238.76" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="P+49" gate="1" x="78.74" y="236.22" smashed="yes">
-<attribute name="VALUE" x="81.28" y="238.76" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+1" gate="1" x="78.74" y="200.66" smashed="yes">
-<attribute name="VALUE" x="81.28" y="203.2" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND57" gate="1" x="86.36" y="205.74" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="88.9" y="203.2" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -8279,6 +8258,27 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </instance>
 <instance part="P+10" gate="1" x="73.66" y="177.8" smashed="yes">
 <attribute name="VALUE" x="70.612" y="179.578" size="1.778" layer="96"/>
+</instance>
+<instance part="P+53" gate="1" x="104.14" y="256.54" smashed="yes">
+<attribute name="VALUE" x="106.68" y="259.08" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+46" gate="1" x="213.36" y="198.12" smashed="yes">
+<attribute name="VALUE" x="215.9" y="200.66" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+55" gate="1" x="396.24" y="256.54" smashed="yes">
+<attribute name="VALUE" x="398.78" y="259.08" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+49" gate="1" x="78.74" y="236.22" smashed="yes">
+<attribute name="VALUE" x="81.28" y="238.76" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+1" gate="1" x="78.74" y="200.66" smashed="yes">
+<attribute name="VALUE" x="81.28" y="203.2" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+56" gate="1" x="187.96" y="261.62" smashed="yes">
+<attribute name="VALUE" x="190.5" y="264.16" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+54" gate="1" x="360.68" y="76.2" smashed="yes">
+<attribute name="VALUE" x="363.22" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -8663,55 +8663,55 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="P+65" gate="1" pin="+5V"/>
 <wire x1="104.14" y1="254" x2="104.14" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="U$43" gate="G$1" pin="P$1"/>
 <wire x1="104.14" y1="248.92" x2="111.76" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="P+53" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="P+81" gate="1" pin="+5V"/>
-<wire x1="365.76" y1="73.66" x2="360.68" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="REG2" gate="G$1" pin="OUT"/>
-<wire x1="180.34" y1="254" x2="187.96" y2="254" width="0.1524" layer="91"/>
-<pinref part="C104" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="254" x2="187.96" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="P+72" gate="1" pin="+5V"/>
-<wire x1="187.96" y1="259.08" x2="187.96" y2="254" width="0.1524" layer="91"/>
-<junction x="187.96" y="254"/>
-</segment>
-<segment>
-<pinref part="P+46" gate="1" pin="+5V"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="193.04" x2="213.36" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="P+46" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="P+68" gate="1" pin="+5V"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="396.24" y1="254" x2="396.24" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="251.46" x2="388.62" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="P+55" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="241.3" x2="76.2" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="P+49" gate="1" pin="+5V"/>
 <pinref part="X100" gate="-9" pin="S"/>
 <wire x1="50.8" y1="233.68" x2="76.2" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="X100" gate="-12" pin="S"/>
 <wire x1="76.2" y1="241.3" x2="76.2" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="233.68" x2="76.2" y2="233.68" width="0.1524" layer="91"/>
 <junction x="76.2" y="233.68"/>
+<pinref part="P+49" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="X100" gate="-23" pin="S"/>
 <wire x1="50.8" y1="205.74" x2="76.2" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="X100" gate="-26" pin="S"/>
 <wire x1="50.8" y1="198.12" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="76.2" y1="198.12" x2="78.74" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="205.74" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
 <junction x="76.2" y="198.12"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="REG2" gate="G$1" pin="OUT"/>
+<wire x1="180.34" y1="254" x2="187.96" y2="254" width="0.1524" layer="91"/>
+<pinref part="C104" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="254" x2="187.96" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="259.08" x2="187.96" y2="254" width="0.1524" layer="91"/>
+<junction x="187.96" y="254"/>
+<pinref part="P+56" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="365.76" y1="73.66" x2="360.68" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="P+54" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="LATCH_EXT_BUTTON" class="0">
@@ -9389,9 +9389,9 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="U$3" gate="G$1" x="137.16" y="241.3" smashed="yes" rot="R270">
 <attribute name="VALUE" x="139.7" y="208.28" size="1.778" layer="94" align="bottom-center"/>
 </instance>
-<instance part="R33" gate="G$1" x="231.14" y="66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="234.95" y="64.5414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="234.95" y="69.342" size="1.778" layer="96" rot="R180"/>
+<instance part="R33" gate="G$1" x="231.14" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="234.95" y="62.0014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="234.95" y="66.802" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND115" gate="1" x="259.08" y="68.58" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="261.62" y="66.04" size="1.778" layer="96" rot="MR0"/>
@@ -9477,12 +9477,12 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <attribute name="NAME" x="239.8014" y="224.79" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="244.602" y="224.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C9" gate="G$1" x="241.3" y="55.88" smashed="yes">
-<attribute name="NAME" x="242.824" y="58.801" size="1.778" layer="95"/>
-<attribute name="VALUE" x="242.824" y="53.721" size="1.778" layer="96"/>
+<instance part="C9" gate="G$1" x="241.3" y="53.34" smashed="yes">
+<attribute name="NAME" x="242.824" y="56.261" size="1.778" layer="95"/>
+<attribute name="VALUE" x="242.824" y="51.181" size="1.778" layer="96"/>
 </instance>
-<instance part="GND116" gate="1" x="241.3" y="48.26" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="243.84" y="45.72" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND116" gate="1" x="241.3" y="45.72" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="243.84" y="43.18" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R30" gate="G$1" x="320.04" y="83.82" smashed="yes" rot="MR180">
 <attribute name="NAME" x="316.23" y="82.3214" size="1.778" layer="95" rot="MR180"/>
@@ -9541,18 +9541,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <attribute name="NAME" x="280.035" y="170.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="280.035" y="158.115" size="1.778" layer="96"/>
 </instance>
-<instance part="P+4" gate="1" x="241.3" y="116.84" smashed="yes">
-<attribute name="VALUE" x="243.84" y="119.38" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+5" gate="1" x="220.98" y="71.12" smashed="yes">
-<attribute name="VALUE" x="220.98" y="68.58" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+9" gate="1" x="218.44" y="99.06" smashed="yes">
-<attribute name="VALUE" x="220.98" y="101.6" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+13" gate="1" x="88.9" y="172.72" smashed="yes">
-<attribute name="VALUE" x="91.44" y="175.26" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="U$108" gate="G$1" x="226.06" y="160.02" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="233.68" y="149.86" size="1.778" layer="96" rot="MR0" align="top-left"/>
 <attribute name="NAME" x="233.68" y="170.18" size="1.778" layer="95" rot="MR0"/>
@@ -9575,12 +9563,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="GND10" gate="1" x="101.6" y="93.98" smashed="yes">
 <attribute name="VALUE" x="99.06" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="P+30" gate="1" x="119.38" y="119.38" smashed="yes">
-<attribute name="VALUE" x="121.92" y="121.92" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+33" gate="1" x="119.38" y="149.86" smashed="yes">
-<attribute name="VALUE" x="121.92" y="152.4" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="R40" gate="G$1" x="91.44" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.9414" y="110.49" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="94.742" y="110.49" size="1.778" layer="96" rot="R90"/>
@@ -9588,9 +9570,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="R41" gate="G$1" x="91.44" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.9414" y="95.25" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="94.742" y="95.25" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+18" gate="1" x="91.44" y="124.46" smashed="yes">
-<attribute name="VALUE" x="93.98" y="127" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND8" gate="1" x="91.44" y="88.9" smashed="yes">
 <attribute name="VALUE" x="83.82" y="86.36" size="1.778" layer="96"/>
@@ -9624,9 +9603,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="GND13" gate="1" x="40.64" y="35.56" smashed="yes">
 <attribute name="VALUE" x="38.1" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="P+7" gate="1" x="60.96" y="71.12" smashed="yes">
-<attribute name="VALUE" x="63.5" y="73.66" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="U$28" gate="G$1" x="106.68" y="27.94" smashed="yes">
 <attribute name="NAME" x="107.315" y="29.845" size="1.778" layer="95"/>
 <attribute name="VALUE" x="107.315" y="19.05" size="1.778" layer="96"/>
@@ -9641,12 +9617,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="GND15" gate="1" x="104.14" y="17.78" smashed="yes">
 <attribute name="VALUE" x="101.6" y="15.24" size="1.778" layer="96"/>
 </instance>
-<instance part="P+35" gate="1" x="121.92" y="43.18" smashed="yes">
-<attribute name="VALUE" x="124.46" y="45.72" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+36" gate="1" x="121.92" y="73.66" smashed="yes">
-<attribute name="VALUE" x="124.46" y="76.2" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="R109" gate="G$1" x="91.44" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.9414" y="29.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="94.742" y="29.21" size="1.778" layer="96" rot="R90"/>
@@ -9654,9 +9624,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="R108" gate="G$1" x="91.44" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.9414" y="13.97" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="94.742" y="13.97" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+37" gate="1" x="91.44" y="43.18" smashed="yes">
-<attribute name="VALUE" x="93.98" y="45.72" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND16" gate="1" x="91.44" y="7.62" smashed="yes">
 <attribute name="VALUE" x="88.9" y="5.08" size="1.778" layer="96"/>
@@ -9668,18 +9635,12 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="GND11" gate="1" x="149.86" y="33.02" smashed="yes">
 <attribute name="VALUE" x="147.32" y="30.48" size="1.778" layer="96"/>
 </instance>
-<instance part="P+16" gate="1" x="167.64" y="60.96" smashed="yes">
-<attribute name="VALUE" x="170.18" y="63.5" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="U$18" gate="G$1" x="152.4" y="119.38" smashed="yes">
 <attribute name="NAME" x="153.035" y="122.555" size="1.778" layer="95"/>
 <attribute name="VALUE" x="153.035" y="109.855" size="1.778" layer="96"/>
 </instance>
 <instance part="GND12" gate="1" x="149.86" y="109.22" smashed="yes">
 <attribute name="VALUE" x="147.32" y="106.68" size="1.778" layer="96"/>
-</instance>
-<instance part="P+32" gate="1" x="167.64" y="137.16" smashed="yes">
-<attribute name="VALUE" x="170.18" y="139.7" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R126" gate="G$1" x="246.38" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="244.8814" y="153.67" size="1.778" layer="95" rot="R90"/>
@@ -9693,9 +9654,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </instance>
 <instance part="+3V10" gate="G$1" x="297.18" y="177.8" smashed="yes">
 <attribute name="VALUE" x="299.72" y="180.34" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+12" gate="1" x="91.44" y="81.28" smashed="yes">
-<attribute name="VALUE" x="93.98" y="83.82" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C24" gate="G$1" x="127" y="114.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="125.476" y="111.379" size="1.778" layer="95" rot="R180"/>
@@ -9797,6 +9755,48 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="P+47" gate="1" x="347.98" y="162.56" smashed="yes">
 <attribute name="VALUE" x="344.932" y="164.338" size="1.778" layer="96"/>
 </instance>
+<instance part="P+4" gate="1" x="241.3" y="116.84" smashed="yes">
+<attribute name="VALUE" x="243.84" y="119.38" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+5" gate="1" x="220.98" y="68.58" smashed="yes">
+<attribute name="VALUE" x="223.52" y="71.12" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+9" gate="1" x="218.44" y="99.06" smashed="yes">
+<attribute name="VALUE" x="220.98" y="101.6" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+13" gate="1" x="88.9" y="172.72" smashed="yes">
+<attribute name="VALUE" x="91.44" y="175.26" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+30" gate="1" x="119.38" y="119.38" smashed="yes">
+<attribute name="VALUE" x="121.92" y="121.92" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+33" gate="1" x="119.38" y="149.86" smashed="yes">
+<attribute name="VALUE" x="121.92" y="152.4" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+18" gate="1" x="91.44" y="124.46" smashed="yes">
+<attribute name="VALUE" x="93.98" y="127" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+7" gate="1" x="60.96" y="71.12" smashed="yes">
+<attribute name="VALUE" x="63.5" y="73.66" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+35" gate="1" x="121.92" y="43.18" smashed="yes">
+<attribute name="VALUE" x="124.46" y="45.72" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+36" gate="1" x="121.92" y="73.66" smashed="yes">
+<attribute name="VALUE" x="124.46" y="76.2" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+37" gate="1" x="91.44" y="43.18" smashed="yes">
+<attribute name="VALUE" x="93.98" y="45.72" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+16" gate="1" x="167.64" y="60.96" smashed="yes">
+<attribute name="VALUE" x="170.18" y="63.5" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+32" gate="1" x="167.64" y="137.16" smashed="yes">
+<attribute name="VALUE" x="170.18" y="139.7" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+12" gate="1" x="91.44" y="81.28" smashed="yes">
+<attribute name="VALUE" x="93.98" y="83.82" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9857,7 +9857,7 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="GND116" gate="1" pin="GND"/>
-<wire x1="241.3" y1="50.8" x2="241.3" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="48.26" x2="241.3" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D10" gate="G$1" pin="A"/>
@@ -10107,45 +10107,45 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <pinref part="P+4" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="170.18" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="R114" gate="G$1" pin="2"/>
-<pinref part="P+13" gate="1" pin="+5V"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="66.04" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="63.5" x2="226.06" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="5"/>
 <wire x1="215.9" y1="81.28" x2="218.44" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="81.28" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="P+9" gate="1" pin="+5V"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="96.52" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="P+9" gate="1" pin="+5V"/>
 <junction x="218.44" y="96.52"/>
 </segment>
 <segment>
-<pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="68.58" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="66.04" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="1" pin="+5V"/>
+<wire x1="88.9" y1="170.18" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="R114" gate="G$1" pin="2"/>
+<pinref part="P+13" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="104.14" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="P+30" gate="1" pin="+5V"/>
 <pinref part="U$29" gate="G$1" pin="VDD"/>
 <pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="127" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="P+30" gate="1" pin="+5V"/>
 <junction x="119.38" y="116.84"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="132.08" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="P+33" gate="1" pin="+5V"/>
 <pinref part="U$19" gate="G$1" pin="VDD"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="127" y1="147.32" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="P+33" gate="1" pin="+5V"/>
 <junction x="119.38" y="147.32"/>
 </segment>
 <segment>
-<pinref part="P+18" gate="1" pin="+5V"/>
 <pinref part="R40" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="121.92" x2="91.44" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="P+18" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="R39" gate="G$1" pin="1"/>
@@ -10154,39 +10154,39 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </segment>
 <segment>
 <wire x1="121.92" y1="27.94" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="P+35" gate="1" pin="+5V"/>
 <pinref part="U$28" gate="G$1" pin="VDD"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="P+35" gate="1" pin="+5V"/>
 <junction x="121.92" y="40.64"/>
 </segment>
 <segment>
 <wire x1="121.92" y1="55.88" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="P+36" gate="1" pin="+5V"/>
 <pinref part="U$17" gate="G$1" pin="VDD"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="P+36" gate="1" pin="+5V"/>
 <junction x="121.92" y="71.12"/>
 </segment>
 <segment>
-<pinref part="P+37" gate="1" pin="+5V"/>
 <pinref part="R109" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="40.64" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="P+37" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="43.18" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="P+16" gate="1" pin="+5V"/>
 <pinref part="U$25" gate="G$1" pin="VCC"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="58.42" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+16" gate="1" pin="+5V"/>
 <junction x="167.64" y="58.42"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="119.38" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="P+32" gate="1" pin="+5V"/>
 <pinref part="U$18" gate="G$1" pin="VCC"/>
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="P+32" gate="1" pin="+5V"/>
 <junction x="167.64" y="134.62"/>
 </segment>
 <segment>
@@ -10334,14 +10334,14 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <net name="N$109" class="0">
 <segment>
 <pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="66.04" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="63.5" x2="236.22" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="66.04" x2="241.3" y2="60.96" width="0.1524" layer="91"/>
-<junction x="241.3" y="66.04"/>
+<wire x1="241.3" y1="63.5" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
+<junction x="241.3" y="63.5"/>
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="76.2" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="76.2" x2="259.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="66.04" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="63.5" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
 <junction x="241.3" y="76.2"/>
 <pinref part="U$6" gate="G$1" pin="VIN+"/>
 </segment>
@@ -10794,18 +10794,6 @@ since we have no via the current is less
 <attribute name="NAME" x="183.642" y="53.721" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="184.404" y="61.341" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="P+88" gate="1" x="134.62" y="111.76" smashed="yes">
-<attribute name="VALUE" x="137.16" y="114.3" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+91" gate="1" x="238.76" y="256.54" smashed="yes">
-<attribute name="VALUE" x="241.3" y="259.08" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+94" gate="1" x="109.22" y="213.36" smashed="yes">
-<attribute name="VALUE" x="111.76" y="215.9" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+96" gate="1" x="109.22" y="261.62" smashed="yes">
-<attribute name="VALUE" x="111.76" y="264.16" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="U$35" gate="G$1" x="43.18" y="238.76" smashed="yes"/>
 <instance part="U$103" gate="G$1" x="43.18" y="190.5" smashed="yes"/>
 <instance part="GND132" gate="1" x="281.94" y="38.1" smashed="yes">
@@ -10827,23 +10815,11 @@ since we have no via the current is less
 <attribute name="NAME" x="277.876" y="197.739" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="277.876" y="202.819" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+99" gate="1" x="238.76" y="208.28" smashed="yes">
-<attribute name="VALUE" x="241.3" y="210.82" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+100" gate="1" x="292.1" y="215.9" smashed="yes">
-<attribute name="VALUE" x="294.64" y="218.44" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+89" gate="1" x="289.56" y="264.16" smashed="yes">
-<attribute name="VALUE" x="292.1" y="266.7" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="CAN101" gate="G$1" x="50.8" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.165" y="102.235" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND129" gate="1" x="30.48" y="83.82" smashed="yes">
 <attribute name="VALUE" x="27.94" y="81.28" size="1.778" layer="96"/>
-</instance>
-<instance part="P+98" gate="1" x="73.66" y="104.14" smashed="yes">
-<attribute name="VALUE" x="76.2" y="106.68" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C120" gate="G$1" x="73.66" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="72.136" y="91.059" size="1.778" layer="95" rot="R180"/>
@@ -10864,9 +10840,6 @@ since we have no via the current is less
 <attribute name="NAME" x="28.9814" y="143.51" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="33.782" y="143.51" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+11" gate="1" x="30.48" y="172.72" smashed="yes">
-<attribute name="VALUE" x="33.02" y="175.26" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="U$203" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="U$203" gate="G$2" x="262.89" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="339.09" y="1.27" size="2.54" layer="97"/>
@@ -10875,9 +10848,6 @@ since we have no via the current is less
 </instance>
 <instance part="+3V1" gate="G$1" x="203.2" y="63.5" smashed="yes">
 <attribute name="VALUE" x="205.74" y="66.04" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+38" gate="1" x="205.74" y="132.08" smashed="yes">
-<attribute name="VALUE" x="208.28" y="134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C7" gate="G$1" x="213.36" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="211.836" y="118.999" size="1.778" layer="95" rot="R180"/>
@@ -10922,9 +10892,6 @@ since we have no via the current is less
 <attribute name="NAME" x="192.024" y="165.481" size="1.778" layer="95"/>
 <attribute name="VALUE" x="192.024" y="160.401" size="1.778" layer="96"/>
 </instance>
-<instance part="P+23" gate="1" x="182.88" y="185.42" smashed="yes">
-<attribute name="VALUE" x="185.42" y="187.96" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="U$105" gate="G$1" x="165.1" y="180.34" smashed="yes">
 <attribute name="NAME" x="165.735" y="182.245" size="1.778" layer="95"/>
 <attribute name="VALUE" x="163.957" y="169.164" size="1.778" layer="96"/>
@@ -10953,12 +10920,6 @@ since we have no via the current is less
 <attribute name="NAME" x="277.876" y="157.099" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="277.876" y="162.179" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+29" gate="1" x="238.76" y="167.64" smashed="yes">
-<attribute name="VALUE" x="241.3" y="170.18" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+39" gate="1" x="292.1" y="175.26" smashed="yes">
-<attribute name="VALUE" x="294.64" y="177.8" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="C20" gate="G$1" x="304.8" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="309.626" y="121.539" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="309.372" y="126.365" size="1.778" layer="96" rot="R180"/>
@@ -10966,9 +10927,6 @@ since we have no via the current is less
 <instance part="C15" gate="G$1" x="297.18" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="302.006" y="121.539" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="303.784" y="126.365" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+42" gate="1" x="292.1" y="134.62" smashed="yes">
-<attribute name="VALUE" x="294.64" y="137.16" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND36" gate="1" x="109.22" y="182.88" smashed="yes">
 <attribute name="VALUE" x="106.68" y="180.34" size="1.778" layer="96"/>
@@ -11027,9 +10985,6 @@ since we have no via the current is less
 <instance part="GND49" gate="1" x="398.78" y="205.74" smashed="yes">
 <attribute name="VALUE" x="396.24" y="203.2" size="1.778" layer="96"/>
 </instance>
-<instance part="P+45" gate="1" x="182.88" y="256.54" smashed="yes">
-<attribute name="VALUE" x="185.42" y="259.08" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="C114" gate="G$1" x="198.12" y="162.56" smashed="yes">
 <attribute name="NAME" x="199.644" y="165.481" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.644" y="160.401" size="1.778" layer="96"/>
@@ -11052,18 +11007,63 @@ since we have no via the current is less
 <attribute name="NAME" x="311.15" y="54.8386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="311.15" y="50.038" size="1.778" layer="96"/>
 </instance>
-<instance part="P+97" gate="1" x="304.8" y="58.42" smashed="yes">
-<attribute name="VALUE" x="307.34" y="60.96" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+93" gate="1" x="330.2" y="73.66" smashed="yes">
-<attribute name="VALUE" x="332.74" y="76.2" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="MTK3339_BREAKOUT" gate="G$1" x="340.36" y="60.96" smashed="yes">
 <attribute name="VALUE" x="350.52" y="76.2" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="350.52" y="47.498" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="P+52" gate="1" x="88.9" y="170.18" smashed="yes">
 <attribute name="VALUE" x="85.852" y="171.958" size="1.778" layer="96"/>
+</instance>
+<instance part="P+57" gate="1" x="134.62" y="111.76" smashed="yes">
+<attribute name="VALUE" x="137.16" y="114.3" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+58" gate="1" x="238.76" y="256.54" smashed="yes">
+<attribute name="VALUE" x="241.3" y="259.08" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+59" gate="1" x="109.22" y="213.36" smashed="yes">
+<attribute name="VALUE" x="111.76" y="215.9" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+60" gate="1" x="109.22" y="261.62" smashed="yes">
+<attribute name="VALUE" x="111.76" y="264.16" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+61" gate="1" x="238.76" y="208.28" smashed="yes">
+<attribute name="VALUE" x="241.3" y="210.82" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+62" gate="1" x="292.1" y="215.9" smashed="yes">
+<attribute name="VALUE" x="294.64" y="218.44" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+63" gate="1" x="73.66" y="104.14" smashed="yes">
+<attribute name="VALUE" x="76.2" y="106.68" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+64" gate="1" x="289.56" y="264.16" smashed="yes">
+<attribute name="VALUE" x="292.1" y="266.7" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+11" gate="1" x="30.48" y="172.72" smashed="yes">
+<attribute name="VALUE" x="33.02" y="175.26" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+38" gate="1" x="205.74" y="132.08" smashed="yes">
+<attribute name="VALUE" x="208.28" y="134.62" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+23" gate="1" x="182.88" y="185.42" smashed="yes">
+<attribute name="VALUE" x="185.42" y="187.96" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+29" gate="1" x="238.76" y="167.64" smashed="yes">
+<attribute name="VALUE" x="241.3" y="170.18" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+39" gate="1" x="292.1" y="175.26" smashed="yes">
+<attribute name="VALUE" x="294.64" y="177.8" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+42" gate="1" x="292.1" y="134.62" smashed="yes">
+<attribute name="VALUE" x="294.64" y="137.16" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+45" gate="1" x="182.88" y="256.54" smashed="yes">
+<attribute name="VALUE" x="185.42" y="259.08" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+65" gate="1" x="304.8" y="58.42" smashed="yes">
+<attribute name="VALUE" x="307.34" y="60.96" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+66" gate="1" x="330.2" y="73.66" smashed="yes">
+<attribute name="VALUE" x="332.74" y="76.2" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -11330,49 +11330,8 @@ since we have no via the current is less
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="U$35" gate="G$1" pin="VDD"/>
-<wire x1="66.04" y1="256.54" x2="109.22" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="P+96" gate="1" pin="+5V"/>
-<wire x1="109.22" y1="256.54" x2="109.22" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="C29" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="248.92" x2="109.22" y2="256.54" width="0.1524" layer="91"/>
-<junction x="109.22" y="256.54"/>
-</segment>
-<segment>
-<pinref part="U$103" gate="G$1" pin="VDD"/>
-<wire x1="66.04" y1="208.28" x2="109.22" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="P+94" gate="1" pin="+5V"/>
-<wire x1="109.22" y1="208.28" x2="109.22" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="C111" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="208.28" x2="109.22" y2="200.66" width="0.1524" layer="91"/>
-<junction x="109.22" y="208.28"/>
-</segment>
-<segment>
-<pinref part="P+91" gate="1" pin="+5V"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<pinref part="U$24" gate="G$1" pin="VDD"/>
-<wire x1="251.46" y1="254" x2="251.46" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="254" x2="251.46" y2="254" width="0.1524" layer="91"/>
-<junction x="251.46" y="254"/>
-</segment>
-<segment>
-<pinref part="P+99" gate="1" pin="+5V"/>
-<pinref part="C26" gate="G$1" pin="1"/>
-<pinref part="U$33" gate="G$1" pin="VDD"/>
-<wire x1="251.46" y1="205.74" x2="251.46" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="205.74" x2="251.46" y2="205.74" width="0.1524" layer="91"/>
-<junction x="251.46" y="205.74"/>
-</segment>
-<segment>
-<pinref part="U$33" gate="G$1" pin="!SHDN"/>
-<wire x1="276.86" y1="210.82" x2="292.1" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="P+100" gate="1" pin="+5V"/>
-<wire x1="292.1" y1="213.36" x2="292.1" y2="210.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="VIN"/>
 <wire x1="132.08" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="P+88" gate="1" pin="+5V"/>
 <wire x1="134.62" y1="106.68" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
@@ -11380,12 +11339,47 @@ since we have no via the current is less
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
 <junction x="137.16" y="106.68"/>
+<pinref part="P+57" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="U$24" gate="G$1" pin="!SHDN"/>
-<wire x1="276.86" y1="259.08" x2="289.56" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="259.08" x2="289.56" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="P+89" gate="1" pin="+5V"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="U$24" gate="G$1" pin="VDD"/>
+<wire x1="251.46" y1="254" x2="251.46" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="254" x2="251.46" y2="254" width="0.1524" layer="91"/>
+<junction x="251.46" y="254"/>
+<pinref part="P+58" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$103" gate="G$1" pin="VDD"/>
+<wire x1="66.04" y1="208.28" x2="109.22" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="208.28" x2="109.22" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="C111" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="208.28" x2="109.22" y2="200.66" width="0.1524" layer="91"/>
+<junction x="109.22" y="208.28"/>
+<pinref part="P+59" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$35" gate="G$1" pin="VDD"/>
+<wire x1="66.04" y1="256.54" x2="109.22" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="256.54" x2="109.22" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="C29" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="248.92" x2="109.22" y2="256.54" width="0.1524" layer="91"/>
+<junction x="109.22" y="256.54"/>
+<pinref part="P+60" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="U$33" gate="G$1" pin="VDD"/>
+<wire x1="251.46" y1="205.74" x2="251.46" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="205.74" x2="251.46" y2="205.74" width="0.1524" layer="91"/>
+<junction x="251.46" y="205.74"/>
+<pinref part="P+61" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$33" gate="G$1" pin="!SHDN"/>
+<wire x1="276.86" y1="210.82" x2="292.1" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="213.36" x2="292.1" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="P+62" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="CAN101" gate="G$1" pin="3"/>
@@ -11398,9 +11392,15 @@ since we have no via the current is less
 <junction x="66.04" y="99.06"/>
 <pinref part="C120" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="99.06" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="P+98" gate="1" pin="+5V"/>
 <wire x1="73.66" y1="101.6" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
 <junction x="73.66" y="99.06"/>
+<pinref part="P+63" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$24" gate="G$1" pin="!SHDN"/>
+<wire x1="276.86" y1="259.08" x2="289.56" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="259.08" x2="289.56" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="P+64" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="BOARD_TEMP" gate="G$1" pin="1"/>
@@ -11408,7 +11408,6 @@ since we have no via the current is less
 <pinref part="P+11" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="P+38" gate="1" pin="+5V"/>
 <wire x1="205.74" y1="127" x2="205.74" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="127" x2="213.36" y2="127" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -11417,9 +11416,9 @@ since we have no via the current is less
 <wire x1="203.2" y1="109.22" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="109.22" x2="205.74" y2="127" width="0.1524" layer="91"/>
 <junction x="205.74" y="127"/>
+<pinref part="P+38" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="P+23" gate="1" pin="+5V"/>
 <wire x1="182.88" y1="180.34" x2="182.88" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="180.34" x2="182.88" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="U$105" gate="G$1" pin="VDD"/>
@@ -11431,23 +11430,23 @@ since we have no via the current is less
 <wire x1="182.88" y1="170.18" x2="190.5" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="170.18" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
 <junction x="182.88" y="170.18"/>
+<pinref part="P+23" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="P+29" gate="1" pin="+5V"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="U$7" gate="G$1" pin="VDD"/>
 <wire x1="251.46" y1="165.1" x2="251.46" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="165.1" x2="251.46" y2="165.1" width="0.1524" layer="91"/>
 <junction x="251.46" y="165.1"/>
+<pinref part="P+29" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="!SHDN"/>
 <wire x1="276.86" y1="170.18" x2="292.1" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="P+39" gate="1" pin="+5V"/>
 <wire x1="292.1" y1="172.72" x2="292.1" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="P+39" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="P+42" gate="1" pin="+5V"/>
 <pinref part="U$8" gate="G$1" pin="VDD"/>
 <wire x1="292.1" y1="132.08" x2="292.1" y2="127" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="VREF"/>
@@ -11460,6 +11459,7 @@ since we have no via the current is less
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="127" x2="292.1" y2="127" width="0.1524" layer="91"/>
 <junction x="297.18" y="127"/>
+<pinref part="P+42" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="C112" gate="G$1" pin="1"/>
@@ -11475,16 +11475,16 @@ since we have no via the current is less
 <pinref part="P+45" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="P+97" gate="1" pin="+5V"/>
 <wire x1="304.8" y1="55.88" x2="304.8" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="304.8" y1="53.34" x2="309.88" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="P+65" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <wire x1="335.28" y1="68.58" x2="330.2" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="68.58" x2="330.2" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="P+93" gate="1" pin="+5V"/>
 <pinref part="MTK3339_BREAKOUT" gate="G$1" pin="VIN"/>
+<pinref part="P+66" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$122" class="0">
@@ -12161,9 +12161,6 @@ since we have no via the current is less
 <instance part="GND126" gate="1" x="22.86" y="50.8" smashed="yes">
 <attribute name="VALUE" x="20.32" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="P+90" gate="1" x="66.04" y="71.12" smashed="yes">
-<attribute name="VALUE" x="68.58" y="73.66" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="R24" gate="G$1" x="388.62" y="99.06" smashed="yes">
 <attribute name="NAME" x="384.81" y="100.5586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="384.81" y="95.758" size="1.778" layer="96"/>
@@ -12200,9 +12197,6 @@ since we have no via the current is less
 <attribute name="NAME" x="374.65" y="60.1726" size="1.778" layer="95"/>
 <attribute name="VALUE" x="364.49" y="54.8386" size="1.778" layer="96"/>
 </instance>
-<instance part="P+101" gate="1" x="152.4" y="88.9" smashed="yes">
-<attribute name="VALUE" x="150.114" y="89.408" size="1.778" layer="96"/>
-</instance>
 <instance part="R20" gate="G$1" x="388.62" y="124.46" smashed="yes">
 <attribute name="NAME" x="384.81" y="125.9586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="384.81" y="121.158" size="1.778" layer="96"/>
@@ -12234,9 +12228,6 @@ since we have no via the current is less
 <instance part="C117" gate="G$1" x="58.42" y="60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.896" y="58.039" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="56.896" y="63.119" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+102" gate="1" x="243.84" y="76.2" smashed="yes">
-<attribute name="VALUE" x="246.38" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C25" gate="G$1" x="251.46" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="249.936" y="63.119" size="1.778" layer="95" rot="R180"/>
@@ -12315,12 +12306,6 @@ since we have no via the current is less
 <attribute name="NAME" x="183.896" y="200.279" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="183.896" y="205.359" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+118" gate="1" x="144.78" y="210.82" smashed="yes">
-<attribute name="VALUE" x="147.32" y="213.36" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+119" gate="1" x="198.12" y="218.44" smashed="yes">
-<attribute name="VALUE" x="200.66" y="220.98" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="U$44" gate="G$1" x="162.56" y="254" smashed="yes"/>
 <instance part="C45" gate="G$1" x="193.04" y="236.22" smashed="yes">
 <attribute name="NAME" x="194.564" y="239.141" size="1.778" layer="95"/>
@@ -12333,12 +12318,6 @@ since we have no via the current is less
 <instance part="C48" gate="G$1" x="185.42" y="238.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="183.896" y="235.839" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="183.896" y="240.919" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+111" gate="1" x="144.78" y="246.38" smashed="yes">
-<attribute name="VALUE" x="147.32" y="248.92" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+112" gate="1" x="198.12" y="254" smashed="yes">
-<attribute name="VALUE" x="200.66" y="256.54" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$101" gate="G$1" x="60.96" y="187.96" smashed="yes">
 <attribute name="NAME" x="61.595" y="189.865" size="1.778" layer="95"/>
@@ -12365,12 +12344,6 @@ since we have no via the current is less
 <attribute name="NAME" x="183.896" y="164.719" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="183.896" y="169.799" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+114" gate="1" x="144.78" y="175.26" smashed="yes">
-<attribute name="VALUE" x="147.32" y="177.8" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+120" gate="1" x="198.12" y="182.88" smashed="yes">
-<attribute name="VALUE" x="200.66" y="185.42" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND134" gate="1" x="66.04" y="48.26" smashed="yes">
 <attribute name="VALUE" x="63.5" y="45.72" size="1.778" layer="96"/>
 </instance>
@@ -12382,21 +12355,6 @@ since we have no via the current is less
 </instance>
 <instance part="+3V4" gate="G$1" x="210.82" y="76.2" smashed="yes">
 <attribute name="VALUE" x="213.36" y="78.74" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+3" gate="1" x="50.8" y="246.38" smashed="yes">
-<attribute name="VALUE" x="53.34" y="248.92" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+19" gate="1" x="78.74" y="238.76" smashed="yes">
-<attribute name="VALUE" x="81.28" y="241.3" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+20" gate="1" x="101.6" y="243.84" smashed="yes">
-<attribute name="VALUE" x="104.14" y="246.38" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+21" gate="1" x="78.74" y="193.04" smashed="yes">
-<attribute name="VALUE" x="81.28" y="195.58" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+22" gate="1" x="99.06" y="198.12" smashed="yes">
-<attribute name="VALUE" x="101.6" y="200.66" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$39" gate="G$1" x="162.56" y="147.32" smashed="yes"/>
 <instance part="C43" gate="G$1" x="193.04" y="129.54" smashed="yes">
@@ -12410,12 +12368,6 @@ since we have no via the current is less
 <instance part="C42" gate="G$1" x="185.42" y="132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="183.896" y="129.159" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="183.896" y="134.239" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+25" gate="1" x="144.78" y="139.7" smashed="yes">
-<attribute name="VALUE" x="147.32" y="142.24" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+27" gate="1" x="198.12" y="147.32" smashed="yes">
-<attribute name="VALUE" x="200.66" y="149.86" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="BR100" gate="G$1" x="40.64" y="193.04" smashed="yes" rot="MR90">
 <attribute name="NAME" x="46.99" y="190.7286" size="1.778" layer="95" rot="MR0"/>
@@ -12518,9 +12470,6 @@ since we have no via the current is less
 <attribute name="NAME" x="304.546" y="108.839" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="306.324" y="113.665" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+40" gate="1" x="294.64" y="121.92" smashed="yes">
-<attribute name="VALUE" x="297.18" y="124.46" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND27" gate="1" x="55.88" y="160.02" smashed="yes">
 <attribute name="VALUE" x="53.34" y="157.48" size="1.778" layer="96"/>
 </instance>
@@ -12550,9 +12499,6 @@ since we have no via the current is less
 <instance part="READ_BRAKE2_TEST" gate="G$1" x="114.3" y="134.62" smashed="yes"/>
 <instance part="READ_BRAKE1_TEST" gate="G$1" x="114.3" y="139.7" smashed="yes"/>
 <instance part="U$5" gate="G$1" x="127" y="33.02" smashed="yes"/>
-<instance part="P+24" gate="1" x="40.64" y="203.2" smashed="yes">
-<attribute name="VALUE" x="43.18" y="205.74" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="SIGNAL_ACCEL1_TEST" gate="G$1" x="35.56" y="149.86" smashed="yes"/>
 <instance part="SIGNAL_ACCEL2_TEST" gate="G$1" x="35.56" y="144.78" smashed="yes"/>
 <instance part="SIGNAL_BRAKE2_TEST" gate="G$1" x="35.56" y="134.62" smashed="yes"/>
@@ -12593,6 +12539,60 @@ since we have no via the current is less
 </instance>
 <instance part="GND64" gate="1" x="281.94" y="187.96" smashed="yes">
 <attribute name="VALUE" x="276.86" y="185.42" size="1.778" layer="96"/>
+</instance>
+<instance part="P+67" gate="1" x="66.04" y="71.12" smashed="yes">
+<attribute name="VALUE" x="68.58" y="73.66" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+68" gate="1" x="152.4" y="88.9" smashed="yes">
+<attribute name="VALUE" x="154.94" y="91.44" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+69" gate="1" x="243.84" y="76.2" smashed="yes">
+<attribute name="VALUE" x="246.38" y="78.74" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+70" gate="1" x="144.78" y="210.82" smashed="yes">
+<attribute name="VALUE" x="147.32" y="213.36" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+71" gate="1" x="198.12" y="218.44" smashed="yes">
+<attribute name="VALUE" x="200.66" y="220.98" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+72" gate="1" x="144.78" y="246.38" smashed="yes">
+<attribute name="VALUE" x="147.32" y="248.92" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+73" gate="1" x="198.12" y="254" smashed="yes">
+<attribute name="VALUE" x="200.66" y="256.54" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+74" gate="1" x="144.78" y="175.26" smashed="yes">
+<attribute name="VALUE" x="147.32" y="177.8" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+75" gate="1" x="198.12" y="182.88" smashed="yes">
+<attribute name="VALUE" x="200.66" y="185.42" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+3" gate="1" x="50.8" y="246.38" smashed="yes">
+<attribute name="VALUE" x="53.34" y="248.92" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+19" gate="1" x="78.74" y="238.76" smashed="yes">
+<attribute name="VALUE" x="81.28" y="241.3" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+20" gate="1" x="101.6" y="243.84" smashed="yes">
+<attribute name="VALUE" x="104.14" y="246.38" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+21" gate="1" x="78.74" y="193.04" smashed="yes">
+<attribute name="VALUE" x="81.28" y="195.58" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+22" gate="1" x="99.06" y="198.12" smashed="yes">
+<attribute name="VALUE" x="101.6" y="200.66" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+25" gate="1" x="144.78" y="139.7" smashed="yes">
+<attribute name="VALUE" x="147.32" y="142.24" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+27" gate="1" x="198.12" y="147.32" smashed="yes">
+<attribute name="VALUE" x="200.66" y="149.86" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+40" gate="1" x="294.64" y="121.92" smashed="yes">
+<attribute name="VALUE" x="297.18" y="124.46" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+24" gate="1" x="40.64" y="203.2" smashed="yes">
+<attribute name="VALUE" x="43.18" y="205.74" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -12895,9 +12895,85 @@ since we have no via the current is less
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="PU101" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="241.3" x2="101.6" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="P+20" gate="1" pin="+5V"/>
+<pinref part="CAN100" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="60.96" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="C117" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="66.04" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="66.04" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
+<junction x="58.42" y="66.04"/>
+<pinref part="C118" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="66.04" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="68.58" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
+<junction x="66.04" y="66.04"/>
+<pinref part="P+67" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<wire x1="149.86" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="71.12" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="VIN"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="83.82" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<junction x="152.4" y="83.82"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="83.82" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
+<junction x="157.48" y="83.82"/>
+<pinref part="P+68" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<wire x1="243.84" y1="71.12" x2="243.84" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="71.12" x2="251.46" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="71.12" x2="251.46" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$34" gate="G$1" pin="VCCB"/>
+<wire x1="241.3" y1="53.34" x2="243.84" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="53.34" x2="243.84" y2="71.12" width="0.1524" layer="91"/>
+<junction x="243.84" y="71.12"/>
+<pinref part="P+69" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="C49" gate="G$1" pin="1"/>
+<pinref part="U$45" gate="G$1" pin="VDD"/>
+<wire x1="157.48" y1="208.28" x2="157.48" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="208.28" x2="157.48" y2="208.28" width="0.1524" layer="91"/>
+<junction x="157.48" y="208.28"/>
+<pinref part="P+70" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$45" gate="G$1" pin="!SHDN"/>
+<wire x1="182.88" y1="213.36" x2="198.12" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="215.9" x2="198.12" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="P+71" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="C47" gate="G$1" pin="1"/>
+<pinref part="U$44" gate="G$1" pin="VDD"/>
+<wire x1="157.48" y1="243.84" x2="157.48" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="243.84" x2="157.48" y2="243.84" width="0.1524" layer="91"/>
+<junction x="157.48" y="243.84"/>
+<pinref part="P+72" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$44" gate="G$1" pin="!SHDN"/>
+<wire x1="182.88" y1="248.92" x2="198.12" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="251.46" x2="198.12" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="P+73" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="C39" gate="G$1" pin="1"/>
+<pinref part="U$38" gate="G$1" pin="VDD"/>
+<wire x1="157.48" y1="172.72" x2="157.48" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="172.72" x2="157.48" y2="172.72" width="0.1524" layer="91"/>
+<junction x="157.48" y="172.72"/>
+<pinref part="P+74" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$38" gate="G$1" pin="!SHDN"/>
+<wire x1="182.88" y1="177.8" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="180.34" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="P+75" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="PU100" gate="G$1" pin="2"/>
@@ -12919,32 +12995,9 @@ since we have no via the current is less
 <pinref part="P+19" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="P+118" gate="1" pin="+5V"/>
-<pinref part="C49" gate="G$1" pin="1"/>
-<pinref part="U$45" gate="G$1" pin="VDD"/>
-<wire x1="157.48" y1="208.28" x2="157.48" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="208.28" x2="157.48" y2="208.28" width="0.1524" layer="91"/>
-<junction x="157.48" y="208.28"/>
-</segment>
-<segment>
-<pinref part="U$45" gate="G$1" pin="!SHDN"/>
-<wire x1="182.88" y1="213.36" x2="198.12" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="P+119" gate="1" pin="+5V"/>
-<wire x1="198.12" y1="215.9" x2="198.12" y2="213.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+111" gate="1" pin="+5V"/>
-<pinref part="C47" gate="G$1" pin="1"/>
-<pinref part="U$44" gate="G$1" pin="VDD"/>
-<wire x1="157.48" y1="243.84" x2="157.48" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="243.84" x2="157.48" y2="243.84" width="0.1524" layer="91"/>
-<junction x="157.48" y="243.84"/>
-</segment>
-<segment>
-<pinref part="U$44" gate="G$1" pin="!SHDN"/>
-<wire x1="182.88" y1="248.92" x2="198.12" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="P+112" gate="1" pin="+5V"/>
-<wire x1="198.12" y1="251.46" x2="198.12" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="PU101" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="241.3" x2="101.6" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="P+20" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="U$101" gate="G$1" pin="VDD"/>
@@ -12961,76 +13014,23 @@ since we have no via the current is less
 <pinref part="P+21" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="P+114" gate="1" pin="+5V"/>
-<pinref part="C39" gate="G$1" pin="1"/>
-<pinref part="U$38" gate="G$1" pin="VDD"/>
-<wire x1="157.48" y1="172.72" x2="157.48" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="172.72" x2="157.48" y2="172.72" width="0.1524" layer="91"/>
-<junction x="157.48" y="172.72"/>
-</segment>
-<segment>
-<pinref part="U$38" gate="G$1" pin="!SHDN"/>
-<wire x1="182.88" y1="177.8" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="P+120" gate="1" pin="+5V"/>
-<wire x1="198.12" y1="180.34" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="BR101" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="195.58" x2="99.06" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="P+22" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="CAN100" gate="G$1" pin="3"/>
-<wire x1="45.72" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="60.96" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C117" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="66.04" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="66.04" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
-<junction x="58.42" y="66.04"/>
-<pinref part="C118" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="66.04" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="P+90" gate="1" pin="+5V"/>
-<wire x1="66.04" y1="68.58" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
-<junction x="66.04" y="66.04"/>
-</segment>
-<segment>
-<wire x1="149.86" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="P+101" gate="1" pin="+5V"/>
-<wire x1="152.4" y1="71.12" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="VIN"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="83.82" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
-<junction x="152.4" y="83.82"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="83.82" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
-<junction x="157.48" y="83.82"/>
-</segment>
-<segment>
-<pinref part="P+102" gate="1" pin="+5V"/>
-<wire x1="243.84" y1="71.12" x2="243.84" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="71.12" x2="251.46" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C25" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="71.12" x2="251.46" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$34" gate="G$1" pin="VCCB"/>
-<wire x1="241.3" y1="53.34" x2="243.84" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="53.34" x2="243.84" y2="71.12" width="0.1524" layer="91"/>
-<junction x="243.84" y="71.12"/>
-</segment>
-<segment>
-<pinref part="P+25" gate="1" pin="+5V"/>
 <pinref part="C44" gate="G$1" pin="1"/>
 <pinref part="U$39" gate="G$1" pin="VDD"/>
 <wire x1="157.48" y1="137.16" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="137.16" x2="157.48" y2="137.16" width="0.1524" layer="91"/>
 <junction x="157.48" y="137.16"/>
+<pinref part="P+25" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="U$39" gate="G$1" pin="!SHDN"/>
 <wire x1="182.88" y1="142.24" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="P+27" gate="1" pin="+5V"/>
 <wire x1="198.12" y1="144.78" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="P+27" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <wire x1="294.64" y1="108.0262" x2="294.64" y2="109.22" width="0.1524" layer="91"/>
@@ -13044,11 +13044,11 @@ since we have no via the current is less
 <wire x1="307.34" y1="116.84" x2="307.34" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="116.84" x2="294.64" y2="119.38" width="0.1524" layer="91"/>
 <junction x="294.64" y="116.84"/>
-<pinref part="P+40" gate="1" pin="+5V"/>
 <pinref part="U$37" gate="G$1" pin="VDD"/>
 <junction x="294.64" y="109.22"/>
 <pinref part="U$37" gate="G$1" pin="VREF"/>
 <wire x1="294.64" y1="106.68" x2="294.64" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="P+40" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <wire x1="40.64" y1="200.66" x2="40.64" y2="198.12" width="0.1524" layer="91"/>
