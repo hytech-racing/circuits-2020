@@ -1651,8 +1651,8 @@ Source: transistor-fet.lbr</description>
 <wire x1="-1.8542" y1="-0.381" x2="-0.254" y2="-0.381" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="-0.381" x2="-0.254" y2="1.651" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="1.651" x2="-1.8542" y2="1.651" width="0.127" layer="21"/>
-<text x="-2.54" y="2.54" size="0.8128" layer="21" font="vector">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="0.8128" layer="21" font="vector">&gt;Value</text>
+<text x="-2.54" y="2.54" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="1206">
 <description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
@@ -2003,6 +2003,18 @@ Source: transistor-fet.lbr</description>
 <text x="0" y="3.175" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-3.175" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
+<package name="0603-JUMP">
+<smd name="1" x="-0.85" y="0" dx="1.2" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.2" dy="1.1" layer="1"/>
+<text x="0" y="0.7239" size="0.3048" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.7112" size="0.3048" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.381" x2="0" y2="0.127" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.381" x2="0" y2="-0.127" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MV">
@@ -2265,7 +2277,7 @@ Source: transistor-fet.lbr</description>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
 <pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 <pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
-<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
@@ -4444,6 +4456,15 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="0603-JUMP">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7652,8 +7673,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <sheet>
 <description>Inputs/Outputs and Power</description>
 <plain>
-<text x="281.94" y="22.86" size="2.54" layer="97">Ethan Weinstock</text>
-<text x="347.98" y="15.24" size="2.54" layer="97">Board power distribution, connectors, and I/O.</text>
+<text x="281.94" y="22.86" size="2.54" layer="94">Ethan Weinstock</text>
+<text x="347.98" y="15.24" size="2.54" layer="94">Board power distribution, connectors, and I/O.</text>
 <text x="218.44" y="187.96" size="1.778" layer="97">capacitor to reduce noise when CAN switches layers</text>
 </plain>
 <instances>
@@ -8007,9 +8028,9 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="3V3_TEST" gate="G$1" x="114.3" y="243.84" smashed="yes"/>
 <instance part="U$201" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="U$201" gate="G$2" x="262.89" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="339.09" y="1.27" size="2.54" layer="97"/>
-<attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="97"/>
-<attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="97"/>
+<attribute name="LAST_DATE_TIME" x="339.09" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="94"/>
 </instance>
 <instance part="X1" gate="-1" x="48.26" y="93.98" smashed="yes" rot="MR0">
 <attribute name="NAME" x="45.72" y="93.218" size="1.524" layer="95" rot="MR0"/>
@@ -9303,8 +9324,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <sheet>
 <description>Shutdown Circuitry</description>
 <plain>
-<text x="284.48" y="22.86" size="2.54" layer="97">Ethan Weinstock</text>
-<text x="347.98" y="15.24" size="2.54" layer="97">Shutdown ciruitry</text>
+<text x="284.48" y="22.86" size="2.54" layer="94">Ethan Weinstock</text>
+<text x="347.98" y="15.24" size="2.54" layer="94">Shutdown ciruitry</text>
 <text x="220.98" y="172.72" size="1.778" layer="97">don't need decoupling caps on these because they only flip once</text>
 </plain>
 <instances>
@@ -9456,9 +9477,9 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </instance>
 <instance part="U$202" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="U$202" gate="G$2" x="262.89" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="339.09" y="1.27" size="2.54" layer="97"/>
-<attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="97"/>
-<attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="97"/>
+<attribute name="LAST_DATE_TIME" x="339.09" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="94"/>
 </instance>
 <instance part="U$4" gate="G$1" x="294.64" y="236.22" smashed="yes" rot="R270">
 <attribute name="VALUE" x="297.18" y="203.2" size="1.778" layer="94" align="bottom-center"/>
@@ -10676,8 +10697,8 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <text x="289.56" y="241.3" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="289.56" y="193.04" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="76.2" y="152.4" size="1.778" layer="97" rot="R180">Alternate stocked: NCP18XV103J0SRB</text>
-<text x="281.94" y="22.86" size="2.54" layer="97">Ethan Weinstock</text>
-<text x="347.98" y="15.24" size="2.54" layer="97">Telemetry system circuitry.</text>
+<text x="281.94" y="22.86" size="2.54" layer="94">Ethan Weinstock</text>
+<text x="347.98" y="15.24" size="2.54" layer="94">Telemetry system circuitry.</text>
 <text x="289.56" y="152.4" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="256.54" y="81.28" size="1.778" layer="97">don't need resistor between ADC and TXB
 MCP has a rise time of 100 ns
@@ -10808,9 +10829,9 @@ since we have no via the current is less
 </instance>
 <instance part="U$203" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="U$203" gate="G$2" x="262.89" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="339.09" y="1.27" size="2.54" layer="97"/>
-<attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="97"/>
-<attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="97"/>
+<attribute name="LAST_DATE_TIME" x="339.09" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="94"/>
 </instance>
 <instance part="C7" gate="G$1" x="213.36" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="211.836" y="118.999" size="1.778" layer="95" rot="R180"/>
@@ -12107,8 +12128,8 @@ only one per signal on
 <text x="195.58" y="195.58" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="195.58" y="231.14" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="195.58" y="160.02" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
-<text x="281.94" y="22.86" size="2.54" layer="97">Ethan Weinstock</text>
-<text x="347.98" y="15.24" size="2.54" layer="97">Main microcontroller and analog signals circuitry.</text>
+<text x="281.94" y="22.86" size="2.54" layer="94">Ethan Weinstock</text>
+<text x="347.98" y="15.24" size="2.54" layer="94">Main microcontroller and analog signals circuitry.</text>
 <text x="195.58" y="124.46" size="1.016" layer="97">470pF for ~1kHz filter (1.13kHz)</text>
 <text x="33.02" y="254" size="1.778" layer="97">Place note on PCB</text>
 <text x="152.4" y="68.58" size="1.778" layer="97">Using Teensy 3.3V as enable signal</text>
@@ -12315,9 +12336,9 @@ since we have no via the current is less
 </instance>
 <instance part="U$204" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="U$204" gate="G$2" x="262.89" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="339.09" y="1.27" size="2.54" layer="97"/>
-<attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="97"/>
-<attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="97"/>
+<attribute name="LAST_DATE_TIME" x="339.09" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="94"/>
 </instance>
 <instance part="U$39" gate="G$1" x="162.56" y="147.32" smashed="yes"/>
 <instance part="C43" gate="G$1" x="193.04" y="129.54" smashed="yes">

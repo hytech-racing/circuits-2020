@@ -9,7 +9,7 @@
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,18 +22,18 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,19 +47,19 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -911,6 +911,8 @@ T: Temperature</text>
 <wire x1="-11.43" y1="105.283" x2="90.424" y2="105.283" width="0" layer="25"/>
 <wire x1="-17.399" y1="99.314" x2="-17.399" y2="4.572" width="0" layer="25"/>
 <wire x1="96.393" y1="99.314" x2="96.393" y2="4.572" width="0" layer="25"/>
+<text x="-7.366" y="8.89" size="2.54" layer="51" font="vector">3.5</text>
+<text x="23.622" y="8.89" size="2.54" layer="51" font="vector">3.2</text>
 </plain>
 <libraries>
 <library name="HyTechDevices">
@@ -1556,8 +1558,8 @@ Source: Mitsubishi M5218AL/P/FP</description>
 <wire x1="-1.8542" y1="-0.381" x2="-0.254" y2="-0.381" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="-0.381" x2="-0.254" y2="1.651" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="1.651" x2="-1.8542" y2="1.651" width="0.127" layer="21"/>
-<text x="-2.54" y="2.54" size="0.8128" layer="21" font="vector">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="0.8128" layer="21" font="vector">&gt;Value</text>
+<text x="-2.54" y="2.54" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="TRIMPOT_3296">
 <description>3/8" Square Trimmer</description>
@@ -6737,10 +6739,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="X100" pad="P$30"/>
 <contactref element="X100" pad="P$34"/>
 <wire x1="34.671" y1="93.8515" x2="34.671" y2="92.6846" width="0.254" layer="16"/>
-<wire x1="74.20955" y1="70.6274625" x2="74.3966" y2="72.5424" width="0.8128" layer="2"/>
-<wire x1="74.20955" y1="70.6274625" x2="76.1746" y2="70.4342" width="0.8128" layer="2"/>
-<wire x1="74.20955" y1="70.6274625" x2="74.0156" y2="68.6054" width="0.8128" layer="2"/>
-<wire x1="74.20955" y1="70.6274625" x2="71.9582" y2="70.8406" width="0.8128" layer="2"/>
+<wire x1="74.20955" y1="70.6274625" x2="74.3966" y2="72.5424" width="1.27" layer="2"/>
+<wire x1="74.20955" y1="70.6274625" x2="76.1746" y2="70.4342" width="1.27" layer="2"/>
+<wire x1="74.20955" y1="70.6274625" x2="74.0156" y2="68.6054" width="1.27" layer="2"/>
+<wire x1="74.20955" y1="70.6274625" x2="71.9582" y2="70.8406" width="1.27" layer="2"/>
 <wire x1="5.0682" y1="90.8948" x2="3.81" y2="90.8948" width="0.6096" layer="16"/>
 <via x="-11.43" y="-1.651" extent="1-16" drill="0.65"/>
 <via x="-6.35" y="-1.651" extent="1-16" drill="0.65"/>
@@ -6913,9 +6915,9 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 </mfgpreviewcolors>
 <errors>
 <approved hash="23,16,edd8ebafae5fbda6"/>
-<approved hash="23,2,46a7dde36f59e6ab"/>
-<approved hash="23,2,5df6cd6cd466fe58"/>
 <approved hash="23,2,0a735e9cb9ac2f43"/>
+<approved hash="23,2,5df6cd6cd466fe58"/>
+<approved hash="23,2,46a7dde36f59e6ab"/>
 <approved hash="23,2,9a2dc29f6165b4aa"/>
 </errors>
 </board>
