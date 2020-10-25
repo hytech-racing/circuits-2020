@@ -4514,40 +4514,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1" urn="urn:adsk.eagle:library:371">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="+3V3" urn="urn:adsk.eagle:symbol:26950/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="+3V3" urn="urn:adsk.eagle:component:26981/1" prefix="+3V3" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="HyTechFrames">
 <packages>
 </packages>
@@ -7384,10 +7350,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="GND7" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R128" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="U$107" library="HyTechDevices" deviceset="SN74AHC1G09" device=""/>
-<part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$108" library="HyTechDevices" deviceset="STWD100PYW83F" device=""/>
 <part name="U$39" library="HyTechDevices" deviceset="MAX7480" device=""/>
 <part name="C43" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="470pF"/>
@@ -7453,7 +7415,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="GND21" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND24" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$9" library="HyTechDevices" deviceset="TXB0104" device="TSSOP"/>
 <part name="GND25" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R36" library="HyTechDevices" deviceset="RESISTOR" device="0603"/>
@@ -7530,7 +7491,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C114" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="3V3" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="30.1"/>
-<part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="GND52" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -7681,6 +7641,12 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="P+27" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P+40" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P+24" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="+3V13" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="+3V2" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="+3V3" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="+3V1" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="+3V8" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="+3V4" library="HyTechSupplies" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8045,12 +8011,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="97"/>
 <attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="97"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="236.22" y="261.62" smashed="yes">
-<attribute name="VALUE" x="238.76" y="264.16" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="+3V3" gate="G$1" x="99.06" y="251.46" smashed="yes">
-<attribute name="VALUE" x="101.6" y="254" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="X1" gate="-1" x="48.26" y="93.98" smashed="yes" rot="MR0">
 <attribute name="NAME" x="45.72" y="93.218" size="1.524" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="49.022" y="95.377" size="1.778" layer="96" rot="MR0"/>
@@ -8074,9 +8034,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <instance part="R18" gate="G$1" x="370.84" y="86.36" smashed="yes" rot="MR180">
 <attribute name="NAME" x="367.538" y="84.6074" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="367.538" y="89.662" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="+3V11" gate="G$1" x="360.68" y="88.9" smashed="yes">
-<attribute name="VALUE" x="363.22" y="91.44" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C11" gate="G$1" x="213.36" y="190.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="211.836" y="187.579" size="1.778" layer="95" rot="R180"/>
@@ -8279,6 +8236,15 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </instance>
 <instance part="P+54" gate="1" x="360.68" y="76.2" smashed="yes">
 <attribute name="VALUE" x="363.22" y="78.74" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V13" gate="G$1" x="236.22" y="261.62" smashed="yes">
+<attribute name="VALUE" x="238.76" y="264.16" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V2" gate="G$1" x="99.06" y="251.46" smashed="yes">
+<attribute name="VALUE" x="101.6" y="254" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V3" gate="G$1" x="360.68" y="88.9" smashed="yes">
+<attribute name="VALUE" x="363.22" y="91.44" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -8959,18 +8925,18 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <wire x1="236.22" y1="254" x2="236.22" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="259.08" x2="236.22" y2="254" width="0.1524" layer="91"/>
 <junction x="236.22" y="254"/>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<pinref part="+3V13" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="3V3_TEST" gate="G$1" pin="P$1"/>
 <wire x1="111.76" y1="243.84" x2="99.06" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="243.84" x2="99.06" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="365.76" y1="86.36" x2="360.68" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="+3V11" gate="G$1" pin="+3V3"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="GND_CURRENT" class="0">
@@ -10846,9 +10812,6 @@ since we have no via the current is less
 <attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="97"/>
 <attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="97"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="203.2" y="63.5" smashed="yes">
-<attribute name="VALUE" x="205.74" y="66.04" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="C7" gate="G$1" x="213.36" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="211.836" y="118.999" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="211.836" y="124.079" size="1.778" layer="96" rot="R180"/>
@@ -10862,9 +10825,6 @@ since we have no via the current is less
 </instance>
 <instance part="GND24" gate="1" x="213.36" y="111.76" smashed="yes">
 <attribute name="VALUE" x="210.82" y="109.22" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V8" gate="G$1" x="172.72" y="132.08" smashed="yes">
-<attribute name="VALUE" x="175.26" y="134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$9" gate="G$1" x="180.34" y="111.76" smashed="yes">
 <attribute name="NAME" x="180.34" y="112.268" size="1.778" layer="95"/>
@@ -11064,6 +11024,12 @@ since we have no via the current is less
 </instance>
 <instance part="P+66" gate="1" x="330.2" y="73.66" smashed="yes">
 <attribute name="VALUE" x="332.74" y="76.2" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V1" gate="G$1" x="203.2" y="63.5" smashed="yes">
+<attribute name="VALUE" x="205.74" y="66.04" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V8" gate="G$1" x="172.72" y="132.08" smashed="yes">
+<attribute name="VALUE" x="175.26" y="134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -11736,9 +11702,9 @@ since we have no via the current is less
 <wire x1="167.64" y1="124.46" x2="167.64" y2="127" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
 <junction x="172.72" y="127"/>
-<pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <pinref part="U$9" gate="G$1" pin="VCCA"/>
 <wire x1="172.72" y1="109.22" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="N$142" class="0">
@@ -12353,9 +12319,6 @@ since we have no via the current is less
 <attribute name="SHEET" x="412.75" y="1.27" size="2.54" layer="97"/>
 <attribute name="DRAWING_NAME" x="356.87" y="22.86" size="2.54" layer="97"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="210.82" y="76.2" smashed="yes">
-<attribute name="VALUE" x="213.36" y="78.74" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="U$39" gate="G$1" x="162.56" y="147.32" smashed="yes"/>
 <instance part="C43" gate="G$1" x="193.04" y="129.54" smashed="yes">
 <attribute name="NAME" x="194.564" y="132.461" size="1.778" layer="95"/>
@@ -12593,6 +12556,9 @@ since we have no via the current is less
 </instance>
 <instance part="P+24" gate="1" x="40.64" y="203.2" smashed="yes">
 <attribute name="VALUE" x="43.18" y="205.74" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V4" gate="G$1" x="210.82" y="76.2" smashed="yes">
+<attribute name="VALUE" x="213.36" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -13551,17 +13517,6 @@ since we have no via the current is less
 </net>
 <net name="+3V3" class="0">
 <segment>
-<wire x1="210.82" y1="53.34" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C28" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="71.12" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="68.58" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="71.12" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
-<junction x="210.82" y="71.12"/>
-<pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<pinref part="U$34" gate="G$1" pin="VCCA"/>
-<wire x1="210.82" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$23" gate="G$1" pin="VDD"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <wire x1="274.32" y1="233.68" x2="274.32" y2="248.92" width="0.1524" layer="91"/>
@@ -13581,6 +13536,17 @@ since we have no via the current is less
 <pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="281.94" y1="200.66" x2="274.32" y2="200.66" width="0.1524" layer="91"/>
 <junction x="274.32" y="200.66"/>
+</segment>
+<segment>
+<wire x1="210.82" y1="53.34" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="71.12" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="68.58" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="71.12" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
+<junction x="210.82" y="71.12"/>
+<pinref part="U$34" gate="G$1" pin="VCCA"/>
+<wire x1="210.82" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="RX_MAIN" class="0">
@@ -13972,16 +13938,6 @@ since we have no via the current is less
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
