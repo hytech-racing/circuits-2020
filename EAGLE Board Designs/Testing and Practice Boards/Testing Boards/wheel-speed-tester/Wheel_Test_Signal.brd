@@ -187,9 +187,15 @@
 </layers>
 <board>
 <plain>
+<<<<<<< Updated upstream
 <wire x1="64.77" y1="30.48" x2="146.03" y2="30.48" width="0" layer="20"/>
 <wire x1="146.03" y1="30.48" x2="146.03" y2="78.41" width="0" layer="20"/>
 <wire x1="146.03" y1="78.41" x2="64.77" y2="78.41" width="0" layer="20"/>
+=======
+<wire x1="64.77" y1="30.48" x2="251.44" y2="30.48" width="0" layer="20"/>
+<wire x1="251.44" y1="30.48" x2="251.44" y2="78.41" width="0" layer="20"/>
+<wire x1="251.44" y1="78.41" x2="64.77" y2="78.41" width="0" layer="20"/>
+>>>>>>> Stashed changes
 <wire x1="64.77" y1="78.41" x2="64.77" y2="30.48" width="0" layer="20"/>
 </plain>
 <libraries>
@@ -549,7 +555,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="87.122" y="55.499" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="85.217" y="55.626" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
+<<<<<<< Updated upstream
 <element name="C2" library="HyTechDevices" package="0603-CAP" value="0.01uF" x="86.36" y="59.69" smashed="yes" rot="R90">
+=======
+<element name="C2" library="HyTechDevices" package="0603-CAP" value="750nF" x="86.36" y="59.69" smashed="yes" rot="R90">
+>>>>>>> Stashed changes
 <attribute name="NAME" x="85.598" y="58.801" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="87.503" y="58.674" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
@@ -597,6 +607,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="121.031" y="54.102" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="120.904" y="52.197" size="0.4064" layer="27" font="vector"/>
 </element>
+<<<<<<< Updated upstream
 <element name="R10" library="HyTechDevices" package="0603-RES" value="1k" x="110.49" y="64.77" smashed="yes" rot="R180">
 <attribute name="NAME" x="111.379" y="64.008" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="111.506" y="65.913" size="0.4064" layer="27" font="vector" rot="R180"/>
@@ -640,16 +651,69 @@ design rules under a new name.</description>
 <element name="R4" library="HyTechDevices" package="0603-RES" value="715" x="114.3" y="64.77" smashed="yes">
 <attribute name="NAME" x="113.411" y="65.532" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="113.284" y="63.627" size="0.4064" layer="27" font="vector"/>
+=======
+<element name="R10" library="HyTechDevices" package="0603-RES" value="1k" x="110.49" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="111.379" y="65.278" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="111.506" y="67.183" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R11" library="HyTechDevices" package="0603-RES" value="10k" x="124.46" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="123.698" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="125.603" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R12" library="HyTechDevices" package="0603-RES" value="6.34k" x="116.84" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="116.078" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="117.983" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R14" library="HyTechDevices" package="0603-RES" value="3.83k" x="109.22" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="108.458" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="110.363" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R17" library="HyTechDevices" package="0603-RES" value="2.4k" x="101.6" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.838" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="102.743" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R2" library="HyTechDevices" package="0603-RES" value="715" x="117.729" y="65.151" smashed="yes" rot="R270">
+<attribute name="NAME" x="118.491" y="66.04" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="116.586" y="66.167" size="0.4064" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="R21" library="HyTechDevices" package="0603-RES" value="1.6k" x="93.98" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="93.218" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="95.123" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R22" library="HyTechDevices" package="0603-RES" value="1.49k" x="86.36" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="85.598" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="87.503" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R23" library="HyTechDevices" package="0603-RES" value="1.37k" x="78.74" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.978" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="79.883" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R3" library="HyTechDevices" package="0603-RES" value="715" x="125.73" y="57.15" smashed="yes">
+<attribute name="NAME" x="124.841" y="57.912" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="124.714" y="56.007" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R4" library="HyTechDevices" package="0603-RES" value="715" x="114.3" y="66.04" smashed="yes">
+<attribute name="NAME" x="113.411" y="66.802" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="113.284" y="64.897" size="0.4064" layer="27" font="vector"/>
+>>>>>>> Stashed changes
 </element>
 <element name="R5" library="HyTechDevices" package="0603-RES" value="1k" x="95.25" y="52.07" smashed="yes" rot="R90">
 <attribute name="NAME" x="94.488" y="51.181" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="96.393" y="51.054" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
+<<<<<<< Updated upstream
 <element name="R6" library="HyTechDevices" package="0603-RES" value="100k" x="140.589" y="33.274" smashed="yes">
 <attribute name="NAME" x="139.7" y="34.036" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="139.573" y="32.131" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="R7" library="HyTechDevices" package="0603-RES" value="1.5k" x="132.08" y="43.18" smashed="yes" rot="R90">
+=======
+<element name="R6" library="HyTechDevices" package="0603-RES" value="100k" x="140.843" y="36.83" smashed="yes">
+<attribute name="NAME" x="139.954" y="37.592" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="139.827" y="35.687" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R7" library="HyTechDevices" package="0603-RES" value="20k" x="132.08" y="43.18" smashed="yes" rot="R90">
+>>>>>>> Stashed changes
 <attribute name="NAME" x="131.318" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="133.223" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
@@ -657,9 +721,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="71.882" y="44.069" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="69.977" y="44.196" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
+<<<<<<< Updated upstream
 <element name="R9" library="HyTechDevices" package="0603-RES" value="1k" x="108.839" y="56.769" smashed="yes" rot="R270">
 <attribute name="NAME" x="109.601" y="57.658" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="107.696" y="57.785" size="0.4064" layer="27" font="vector" rot="R270"/>
+=======
+<element name="R9" library="HyTechDevices" package="0603-RES" value="1k" x="108.839" y="58.547" smashed="yes" rot="R270">
+<attribute name="NAME" x="109.601" y="59.436" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="107.696" y="59.563" size="0.4064" layer="27" font="vector" rot="R270"/>
+>>>>>>> Stashed changes
 </element>
 <element name="U$1" library="HyTechDevices" package="SOIC-08" value="MCP6002SOIC" x="116.84" y="59.69" smashed="yes" rot="R270">
 <attribute name="NAME" x="116.84" y="62.23" size="0.6096" layer="25" align="bottom-center"/>
@@ -669,7 +739,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="104.521" y="54.356" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="102.235" y="56.134" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
+<<<<<<< Updated upstream
 <element name="U$4" library="HyTechDevices" package="OKI-78SR" value="OKI-78SR-5" x="137.287" y="59.055" smashed="yes" rot="R270"/>
+=======
+<element name="U$4" library="HyTechDevices" package="OKI-78SR" value="OKI-78SR-5" x="139.065" y="58.547" smashed="yes"/>
+>>>>>>> Stashed changes
 <element name="X1" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="CONNECTOR-2NANO-FIT_VERTICAL-2" x="138.43" y="48.26" smashed="yes" rot="R270"/>
 <element name="X2" library="HyTechDevices" package="MINIFIT_5566-2" value="CONNECTOR-2" x="125.73" y="49.53" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="133.35" y="67.31" size="1.778" layer="27" rot="R90" display="off"/>
@@ -679,6 +753,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="133.35" y="67.31" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="118.872" y="49.53" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
 </element>
+<<<<<<< Updated upstream
 <element name="R13" library="HyTechDevices" package="0603-RES" value="715" x="78.74" y="-10.16" smashed="yes">
 <attribute name="NAME" x="77.851" y="-9.398" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="77.724" y="-11.303" size="0.4064" layer="27" font="vector"/>
@@ -810,6 +885,139 @@ design rules under a new name.</description>
 <element name="J18" library="HyTechDevices" package="1X02" value="JUMPER.1" x="88.9" y="-5.08" smashed="yes">
 <attribute name="NAME" x="86.2838" y="-3.2512" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="86.36" y="-8.255" size="1.27" layer="27"/>
+=======
+<element name="R13" library="HyTechDevices" package="0603-RES" value="715" x="222.25" y="43.18" smashed="yes">
+<attribute name="NAME" x="221.361" y="43.942" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="221.234" y="42.037" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R15" library="HyTechDevices" package="0603-RES" value="715" x="226.06" y="40.64" smashed="yes">
+<attribute name="NAME" x="225.171" y="41.402" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="225.044" y="39.497" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R16" library="HyTechDevices" package="0603-RES" value="715" x="233.68" y="49.53" smashed="yes">
+<attribute name="NAME" x="232.791" y="50.292" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="232.664" y="48.387" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R18" library="HyTechDevices" package="0603-RES" value="715" x="193.04" y="63.5" smashed="yes">
+<attribute name="NAME" x="192.151" y="64.262" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="192.024" y="62.357" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R19" library="HyTechDevices" package="0603-RES" value="100k" x="224.79" y="55.88" smashed="yes">
+<attribute name="NAME" x="223.901" y="56.642" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="223.774" y="54.737" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C3" library="HyTechDevices" package="0603-CAP" value="10uF" x="165.1" y="54.61" smashed="yes" rot="R90">
+<attribute name="NAME" x="164.338" y="53.721" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="166.243" y="53.594" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="C5" library="HyTechDevices" package="0603-CAP" value="750nF" x="165.1" y="59.69" smashed="yes" rot="R90">
+<attribute name="NAME" x="164.338" y="58.801" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="166.243" y="58.674" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R20" library="HyTechDevices" package="0603-RES" value="1k" x="204.47" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="203.708" y="60.071" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="205.613" y="59.944" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R24" library="HyTechDevices" package="0603-RES" value="1k" x="149.86" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="149.098" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="151.003" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="U$3" library="HyTechDevices" package="SOIC-08" value="MCP6002SOIC" x="195.58" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="195.58" y="55.88" size="0.6096" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="195.58" y="60.96" size="0.6096" layer="27" align="bottom-center"/>
+</element>
+<element name="R25" library="HyTechDevices" package="0603-RES" value="1k" x="198.12" y="33.02" smashed="yes">
+<attribute name="NAME" x="197.231" y="33.782" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="197.104" y="31.877" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R26" library="HyTechDevices" package="0603-RES" value="1k" x="189.23" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="190.119" y="62.738" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="190.246" y="64.643" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C6" library="HyTechDevices" package="0603-CAP" value="0.01 uF" x="165.1" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="164.338" y="62.611" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="166.243" y="62.484" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="U$5" library="HyTechDevices" package="DIL08" value="555_TIMER" x="180.34" y="59.69" smashed="yes" rot="R90">
+<attribute name="NAME" x="183.261" y="54.356" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="180.975" y="56.134" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="X4" library="HyTechDevices" package="MINIFIT_5566-2" value="CONNECTOR-2" x="218.44" y="68.58" smashed="yes">
+<attribute name="MF" value="" x="195.58" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="195.58" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="218.44" y="63.373" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OC_FARNELL" value="1822072" x="195.58" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="195.58" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="218.44" y="75.438" size="0.8128" layer="27" align="bottom-center"/>
+</element>
+<element name="R27" library="HyTechDevices" package="0603-RES" value="20k" x="210.82" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="210.058" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="211.963" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R28" library="HyTechDevices" package="0603-RES" value="10k" x="203.2" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="202.438" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="204.343" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R29" library="HyTechDevices" package="0603-RES" value="6.34k" x="195.58" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="194.818" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="196.723" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R30" library="HyTechDevices" package="0603-RES" value="3.83k" x="187.96" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="187.198" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="189.103" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R31" library="HyTechDevices" package="0603-RES" value="2.4k" x="180.34" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="179.578" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="181.483" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R32" library="HyTechDevices" package="0603-RES" value="1.6k" x="172.72" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="171.958" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="173.863" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R33" library="HyTechDevices" package="0603-RES" value="1.49k" x="165.1" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="164.338" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="166.243" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R34" library="HyTechDevices" package="0603-RES" value="1.37k" x="157.48" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="156.718" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="158.623" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="J10" library="HyTechDevices" package="1X02" value="JUMPER.1" x="149.86" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="148.0312" y="35.4838" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="153.035" y="35.56" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J11" library="HyTechDevices" package="1X02" value="JUMPER.1" x="157.48" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="155.6512" y="35.4838" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="160.655" y="35.56" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J12" library="HyTechDevices" package="1X02" value="JUMPER.1" x="165.1" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="163.2712" y="35.4838" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="168.275" y="35.56" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J13" library="HyTechDevices" package="1X02" value="JUMPER.1" x="172.72" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="170.8912" y="35.4838" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="175.895" y="35.56" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J14" library="HyTechDevices" package="1X02" value="JUMPER.1" x="180.34" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="178.5112" y="35.4838" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="183.515" y="35.56" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J15" library="HyTechDevices" package="1X02" value="JUMPER.1" x="187.96" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.1312" y="35.4838" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="191.135" y="35.56" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J16" library="HyTechDevices" package="1X02" value="JUMPER.1" x="195.58" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="193.7512" y="35.4838" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="198.755" y="35.56" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J17" library="HyTechDevices" package="1X02" value="JUMPER.1" x="203.2" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="201.3712" y="35.4838" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="206.375" y="35.56" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J18" library="HyTechDevices" package="1X02" value="JUMPER.1" x="210.82" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="208.9912" y="35.4838" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="213.995" y="35.56" size="1.27" layer="27" rot="R90"/>
+>>>>>>> Stashed changes
 </element>
 </elements>
 <signals>
@@ -821,6 +1029,7 @@ design rules under a new name.</description>
 <contactref element="R6" pad="2"/>
 <contactref element="U$4" pad="3"/>
 <wire x1="95.25" y1="53.34" x2="95.25" y2="52.92" width="0.254" layer="1"/>
+<<<<<<< Updated upstream
 <wire x1="139.065" y1="56.515" x2="142.24" y2="53.34" width="0.508" layer="1"/>
 <wire x1="139.065" y1="56.515" x2="137.287" y2="56.515" width="0.508" layer="1"/>
 <wire x1="142.24" y1="53.34" x2="142.24" y2="34.075" width="0.508" layer="1"/>
@@ -839,6 +1048,14 @@ design rules under a new name.</description>
 <via x="99.06" y="57.15" extent="1-16" drill="0.35"/>
 <wire x1="99.06" y1="57.15" x2="97.79" y2="55.88" width="0.508" layer="1"/>
 <wire x1="142.24" y1="34.075" x2="141.439" y2="33.274" width="0.508" layer="1"/>
+=======
+<wire x1="105.41" y1="63.5" x2="105.41" y2="66.04" width="0.508" layer="1"/>
+<wire x1="105.41" y1="66.04" x2="104.14" y2="67.31" width="0.508" layer="1"/>
+<wire x1="104.14" y1="67.31" x2="100.33" y2="67.31" width="0.508" layer="1"/>
+<wire x1="100.33" y1="67.31" x2="89.32" y2="67.31" width="0.508" layer="1"/>
+<wire x1="89.32" y1="67.31" x2="86.36" y2="64.35" width="0.508" layer="1"/>
+<wire x1="97.79" y1="55.88" x2="95.25" y2="53.34" width="0.508" layer="1"/>
+>>>>>>> Stashed changes
 <wire x1="105.41" y1="63.5" x2="110.49" y2="68.58" width="0.508" layer="1"/>
 <wire x1="110.49" y1="68.58" x2="135.89" y2="68.58" width="0.508" layer="1"/>
 <contactref element="R20" pad="2"/>
@@ -846,11 +1063,29 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="8"/>
 <contactref element="U$5" pad="4"/>
 <contactref element="R19" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="78.74" y1="27.94" x2="95.25" y2="52.92" width="0" layer="19" extent="1-1"/>
 <wire x1="86.36" y1="20.32" x2="78.74" y2="27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="94.83" y1="-10.16" x2="86.36" y2="20.32" width="0" layer="19" extent="1-1"/>
 <wire x1="98.64" y1="-10.16" x2="94.83" y2="-10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="75.78" y1="-10.16" x2="94.83" y2="-10.16" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="135.89" y1="68.58" x2="141.605" y2="62.865" width="0.508" layer="1"/>
+<wire x1="141.605" y1="62.865" x2="141.605" y2="58.547" width="0.508" layer="1"/>
+<wire x1="141.605" y1="58.547" x2="141.693" y2="58.459" width="0.508" layer="1"/>
+<wire x1="141.693" y1="58.459" x2="141.693" y2="36.83" width="0.508" layer="1"/>
+<wire x1="100.33" y1="67.31" x2="100.33" y2="63.5" width="0.508" layer="1"/>
+<wire x1="98.8568" y1="62.0268" x2="96.6877125" y2="62.0268" width="0.508" layer="1"/>
+<wire x1="96.6877125" y1="62.0268" x2="96.0628" y2="61.4018875" width="0.508" layer="1"/>
+<wire x1="96.0628" y1="57.6072" x2="97.79" y2="55.88" width="0.508" layer="1"/>
+<wire x1="100.33" y1="63.5" x2="98.8568" y2="62.0268" width="0.508" layer="1"/>
+<wire x1="96.0628" y1="61.4018875" x2="96.0628" y2="57.6072" width="0.508" layer="1"/>
+<wire x1="176.53" y1="55.88" x2="184.15" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="165.1" y1="64.35" x2="176.53" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="204.47" y1="61.81" x2="184.15" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="225.64" y1="55.88" x2="204.47" y2="61.81" width="0" layer="19" extent="1-1"/>
+<wire x1="141.605" y1="58.547" x2="165.1" y2="64.35" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="GND">
 <contactref element="R1" pad="1"/>
@@ -862,6 +1097,7 @@ design rules under a new name.</description>
 <contactref element="C4" pad="1"/>
 <contactref element="X1" pad="P$2"/>
 <contactref element="U$4" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="137.287" y1="59.055" x2="137.287" y2="58.41881875" width="0.508" layer="1"/>
 <wire x1="137.287" y1="58.41881875" x2="135.9408" y2="57.07261875" width="0.508" layer="1"/>
 <wire x1="135.9408" y1="57.07261875" x2="135.9408" y2="53.39449375" width="0.508" layer="1"/>
@@ -884,6 +1120,12 @@ design rules under a new name.</description>
 <wire x1="86.78" y1="55.88" x2="86.36" y2="55.46" width="0.508" layer="1"/>
 <wire x1="86.36" y1="62.65" x2="86.36" y2="60.54" width="0.508" layer="1"/>
 <wire x1="137.26529375" y1="45.72" x2="118.11" y2="45.72" width="0.508" layer="1"/>
+=======
+<wire x1="121.07" y1="53.34" x2="118.685" y2="53.34" width="0.508" layer="1"/>
+<wire x1="118.685" y1="53.34" x2="114.24" y2="57.785" width="0.508" layer="1"/>
+<wire x1="86.36" y1="62.65" x2="86.36" y2="60.54" width="0.508" layer="1"/>
+<wire x1="118.11" y1="45.72" x2="137.26529375" y2="45.72" width="0.508" layer="1"/>
+>>>>>>> Stashed changes
 <wire x1="116.84" y1="46.99" x2="118.11" y2="45.72" width="0.508" layer="1"/>
 <wire x1="116.84" y1="46.99" x2="116.84" y2="52.07" width="0.508" layer="1"/>
 <wire x1="116.84" y1="52.07" x2="118.11" y2="53.34" width="0.508" layer="1"/>
@@ -894,8 +1136,11 @@ design rules under a new name.</description>
 <wire x1="83.82" y1="58" x2="86.36" y2="55.46" width="0.508" layer="1"/>
 <wire x1="138.43" y1="47.01" x2="138.43" y2="46.88470625" width="0.508" layer="1"/>
 <wire x1="138.43" y1="46.88470625" x2="137.26529375" y2="45.72" width="0.508" layer="1"/>
+<<<<<<< Updated upstream
 <wire x1="138.43" y1="47.01" x2="139.7364" y2="48.3164" width="0.508" layer="1"/>
 <wire x1="139.7364" y1="48.3164" x2="139.7364" y2="50.42755" width="0.508" layer="1"/>
+=======
+>>>>>>> Stashed changes
 <contactref element="R13" pad="1"/>
 <contactref element="U$5" pad="1"/>
 <contactref element="C3" pad="1"/>
@@ -903,6 +1148,7 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="4"/>
 <contactref element="R25" pad="2"/>
 <contactref element="C6" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="78.74" y1="20.32" x2="86.36" y2="55.46" width="0" layer="19" extent="1-1"/>
 <wire x1="70.485" y1="7.56" x2="78.74" y2="20.32" width="0" layer="19" extent="1-1"/>
 <wire x1="71.97" y1="-10.16" x2="70.485" y2="7.56" width="0" layer="19" extent="1-1"/>
@@ -910,22 +1156,69 @@ design rules under a new name.</description>
 <wire x1="77.89" y1="-10.16" x2="74.08" y2="-10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="68.16" y1="-13.97" x2="71.97" y2="-10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="66.46" y1="-10.16" x2="68.16" y2="-13.97" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="139.065" y1="58.547" x2="139.065" y2="50.72253125" width="0.508" layer="1"/>
+<wire x1="139.065" y1="50.72253125" x2="139.7364" y2="50.05113125" width="0.508" layer="1"/>
+<wire x1="139.7364" y1="50.05113125" x2="139.7364" y2="48.19110625" width="0.508" layer="1"/>
+<wire x1="139.7364" y1="48.19110625" x2="138.492646875" y2="46.947353125" width="0.508" layer="1"/>
+<wire x1="114.24" y1="57.785" x2="108.751" y2="57.785" width="0.508" layer="1"/>
+<wire x1="108.751" y1="57.785" x2="108.839" y2="57.697" width="0.508" layer="1"/>
+<wire x1="107.022" y1="55.88" x2="108.839" y2="57.697" width="0.508" layer="1"/>
+<wire x1="105.41" y1="55.88" x2="107.022" y2="55.88" width="0.508" layer="1"/>
+<wire x1="138.43" y1="47.01" x2="139.68" y2="47.01" width="0.508" layer="1"/>
+<wire x1="139.68" y1="47.01" x2="139.7" y2="46.99" width="0.508" layer="1"/>
+<via x="139.7" y="46.99" extent="1-16" drill="0.35"/>
+<wire x1="139.7" y1="46.99" x2="142.4776" y2="46.99" width="0.508" layer="16"/>
+<via x="142.4776" y="46.99" extent="1-16" drill="0.35"/>
+<wire x1="68.43569375" y1="35.2552" x2="67.5132" y2="36.17769375" width="0.508" layer="1"/>
+<wire x1="81.534" y1="58.15834375" x2="81.534" y2="58.166" width="0.508" layer="1"/>
+<wire x1="142.4776" y1="46.99" x2="143.9194" y2="45.5482" width="0.508" layer="1"/>
+<wire x1="143.9194" y1="45.5482" x2="143.9194" y2="36.1616625" width="0.508" layer="1"/>
+<wire x1="67.5132" y1="36.17769375" x2="67.5132" y2="44.13754375" width="0.508" layer="1"/>
+<wire x1="67.5132" y1="44.13754375" x2="81.534" y2="58.15834375" width="0.508" layer="1"/>
+<wire x1="143.9194" y1="36.1616625" x2="143.0129375" y2="35.2552" width="0.508" layer="1"/>
+<wire x1="143.0129375" y1="35.2552" x2="68.43569375" y2="35.2552" width="0.508" layer="1"/>
+<wire x1="81.534" y1="58.166" x2="83.058" y2="59.69" width="0.508" layer="1"/>
+<wire x1="83.058" y1="59.69" x2="83.82" y2="59.69" width="0.508" layer="1"/>
+<wire x1="198.18" y1="60.325" x2="184.15" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="165.1" y1="53.76" x2="184.15" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="165.1" y1="60.54" x2="165.1" y2="53.76" width="0" layer="19" extent="1-1"/>
+<wire x1="165.1" y1="62.65" x2="165.1" y2="60.54" width="0" layer="19" extent="1-1"/>
+<wire x1="143.9194" y1="45.5482" x2="165.1" y2="53.76" width="0" layer="19" extent="1-1"/>
+<wire x1="138.492646875" y1="46.947353125" x2="138.43" y2="47.01" width="0" layer="19" extent="1-1"/>
+<wire x1="198.97" y1="33.02" x2="184.15" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="221.4" y1="43.18" x2="198.97" y2="33.02" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="2"/>
 <contactref element="R3" pad="1"/>
 <contactref element="U$1" pad="6"/>
+<<<<<<< Updated upstream
 <wire x1="119.44" y1="59.055" x2="122.975" y2="59.055" width="0.254" layer="1"/>
 <wire x1="122.975" y1="59.055" x2="125.73" y2="56.3" width="0.254" layer="1"/>
 <wire x1="122.77" y1="53.34" x2="125.73" y2="56.3" width="0.254" layer="1"/>
+=======
+<wire x1="122.77" y1="56.25013125" x2="122.77" y2="53.34" width="0.254" layer="1"/>
+<wire x1="119.44" y1="59.055" x2="119.96513125" y2="59.055" width="0.254" layer="1"/>
+<wire x1="119.96513125" y1="59.055" x2="122.77" y2="56.25013125" width="0.254" layer="1"/>
+<wire x1="124.88" y1="57.15" x2="123.98013125" y2="56.25013125" width="0.254" layer="1"/>
+<wire x1="123.98013125" y1="56.25013125" x2="122.77" y2="56.25013125" width="0.254" layer="1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="ALTERNATINGVOLTAGE">
 <contactref element="R4" pad="1"/>
 <contactref element="U$1" pad="1"/>
 <contactref element="R10" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="113.45" y1="64.77" x2="111.34" y2="64.77" width="0.254" layer="1"/>
 <wire x1="114.24" y1="61.595" x2="114.24" y2="61.87" width="0.254" layer="1"/>
 <wire x1="114.24" y1="61.87" x2="111.34" y2="64.77" width="0.254" layer="1"/>
+=======
+<wire x1="113.45" y1="66.04" x2="111.34" y2="66.04" width="0.254" layer="1"/>
+<wire x1="114.24" y1="61.595" x2="114.24" y2="63.14" width="0.254" layer="1"/>
+<wire x1="114.24" y1="63.14" x2="111.34" y2="66.04" width="0.254" layer="1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$8">
 <contactref element="U$2" pad="3"/>
@@ -938,6 +1231,7 @@ design rules under a new name.</description>
 <contactref element="R21" pad="2"/>
 <contactref element="R22" pad="2"/>
 <contactref element="J2" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="105.41" y1="60.96" x2="107.0102" y2="59.3598" width="0.254" layer="1"/>
 <wire x1="107.0102" y1="59.3598" x2="107.0102" y2="58.42" width="0.254" layer="1"/>
 <wire x1="107.0102" y1="58.42" x2="107.2614" y2="58.42" width="0.254" layer="1"/>
@@ -945,6 +1239,8 @@ design rules under a new name.</description>
 <wire x1="107.2614" y1="58.42" x2="107.2614" y2="51.4886" width="0.254" layer="16"/>
 <wire x1="107.2614" y1="51.4886" x2="109.22" y2="49.53" width="0.254" layer="16"/>
 <via x="109.22" y="49.53" extent="1-16" drill="0.35"/>
+=======
+>>>>>>> Stashed changes
 <wire x1="71.12" y1="36.83" x2="78.32" y2="44.03" width="0.254" layer="1"/>
 <wire x1="78.32" y1="44.03" x2="78.74" y2="44.03" width="0.254" layer="1"/>
 <wire x1="109.22" y1="49.53" x2="109.22" y2="44.03" width="0.254" layer="1"/>
@@ -955,12 +1251,19 @@ design rules under a new name.</description>
 <wire x1="109.22" y1="44.03" x2="116.84" y2="44.03" width="0.254" layer="1"/>
 <wire x1="116.84" y1="44.03" x2="124.46" y2="44.03" width="0.254" layer="1"/>
 <wire x1="124.46" y1="44.03" x2="132.08" y2="44.03" width="0.254" layer="1"/>
+<<<<<<< Updated upstream
+=======
+<wire x1="105.41" y1="60.96" x2="103.759" y2="59.309" width="0.254" layer="1"/>
+<wire x1="103.759" y1="59.309" x2="103.759" y2="54.991" width="0.254" layer="1"/>
+<wire x1="103.759" y1="54.991" x2="109.22" y2="49.53" width="0.254" layer="1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$6">
 <contactref element="R8" pad="1"/>
 <contactref element="R5" pad="1"/>
 <contactref element="U$1" pad="3"/>
 <wire x1="95.25" y1="51.22" x2="95.04" y2="51.01" width="0.254" layer="1"/>
+<<<<<<< Updated upstream
 <wire x1="114.24" y1="59.055" x2="113.5494" y2="58.3644" width="0.254" layer="1"/>
 <wire x1="113.5494" y1="58.3644" x2="113.02426875" y2="58.3644" width="0.254" layer="1"/>
 <wire x1="106.45968125" y1="56.8198" x2="104.36031875" y2="56.8198" width="0.254" layer="1"/>
@@ -971,16 +1274,38 @@ design rules under a new name.</description>
 <wire x1="106.48988125" y1="56.7896" x2="106.45968125" y2="56.8198" width="0.254" layer="1"/>
 <wire x1="71.12" y1="44.03" x2="78.1" y2="51.01" width="0.254" layer="1"/>
 <wire x1="78.1" y1="51.01" x2="95.04" y2="51.01" width="0.254" layer="1"/>
+=======
+<wire x1="98.55051875" y1="51.01" x2="95.04" y2="51.01" width="0.254" layer="1"/>
+<wire x1="71.12" y1="44.03" x2="78.1" y2="51.01" width="0.254" layer="1"/>
+<wire x1="78.1" y1="51.01" x2="95.04" y2="51.01" width="0.254" layer="1"/>
+<wire x1="106.84686875" y1="57.15" x2="105.41" y2="57.15" width="0.254" layer="1"/>
+<wire x1="108.22326875" y1="58.5264" x2="106.84686875" y2="57.15" width="0.254" layer="1"/>
+<wire x1="114.24" y1="59.055" x2="113.7114" y2="58.5264" width="0.254" layer="1"/>
+<wire x1="113.7114" y1="58.5264" x2="108.22326875" y2="58.5264" width="0.254" layer="1"/>
+<via x="105.41" y="57.15" extent="1-16" drill="0.35"/>
+<wire x1="105.41" y1="57.15" x2="102.87" y2="57.15" width="0.254" layer="16"/>
+<via x="102.87" y="57.15" extent="1-16" drill="0.35"/>
+<wire x1="102.87" y1="57.15" x2="102.87" y2="55.32948125" width="0.254" layer="1"/>
+<wire x1="102.87" y1="55.32948125" x2="98.55051875" y2="51.01" width="0.254" layer="1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="2"/>
 <contactref element="U$1" pad="7"/>
 <contactref element="R2" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="125.3019875" y1="63.92" x2="125.73" y2="63.92" width="0.254" layer="1"/>
 <wire x1="122.3193875" y1="60.9374" x2="125.3019875" y2="63.92" width="0.254" layer="1"/>
 <wire x1="119.44" y1="60.325" x2="120.0524" y2="60.9374" width="0.254" layer="1"/>
 <wire x1="120.0524" y1="60.9374" x2="122.3193875" y2="60.9374" width="0.254" layer="1"/>
 <wire x1="125.73" y1="63.92" x2="125.73" y2="58" width="0.254" layer="1"/>
+=======
+<wire x1="117.729" y1="64.301" x2="117.729" y2="61.341" width="0.254" layer="1"/>
+<wire x1="118.745" y1="60.325" x2="119.44" y2="60.325" width="0.254" layer="1"/>
+<wire x1="117.729" y1="61.341" x2="118.745" y2="60.325" width="0.254" layer="1"/>
+<wire x1="126.58" y1="57.15" x2="123.405" y2="60.325" width="0.254" layer="1"/>
+<wire x1="123.405" y1="60.325" x2="119.44" y2="60.325" width="0.254" layer="1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="SENSOROUT">
 <contactref element="R2" pad="1"/>
@@ -997,24 +1322,40 @@ design rules under a new name.</description>
 <wire x1="119.44" y1="57.785" x2="118.7494" y2="58.4756" width="0.254" layer="1"/>
 <wire x1="118.7494" y1="58.4756" x2="118.22426875" y2="58.4756" width="0.254" layer="1"/>
 <wire x1="116.1556" y1="61.8594" x2="115.15" y2="62.865" width="0.254" layer="1"/>
+<<<<<<< Updated upstream
 <wire x1="115.15" y1="64.77" x2="115.15" y2="62.865" width="0.254" layer="1"/>
 <wire x1="116.1556" y1="61.8594" x2="116.1556" y2="60.54426875" width="0.254" layer="1"/>
 <wire x1="115.15" y1="64.77" x2="116" y2="65.62" width="0.254" layer="1"/>
 <wire x1="116" y1="65.62" x2="125.73" y2="65.62" width="0.254" layer="1"/>
+=======
+<wire x1="115.15" y1="66.04" x2="115.15" y2="62.865" width="0.254" layer="1"/>
+<wire x1="116.1556" y1="61.8594" x2="116.1556" y2="60.54426875" width="0.254" layer="1"/>
+<wire x1="117.729" y1="66.001" x2="115.15" y2="66.04" width="0.254" layer="1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$9">
 <contactref element="R10" pad="2"/>
 <contactref element="R9" pad="1"/>
 <contactref element="U$1" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="109.64" y1="64.77" x2="108.839" y2="63.969" width="0.254" layer="1"/>
 <wire x1="108.839" y1="63.969" x2="108.839" y2="60.325" width="0.254" layer="1"/>
 <wire x1="108.839" y1="60.325" x2="108.839" y2="57.619" width="0.254" layer="1"/>
 <wire x1="114.24" y1="60.325" x2="108.839" y2="60.325" width="0.254" layer="1"/>
+=======
+<wire x1="109.64" y1="66.04" x2="108.839" y2="65.239" width="0.254" layer="1"/>
+<wire x1="108.839" y1="65.239" x2="108.839" y2="62.865" width="0.254" layer="1"/>
+<wire x1="108.839" y1="62.865" x2="108.839" y2="59.397" width="0.254" layer="1"/>
+<wire x1="114.24" y1="60.325" x2="112.97" y2="60.325" width="0.254" layer="1"/>
+<wire x1="112.97" y1="60.325" x2="110.43" y2="62.865" width="0.254" layer="1"/>
+<wire x1="110.43" y1="62.865" x2="108.839" y2="62.865" width="0.254" layer="1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="+12V">
 <contactref element="U$1" pad="8"/>
 <contactref element="X1" pad="P$1"/>
 <contactref element="U$4" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="134.64" y1="60.345" x2="134.64" y2="52.07" width="0.508" layer="1"/>
 <wire x1="134.64" y1="60.345" x2="135.89" y2="61.595" width="0.508" layer="1"/>
 <wire x1="135.89" y1="61.595" x2="137.287" y2="61.595" width="0.508" layer="1"/>
@@ -1025,6 +1366,16 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="8"/>
 <wire x1="119.44" y1="61.595" x2="137.287" y2="61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="66.675" y1="12.76" x2="119.44" y2="61.595" width="0" layer="19" extent="1-1"/>
+=======
+<contactref element="U$3" pad="8"/>
+<wire x1="136.525" y1="58.547" x2="138.4046" y2="56.6674" width="0.508" layer="1"/>
+<wire x1="138.4046" y1="56.6674" x2="138.4046" y2="49.66069375" width="0.508" layer="1"/>
+<wire x1="138.4046" y1="49.66069375" x2="138.492646875" y2="49.572646875" width="0.508" layer="1"/>
+<wire x1="119.44" y1="61.595" x2="133.477" y2="61.595" width="0.508" layer="1"/>
+<wire x1="133.477" y1="61.595" x2="136.525" y2="58.547" width="0.508" layer="1"/>
+<wire x1="138.492646875" y1="49.572646875" x2="192.98" y2="56.515" width="0" layer="19" extent="1-1"/>
+<wire x1="138.43" y1="49.51" x2="138.492646875" y2="49.572646875" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$5">
 <contactref element="U$2" pad="2"/>
@@ -1041,6 +1392,7 @@ design rules under a new name.</description>
 <contactref element="J9" pad="1"/>
 <wire x1="86.36" y1="53.76" x2="77.89" y2="53.76" width="0.254" layer="1"/>
 <wire x1="77.89" y1="53.76" x2="77.47" y2="53.34" width="0.254" layer="1"/>
+<<<<<<< Updated upstream
 <wire x1="97.79" y1="60.96" x2="94.6376" y2="57.8076" width="0.254" layer="1"/>
 <wire x1="94.6376" y1="57.8076" x2="94.6376" y2="55.6076125" width="0.254" layer="1"/>
 <wire x1="94.6376" y1="55.6076125" x2="92.7899875" y2="53.76" width="0.254" layer="1"/>
@@ -1048,6 +1400,9 @@ design rules under a new name.</description>
 <wire x1="97.79" y1="60.96" x2="102.87" y2="60.96" width="0.254" layer="1"/>
 <wire x1="102.87" y1="60.96" x2="105.41" y2="58.42" width="0.254" layer="1"/>
 <wire x1="135.636" y1="33.274" x2="139.739" y2="33.274" width="0.254" layer="1"/>
+=======
+<wire x1="132.08" y1="36.83" x2="139.993" y2="36.83" width="0.254" layer="1"/>
+>>>>>>> Stashed changes
 <wire x1="132.08" y1="36.83" x2="124.46" y2="36.83" width="0.254" layer="1"/>
 <wire x1="124.46" y1="36.83" x2="116.84" y2="36.83" width="0.254" layer="1"/>
 <wire x1="116.84" y1="36.83" x2="109.22" y2="36.83" width="0.254" layer="1"/>
@@ -1055,7 +1410,10 @@ design rules under a new name.</description>
 <wire x1="101.6" y1="36.83" x2="93.98" y2="36.83" width="0.254" layer="1"/>
 <wire x1="93.98" y1="36.83" x2="86.36" y2="36.83" width="0.254" layer="1"/>
 <wire x1="86.36" y1="36.83" x2="78.74" y2="36.83" width="0.254" layer="1"/>
+<<<<<<< Updated upstream
 <wire x1="132.08" y1="36.83" x2="135.636" y2="33.274" width="0.254" layer="1"/>
+=======
+>>>>>>> Stashed changes
 <wire x1="69.3166" y1="36.3986375" x2="69.9266375" y2="35.7886" width="0.254" layer="1"/>
 <wire x1="69.9266375" y1="35.7886" x2="72.3133625" y2="35.7886" width="0.254" layer="1"/>
 <wire x1="73.3547625" y1="36.83" x2="78.74" y2="36.83" width="0.254" layer="1"/>
@@ -1063,13 +1421,34 @@ design rules under a new name.</description>
 <wire x1="77.47" y1="51.82513125" x2="69.3166" y2="43.67173125" width="0.254" layer="1"/>
 <wire x1="69.3166" y1="43.67173125" x2="69.3166" y2="36.3986375" width="0.254" layer="1"/>
 <wire x1="77.47" y1="53.34" x2="77.47" y2="51.82513125" width="0.254" layer="1"/>
+<<<<<<< Updated upstream
+=======
+<wire x1="97.79" y1="60.96" x2="97.79" y2="60.40948125" width="0.254" layer="1"/>
+<wire x1="97.79" y1="60.40948125" x2="99.3902" y2="58.80928125" width="0.254" layer="1"/>
+<wire x1="99.3902" y1="55.49071875" x2="95.99008125" y2="52.0906" width="0.254" layer="1"/>
+<wire x1="95.99008125" y1="52.0906" x2="94.63426875" y2="52.0906" width="0.254" layer="1"/>
+<wire x1="92.96486875" y1="53.76" x2="86.36" y2="53.76" width="0.254" layer="1"/>
+<wire x1="94.63426875" y1="52.0906" x2="92.96486875" y2="53.76" width="0.254" layer="1"/>
+<wire x1="99.3902" y1="58.80928125" x2="99.3902" y2="55.49071875" width="0.254" layer="1"/>
+<wire x1="107.315" y1="60.325" x2="107.315" y2="61.849" width="0.254" layer="1"/>
+<wire x1="107.315" y1="61.849" x2="106.934" y2="62.23" width="0.254" layer="1"/>
+<wire x1="106.934" y1="62.23" x2="100.33" y2="62.23" width="0.254" layer="1"/>
+<wire x1="100.33" y1="62.23" x2="99.06" y2="60.96" width="0.254" layer="1"/>
+<wire x1="99.06" y1="60.96" x2="97.79" y2="60.96" width="0.254" layer="1"/>
+<wire x1="105.41" y1="58.42" x2="107.315" y2="60.325" width="0.254" layer="1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$3">
 <contactref element="U$2" pad="5"/>
 <contactref element="C2" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="86.36" y1="58.84" x2="89.32" y2="58.84" width="0.254" layer="1"/>
 <wire x1="93.98" y1="63.5" x2="97.79" y2="63.5" width="0.254" layer="1"/>
 <wire x1="89.32" y1="58.84" x2="93.98" y2="63.5" width="0.254" layer="1"/>
+=======
+<wire x1="97.79" y1="63.5" x2="91.02" y2="63.5" width="0.254" layer="1"/>
+<wire x1="91.02" y1="63.5" x2="86.36" y2="58.84" width="0.254" layer="1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$4">
 <contactref element="R8" pad="2"/>
@@ -1120,15 +1499,25 @@ design rules under a new name.</description>
 <contactref element="R13" pad="2"/>
 <contactref element="R16" pad="1"/>
 <contactref element="U$3" pad="6"/>
+<<<<<<< Updated upstream
 <wire x1="79.59" y1="-10.16" x2="69.215" y2="12.76" width="0" layer="19" extent="1-1"/>
 <wire x1="85.51" y1="-10.16" x2="79.59" y2="-10.16" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="223.1" y1="43.18" x2="192.98" y2="59.055" width="0" layer="19" extent="1-1"/>
+<wire x1="232.83" y1="49.53" x2="223.1" y2="43.18" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="ALTERNATINGVOLTAGE1">
 <contactref element="R18" pad="1"/>
 <contactref element="U$3" pad="1"/>
 <contactref element="R26" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="70.27" y1="-13.97" x2="89.32" y2="-10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="66.675" y1="7.56" x2="70.27" y2="-13.97" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="190.08" y1="63.5" x2="192.19" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="198.18" y1="56.515" x2="190.08" y2="63.5" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$18">
 <contactref element="U$5" pad="3"/>
@@ -1141,6 +1530,7 @@ design rules under a new name.</description>
 <contactref element="R32" pad="2"/>
 <contactref element="R33" pad="2"/>
 <contactref element="J10" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="74.93" y1="11.43" x2="83.82" y2="20.32" width="0" layer="19" extent="1-1"/>
 <wire x1="75.78" y1="-13.97" x2="74.93" y2="11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="79.59" y1="-13.97" x2="75.78" y2="-13.97" width="0" layer="19" extent="1-1"/>
@@ -1150,36 +1540,68 @@ design rules under a new name.</description>
 <wire x1="94.83" y1="-13.97" x2="91.02" y2="-13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="98.64" y1="-13.97" x2="94.83" y2="-13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="102.45" y1="-13.97" x2="98.64" y2="-13.97" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="149.86" y1="36.83" x2="184.15" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="210.82" y1="44.03" x2="149.86" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="203.2" y1="44.03" x2="210.82" y2="44.03" width="0" layer="19" extent="1-1"/>
+<wire x1="195.58" y1="44.03" x2="203.2" y2="44.03" width="0" layer="19" extent="1-1"/>
+<wire x1="187.96" y1="44.03" x2="195.58" y2="44.03" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="44.03" x2="187.96" y2="44.03" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="44.03" x2="180.34" y2="44.03" width="0" layer="19" extent="1-1"/>
+<wire x1="165.1" y1="44.03" x2="172.72" y2="44.03" width="0" layer="19" extent="1-1"/>
+<wire x1="157.48" y1="44.03" x2="165.1" y2="44.03" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$19">
 <contactref element="R24" pad="1"/>
 <contactref element="R20" pad="1"/>
 <contactref element="U$3" pad="3"/>
+<<<<<<< Updated upstream
 <wire x1="96.94" y1="-10.16" x2="100.75" y2="-10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="69.215" y1="7.56" x2="96.94" y2="-10.16" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="204.47" y1="60.11" x2="149.86" y2="42.33" width="0" layer="19" extent="1-1"/>
+<wire x1="198.18" y1="59.055" x2="204.47" y2="60.11" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$20">
 <contactref element="R16" pad="2"/>
 <contactref element="U$3" pad="7"/>
 <contactref element="R15" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="83.4" y1="-10.16" x2="67.945" y2="12.76" width="0" layer="19" extent="1-1"/>
 <wire x1="87.21" y1="-10.16" x2="83.4" y2="-10.16" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="226.91" y1="40.64" x2="192.98" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="234.53" y1="49.53" x2="226.91" y2="40.64" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="SENSOROUT1">
 <contactref element="R15" pad="1"/>
 <contactref element="U$3" pad="5"/>
 <contactref element="R18" pad="2"/>
 <contactref element="X4" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="70.485" y1="12.76" x2="69.85" y2="18.84" width="0" layer="19" extent="1-1"/>
 <wire x1="81.7" y1="-10.16" x2="70.485" y2="12.76" width="0" layer="19" extent="1-1"/>
 <wire x1="91.02" y1="-10.16" x2="81.7" y2="-10.16" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="192.98" y1="60.325" x2="218.44" y2="65.83" width="0" layer="19" extent="1-1"/>
+<wire x1="225.21" y1="40.64" x2="192.98" y2="60.325" width="0" layer="19" extent="1-1"/>
+<wire x1="193.89" y1="63.5" x2="225.21" y2="40.64" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$21">
 <contactref element="R26" pad="2"/>
 <contactref element="R25" pad="1"/>
 <contactref element="U$3" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="66.46" y1="-13.97" x2="67.945" y2="7.56" width="0" layer="19" extent="1-1"/>
 <wire x1="71.97" y1="-13.97" x2="66.46" y2="-13.97" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="197.27" y1="33.02" x2="198.18" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="188.38" y1="63.5" x2="197.27" y2="33.02" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$22">
 <contactref element="U$5" pad="2"/>
@@ -1194,6 +1616,7 @@ design rules under a new name.</description>
 <contactref element="J16" pad="1"/>
 <contactref element="J17" pad="1"/>
 <contactref element="J18" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="81.28" y1="20.32" x2="83.82" y2="27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="85.09" y1="11.43" x2="81.28" y2="20.32" width="0" layer="19" extent="1-1"/>
 <wire x1="87.63" y1="2.54" x2="85.09" y2="11.43" width="0" layer="19" extent="1-1"/>
@@ -1205,56 +1628,109 @@ design rules under a new name.</description>
 <wire x1="67.31" y1="2.54" x2="77.47" y2="2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="67.31" y1="-5.08" x2="67.31" y2="2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="68.16" y1="-10.16" x2="67.31" y2="-5.08" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="184.15" y1="58.42" x2="176.53" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="157.48" y1="36.83" x2="184.15" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="187.96" y1="36.83" x2="157.48" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="210.82" y1="36.83" x2="187.96" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="223.94" y1="55.88" x2="210.82" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="165.1" y1="36.83" x2="157.48" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="36.83" x2="187.96" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="203.2" y1="36.83" x2="180.34" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="36.83" x2="180.34" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="195.58" y1="36.83" x2="172.72" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="165.1" y1="55.46" x2="195.58" y2="36.83" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$23">
 <contactref element="U$5" pad="5"/>
 <contactref element="C5" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="70.27" y1="-10.16" x2="86.36" y2="27.94" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="165.1" y1="58.84" x2="176.53" y2="63.5" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$24">
 <contactref element="R24" pad="2"/>
 <contactref element="J10" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="77.47" y1="11.43" x2="102.45" y2="-10.16" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="149.86" y1="39.37" x2="149.86" y2="44.03" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$25">
 <contactref element="J18" pad="2"/>
 <contactref element="R27" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="74.08" y1="-13.97" x2="90.17" y2="-5.08" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="210.82" y1="42.33" x2="210.82" y2="39.37" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$26">
 <contactref element="R28" pad="1"/>
 <contactref element="J17" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="77.89" y1="-13.97" x2="80.01" y2="-5.08" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="203.2" y1="42.33" x2="203.2" y2="39.37" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$27">
 <contactref element="J16" pad="2"/>
 <contactref element="R29" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="69.85" y1="-5.08" x2="81.7" y2="-13.97" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="195.58" y1="39.37" x2="195.58" y2="42.33" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$28">
 <contactref element="R30" pad="1"/>
 <contactref element="J15" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="85.51" y1="-13.97" x2="90.17" y2="2.54" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="187.96" y1="42.33" x2="187.96" y2="39.37" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$29">
 <contactref element="R31" pad="1"/>
 <contactref element="J14" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="89.32" y1="-13.97" x2="80.01" y2="2.54" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="180.34" y1="42.33" x2="180.34" y2="39.37" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$30">
 <contactref element="R32" pad="1"/>
 <contactref element="J13" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="69.85" y1="2.54" x2="93.13" y2="-13.97" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="172.72" y1="39.37" x2="172.72" y2="42.33" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$31">
 <contactref element="J12" pad="2"/>
 <contactref element="R33" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="96.94" y1="-13.97" x2="97.79" y2="11.43" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="165.1" y1="42.33" x2="165.1" y2="39.37" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$32">
 <contactref element="J11" pad="2"/>
 <contactref element="R34" pad="1"/>
+<<<<<<< Updated upstream
 <wire x1="100.75" y1="-13.97" x2="87.63" y2="11.43" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="157.48" y1="42.33" x2="157.48" y2="39.37" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 </signals>
 <mfgpreviewcolors>
