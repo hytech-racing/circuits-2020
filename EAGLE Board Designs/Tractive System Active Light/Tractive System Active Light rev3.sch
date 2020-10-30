@@ -284,7 +284,7 @@
 <package name="XP-E2">
 <description>&lt;b&gt;Cree® XLamp® XP-E2 LEDs&lt;/b&gt;&lt;p&gt;
 &lt;a href="https://www.cree.com/led-components/media/documents/XLampXPE2.pdf"&gt;Source: www.cree.com/xlamp .. XLampXP-E2.pdf&lt;/a&gt;</description>
-<circle x="-2.0574" y="-2.0574" radius="0.1524" width="0" layer="51"/>
+<circle x="2.0574" y="2.0574" radius="0.1524" width="0" layer="51"/>
 <circle x="0" y="0" radius="1.25" width="0.2032" layer="51"/>
 <wire x1="-1.778" y1="1.778" x2="1.778" y2="1.778" width="0.2032" layer="51"/>
 <wire x1="1.778" y1="1.778" x2="1.778" y2="-1.778" width="0.2032" layer="51"/>
