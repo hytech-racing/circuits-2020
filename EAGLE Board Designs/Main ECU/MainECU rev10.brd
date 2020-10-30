@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -1758,7 +1758,7 @@ Source: Mitsubishi M5218AL/P/FP</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="Advanced Circuits (4 Layer) *">
+<designrules name="Advanced Circuits (4 Layer)">
 <description language="en">&lt;b&gt;Advanced Circuits Design Rules (4 Layers)&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover a wide range of applications.
@@ -1799,9 +1799,9 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="7mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="5.25mil"/>
+<param name="rlMinViaOuter" value="7mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="5.25mil"/>
+<param name="rlMinViaInner" value="7mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -1826,7 +1826,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkAngle" value="0"/>
+<param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
@@ -2082,7 +2082,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="NAME" x="-2.3622" y="18.034" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
 <element name="CAN100" library="HyTechDevices" package="SOIC-08" value="MCP2551" x="39.0398" y="14.986" smashed="yes" rot="MR90">
-<attribute name="NAME" x="39.0398" y="15.8496" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="39.0398" y="17.8816" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 </element>
 <element name="D111" library="HyTechDevices" package="0805_D" value="TS4148 RYG" x="17.8562" y="98.8314" smashed="yes" rot="MR180">
 <attribute name="NAME" x="17.8562" y="100.4697" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
@@ -2192,7 +2192,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="NAME" x="38.8874" y="36.4998" size="0.8128" layer="25" font="vector" align="top-center"/>
 </element>
 <element name="Q100" library="HyTechDevices" package="SOT23" value="P-CHANNEL_MOSFET_DMP3099L-7" x="61.3156" y="10.8204" smashed="yes" rot="MR270">
-<attribute name="NAME" x="61.3156" y="12.6746" size="0.8128" layer="26" rot="MR180" align="top-center"/>
+<attribute name="NAME" x="59.0296" y="9.3726" size="0.8128" layer="26" rot="MR180" align="top-center"/>
 </element>
 <element name="Q102" library="HyTechDevices" package="SOT23" value="DMG3406L" x="39.6748" y="51.4604" smashed="yes" rot="MR0">
 <attribute name="NAME" x="39.6748" y="51.7906" size="0.8128" layer="26" rot="MR0" align="top-center"/>
@@ -2917,8 +2917,9 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="81.915" y1="46.609" x2="79.0702" y2="43.7642" width="1.524" layer="1"/>
 <wire x1="81.915" y1="46.609" x2="86.5138875" y2="46.609" width="1.524" layer="1"/>
 <wire x1="86.5138875" y1="46.609" x2="87.81825625" y2="46.609" width="1.524" layer="1"/>
-<wire x1="42.5958" y1="47.3854" x2="49.6426" y2="47.3854" width="0.3048" layer="16"/>
-<wire x1="49.6426" y1="47.3854" x2="50.292" y2="46.736" width="0.3048" layer="16"/>
+<wire x1="42.5958" y1="47.3854" x2="49.287" y2="47.3854" width="0.3048" layer="16"/>
+<wire x1="49.9364" y1="46.736" x2="50.292" y2="46.736" width="0.3048" layer="16"/>
+<wire x1="49.9364" y1="46.736" x2="49.287" y2="47.3854" width="0.3048" layer="16"/>
 </signal>
 <signal name="FAN1-">
 <contactref element="5AFUSE1" pad="R1"/>
@@ -3754,11 +3755,11 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="INVERTER_PWR_RELAY1" pad="2"/>
 <contactref element="D103" pad="A"/>
 <contactref element="Q102" pad="3"/>
-<wire x1="49.7332" y1="48.017" x2="48.5648" y2="49.1854" width="0.254" layer="16"/>
-<wire x1="48.5648" y1="49.1854" x2="42.5958" y2="49.1854" width="0.254" layer="16"/>
-<via x="49.7332" y="48.017" extent="1-16" drill="0.35"/>
-<wire x1="54.356" y1="53.6194" x2="54.356" y2="52.6398" width="0.254" layer="1"/>
-<wire x1="54.356" y1="52.6398" x2="49.7332" y2="48.017" width="0.254" layer="1"/>
+<wire x1="49.7586" y1="47.9662" x2="48.5394" y2="49.1854" width="0.254" layer="16"/>
+<wire x1="48.5394" y1="49.1854" x2="42.5958" y2="49.1854" width="0.254" layer="16"/>
+<via x="49.7586" y="47.9662" extent="1-16" drill="0.35"/>
+<wire x1="54.356" y1="53.6194" x2="54.356" y2="52.5636" width="0.254" layer="1"/>
+<wire x1="54.356" y1="52.5636" x2="49.7586" y2="47.9662" width="0.254" layer="1"/>
 <wire x1="41.037" y1="51.6984" x2="40.4368" y2="51.6984" width="0.254" layer="16"/>
 <wire x1="39.6748" y1="52.4604" x2="40.4368" y2="51.6984" width="0.254" layer="16"/>
 <wire x1="42.5958" y1="50.1396" x2="42.5958" y2="49.1854" width="0.254" layer="16"/>
@@ -3969,14 +3970,12 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <via x="59.8904" y="60.0202" extent="1-16" drill="0.35"/>
 <wire x1="60.0370125" y1="60.0202" x2="59.8904" y2="60.0202" width="0.254" layer="16"/>
 <via x="43.8404" y="44.7322" extent="1-16" drill="0.35"/>
-<wire x1="60.020203125" y1="49.022" x2="60.0202" y2="46.2628625" width="0.254" layer="1"/>
-<wire x1="58.4895375" y1="44.7322" x2="43.8404" y2="44.7322" width="0.254" layer="1"/>
-<wire x1="60.0202" y1="46.2628625" x2="58.4895375" y2="44.7322" width="0.254" layer="1"/>
+<wire x1="43.8404" y1="44.7322" x2="58.4895375" y2="44.7322" width="0.254" layer="1"/>
 <wire x1="42.418" y1="44.7322" x2="43.8404" y2="44.7322" width="0.254" layer="16"/>
 <wire x1="42.418" y1="44.7322" x2="39.37" y2="41.6842" width="0.254" layer="16"/>
 <contactref element="U5" pad="D5"/>
 <wire x1="59.8904" y1="60.0202" x2="59.8904" y2="49.151803125" width="0.254" layer="1"/>
-<wire x1="59.8904" y1="49.151803125" x2="60.020203125" y2="49.022" width="0.254" layer="1"/>
+<wire x1="60.020203125" y1="49.022" x2="59.8904" y2="49.151803125" width="0.254" layer="1"/>
 <wire x1="63.8302" y1="90.3129375" x2="63.8302" y2="63.8133875" width="0.254" layer="16"/>
 <wire x1="63.8302" y1="63.8133875" x2="60.0370125" y2="60.0202" width="0.254" layer="16"/>
 <wire x1="39.37" y1="22.5806" x2="38.5826" y2="21.7932" width="0.254" layer="16"/>
@@ -3985,6 +3984,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="39.37" y1="22.5806" x2="39.37" y2="41.6842" width="0.254" layer="16"/>
 <wire x1="36.1696" y1="19.9136" x2="38.0492" y2="21.7932" width="0.254" layer="16"/>
 <wire x1="38.0492" y1="21.7932" x2="38.5826" y2="21.7932" width="0.254" layer="16"/>
+<wire x1="60.020203125" y1="46.262865625" x2="60.020203125" y2="49.022" width="0.254" layer="1"/>
+<wire x1="58.4895375" y1="44.7322" x2="60.020203125" y2="46.262865625" width="0.254" layer="1"/>
 </signal>
 <signal name="FAN1DRIVE">
 <contactref element="U102" pad="7"/>
@@ -4638,10 +4639,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="58.4359375" y1="17.3228" x2="60.4445" y2="15.3142375" width="0.254" layer="1"/>
 <wire x1="33.4264" y1="37.465" x2="36.322" y2="34.5694" width="0.254" layer="1"/>
 <wire x1="36.322" y1="34.5694" x2="36.322" y2="21.844" width="0.254" layer="1"/>
-<wire x1="36.322" y1="21.844" x2="39.1668" y2="18.9992" width="0.254" layer="1"/>
+<wire x1="36.322" y1="21.844" x2="39.0398" y2="19.1262" width="0.254" layer="1"/>
 <wire x1="55.6006" y1="17.3228" x2="58.4359375" y2="17.3228" width="0.254" layer="1"/>
-<wire x1="39.1668" y1="18.9992" x2="53.9242" y2="18.9992" width="0.254" layer="1"/>
-<wire x1="53.9242" y1="18.9992" x2="55.6006" y2="17.3228" width="0.254" layer="1"/>
+<wire x1="39.0398" y1="19.1262" x2="53.7972" y2="19.1262" width="0.254" layer="1"/>
+<wire x1="53.7972" y1="19.1262" x2="55.6006" y2="17.3228" width="0.254" layer="1"/>
 </signal>
 <signal name="OKHS_READ">
 <contactref element="R134" pad="1"/>
@@ -4713,10 +4714,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="58.166" y1="16.256" x2="59.1445" y2="15.2775" width="0.254" layer="1"/>
 <wire x1="33.4264" y1="32.385" x2="35.306" y2="30.5054" width="0.254" layer="1"/>
 <wire x1="35.306" y1="30.5054" x2="35.306" y2="21.082" width="0.254" layer="1"/>
-<wire x1="35.306" y1="21.082" x2="38.5064" y2="17.8816" width="0.254" layer="1"/>
+<wire x1="35.306" y1="21.082" x2="38.3794" y2="18.0086" width="0.254" layer="1"/>
 <wire x1="54.9656" y1="16.256" x2="58.166" y2="16.256" width="0.254" layer="1"/>
-<wire x1="38.5064" y1="17.8816" x2="53.34" y2="17.8816" width="0.254" layer="1"/>
-<wire x1="53.34" y1="17.8816" x2="54.9656" y2="16.256" width="0.254" layer="1"/>
+<wire x1="38.3794" y1="18.0086" x2="53.213" y2="18.0086" width="0.254" layer="1"/>
+<wire x1="53.213" y1="18.0086" x2="54.9656" y2="16.256" width="0.254" layer="1"/>
 </signal>
 <signal name="MOSI_TEENSY">
 <contactref element="U34" pad="3"/>
@@ -4725,10 +4726,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="59.7945" y1="15.3895" x2="58.3946" y2="16.7894" width="0.254" layer="1"/>
 <wire x1="55.245" y1="16.7894" x2="58.3946" y2="16.7894" width="0.254" layer="1"/>
 <wire x1="35.7886" y1="32.5628" x2="33.4264" y2="34.925" width="0.254" layer="1"/>
-<wire x1="38.862" y1="18.4912" x2="35.7886" y2="21.5646" width="0.254" layer="1"/>
+<wire x1="38.8112" y1="18.542" x2="35.7886" y2="21.5646" width="0.254" layer="1"/>
 <wire x1="35.7886" y1="21.5646" x2="35.7886" y2="32.5628" width="0.254" layer="1"/>
-<wire x1="38.862" y1="18.4912" x2="53.5432" y2="18.4912" width="0.254" layer="1"/>
-<wire x1="53.5432" y1="18.4912" x2="55.245" y2="16.7894" width="0.254" layer="1"/>
+<wire x1="38.8112" y1="18.542" x2="53.4924" y2="18.542" width="0.254" layer="1"/>
+<wire x1="53.4924" y1="18.542" x2="55.245" y2="16.7894" width="0.254" layer="1"/>
 </signal>
 <signal name="SCK_TEENSY">
 <contactref element="U34" pad="5"/>
@@ -5573,9 +5574,9 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="45.7587" y1="68.8727" x2="41.0718" y2="64.1858" width="0.254" layer="1"/>
 <wire x1="41.0718" y1="64.1858" x2="10.3124" y2="64.1858" width="0.254" layer="1"/>
 <wire x1="10.3124" y1="64.1858" x2="4.318" y2="58.1914" width="0.254" layer="1"/>
-<wire x1="-12.6238" y1="32.385" x2="-14.224" y2="33.9852" width="0.254" layer="1"/>
-<wire x1="-14.224" y1="38.2016" x2="-13.6398" y2="38.7858" width="0.254" layer="1"/>
-<wire x1="-14.224" y1="33.9852" x2="-14.224" y2="38.2016" width="0.254" layer="1"/>
+<wire x1="-12.6238" y1="32.385" x2="-14.097" y2="33.8582" width="0.254" layer="1"/>
+<wire x1="-14.097" y1="38.3286" x2="-13.6398" y2="38.7858" width="0.254" layer="1"/>
+<wire x1="-14.097" y1="33.8582" x2="-14.097" y2="38.3286" width="0.254" layer="1"/>
 <wire x1="-13.6398" y1="38.7858" x2="-11.3792" y2="38.7858" width="0.254" layer="1"/>
 <wire x1="3.175" y1="43.561" x2="4.318" y2="44.704" width="0.254" layer="1"/>
 <wire x1="4.318" y1="58.1914" x2="4.318" y2="44.704" width="0.254" layer="1"/>
@@ -6599,9 +6600,9 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <via x="85.09" y="105.283" extent="1-16" drill="0.65"/>
 <via x="90.17" y="105.283" extent="1-16" drill="0.65"/>
 <wire x1="90.5912" y1="30.2642" x2="90.6018" y2="34.381" width="0.3048" layer="1"/>
-<wire x1="90.6018" y1="34.381" x2="90.6018" y2="34.3916" width="0.3048" layer="1"/>
-<via x="90.6018" y="34.3916" extent="1-16" drill="0.35"/>
-<wire x1="90.6018" y1="34.3916" x2="90.6018" y2="38.2036" width="0.3048" layer="1"/>
+<wire x1="90.6018" y1="34.381" x2="90.6018" y2="36.322" width="0.3048" layer="1"/>
+<via x="90.6018" y="36.322" extent="1-16" drill="0.35"/>
+<wire x1="90.6018" y1="36.322" x2="90.6018" y2="38.2036" width="0.3048" layer="1"/>
 <wire x1="90.6018" y1="38.2036" x2="90.5912" y2="38.2142" width="0.3048" layer="1"/>
 </signal>
 <signal name="THERM">
@@ -6724,10 +6725,38 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 </mfgpreviewcolors>
 <errors>
 <approved hash="23,16,edd8ebafae5fbda6"/>
+<approved hash="8,1,893813cf0020d29e"/>
+<approved hash="8,1,0fda0287c92849e0"/>
+<approved hash="8,1,0e5f3836abf0a65d"/>
+<approved hash="8,1,d46cd7627630a2f2"/>
+<approved hash="8,1,cce485e5ad59654e"/>
+<approved hash="8,1,9dfb07e382f18af4"/>
+<approved hash="8,1,894039452605be81"/>
+<approved hash="8,1,cbc58864730dc3eb"/>
+<approved hash="8,1,0644944a9e301e34"/>
+<approved hash="8,1,033a0463cd8c437c"/>
+<approved hash="8,2,f341904c0ca58bc9"/>
+<approved hash="8,2,0d6d692257996703"/>
+<approved hash="8,2,2965adaf2dc3beeb"/>
+<approved hash="8,2,f71e1498644c6652"/>
+<approved hash="8,16,975783b6c9239779"/>
+<approved hash="8,16,fa1126d039c321a6"/>
+<approved hash="8,16,e6254258e2a35f8c"/>
+<approved hash="8,16,9f9dc27f45a5dccd"/>
+<approved hash="8,16,a49a5df8cf25754c"/>
+<approved hash="8,16,0df6b81136a17fd7"/>
+<approved hash="8,16,3db459902a9e3a7d"/>
+<approved hash="8,16,f50c1e11a61e262d"/>
+<approved hash="8,16,098224d221d33b53"/>
+<approved hash="8,16,1d767a76e220f982"/>
+<approved hash="8,16,99fe141234047ddf"/>
+<approved hash="8,16,c16d9841c156db33"/>
+<approved hash="8,16,b39bf875ee415199"/>
+<approved hash="8,16,5d02dd0111c94000"/>
+<approved hash="23,2,f341904c0ca58bc9"/>
 <approved hash="23,2,0d6d692257996703"/>
 <approved hash="23,2,2965adaf2dc3beeb"/>
 <approved hash="23,2,f71e1498644c6652"/>
-<approved hash="23,2,f341904c0ca58bc9"/>
 </errors>
 </board>
 </drawing>
