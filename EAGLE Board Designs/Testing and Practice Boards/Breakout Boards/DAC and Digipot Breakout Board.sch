@@ -5382,9 +5382,10 @@ Layer: 94 Symbol</description>
 </net>
 <net name="VSS" class="0">
 <segment>
-<wire x1="25.4" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="93.98" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="93.98" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U$19" gate="G$1" pin="VSS"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="91.44" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
