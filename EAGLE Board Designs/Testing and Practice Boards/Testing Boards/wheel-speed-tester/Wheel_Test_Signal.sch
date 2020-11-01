@@ -1576,11 +1576,7 @@ Source: http://www.molex.com</description>
 <part name="GND3" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100k"/>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<<<<<<< Updated upstream
-<part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
-=======
 <part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="750nF"/>
->>>>>>> Stashed changes
 <part name="GND4" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
@@ -1602,16 +1598,6 @@ Source: http://www.molex.com</description>
 <part name="U$4" library="HyTechDevices" deviceset="OKI-78SR-5" device=""/>
 <part name="P+3" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P+5" library="HyTechSupplies" deviceset="+5V" device=""/>
-<<<<<<< Updated upstream
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.5k"/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="715"/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="499"/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="271"/>
-<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="180"/>
-<part name="R21" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="120"/>
-<part name="R22" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="110"/>
-<part name="R23" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100"/>
-=======
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20k"/>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.34k"/>
@@ -1620,7 +1606,6 @@ Source: http://www.molex.com</description>
 <part name="R21" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.6k"/>
 <part name="R22" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.49k"/>
 <part name="R23" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.37k"/>
->>>>>>> Stashed changes
 <part name="J2" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J1" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J3" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
@@ -1638,11 +1623,7 @@ Source: http://www.molex.com</description>
 <part name="GND9" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100k"/>
 <part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<<<<<<< Updated upstream
-<part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
-=======
 <part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="750nF"/>
->>>>>>> Stashed changes
 <part name="GND10" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
@@ -1657,16 +1638,6 @@ Source: http://www.molex.com</description>
 <part name="P+8" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="X4" library="HyTechDevices" deviceset="CONNECTOR-2" device=""/>
 <part name="P+11" library="HyTechSupplies" deviceset="+5V" device=""/>
-<<<<<<< Updated upstream
-<part name="R27" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.5k"/>
-<part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="715"/>
-<part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="499"/>
-<part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="271"/>
-<part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="180"/>
-<part name="R32" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="120"/>
-<part name="R33" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="110"/>
-<part name="R34" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100"/>
-=======
 <part name="R27" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20k"/>
 <part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.34k"/>
@@ -1675,7 +1646,6 @@ Source: http://www.molex.com</description>
 <part name="R32" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.6k"/>
 <part name="R33" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.49k"/>
 <part name="R34" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.37k"/>
->>>>>>> Stashed changes
 <part name="J10" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J11" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J12" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
