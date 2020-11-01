@@ -2176,9 +2176,9 @@ Source: http://www.molex.com</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-78.74" y1="92.964" x2="-73.406" y2="92.964" width="0.1524" layer="91"/>
 <junction x="-78.74" y="92.964"/>
-<wire x1="-78.74" y1="92.964" x2="-78.74" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-1" pin="S"/>
-<wire x1="-78.74" y1="83.82" x2="-30.48" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="92.964" x2="-78.74" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-2" pin="S"/>
+<wire x1="-78.74" y1="81.28" x2="-30.48" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -2427,9 +2427,9 @@ Source: http://www.molex.com</description>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="100.584" x2="261.874" y2="100.584" width="0.1524" layer="91"/>
 <junction x="256.54" y="100.584"/>
-<wire x1="256.54" y1="100.584" x2="256.54" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-1" pin="S"/>
-<wire x1="256.54" y1="91.44" x2="304.8" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="100.584" x2="256.54" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="X4" gate="-2" pin="S"/>
+<wire x1="256.54" y1="88.9" x2="304.8" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
