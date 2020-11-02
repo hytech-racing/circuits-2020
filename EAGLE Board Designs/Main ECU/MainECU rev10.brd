@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -2271,13 +2271,13 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="R101" library="HyTechDevices" package="0603-RES" value="60" x="89.0778" y="49.6824" smashed="yes" rot="MR180">
 <attribute name="NAME" x="87.1982" y="49.6824" size="0.8128" layer="26" font="vector" rot="MR0"/>
 </element>
-<element name="R2" library="HyTechDevices" package="0603-RES" value="33" x="4.5466" y="99.8982" smashed="yes">
+<element name="R2" library="HyTechDevices" package="0603-RES" value="30" x="4.5466" y="99.8982" smashed="yes">
 <attribute name="NAME" x="2.9464" y="101.092" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R3" library="HyTechDevices" package="0603-RES" value="1.2k" x="4.5466" y="97.1296" smashed="yes">
+<element name="R3" library="HyTechDevices" package="0603-RES" value="147" x="4.5466" y="97.1296" smashed="yes">
 <attribute name="NAME" x="2.9464" y="98.2472" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R4" library="HyTechDevices" package="0603-RES" value="0" x="4.5466" y="94.0816" smashed="yes">
+<element name="R4" library="HyTechDevices" package="0603-RES" value="30" x="4.5466" y="94.0816" smashed="yes">
 <attribute name="NAME" x="2.9464" y="95.2246" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R24" library="HyTechDevices" package="0603-RES" value="43k" x="22.225" y="24.765" smashed="yes" rot="R180">

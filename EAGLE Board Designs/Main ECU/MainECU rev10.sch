@@ -7260,11 +7260,11 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 <part name="C111" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND128" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="RSSI" library="HyTechDevices" deviceset="LED" device="-0805" value="Green"/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="33"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="30"/>
 <part name="ASSOC" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.2k"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="147"/>
 <part name="MQTT_CONN" library="HyTechDevices" deviceset="LED" device="-0805" value="Blue"/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="0"/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="30"/>
 <part name="U109" library="HyTechDevices" deviceset="CR-2450/G1AN" device=""/>
 <part name="U104" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
 <part name="U24" library="HyTechDevices" deviceset="MAX7480" device="" value="MAX7480"/>
