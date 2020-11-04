@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -2226,7 +2226,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="R37" library="HyTechDevices" package="0603-RES" value="10k" x="53.34" y="31.496" smashed="yes" rot="R90">
 <attribute name="NAME" x="54.2544" y="30.1244" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R35" library="HyTechDevices" package="0603-RES" value="219" x="46.1772" y="35.2298" smashed="yes" rot="R180">
+<element name="R35" library="HyTechDevices" package="0603-RES" value="215" x="46.1772" y="35.2298" smashed="yes" rot="R180">
 <attribute name="NAME" x="47.5488" y="34.5694" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R34" library="HyTechDevices" package="0603-RES" value="324" x="46.0756" y="32.9184" smashed="yes" rot="R180">
