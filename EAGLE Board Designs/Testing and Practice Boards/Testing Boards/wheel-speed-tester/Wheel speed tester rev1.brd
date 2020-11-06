@@ -886,7 +886,7 @@ design rules under a new name.</description>
 <wire x1="93.98" y1="64.135" x2="87.845" y2="64.135" width="0.508" layer="1"/>
 <wire x1="86.36" y1="55.333" x2="86.36" y2="55.587" width="0.508" layer="1"/>
 <wire x1="86.36" y1="62.65" x2="87.845" y2="64.135" width="0.508" layer="1"/>
-<polygon width="0.508" layer="16">
+<polygon width="0.381" layer="16">
 <vertex x="66.04" y="69.85"/>
 <vertex x="66.04" y="31.75"/>
 <vertex x="208.28" y="31.75"/>
@@ -917,6 +917,9 @@ design rules under a new name.</description>
 <wire x1="171.45" y1="54.61" x2="162.56" y2="45.72" width="0.508" layer="16"/>
 <wire x1="162.56" y1="45.72" x2="151.13" y2="57.15" width="0.508" layer="16"/>
 <wire x1="151.13" y1="57.15" x2="151.13" y2="58" width="0.508" layer="16"/>
+<wire x1="130.175" y1="58.547" x2="131.95418125" y2="59.69" width="0" layer="19" extent="16-16"/>
+<wire x1="101.6" y1="58.42" x2="109.601" y2="57.697" width="0" layer="19" extent="1-16"/>
+<wire x1="95.19" y1="64.135" x2="96.612690625" y2="63.592690625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="2"/>
