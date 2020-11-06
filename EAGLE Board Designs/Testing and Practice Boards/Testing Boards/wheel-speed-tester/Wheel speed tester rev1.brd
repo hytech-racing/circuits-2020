@@ -908,9 +908,15 @@ design rules under a new name.</description>
 <via x="184.15" y="54.61" extent="1-16" drill="0.35"/>
 <wire x1="182.82" y1="57.15" x2="182.82" y2="55.94" width="0.508" layer="1"/>
 <wire x1="182.82" y1="55.94" x2="184.15" y2="54.61" width="0.508" layer="1"/>
-<wire x1="163.643" y1="64.135" x2="178.308" y2="57.189" width="0" layer="19" extent="1-1"/>
-<wire x1="130.175" y1="58.547" x2="151.13" y2="58" width="0" layer="19" extent="1-1"/>
-<wire x1="95.19" y1="64.135" x2="109.601" y2="57.697" width="0" layer="19" extent="1-1"/>
+<wire x1="101.6" y1="58.42" x2="96.52" y2="63.5" width="0.508" layer="16"/>
+<wire x1="96.52" y1="63.5" x2="96.612690625" y2="63.592690625" width="0.508" layer="16"/>
+<wire x1="131.95418125" y1="59.69" x2="132.15738125" y2="59.8932" width="0.508" layer="16"/>
+<wire x1="132.15738125" y1="59.8932" x2="149.2368" y2="59.8932" width="0.508" layer="16"/>
+<wire x1="149.2368" y1="59.8932" x2="151.13" y2="58" width="0.508" layer="16"/>
+<wire x1="184.15" y1="54.61" x2="171.45" y2="54.61" width="0.508" layer="16"/>
+<wire x1="171.45" y1="54.61" x2="162.56" y2="45.72" width="0.508" layer="16"/>
+<wire x1="162.56" y1="45.72" x2="151.13" y2="57.15" width="0.508" layer="16"/>
+<wire x1="151.13" y1="57.15" x2="151.13" y2="58" width="0.508" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="2"/>
@@ -1350,9 +1356,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="21,19,3f6a416a3d683d96"/>
-<approved hash="21,19,7cd302d37ed17eaf"/>
-<approved hash="21,19,d44fd64a564a544f"/>
 <approved hash="4,1,d38afc8c7b1b544d"/>
 <approved hash="4,1,a3f1bcf56394c744"/>
 <approved hash="4,1,7773f61c5dd0c796"/>
