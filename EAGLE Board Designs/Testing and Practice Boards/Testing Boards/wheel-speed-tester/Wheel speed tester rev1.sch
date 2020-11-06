@@ -925,22 +925,6 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <wire x1="12.7" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-2.54" x2="7.62" y2="-6.35" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="555_TIMER">
-<wire x1="0" y1="0" x2="27.94" y2="0" width="0.254" layer="94"/>
-<wire x1="27.94" y1="0" x2="27.94" y2="20.32" width="0.254" layer="94"/>
-<wire x1="27.94" y1="20.32" x2="0" y2="20.32" width="0.254" layer="94"/>
-<wire x1="0" y1="20.32" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="0" y="20.32" size="1.778" layer="95">&gt;NAME</text>
-<pin name="THRESHOLD" x="-5.08" y="5.08" length="middle" direction="pas"/>
-<pin name="TRIGGER" x="-5.08" y="15.24" length="middle" direction="pas"/>
-<pin name="GND" x="33.02" y="2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="CONTROL" x="-5.08" y="7.62" length="middle" direction="pas"/>
-<pin name="OUTPUT" x="33.02" y="17.78" length="middle" direction="pas" rot="R180"/>
-<pin name="VCC" x="-5.08" y="17.78" length="middle" direction="pas"/>
-<pin name="RESET" x="-5.08" y="12.7" length="middle" direction="pas"/>
-<pin name="DISCHARGE" x="-5.08" y="2.54" length="middle" direction="pas"/>
-<text x="0" y="0" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
-</symbol>
 <symbol name="MV">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
@@ -971,6 +955,22 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <pin name="P$1" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
 <pin name="P$2" x="5.08" y="-2.54" visible="off" length="short" rot="R90"/>
 <text x="0" y="0.508" size="1.27" layer="94">JUMP</text>
+</symbol>
+<symbol name="555_TIMER">
+<wire x1="0" y1="0" x2="27.94" y2="0" width="0.254" layer="94"/>
+<wire x1="27.94" y1="0" x2="27.94" y2="20.32" width="0.254" layer="94"/>
+<wire x1="27.94" y1="20.32" x2="0" y2="20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="20.32" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<pin name="THRESHOLD" x="-5.08" y="5.08" length="middle" direction="pas"/>
+<pin name="TRIGGER" x="-5.08" y="15.24" length="middle" direction="pas"/>
+<pin name="GND" x="33.02" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="CONTROL" x="-5.08" y="7.62" length="middle" direction="pas"/>
+<pin name="OUTPUT" x="33.02" y="17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="VCC" x="-5.08" y="17.78" length="middle" direction="pas"/>
+<pin name="RESET" x="-5.08" y="12.7" length="middle" direction="pas"/>
+<pin name="DISCHARGE" x="-5.08" y="2.54" length="middle" direction="pas"/>
+<text x="0" y="0" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1336,37 +1336,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="555_TIMER">
-<description>Standard 555 Timer
-&lt;br&gt;
-&lt;br&gt;
-Fairchild Semiconductor
-LM555CN
-&lt;br&gt;
-&lt;br&gt;
-Texas Instruments
-LM555CN/NOPB</description>
-<gates>
-<gate name="G$1" symbol="555_TIMER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DIL08">
-<connects>
-<connect gate="G$1" pin="CONTROL" pad="5"/>
-<connect gate="G$1" pin="DISCHARGE" pad="7"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="OUTPUT" pad="3"/>
-<connect gate="G$1" pin="RESET" pad="4"/>
-<connect gate="G$1" pin="THRESHOLD" pad="6"/>
-<connect gate="G$1" pin="TRIGGER" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CONNECTOR-2" prefix="X">
 <description>&lt;b&gt;Mini-Fit Junior connector 2 pole&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com</description>
@@ -1490,6 +1459,29 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="NA555">
+<description>Texas Instruments NA555 timer. &lt;a href="http://www.ti.com/lit/ds/symlink/se555.pdf"&gt;Data sheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="555_TIMER" x="-12.7" y="-10.16"/>
+</gates>
+<devices>
+<device name="SO-8" package="SOIC-08">
+<connects>
+<connect gate="G$1" pin="CONTROL" pad="5"/>
+<connect gate="G$1" pin="DISCHARGE" pad="7"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="OUTPUT" pad="3"/>
+<connect gate="G$1" pin="RESET" pad="4"/>
+<connect gate="G$1" pin="THRESHOLD" pad="6"/>
+<connect gate="G$1" pin="TRIGGER" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -1587,7 +1579,6 @@ Source: http://www.molex.com</description>
 <part name="GND5" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND6" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C4" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.01 uF"/>
-<part name="U$2" library="HyTechDevices" deviceset="555_TIMER" device=""/>
 <part name="P+6" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
 <part name="GND1" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -1634,7 +1625,6 @@ Source: http://www.molex.com</description>
 <part name="GND11" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND12" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.01 uF"/>
-<part name="U$5" library="HyTechDevices" deviceset="555_TIMER" device=""/>
 <part name="P+8" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="X4" library="HyTechDevices" deviceset="CONNECTOR-2" device=""/>
 <part name="P+11" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -1655,6 +1645,8 @@ Source: http://www.molex.com</description>
 <part name="J16" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J17" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J18" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
+<part name="U$2" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
+<part name="U$5" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
 </parts>
 <sheets>
 <sheet>
@@ -1730,10 +1722,6 @@ Source: http://www.molex.com</description>
 <instance part="C4" gate="G$1" x="-175.26" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="-172.339" y="130.556" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-177.419" y="130.556" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="U$2" gate="G$1" x="-205.74" y="91.44" smashed="yes">
-<attribute name="NAME" x="-205.74" y="111.76" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-205.74" y="91.44" size="1.778" layer="96" align="top-left"/>
 </instance>
 <instance part="P+6" gate="1" x="-91.44" y="119.38" smashed="yes">
 <attribute name="VALUE" x="-93.98" y="114.3" size="1.778" layer="96" rot="R90"/>
@@ -1885,10 +1873,6 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="162.941" y="138.176" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="157.861" y="138.176" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U$5" gate="G$1" x="129.54" y="99.06" smashed="yes">
-<attribute name="NAME" x="129.54" y="119.38" size="1.778" layer="95"/>
-<attribute name="VALUE" x="129.54" y="99.06" size="1.778" layer="96" align="top-left"/>
-</instance>
 <instance part="P+8" gate="1" x="243.84" y="127" smashed="yes">
 <attribute name="VALUE" x="241.3" y="121.92" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -1943,6 +1927,14 @@ Source: http://www.molex.com</description>
 <instance part="J16" gate="G$1" x="81.28" y="111.76" smashed="yes" rot="R90"/>
 <instance part="J17" gate="G$1" x="91.44" y="111.76" smashed="yes" rot="R90"/>
 <instance part="J18" gate="G$1" x="101.6" y="111.76" smashed="yes" rot="R90"/>
+<instance part="U$2" gate="G$1" x="-205.74" y="91.44" smashed="yes">
+<attribute name="NAME" x="-205.74" y="111.76" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-205.74" y="91.44" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="U$5" gate="G$1" x="129.54" y="99.06" smashed="yes">
+<attribute name="NAME" x="129.54" y="119.38" size="1.778" layer="95"/>
+<attribute name="VALUE" x="129.54" y="99.06" size="1.778" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1963,15 +1955,15 @@ Source: http://www.molex.com</description>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="-182.88" y1="134.62" x2="-182.88" y2="132.08" width="0.1524" layer="91"/>
 <junction x="-182.88" y="132.08"/>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
 <wire x1="-210.82" y1="109.22" x2="-210.82" y2="121.92" width="0.1524" layer="91"/>
 <junction x="-210.82" y="121.92"/>
-<pinref part="U$2" gate="G$1" pin="RESET"/>
 <wire x1="-210.82" y1="104.14" x2="-215.9" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-215.9" y1="104.14" x2="-215.9" y2="121.92" width="0.1524" layer="91"/>
 <junction x="-215.9" y="121.92"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="-220.98" y1="121.92" x2="-220.98" y2="117.856" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="U$2" gate="G$1" pin="RESET"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
@@ -1993,15 +1985,15 @@ Source: http://www.molex.com</description>
 <pinref part="P+11" gate="1" pin="+5V"/>
 <wire x1="152.4" y1="142.24" x2="152.4" y2="139.7" width="0.1524" layer="91"/>
 <junction x="152.4" y="139.7"/>
-<pinref part="U$5" gate="G$1" pin="VCC"/>
 <wire x1="124.46" y1="116.84" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
 <junction x="124.46" y="129.54"/>
-<pinref part="U$5" gate="G$1" pin="RESET"/>
 <wire x1="124.46" y1="111.76" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="111.76" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
 <junction x="119.38" y="129.54"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="129.54" x2="114.3" y2="125.476" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="VCC"/>
+<pinref part="U$5" gate="G$1" pin="RESET"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2017,12 +2009,12 @@ Source: http://www.molex.com</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="-172.72" y1="81.28" x2="-172.72" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="76.2" x2="-172.72" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-220.98" y1="76.2" x2="-172.72" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="-180.34" y1="81.28" x2="-172.72" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-172.72" y="81.28"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VSS"/>
@@ -2062,12 +2054,12 @@ Source: http://www.molex.com</description>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="162.56" y1="88.9" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="83.82" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="88.9" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
 <junction x="162.56" y="88.9"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VSS"/>
@@ -2114,7 +2106,6 @@ Source: http://www.molex.com</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTPUT"/>
 <wire x1="-172.72" y1="109.22" x2="-172.72" y2="120.396" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="-172.72" y1="120.396" x2="-231.14" y2="120.396" width="0.1524" layer="91"/>
@@ -2140,8 +2131,9 @@ Source: http://www.molex.com</description>
 <wire x1="-292.1" y1="120.396" x2="-302.26" y2="120.396" width="0.1524" layer="91"/>
 <junction x="-292.1" y="120.396"/>
 <wire x1="-172.72" y1="109.22" x2="-160.02" y2="109.22" width="0.1524" layer="91"/>
-<junction x="-172.72" y="109.22"/>
 <pinref part="J2" gate="G$1" pin="P$1"/>
+<pinref part="U$2" gate="G$1" pin="OUTPUT"/>
+<junction x="-172.72" y="109.22"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -2219,11 +2211,9 @@ Source: http://www.molex.com</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="TRIGGER"/>
 <wire x1="-210.82" y1="106.68" x2="-220.98" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="-220.98" y1="106.68" x2="-220.98" y2="107.696" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="THRESHOLD"/>
 <wire x1="-210.82" y1="96.52" x2="-220.98" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-220.98" y1="96.52" x2="-220.98" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-220.98" y="106.68"/>
@@ -2263,15 +2253,17 @@ Source: http://www.molex.com</description>
 <pinref part="J9" gate="G$1" pin="P$1"/>
 <wire x1="-231.14" y1="104.14" x2="-231.14" y2="101.6" width="0.1524" layer="91"/>
 <junction x="-231.14" y="101.6"/>
+<pinref part="U$2" gate="G$1" pin="THRESHOLD"/>
+<pinref part="U$2" gate="G$1" pin="TRIGGER"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="CONTROL"/>
 <wire x1="-210.82" y1="99.06" x2="-213.36" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-213.36" y1="99.06" x2="-213.36" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-213.36" y1="81.28" x2="-187.96" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="CONTROL"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -2365,7 +2357,6 @@ Source: http://www.molex.com</description>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="OUTPUT"/>
 <wire x1="162.56" y1="116.84" x2="162.56" y2="128.016" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="128.016" x2="104.14" y2="128.016" width="0.1524" layer="91"/>
@@ -2391,8 +2382,9 @@ Source: http://www.molex.com</description>
 <wire x1="43.18" y1="128.016" x2="33.02" y2="128.016" width="0.1524" layer="91"/>
 <junction x="43.18" y="128.016"/>
 <wire x1="162.56" y1="116.84" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
-<junction x="162.56" y="116.84"/>
 <pinref part="J10" gate="G$1" pin="P$1"/>
+<pinref part="U$5" gate="G$1" pin="OUTPUT"/>
+<junction x="162.56" y="116.84"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -2448,11 +2440,9 @@ Source: http://www.molex.com</description>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="TRIGGER"/>
 <wire x1="124.46" y1="114.3" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="114.3" x2="114.3" y2="115.316" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="THRESHOLD"/>
 <wire x1="124.46" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="104.14" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
 <junction x="114.3" y="114.3"/>
@@ -2492,15 +2482,17 @@ Source: http://www.molex.com</description>
 <pinref part="J18" gate="G$1" pin="P$1"/>
 <wire x1="104.14" y1="111.76" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
 <junction x="104.14" y="109.22"/>
+<pinref part="U$5" gate="G$1" pin="THRESHOLD"/>
+<pinref part="U$5" gate="G$1" pin="TRIGGER"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="CONTROL"/>
 <wire x1="124.46" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="106.68" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="CONTROL"/>
 </segment>
 </net>
 <net name="N$24" class="0">
