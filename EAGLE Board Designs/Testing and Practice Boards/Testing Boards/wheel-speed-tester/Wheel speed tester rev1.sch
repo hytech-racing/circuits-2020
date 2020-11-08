@@ -1298,8 +1298,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP6002">
-<description>Microchip MCP6002 Dual Channel Op Amp</description>
+<deviceset name="NE5532">
+<description>TI NE5532 Dual Channel Op Amp</description>
 <gates>
 <gate name="G$1" symbol="OPAMP_2_CHANNEL" x="0" y="0"/>
 </gates>
@@ -1573,7 +1573,7 @@ Source: http://www.molex.com</description>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="P+4" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="U$1" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
+<part name="U$1" library="HyTechDevices" deviceset="NE5532" device="SOIC"/>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="GND5" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -1619,7 +1619,7 @@ Source: http://www.molex.com</description>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="P+7" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="U$3" library="HyTechDevices" deviceset="MCP6002" device="SOIC"/>
+<part name="U$3" library="HyTechDevices" deviceset="NE5532" device="SOIC"/>
 <part name="R25" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R26" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="GND11" library="HyTechSupplies" deviceset="GND" device=""/>

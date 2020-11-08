@@ -631,7 +631,7 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <attribute name="NAME" x="110.363" y="59.436" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="108.458" y="59.563" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="U$1" library="HyTechDevices" package="SOIC-08" value="MCP6002SOIC" x="116.84" y="59.69" smashed="yes" rot="R270">
+<element name="U$1" library="HyTechDevices" package="SOIC-08" value="NE5532SOIC" x="116.84" y="59.69" smashed="yes" rot="R270">
 <attribute name="NAME" x="116.84" y="62.23" size="0.6096" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="116.84" y="57.15" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
 </element>
@@ -681,7 +681,7 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <attribute name="NAME" x="140.462" y="44.069" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="138.557" y="44.196" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="U$3" library="HyTechDevices" package="SOIC-08" value="MCP6002SOIC" x="185.42" y="59.055" smashed="yes" rot="R270">
+<element name="U$3" library="HyTechDevices" package="SOIC-08" value="NE5532SOIC" x="185.42" y="59.055" smashed="yes" rot="R270">
 <attribute name="NAME" x="185.42" y="61.595" size="0.6096" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="185.42" y="56.515" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
 </element>
