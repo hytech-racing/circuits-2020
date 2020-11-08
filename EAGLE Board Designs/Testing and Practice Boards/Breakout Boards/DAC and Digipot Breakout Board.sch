@@ -4986,6 +4986,7 @@ Layer: 94 Symbol</description>
 <part name="GND13" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND15" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U$4" library="HyTechDevices" deviceset="AD5263" device=""/>
+<part name="GND16" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5177,6 +5178,9 @@ Layer: 94 Symbol</description>
 <instance part="U$4" gate="G$1" x="45.72" y="-48.26" smashed="yes">
 <attribute name="NAME" x="32.512" y="-32.258" size="1.778" layer="95"/>
 <attribute name="VALUE" x="32.258" y="-67.564" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="GND16" gate="1" x="137.16" y="91.44" smashed="yes">
+<attribute name="VALUE" x="134.62" y="88.9" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5381,6 +5385,12 @@ Layer: 94 Symbol</description>
 <pinref part="U$4" gate="G$1" pin="VSS"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="7.62" y1="-38.1" x2="7.62" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="96.52" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VSS" class="0">
