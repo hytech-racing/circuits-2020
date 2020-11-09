@@ -1568,7 +1568,7 @@ Source: http://www.molex.com</description>
 <part name="GND3" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100k"/>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="750nF"/>
+<part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1.5uF"/>
 <part name="GND4" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
@@ -1614,7 +1614,7 @@ Source: http://www.molex.com</description>
 <part name="GND9" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100k"/>
 <part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="750nF"/>
+<part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1.5uF"/>
 <part name="GND10" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
@@ -1647,6 +1647,8 @@ Source: http://www.molex.com</description>
 <part name="J18" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="U$2" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
 <part name="U$5" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
+<part name="C7" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1.5uF"/>
+<part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1.5uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -1934,6 +1936,14 @@ Source: http://www.molex.com</description>
 <instance part="U$5" gate="G$1" x="129.54" y="99.06" smashed="yes">
 <attribute name="NAME" x="129.54" y="119.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="129.54" y="99.06" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="C7" gate="G$1" x="-195.58" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="-198.501" y="82.804" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-193.421" y="82.804" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C8" gate="G$1" x="142.24" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="139.319" y="90.424" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="144.399" y="90.424" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -2261,9 +2271,9 @@ Source: http://www.molex.com</description>
 <segment>
 <wire x1="-210.82" y1="99.06" x2="-213.36" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-213.36" y1="99.06" x2="-213.36" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-213.36" y1="81.28" x2="-187.96" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="CONTROL"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="-200.66" y1="81.28" x2="-213.36" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -2490,9 +2500,9 @@ Source: http://www.molex.com</description>
 <segment>
 <wire x1="124.46" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="106.68" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="CONTROL"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -2556,6 +2566,20 @@ Source: http://www.molex.com</description>
 <pinref part="J11" gate="G$1" pin="P$2"/>
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="116.84" x2="33.02" y2="117.856" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="-187.96" y1="81.28" x2="-193.04" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
