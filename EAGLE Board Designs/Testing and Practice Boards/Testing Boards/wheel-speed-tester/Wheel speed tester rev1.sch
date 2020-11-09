@@ -1578,7 +1578,7 @@ Source: http://www.molex.com</description>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="GND5" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND6" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C4" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.01 uF"/>
+<part name="C4" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1 uF"/>
 <part name="P+6" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
 <part name="GND1" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -1624,7 +1624,7 @@ Source: http://www.molex.com</description>
 <part name="R26" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="GND11" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND12" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.01 uF"/>
+<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1 uF"/>
 <part name="P+8" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="X4" library="HyTechDevices" deviceset="CONNECTOR-2" device=""/>
 <part name="P+11" library="HyTechSupplies" deviceset="+5V" device=""/>
