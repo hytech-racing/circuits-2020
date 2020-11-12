@@ -1791,7 +1791,7 @@ Source: http://www.molex.com</description>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
 <pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 <pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
-<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
@@ -2908,7 +2908,7 @@ It is replaced by MCP2561.
 </devices>
 </deviceset>
 <deviceset name="STWD100NYWY3F">
-<description>STWD100 Watchdog Timer (open-drain configuration)</description>
+<description>STWD100 Watchdog Timer (open-drain configuration) &lt;a href="https://www.st.com/resource/en/datasheet/stwd100.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="STWD100" x="-7.62" y="7.62"/>
 </gates>
@@ -9574,37 +9574,6 @@ corresponds to 60V on TS</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="101,1,127,35.56,IMD-6,S,,,,"/>
-<approved hash="208,1,129.54,-43.18,+5V,out,,,,"/>
-<approved hash="208,1,142.24,-43.18,+5V,sup,,,,"/>
-<approved hash="208,1,111.76,-33.02,+5V,sup,,,,"/>
-<approved hash="208,1,73.66,-320.04,+5V,sup,,,,"/>
-<approved hash="208,1,88.9,-309.88,+5V,sup,,,,"/>
-<approved hash="208,1,60.96,-251.46,+5V,sup,,,,"/>
-<approved hash="208,1,99.06,-248.92,+5V,sup,,,,"/>
-<approved hash="208,1,124.46,-266.7,+5V,sup,,,,"/>
-<approved hash="208,1,48.26,-297.18,+5V,sup,,,,"/>
-<approved hash="208,1,45.72,-320.04,+5V,sup,,,,"/>
-<approved hash="208,1,35.56,-139.7,+5V,sup,,,,"/>
-<approved hash="208,1,45.72,-91.44,+5V,sup,,,,"/>
-<approved hash="208,1,137.16,-350.52,+5V,sup,,,,"/>
-<approved hash="208,1,124.46,-388.62,+5V,sup,,,,"/>
-<approved hash="208,1,81.28,-86.36,+5V,sup,,,,"/>
-<approved hash="208,1,68.58,-419.1,+5V,sup,,,,"/>
-<approved hash="208,1,35.56,-162.56,+5V,sup,,,,"/>
-<approved hash="208,1,106.68,-170.18,+5V,sup,,,,"/>
-<approved hash="208,1,66.04,-175.26,+5V,sup,,,,"/>
-<approved hash="208,1,30.48,-121.92,+5V,sup,,,,"/>
-<approved hash="208,1,66.04,-116.84,+5V,sup,,,,"/>
-<approved hash="208,1,106.68,-147.32,+5V,sup,,,,"/>
-<approved hash="208,1,66.04,-152.4,+5V,sup,,,,"/>
-<approved hash="208,1,292.1,-63.5,+5V,sup,,,,"/>
-<approved hash="208,1,38.1,-403.86,+5V,sup,,,,"/>
-<approved hash="113,1,266.692,-10.46,U15,,,,,"/>
-<approved hash="113,1,284.48,-93.6396,Q1,,,,,"/>
-<approved hash="113,1,284.48,-70.7796,Q2,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
