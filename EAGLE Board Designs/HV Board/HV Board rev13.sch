@@ -1661,24 +1661,6 @@ Source: http://www.molex.com</description>
 <text x="-5.715" y="2.54" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 <text x="6.985" y="2.54" size="1.27" layer="21" rot="R90">&gt;VALUE</text>
 </package>
-<package name="1206@1">
-<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;
-&lt;p&gt;Source: Sparkfun Resistors Library&lt;/p&gt;</description>
-<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
-<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
 <package name="OKI-78SR-H">
 <pad name="1" x="2.54" y="0" drill="1" diameter="1.8796" shape="square"/>
 <pad name="2" x="0" y="0" drill="1" diameter="1.8796"/>
@@ -1712,30 +1694,6 @@ Source: http://www.molex.com</description>
 <vertex x="0" y="-0.3302"/>
 <vertex x="0.5588" y="0"/>
 </polygon>
-</package>
-<package name="1206">
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.143" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.397" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="PWR163">
-<smd name="PAD" x="0" y="0" dx="7.874" dy="8.509" layer="1"/>
-<smd name="1" x="-2.54" y="-7.9375" dx="3.81" dy="1.651" layer="1" rot="R90"/>
-<smd name="2" x="2.54" y="-7.9375" dx="3.81" dy="1.651" layer="1" rot="R90"/>
-<wire x1="-4.064" y1="3.6195" x2="4.064" y2="3.6195" width="0.127" layer="21"/>
-<wire x1="4.064" y1="3.6195" x2="4.064" y2="-3.6195" width="0.127" layer="21"/>
-<wire x1="4.064" y1="-3.6195" x2="-4.064" y2="-3.6195" width="0.127" layer="21"/>
-<wire x1="-4.064" y1="-3.6195" x2="-4.064" y2="3.6195" width="0.127" layer="21"/>
 </package>
 <package name="SOP04">
 <description>&lt;b&gt;SOP 04 - 4.3x4.4mm RM 2.54mm&lt;/b&gt; AQY21, AQY22, AQY61 Series NAiS&lt;p&gt;Source: http://www.mew-europe.com/..  pti_en.pdf</description>
@@ -1796,6 +1754,99 @@ Source: http://www.molex.com</description>
 <pad name="1" x="-2.54" y="0" drill="1" shape="square"/>
 <pad name="2" x="0" y="0" drill="1"/>
 <pad name="3" x="2.54" y="0" drill="1"/>
+</package>
+<package name="1206">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;
+&lt;p&gt;Source: Sparkfun Resistors Library&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="PWR163">
+<smd name="PAD" x="0" y="0" dx="7.874" dy="8.509" layer="1"/>
+<smd name="1" x="-2.54" y="-7.366" dx="2.54" dy="1.143" layer="1" rot="R90"/>
+<smd name="2" x="2.54" y="-7.366" dx="2.54" dy="1.143" layer="1" rot="R90"/>
+<wire x1="-4.064" y1="4.3815" x2="4.064" y2="4.3815" width="0.127" layer="21"/>
+<wire x1="4.064" y1="4.3815" x2="4.064" y2="-4.3815" width="0.127" layer="21"/>
+<wire x1="4.064" y1="-4.3815" x2="-4.064" y2="-4.3815" width="0.127" layer="21"/>
+<wire x1="-4.064" y1="-4.3815" x2="-4.064" y2="4.3815" width="0.127" layer="21"/>
+</package>
+<package name="TO-220-H-HOLE">
+<description>&lt;b&gt;TO 220 horizontal&lt;/b&gt;
+&lt;br&gt;
+Source: transistor-fet.lbr</description>
+<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.127" layer="21"/>
+<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.127" layer="21"/>
+<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.127" layer="21"/>
+<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.127" layer="21"/>
+<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.127" layer="21"/>
+<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.127" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<circle x="0" y="11.176" radius="1.8034" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<text x="-3.81" y="5.207" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.937" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="0" size="1.27" layer="51" ratio="10">1</text>
+<text x="-0.635" y="0" size="1.27" layer="51" ratio="10">2</text>
+<text x="1.905" y="0" size="1.27" layer="51" ratio="10">3</text>
+<rectangle x1="2.159" y1="-4.699" x2="2.921" y2="-4.064" layer="21"/>
+<rectangle x1="-0.381" y1="-4.699" x2="0.381" y2="-4.064" layer="21"/>
+<rectangle x1="-2.921" y1="-4.699" x2="-2.159" y2="-4.064" layer="21"/>
+<rectangle x1="-3.175" y1="-4.064" x2="-1.905" y2="-1.27" layer="21"/>
+<rectangle x1="-0.635" y1="-4.064" x2="0.635" y2="-1.27" layer="21"/>
+<rectangle x1="1.905" y1="-4.064" x2="3.175" y2="-1.27" layer="21"/>
+<rectangle x1="-2.921" y1="-6.604" x2="-2.159" y2="-4.699" layer="51"/>
+<rectangle x1="-0.381" y1="-6.604" x2="0.381" y2="-4.699" layer="51"/>
+<rectangle x1="2.159" y1="-6.604" x2="2.921" y2="-4.699" layer="51"/>
+<circle x="0" y="11.176" radius="1.8034" width="0.127" layer="21"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="42"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="43"/>
+<hole x="0" y="11.176" drill="3.302"/>
+</package>
+<package name="0603_D">
+<wire x1="-0.1" y1="0.5" x2="0.1" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="-0.1" y1="-0.5" x2="0.1" y2="-0.5" width="0.1524" layer="21"/>
+<smd name="A" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="C" x="0.85" y="0" dx="1.1" dy="1" layer="1" roundness="30"/>
+<text x="0" y="0.635" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.4064" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-0.1524" y1="0" x2="0.1524" y2="0" width="0.127" layer="21"/>
+<wire x1="0.1524" y1="0" x2="0" y2="-0.2032" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.2032" x2="0" y2="0.2032" width="0.127" layer="21"/>
+<wire x1="0" y1="0.2032" x2="0.1524" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+</package>
+<package name="TEST_POINT">
+<circle x="0" y="0" radius="1.5875" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="0" drill="1.6002" rot="R90"/>
+</package>
+<package name="MICRO_MINIATURE">
+<smd name="P$1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -2365,6 +2416,26 @@ Source: http://www.molex.com</description>
 <wire x1="5.715" y1="3.683" x2="6.985" y2="3.683" width="0.127" layer="94"/>
 <wire x1="5.715" y1="-3.683" x2="6.985" y2="-3.683" width="0.127" layer="94"/>
 </symbol>
+<symbol name="DIODE_ZENER">
+<wire x1="0" y1="0.762" x2="0" y2="-0.762" width="0.254" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-3.81" y="1.7526" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.5814" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<polygon width="0.254" layer="94">
+<vertex x="-2.54" y="1.27"/>
+<vertex x="-2.54" y="-1.27"/>
+<vertex x="0" y="0"/>
+</polygon>
+<wire x1="-0.508" y1="1.27" x2="0" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.762" x2="0.508" y2="-1.27" width="0.254" layer="94"/>
+</symbol>
+<symbol name="TEST_POINT">
+<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<pin name="P$1" x="-2.54" y="0" visible="off" length="short"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OKI-78SR-5">
@@ -2412,15 +2483,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </technologies>
 </device>
 <device name="0603" package="0603-RES">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603-RES" package="0603-RES">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2672,7 +2734,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206" package="1206@1">
+<device name="1206" package="1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3581,44 +3643,6 @@ Minimum input voltage level 1.8V. Maximum output voltage level 5.5V.</descriptio
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP6542">
-<description>Microchip MCP6542 Dual Channel Push-Pull Comparator</description>
-<gates>
-<gate name="G$1" symbol="OPAMP_2_CHANNEL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOIC" package="SOIC-08">
-<connects>
-<connect gate="G$1" pin="VDD" pad="8"/>
-<connect gate="G$1" pin="VINA+" pad="3"/>
-<connect gate="G$1" pin="VINA-" pad="2"/>
-<connect gate="G$1" pin="VINB+" pad="5"/>
-<connect gate="G$1" pin="VINB-" pad="6"/>
-<connect gate="G$1" pin="VOUTA" pad="1"/>
-<connect gate="G$1" pin="VOUTB" pad="7"/>
-<connect gate="G$1" pin="VSS" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PDIP" package="DIL08">
-<connects>
-<connect gate="G$1" pin="VDD" pad="8"/>
-<connect gate="G$1" pin="VINA+" pad="3"/>
-<connect gate="G$1" pin="VINA-" pad="2"/>
-<connect gate="G$1" pin="VINB+" pad="5"/>
-<connect gate="G$1" pin="VINB-" pad="6"/>
-<connect gate="G$1" pin="VOUTA" pad="1"/>
-<connect gate="G$1" pin="VOUTB" pad="7"/>
-<connect gate="G$1" pin="VSS" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="DBT71210" uservalue="yes">
 <description>DBT71210 Reed Relay Form B (Standard normally closed), switch 12V</description>
 <gates>
@@ -3741,6 +3765,84 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_HOR_HOLE" package="TO-220-H-HOLE">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE_ZENER" prefix="D">
+<description>&lt;B&gt;ZENER DIODE&lt;/B&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE_ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DO-41" package="DO-41">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0805" package="0805_D">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="0603_D">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST_POINT">
+<description>Keystone Electronics Test Point 5005</description>
+<gates>
+<gate name="G$1" symbol="TEST_POINT" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEST_POINT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MICRO_MINIATURE" package="MICRO_MINIATURE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6445,8 +6547,6 @@ Source: http://www.molex.com</description>
 <rectangle x1="50.84445" y1="18.38325" x2="51.92395" y2="18.44675" layer="94"/>
 <text x="95.25" y="22.86" locked="yes" size="2.54" layer="94">&gt;DRAWING_NAME</text>
 <text x="148.59" y="2.54" locked="yes" size="2.54" layer="94">&gt;SHEET</text>
-<text x="19.05" y="22.86" locked="yes" size="2.54" layer="94">&gt;ENGINEER</text>
-<text x="66.04" y="10.16" size="2.54" layer="94">&gt;FRAME_DESCRIPTION</text>
 </symbol>
 <symbol name="FRAME_17X11">
 <frame x1="0" y1="0" x2="431.8" y2="279.4" columns="17" rows="11" layer="94" border-bottom="no"/>
@@ -6458,7 +6558,20 @@ Source: http://www.molex.com</description>
 <devicesets>
 <deviceset name="FRAME_B">
 <description>HyTech Racing Frame (ANSI Size B)
-Prints on US Tabloid Landscape 11" by 17"</description>
+&lt;br&gt;
+Prints on US Tabloid Landscape 11" by 17"
+&lt;br&gt;&lt;br&gt;
+Fill Engineer/Description Fields with Text using the following settings:
+&lt;br&gt;
+Size: 0.1
+&lt;br&gt;
+Ratio: 8%
+&lt;br&gt;
+Line Distance: 50%
+&lt;br&gt;
+Font: Proportional
+&lt;br&gt;
+Layer: 94 Symbol</description>
 <gates>
 <gate name="G$1" symbol="FRAME_17X11" x="0" y="0"/>
 <gate name="G$2" symbol="DOCFIELD" x="262.89" y="0" addlevel="always"/>
@@ -6477,7 +6590,20 @@ Prints on US Tabloid Landscape 11" by 17"</description>
 </deviceset>
 <deviceset name="FRAME_A">
 <description>HyTech Racing Frame (ANSI Size A)
-Prints on US Letter Landscape 8.5" by 11"</description>
+&lt;br&gt;
+Prints on US Letter Landscape 8.5" by 11"
+&lt;br&gt;&lt;br&gt;
+Fill Engineer/Description Fields with Text using the following settings:
+&lt;br&gt;
+Size: 0.1
+&lt;br&gt;
+Ratio: 8%
+&lt;br&gt;
+Line Distance: 50%
+&lt;br&gt;
+Font: Proportional
+&lt;br&gt;
+Layer: 94 Symbol</description>
 <gates>
 <gate name="G$1" symbol="FRAME_11X8.5" x="0" y="0"/>
 <gate name="G$2" symbol="DOCFIELD" x="110.49" y="0" addlevel="always"/>
@@ -6527,17 +6653,17 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="IMD-OK" library="HyTechDevices" deviceset="LED" device="-0805" value="YELLOW"/>
 <part name="BMS-OK" library="HyTechDevices" deviceset="LED" device="-0805" value="GREEN"/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="820">
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="820">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="INTERLOCK" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="INTERLOCK"/>
 <part name="ON-LED" library="HyTechDevices" deviceset="LED" device="-0805" value="PURPLE"/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="270">
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="270">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
@@ -6552,21 +6678,21 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <part name="D1" library="HyTechDevices" deviceset="DIODE" device="DO-41" value="DIODE"/>
 <part name="GND13" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U7" library="HyTechDevices" deviceset="MCP2551" device=""/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="TEENSY" library="HyTechDevices" deviceset="LED" device="-0805" value="BLUE"/>
-<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43">
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="U9" library="HyTechDevices" deviceset="LTC6820" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
-<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
+<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND18" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -6577,10 +6703,10 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND22" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
+<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="TEENSY3.2" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
@@ -6589,7 +6715,7 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U10" library="HyTechDevices" deviceset="STWD100NYWY3F" device=""/>
 <part name="P+23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="430">
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="430">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND27" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -6601,7 +6727,7 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND5" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U11" library="HyTechDevices" deviceset="HM2102NLT" device=""/>
-<part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100">
+<part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100">
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="TYPE" value="TERMINATION"/>
 </part>
@@ -6610,11 +6736,11 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10K">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
@@ -6659,10 +6785,10 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <part name="U3" library="HyTechDevices" deviceset="MAX7480" device="" value="MAX7480"/>
 <part name="U18" library="HyTechDevices" deviceset="CDSOT23-T24CAN-Q" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="60">
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="60">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="60">
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="60">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="4.7nF">
@@ -6670,10 +6796,10 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="4k">
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="4k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
@@ -6693,27 +6819,27 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
-<part name="R21" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k">
+<part name="R21" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R22" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k">
+<part name="R22" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
-<part name="R23" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k">
+<part name="R23" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k">
+<part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="R25" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k">
+<part name="R25" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R26" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k">
+<part name="R26" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
@@ -6722,24 +6848,7 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="ENERGYMETER" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4" value="ENERGY METER"/>
-<part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="261">
-<attribute name="TOLERANCE" value="1%"/>
-</part>
-<part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5K">
-<attribute name="TOLERANCE" value="1%"/>
-</part>
-<part name="U14" library="HyTechDevices" deviceset="MCP6542" device="SOIC" value="MCP6542SOIC"/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
-<part name="GND41" library="supply1" deviceset="GND" device=""/>
-<part name="P+11" library="supply1" deviceset="+5V" device=""/>
-<part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
-<attribute name="TOLERANCE" value="1%"/>
-</part>
-<part name="C23" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
-<attribute name="TOLERANCE" value="5%"/>
-<attribute name="VOLTAGE" value="10V"/>
-</part>
-<part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="DISCH+" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="DISCHARGE+"/>
 <part name="C24" library="HyTechDevices" deviceset="CAP" device="" value="180µF">
@@ -6772,11 +6881,11 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="2k">
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10K">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
@@ -6818,12 +6927,11 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10K">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="FLIP1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C18" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
@@ -6833,18 +6941,11 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R33" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5K">
-<attribute name="TOLERANCE" value="1%"/>
-</part>
-<part name="R32" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5K">
-<attribute name="TOLERANCE" value="1%"/>
-</part>
-<part name="GND62" library="supply1" deviceset="GND" device=""/>
 <part name="D6" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
-<part name="R27" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k">
+<part name="R27" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k">
+<part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="D5" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
@@ -6881,6 +6982,17 @@ Prints on US Letter Landscape 8.5" by 11"</description>
 <part name="R60" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="8.2k"/>
 <part name="R61" library="HyTechDevices" deviceset="RESISTOR" device="0805-RES" value="8.2k"/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
+<part name="D8" library="HyTechDevices" deviceset="DIODE_ZENER" device="0603"/>
+<part name="U$3" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="U$4" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="U$5" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="U$6" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="U$7" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="P+19" library="supply1" deviceset="+12V" device=""/>
+<part name="P+30" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND59" library="supply1" deviceset="GND" device=""/>
+<part name="U$8" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7450,42 +7562,8 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <instance part="ENERGYMETER" gate="-4" x="88.9" y="-15.24" smashed="yes" rot="MR0">
 <attribute name="NAME" x="86.36" y="-16.002" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="R31" gate="G$1" x="326.39" y="-160.02" smashed="yes">
-<attribute name="NAME" x="322.58" y="-158.5214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="322.58" y="-163.322" size="1.778" layer="96"/>
-<attribute name="TOLERANCE" x="326.39" y="-160.02" size="0.127" layer="96" display="off"/>
-</instance>
-<instance part="R30" gate="G$1" x="303.53" y="-160.02" smashed="yes">
-<attribute name="NAME" x="299.72" y="-158.5214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="299.72" y="-163.322" size="1.778" layer="96"/>
-<attribute name="TOLERANCE" x="303.53" y="-160.02" size="0.127" layer="96" display="off"/>
-</instance>
-<instance part="U14" gate="G$1" x="312.42" y="-144.78" smashed="yes">
-<attribute name="NAME" x="313.055" y="-142.875" size="1.778" layer="95"/>
-<attribute name="VALUE" x="313.055" y="-156.21" size="1.778" layer="96"/>
-</instance>
 <instance part="GND40" gate="1" x="292.1" y="-160.02" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="289.56" y="-162.56" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="GND41" gate="1" x="297.18" y="-154.94" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="294.64" y="-157.48" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="P+11" gate="1" x="332.74" y="-144.78" smashed="yes" rot="R270">
-<attribute name="VALUE" x="332.74" y="-144.78" size="1.778" layer="96"/>
-</instance>
-<instance part="R29" gate="G$1" x="299.72" y="-137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="298.2214" y="-140.97" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="303.022" y="-140.97" size="1.778" layer="96" rot="R90"/>
-<attribute name="TOLERANCE" x="299.72" y="-137.16" size="0.127" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="C23" gate="G$1" x="322.58" y="-134.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="325.501" y="-133.604" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="317.881" y="-131.064" size="1.778" layer="96" rot="R270"/>
-<attribute name="TOLERANCE" x="322.58" y="-134.62" size="0.127" layer="96" rot="R180" display="off"/>
-<attribute name="VOLTAGE" x="322.58" y="-134.62" size="0.127" layer="96" rot="R180" display="off"/>
-</instance>
-<instance part="GND42" gate="1" x="330.2" y="-132.08" smashed="yes" rot="R90">
-<attribute name="VALUE" x="332.74" y="-134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND44" gate="1" x="335.28" y="-152.4" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="337.82" y="-149.86" size="1.778" layer="96" rot="MR270"/>
@@ -7656,9 +7734,6 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <instance part="GND61" gate="1" x="358.14" y="27.94" smashed="yes" rot="R90">
 <attribute name="VALUE" x="360.68" y="25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="FLIP1" gate="1" x="299.72" y="-127" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="299.72" y="-127" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="C18" gate="G$1" x="320.04" y="45.72" smashed="yes" rot="MR180">
 <attribute name="NAME" x="321.564" y="47.879" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="321.564" y="42.799" size="1.778" layer="96" rot="MR180"/>
@@ -7674,22 +7749,8 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <instance part="GND9" gate="1" x="347.98" y="-86.36" smashed="yes" rot="R270">
 <attribute name="VALUE" x="345.44" y="-83.82" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R33" gate="G$1" x="363.22" y="-147.32" smashed="yes">
-<attribute name="NAME" x="359.41" y="-145.8214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="359.41" y="-150.622" size="1.778" layer="96"/>
-<attribute name="TOLERANCE" x="363.22" y="-147.32" size="0.127" layer="96" display="off"/>
-</instance>
-<instance part="R32" gate="G$1" x="363.22" y="-154.94" smashed="yes">
-<attribute name="NAME" x="359.41" y="-153.4414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="359.41" y="-158.242" size="1.778" layer="96"/>
-<attribute name="TOLERANCE" x="363.22" y="-154.94" size="0.127" layer="96" display="off"/>
-</instance>
-<instance part="GND62" gate="1" x="353.06" y="-154.94" smashed="yes" rot="R270">
-<attribute name="VALUE" x="350.52" y="-152.4" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="D6" gate="1" x="378.46" y="-147.32" smashed="yes">
 <attribute name="NAME" x="374.65" y="-145.5674" size="1.778" layer="95"/>
-<attribute name="VALUE" x="369.57" y="-150.9014" size="1.778" layer="96"/>
 </instance>
 <instance part="R27" gate="G$1" x="289.56" y="-116.84" smashed="yes">
 <attribute name="NAME" x="285.75" y="-115.3414" size="1.778" layer="95"/>
@@ -7716,6 +7777,28 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <attribute name="ENGINEER" x="281.94" y="-185.42" size="2.54" layer="94"/>
 <attribute name="FRAME_DESCRIPTION" x="328.93" y="-198.12" size="2.54" layer="94"/>
 </instance>
+<instance part="D8" gate="G$1" x="160.02" y="5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="158.2674" y="1.27" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="163.6014" y="1.27" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$3" gate="G$1" x="193.04" y="7.62" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="193.04" y="2.54" smashed="yes"/>
+<instance part="U$5" gate="G$1" x="193.04" y="-2.54" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="193.04" y="-10.16" smashed="yes"/>
+<instance part="U$7" gate="G$1" x="193.04" y="-15.24" smashed="yes"/>
+<instance part="P+19" gate="1" x="185.42" y="15.24" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="185.42" y="17.78" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="P+30" gate="1" x="182.88" y="2.54" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="182.88" y="2.54" size="1.778" layer="96" rot="MR270"/>
+</instance>
+<instance part="+3V6" gate="G$1" x="182.88" y="-2.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="185.42" y="-5.08" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND59" gate="1" x="182.88" y="-10.16" smashed="yes" rot="R270">
+<attribute name="VALUE" x="180.34" y="-7.62" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="U$8" gate="G$1" x="193.04" y="-20.32" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -7944,27 +8027,6 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <label x="91.44" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="309.88" y1="-152.4" x2="309.88" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="-154.94" x2="299.72" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="U14" gate="G$1" pin="VSS"/>
-<pinref part="GND41" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND40" gate="1" pin="GND"/>
-<pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="-160.02" x2="298.45" y2="-160.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C23" gate="G$1" pin="2"/>
-<pinref part="GND42" gate="1" pin="GND"/>
-<wire x1="322.58" y1="-132.08" x2="327.66" y2="-132.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND44" gate="1" pin="GND"/>
-<pinref part="U14" gate="G$1" pin="VINB+"/>
-<wire x1="332.74" y1="-152.4" x2="327.66" y2="-152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="CURRENT2" gate="-4" pin="S"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="43.18" y1="-177.8" x2="40.64" y2="-177.8" width="0.1524" layer="91"/>
@@ -8049,14 +8111,14 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <wire x1="355.6" y1="-86.36" x2="350.52" y2="-86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="355.6" y1="-154.94" x2="358.14" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="1"/>
-<pinref part="GND62" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="GND36" gate="1" pin="GND"/>
 <wire x1="281.94" y1="-124.46" x2="284.48" y2="-124.46" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND59" gate="1" pin="GND"/>
+<pinref part="U$6" gate="G$1" pin="P$1"/>
+<wire x1="185.42" y1="-10.16" x2="190.5" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -8099,6 +8161,12 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <wire x1="91.44" y1="-7.62" x2="99.06" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="ENERGYMETER" gate="-1" pin="S"/>
 <label x="91.44" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="P+19" gate="1" pin="+12V"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="185.42" y1="12.7" x2="185.42" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="7.62" x2="190.5" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -8215,18 +8283,6 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<wire x1="330.2" y1="-144.78" x2="327.66" y2="-144.78" width="0.1524" layer="91"/>
-<pinref part="P+11" gate="1" pin="+5V"/>
-<pinref part="U14" gate="G$1" pin="VDD"/>
-<pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="330.2" y1="-144.78" x2="330.2" y2="-139.7" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="-139.7" x2="322.58" y2="-139.7" width="0.1524" layer="91"/>
-<junction x="330.2" y="-144.78"/>
-<pinref part="U14" gate="G$1" pin="VINB-"/>
-<wire x1="327.66" y1="-149.86" x2="330.2" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="-149.86" x2="330.2" y2="-144.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="CURRENT2" gate="-1" pin="S"/>
 <pinref part="P+20" gate="1" pin="+5V"/>
 <wire x1="40.64" y1="-170.18" x2="43.18" y2="-170.18" width="0.1524" layer="91"/>
@@ -8274,9 +8330,9 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <pinref part="C11" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="R29" gate="G$1" pin="2"/>
-<pinref part="FLIP1" gate="1" pin="+5V"/>
-<wire x1="299.72" y1="-132.08" x2="299.72" y2="-129.54" width="0.1524" layer="91"/>
+<pinref part="P+30" gate="1" pin="+5V"/>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="185.42" y1="2.54" x2="190.5" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="60V_THRESHOLD_SIGNAL" class="0">
@@ -8287,9 +8343,14 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <label x="33.02" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="358.14" y1="-147.32" x2="355.6" y2="-147.32" width="0.1524" layer="91"/>
-<label x="355.6" y="-147.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U$8" gate="G$1" pin="P$1"/>
+<wire x1="190.5" y1="-20.32" x2="185.42" y2="-20.32" width="0.1524" layer="91"/>
+<label x="185.42" y="-20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D6" gate="1" pin="A"/>
+<wire x1="373.38" y1="-147.32" x2="368.3" y2="-147.32" width="0.1524" layer="91"/>
+<label x="368.3" y="-147.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -8699,6 +8760,11 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <wire x1="269.24" y1="-22.86" x2="271.78" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
+<segment>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<pinref part="U$5" gate="G$1" pin="P$1"/>
+<wire x1="185.42" y1="-2.54" x2="190.5" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CS_MCP3208_3.3V" class="0">
 <segment>
@@ -8730,11 +8796,6 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <pinref part="U12" gate="G$1" pin="CH0"/>
 <wire x1="353.06" y1="-78.74" x2="355.6" y2="-78.74" width="0.1524" layer="91"/>
 <label x="353.06" y="-78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U14" gate="G$1" pin="VINA-"/>
-<wire x1="309.88" y1="-147.32" x2="304.8" y2="-147.32" width="0.1524" layer="91"/>
-<label x="304.8" y="-147.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -8946,29 +9007,9 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <label x="33.02" y="40.64" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U14" gate="G$1" pin="VOUTA"/>
-<wire x1="309.88" y1="-144.78" x2="299.72" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="-144.78" x2="294.64" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="-144.78" x2="299.72" y2="-142.24" width="0.1524" layer="91"/>
-<junction x="299.72" y="-144.78"/>
-<pinref part="R29" gate="G$1" pin="1"/>
-<label x="294.64" y="-144.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="BSPD_CURR_REFERENCE" class="0">
-<segment>
-<pinref part="R30" gate="G$1" pin="2"/>
-<pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="308.61" y1="-160.02" x2="314.96" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="-160.02" x2="321.31" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="-160.02" x2="314.96" y2="-165.1" width="0.1524" layer="91"/>
-<junction x="314.96" y="-160.02"/>
-<label x="314.96" y="-165.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U14" gate="G$1" pin="VINA+"/>
-<wire x1="309.88" y1="-149.86" x2="304.8" y2="-149.86" width="0.1524" layer="91"/>
-<label x="304.8" y="-149.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U$7" gate="G$1" pin="P$1"/>
+<wire x1="190.5" y1="-15.24" x2="185.42" y2="-15.24" width="0.1524" layer="91"/>
+<label x="185.42" y="-15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CURR1_SENSE" class="0">
@@ -9059,11 +9100,6 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <wire x1="355.6" y1="-81.28" x2="353.06" y2="-81.28" width="0.1524" layer="91"/>
 <label x="353.06" y="-81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="331.47" y1="-160.02" x2="335.28" y2="-160.02" width="0.1524" layer="91"/>
-<label x="335.28" y="-160.02" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-</segment>
 </net>
 <net name="N$51" class="0">
 <segment>
@@ -9129,16 +9165,6 @@ corner frequency = fclk / 100 = 1 kHz</text>
 <pinref part="U12" gate="G$1" pin="CH7"/>
 <wire x1="355.6" y1="-96.52" x2="353.06" y2="-96.52" width="0.1524" layer="91"/>
 <label x="353.06" y="-96.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<wire x1="368.3" y1="-154.94" x2="368.3" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="-147.32" x2="373.38" y2="-147.32" width="0.1524" layer="91"/>
-<junction x="368.3" y="-147.32"/>
-<pinref part="R33" gate="G$1" pin="2"/>
-<pinref part="R32" gate="G$1" pin="2"/>
-<pinref part="D6" gate="1" pin="A"/>
 </segment>
 </net>
 <net name="60V_THRESHOLD_TEENSY" class="0">
