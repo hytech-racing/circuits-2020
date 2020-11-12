@@ -5287,16 +5287,16 @@ Layer: 94 Symbol</description>
 </part>
 <part name="AMS_THERM_TEST" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="AMS_THERM_TEST"/>
 <part name="U$22" library="HyTechFrames" deviceset="FRAME_B" device="">
-<attribute name="ENGINEER" value=""/>
+<attribute name="ENGINEER" value="Arvind Srinivasan"/>
 <attribute name="FRAME_DESCRIPTION" value="Upper LTC6811 IC"/>
 </part>
 <part name="U$23" library="HyTechFrames" deviceset="FRAME_B" device="">
 <attribute name="ENGINEER" value="Arvind Srinivasan"/>
-<attribute name="FRAME_DESCRIPTION" value="Lower LTC6811 IC and AMS Cell Thermistor Test Connection"/>
+<attribute name="FRAME_DESCRIPTION" value="Lower LTC6811 IC and Cell Thermistor Test Connection"/>
 </part>
 <part name="U$24" library="HyTechFrames" deviceset="FRAME_B" device="">
 <attribute name="ENGINEER" value="Arvind Srinivasan"/>
-<attribute name="FRAME_DESCRIPTION" value="Upper 9 Cell Connections and AMS Cell Voltage Test Connection"/>
+<attribute name="FRAME_DESCRIPTION" value="Upper 9 Cell Connections and Cell Voltage Test Connection"/>
 </part>
 <part name="U$25" library="HyTechFrames" deviceset="FRAME_B" device="">
 <attribute name="ENGINEER" value="Arvind Srinivasan"/>
@@ -5305,7 +5305,7 @@ Layer: 94 Symbol</description>
 </parts>
 <sheets>
 <sheet>
-<description>Upper 9 Cell Connections and AMS Cell Voltage Test Connection</description>
+<description>Upper 9 Cell Connections and Cell Voltage Test Connection</description>
 <plain>
 <text x="-375.92" y="147.32" size="1.778" layer="97" rot="R90">VOLTAGE TAPS</text>
 <text x="-391.16" y="215.9" size="6.4516" layer="97">Circuit A (Upper 9 Cells)</text>
@@ -7606,7 +7606,7 @@ set chip address</text>
 </nets>
 </sheet>
 <sheet>
-<description>Lower LTC6811 IC and AMS Cell Thermistor Test Connection</description>
+<description>Lower LTC6811 IC and Cell Thermistor Test Connection</description>
 <plain>
 <text x="-314.96" y="86.36" size="1.778" layer="97">See pg. 86 for unused cells
 (9 cells per LTC6811 in this design)</text>
