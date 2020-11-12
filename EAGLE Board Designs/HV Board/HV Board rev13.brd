@@ -3732,7 +3732,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-3.175" y="-26.67" size="1.27" layer="21" rot="R90"/>
 <attribute name="VALUE" x="9.525" y="-26.67" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="TSAL_SSR" library="HyTechDevices" package="SOP04" value="CPC1002N" x="0" y="-38.1" smashed="yes">
+<element name="60V_THRESHOLD" library="HyTechDevices" package="SOP04" value="CPC1002N" x="0" y="-38.1" smashed="yes">
 <attribute name="NAME" x="-2.54" y="-40.64" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="3.81" y="-40.64" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -3772,7 +3772,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.51" y="-42.4561" size="0.3048" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="16.51" y="-43.8912" size="0.3048" layer="27" align="top-center"/>
 </element>
-<element name="AI_SSR" library="HyTechDevices" package="SOP04" value="CPC1002N" x="8.89" y="-38.1" smashed="yes">
+<element name="INDICATOR" library="HyTechDevices" package="SOP04" value="CPC1002N" x="8.89" y="-38.1" smashed="yes">
 <attribute name="NAME" x="6.35" y="-40.64" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="12.7" y="-40.64" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -4560,7 +4560,7 @@ design rules under a new name.</description>
 <wire x1="3.048" y1="44.45" x2="1.439" y2="42.841" width="0.6096" layer="16"/>
 <wire x1="1.439" y1="42.841" x2="1.439" y2="26.924" width="0.6096" layer="16"/>
 <wire x1="1.439" y1="26.924" x2="1.693" y2="26.67" width="0.6096" layer="16"/>
-<contactref element="TSAL_SSR" pad="4"/>
+<contactref element="60V_THRESHOLD" pad="4"/>
 <contactref element="U$4" pad="P$1"/>
 <contactref element="U2" pad="3"/>
 <contactref element="C4" pad="1"/>
@@ -4624,7 +4624,7 @@ design rules under a new name.</description>
 <wire x1="42.926" y1="9.906" x2="43.688" y2="9.906" width="0.3048" layer="1"/>
 <wire x1="48.006" y1="5.588" x2="48.006" y2="4.318" width="0.3048" layer="1"/>
 <wire x1="43.688" y1="9.906" x2="48.006" y2="5.588" width="0.3048" layer="1"/>
-<contactref element="TSAL_SSR" pad="3"/>
+<contactref element="60V_THRESHOLD" pad="3"/>
 <contactref element="U$8" pad="P$1"/>
 <contactref element="60V-THRESHOLD:R1" pad="1"/>
 <wire x1="-13.55" y1="-337.82" x2="-31.75" y2="-449.58" width="0" layer="19" extent="1-1"/>
@@ -5490,7 +5490,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$5">
 <contactref element="HV_REG2" pad="2(TAB)"/>
-<contactref element="AI_SSR" pad="4"/>
+<contactref element="INDICATOR" pad="4"/>
 <contactref element="R56" pad="2"/>
 <wire x1="7.62" y1="-35.1" x2="2.12" y2="-45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="17.78" y1="-22.3012" x2="7.62" y2="-35.1" width="0" layer="19" extent="1-1"/>
@@ -5504,7 +5504,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$18">
 <contactref element="HV_REG1" pad="2(TAB)"/>
-<contactref element="TSAL_SSR" pad="1"/>
+<contactref element="60V_THRESHOLD" pad="1"/>
 <contactref element="R48" pad="2"/>
 <wire x1="-1.27" y1="-41.1" x2="2.12" y2="-43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="2.54" y1="-22.3012" x2="-1.27" y2="-41.1" width="0" layer="19" extent="1-1"/>
@@ -5530,17 +5530,17 @@ design rules under a new name.</description>
 <wire x1="27.52" y1="-33.02" x2="13.55" y2="-43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
-<contactref element="AI_SSR" pad="2"/>
+<contactref element="INDICATOR" pad="2"/>
 <contactref element="R47" pad="1"/>
 <wire x1="10.16" y1="-41.1" x2="-3.39" y2="-43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
-<contactref element="AI_SSR" pad="1"/>
-<contactref element="TSAL_SSR" pad="2"/>
+<contactref element="INDICATOR" pad="1"/>
+<contactref element="60V_THRESHOLD" pad="2"/>
 <wire x1="7.62" y1="-41.1" x2="1.27" y2="-41.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
-<contactref element="AI_SSR" pad="3"/>
+<contactref element="INDICATOR" pad="3"/>
 <contactref element="INDICATOR1" pad="1"/>
 <wire x1="13.97" y1="-11.64" x2="10.16" y2="-35.1" width="0" layer="19" extent="1-1"/>
 </signal>
