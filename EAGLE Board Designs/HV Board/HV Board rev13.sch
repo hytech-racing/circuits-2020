@@ -8934,7 +8934,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <attribute name="VALUE" x="152.4" y="149.86" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="P+17" gate="1" x="180.34" y="149.86" smashed="yes" rot="R180">
-<attribute name="VALUE" x="182.88" y="154.94" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="180.34" y="149.86" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R16" gate="G$1" x="185.42" y="177.8" smashed="yes">
 <attribute name="NAME" x="181.61" y="179.2986" size="1.778" layer="95"/>
@@ -8956,8 +8956,8 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <attribute name="VALUE" x="193.04" y="165.1" size="1.778" layer="96"/>
 </instance>
 <instance part="C19" gate="G$1" x="203.2" y="167.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="206.121" y="166.116" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="201.041" y="166.116" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="206.121" y="166.116" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="206.121" y="170.561" size="1.778" layer="96" rot="MR180"/>
 <attribute name="TOLERANCE" x="203.2" y="167.64" size="0.127" layer="96" rot="R270" display="off"/>
 <attribute name="VOLTAGE" x="203.2" y="167.64" size="0.127" layer="96" rot="R270" display="off"/>
 </instance>
@@ -8984,8 +8984,8 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <instance part="P+22" gate="1" x="203.2" y="231.14" smashed="yes">
 <attribute name="VALUE" x="203.2" y="231.14" size="1.778" layer="96"/>
 </instance>
-<instance part="GND27" gate="1" x="233.68" y="218.44" smashed="yes">
-<attribute name="VALUE" x="231.14" y="215.9" size="1.778" layer="96"/>
+<instance part="GND27" gate="1" x="233.68" y="215.9" smashed="yes">
+<attribute name="VALUE" x="231.14" y="213.36" size="1.778" layer="96"/>
 </instance>
 <instance part="P+25" gate="1" x="154.94" y="177.8" smashed="yes">
 <attribute name="VALUE" x="152.4" y="172.72" size="1.778" layer="96" rot="R90"/>
@@ -9000,7 +9000,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <attribute name="VALUE" x="106.68" y="220.98" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U11" gate="G$1" x="231.14" y="154.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="231.14" y="167.64" size="1.778" layer="95"/>
 <attribute name="VALUE" x="243.84" y="144.653" size="1.778" layer="96" rot="MR0" align="top-left"/>
 </instance>
 <instance part="R20" gate="G$1" x="251.46" y="154.94" smashed="yes" rot="R270">
@@ -9043,8 +9042,8 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <attribute name="TOLERANCE" x="111.76" y="106.68" size="0.127" layer="96" rot="MR0" display="off"/>
 <attribute name="VOLTAGE" x="111.76" y="106.68" size="0.127" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="FLIP" gate="1" x="109.22" y="73.66" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="101.6" y="76.2" size="1.778" layer="96" rot="MR180"/>
+<instance part="FLIP" gate="1" x="101.6" y="73.66" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="101.6" y="73.66" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="GND43" gate="1" x="60.96" y="55.88" smashed="yes">
 <attribute name="VALUE" x="58.42" y="53.34" size="1.778" layer="96"/>
@@ -9056,8 +9055,8 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <instance part="+3V4" gate="G$1" x="48.26" y="73.66" smashed="yes" rot="R90">
 <attribute name="VALUE" x="48.26" y="76.2" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="99.06" y="58.42" smashed="yes" rot="R270">
-<attribute name="VALUE" x="96.52" y="55.88" size="1.778" layer="96"/>
+<instance part="+3V5" gate="G$1" x="101.6" y="58.42" smashed="yes" rot="R270">
+<attribute name="VALUE" x="101.6" y="58.42" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C22" gate="G$1" x="93.98" y="81.28" smashed="yes" rot="MR180">
 <attribute name="NAME" x="95.504" y="83.439" size="1.778" layer="95" rot="MR180"/>
@@ -9245,7 +9244,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <segment>
 <pinref part="U8" gate="G$1" pin="3"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="233.68" y1="220.98" x2="233.68" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="218.44" x2="233.68" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND43" gate="1" pin="GND"/>
@@ -9398,7 +9397,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <pinref part="FLIP" gate="1" pin="+5V"/>
 <pinref part="U13" gate="G$1" pin="VCCB"/>
 <pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="76.2" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
 <junction x="93.98" y="73.66"/>
 </segment>
@@ -9606,7 +9605,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <segment>
 <pinref part="U13" gate="G$1" pin="OE"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<wire x1="96.52" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
@@ -9646,8 +9645,8 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 </net>
 <net name="SCK_5V" class="0">
 <segment>
-<wire x1="91.44" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
-<label x="93.98" y="66.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="91.44" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="96.52" y="66.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="U13" gate="G$1" pin="B3"/>
 </segment>
 <segment>
