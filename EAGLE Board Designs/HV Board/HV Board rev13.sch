@@ -7996,7 +7996,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <instance part="D1" gate="G$1" x="38.1" y="-45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.3474" y="-49.53" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="U$10" gate="G$1" x="386.08" y="-15.24" smashed="yes" rot="R180"/>
+<instance part="U$10" gate="G$1" x="391.16" y="-15.24" smashed="yes" rot="R180"/>
 <instance part="U$11" gate="G$1" x="386.08" y="27.94" smashed="yes" rot="R180"/>
 <instance part="U10" gate="G$1" x="175.26" y="-91.44" smashed="yes">
 <attribute name="NAME" x="175.895" y="-89.535" size="1.778" layer="95"/>
@@ -8502,8 +8502,8 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="P$1"/>
-<wire x1="388.62" y1="-15.24" x2="393.7" y2="-15.24" width="0.1524" layer="91"/>
-<label x="393.7" y="-15.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="393.7" y1="-15.24" x2="398.78" y2="-15.24" width="0.1524" layer="91"/>
+<label x="398.78" y="-15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="DC-"/>
@@ -9093,8 +9093,8 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <attribute name="VALUE" x="256.54" y="177.8" size="1.778" layer="96" rot="MR0" align="top-left"/>
 <attribute name="NAME" x="256.54" y="198.12" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="+3V9" gate="G$1" x="236.22" y="200.66" smashed="yes">
-<attribute name="VALUE" x="233.68" y="195.58" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V9" gate="G$1" x="233.68" y="200.66" smashed="yes">
+<attribute name="VALUE" x="233.68" y="200.66" size="1.778" layer="96"/>
 </instance>
 <instance part="R14" gate="G$1" x="271.78" y="187.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="270.2814" y="184.15" size="1.778" layer="95" rot="R90"/>
@@ -9621,7 +9621,8 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <pinref part="U$9" gate="G$1" pin="VCC"/>
-<wire x1="236.22" y1="198.12" x2="236.22" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="198.12" x2="233.68" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="193.04" x2="236.22" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS_MCP3208_3.3V" class="0">
