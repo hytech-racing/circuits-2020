@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -2173,7 +2173,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="INV" library="HyTechDevices" package="LED-805" value="Red" x="10.668" y="9.5288" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.636" y="10.287" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="BRAKE" library="HyTechDevices" package="LED-805" value="RED" x="42.3672" y="32.9438" smashed="yes" rot="R90">
+<element name="BRAKE" library="HyTechDevices" package="LED-805" value="Red" x="42.3672" y="32.9438" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.196" y="32.0802" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="D" library="HyTechDevices" package="LED-805" value="Orange" x="10.668" y="29.845" smashed="yes" rot="R90">
@@ -2226,7 +2226,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="R37" library="HyTechDevices" package="0603-RES" value="10k" x="53.34" y="31.496" smashed="yes" rot="R90">
 <attribute name="NAME" x="54.2544" y="30.1244" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R35" library="HyTechDevices" package="0603-RES" value="219" x="46.1772" y="35.2298" smashed="yes" rot="R180">
+<element name="R35" library="HyTechDevices" package="0603-RES" value="215" x="46.1772" y="35.2298" smashed="yes" rot="R180">
 <attribute name="NAME" x="47.5488" y="34.5694" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R34" library="HyTechDevices" package="0603-RES" value="324" x="46.0756" y="32.9184" smashed="yes" rot="R180">
@@ -2238,7 +2238,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="R119" library="HyTechDevices" package="0603-RES" value="12k" x="42.1386" y="30.734" smashed="yes" rot="MR270">
 <attribute name="NAME" x="41.1988" y="33.1978" size="0.8128" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="R118" library="HyTechDevices" package="0603-RES" value="4k" x="42.1386" y="27.432" smashed="yes" rot="MR270">
+<element name="R118" library="HyTechDevices" package="0603-RES" value="4.02k" x="42.1386" y="27.432" smashed="yes" rot="MR270">
 <attribute name="NAME" x="41.4528" y="25.8826" size="0.8128" layer="26" font="vector" rot="MR180"/>
 </element>
 <element name="R115" library="HyTechDevices" package="0603-RES" value="14300" x="47.244" y="33.528" smashed="yes" rot="MR270">
@@ -2265,19 +2265,19 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="R120" library="HyTechDevices" package="0603-RES" value="10k" x="39.751" y="48.2346" smashed="yes" rot="MR0">
 <attribute name="NAME" x="41.0972" y="48.9204" size="0.8128" layer="26" font="vector" rot="MR0"/>
 </element>
-<element name="R100" library="HyTechDevices" package="0603-RES" value="60" x="89.0778" y="47.498" smashed="yes" rot="MR0">
+<element name="R100" library="HyTechDevices" package="0603-RES" value="60.4" x="89.0778" y="47.498" smashed="yes" rot="MR0">
 <attribute name="NAME" x="87.1982" y="47.879" size="0.8128" layer="26" font="vector" rot="MR0"/>
 </element>
-<element name="R101" library="HyTechDevices" package="0603-RES" value="60" x="89.0778" y="49.6824" smashed="yes" rot="MR180">
+<element name="R101" library="HyTechDevices" package="0603-RES" value="60.4" x="89.0778" y="49.6824" smashed="yes" rot="MR180">
 <attribute name="NAME" x="87.1982" y="49.6824" size="0.8128" layer="26" font="vector" rot="MR0"/>
 </element>
-<element name="R2" library="HyTechDevices" package="0603-RES" value="33" x="4.5466" y="99.8982" smashed="yes">
+<element name="R2" library="HyTechDevices" package="0603-RES" value="30" x="4.5466" y="99.8982" smashed="yes">
 <attribute name="NAME" x="2.9464" y="101.092" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R3" library="HyTechDevices" package="0603-RES" value="1.2k" x="4.5466" y="97.1296" smashed="yes">
+<element name="R3" library="HyTechDevices" package="0603-RES" value="147" x="4.5466" y="97.1296" smashed="yes">
 <attribute name="NAME" x="2.9464" y="98.2472" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R4" library="HyTechDevices" package="0603-RES" value="0" x="4.5466" y="94.0816" smashed="yes">
+<element name="R4" library="HyTechDevices" package="0603-RES" value="30" x="4.5466" y="94.0816" smashed="yes">
 <attribute name="NAME" x="2.9464" y="95.2246" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R24" library="HyTechDevices" package="0603-RES" value="43k" x="22.225" y="24.765" smashed="yes" rot="R180">
@@ -2525,13 +2525,13 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="NAME" x="50.3174" y="34.871" size="0.8128" layer="25" font="vector" rot="R90" align="center"/>
 </element>
 <element name="X1" library="HyTechDevices" package="NANO-FIT_VERTICAL-4" value="CONNECTOR-4NANO-FIT-VERTICAL-4" x="64.77" y="30.226" smashed="yes" rot="R90"/>
-<element name="E" library="HyTechDevices" package="LED-805" value="RED" x="10.668" y="27.305" smashed="yes" rot="R90">
+<element name="E" library="HyTechDevices" package="LED-805" value="Red" x="10.668" y="27.305" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.366" y="28.067" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R10" library="HyTechDevices" package="0603-RES" value="1k" x="14.859" y="27.305" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.7226" y="26.5468" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="SWOK" library="HyTechDevices" package="LED-805" value="RED" x="10.668" y="17.145" smashed="yes" rot="R90">
+<element name="SWOK" library="HyTechDevices" package="LED-805" value="Red" x="10.668" y="17.145" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.636" y="17.907" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R14" library="HyTechDevices" package="0603-RES" value="976" x="14.859" y="17.145" smashed="yes" rot="R180">
