@@ -4087,16 +4087,16 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND115" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R32" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="330"/>
 <part name="GND117" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R37" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="13.3k"/>
+<part name="R37" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="7.5k"/>
 <part name="U11" library="HyTechDevices" deviceset="SN74AHC1G09" device=""/>
 <part name="GND119" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R38" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="28.7k"/>
-<part name="C30" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="7.5nF"/>
+<part name="R38" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="16.5k"/>
+<part name="C30" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="12nF"/>
 <part name="GND122" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R119" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
 <part name="R118" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="4.02k"/>
-<part name="R115" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="102"/>
-<part name="R114" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1240"/>
+<part name="R115" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="137"/>
+<part name="R114" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1690"/>
 <part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="D9" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="Q1" library="HyTechDevices" deviceset="P-CHANNEL_MOSFET_DMP3099L-7" device=""/>
@@ -4111,8 +4111,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="U6" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND10" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R40" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="3160"/>
-<part name="R41" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2430"/>
+<part name="R40" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1210"/>
+<part name="R41" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="909"/>
 <part name="GND8" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="CAL_BRAKE" library="HyTechDevices" deviceset="TRIMPOT_3296" device="C"/>
 <part name="GND114" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -4161,17 +4161,19 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <plain>
 <text x="279.4" y="22.86" size="2.54" layer="94">Ethan Weinstock</text>
 <text x="347.98" y="15.24" size="2.54" layer="94">Shutdown ciruitry</text>
-<text x="88.9" y="210.82" size="1.778" layer="97">Dividing 15 down to 4.75 (31.667%)</text>
-<text x="180.34" y="220.98" size="1.778" layer="97">Either 5 or 0.38 (76% of 0.5V) depending on comparator output</text>
-<text x="134.62" y="243.84" size="1.778" layer="97">2.1735V (2.86V target * 0.76)</text>
+<text x="86.36" y="210.82" size="1.778" layer="97">Dividing 15 down to 4.6875 (31.25%)</text>
+<text x="180.34" y="220.98" size="1.778" layer="97">Either 5 or 0.375 (75% of 0.5V) depending on comparator output</text>
+<text x="134.62" y="243.84" size="1.778" layer="97">2.1448V (2.86V target * 0.75)</text>
 <text x="175.26" y="162.56" size="1.778" layer="97">Either 5 or 0.474 (95% of 0.5V)
 depending on
 comparator output</text>
-<text x="127" y="165.1" size="1.778" layer="97">Nominally 0.696V</text>
+<text x="124.46" y="167.64" size="1.778" layer="97">Nominally 0.696V (95%)
+0.7326V is code brake
+high threshold </text>
 <text x="78.74" y="152.4" size="1.778" layer="97">Dividing 5 down to 4.75 (95%)</text>
 <text x="60.96" y="215.9" size="1.778" layer="97">2.4 gain on HV board
-0.316667 gain on Main ECU
-= 0.76 overall</text>
+0.3125 gain on Main ECU
+= 0.75 overall</text>
 </plain>
 <instances>
 <instance part="R33" gate="G$1" x="271.78" y="149.86" smashed="yes" rot="R180">
