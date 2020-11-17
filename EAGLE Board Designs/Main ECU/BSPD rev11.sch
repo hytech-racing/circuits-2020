@@ -4567,8 +4567,6 @@ Source: http://www.molex.com</description>
 <part name="GND17" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+2" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P+8" library="HyTechSupplies" deviceset="+12V" device=""/>
-<part name="U$1" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
-<part name="U$2" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
 <part name="U$3" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10"/>
 <part name="REG2" library="HyTechDevices" deviceset="OKI-78SR-5" device="" value="5V"/>
@@ -4592,6 +4590,8 @@ Source: http://www.molex.com</description>
 <part name="GND4" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="31600"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="5110"/>
+<part name="U$1" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
+<part name="U$2" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4898,8 +4898,6 @@ them installed</text>
 <instance part="P+8" gate="1" x="83.82" y="76.2" smashed="yes">
 <attribute name="VALUE" x="80.772" y="77.978" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="220.98" y="198.12" smashed="yes" rot="R90"/>
-<instance part="U$2" gate="G$1" x="215.9" y="119.38" smashed="yes" rot="R270"/>
 <instance part="U$3" gate="G$1" x="365.76" y="167.64" smashed="yes" rot="R270"/>
 <instance part="R3" gate="G$1" x="325.12" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="323.6214" y="163.83" size="1.778" layer="95" rot="R90"/>
@@ -4982,6 +4980,8 @@ them installed</text>
 <attribute name="NAME" x="100.1014" y="158.75" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="104.902" y="158.75" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$1" gate="G$1" x="154.94" y="157.48" smashed="yes" rot="R270"/>
+<instance part="U$2" gate="G$1" x="182.88" y="218.44" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -5284,13 +5284,10 @@ them installed</text>
 <segment>
 <pinref part="U11" gate="G$1" pin="1"/>
 <label x="220.98" y="167.64" size="1.778" layer="95" rot="R90"/>
-<wire x1="200.66" y1="195.58" x2="218.44" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="195.58" x2="220.98" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="195.58" x2="220.98" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="195.58" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="167.64" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="U19" gate="G$1" pin="VOUT"/>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
-<junction x="218.44" y="195.58"/>
 </segment>
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
@@ -5305,10 +5302,7 @@ them installed</text>
 <pinref part="U11" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="165.1" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U28" gate="G$1" pin="VOUT"/>
-<wire x1="220.98" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="218.44" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
-<junction x="218.44" y="121.92"/>
+<wire x1="220.98" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="1"/>
@@ -5325,12 +5319,15 @@ them installed</text>
 <pinref part="U19" gate="G$1" pin="VIN+"/>
 <wire x1="152.4" y1="226.06" x2="152.4" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="198.12" x2="180.34" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="198.12" x2="180.34" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="198.12" x2="180.34" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="220.98" x2="180.34" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="226.06" x2="167.64" y2="226.06" width="0.1524" layer="91"/>
 <junction x="152.4" y="226.06"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="226.06" x2="152.4" y2="226.06" width="0.1524" layer="91"/>
 <junction x="167.64" y="226.06"/>
+<pinref part="U$2" gate="G$1" pin="P$1"/>
+<junction x="180.34" y="220.98"/>
 </segment>
 </net>
 <net name="N$107" class="0">
@@ -5534,10 +5531,13 @@ them installed</text>
 <wire x1="175.26" y1="160.02" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
 <junction x="147.32" y="160.02"/>
 <pinref part="U28" gate="G$1" pin="VIN+"/>
-<wire x1="167.64" y1="160.02" x2="147.32" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="160.02" x2="157.48" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="160.02" x2="147.32" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <junction x="167.64" y="160.02"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<junction x="157.48" y="160.02"/>
 </segment>
 </net>
 <net name="N$4" class="0">
