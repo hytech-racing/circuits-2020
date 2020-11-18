@@ -395,31 +395,12 @@
 <text x="2.54" y="2.54" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="+3V3">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+5V" prefix="P+">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+3V3" prefix="+3V3">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -471,7 +452,6 @@
 <part name="U$2" library="HyTechDevices" deviceset="ADIS16209" device=""/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+2" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="+3V1" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="GND2" library="HyTechSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -490,9 +470,6 @@
 <instance part="P+2" gate="1" x="121.92" y="73.66" smashed="yes">
 <attribute name="VALUE" x="124.46" y="76.2" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="124.46" y="101.6" smashed="yes">
-<attribute name="VALUE" x="121.92" y="96.52" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND2" gate="1" x="116.84" y="104.14" smashed="yes">
 <attribute name="VALUE" x="114.3" y="101.6" size="1.778" layer="96"/>
 </instance>
@@ -506,14 +483,6 @@
 <pinref part="U$1" gate="G$1" pin="VIN"/>
 <wire x1="121.92" y1="71.12" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="68.58" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<pinref part="U$2" gate="G$1" pin="VDD"/>
-<wire x1="124.46" y1="99.06" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -576,6 +545,15 @@
 <pinref part="U$2" gate="G$1" pin="DOUT"/>
 <wire x1="93.98" y1="93.98" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
 <label x="91.44" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="3.3V"/>
+<wire x1="119.38" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VDD"/>
+<wire x1="121.92" y1="88.9" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="88.9" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
