@@ -4590,8 +4590,8 @@ Source: http://www.molex.com</description>
 <part name="GND4" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="31600"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="5110"/>
-<part name="U$1" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
-<part name="U$2" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
+<part name="BRAKE_LOW_DIV" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
+<part name="CURRENT_LOW_DIV" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4980,8 +4980,8 @@ them installed</text>
 <attribute name="NAME" x="100.1014" y="158.75" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="104.902" y="158.75" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="154.94" y="157.48" smashed="yes" rot="R270"/>
-<instance part="U$2" gate="G$1" x="182.88" y="218.44" smashed="yes"/>
+<instance part="BRAKE_LOW_DIV" gate="G$1" x="154.94" y="157.48" smashed="yes" rot="R270"/>
+<instance part="CURRENT_LOW_DIV" gate="G$1" x="182.88" y="218.44" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -5326,7 +5326,7 @@ them installed</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="226.06" x2="152.4" y2="226.06" width="0.1524" layer="91"/>
 <junction x="167.64" y="226.06"/>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="CURRENT_LOW_DIV" gate="G$1" pin="P$1"/>
 <junction x="180.34" y="220.98"/>
 </segment>
 </net>
@@ -5536,7 +5536,7 @@ them installed</text>
 <wire x1="175.26" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <junction x="167.64" y="160.02"/>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
+<pinref part="BRAKE_LOW_DIV" gate="G$1" pin="P$1"/>
 <junction x="157.48" y="160.02"/>
 </segment>
 </net>
