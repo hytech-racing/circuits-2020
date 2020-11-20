@@ -4567,7 +4567,7 @@ Source: http://www.molex.com</description>
 <part name="GND17" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+2" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P+8" library="HyTechSupplies" deviceset="+12V" device=""/>
-<part name="U$3" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
+<part name="BSPD_OK" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10"/>
 <part name="REG2" library="HyTechDevices" deviceset="OKI-78SR-5" device="" value="5V"/>
 <part name="GND87" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -4898,7 +4898,7 @@ them installed</text>
 <instance part="P+8" gate="1" x="83.82" y="76.2" smashed="yes">
 <attribute name="VALUE" x="80.772" y="77.978" size="1.778" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="365.76" y="167.64" smashed="yes" rot="R270"/>
+<instance part="BSPD_OK" gate="G$1" x="365.76" y="167.64" smashed="yes" rot="R270"/>
 <instance part="R3" gate="G$1" x="325.12" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="323.6214" y="163.83" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="328.422" y="163.83" size="1.778" layer="96" rot="R90"/>
@@ -5259,7 +5259,7 @@ them installed</text>
 <pinref part="R30" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="170.18" x2="368.3" y2="170.18" width="0.1524" layer="91"/>
 <label x="393.7" y="170.18" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
+<pinref part="BSPD_OK" gate="G$1" pin="P$1"/>
 <junction x="368.3" y="170.18"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="368.3" y1="170.18" x2="383.54" y2="170.18" width="0.1524" layer="91"/>
