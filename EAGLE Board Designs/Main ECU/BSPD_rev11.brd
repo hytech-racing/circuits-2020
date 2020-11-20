@@ -192,6 +192,8 @@
 <wire x1="87.61" y1="100" x2="0" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 <text x="19.05" y="95.25" size="0.762" layer="25">CURRENT_LOW_DIV</text>
+<text x="19.177" y="77.216" size="0.762" layer="25">BRAKE_LOW_DIV</text>
+<text x="45.466" y="74.93" size="0.762" layer="25">BSPD_OK</text>
 </plain>
 <libraries>
 <library name="HyTechDevices">
