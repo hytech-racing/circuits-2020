@@ -5287,16 +5287,16 @@ Layer: 94 Symbol</description>
 </part>
 <part name="AMS_THERM_TEST" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="AMS_THERM_TEST"/>
 <part name="U$22" library="HyTechFrames" deviceset="FRAME_B" device="">
-<attribute name="ENGINEER" value=""/>
+<attribute name="ENGINEER" value="Arvind Srinivasan"/>
 <attribute name="FRAME_DESCRIPTION" value="Upper LTC6811 IC"/>
 </part>
 <part name="U$23" library="HyTechFrames" deviceset="FRAME_B" device="">
 <attribute name="ENGINEER" value="Arvind Srinivasan"/>
-<attribute name="FRAME_DESCRIPTION" value="Lower LTC6811 IC and AMS Cell Thermistor Test Connection"/>
+<attribute name="FRAME_DESCRIPTION" value="Lower LTC6811 IC and Cell Thermistor Test Connection"/>
 </part>
 <part name="U$24" library="HyTechFrames" deviceset="FRAME_B" device="">
 <attribute name="ENGINEER" value="Arvind Srinivasan"/>
-<attribute name="FRAME_DESCRIPTION" value="Upper 9 Cell Connections and AMS Cell Voltage Test Connection"/>
+<attribute name="FRAME_DESCRIPTION" value="Upper 9 Cell Connections and Cell Voltage Test Connection"/>
 </part>
 <part name="U$25" library="HyTechFrames" deviceset="FRAME_B" device="">
 <attribute name="ENGINEER" value="Arvind Srinivasan"/>
@@ -5305,7 +5305,7 @@ Layer: 94 Symbol</description>
 </parts>
 <sheets>
 <sheet>
-<description>Upper 9 Cell Connections and AMS Cell Voltage Test Connection</description>
+<description>Upper 9 Cell Connections and Cell Voltage Test Connection</description>
 <plain>
 <text x="-375.92" y="147.32" size="1.778" layer="97" rot="R90">VOLTAGE TAPS</text>
 <text x="-391.16" y="215.9" size="6.4516" layer="97">Circuit A (Upper 9 Cells)</text>
@@ -6668,27 +6668,27 @@ CIRCUIT A AND CIRCUIT B</text>
 <plain>
 <text x="-312.42" y="86.36" size="1.778" layer="97">See pg. 86 for unused cells
 (9 cells per LTC6811 in this design)</text>
-<text x="-185.42" y="172.72" size="1.778" layer="97">3 cell thermistors and 2 PCB thermistors per LTC6811 IC</text>
+<text x="-180.34" y="177.8" size="1.778" layer="97">3 cell thermistors and 2 PCB thermistors per LTC6811 IC</text>
 <text x="-284.48" y="226.06" size="1.778" layer="97" align="bottom-center">RM (TERMINATION) is only to be connected on LAST segment</text>
 <text x="-236.22" y="167.64" size="1.778" layer="95">0Ω resistors to
 set chip address</text>
 <text x="-302.26" y="162.56" size="1.778" layer="95">LTC6811-2</text>
 </plain>
 <moduleinsts>
-<moduleinst name="THERM_FILTER1" module="CELL_THERM_FILTER" x="-154.94" y="162.56">
-<attribute name="NAME" x="-154.94" y="162.56" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERM_FILTER1" module="CELL_THERM_FILTER" x="-149.86" y="167.64">
+<attribute name="NAME" x="-149.86" y="167.64" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THERM_FILTER2" module="CELL_THERM_FILTER" x="-154.94" y="142.24">
-<attribute name="NAME" x="-154.94" y="142.24" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERM_FILTER2" module="CELL_THERM_FILTER" x="-149.86" y="147.32">
+<attribute name="NAME" x="-149.86" y="147.32" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THERM_FILTER3" module="CELL_THERM_FILTER" x="-154.94" y="121.92">
-<attribute name="NAME" x="-154.94" y="121.92" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERM_FILTER3" module="CELL_THERM_FILTER" x="-149.86" y="127">
+<attribute name="NAME" x="-149.86" y="127" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THERM_FILTER4" module="CELL_THERM_FILTER" x="-154.94" y="101.6">
-<attribute name="NAME" x="-154.94" y="101.6" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERM_FILTER4" module="CELL_THERM_FILTER" x="-149.86" y="106.68">
+<attribute name="NAME" x="-149.86" y="106.68" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THERM_FILTER5" module="CELL_THERM_FILTER" x="-154.94" y="81.28">
-<attribute name="NAME" x="-154.94" y="81.28" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERM_FILTER5" module="CELL_THERM_FILTER" x="-149.86" y="86.36">
+<attribute name="NAME" x="-149.86" y="86.36" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -6733,8 +6733,8 @@ set chip address</text>
 <instance part="SUPPLY8" gate="1" x="-266.7" y="114.3" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-266.7" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY9" gate="1" x="-139.7" y="149.86" smashed="yes">
-<attribute name="VALUE" x="-139.7" y="149.86" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY9" gate="1" x="-134.62" y="154.94" smashed="yes">
+<attribute name="VALUE" x="-134.62" y="154.94" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="ISOSPI_B" gate="-2" x="-228.6" y="218.44" smashed="yes">
 <attribute name="NAME" x="-226.06" y="217.678" size="1.524" layer="95"/>
@@ -6743,19 +6743,19 @@ set chip address</text>
 <attribute name="NAME" x="-226.06" y="220.218" size="1.524" layer="95"/>
 <attribute name="VALUE" x="-229.362" y="222.377" size="1.778" layer="96"/>
 </instance>
-<instance part="THERM2" gate="G$1" x="-132.08" y="96.52" smashed="yes">
-<attribute name="NAME" x="-136.398" y="99.06" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-134.62" y="92.202" size="1.778" layer="96"/>
+<instance part="THERM2" gate="G$1" x="-127" y="101.6" smashed="yes">
+<attribute name="NAME" x="-131.318" y="104.14" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-129.54" y="97.282" size="1.778" layer="96"/>
 </instance>
-<instance part="THERM1" gate="G$1" x="-132.08" y="76.2" smashed="yes">
-<attribute name="NAME" x="-136.398" y="78.74" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-134.62" y="71.882" size="1.778" layer="96"/>
+<instance part="THERM1" gate="G$1" x="-127" y="81.28" smashed="yes">
+<attribute name="NAME" x="-131.318" y="83.82" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-129.54" y="76.962" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY10" gate="1" x="-121.92" y="93.98" smashed="yes">
-<attribute name="VALUE" x="-121.92" y="96.52" size="1.778" layer="96"/>
+<instance part="SUPPLY10" gate="1" x="-116.84" y="99.06" smashed="yes">
+<attribute name="VALUE" x="-116.84" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY11" gate="1" x="-121.92" y="73.66" smashed="yes">
-<attribute name="VALUE" x="-121.92" y="76.2" size="1.778" layer="96"/>
+<instance part="SUPPLY11" gate="1" x="-116.84" y="78.74" smashed="yes">
+<attribute name="VALUE" x="-116.84" y="81.28" size="1.778" layer="96"/>
 </instance>
 <instance part="TRANSFORMER" gate="G$1" x="-289.56" y="210.82" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-284.48" y="223.647" size="1.778" layer="96" rot="R180" align="bottom-center"/>
@@ -6834,47 +6834,47 @@ set chip address</text>
 <instance part="SUPPLY19" gate="1" x="-215.9" y="109.22" smashed="yes">
 <attribute name="VALUE" x="-215.9" y="109.22" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY24" gate="1" x="-139.7" y="129.54" smashed="yes">
-<attribute name="VALUE" x="-139.7" y="129.54" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY24" gate="1" x="-134.62" y="134.62" smashed="yes">
+<attribute name="VALUE" x="-134.62" y="134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY25" gate="1" x="-139.7" y="109.22" smashed="yes">
-<attribute name="VALUE" x="-139.7" y="109.22" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY25" gate="1" x="-134.62" y="114.3" smashed="yes">
+<attribute name="VALUE" x="-134.62" y="114.3" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY59" gate="1" x="-121.92" y="83.82" smashed="yes">
-<attribute name="VALUE" x="-121.92" y="86.36" size="1.778" layer="96"/>
+<instance part="SUPPLY59" gate="1" x="-116.84" y="88.9" smashed="yes">
+<attribute name="VALUE" x="-116.84" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY60" gate="1" x="-121.92" y="104.14" smashed="yes">
-<attribute name="VALUE" x="-121.92" y="106.68" size="1.778" layer="96"/>
+<instance part="SUPPLY60" gate="1" x="-116.84" y="109.22" smashed="yes">
+<attribute name="VALUE" x="-116.84" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY61" gate="1" x="-129.54" y="124.46" smashed="yes">
-<attribute name="VALUE" x="-129.54" y="127" size="1.778" layer="96"/>
+<instance part="SUPPLY61" gate="1" x="-124.46" y="129.54" smashed="yes">
+<attribute name="VALUE" x="-124.46" y="132.08" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY62" gate="1" x="-129.54" y="144.78" smashed="yes">
-<attribute name="VALUE" x="-127" y="144.78" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY62" gate="1" x="-124.46" y="149.86" smashed="yes">
+<attribute name="VALUE" x="-121.92" y="149.86" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY63" gate="1" x="-129.54" y="165.1" smashed="yes">
-<attribute name="VALUE" x="-130.81" y="162.56" size="1.778" layer="96"/>
+<instance part="SUPPLY63" gate="1" x="-124.46" y="170.18" smashed="yes">
+<attribute name="VALUE" x="-125.73" y="167.64" size="1.778" layer="96"/>
 </instance>
-<instance part="THERM1_B" gate="-2" x="-134.62" y="154.94" smashed="yes">
-<attribute name="NAME" x="-132.08" y="154.178" size="1.524" layer="95"/>
+<instance part="THERM1_B" gate="-2" x="-129.54" y="160.02" smashed="yes">
+<attribute name="NAME" x="-127" y="159.258" size="1.524" layer="95"/>
 </instance>
-<instance part="THERM1_B" gate="-1" x="-134.62" y="157.48" smashed="yes">
-<attribute name="NAME" x="-132.08" y="156.718" size="1.524" layer="95"/>
-<attribute name="VALUE" x="-135.382" y="158.877" size="1.778" layer="96"/>
+<instance part="THERM1_B" gate="-1" x="-129.54" y="162.56" smashed="yes">
+<attribute name="NAME" x="-127" y="161.798" size="1.524" layer="95"/>
+<attribute name="VALUE" x="-130.302" y="163.957" size="1.778" layer="96"/>
 </instance>
-<instance part="THERM2_B" gate="-2" x="-134.62" y="134.62" smashed="yes">
-<attribute name="NAME" x="-132.08" y="133.858" size="1.524" layer="95"/>
+<instance part="THERM2_B" gate="-2" x="-129.54" y="139.7" smashed="yes">
+<attribute name="NAME" x="-127" y="138.938" size="1.524" layer="95"/>
 </instance>
-<instance part="THERM2_B" gate="-1" x="-134.62" y="137.16" smashed="yes">
-<attribute name="NAME" x="-132.08" y="136.398" size="1.524" layer="95"/>
-<attribute name="VALUE" x="-135.382" y="138.557" size="1.778" layer="96"/>
+<instance part="THERM2_B" gate="-1" x="-129.54" y="142.24" smashed="yes">
+<attribute name="NAME" x="-127" y="141.478" size="1.524" layer="95"/>
+<attribute name="VALUE" x="-130.302" y="143.637" size="1.778" layer="96"/>
 </instance>
-<instance part="THERM3_B" gate="-2" x="-134.62" y="114.3" smashed="yes">
-<attribute name="NAME" x="-132.08" y="113.538" size="1.524" layer="95"/>
+<instance part="THERM3_B" gate="-2" x="-129.54" y="119.38" smashed="yes">
+<attribute name="NAME" x="-127" y="118.618" size="1.524" layer="95"/>
 </instance>
-<instance part="THERM3_B" gate="-1" x="-134.62" y="116.84" smashed="yes">
-<attribute name="NAME" x="-132.08" y="116.078" size="1.524" layer="95"/>
-<attribute name="VALUE" x="-135.382" y="118.237" size="1.778" layer="96"/>
+<instance part="THERM3_B" gate="-1" x="-129.54" y="121.92" smashed="yes">
+<attribute name="NAME" x="-127" y="121.158" size="1.524" layer="95"/>
+<attribute name="VALUE" x="-130.302" y="123.317" size="1.778" layer="96"/>
 </instance>
 <instance part="Q2" gate="G$1" x="-284.48" y="68.58" smashed="yes">
 <attribute name="NAME" x="-280.67" y="68.58" size="1.778" layer="95"/>
@@ -6923,28 +6923,28 @@ set chip address</text>
 <label x="-233.68" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-171.45" y1="106.68" x2="-172.72" y2="106.68" width="0.1524" layer="91"/>
-<label x="-172.72" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-166.37" y1="111.76" x2="-167.64" y2="111.76" width="0.1524" layer="91"/>
+<label x="-167.64" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER4" port="VREF"/>
 </segment>
 <segment>
-<wire x1="-171.45" y1="86.36" x2="-172.72" y2="86.36" width="0.1524" layer="91"/>
-<label x="-172.72" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-166.37" y1="91.44" x2="-167.64" y2="91.44" width="0.1524" layer="91"/>
+<label x="-167.64" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER5" port="VREF"/>
 </segment>
 <segment>
-<wire x1="-171.45" y1="127" x2="-172.72" y2="127" width="0.1524" layer="91"/>
-<label x="-172.72" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-166.37" y1="132.08" x2="-167.64" y2="132.08" width="0.1524" layer="91"/>
+<label x="-167.64" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER3" port="VREF"/>
 </segment>
 <segment>
-<wire x1="-171.45" y1="147.32" x2="-172.72" y2="147.32" width="0.1524" layer="91"/>
-<label x="-172.72" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-166.37" y1="152.4" x2="-167.64" y2="152.4" width="0.1524" layer="91"/>
+<label x="-167.64" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER2" port="VREF"/>
 </segment>
 <segment>
-<wire x1="-171.45" y1="167.64" x2="-172.72" y2="167.64" width="0.1524" layer="91"/>
-<label x="-172.72" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-166.37" y1="172.72" x2="-167.64" y2="172.72" width="0.1524" layer="91"/>
+<label x="-167.64" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER1" port="VREF"/>
 </segment>
 </net>
@@ -7028,8 +7028,8 @@ set chip address</text>
 </segment>
 <segment>
 <portref moduleinst="THERM_FILTER3" port="GPIO"/>
-<wire x1="-171.45" y1="116.84" x2="-172.72" y2="116.84" width="0.1524" layer="91"/>
-<label x="-172.72" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-166.37" y1="121.92" x2="-167.64" y2="121.92" width="0.1524" layer="91"/>
+<label x="-167.64" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="C4_B" class="0">
@@ -7250,19 +7250,19 @@ set chip address</text>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="1" pin="V-"/>
-<wire x1="-137.16" y1="154.94" x2="-139.7" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="154.94" x2="-139.7" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="160.02" x2="-134.62" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="160.02" x2="-134.62" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="THERM1_B" gate="-2" pin="S"/>
 </segment>
 <segment>
 <pinref part="THERM2" gate="G$1" pin="1"/>
 <pinref part="SUPPLY10" gate="1" pin="V-"/>
-<wire x1="-127" y1="96.52" x2="-121.92" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="101.6" x2="-116.84" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="THERM1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY11" gate="1" pin="V-"/>
-<wire x1="-127" y1="76.2" x2="-121.92" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="81.28" x2="-116.84" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J7_B" gate="G$1" pin="2"/>
@@ -7290,41 +7290,41 @@ set chip address</text>
 <wire x1="-215.9" y1="111.76" x2="-215.9" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-137.16" y1="134.62" x2="-139.7" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="134.62" x2="-139.7" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="139.7" x2="-134.62" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="139.7" x2="-134.62" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="SUPPLY24" gate="1" pin="V-"/>
 <pinref part="THERM2_B" gate="-2" pin="S"/>
 </segment>
 <segment>
-<wire x1="-137.16" y1="114.3" x2="-139.7" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="114.3" x2="-139.7" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="119.38" x2="-134.62" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="119.38" x2="-134.62" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY25" gate="1" pin="V-"/>
 <pinref part="THERM3_B" gate="-2" pin="S"/>
 </segment>
 <segment>
 <pinref part="SUPPLY63" gate="1" pin="V-"/>
 <portref moduleinst="THERM_FILTER1" port="V-"/>
-<wire x1="-138.43" y1="167.64" x2="-129.54" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-133.35" y1="172.72" x2="-124.46" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY62" gate="1" pin="V-"/>
 <portref moduleinst="THERM_FILTER2" port="V-"/>
-<wire x1="-138.43" y1="147.32" x2="-129.54" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-133.35" y1="152.4" x2="-124.46" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY61" gate="1" pin="V-"/>
 <portref moduleinst="THERM_FILTER3" port="V-"/>
-<wire x1="-138.43" y1="127" x2="-129.54" y2="127" width="0.1524" layer="91"/>
+<wire x1="-133.35" y1="132.08" x2="-124.46" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY60" gate="1" pin="V-"/>
 <portref moduleinst="THERM_FILTER4" port="V-"/>
-<wire x1="-138.43" y1="106.68" x2="-121.92" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-133.35" y1="111.76" x2="-116.84" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY59" gate="1" pin="V-"/>
 <portref moduleinst="THERM_FILTER5" port="V-"/>
-<wire x1="-138.43" y1="86.36" x2="-121.92" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-133.35" y1="91.44" x2="-116.84" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8_B" gate="G$1" pin="2"/>
@@ -7363,8 +7363,8 @@ set chip address</text>
 <label x="-274.32" y="119.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-171.45" y1="96.52" x2="-172.72" y2="96.52" width="0.1524" layer="91"/>
-<label x="-172.72" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-166.37" y1="101.6" x2="-167.64" y2="101.6" width="0.1524" layer="91"/>
+<label x="-167.64" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER4" port="GPIO"/>
 </segment>
 </net>
@@ -7375,8 +7375,8 @@ set chip address</text>
 <label x="-261.62" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-171.45" y1="76.2" x2="-172.72" y2="76.2" width="0.1524" layer="91"/>
-<label x="-172.72" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-166.37" y1="81.28" x2="-167.64" y2="81.28" width="0.1524" layer="91"/>
+<label x="-167.64" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER5" port="GPIO"/>
 </segment>
 </net>
@@ -7513,7 +7513,7 @@ set chip address</text>
 <net name="N$19" class="0">
 <segment>
 <pinref part="THERM2" gate="G$1" pin="2"/>
-<wire x1="-137.16" y1="96.52" x2="-138.43" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="101.6" x2="-133.35" y2="101.6" width="0.1524" layer="91"/>
 <portref moduleinst="THERM_FILTER4" port="THERM"/>
 </segment>
 </net>
@@ -7525,8 +7525,8 @@ set chip address</text>
 </segment>
 <segment>
 <portref moduleinst="THERM_FILTER2" port="GPIO"/>
-<wire x1="-171.45" y1="137.16" x2="-172.72" y2="137.16" width="0.1524" layer="91"/>
-<label x="-172.72" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-166.37" y1="142.24" x2="-167.64" y2="142.24" width="0.1524" layer="91"/>
+<label x="-167.64" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO1_B" class="0">
@@ -7537,13 +7537,13 @@ set chip address</text>
 </segment>
 <segment>
 <portref moduleinst="THERM_FILTER1" port="GPIO"/>
-<wire x1="-171.45" y1="157.48" x2="-172.72" y2="157.48" width="0.1524" layer="91"/>
-<label x="-172.72" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-166.37" y1="162.56" x2="-167.64" y2="162.56" width="0.1524" layer="91"/>
+<label x="-167.64" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<wire x1="-138.43" y1="116.84" x2="-137.16" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-133.35" y1="121.92" x2="-132.08" y2="121.92" width="0.1524" layer="91"/>
 <portref moduleinst="THERM_FILTER3" port="THERM"/>
 <pinref part="THERM3_B" gate="-1" pin="S"/>
 </segment>
@@ -7552,20 +7552,20 @@ set chip address</text>
 <segment>
 <portref moduleinst="THERM_FILTER5" port="THERM"/>
 <pinref part="THERM1" gate="G$1" pin="2"/>
-<wire x1="-137.16" y1="76.2" x2="-138.43" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="81.28" x2="-133.35" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <portref moduleinst="THERM_FILTER2" port="THERM"/>
-<wire x1="-137.16" y1="137.16" x2="-138.43" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="142.24" x2="-133.35" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="THERM2_B" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <portref moduleinst="THERM_FILTER1" port="THERM"/>
-<wire x1="-137.16" y1="157.48" x2="-138.43" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="162.56" x2="-133.35" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="THERM1_B" gate="-1" pin="S"/>
 </segment>
 </net>
@@ -7606,31 +7606,31 @@ set chip address</text>
 </nets>
 </sheet>
 <sheet>
-<description>Lower LTC6811 IC and AMS Cell Thermistor Test Connection</description>
+<description>Lower LTC6811 IC and Cell Thermistor Test Connection</description>
 <plain>
 <text x="-314.96" y="86.36" size="1.778" layer="97">See pg. 86 for unused cells
 (9 cells per LTC6811 in this design)</text>
-<text x="-205.74" y="172.72" size="1.778" layer="97">3 cell thermistors and 2 PCB thermistors per LTC6811 IC</text>
+<text x="-190.5" y="175.26" size="1.778" layer="97">3 cell thermistors and 2 PCB thermistors per LTC6811 IC</text>
 <text x="-287.02" y="226.06" size="1.778" layer="97" align="bottom-center">RM (TERMINATION) is only to be connected on LAST segment</text>
 <text x="-238.76" y="167.64" size="1.778" layer="95">0Ω resistors to
 set chip address</text>
 <text x="-304.8" y="162.56" size="1.778" layer="95">LTC6811-2</text>
 </plain>
 <moduleinsts>
-<moduleinst name="THERM_FILTER6" module="CELL_THERM_FILTER" x="-175.26" y="162.56">
-<attribute name="NAME" x="-175.26" y="162.56" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERM_FILTER6" module="CELL_THERM_FILTER" x="-160.02" y="165.1">
+<attribute name="NAME" x="-160.02" y="165.1" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THERM_FILTER7" module="CELL_THERM_FILTER" x="-175.26" y="142.24">
-<attribute name="NAME" x="-175.26" y="142.24" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERM_FILTER7" module="CELL_THERM_FILTER" x="-160.02" y="144.78">
+<attribute name="NAME" x="-160.02" y="144.78" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THERM_FILTER8" module="CELL_THERM_FILTER" x="-175.26" y="121.92">
-<attribute name="NAME" x="-175.26" y="121.92" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERM_FILTER8" module="CELL_THERM_FILTER" x="-160.02" y="124.46">
+<attribute name="NAME" x="-160.02" y="124.46" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THERM_FILTER9" module="CELL_THERM_FILTER" x="-175.26" y="101.6">
-<attribute name="NAME" x="-175.26" y="101.6" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERM_FILTER9" module="CELL_THERM_FILTER" x="-160.02" y="104.14">
+<attribute name="NAME" x="-160.02" y="104.14" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THERM_FILTER10" module="CELL_THERM_FILTER" x="-175.26" y="81.28">
-<attribute name="NAME" x="-175.26" y="81.28" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="THERM_FILTER10" module="CELL_THERM_FILTER" x="-160.02" y="83.82">
+<attribute name="NAME" x="-160.02" y="83.82" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -7678,8 +7678,8 @@ set chip address</text>
 <instance part="SUPPLY35" gate="1" x="-269.24" y="114.3" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-269.24" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY36" gate="1" x="-160.02" y="149.86" smashed="yes">
-<attribute name="VALUE" x="-160.02" y="149.86" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY36" gate="1" x="-144.78" y="152.4" smashed="yes">
+<attribute name="VALUE" x="-144.78" y="152.4" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="ISOSPI_A" gate="-2" x="-231.14" y="218.44" smashed="yes">
 <attribute name="NAME" x="-228.6" y="217.678" size="1.524" layer="95"/>
@@ -7688,19 +7688,19 @@ set chip address</text>
 <attribute name="NAME" x="-228.6" y="220.218" size="1.524" layer="95"/>
 <attribute name="VALUE" x="-231.902" y="222.377" size="1.778" layer="96"/>
 </instance>
-<instance part="THERM4" gate="G$1" x="-152.4" y="96.52" smashed="yes">
-<attribute name="NAME" x="-156.718" y="99.06" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-154.94" y="92.202" size="1.778" layer="96"/>
+<instance part="THERM4" gate="G$1" x="-137.16" y="99.06" smashed="yes">
+<attribute name="NAME" x="-141.478" y="101.6" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-139.7" y="94.742" size="1.778" layer="96"/>
 </instance>
-<instance part="THERM3" gate="G$1" x="-152.4" y="76.2" smashed="yes">
-<attribute name="NAME" x="-156.718" y="78.74" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-154.94" y="71.882" size="1.778" layer="96"/>
+<instance part="THERM3" gate="G$1" x="-137.16" y="78.74" smashed="yes">
+<attribute name="NAME" x="-141.478" y="81.28" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-139.7" y="74.422" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY37" gate="1" x="-142.24" y="96.52" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-142.24" y="96.52" size="1.778" layer="96"/>
+<instance part="SUPPLY37" gate="1" x="-127" y="99.06" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-127" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY38" gate="1" x="-142.24" y="76.2" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-142.24" y="76.2" size="1.778" layer="96"/>
+<instance part="SUPPLY38" gate="1" x="-127" y="78.74" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-127" y="78.74" size="1.778" layer="96"/>
 </instance>
 <instance part="RM_A" gate="G$1" x="-259.08" y="210.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="-255.0414" y="214.63" size="1.778" layer="95" rot="R270"/>
@@ -7776,47 +7776,47 @@ set chip address</text>
 <instance part="SUPPLY47" gate="1" x="-236.22" y="142.24" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-236.22" y="142.24" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY48" gate="1" x="-160.02" y="129.54" smashed="yes">
-<attribute name="VALUE" x="-160.02" y="129.54" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY48" gate="1" x="-144.78" y="132.08" smashed="yes">
+<attribute name="VALUE" x="-144.78" y="132.08" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY49" gate="1" x="-160.02" y="109.22" smashed="yes">
-<attribute name="VALUE" x="-160.02" y="109.22" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY49" gate="1" x="-144.78" y="111.76" smashed="yes">
+<attribute name="VALUE" x="-144.78" y="111.76" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY64" gate="1" x="-152.4" y="83.82" smashed="yes">
-<attribute name="VALUE" x="-152.4" y="86.36" size="1.778" layer="96"/>
+<instance part="SUPPLY64" gate="1" x="-137.16" y="86.36" smashed="yes">
+<attribute name="VALUE" x="-137.16" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY65" gate="1" x="-152.4" y="104.14" smashed="yes">
-<attribute name="VALUE" x="-152.4" y="106.68" size="1.778" layer="96"/>
+<instance part="SUPPLY65" gate="1" x="-137.16" y="106.68" smashed="yes">
+<attribute name="VALUE" x="-137.16" y="109.22" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY67" gate="1" x="-152.4" y="144.78" smashed="yes">
-<attribute name="VALUE" x="-152.4" y="147.32" size="1.778" layer="96"/>
+<instance part="SUPPLY67" gate="1" x="-137.16" y="147.32" smashed="yes">
+<attribute name="VALUE" x="-137.16" y="149.86" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY68" gate="1" x="-152.4" y="165.1" smashed="yes">
-<attribute name="VALUE" x="-152.4" y="167.64" size="1.778" layer="96"/>
+<instance part="SUPPLY68" gate="1" x="-137.16" y="167.64" smashed="yes">
+<attribute name="VALUE" x="-137.16" y="170.18" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY66" gate="1" x="-152.4" y="124.46" smashed="yes">
-<attribute name="VALUE" x="-152.4" y="127" size="1.778" layer="96"/>
+<instance part="SUPPLY66" gate="1" x="-137.16" y="127" smashed="yes">
+<attribute name="VALUE" x="-137.16" y="129.54" size="1.778" layer="96"/>
 </instance>
-<instance part="THERM1_A" gate="-2" x="-154.94" y="154.94" smashed="yes">
-<attribute name="NAME" x="-152.4" y="154.178" size="1.524" layer="95"/>
+<instance part="THERM1_A" gate="-2" x="-139.7" y="157.48" smashed="yes">
+<attribute name="NAME" x="-137.16" y="156.718" size="1.524" layer="95"/>
 </instance>
-<instance part="THERM1_A" gate="-1" x="-154.94" y="157.48" smashed="yes">
-<attribute name="NAME" x="-152.4" y="156.718" size="1.524" layer="95"/>
-<attribute name="VALUE" x="-155.702" y="158.877" size="1.778" layer="96"/>
+<instance part="THERM1_A" gate="-1" x="-139.7" y="160.02" smashed="yes">
+<attribute name="NAME" x="-137.16" y="159.258" size="1.524" layer="95"/>
+<attribute name="VALUE" x="-140.462" y="161.417" size="1.778" layer="96"/>
 </instance>
-<instance part="THERM2_A" gate="-2" x="-154.94" y="134.62" smashed="yes">
-<attribute name="NAME" x="-152.4" y="133.858" size="1.524" layer="95"/>
+<instance part="THERM2_A" gate="-2" x="-139.7" y="137.16" smashed="yes">
+<attribute name="NAME" x="-137.16" y="136.398" size="1.524" layer="95"/>
 </instance>
-<instance part="THERM2_A" gate="-1" x="-154.94" y="137.16" smashed="yes">
-<attribute name="NAME" x="-152.4" y="136.398" size="1.524" layer="95"/>
-<attribute name="VALUE" x="-155.702" y="138.557" size="1.778" layer="96"/>
+<instance part="THERM2_A" gate="-1" x="-139.7" y="139.7" smashed="yes">
+<attribute name="NAME" x="-137.16" y="138.938" size="1.524" layer="95"/>
+<attribute name="VALUE" x="-140.462" y="141.097" size="1.778" layer="96"/>
 </instance>
-<instance part="THERM3_A" gate="-2" x="-154.94" y="114.3" smashed="yes">
-<attribute name="NAME" x="-152.4" y="113.538" size="1.524" layer="95"/>
+<instance part="THERM3_A" gate="-2" x="-139.7" y="116.84" smashed="yes">
+<attribute name="NAME" x="-137.16" y="116.078" size="1.524" layer="95"/>
 </instance>
-<instance part="THERM3_A" gate="-1" x="-154.94" y="116.84" smashed="yes">
-<attribute name="NAME" x="-152.4" y="116.078" size="1.524" layer="95"/>
-<attribute name="VALUE" x="-155.702" y="118.237" size="1.778" layer="96"/>
+<instance part="THERM3_A" gate="-1" x="-139.7" y="119.38" smashed="yes">
+<attribute name="NAME" x="-137.16" y="118.618" size="1.524" layer="95"/>
+<attribute name="VALUE" x="-140.462" y="120.777" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="G$1" x="-287.02" y="68.58" smashed="yes">
 <attribute name="NAME" x="-283.21" y="68.58" size="1.778" layer="95"/>
@@ -7828,8 +7828,8 @@ set chip address</text>
 <attribute name="TOLERANCE" x="-284.48" y="53.34" size="0.127" layer="96" rot="MR0" display="off"/>
 <attribute name="VOLTAGE" x="-284.48" y="53.34" size="0.127" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SUPPLY40" gate="1" x="-284.48" y="45.72" smashed="yes">
-<attribute name="VALUE" x="-284.48" y="45.72" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY40" gate="1" x="-284.48" y="43.18" smashed="yes">
+<attribute name="VALUE" x="-284.48" y="43.18" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$8" gate="G$1" x="-294.64" y="66.04" smashed="yes" rot="R270"/>
 <instance part="J_THERM_A" gate="G$1" x="-248.92" y="111.76" smashed="yes">
@@ -7954,13 +7954,13 @@ set chip address</text>
 <net name="N$34" class="0">
 <segment>
 <pinref part="THERM4" gate="G$1" pin="2"/>
-<wire x1="-157.48" y1="96.52" x2="-158.75" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="99.06" x2="-143.51" y2="99.06" width="0.1524" layer="91"/>
 <portref moduleinst="THERM_FILTER9" port="THERM"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<wire x1="-158.75" y1="116.84" x2="-157.48" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-143.51" y1="119.38" x2="-142.24" y2="119.38" width="0.1524" layer="91"/>
 <portref moduleinst="THERM_FILTER8" port="THERM"/>
 <pinref part="THERM3_A" gate="-1" pin="S"/>
 </segment>
@@ -7969,20 +7969,20 @@ set chip address</text>
 <segment>
 <portref moduleinst="THERM_FILTER10" port="THERM"/>
 <pinref part="THERM3" gate="G$1" pin="2"/>
-<wire x1="-157.48" y1="76.2" x2="-158.75" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="78.74" x2="-143.51" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <portref moduleinst="THERM_FILTER7" port="THERM"/>
-<wire x1="-157.48" y1="137.16" x2="-158.75" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="139.7" x2="-143.51" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="THERM2_A" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <portref moduleinst="THERM_FILTER6" port="THERM"/>
-<wire x1="-157.48" y1="157.48" x2="-158.75" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="160.02" x2="-143.51" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="THERM1_A" gate="-1" pin="S"/>
 </segment>
 </net>
@@ -7990,29 +7990,29 @@ set chip address</text>
 <segment>
 <pinref part="THERM3" gate="G$1" pin="1"/>
 <pinref part="SUPPLY38" gate="1" pin="V-"/>
-<wire x1="-147.32" y1="76.2" x2="-144.78" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="78.74" x2="-129.54" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="THERM4" gate="G$1" pin="1"/>
 <pinref part="SUPPLY37" gate="1" pin="V-"/>
-<wire x1="-147.32" y1="96.52" x2="-144.78" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="99.06" x2="-129.54" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-157.48" y1="114.3" x2="-160.02" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="-160.02" y1="114.3" x2="-160.02" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="116.84" x2="-144.78" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="116.84" x2="-144.78" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY49" gate="1" pin="V-"/>
 <pinref part="THERM3_A" gate="-2" pin="S"/>
 </segment>
 <segment>
-<wire x1="-157.48" y1="134.62" x2="-160.02" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-160.02" y1="134.62" x2="-160.02" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="137.16" x2="-144.78" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="137.16" x2="-144.78" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="SUPPLY48" gate="1" pin="V-"/>
 <pinref part="THERM2_A" gate="-2" pin="S"/>
 </segment>
 <segment>
 <pinref part="SUPPLY36" gate="1" pin="V-"/>
-<wire x1="-157.48" y1="154.94" x2="-160.02" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="-160.02" y1="154.94" x2="-160.02" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="157.48" x2="-144.78" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="157.48" x2="-144.78" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="THERM1_A" gate="-2" pin="S"/>
 </segment>
 <segment>
@@ -8068,32 +8068,32 @@ set chip address</text>
 <segment>
 <pinref part="SUPPLY68" gate="1" pin="V-"/>
 <portref moduleinst="THERM_FILTER6" port="V-"/>
-<wire x1="-152.4" y1="167.64" x2="-158.75" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="170.18" x2="-143.51" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY67" gate="1" pin="V-"/>
 <portref moduleinst="THERM_FILTER7" port="V-"/>
-<wire x1="-152.4" y1="147.32" x2="-158.75" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="149.86" x2="-143.51" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY66" gate="1" pin="V-"/>
 <portref moduleinst="THERM_FILTER8" port="V-"/>
-<wire x1="-158.75" y1="127" x2="-152.4" y2="127" width="0.1524" layer="91"/>
+<wire x1="-143.51" y1="129.54" x2="-137.16" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY65" gate="1" pin="V-"/>
 <portref moduleinst="THERM_FILTER9" port="V-"/>
-<wire x1="-158.75" y1="106.68" x2="-152.4" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-143.51" y1="109.22" x2="-137.16" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY64" gate="1" pin="V-"/>
 <portref moduleinst="THERM_FILTER10" port="V-"/>
-<wire x1="-158.75" y1="86.36" x2="-152.4" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-143.51" y1="88.9" x2="-137.16" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8_A" gate="G$1" pin="2"/>
 <pinref part="SUPPLY40" gate="1" pin="V-"/>
-<wire x1="-284.48" y1="48.26" x2="-284.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-284.48" y1="45.72" x2="-284.48" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+_A" class="0">
@@ -8384,28 +8384,28 @@ set chip address</text>
 <label x="-233.68" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-191.77" y1="167.64" x2="-193.04" y2="167.64" width="0.1524" layer="91"/>
-<label x="-193.04" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-176.53" y1="170.18" x2="-177.8" y2="170.18" width="0.1524" layer="91"/>
+<label x="-177.8" y="170.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER6" port="VREF"/>
 </segment>
 <segment>
-<wire x1="-191.77" y1="147.32" x2="-193.04" y2="147.32" width="0.1524" layer="91"/>
-<label x="-193.04" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-176.53" y1="149.86" x2="-177.8" y2="149.86" width="0.1524" layer="91"/>
+<label x="-177.8" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER7" port="VREF"/>
 </segment>
 <segment>
-<wire x1="-191.77" y1="127" x2="-193.04" y2="127" width="0.1524" layer="91"/>
-<label x="-193.04" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-176.53" y1="129.54" x2="-177.8" y2="129.54" width="0.1524" layer="91"/>
+<label x="-177.8" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER8" port="VREF"/>
 </segment>
 <segment>
-<wire x1="-191.77" y1="106.68" x2="-193.04" y2="106.68" width="0.1524" layer="91"/>
-<label x="-193.04" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-176.53" y1="109.22" x2="-177.8" y2="109.22" width="0.1524" layer="91"/>
+<label x="-177.8" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER9" port="VREF"/>
 </segment>
 <segment>
-<wire x1="-191.77" y1="86.36" x2="-193.04" y2="86.36" width="0.1524" layer="91"/>
-<label x="-193.04" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-176.53" y1="88.9" x2="-177.8" y2="88.9" width="0.1524" layer="91"/>
+<label x="-177.8" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER10" port="VREF"/>
 </segment>
 </net>
@@ -8416,8 +8416,8 @@ set chip address</text>
 <label x="-264.16" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-191.77" y1="76.2" x2="-193.04" y2="76.2" width="0.1524" layer="91"/>
-<label x="-193.04" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-176.53" y1="78.74" x2="-177.8" y2="78.74" width="0.1524" layer="91"/>
+<label x="-177.8" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER10" port="GPIO"/>
 </segment>
 </net>
@@ -8428,8 +8428,8 @@ set chip address</text>
 <label x="-276.86" y="119.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-191.77" y1="96.52" x2="-193.04" y2="96.52" width="0.1524" layer="91"/>
-<label x="-193.04" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-176.53" y1="99.06" x2="-177.8" y2="99.06" width="0.1524" layer="91"/>
+<label x="-177.8" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 <portref moduleinst="THERM_FILTER9" port="GPIO"/>
 </segment>
 </net>
@@ -8452,8 +8452,8 @@ set chip address</text>
 </segment>
 <segment>
 <portref moduleinst="THERM_FILTER7" port="GPIO"/>
-<wire x1="-191.77" y1="137.16" x2="-193.04" y2="137.16" width="0.1524" layer="91"/>
-<label x="-193.04" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-176.53" y1="139.7" x2="-177.8" y2="139.7" width="0.1524" layer="91"/>
+<label x="-177.8" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IP_A" class="0">
@@ -8500,8 +8500,8 @@ set chip address</text>
 </segment>
 <segment>
 <portref moduleinst="THERM_FILTER6" port="GPIO"/>
-<wire x1="-191.77" y1="157.48" x2="-193.04" y2="157.48" width="0.1524" layer="91"/>
-<label x="-193.04" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-176.53" y1="160.02" x2="-177.8" y2="160.02" width="0.1524" layer="91"/>
+<label x="-177.8" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="S5_A" class="0">
@@ -8569,8 +8569,8 @@ set chip address</text>
 </segment>
 <segment>
 <portref moduleinst="THERM_FILTER8" port="GPIO"/>
-<wire x1="-191.77" y1="116.84" x2="-193.04" y2="116.84" width="0.1524" layer="91"/>
-<label x="-193.04" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-176.53" y1="119.38" x2="-177.8" y2="119.38" width="0.1524" layer="91"/>
+<label x="-177.8" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
