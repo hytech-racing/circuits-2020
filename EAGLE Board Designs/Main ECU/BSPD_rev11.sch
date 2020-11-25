@@ -4452,6 +4452,11 @@ Source: http://www.molex.com</description>
 <text x="2.54" y="2.54" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+12V" prefix="P+">
@@ -4471,6 +4476,19 @@ Source: http://www.molex.com</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -4577,7 +4595,6 @@ Source: http://www.molex.com</description>
 <part name="P+56" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="GND2" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="GND96" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="BRAKE" library="HyTechDevices" deviceset="LED" device="-0805" value="Red"/>
 <part name="R35" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="215"/>
 <part name="R34" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="324"/>
@@ -4592,6 +4609,7 @@ Source: http://www.molex.com</description>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="5110"/>
 <part name="BRAKE_LOW_DIV" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
 <part name="CURRENT_LOW_DIV" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
+<part name="GND5" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4931,9 +4949,6 @@ them installed</text>
 <instance part="GND2" gate="1" x="383.54" y="152.4" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="386.08" y="149.86" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND96" gate="1" x="215.9" y="43.18" smashed="yes">
-<attribute name="VALUE" x="213.36" y="40.64" size="1.778" layer="96"/>
-</instance>
 <instance part="BRAKE" gate="LED" x="203.2" y="50.8" smashed="yes" rot="MR270">
 <attribute name="NAME" x="207.772" y="47.244" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="207.772" y="45.085" size="1.778" layer="96" rot="MR0"/>
@@ -4982,6 +4997,9 @@ them installed</text>
 </instance>
 <instance part="BRAKE_LOW_DIV" gate="G$1" x="154.94" y="157.48" smashed="yes" rot="R270"/>
 <instance part="CURRENT_LOW_DIV" gate="G$1" x="182.88" y="218.44" smashed="yes"/>
+<instance part="GND5" gate="1" x="215.9" y="43.18" smashed="yes">
+<attribute name="VALUE" x="213.36" y="40.64" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5127,6 +5145,19 @@ them installed</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="167.64" y1="147.32" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="BSPD" gate="LED" pin="C"/>
+<wire x1="208.28" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="76.2" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="63.5" x2="215.9" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="50.8" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="CURRENT" gate="LED" pin="C"/>
+<wire x1="208.28" y1="63.5" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="BRAKE" gate="LED" pin="C"/>
+<wire x1="208.28" y1="50.8" x2="215.9" y2="50.8" width="0.1524" layer="91"/>
+<junction x="215.9" y="50.8"/>
+<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -5560,21 +5591,6 @@ them installed</text>
 <pinref part="R34" gate="G$1" pin="2"/>
 <pinref part="BRAKE" gate="LED" pin="A"/>
 <wire x1="200.66" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GND1" class="0">
-<segment>
-<pinref part="BSPD" gate="LED" pin="C"/>
-<wire x1="208.28" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="76.2" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="GND96" gate="1" pin="GND"/>
-<wire x1="215.9" y1="63.5" x2="215.9" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="50.8" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="CURRENT" gate="LED" pin="C"/>
-<wire x1="208.28" y1="63.5" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="BRAKE" gate="LED" pin="C"/>
-<wire x1="208.28" y1="50.8" x2="215.9" y2="50.8" width="0.1524" layer="91"/>
-<junction x="215.9" y="50.8"/>
 </segment>
 </net>
 <net name="N$108" class="0">
