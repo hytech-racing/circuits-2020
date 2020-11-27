@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -3530,30 +3530,32 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="HyTech Default (2 Layer)">
-<description language="en">
-&lt;b&gt;HyTech Default Design Rules (2 Layer)&lt;/b&gt;
+<designrules name="JLCPCB (2 Layer)">
+<description language="en">&lt;b&gt;JLCPCB Design Rules (2 Layers)&lt;/b&gt;
 &lt;p&gt;
-These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPCB, Advanced Circuits, OSHPark) the team uses.
-</description>
+The default Design Rules have been set to cover
+a wide range of applications.
+&lt;p&gt;
+Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;JLCPCB&lt;/a&gt;
+&lt;/p&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.53mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="8mil"/>
-<param name="mdWirePad" value="8mil"/>
-<param name="mdWireVia" value="10mil"/>
-<param name="mdPadPad" value="8mil"/>
-<param name="mdPadVia" value="12mil"/>
-<param name="mdViaVia" value="22mil"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="12mil"/>
-<param name="mdSmdSmd" value="8mil"/>
-<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="5mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="10mil"/>
+<param name="mdViaVia" value="20mil"/>
+<param name="mdSmdPad" value="5mil"/>
+<param name="mdSmdVia" value="10mil"/>
+<param name="mdSmdSmd" value="5mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="17mil"/>
-<param name="mdDrill" value="23mil"/>
+<param name="mdCopperDimension" value="0.2mm"/>
+<param name="mdDrill" value="21mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="8mil"/>
+<param name="msWidth" value="5mil"/>
 <param name="msDrill" value="0.3mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -3564,19 +3566,19 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0"/>
 <param name="rvMicroViaInner" value="0"/>
-<param name="rlMinPadTop" value="9mil"/>
+<param name="rlMinPadTop" value="6mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="9mil"/>
+<param name="rlMinPadInner" value="6mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="9mil"/>
+<param name="rlMinPadBottom" value="6mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="6mil"/>
 <param name="rlMaxViaOuter" value="12mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="6mil"/>
 <param name="rlMaxViaInner" value="12mil"/>
-<param name="rlMinMicroViaOuter" value="8mil"/>
+<param name="rlMinMicroViaOuter" value="6mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="8mil"/>
+<param name="rlMinMicroViaInner" value="6mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
@@ -3585,8 +3587,8 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="8mil"/>
-<param name="mlMaxStopFrame" value="8mil"/>
+<param name="mlMinStopFrame" value="2mil"/>
+<param name="mlMaxStopFrame" value="2mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="30mil"/>
@@ -4154,14 +4156,21 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <contactref element="U$5" pad="C1"/>
 <polygon width="0.3048" layer="1">
 <vertex x="70.485" y="83.82"/>
+<vertex x="70.5612" y="44.958"/>
+<vertex x="86.5124" y="29.0068"/>
+<vertex x="86.5124" y="0"/>
 <vertex x="70.485" y="0"/>
 <vertex x="0" y="0"/>
 <vertex x="0" y="83.82"/>
 </polygon>
 <polygon width="0.3048" layer="16">
 <vertex x="0" y="83.82"/>
-<vertex x="70.485" y="83.82"/>
-<vertex x="70.485" y="0.0762"/>
+<vertex x="70.5358" y="83.82"/>
+<vertex x="70.478684375" y="78.251084375"/>
+<vertex x="70.485" y="78.2574"/>
+<vertex x="70.485" y="44.9834"/>
+<vertex x="86.4616" y="29.0068"/>
+<vertex x="86.4616" y="0.0762"/>
 <vertex x="0" y="0.0762"/>
 </polygon>
 <contactref element="D5" pad="A"/>
@@ -4421,11 +4430,11 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="18.2" y1="5.93" x2="18.2" y2="5.08" width="0.508" layer="16"/>
 <wire x1="16.9164" y1="23.6982" x2="16.9108" y2="23.6982" width="0.508" layer="16"/>
 <wire x1="16.9108" y1="23.6982" x2="15.923" y2="22.7104" width="0.508" layer="16"/>
-<wire x1="27.139" y1="11.049" x2="27.92" y2="10.268" width="0.508" layer="16"/>
-<wire x1="27.92" y1="10.268" x2="27.92" y2="8.85" width="0.508" layer="16"/>
 <wire x1="33.0454" y1="22.1352" x2="33.0454" y2="25.0326" width="0.762" layer="16"/>
 <wire x1="33.0454" y1="22.1352" x2="33.6206" y2="22.7104" width="0.508" layer="16"/>
 <wire x1="33.6206" y1="22.7104" x2="34.8996" y2="22.7104" width="0.508" layer="16"/>
+<wire x1="27.92" y1="8.85" x2="27.92" y2="10.268" width="0.508" layer="16"/>
+<wire x1="27.92" y1="10.268" x2="27.139" y2="11.049" width="0.508" layer="16"/>
 <wire x1="26.5938" y1="24.1046" x2="26.6192" y2="24.1046" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CANH">
@@ -4580,13 +4589,6 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <contactref element="MAIN" pad="P$4"/>
 <contactref element="C1" pad="2"/>
 <contactref element="REG" pad="1"/>
-<wire x1="19.05" y1="7.62" x2="19.9" y2="6.77" width="1.016" layer="16"/>
-<wire x1="19.9" y1="6.77" x2="19.9" y2="5.08" width="1.016" layer="16"/>
-<wire x1="18.8722" y1="10.5664" x2="18.8722" y2="7.7978" width="1.016" layer="16"/>
-<wire x1="18.8722" y1="7.7978" x2="19.05" y2="7.62" width="1.016" layer="16"/>
-<wire x1="6.35" y1="22.92" x2="8.696" y2="20.574" width="1.016" layer="1"/>
-<wire x1="8.696" y1="20.574" x2="11.684" y2="20.574" width="1.016" layer="1"/>
-<wire x1="11.684" y1="20.574" x2="14.2621" y2="17.9959" width="1.016" layer="1"/>
 <wire x1="59.436" y1="62.69" x2="59.436" y2="59.436" width="0.508" layer="1"/>
 <via x="59.436" y="59.436" extent="1-16" drill="0.508"/>
 <wire x1="59.436" y1="59.436" x2="59.182" y2="59.182" width="0.508" layer="16"/>
@@ -4603,26 +4605,30 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="78.232" y1="24.336" x2="76.962" y2="25.606" width="0.254" layer="1"/>
 <wire x1="59.436" y1="19.0246" x2="65.786" y2="19.0246" width="0.254" layer="1"/>
 <wire x1="65.786" y1="19.0246" x2="67.9376" y2="16.873" width="0.254" layer="1"/>
-<via x="18.8722" y="10.5664" extent="1-16" drill="0.35"/>
-<wire x1="18.8722" y1="13.3858" x2="18.8722" y2="10.5664" width="1.016" layer="1"/>
 <contactref element="U$11" pad="15"/>
 <contactref element="U$11" pad="16"/>
 <contactref element="C8" pad="1"/>
-<wire x1="14.2621" y1="17.9959" x2="18.8722" y2="13.3858" width="1.016" layer="1"/>
-<wire x1="20.8788" y1="23.6982" x2="20.8788" y2="24.7904" width="0.381" layer="16"/>
-<wire x1="20.8788" y1="24.7904" x2="21.2344" y2="25.146" width="0.381" layer="16"/>
-<wire x1="21.2344" y1="25.146" x2="21.5392" y2="24.8412" width="0.381" layer="16"/>
-<wire x1="21.5392" y1="24.8412" x2="21.5392" y2="23.6982" width="0.381" layer="16"/>
-<wire x1="21.2344" y1="25.146" x2="21.2344" y2="27.3422" width="0.762" layer="16"/>
-<wire x1="21.2344" y1="27.3422" x2="21.5528" y2="27.6606" width="0.762" layer="16"/>
-<wire x1="21.2344" y1="25.146" x2="22.0218" y2="25.146" width="0.762" layer="16"/>
-<wire x1="22.0218" y1="25.146" x2="22.352" y2="24.8158" width="0.762" layer="16"/>
-<wire x1="14.2621" y1="17.9959" x2="15.4178" y2="19.1516" width="0.762" layer="1"/>
-<wire x1="15.4178" y1="19.1516" x2="22.352" y2="19.1516" width="0.762" layer="1"/>
 <via x="22.352" y="19.1516" extent="1-16" drill="0.35"/>
-<wire x1="22.352" y1="19.1516" x2="22.352" y2="24.8158" width="0.762" layer="16"/>
-<wire x1="22.352" y1="19.1516" x2="59.309" y2="19.1516" width="0.762" layer="1"/>
-<wire x1="59.309" y1="19.1516" x2="59.436" y2="19.0246" width="0.762" layer="1"/>
+<wire x1="20.8788" y1="23.6982" x2="20.8788" y2="24.7904" width="0.4572" layer="16"/>
+<wire x1="20.8788" y1="24.7904" x2="21.2344" y2="25.146" width="0.4572" layer="16"/>
+<wire x1="21.5392" y1="23.6982" x2="21.5392" y2="24.8412" width="0.4572" layer="16"/>
+<wire x1="21.5392" y1="24.8412" x2="21.2344" y2="25.146" width="0.4572" layer="16"/>
+<wire x1="21.2344" y1="26.7208" x2="21.2344" y2="27.3422" width="0.889" layer="16"/>
+<wire x1="22.5044" y1="25.4508" x2="22.5044" y2="19.304" width="0.889" layer="16"/>
+<wire x1="22.352" y1="19.1516" x2="22.5044" y2="19.304" width="0.889" layer="16"/>
+<wire x1="22.5044" y1="25.4508" x2="21.2344" y2="26.7208" width="0.889" layer="16"/>
+<wire x1="21.2344" y1="25.146" x2="21.2344" y2="26.7208" width="0.889" layer="16"/>
+<wire x1="21.2344" y1="27.3422" x2="21.5528" y2="27.6606" width="0.889" layer="16"/>
+<wire x1="15.4178" y1="19.1516" x2="14.2621" y2="17.9959" width="0.889" layer="1"/>
+<wire x1="15.4178" y1="19.1516" x2="22.352" y2="19.1516" width="0.889" layer="1"/>
+<wire x1="22.352" y1="19.1516" x2="59.309" y2="19.1516" width="0.889" layer="1"/>
+<wire x1="59.309" y1="19.1516" x2="59.436" y2="19.0246" width="0.889" layer="1"/>
+<wire x1="6.35" y1="22.92" x2="8.696" y2="20.574" width="0.889" layer="1"/>
+<wire x1="8.696" y1="20.574" x2="11.684" y2="20.574" width="0.889" layer="1"/>
+<wire x1="11.684" y1="20.574" x2="14.2621" y2="17.9959" width="0.889" layer="1"/>
+<wire x1="19.05" y1="13.208" x2="19.05" y2="7.62" width="0.889" layer="1"/>
+<wire x1="14.2621" y1="17.9959" x2="19.05" y2="13.208" width="0.889" layer="1"/>
+<wire x1="19.05" y1="7.62" x2="19.9" y2="5.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SHUTDOWN_D">
 <contactref element="R17" pad="1"/>
@@ -5426,19 +5432,20 @@ These design rules are designed to pass any PCB fab (Seeed Studio, JLCPCB, ALLPC
 <wire x1="31.242" y1="17.106" x2="30.9626" y2="16.8266" width="0.381" layer="16"/>
 <wire x1="25.439" y1="11.22518125" x2="25.439" y2="11.049" width="0.762" layer="16"/>
 <wire x1="26.45661875" y1="12.2428" x2="25.439" y2="11.22518125" width="0.762" layer="16"/>
-<wire x1="25.439" y1="11.049" x2="23.749" y2="12.739" width="0.762" layer="16"/>
-<wire x1="23.749" y1="12.739" x2="23.749" y2="18.7588" width="0.762" layer="16"/>
-<wire x1="20.8788" y1="17.907" x2="20.8788" y2="16.6624" width="0.381" layer="16"/>
-<wire x1="21.2988" y1="16.2424" x2="22.1488" y2="16.2424" width="0.381" layer="16"/>
-<wire x1="20.8788" y1="16.6624" x2="21.2988" y2="16.2424" width="0.381" layer="16"/>
-<wire x1="21.5392" y1="17.907" x2="21.5392" y2="16.852" width="0.381" layer="16"/>
-<wire x1="21.5392" y1="16.852" x2="22.1488" y2="16.2424" width="0.381" layer="16"/>
-<wire x1="22.1488" y1="16.2424" x2="23.749" y2="17.8426" width="0.762" layer="16"/>
-<wire x1="23.749" y1="17.8426" x2="23.749" y2="18.7588" width="0.762" layer="16"/>
 <wire x1="25.42" y1="8.85" x2="25.42" y2="6.36753125" width="1.524" layer="1"/>
 <wire x1="25.42" y1="6.36753125" x2="25.411234375" y2="6.358765625" width="1.524" layer="1"/>
-<wire x1="25.42" y1="8.85" x2="25.42" y2="11.20618125" width="0.762" layer="16"/>
 <wire x1="25.42" y1="11.20618125" x2="25.439" y2="11.22518125" width="0.762" layer="16"/>
+<wire x1="25.439" y1="11.049" x2="23.749" y2="12.739" width="0.889" layer="16"/>
+<wire x1="23.749" y1="12.739" x2="23.749" y2="18.7588" width="0.889" layer="16"/>
+<wire x1="22.1488" y1="16.2424" x2="23.749" y2="17.8426" width="0.889" layer="16"/>
+<wire x1="23.749" y1="17.8426" x2="23.749" y2="18.7588" width="0.889" layer="16"/>
+<wire x1="21.5392" y1="17.907" x2="21.5392" y2="16.852" width="0.4572" layer="16"/>
+<wire x1="21.5392" y1="16.852" x2="22.1488" y2="16.2424" width="0.4572" layer="16"/>
+<wire x1="20.8788" y1="17.907" x2="20.8788" y2="16.4592" width="0.4572" layer="16"/>
+<wire x1="21.0956" y1="16.2424" x2="22.1488" y2="16.2424" width="0.4572" layer="16"/>
+<wire x1="20.8788" y1="16.4592" x2="21.0956" y2="16.2424" width="0.4572" layer="16"/>
+<wire x1="25.42" y1="8.85" x2="25.42" y2="11.03" width="1.524" layer="16"/>
+<wire x1="25.42" y1="11.03" x2="25.439" y2="11.049" width="1.524" layer="16"/>
 <wire x1="25.411234375" y1="6.358765625" x2="25.42" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
