@@ -7125,11 +7125,6 @@ Layer: 94 Symbol</description>
 <label x="154.94" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<junction x="137.16" y="111.76"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND36" gate="1" pin="GND"/>
@@ -7385,11 +7380,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <pinref part="U1" gate="G$1" pin="CLK"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<junction x="182.88" y="119.38"/>
-</segment>
-</net>
 <net name="INPUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IN"/>
@@ -7545,7 +7535,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 </part>
 <part name="HV+UNFUSED" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="HV+ UNFUSED"/>
 <part name="HV-UNFUSED_DISCHARGE-" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4" value="HV- UNFUSED"/>
-<part name="U15" library="HyTechDevices" deviceset="DBT71210" device=""/>
+<part name="U15" library="HyTechDevices" deviceset="DBT71210" device="" value="DBT71210NC"/>
 <part name="D7" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="CURRENT2" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4" value="300A SENSOR"/>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10K">
@@ -7603,7 +7593,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <part name="GND40" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="GND41" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="Q2" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
+<part name="Q2" library="HyTechDevices" deviceset="DMG3406L" device="SOT" value="DMG3406L"/>
 <part name="D10" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="GND42" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20">
@@ -8016,7 +8006,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 </instance>
 <instance part="Q2" gate="G$1" x="220.98" y="-38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="227.33" y="-35.56" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="224.79" y="-45.72" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="D10" gate="G$1" x="254" y="-48.26" smashed="yes" rot="MR90">
 <attribute name="NAME" x="255.7526" y="-52.07" size="1.778" layer="95" rot="MR90"/>
@@ -9660,13 +9649,13 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 </net>
 <net name="WATCHDOG_INPUT" class="0">
 <segment>
-<wire x1="231.14" y1="193.04" x2="231.14" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="187.96" x2="231.14" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="182.88" x2="236.22" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="182.88" x2="228.6" y2="182.88" width="0.1524" layer="91"/>
 <junction x="231.14" y="182.88"/>
 <pinref part="U$9" gate="G$1" pin="WDI"/>
-<label x="231.14" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="231.14" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="TEENSY3.2" gate="G$1" pin="D8(TX3)"/>
@@ -9834,9 +9823,9 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <portref moduleinst="SHUTDOWN_I" port="OUTPUT"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="205.74" x2="203.2" y2="205.74" width="0.1524" layer="91"/>
-<label x="203.2" y="205.74" size="1.27" layer="95" xref="yes"/>
-<pinref part="TEENSY3.2" gate="G$1" pin="A5"/>
+<wire x1="198.12" y1="198.12" x2="203.2" y2="198.12" width="0.1524" layer="91"/>
+<label x="203.2" y="198.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="TEENSY3.2" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="SHUTDOWN_K_TEENSY" class="0">
@@ -9846,9 +9835,9 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <portref moduleinst="SHUTDOWN_K" port="OUTPUT"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="203.2" x2="203.2" y2="203.2" width="0.1524" layer="91"/>
-<label x="203.2" y="203.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="TEENSY3.2" gate="G$1" pin="A4"/>
+<wire x1="198.12" y1="193.04" x2="203.2" y2="193.04" width="0.1524" layer="91"/>
+<label x="203.2" y="193.04" size="1.27" layer="95" xref="yes"/>
+<pinref part="TEENSY3.2" gate="G$1" pin="A0"/>
 </segment>
 </net>
 <net name="CHARGE_ENABLE_TEENSY" class="0">
@@ -9858,9 +9847,9 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <portref moduleinst="CHARGE_ENABLE" port="OUTPUT"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="200.66" x2="203.2" y2="200.66" width="0.1524" layer="91"/>
-<label x="203.2" y="200.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="TEENSY3.2" gate="G$1" pin="A3"/>
+<wire x1="198.12" y1="205.74" x2="203.2" y2="205.74" width="0.1524" layer="91"/>
+<label x="203.2" y="205.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="TEENSY3.2" gate="G$1" pin="A5"/>
 </segment>
 </net>
 <net name="100A_REF_FILT" class="0">
@@ -9872,14 +9861,14 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 </net>
 <net name="60V_THRESHOLD_TEENSY" class="0">
 <segment>
-<wire x1="198.12" y1="213.36" x2="203.2" y2="213.36" width="0.1524" layer="91"/>
-<label x="203.2" y="213.36" size="1.27" layer="95" xref="yes"/>
-<pinref part="TEENSY3.2" gate="G$1" pin="A8"/>
-</segment>
-<segment>
 <wire x1="375.92" y1="121.92" x2="381" y2="121.92" width="0.1524" layer="91"/>
 <label x="381" y="121.92" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <portref moduleinst="60V-THRESHOLD" port="OUTPUT"/>
+</segment>
+<segment>
+<wire x1="198.12" y1="208.28" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
+<label x="203.2" y="208.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="TEENSY3.2" gate="G$1" pin="A6"/>
 </segment>
 </net>
 <net name="IMD_OK_TEENSY" class="0">
@@ -9889,16 +9878,9 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <portref moduleinst="IMD_OK" port="OUTPUT"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="195.58" x2="203.2" y2="195.58" width="0.1524" layer="91"/>
-<label x="203.2" y="195.58" size="1.27" layer="95" xref="yes"/>
-<pinref part="TEENSY3.2" gate="G$1" pin="A1"/>
-</segment>
-</net>
-<net name="SHUTDOWN_G_TEENSY" class="0">
-<segment>
-<wire x1="198.12" y1="210.82" x2="203.2" y2="210.82" width="0.1524" layer="91"/>
-<label x="203.2" y="210.82" size="1.27" layer="95" xref="yes"/>
-<pinref part="TEENSY3.2" gate="G$1" pin="A7"/>
+<wire x1="198.12" y1="203.2" x2="203.2" y2="203.2" width="0.1524" layer="91"/>
+<label x="203.2" y="203.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="TEENSY3.2" gate="G$1" pin="A4"/>
 </segment>
 </net>
 <net name="WATCHDOG_OK" class="0">
@@ -9925,23 +9907,16 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <label x="256.54" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="WATCHDOG_OK_TEENSY" class="0">
-<segment>
-<wire x1="198.12" y1="198.12" x2="203.2" y2="198.12" width="0.1524" layer="91"/>
-<label x="203.2" y="198.12" size="1.27" layer="95" xref="yes"/>
-<pinref part="TEENSY3.2" gate="G$1" pin="A2"/>
-</segment>
-</net>
 <net name="BSPD_CURR_TEENSY" class="0">
-<segment>
-<pinref part="TEENSY3.2" gate="G$1" pin="A9"/>
-<wire x1="198.12" y1="215.9" x2="203.2" y2="215.9" width="0.1524" layer="91"/>
-<label x="203.2" y="215.9" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="375.92" y1="137.16" x2="381" y2="137.16" width="0.1524" layer="91"/>
 <label x="381" y="137.16" size="1.27" layer="95" xref="yes"/>
 <portref moduleinst="BSPD_CURR" port="OUTPUT"/>
+</segment>
+<segment>
+<wire x1="198.12" y1="210.82" x2="203.2" y2="210.82" width="0.1524" layer="91"/>
+<label x="203.2" y="210.82" size="1.27" layer="95" xref="yes"/>
+<pinref part="TEENSY3.2" gate="G$1" pin="A7"/>
 </segment>
 </net>
 <net name="60V_THRESHOLD_SIGNAL" class="0">
@@ -10024,9 +9999,9 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <portref moduleinst="SHUTDOWN_H" port="OUTPUT"/>
 </segment>
 <segment>
-<pinref part="TEENSY3.2" gate="G$1" pin="A6"/>
-<wire x1="198.12" y1="208.28" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
-<label x="203.2" y="208.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="200.66" x2="203.2" y2="200.66" width="0.1524" layer="91"/>
+<label x="203.2" y="200.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="TEENSY3.2" gate="G$1" pin="A3"/>
 </segment>
 </net>
 <net name="SHUTDOWN_J" class="0">
@@ -10041,6 +10016,11 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <portref moduleinst="SHUTDOWN_J" port="OUTPUT"/>
 <wire x1="375.92" y1="198.12" x2="381" y2="198.12" width="0.1524" layer="91"/>
 <label x="381" y="198.12" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="198.12" y1="195.58" x2="203.2" y2="195.58" width="0.1524" layer="91"/>
+<label x="203.2" y="195.58" size="1.27" layer="95" xref="yes"/>
+<pinref part="TEENSY3.2" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="300A_REF_FILT" class="0">
@@ -10642,6 +10622,13 @@ pin 3 and 4: Discharge- connector</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,132.08,22.86,IMD-6,S,,,,"/>
+<approved hash="118,1@43/12-RESISTOR-DIVIDER,137.16,93.98,Net,GND,,,,"/>
+<approved hash="118,1@10/10-RESISTOR-DIVIDER,139.7,93.98,Net,GND,,,,"/>
+<approved hash="118,1@1KHZ-FILTER,124.46,116.84,Net,+5V,,,,"/>
+<approved hash="118,1@1KHZ-FILTER,116.84,119.38,Net,GND,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
