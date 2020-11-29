@@ -4684,6 +4684,8 @@ Source: http://www.molex.com</description>
 <part name="P+3" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="R1" library="HyTechDevices" deviceset="TRIMPOT_3296" device="C"/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10M"/>
+<part name="GND4" library="HyTechSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4704,7 +4706,7 @@ of 0.5V brake low failure</text>
 0.3125 gain on Main ECU
 = 0.75 overall</text>
 <text x="154.432" y="201.676" size="1.27" layer="97">Make note not to solder R5 or 
-R6 unless circuit fails without
+R2 unless circuit fails without
 them installed</text>
 <text x="10.16" y="233.68" size="1.778" layer="97">How current side works:
 Current is divided to under 5V to avoid 5V-5V comparison on opamp inputs
@@ -4725,7 +4727,7 @@ this divider needs to be tuned</text>
 <text x="63.5" y="170.18" size="1.778" layer="97">Pull up used to be allow
 pull up to be used on ADC
 side fault check</text>
-<text x="119.38" y="116.84" size="1.778" layer="97">Because brake high has to be tuned anyway,
+<text x="119.38" y="114.3" size="1.778" layer="97">Because brake high has to be tuned anyway,
 this eliminates the current-interaction problem
 found on variable current threshold</text>
 <text x="20.32" y="81.28" size="1.778" layer="97">How brake side works:
@@ -4742,6 +4744,9 @@ Second opamp outputs low since voltage  &lt; 0.7V
 Original Brake &gt; 0.7V
 First op amp outputs high since voltage &gt; 0.5V
 Second op amp outputs high since voltage &gt; 0.7 V</text>
+<text x="167.132" y="130.556" size="1.27" layer="97">Make note not to solder R5 or 
+R2 unless circuit fails without
+them installed</text>
 </plain>
 <instances>
 <instance part="R33" gate="G$1" x="271.78" y="149.86" smashed="yes" rot="R180">
@@ -4959,12 +4964,12 @@ Second op amp outputs high since voltage &gt; 0.7 V</text>
 <instance part="P+12" gate="1" x="101.6" y="185.42" smashed="yes">
 <attribute name="VALUE" x="104.14" y="187.96" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U28" gate="G$1" x="180.34" y="127" smashed="yes">
-<attribute name="NAME" x="180.975" y="128.905" size="1.778" layer="95"/>
-<attribute name="VALUE" x="180.975" y="118.11" size="1.778" layer="96"/>
+<instance part="U28" gate="G$1" x="180.34" y="124.46" smashed="yes">
+<attribute name="NAME" x="180.975" y="126.365" size="1.778" layer="95"/>
+<attribute name="VALUE" x="180.975" y="115.57" size="1.778" layer="96"/>
 </instance>
-<instance part="GND15" gate="1" x="177.8" y="116.84" smashed="yes">
-<attribute name="VALUE" x="175.26" y="114.3" size="1.778" layer="96"/>
+<instance part="GND15" gate="1" x="177.8" y="114.3" smashed="yes">
+<attribute name="VALUE" x="175.26" y="111.76" size="1.778" layer="96"/>
 </instance>
 <instance part="C27" gate="G$1" x="203.2" y="137.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="201.676" y="134.239" size="1.778" layer="95" rot="R180"/>
@@ -5091,12 +5096,19 @@ Second op amp outputs high since voltage &gt; 0.7 V</text>
 <instance part="P+3" gate="1" x="71.12" y="165.1" smashed="yes">
 <attribute name="VALUE" x="73.66" y="167.64" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R1" gate="G$1" x="149.86" y="137.16" smashed="yes" rot="MR180">
-<attribute name="NAME" x="146.685" y="140.97" size="1.524" layer="95" ratio="10" rot="MR270"/>
-<attribute name="VALUE" x="146.05" y="140.97" size="1.524" layer="96" ratio="10" rot="MR270"/>
+<instance part="R1" gate="G$1" x="149.86" y="139.7" smashed="yes" rot="MR180">
+<attribute name="NAME" x="146.685" y="143.51" size="1.524" layer="95" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="146.05" y="143.51" size="1.524" layer="96" ratio="10" rot="MR270"/>
 </instance>
 <instance part="GND1" gate="1" x="149.86" y="129.54" smashed="yes">
 <attribute name="VALUE" x="144.78" y="127" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="160.02" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="158.5214" y="130.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="163.322" y="130.81" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND4" gate="1" x="160.02" y="127" smashed="yes">
+<attribute name="VALUE" x="157.48" y="124.46" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5194,7 +5206,7 @@ Second op amp outputs high since voltage &gt; 0.7 V</text>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="177.8" y1="119.38" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="116.84" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U28" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
@@ -5250,6 +5262,11 @@ Second op amp outputs high since voltage &gt; 0.7 V</text>
 <segment>
 <pinref part="R1" gate="G$1" pin="3"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="149.86" y1="134.62" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -5355,7 +5372,7 @@ Second op amp outputs high since voltage &gt; 0.7 V</text>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="195.58" y1="127" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="124.46" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U28" gate="G$1" pin="VDD"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="139.7" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
@@ -5421,11 +5438,11 @@ Second op amp outputs high since voltage &gt; 0.7 V</text>
 <net name="BRAKE_HIGH" class="0">
 <segment>
 <label x="220.98" y="147.32" size="1.778" layer="95" rot="R90"/>
-<wire x1="220.98" y1="121.92" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="119.38" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U11" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="165.1" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U28" gate="G$1" pin="VOUT"/>
-<wire x1="220.98" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="1"/>
@@ -5580,10 +5597,10 @@ Second op amp outputs high since voltage &gt; 0.7 V</text>
 <wire x1="109.22" y1="147.32" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="149.86" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
 <junction x="71.12" y="147.32"/>
-<wire x1="109.22" y1="147.32" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="147.32" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
 <junction x="109.22" y="147.32"/>
 <pinref part="U28" gate="G$1" pin="VIN+"/>
-<wire x1="109.22" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -5637,7 +5654,6 @@ Second op amp outputs high since voltage &gt; 0.7 V</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="149.86" y1="144.78" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U17" gate="G$1" pin="VOUT"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -5645,15 +5661,17 @@ Second op amp outputs high since voltage &gt; 0.7 V</text>
 </net>
 <net name="BRAKE_HIGH_DIV" class="0">
 <segment>
-<wire x1="175.26" y1="137.16" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="BRAKE_LOW_DIV" gate="G$1" pin="P$1"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
-<label x="157.48" y="137.16" size="1.27" layer="95"/>
+<wire x1="154.94" y1="139.7" x2="160.02" y2="139.7" width="0.1524" layer="91"/>
+<label x="157.48" y="139.7" size="1.27" layer="95"/>
 <pinref part="U28" gate="G$1" pin="VIN-"/>
-<wire x1="177.8" y1="127" x2="175.26" y2="127" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="127" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
-<junction x="175.26" y="137.16"/>
+<wire x1="160.02" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="124.46" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
+<junction x="175.26" y="139.7"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<junction x="160.02" y="139.7"/>
 </segment>
 </net>
 <net name="N$4" class="0">
