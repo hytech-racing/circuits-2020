@@ -1062,34 +1062,34 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <circle x="0" y="0.381" radius="0.127" width="0.127" layer="21"/>
 </package>
 <package name="TEENSY_3.2_SIMPLE">
-<pad name="AGND" x="16.51" y="31.75" drill="0.8" shape="long"/>
-<pad name="D13" x="16.51" y="1.27" drill="0.8" shape="long"/>
-<pad name="A0" x="16.51" y="3.81" drill="0.8" shape="long"/>
-<pad name="A1" x="16.51" y="6.35" drill="0.8" shape="long"/>
-<pad name="A2" x="16.51" y="8.89" drill="0.8" shape="long"/>
-<pad name="A3" x="16.51" y="11.43" drill="0.8" shape="long"/>
-<pad name="A4" x="16.51" y="13.97" drill="0.8" shape="long"/>
-<pad name="A5" x="16.51" y="16.51" drill="0.8" shape="long"/>
-<pad name="A6" x="16.51" y="19.05" drill="0.8" shape="long"/>
-<pad name="A7" x="16.51" y="21.59" drill="0.8" shape="long"/>
-<pad name="A8" x="16.51" y="24.13" drill="0.8" shape="long"/>
-<pad name="D12" x="1.27" y="1.27" drill="0.8" shape="long"/>
-<pad name="D11" x="1.27" y="3.81" drill="0.8" shape="long"/>
-<pad name="D5" x="1.27" y="19.05" drill="0.8" shape="long"/>
-<pad name="D4(CANRX)" x="1.27" y="21.59" drill="0.8" shape="long"/>
-<pad name="D3(CANTX)" x="1.27" y="24.13" drill="0.8" shape="long"/>
-<pad name="D2" x="1.27" y="26.67" drill="0.8" shape="long"/>
-<pad name="GND" x="1.27" y="34.29" drill="0.8" shape="long"/>
-<pad name="VIN" x="16.51" y="34.29" drill="0.8" shape="long"/>
-<pad name="3.3V" x="16.51" y="29.21" drill="0.8" shape="long"/>
-<pad name="A9" x="16.51" y="26.67" drill="0.8" shape="long"/>
-<pad name="D0(RX1)" x="1.27" y="31.75" drill="0.8" shape="long" rot="R180"/>
-<pad name="D1(TX1)" x="1.27" y="29.21" drill="0.8" shape="long" rot="R180"/>
-<pad name="D10(TX2)" x="1.27" y="6.35" drill="0.8" shape="long"/>
-<pad name="D6" x="1.27" y="16.51" drill="0.8" shape="long" rot="R180"/>
-<pad name="D7(RX3)" x="1.27" y="13.97" drill="0.8" shape="long" rot="R180"/>
-<pad name="D8(TX3)" x="1.27" y="11.43" drill="0.8" shape="long" rot="R180"/>
-<pad name="D9(RX2)" x="1.27" y="8.89" drill="0.8" shape="long" rot="R180"/>
+<pad name="AGND" x="16.51" y="31.75" drill="0.8"/>
+<pad name="D13" x="16.51" y="1.27" drill="0.8"/>
+<pad name="A0" x="16.51" y="3.81" drill="0.8"/>
+<pad name="A1" x="16.51" y="6.35" drill="0.8"/>
+<pad name="A2" x="16.51" y="8.89" drill="0.8"/>
+<pad name="A3" x="16.51" y="11.43" drill="0.8"/>
+<pad name="A4" x="16.51" y="13.97" drill="0.8"/>
+<pad name="A5" x="16.51" y="16.51" drill="0.8"/>
+<pad name="A6" x="16.51" y="19.05" drill="0.8"/>
+<pad name="A7" x="16.51" y="21.59" drill="0.8"/>
+<pad name="A8" x="16.51" y="24.13" drill="0.8"/>
+<pad name="D12" x="1.27" y="1.27" drill="0.8"/>
+<pad name="D11" x="1.27" y="3.81" drill="0.8"/>
+<pad name="D5" x="1.27" y="19.05" drill="0.8"/>
+<pad name="D4(CANRX)" x="1.27" y="21.59" drill="0.8"/>
+<pad name="D3(CANTX)" x="1.27" y="24.13" drill="0.8"/>
+<pad name="D2" x="1.27" y="26.67" drill="0.8"/>
+<pad name="GND" x="1.27" y="34.29" drill="0.8"/>
+<pad name="VIN" x="16.51" y="34.29" drill="0.8"/>
+<pad name="3.3V" x="16.51" y="29.21" drill="0.8"/>
+<pad name="A9" x="16.51" y="26.67" drill="0.8"/>
+<pad name="D0(RX1)" x="1.27" y="31.75" drill="0.8"/>
+<pad name="D1(TX1)" x="1.27" y="29.21" drill="0.8"/>
+<pad name="D10(TX2)" x="1.27" y="6.35" drill="0.8"/>
+<pad name="D6" x="1.27" y="16.51" drill="0.8"/>
+<pad name="D7(RX3)" x="1.27" y="13.97" drill="0.8"/>
+<pad name="D8(TX3)" x="1.27" y="11.43" drill="0.8"/>
+<pad name="D9(RX2)" x="1.27" y="8.89" drill="0.8"/>
 <wire x1="17.78" y1="35.56" x2="17.78" y2="0" width="0.127" layer="21"/>
 <wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="0" y2="35.56" width="0.127" layer="21"/>
@@ -1101,6 +1101,7 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.127" layer="21"/>
 <wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="21"/>
 <wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.127" layer="21"/>
+<text x="8.89" y="33.401" size="2.032" layer="21" font="vector" ratio="12" align="center">3.2</text>
 </package>
 <package name="HM2102NLT">
 <description>SMD Transformer</description>
@@ -7495,7 +7496,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="MAIN" library="HyTechDevices" deviceset="CONNECTOR-10" device="NANO-FIT_VERTICAL-10" value="MAIN"/>
 <part name="IMD" library="HyTechDevices" deviceset="CONNECTOR-6" device="NANO-FIT_VERTICAL-6" value="IMD"/>
-<part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="U8" library="HyTechDevices" deviceset="SN74LVC1G08" device="SOT-323-5" value="SN74LVC1G08"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="HV+FUSED_1A-IMD+" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4" value="HV+ FUSED"/>
@@ -7644,7 +7644,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="D6" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
@@ -7716,6 +7715,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="U$13" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7892,9 +7892,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <instance part="IMD" gate="-6" x="129.54" y="22.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="127" y="22.098" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="GND17" gate="1" x="71.12" y="27.94" smashed="yes" rot="R90">
-<attribute name="VALUE" x="73.66" y="25.4" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="U18" gate="G$1" x="66.04" y="12.7" smashed="yes" rot="R270">
 <attribute name="VALUE" x="63.5" y="7.62" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -8034,7 +8031,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 </instance>
 <instance part="BOARDFUSE" gate="G$1" x="48.26" y="-38.1" smashed="yes">
 <attribute name="NAME" x="43.18" y="-36.83" size="1.27" layer="95"/>
-<attribute name="VALUE" x="43.18" y="-41.91" size="1.27" layer="96"/>
+<attribute name="VALUE" x="43.18" y="-39.37" size="1.27" layer="96"/>
 <attribute name="RATING" x="48.26" y="-38.1" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="P+31" gate="1" x="58.42" y="-30.48" smashed="yes">
@@ -8196,6 +8193,9 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <attribute name="VALUE" x="127" y="-73.66" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U$13" gate="G$1" x="251.46" y="-35.56" smashed="yes" rot="R180"/>
+<instance part="GND17" gate="1" x="81.28" y="35.56" smashed="yes" rot="R90">
+<attribute name="VALUE" x="83.82" y="33.02" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8231,11 +8231,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="137.16" y1="5.08" x2="137.16" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="MAIN" gate="-8" pin="S"/>
-<wire x1="53.34" y1="27.94" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U18" gate="G$1" pin="3"/>
@@ -8388,6 +8383,11 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <pinref part="U$23" gate="G$1" pin="P$1"/>
 <wire x1="124.46" y1="-68.58" x2="124.46" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-63.5" x2="119.38" y2="-63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="MAIN" gate="-5" pin="S"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -8581,11 +8581,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 </net>
 <net name="IMD_OK" class="0">
 <segment>
-<pinref part="MAIN" gate="-5" pin="S"/>
-<wire x1="53.34" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
-<label x="58.42" y="35.56" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$10" gate="G$1" pin="P$1"/>
 <wire x1="393.7" y1="-20.32" x2="398.78" y2="-20.32" width="0.1524" layer="91"/>
 <label x="398.78" y="-20.32" size="1.27" layer="95" xref="yes"/>
@@ -8598,6 +8593,11 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <wire x1="365.76" y1="-20.32" x2="370.84" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="365.76" y="-20.32"/>
 <label x="370.84" y="-20.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<label x="58.42" y="27.94" size="1.27" layer="95" xref="yes"/>
+<pinref part="MAIN" gate="-8" pin="S"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -8679,11 +8679,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 </net>
 <net name="BMS_OK" class="0">
 <segment>
-<pinref part="MAIN" gate="-4" pin="S"/>
-<wire x1="53.34" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
-<label x="58.42" y="38.1" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$11" gate="G$1" pin="P$1"/>
 <wire x1="388.62" y1="27.94" x2="393.7" y2="27.94" width="0.1524" layer="91"/>
 <label x="393.7" y="27.94" size="1.27" layer="95" xref="yes"/>
@@ -8696,6 +8691,11 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <wire x1="365.76" y1="27.94" x2="370.84" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="22.86" x2="365.76" y2="27.94" width="0.1524" layer="91"/>
 <junction x="365.76" y="27.94"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
+<label x="58.42" y="30.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="MAIN" gate="-7" pin="S"/>
 </segment>
 </net>
 <net name="BSPD_CURRENT" class="0">
@@ -8832,9 +8832,9 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <label x="33.02" y="-38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MAIN" gate="-7" pin="S"/>
-<wire x1="53.34" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
-<label x="58.42" y="30.48" size="1.27" layer="95" xref="yes"/>
+<wire x1="53.34" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
+<label x="58.42" y="38.1" size="1.27" layer="95" xref="yes"/>
+<pinref part="MAIN" gate="-4" pin="S"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -9227,10 +9227,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 </instance>
 <instance part="GND21" gate="1" x="340.36" y="116.84" smashed="yes">
 <attribute name="VALUE" x="337.82" y="114.3" size="1.778" layer="96"/>
-</instance>
-<instance part="D6" gate="1" x="360.68" y="241.3" smashed="yes">
-<attribute name="NAME" x="356.87" y="243.0526" size="1.778" layer="95"/>
-<attribute name="VALUE" x="351.79" y="237.7186" size="1.778" layer="96"/>
 </instance>
 <instance part="U$14" gate="G$1" x="266.7" y="228.6" smashed="yes" rot="R180"/>
 <instance part="U$15" gate="G$1" x="248.92" y="213.36" smashed="yes" rot="R180"/>
@@ -9657,9 +9653,9 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <label x="220.98" y="228.6" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TEENSY3.2" gate="G$1" pin="D6"/>
-<wire x1="172.72" y1="205.74" x2="167.64" y2="205.74" width="0.1524" layer="91"/>
-<label x="167.64" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="172.72" y1="208.28" x2="167.64" y2="208.28" width="0.1524" layer="91"/>
+<label x="167.64" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TEENSY3.2" gate="G$1" pin="D5"/>
 </segment>
 </net>
 <net name="WATCHDOG_INPUT" class="0">
@@ -9898,13 +9894,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <pinref part="TEENSY3.2" gate="G$1" pin="A1"/>
 </segment>
 </net>
-<net name="SOFTWARE_SHUTDOWN" class="0">
-<segment>
-<wire x1="172.72" y1="208.28" x2="167.64" y2="208.28" width="0.1524" layer="91"/>
-<label x="167.64" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TEENSY3.2" gate="G$1" pin="D5"/>
-</segment>
-</net>
 <net name="SHUTDOWN_G_TEENSY" class="0">
 <segment>
 <wire x1="198.12" y1="210.82" x2="203.2" y2="210.82" width="0.1524" layer="91"/>
@@ -9931,22 +9920,12 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <junction x="266.7" y="193.04"/>
 </segment>
 <segment>
-<wire x1="355.6" y1="241.3" x2="350.52" y2="241.3" width="0.1524" layer="91"/>
-<label x="350.52" y="241.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="D6" gate="1" pin="A"/>
-</segment>
-<segment>
 <pinref part="U$15" gate="G$1" pin="P$1"/>
 <wire x1="251.46" y1="213.36" x2="256.54" y2="213.36" width="0.1524" layer="91"/>
 <label x="256.54" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="WATCHDOG_OK_TEENSY" class="0">
-<segment>
-<wire x1="363.22" y1="241.3" x2="368.3" y2="241.3" width="0.1524" layer="91"/>
-<label x="368.3" y="241.3" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="D6" gate="1" pin="C"/>
-</segment>
 <segment>
 <wire x1="198.12" y1="198.12" x2="203.2" y2="198.12" width="0.1524" layer="91"/>
 <label x="203.2" y="198.12" size="1.27" layer="95" xref="yes"/>
@@ -10088,6 +10067,13 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <wire x1="91.44" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
 <label x="96.52" y="66.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="U13" gate="G$1" pin="B3"/>
+</segment>
+</net>
+<net name="SOFTWARE_SHUTDOWN" class="0">
+<segment>
+<wire x1="172.72" y1="205.74" x2="167.64" y2="205.74" width="0.1524" layer="91"/>
+<label x="167.64" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TEENSY3.2" gate="G$1" pin="D6"/>
 </segment>
 </net>
 </nets>
