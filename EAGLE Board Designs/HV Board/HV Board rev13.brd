@@ -6191,7 +6191,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <via x="126.492" y="16.637" extent="1-16" drill="0.35"/>
 <wire x1="31.75" y1="16.93" x2="31.75" y2="15.748" width="0.254" layer="1"/>
 <via x="31.75" y="15.748" extent="1-16" drill="0.35"/>
-<wire x1="36.449" y1="27.813" x2="35.14" y2="27.94" width="0" layer="19" extent="16-16"/>
+<wire x1="35.14" y1="27.94" x2="35.14" y2="26.758" width="0.254" layer="16"/>
+<wire x1="35.14" y1="26.758" x2="35.052" y2="26.67" width="0.254" layer="16"/>
+<via x="35.052" y="26.67" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+12V">
 <contactref element="U2" pad="1"/>
@@ -7086,7 +7088,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="76.855" y1="86.32" x2="79.355" y2="86.32" width="2.032" layer="1"/>
 <wire x1="79.355" y1="86.32" x2="79.355" y2="83.868925" width="2.032" layer="1"/>
 <wire x1="79.355" y1="83.868925" x2="79.3794625" y2="83.8444625" width="2.032" layer="1"/>
-<wire x1="76.855" y1="83.82" x2="76.855" y2="86.32" width="2.032" layer="16"/>
 <wire x1="76.855" y1="86.32" x2="79.355" y2="86.32" width="2.032" layer="16"/>
 <wire x1="79.355" y1="86.32" x2="79.355" y2="83.868925" width="2.032" layer="16"/>
 <wire x1="79.355" y1="83.868925" x2="79.3794625" y2="83.8444625" width="2.032" layer="16"/>
@@ -7101,6 +7102,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="83.126" y1="80.049" x2="83.126" y2="38.1" width="2.032" layer="15"/>
 <wire x1="79.355" y1="83.82" x2="83.126" y2="80.049" width="2.032" layer="2"/>
 <wire x1="83.126" y1="80.049" x2="83.126" y2="38.1" width="2.032" layer="2"/>
+<wire x1="76.855" y1="83.82" x2="76.855" y2="86.32" width="2.032" layer="16"/>
 <wire x1="76.855" y1="83.82" x2="76.855" y2="83.868925" width="0" layer="19" extent="1-2"/>
 <wire x1="79.355" y1="83.82" x2="79.3794625" y2="83.8444625" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -7174,15 +7176,16 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="HV_REG2" pad="2(TAB)"/>
 <contactref element="INDICATOR" pad="4"/>
 <contactref element="R56" pad="2"/>
-<wire x1="82.55" y1="64.77" x2="83.8977" y2="64.77" width="0.508" layer="16"/>
 <wire x1="100.33" y1="47.45" x2="100.33" y2="48.3377" width="0.508" layer="16"/>
 <wire x1="100.33" y1="48.3377" x2="100.33" y2="49.53" width="0.508" layer="16"/>
-<wire x1="83.8977" y1="64.77" x2="100.33" y2="48.3377" width="0.508" layer="16"/>
+<wire x1="83.8977" y1="64.77" x2="87.66885" y2="60.99885" width="0.508" layer="16"/>
+<wire x1="87.66885" y1="60.99885" x2="100.33" y2="48.3377" width="0.508" layer="16"/>
 <wire x1="101.815" y1="60.96" x2="103" y2="59.775" width="0.508" layer="1"/>
 <via x="100.33" y="49.53" extent="1-16" drill="0.381"/>
 <wire x1="103" y1="59.775" x2="103" y2="52.2" width="0.508" layer="1"/>
 <wire x1="103" y1="52.2" x2="100.33" y2="49.53" width="0.508" layer="1"/>
-<wire x1="82.55" y1="64.77" x2="82.55" y2="65.3288" width="0" layer="19" extent="16-16"/>
+<wire x1="82.55" y1="65.3288" x2="83.3389" y2="65.3288" width="0.508" layer="16"/>
+<wire x1="83.3389" y1="65.3288" x2="83.8977" y2="64.77" width="0.508" layer="16"/>
 </signal>
 <signal name="N$6" class="1">
 <contactref element="HV_REG2" pad="3"/>
