@@ -897,6 +897,9 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <circle x="0" y="0" radius="11" width="0.127" layer="21"/>
 <pad name="P$1" x="-5" y="0" drill="2" shape="long" rot="R90"/>
 <pad name="P$2" x="5" y="0" drill="2" shape="long" rot="R90"/>
+<wire x1="-11" y1="0" x2="-11" y2="-33" width="0.127" layer="21"/>
+<wire x1="-11" y1="-33" x2="11" y2="-33" width="0.127" layer="21"/>
+<wire x1="11" y1="-33" x2="11" y2="0" width="0.127" layer="21"/>
 </package>
 <package name="NANO-FIT_VERTICAL-2">
 <description>105309-1202
@@ -7229,17 +7232,17 @@ Layer: 94 Symbol</description>
 <part name="U$2" library="HyTechFrames" deviceset="FRAME_A" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
+<part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
+<part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF">
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="530pF">
+<part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="530pF">
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -7269,7 +7272,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <instance part="GND2" gate="1" x="106.68" y="111.76" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="109.22" y="109.22" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C5" gate="G$1" x="121.92" y="106.68" smashed="yes" rot="MR0">
+<instance part="C2" gate="G$1" x="121.92" y="106.68" smashed="yes" rot="MR0">
 <attribute name="NAME" x="123.19" y="106.68" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="120.396" y="104.521" size="1.778" layer="96" rot="MR0"/>
 <attribute name="TOLERANCE" x="121.92" y="106.68" size="0.127" layer="96" rot="MR0" display="off"/>
@@ -7278,7 +7281,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <instance part="GND3" gate="1" x="121.92" y="96.52" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="124.46" y="93.98" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C7" gate="G$1" x="182.88" y="109.22" smashed="yes" rot="MR0">
+<instance part="C3" gate="G$1" x="182.88" y="109.22" smashed="yes" rot="MR0">
 <attribute name="NAME" x="184.15" y="109.22" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="181.356" y="107.061" size="1.778" layer="96" rot="MR0"/>
 <attribute name="TOLERANCE" x="182.88" y="109.22" size="0.127" layer="96" rot="MR0" display="off"/>
@@ -7287,7 +7290,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <instance part="GND10" gate="1" x="182.88" y="99.06" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="185.42" y="96.52" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C6" gate="G$1" x="167.64" y="124.46" smashed="yes" rot="MR270">
+<instance part="C1" gate="G$1" x="167.64" y="124.46" smashed="yes" rot="MR270">
 <attribute name="NAME" x="161.544" y="126.619" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="166.624" y="121.539" size="1.778" layer="96" rot="MR180"/>
 <attribute name="TOLERANCE" x="167.64" y="124.46" size="0.127" layer="96" rot="MR270" display="off"/>
@@ -7316,18 +7319,18 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 </segment>
 <segment>
 <wire x1="121.92" y1="104.14" x2="121.92" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="182.88" y1="106.68" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="124.46" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -7339,7 +7342,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <wire x1="121.92" y1="111.76" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
 <junction x="121.92" y="116.84"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
@@ -7354,7 +7357,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <wire x1="121.92" y1="124.46" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="129.54" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="119.38" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
 <junction x="182.88" y="119.38"/>
@@ -7365,7 +7368,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <net name="N$4" class="0">
 <segment>
 <wire x1="152.4" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="CLK"/>
 </segment>
 </net>
@@ -7695,6 +7698,7 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
+<part name="GND52" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8167,6 +8171,9 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <instance part="GND51" gate="1" x="157.48" y="-101.6" smashed="yes">
 <attribute name="VALUE" x="154.94" y="-104.14" size="1.778" layer="96"/>
 </instance>
+<instance part="GND52" gate="1" x="231.14" y="-22.86" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="233.68" y="-25.4" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8348,6 +8355,12 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <wire x1="165.1" y1="-93.98" x2="157.48" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="-93.98" x2="157.48" y2="-99.06" width="0.1524" layer="91"/>
 <pinref part="GND51" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND52" gate="1" pin="GND"/>
+<wire x1="231.14" y1="-20.32" x2="231.14" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="-15.24" x2="236.22" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="RELAY" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -8615,13 +8628,6 @@ Corner Frequency = fclk / 100 = 1 kHz</text>
 <pinref part="U$5" gate="G$1" pin="P$1"/>
 <wire x1="134.62" y1="-40.64" x2="134.62" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-45.72" x2="119.38" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DISCHARGE_RELAY_GND" class="0">
-<segment>
-<pinref part="RELAY" gate="-2" pin="S"/>
-<wire x1="236.22" y1="-15.24" x2="213.36" y2="-15.24" width="0.1524" layer="91"/>
-<label x="213.36" y="-15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="100A_CURRENT_SENSE_FILT" class="0">
@@ -10378,7 +10384,7 @@ pin 3 and 4: Discharge- connector</text>
 <wire x1="154.94" y1="134.62" x2="154.94" y2="129.54" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="N$5" class="1">
 <segment>
 <pinref part="HV_REG2" gate="G$1" pin="OUT"/>
 <wire x1="109.22" y1="35.56" x2="162.56" y2="35.56" width="0.6096" layer="91"/>
@@ -10394,7 +10400,7 @@ pin 3 and 4: Discharge- connector</text>
 <wire x1="109.22" y1="48.26" x2="109.22" y2="35.56" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N$6" class="1">
 <segment>
 <pinref part="HV_REG2" gate="G$1" pin="ADJ"/>
 <wire x1="66.04" y1="33.02" x2="66.04" y2="40.64" width="0.6096" layer="91"/>
@@ -10405,7 +10411,7 @@ pin 3 and 4: Discharge- connector</text>
 <junction x="66.04" y="33.02"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="N$18" class="1">
 <segment>
 <pinref part="HV_REG1" gate="G$1" pin="OUT"/>
 <pinref part="60V_THRESHOLD" gate="G$1" pin="CONTROL+"/>
@@ -10416,35 +10422,35 @@ pin 3 and 4: Discharge- connector</text>
 <junction x="99.06" y="96.52"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="N$19" class="1">
 <segment>
 <pinref part="R50" gate="G$1" pin="1"/>
 <pinref part="R49" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="58.42" x2="48.26" y2="58.42" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="N$24" class="1">
 <segment>
 <pinref part="R49" gate="G$1" pin="2"/>
 <pinref part="R45" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="68.58" x2="55.88" y2="68.58" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="N$27" class="1">
 <segment>
 <pinref part="R52" gate="G$1" pin="1"/>
 <pinref part="R51" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="58.42" x2="78.74" y2="58.42" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="N$28" class="1">
 <segment>
 <pinref part="R51" gate="G$1" pin="2"/>
 <pinref part="R46" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="68.58" x2="86.36" y2="68.58" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="N$30" class="1">
 <segment>
 <pinref part="INDICATOR" gate="G$1" pin="CONTROL-"/>
 <wire x1="114.3" y1="50.8" x2="109.22" y2="50.8" width="0.6096" layer="91"/>
@@ -10452,28 +10458,28 @@ pin 3 and 4: Discharge- connector</text>
 <wire x1="109.22" y1="50.8" x2="109.22" y2="58.42" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="N$33" class="1">
 <segment>
 <pinref part="INDICATOR" gate="G$1" pin="CONTROL+"/>
 <pinref part="60V_THRESHOLD" gate="G$1" pin="CONTROL-"/>
 <wire x1="114.3" y1="55.88" x2="114.3" y2="91.44" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="N$34" class="1">
 <segment>
 <pinref part="INDICATOR" gate="G$1" pin="DC-"/>
 <pinref part="INDICATOR1" gate="-1" pin="S"/>
 <wire x1="134.62" y1="50.8" x2="142.24" y2="50.8" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$39" class="0">
+<net name="N$39" class="1">
 <segment>
 <wire x1="48.26" y1="91.44" x2="55.88" y2="91.44" width="0.6096" layer="91"/>
 <pinref part="R59" gate="G$1" pin="2"/>
 <pinref part="R60" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="N$41" class="1">
 <segment>
 <pinref part="HV_REG1" gate="G$1" pin="ADJ"/>
 <wire x1="66.04" y1="81.28" x2="66.04" y2="88.9" width="0.6096" layer="91"/>
@@ -10484,14 +10490,14 @@ pin 3 and 4: Discharge- connector</text>
 <junction x="66.04" y="81.28"/>
 </segment>
 </net>
-<net name="N$46" class="0">
+<net name="N$46" class="1">
 <segment>
 <pinref part="R60" gate="G$1" pin="1"/>
 <pinref part="R61" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="81.28" x2="40.64" y2="81.28" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$55" class="0">
+<net name="N$55" class="1">
 <segment>
 <pinref part="R52" gate="G$1" pin="2"/>
 <pinref part="R45" gate="G$1" pin="1"/>
@@ -10505,21 +10511,21 @@ pin 3 and 4: Discharge- connector</text>
 <wire x1="63.5" y1="71.12" x2="63.5" y2="68.58" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$56" class="0">
+<net name="N$56" class="1">
 <segment>
 <pinref part="R54" gate="G$1" pin="2"/>
 <pinref part="R53" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="91.44" x2="91.44" y2="91.44" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$57" class="0">
+<net name="N$57" class="1">
 <segment>
 <pinref part="R53" gate="G$1" pin="1"/>
 <pinref part="R48" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="81.28" x2="99.06" y2="81.28" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$58" class="0">
+<net name="N$58" class="1">
 <segment>
 <pinref part="R47" gate="G$1" pin="2"/>
 <pinref part="THRESHOLD" gate="G$1" pin="D"/>
@@ -10527,35 +10533,35 @@ pin 3 and 4: Discharge- connector</text>
 <wire x1="109.22" y1="76.2" x2="109.22" y2="68.58" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$59" class="0">
+<net name="N$59" class="1">
 <segment>
 <pinref part="R55" gate="G$1" pin="2"/>
 <pinref part="R43" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="43.18" x2="83.82" y2="43.18" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$60" class="0">
+<net name="N$60" class="1">
 <segment>
 <pinref part="R55" gate="G$1" pin="1"/>
 <pinref part="R56" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="33.02" x2="99.06" y2="33.02" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$61" class="0">
+<net name="N$61" class="1">
 <segment>
 <pinref part="R44" gate="G$1" pin="2"/>
 <pinref part="R57" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="43.18" x2="48.26" y2="43.18" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$62" class="0">
+<net name="N$62" class="1">
 <segment>
 <pinref part="R57" gate="G$1" pin="1"/>
 <pinref part="R58" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="33.02" x2="40.64" y2="33.02" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="N$4" class="1">
 <segment>
 <pinref part="THRESHOLD" gate="G$1" pin="G"/>
 <wire x1="88.9" y1="71.12" x2="81.28" y2="71.12" width="0.6096" layer="91"/>
