@@ -6414,53 +6414,53 @@ Source: http://www.molex.com</description>
 <part name="GND42" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$11" library="HyTechDevices" deviceset="TPS26600" device=""/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
-<part name="R38" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
+<part name="R38" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="51k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R39" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
+<part name="R39" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="13k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R40" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
+<part name="R40" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="510k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R41" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
+<part name="R41" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
+<part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1 uF"/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
+<part name="C9" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1 uF"/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
+<part name="C10" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1 uF"/>
 <part name="U$12" library="HyTechDevices" deviceset="TPS26600" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
-<part name="R44" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
+<part name="R44" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="51k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R45" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
+<part name="R45" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="13k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R46" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
+<part name="R46" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="510k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R47" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
+<part name="R47" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.6k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="C11" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
+<part name="C11" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1 uF"/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
-<part name="C12" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
+<part name="C12" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1 uF"/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
-<part name="C13" library="HyTechDevices" deviceset="CAP" device="0603-CAP"/>
-<part name="R42" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
+<part name="C13" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1 uF"/>
+<part name="R42" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="39k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R43" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="5.1k">
+<part name="R43" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="18k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="R48" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="LED1" library="HyTechDevices" deviceset="LED" device="-0603"/>
+<part name="LED1" library="HyTechDevices" deviceset="LED" device="-0603" value="RED"/>
 <part name="R49" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k"/>
 <part name="R50" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k"/>
 <part name="D10" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
@@ -7022,11 +7022,13 @@ Source: http://www.molex.com</description>
 <pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="238.76" x2="60.96" y2="238.76" width="0.1524" layer="91"/>
 <junction x="50.8" y="238.76"/>
-<pinref part="POWER" gate="-2" pin="S"/>
 <pinref part="POWER" gate="-4" pin="S"/>
-<wire x1="40.64" y1="246.38" x2="40.64" y2="241.3" width="0.1524" layer="91"/>
-<junction x="40.64" y="241.3"/>
-<wire x1="40.64" y1="241.3" x2="50.8" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="241.3" x2="45.72" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="POWER" gate="-2" pin="S"/>
+<wire x1="45.72" y1="241.3" x2="50.8" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="246.38" x2="45.72" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="246.38" x2="45.72" y2="241.3" width="0.1524" layer="91"/>
+<junction x="45.72" y="241.3"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -7259,11 +7261,13 @@ Source: http://www.molex.com</description>
 </net>
 <net name="N$15" class="0">
 <segment>
-<wire x1="78.74" y1="71.12" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="73.66" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="D4(CANRX)"/>
 <pinref part="CAN_TRANSCEIVER_3.2" gate="G$1" pin="4"/>
-<wire x1="58.42" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="71.12" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -8787,6 +8791,11 @@ Source: http://www.molex.com</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,137.16,162.9,Q1,,,,,"/>
+<approved hash="113,2,123.704,210.896,LATCH_BUTTON,,,,,"/>
+<approved hash="113,1,215.9,233.385,S1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
