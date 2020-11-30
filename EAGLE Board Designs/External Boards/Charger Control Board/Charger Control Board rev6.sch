@@ -6485,6 +6485,9 @@ Source: http://www.molex.com</description>
 <text x="48.26" y="228.6" size="2.54" layer="95" font="vector">Regulated 5V Power</text>
 <text x="279.4" y="22.86" size="2.286" layer="94">Josh Kirshenbaum and Zekun Li</text>
 <text x="332.74" y="10.16" size="2.54" layer="94">Facilitates and monitors battery cell charging</text>
+<text x="137.16" y="259.08" size="2.54" layer="95" font="vector">12V E-Fuse</text>
+<text x="198.12" y="243.84" size="2.54" layer="95" font="vector">E-Fuse Reset Button</text>
+<text x="203.2" y="213.36" size="2.54" layer="95" font="vector">Shutdown A E-Fuse</text>
 </plain>
 <instances>
 <instance part="POWERTAIL" gate="-2" x="149.86" y="165.1" smashed="yes">
@@ -7176,13 +7179,13 @@ Source: http://www.molex.com</description>
 <net name="TOGGLE_CHARGER" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<label x="271.78" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="271.78" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="271.78" y1="104.14" x2="276.86" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="D12"/>
 <wire x1="96.52" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
-<label x="93.98" y="40.64" size="1.778" layer="95" rot="R180"/>
+<label x="93.98" y="40.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CHARGE_CONTROL" class="0">
@@ -7381,7 +7384,7 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="U$4" gate="G$1" pin="A9"/>
 <wire x1="121.92" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
-<label x="124.46" y="66.04" size="1.778" layer="95"/>
+<label x="124.46" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -7417,7 +7420,7 @@ Source: http://www.molex.com</description>
 <wire x1="337.82" y1="165.1" x2="337.82" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="154.94" x2="330.2" y2="154.94" width="0.1524" layer="91"/>
 <junction x="332.74" y="154.94"/>
-<label x="330.2" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="330.2" y="154.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="VBAT"/>
 </segment>
 </net>
@@ -7441,28 +7444,28 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="U$4" gate="G$1" pin="A3"/>
 <wire x1="121.92" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
-<label x="124.46" y="50.8" size="1.778" layer="95"/>
+<label x="124.46" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SHUTDOWN_C_READ" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="A4"/>
 <wire x1="121.92" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
-<label x="124.46" y="53.34" size="1.778" layer="95"/>
+<label x="124.46" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SHUTDOWN_B_READ" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="A8"/>
 <wire x1="121.92" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
-<label x="124.46" y="63.5" size="1.778" layer="95"/>
+<label x="124.46" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SOFTWARE_SHUTDOWN" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="4"/>
 <wire x1="182.88" y1="38.1" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
-<label x="215.9" y="38.1" size="1.778" layer="95" xref="yes"/>
+<label x="215.9" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="38.1" x2="215.9" y2="38.1" width="0.1524" layer="91"/>
 <junction x="210.82" y="38.1"/>
@@ -7472,7 +7475,7 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="U$4" gate="G$1" pin="A1"/>
 <wire x1="121.92" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<label x="124.46" y="45.72" size="1.778" layer="95"/>
+<label x="124.46" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -7507,7 +7510,7 @@ Source: http://www.molex.com</description>
 </net>
 <net name="WATCHDOG_OK" class="0">
 <segment>
-<label x="175.26" y="25.4" size="1.778" layer="95" xref="yes"/>
+<label x="175.26" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U$8" gate="G$1" pin="WDO"/>
 <wire x1="154.94" y1="20.32" x2="162.56" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="2"/>
@@ -7530,7 +7533,7 @@ Source: http://www.molex.com</description>
 <wire x1="152.4" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="RTN_A" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="MODE"/>
 <wire x1="129.54" y1="231.14" x2="127" y2="231.14" width="0.1524" layer="91"/>
@@ -7554,7 +7557,7 @@ Source: http://www.molex.com</description>
 <junction x="167.64" y="220.98"/>
 </segment>
 </net>
-<net name="N$36" class="0">
+<net name="OVP_A" class="0">
 <segment>
 <pinref part="R39" gate="G$1" pin="1"/>
 <pinref part="R38" gate="G$1" pin="2"/>
@@ -7565,7 +7568,7 @@ Source: http://www.molex.com</description>
 <junction x="114.3" y="223.52"/>
 </segment>
 </net>
-<net name="N$37" class="0">
+<net name="UVLO_A" class="0">
 <segment>
 <pinref part="R40" gate="G$1" pin="1"/>
 <pinref part="R39" gate="G$1" pin="2"/>
@@ -7576,14 +7579,14 @@ Source: http://www.molex.com</description>
 <junction x="114.3" y="233.68"/>
 </segment>
 </net>
-<net name="N$38" class="0">
+<net name="ILIM" class="0">
 <segment>
-<pinref part="R41" gate="G$1" pin="2"/>
-<pinref part="U$11" gate="G$1" pin="ILIM"/>
-<wire x1="167.64" y1="231.14" x2="160.02" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="R47" gate="G$1" pin="2"/>
+<pinref part="U$12" gate="G$1" pin="ILIM"/>
+<wire x1="241.3" y1="187.96" x2="233.68" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$44" class="0">
+<net name="DVDT_A" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="DVDT"/>
 <wire x1="129.54" y1="233.68" x2="124.46" y2="233.68" width="0.1524" layer="91"/>
@@ -7591,7 +7594,7 @@ Source: http://www.molex.com</description>
 <wire x1="124.46" y1="231.14" x2="124.46" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$39" class="0">
+<net name="RTN_B" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="MODE"/>
 <wire x1="203.2" y1="187.96" x2="200.66" y2="187.96" width="0.1524" layer="91"/>
@@ -7615,18 +7618,7 @@ Source: http://www.molex.com</description>
 <junction x="241.3" y="177.8"/>
 </segment>
 </net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="R45" gate="G$1" pin="1"/>
-<pinref part="R44" gate="G$1" pin="2"/>
-<pinref part="U$12" gate="G$1" pin="OVP"/>
-<wire x1="203.2" y1="193.04" x2="195.58" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="193.04" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="180.34" x2="187.96" y2="180.34" width="0.1524" layer="91"/>
-<junction x="187.96" y="180.34"/>
-</segment>
-</net>
-<net name="N$45" class="0">
+<net name="UVLO_B" class="0">
 <segment>
 <pinref part="R46" gate="G$1" pin="1"/>
 <pinref part="R45" gate="G$1" pin="2"/>
@@ -7637,14 +7629,7 @@ Source: http://www.molex.com</description>
 <junction x="187.96" y="190.5"/>
 </segment>
 </net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="R47" gate="G$1" pin="2"/>
-<pinref part="U$12" gate="G$1" pin="ILIM"/>
-<wire x1="241.3" y1="187.96" x2="233.68" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$50" class="0">
+<net name="DVDT_B" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="DVDT"/>
 <wire x1="203.2" y1="190.5" x2="198.12" y2="190.5" width="0.1524" layer="91"/>
@@ -7660,7 +7645,7 @@ Source: http://www.molex.com</description>
 <wire x1="233.68" y1="208.28" x2="248.92" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="208.28" x2="256.54" y2="208.28" width="0.1524" layer="91"/>
 <junction x="248.92" y="208.28"/>
-<label x="256.54" y="208.28" size="1.778" layer="95"/>
+<label x="256.54" y="208.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="FUSE_IN" class="0">
@@ -7689,7 +7674,7 @@ Source: http://www.molex.com</description>
 <junction x="121.92" y="251.46"/>
 <wire x1="114.3" y1="251.46" x2="109.22" y2="251.46" width="0.1524" layer="91"/>
 <junction x="114.3" y="251.46"/>
-<label x="109.22" y="251.46" size="1.778" layer="95" rot="R180"/>
+<label x="109.22" y="251.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="IN"/>
@@ -7702,7 +7687,7 @@ Source: http://www.molex.com</description>
 <junction x="195.58" y="208.28"/>
 <wire x1="187.96" y1="208.28" x2="180.34" y2="208.28" width="0.1524" layer="91"/>
 <junction x="187.96" y="208.28"/>
-<label x="180.34" y="208.28" size="1.778" layer="95" rot="R180"/>
+<label x="180.34" y="208.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -7715,36 +7700,36 @@ Source: http://www.molex.com</description>
 <net name="IMON_A_READ" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="IMON"/>
-<label x="243.84" y="190.5" size="1.778" layer="95"/>
 <pinref part="R43" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="190.5" x2="248.92" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="190.5" x2="248.92" y2="187.96" width="0.1524" layer="91"/>
+<label x="248.92" y="190.5" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="A7"/>
 <wire x1="121.92" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
-<label x="124.46" y="60.96" size="1.778" layer="95"/>
+<label x="124.46" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="IMON_B_READ" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="IMON"/>
-<label x="170.18" y="233.68" size="1.778" layer="95"/>
 <wire x1="160.02" y1="233.68" x2="175.26" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="R42" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="233.68" x2="175.26" y2="231.14" width="0.1524" layer="91"/>
+<label x="175.26" y="233.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="A6"/>
 <wire x1="121.92" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
-<label x="124.46" y="58.42" size="1.778" layer="95"/>
+<label x="124.46" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="12V_READ" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="A2"/>
 <wire x1="121.92" y1="48.26" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
-<label x="124.46" y="48.26" size="1.778" layer="95"/>
+<label x="124.46" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -7758,12 +7743,12 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="U$11" gate="G$1" pin="SHDN"/>
 <wire x1="160.02" y1="236.22" x2="162.56" y2="236.22" width="0.1524" layer="91"/>
-<label x="162.56" y="236.22" size="1.778" layer="95"/>
+<label x="162.56" y="236.22" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="SHDN"/>
 <wire x1="233.68" y1="193.04" x2="236.22" y2="193.04" width="0.1524" layer="91"/>
-<label x="236.22" y="193.04" size="1.778" layer="95"/>
+<label x="236.22" y="193.04" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="S1" gate="1" pin="P"/>
@@ -7771,14 +7756,32 @@ Source: http://www.molex.com</description>
 <wire x1="210.82" y1="231.14" x2="210.82" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="231.14" x2="205.74" y2="231.14" width="0.1524" layer="91"/>
 <junction x="210.82" y="231.14"/>
-<label x="195.58" y="231.14" size="1.778" layer="95"/>
+<label x="205.74" y="231.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SHUTDOWN_E_READ" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="A5"/>
 <wire x1="121.92" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
-<label x="124.46" y="55.88" size="1.778" layer="95"/>
+<label x="124.46" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="ILIM_A" class="0">
+<segment>
+<pinref part="R41" gate="G$1" pin="2"/>
+<pinref part="U$11" gate="G$1" pin="ILIM"/>
+<wire x1="167.64" y1="231.14" x2="160.02" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="OVP_B" class="0">
+<segment>
+<pinref part="R45" gate="G$1" pin="1"/>
+<pinref part="R44" gate="G$1" pin="2"/>
+<pinref part="U$12" gate="G$1" pin="OVP"/>
+<wire x1="203.2" y1="193.04" x2="195.58" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="193.04" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="180.34" x2="187.96" y2="180.34" width="0.1524" layer="91"/>
+<junction x="187.96" y="180.34"/>
 </segment>
 </net>
 </nets>
@@ -8525,7 +8528,7 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="D15" gate="1" pin="A"/>
 <wire x1="63.5" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
-<label x="60.96" y="81.28" size="1.778" layer="95" rot="R180"/>
+<label x="60.96" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -8703,7 +8706,7 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="D10" gate="1" pin="A"/>
 <wire x1="63.5" y1="104.14" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
-<label x="60.96" y="104.14" size="1.778" layer="95" rot="R180"/>
+<label x="60.96" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -8759,7 +8762,7 @@ Source: http://www.molex.com</description>
 <wire x1="99.06" y1="104.14" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
 <junction x="99.06" y="104.14"/>
 <wire x1="99.06" y1="111.76" x2="101.6" y2="111.76" width="0.1524" layer="91"/>
-<label x="101.6" y="111.76" size="1.778" layer="95"/>
+<label x="101.6" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -8778,7 +8781,7 @@ Source: http://www.molex.com</description>
 <wire x1="99.06" y1="81.28" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="88.9" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
 <junction x="99.06" y="81.28"/>
-<label x="101.6" y="88.9" size="1.778" layer="95"/>
+<label x="101.6" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
