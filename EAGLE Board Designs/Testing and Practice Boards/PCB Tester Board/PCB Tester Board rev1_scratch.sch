@@ -2306,6 +2306,7 @@ Source: http://www.molex.com</description>
 <wire x1="627.38" y1="-652.78" x2="627.38" y2="-299.72" width="0.1524" layer="90"/>
 <wire x1="627.38" y1="-299.72" x2="294.64" y2="-299.72" width="0.1524" layer="90"/>
 <text x="294.64" y="-299.72" size="12.7" layer="90">Noise Testing</text>
+<text x="81.28" y="-388.62" size="1.778" layer="91">The wheel speed tester resistor values here need to be replicated through the digipot. Refer to the AD5263 datasheet for the proper serial inputs</text>
 </plain>
 <instances>
 <instance part="D2" gate="G$1" x="-35.56" y="38.1" smashed="yes" rot="R90">
