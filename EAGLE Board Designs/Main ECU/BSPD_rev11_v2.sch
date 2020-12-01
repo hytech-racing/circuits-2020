@@ -66,9 +66,9 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -4686,6 +4686,7 @@ Source: http://www.molex.com</description>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10M"/>
 <part name="GND4" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="680k"/>
 </parts>
 <sheets>
 <sheet>
@@ -4747,6 +4748,8 @@ Second op amp outputs high since voltage &gt; 0.7 V</text>
 <text x="167.132" y="130.556" size="1.27" layer="97">Make note not to solder R5 or 
 R2 unless circuit fails without
 them installed</text>
+<text x="297.18" y="142.24" size="1.778" layer="97">Only solder R6 for certain testing configurations
+of push pull AND gate</text>
 </plain>
 <instances>
 <instance part="R33" gate="G$1" x="271.78" y="149.86" smashed="yes" rot="R180">
@@ -5110,6 +5113,10 @@ them installed</text>
 <instance part="GND4" gate="1" x="160.02" y="127" smashed="yes">
 <attribute name="VALUE" x="157.48" y="124.46" size="1.778" layer="96"/>
 </instance>
+<instance part="R6" gate="G$1" x="289.56" y="149.86" smashed="yes" rot="R180">
+<attribute name="NAME" x="293.37" y="148.3614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="293.37" y="153.162" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5139,6 +5146,10 @@ them installed</text>
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="GND116" gate="1" pin="GND"/>
 <wire x1="281.94" y1="134.62" x2="281.94" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="149.86" x2="294.64" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="134.62" x2="281.94" y2="134.62" width="0.1524" layer="91"/>
+<junction x="281.94" y="134.62"/>
 </segment>
 <segment>
 <pinref part="D10" gate="G$1" pin="A"/>
@@ -5491,6 +5502,8 @@ them installed</text>
 <junction x="281.94" y="162.56"/>
 <pinref part="U6" gate="G$1" pin="VIN+"/>
 <label x="284.48" y="160.02" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="284.48" y1="149.86" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X2" gate="-3" pin="S"/>
