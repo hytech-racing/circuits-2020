@@ -6465,8 +6465,6 @@ Source: http://www.molex.com</description>
 <part name="R50" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k"/>
 <part name="D10" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="GND49" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="S1" library="HyTechDevices" deviceset="BTN_10-XX" device="SMD"/>
-<part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="R51" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k"/>
 <part name="R52" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="12k"/>
 <part name="D15" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
@@ -6486,7 +6484,6 @@ Source: http://www.molex.com</description>
 <text x="279.4" y="22.86" size="2.286" layer="94">Josh Kirshenbaum and Zekun Li</text>
 <text x="332.74" y="10.16" size="2.54" layer="94">Facilitates and monitors battery cell charging</text>
 <text x="137.16" y="259.08" size="2.54" layer="95" font="vector">12V E-Fuse</text>
-<text x="198.12" y="243.84" size="2.54" layer="95" font="vector">E-Fuse Reset Button</text>
 <text x="203.2" y="213.36" size="2.54" layer="95" font="vector">Shutdown A E-Fuse</text>
 </plain>
 <instances>
@@ -6903,13 +6900,6 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="324.612" y="89.916" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="324.612" y="92.075" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="S1" gate="1" x="215.9" y="231.14" smashed="yes" rot="R270">
-<attribute name="NAME" x="213.36" y="237.49" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.075" y="234.95" size="1.778" layer="96"/>
-</instance>
-<instance part="GND50" gate="1" x="226.06" y="226.06" smashed="yes">
-<attribute name="VALUE" x="223.52" y="223.52" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -7101,15 +7091,6 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="GND48" gate="1" pin="GND"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="S1" gate="1" pin="S"/>
-<pinref part="S1" gate="1" pin="S1"/>
-<wire x1="220.98" y1="231.14" x2="220.98" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="GND50" gate="1" pin="GND"/>
-<wire x1="220.98" y1="231.14" x2="226.06" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="231.14" x2="226.06" y2="228.6" width="0.1524" layer="91"/>
-<junction x="220.98" y="231.14"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -7741,26 +7722,6 @@ Source: http://www.molex.com</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="U$3" gate="G$1" pin="D30"/>
 <wire x1="327.66" y1="185.42" x2="330.2" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ON/OFF" class="0">
-<segment>
-<pinref part="U$11" gate="G$1" pin="SHDN"/>
-<wire x1="160.02" y1="236.22" x2="162.56" y2="236.22" width="0.1524" layer="91"/>
-<label x="162.56" y="236.22" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="SHDN"/>
-<wire x1="233.68" y1="193.04" x2="236.22" y2="193.04" width="0.1524" layer="91"/>
-<label x="236.22" y="193.04" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="S1" gate="1" pin="P"/>
-<pinref part="S1" gate="1" pin="P1"/>
-<wire x1="210.82" y1="231.14" x2="210.82" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="231.14" x2="205.74" y2="231.14" width="0.1524" layer="91"/>
-<junction x="210.82" y="231.14"/>
-<label x="205.74" y="231.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SHUTDOWN_E_READ" class="0">
