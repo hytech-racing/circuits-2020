@@ -250,37 +250,6 @@
 <text x="1.397" y="0.889" size="0.3048" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="0" y="0.3302" size="0.635" layer="25" align="top-center">&gt;NAME</text>
 </package>
-<package name="SOIC-08">
-<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;</description>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.908" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="-1.908" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-2.54" y="0" size="0.6096" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="2.54" y="0" size="0.6096" layer="27" rot="R270" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
-<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
-<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
-<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
-<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
-<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
-<polygon width="0.127" layer="21">
-<vertex x="-1.778" y="-1.016" curve="90"/>
-<vertex x="-1.778" y="-0.762" curve="90"/>
-<vertex x="-2.032" y="-0.762" curve="90"/>
-<vertex x="-2.032" y="-1.016" curve="90"/>
-</polygon>
-</package>
 <package name="XP-E2">
 <description>&lt;b&gt;Cree® XLamp® XP-E2 LEDs&lt;/b&gt;&lt;p&gt;
 &lt;a href="https://www.cree.com/led-components/media/documents/XLampXPE2.pdf"&gt;Source: www.cree.com/xlamp .. XLampXP-E2.pdf&lt;/a&gt;</description>
@@ -972,6 +941,37 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 </package>
+<package name="SOIC-08">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.908" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.908" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-2.54" y="0" size="0.6096" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2.54" y="0" size="0.6096" layer="27" rot="R270" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<polygon width="0.127" layer="21">
+<vertex x="-1.778" y="-1.016" curve="90"/>
+<vertex x="-1.778" y="-0.762" curve="90"/>
+<vertex x="-2.032" y="-0.762" curve="90"/>
+<vertex x="-2.032" y="-1.016" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX4622">
@@ -1014,21 +1014,6 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <pin name="S" x="5.08" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
 <pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
 <text x="-3.81" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
-</symbol>
-<symbol name="555_TIMER">
-<wire x1="0" y1="0" x2="27.94" y2="0" width="0.254" layer="94"/>
-<wire x1="27.94" y1="0" x2="27.94" y2="20.32" width="0.254" layer="94"/>
-<wire x1="27.94" y1="20.32" x2="0" y2="20.32" width="0.254" layer="94"/>
-<wire x1="0" y1="20.32" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="15.24" y="10.16" size="1.778" layer="95" align="center">&gt;Name</text>
-<pin name="6" x="-5.08" y="2.54" length="middle"/>
-<pin name="2" x="7.62" y="-5.08" length="middle" rot="R90"/>
-<pin name="1" x="20.32" y="-5.08" length="middle" rot="R90"/>
-<pin name="5" x="33.02" y="2.54" length="middle" rot="R180"/>
-<pin name="3" x="33.02" y="17.78" length="middle" rot="R180"/>
-<pin name="8" x="20.32" y="25.4" length="middle" rot="R270"/>
-<pin name="4" x="7.62" y="25.4" length="middle" rot="R270"/>
-<pin name="7" x="-5.08" y="17.78" length="middle"/>
 </symbol>
 <symbol name="LED-THERMAL">
 <description>LED
@@ -1110,6 +1095,22 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="-0.508" y1="1.27" x2="0" y2="0.762" width="0.254" layer="94"/>
 <wire x1="0" y1="-0.762" x2="0.508" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
+<symbol name="555_TIMER">
+<wire x1="0" y1="0" x2="27.94" y2="0" width="0.254" layer="94"/>
+<wire x1="27.94" y1="0" x2="27.94" y2="20.32" width="0.254" layer="94"/>
+<wire x1="27.94" y1="20.32" x2="0" y2="20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="20.32" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<pin name="THRESHOLD" x="-5.08" y="5.08" length="middle" direction="pas"/>
+<pin name="TRIGGER" x="-5.08" y="15.24" length="middle" direction="pas"/>
+<pin name="GND" x="33.02" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="CONTROL" x="-5.08" y="7.62" length="middle" direction="pas"/>
+<pin name="OUTPUT" x="33.02" y="17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="VCC" x="-5.08" y="17.78" length="middle" direction="pas"/>
+<pin name="RESET" x="-5.08" y="12.7" length="middle" direction="pas"/>
+<pin name="DISCHARGE" x="-5.08" y="2.54" length="middle" direction="pas"/>
+<text x="0" y="0" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MAX4622">
@@ -1155,29 +1156,6 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NA555">
-<description>Texas Instruments NA555 timer. &lt;a href="http://www.ti.com/lit/ds/symlink/se555.pdf"&gt;Data sheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="555_TIMER" x="-12.7" y="-10.16"/>
-</gates>
-<devices>
-<device name="SO-8" package="SOIC-08">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1670,6 +1648,29 @@ Source: http://www.molex.com</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NA555">
+<description>Texas Instruments NA555 timer. &lt;a href="http://www.ti.com/lit/ds/symlink/se555.pdf"&gt;Data sheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="555_TIMER" x="-12.7" y="-10.16"/>
+</gates>
+<devices>
+<device name="SO-8" package="SOIC-08">
+<connects>
+<connect gate="G$1" pin="CONTROL" pad="5"/>
+<connect gate="G$1" pin="DISCHARGE" pad="7"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="OUTPUT" pad="3"/>
+<connect gate="G$1" pin="RESET" pad="4"/>
+<connect gate="G$1" pin="THRESHOLD" pad="6"/>
+<connect gate="G$1" pin="TRIGGER" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4302,7 +4303,6 @@ Source: http://www.molex.com</description>
 <part name="MAX4622" library="HyTechDevices" deviceset="MAX4622" device=""/>
 <part name="Q2" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 <part name="Q1" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
-<part name="NA555" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
 <part name="LED3" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="RED"/>
 <part name="LED2" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="GREEN"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="43k">
@@ -4377,6 +4377,7 @@ Source: http://www.molex.com</description>
 <part name="D3" library="HyTechDevices" deviceset="DIODE_ZENER" device="0603" value="D15V0S1U2LP1608"/>
 <part name="D2" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="D1" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
+<part name="U$3" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
 </parts>
 <sheets>
 <sheet>
@@ -4396,9 +4397,6 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="80.01" y="-20.32" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.01" y="-33.02" size="1.778" layer="95"/>
 </instance>
-<instance part="NA555" gate="G$1" x="22.86" y="0" smashed="yes">
-<attribute name="NAME" x="38.1" y="10.16" size="1.778" layer="95" align="center"/>
-</instance>
 <instance part="LED3" gate="G$1" x="88.9" y="27.94" smashed="yes">
 <attribute name="NAME" x="92.456" y="23.368" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="94.615" y="23.368" size="1.778" layer="96" rot="R90"/>
@@ -4407,32 +4405,32 @@ Source: http://www.molex.com</description>
 <attribute name="NAME" x="-26.924" y="-14.732" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-24.765" y="-14.732" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="15.24" y="10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.7414" y="6.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="18.542" y="6.35" size="1.778" layer="96" rot="R90"/>
-<attribute name="TOLERANCE" x="15.24" y="10.16" size="0.127" layer="96" rot="R90" display="off"/>
+<instance part="R2" gate="G$1" x="-7.62" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="-9.1186" y="-1.27" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-4.318" y="-1.27" size="1.778" layer="96" rot="R90"/>
+<attribute name="TOLERANCE" x="-7.62" y="2.54" size="0.127" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="88.9" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.4014" y="36.83" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="92.202" y="36.83" size="1.778" layer="96" rot="R90"/>
 <attribute name="TOLERANCE" x="88.9" y="40.64" size="0.127" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="15.24" y="22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.7386" y="26.67" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="11.938" y="26.67" size="1.778" layer="96" rot="R270"/>
-<attribute name="TOLERANCE" x="15.24" y="22.86" size="0.127" layer="96" rot="R270" display="off"/>
+<instance part="R1" gate="G$1" x="-7.62" y="15.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="-6.1214" y="19.05" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-10.922" y="19.05" size="1.778" layer="96" rot="R270"/>
+<attribute name="TOLERANCE" x="-7.62" y="15.24" size="0.127" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="C3" gate="G$1" x="38.1" y="-12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.179" y="-11.176" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="40.259" y="-11.176" size="1.778" layer="96" rot="R90"/>
-<attribute name="TOLERANCE" x="38.1" y="-12.7" size="0.127" layer="96" rot="R90" display="off"/>
-<attribute name="VOLTAGE" x="38.1" y="-12.7" size="0.127" layer="96" rot="R90" display="off"/>
+<instance part="C3" gate="G$1" x="53.34" y="-5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.419" y="-3.556" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="55.499" y="-3.556" size="1.778" layer="96" rot="R90"/>
+<attribute name="TOLERANCE" x="53.34" y="-5.08" size="0.127" layer="96" rot="R90" display="off"/>
+<attribute name="VOLTAGE" x="53.34" y="-5.08" size="0.127" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="58.42" y="-5.08" smashed="yes">
-<attribute name="NAME" x="59.944" y="-2.159" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.944" y="-7.239" size="1.778" layer="96"/>
-<attribute name="TOLERANCE" x="58.42" y="-5.08" size="0.127" layer="96" display="off"/>
-<attribute name="VOLTAGE" x="58.42" y="-5.08" size="0.127" layer="96" display="off"/>
+<instance part="C6" gate="G$1" x="0" y="2.54" smashed="yes">
+<attribute name="NAME" x="1.524" y="5.461" size="1.778" layer="95"/>
+<attribute name="VALUE" x="1.524" y="0.381" size="1.778" layer="96"/>
+<attribute name="TOLERANCE" x="0" y="2.54" size="0.127" layer="96" display="off"/>
+<attribute name="VOLTAGE" x="0" y="2.54" size="0.127" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="-30.48" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="-34.0614" y="44.45" size="1.778" layer="95" rot="R270"/>
@@ -4466,11 +4464,11 @@ Source: http://www.molex.com</description>
 <instance part="GND2" gate="1" x="-30.48" y="-48.26" smashed="yes">
 <attribute name="VALUE" x="-33.02" y="-50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="43.18" y="-17.78" smashed="yes">
-<attribute name="VALUE" x="40.64" y="-20.32" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="58.42" y="-10.16" smashed="yes">
+<attribute name="VALUE" x="55.88" y="-12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="58.42" y="-12.7" smashed="yes">
-<attribute name="VALUE" x="55.88" y="-15.24" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="0" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="-7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="P+1" gate="VCC" x="-30.48" y="71.12" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-31.496" y="72.644" size="1.778" layer="96" rot="R180"/>
@@ -4578,6 +4576,10 @@ Source: http://www.molex.com</description>
 <instance part="D1" gate="G$1" x="81.28" y="-33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="85.09" y="-34.7726" size="1.778" layer="95" rot="R180"/>
 </instance>
+<instance part="U$3" gate="G$1" x="25.4" y="2.54" smashed="yes">
+<attribute name="NAME" x="25.4" y="22.86" size="1.778" layer="95"/>
+<attribute name="VALUE" x="25.4" y="2.54" size="1.778" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4587,32 +4589,6 @@ Source: http://www.molex.com</description>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="-30.48" y1="-22.86" x2="-30.48" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="5.08" x2="15.24" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="2.54" x2="15.24" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="NA555" gate="G$1" pin="6"/>
-<wire x1="17.78" y1="2.54" x2="15.24" y2="2.54" width="0.1524" layer="91"/>
-<junction x="15.24" y="2.54"/>
-<pinref part="NA555" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="-5.08" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="-12.7" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="-12.7" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="30.48" y="-12.7"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="NA555" gate="G$1" pin="7"/>
-<wire x1="15.24" y1="15.24" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<junction x="15.24" y="17.78"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -4631,10 +4607,10 @@ Source: http://www.molex.com</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="NA555" gate="G$1" pin="5"/>
-<wire x1="58.42" y1="0" x2="58.42" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="2.54" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="0" y1="7.62" x2="0" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="U$3" gate="G$1" pin="CONTROL"/>
+<wire x1="0" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4689,16 +4665,16 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="NA555" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="-5.08" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-12.7" x2="43.18" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-12.7" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="43.18" y="-12.7"/>
+<wire x1="58.42" y1="5.08" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-5.08" x2="58.42" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-5.08" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="58.42" y="-5.08"/>
+<pinref part="U$3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="58.42" y1="-7.62" x2="58.42" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -4852,23 +4828,17 @@ Source: http://www.molex.com</description>
 <junction x="55.88" y="63.5"/>
 </segment>
 <segment>
+<pinref part="U$3" gate="G$1" pin="RESET"/>
+<wire x1="20.32" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
+<label x="17.78" y="15.24" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="VCC"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="27.94" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
-<label x="15.24" y="33.02" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
-<pinref part="NA555" gate="G$1" pin="4"/>
-<wire x1="15.24" y1="30.48" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="25.4" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<label x="30.48" y="33.02" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
-<wire x1="30.48" y1="30.48" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<junction x="15.24" y="30.48"/>
-<junction x="30.48" y="30.48"/>
-<pinref part="NA555" gate="G$1" pin="8"/>
-<wire x1="43.18" y1="25.4" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
-<label x="43.18" y="33.02" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
-<wire x1="43.18" y1="30.48" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
-<junction x="43.18" y="30.48"/>
+<wire x1="-7.62" y1="20.32" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="20.32" x2="-10.16" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-7.62" y="20.32"/>
+<label x="-10.16" y="20.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GREEN" class="0">
@@ -4880,17 +4850,17 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="-40.64" y1="-27.94" x2="-43.18" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-48.26" y="-27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-43.18" y1="-27.94" x2="-43.18" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="-43.18" y1="-33.02" x2="-40.64" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-43.18" y1="-27.94" x2="-45.72" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="-27.94" x2="-48.26" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-38.1" x2="-45.72" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="-38.1" x2="-45.72" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="-45.72" y="-27.94"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="-40.64" y1="-33.02" x2="-43.18" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="-33.02" x2="-43.18" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="-27.94" x2="-43.18" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="-43.18" y="-27.94"/>
+<wire x1="-45.72" y1="-27.94" x2="-48.26" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="-45.72" y="-27.94"/>
+<label x="-48.26" y="-27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4909,24 +4879,24 @@ Source: http://www.molex.com</description>
 </net>
 <net name="RED" class="0">
 <segment>
-<pinref part="NA555" gate="G$1" pin="3"/>
-<wire x1="55.88" y1="17.78" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
-<label x="58.42" y="17.78" size="1.778" layer="95" xref="yes"/>
+<wire x1="58.42" y1="20.32" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
+<label x="60.96" y="20.32" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="OUTPUT"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="78.74" y1="-27.94" x2="76.2" y2="-27.94" width="0.1524" layer="91"/>
-<label x="71.12" y="-27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="-27.94" x2="73.66" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-27.94" x2="71.12" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-27.94" x2="73.66" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="73.66" y="-27.94"/>
-<wire x1="73.66" y1="-38.1" x2="76.2" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-27.94" x2="76.2" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="76.2" y="-27.94"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="76.2" y1="-33.02" x2="78.74" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-33.02" x2="76.2" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-33.02" x2="76.2" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="76.2" y1="-27.94" x2="78.74" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="-38.1" x2="73.66" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-38.1" x2="73.66" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-27.94" x2="76.2" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="76.2" y="-27.94"/>
+<wire x1="73.66" y1="-27.94" x2="71.12" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="73.66" y="-27.94"/>
+<label x="71.12" y="-27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="THERM" class="0">
@@ -4961,6 +4931,44 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="LED8" gate="G$1" pin="X"/>
 <wire x1="86.36" y1="-7.62" x2="86.36" y2="-6.604" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TRIGGER" class="0">
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="-5.08" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
+<label x="45.72" y="-5.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="TRIGGER"/>
+<wire x1="20.32" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
+<label x="17.78" y="17.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="THRESHOLD"/>
+<wire x1="20.32" y1="7.62" x2="17.78" y2="7.62" width="0.1524" layer="91"/>
+<label x="17.78" y="7.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-10.16" y="-5.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="DISCHARGE" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="DISCHARGE"/>
+<wire x1="20.32" y1="5.08" x2="17.78" y2="5.08" width="0.1524" layer="91"/>
+<label x="17.78" y="5.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-7.62" y1="10.16" x2="-10.16" y2="10.16" width="0.1524" layer="91"/>
+<junction x="-7.62" y="10.16"/>
+<label x="-10.16" y="10.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
