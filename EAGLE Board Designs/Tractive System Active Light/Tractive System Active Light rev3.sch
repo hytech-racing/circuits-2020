@@ -4389,6 +4389,7 @@ Source: http://www.molex.com</description>
 <sheet>
 <plain>
 <text x="20.32" y="-60.96" size="2.54" layer="94">Arvind Srinivasan</text>
+<text x="91.44" y="-68.58" size="2.54" layer="94">TSAL Rev 3 Schematic</text>
 </plain>
 <instances>
 <instance part="MAX4622" gate="G$1" x="-15.24" y="86.36" smashed="yes">
