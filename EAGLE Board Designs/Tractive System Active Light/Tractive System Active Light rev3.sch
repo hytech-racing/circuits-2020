@@ -925,6 +925,10 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="0" y1="-0.2032" x2="0" y2="0.2032" width="0.127" layer="21"/>
 <wire x1="0" y1="0.2032" x2="0.3048" y2="0" width="0.127" layer="21"/>
 </package>
+<package name="U-DFN1608-2">
+<smd name="P$1" x="0" y="0" dx="1.01091875" dy="0.8001" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="-1.0922" dx="0.6096" dy="0.8001" layer="1" rot="R90"/>
+</package>
 <package name="0603_D">
 <wire x1="-0.1" y1="0.5" x2="0.1" y2="0.5" width="0.1524" layer="21"/>
 <wire x1="-0.1" y1="-0.5" x2="0.1" y2="-0.5" width="0.1524" layer="21"/>
@@ -1078,6 +1082,22 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="TVS_DIODE">
+<wire x1="0" y1="1.016" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-3.81" y="1.7526" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.5814" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<polygon width="0.254" layer="94">
+<vertex x="-2.54" y="1.27"/>
+<vertex x="-2.54" y="-1.27"/>
+<vertex x="0" y="0"/>
+</polygon>
+<wire x1="0" y1="1.016" x2="0.508" y2="1.016" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-0.508" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
 <symbol name="DIODE_ZENER">
 <wire x1="0" y1="0.762" x2="0" y2="-0.762" width="0.254" layer="94"/>
@@ -1604,6 +1624,22 @@ Source: http://www.molex.com</description>
 <connect gate="-2" pin="S" pad="P$2"/>
 <connect gate="-3" pin="S" pad="P$3"/>
 <connect gate="-4" pin="S" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TVS_DIODE">
+<gates>
+<gate name="G$1" symbol="TVS_DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="U-DFN1608-2">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4374,7 +4410,7 @@ Source: http://www.molex.com</description>
 <part name="X2" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT_RIGHT_ANGLE-4-SURFACE" value="MAIN"/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$1" library="HyTechFrames" deviceset="FRAME_A_L" device=""/>
-<part name="D3" library="HyTechDevices" deviceset="DIODE_ZENER" device="0603" value="D15V0S1U2LP1608"/>
+<part name="D3" library="HyTechDevices" deviceset="TVS_DIODE" device="" value="D15V0S1U2LP1608"/>
 <part name="D2" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="D1" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="U$3" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
