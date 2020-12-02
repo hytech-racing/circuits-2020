@@ -834,6 +834,9 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <attribute name="NAME" x="29.21" y="62.357" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="29.337" y="53.975" size="0.8128" layer="27" align="top-left"/>
 </element>
+<element name="U$21" library="HyTechDevices" package="SOLDER_PAD_XSMALL" value="SOLDER_PAD" x="55.499" y="99.441" smashed="yes">
+<attribute name="NAME" x="52.324" y="96.901" size="1.27" layer="25"/>
+</element>
 </elements>
 <signals>
 <signal name="+12V">
@@ -872,7 +875,8 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <wire x1="15.9132" y1="80.7776375" x2="16.6808375" y2="80.01" width="0.508" layer="1"/>
 <wire x1="16.6808375" y1="80.01" x2="22.86" y2="80.01" width="0.508" layer="1"/>
 <wire x1="22.86" y1="80.01" x2="24.853" y2="80.01" width="0.508" layer="1"/>
-<wire x1="24.853" y1="80.01" x2="27.559" y2="80.01" width="0.508" layer="1"/>
+<wire x1="24.853" y1="80.01" x2="26.67" y2="80.01" width="0.508" layer="1"/>
+<wire x1="26.67" y1="80.01" x2="27.559" y2="80.01" width="0.508" layer="1"/>
 <wire x1="34.3678" y1="73.985" x2="33.584" y2="73.985" width="0.508" layer="1"/>
 <wire x1="33.584" y1="73.985" x2="27.7495" y2="79.8195" width="0.508" layer="1"/>
 <wire x1="27.7495" y1="79.8195" x2="27.559" y2="80.01" width="0.508" layer="1"/>
@@ -885,8 +889,7 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <wire x1="16.51" y1="87.63" x2="0.342" y2="87.63" width="0.508" layer="1"/>
 <wire x1="0.342" y1="87.63" x2="-1.69" y2="89.662" width="0.508" layer="1"/>
 <contactref element="U$4" pad="7"/>
-<wire x1="27.7495" y1="79.8195" x2="34.4805" y2="79.8195" width="0.508" layer="1"/>
-<wire x1="34.4805" y1="79.8195" x2="35.56" y2="78.74" width="0.508" layer="1"/>
+<wire x1="27.7495" y1="79.8195" x2="28.8925" y2="78.6765" width="0.508" layer="1"/>
 <via x="35.56" y="78.74" extent="1-16" drill="0.8"/>
 <wire x1="35.56" y1="78.74" x2="35.56" y2="67.31" width="0.508" layer="16"/>
 <via x="35.56" y="67.31" extent="1-16" drill="0.8"/>
@@ -898,6 +901,8 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <wire x1="22.86" y1="60.032" x2="22.86" y2="62.103" width="0.508" layer="1"/>
 <wire x1="24.13" y1="67.31" x2="24.13" y2="66.802" width="0.4064" layer="1"/>
 <wire x1="24.13" y1="66.802" x2="25.781" y2="65.151" width="0.4064" layer="1"/>
+<wire x1="35.56" y1="78.74" x2="34.29" y2="80.01" width="0.508" layer="1"/>
+<wire x1="34.29" y1="80.01" x2="26.67" y2="80.01" width="0.508" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="U$1" pad="2"/>
@@ -999,6 +1004,8 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <contactref element="JP1" pad="2"/>
 <wire x1="34.29" y1="100.33" x2="35.179" y2="99.441" width="0.508" layer="1"/>
 <wire x1="35.179" y1="99.441" x2="50.546" y2="99.441" width="0.508" layer="1"/>
+<contactref element="U$21" pad="P$1"/>
+<wire x1="50.546" y1="99.441" x2="55.499" y2="99.441" width="0.508" layer="1"/>
 <wire x1="38.481" y1="91.987" x2="36.449" y2="91.987" width="0" layer="19" extent="1-1"/>
 <wire x1="28.9592" y1="71.258" x2="28.8322" y2="71.1206" width="0" layer="19" extent="1-1"/>
 <wire x1="28.8322" y1="75.935" x2="26.035" y2="77.128" width="0" layer="19" extent="1-1"/>
@@ -1079,21 +1086,17 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <wire x1="15.964" y1="86.84131875" x2="16.64468125" y2="87.522" width="0.4064" layer="16"/>
 <wire x1="16.64468125" y1="87.522" x2="17.926" y2="87.522" width="0.4064" layer="16"/>
 <wire x1="17.926" y1="87.522" x2="19.304" y2="88.9" width="0.4064" layer="16"/>
-<wire x1="2.54" y1="55.88" x2="2.54" y2="56.12268125" width="0.4064" layer="16"/>
-<wire x1="2.54" y1="56.12268125" x2="0.724" y2="57.93868125" width="0.4064" layer="16"/>
-<wire x1="0.724" y1="71.60131875" x2="1.62068125" y2="72.498" width="0.4064" layer="16"/>
-<wire x1="1.62068125" y1="72.498" x2="3.67531875" y2="72.498" width="0.4064" layer="16"/>
-<wire x1="3.67531875" y1="72.498" x2="15.964" y2="84.78668125" width="0.4064" layer="16"/>
+<wire x1="4.94531875" y1="73.768" x2="15.964" y2="84.78668125" width="0.4064" layer="16"/>
 <wire x1="15.964" y1="84.78668125" x2="15.964" y2="86.84131875" width="0.4064" layer="16"/>
-<wire x1="0.724" y1="57.93868125" x2="0.724" y2="71.60131875" width="0.4064" layer="16"/>
 <wire x1="19.304" y1="90.297" x2="19.304" y2="88.9" width="0.4064" layer="1"/>
 <wire x1="28.8322" y1="95.575" x2="24.582" y2="95.575" width="0.4064" layer="1"/>
 <wire x1="24.582" y1="95.575" x2="19.304" y2="90.297" width="0.4064" layer="1"/>
 <wire x1="28.8322" y1="72.685" x2="28.108" y2="72.685" width="0.4064" layer="1"/>
 <wire x1="28.108" y1="72.685" x2="20.193" y2="64.77" width="0.4064" layer="1"/>
 <wire x1="20.193" y1="64.77" x2="11.43" y2="64.77" width="0.4064" layer="1"/>
-<wire x1="11.43" y1="64.77" x2="2.54" y2="55.88" width="0.4064" layer="1"/>
+<wire x1="11.43" y1="64.77" x2="6.35" y2="59.69" width="0.4064" layer="1"/>
 <contactref element="U$4" pad="11"/>
+<wire x1="6.35" y1="59.69" x2="2.54" y2="55.88" width="0.4064" layer="1"/>
 <wire x1="27.936" y1="55.241" x2="28.85" y2="55.241" width="0.4064" layer="1"/>
 <wire x1="12.94268125" y1="55.88" x2="2.54" y2="55.88" width="0.4064" layer="1"/>
 <wire x1="20.701" y1="54.229" x2="20.339" y2="54.591" width="0.4064" layer="1"/>
@@ -1101,6 +1104,9 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <wire x1="26.924" y1="54.229" x2="27.936" y2="55.241" width="0.4064" layer="1"/>
 <wire x1="20.339" y1="54.591" x2="14.23168125" y2="54.591" width="0.4064" layer="1"/>
 <wire x1="14.23168125" y1="54.591" x2="12.94268125" y2="55.88" width="0.4064" layer="1"/>
+<via x="6.35" y="59.69" extent="1-16" drill="0.8"/>
+<wire x1="4.94531875" y1="73.768" x2="4.94531875" y2="61.09468125" width="0.508" layer="16"/>
+<wire x1="4.94531875" y1="61.09468125" x2="6.35" y2="59.69" width="0.508" layer="16"/>
 </signal>
 <signal name="5V_DAC_OUTPUT_A">
 <contactref element="U$20" pad="3"/>
@@ -1145,7 +1151,7 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <signal name="GAIN">
 <contactref element="U$20" pad="10"/>
 <contactref element="U$2" pad="D5"/>
-<wire x1="3.81" y1="72.39" x2="2.54" y2="71.12" width="0.4064" layer="1"/>
+<wire x1="2.54" y1="71.12" x2="3.81" y2="72.39" width="0.4064" layer="1"/>
 <wire x1="3.81" y1="72.39" x2="21.209" y2="72.39" width="0.4064" layer="1"/>
 <wire x1="28.8322" y1="75.285" x2="24.104" y2="75.285" width="0.4064" layer="1"/>
 <wire x1="24.104" y1="75.285" x2="21.209" y2="72.39" width="0.4064" layer="1"/>
@@ -1153,7 +1159,6 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <signal name="POTEN_A1">
 <contactref element="U$10" pad="P$1"/>
 <contactref element="U$4" pad="2"/>
-<wire x1="30.11705625" y1="63.119" x2="30.489028125" y2="63.490971875" width="0.4064" layer="1"/>
 <contactref element="JP3" pad="9"/>
 <wire x1="30.489028125" y1="63.490971875" x2="33.03805625" y2="66.04" width="0.4064" layer="1"/>
 <wire x1="50.8" y1="73.66" x2="46.99" y2="73.66" width="0.4064" layer="1"/>
@@ -1253,7 +1258,7 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <contactref element="U$2" pad="D10(TX2)"/>
 <contactref element="U$19" pad="13"/>
 <via x="21.082" y="88.9" extent="1-16" drill="0.8"/>
-<wire x1="2.54" y1="58.42" x2="16.618" y2="72.498" width="0.4064" layer="16"/>
+<wire x1="6.35" y1="62.23" x2="16.618" y2="72.498" width="0.4064" layer="16"/>
 <wire x1="16.618" y1="72.498" x2="19.04231875" y2="72.498" width="0.4064" layer="16"/>
 <wire x1="19.04231875" y1="72.498" x2="20.193" y2="73.64868125" width="0.4064" layer="16"/>
 <wire x1="21.082" y1="88.9" x2="21.082" y2="78.74" width="0.4064" layer="16"/>
@@ -1262,6 +1267,8 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <wire x1="21.082" y1="90.557475" x2="21.082" y2="88.9" width="0.4064" layer="1"/>
 <wire x1="28.8322" y1="94.925" x2="25.449525" y2="94.925" width="0.4064" layer="1"/>
 <wire x1="25.449525" y1="94.925" x2="21.082" y2="90.557475" width="0.4064" layer="1"/>
+<wire x1="2.54" y1="58.42" x2="6.35" y2="62.23" width="0.508" layer="1"/>
+<via x="6.35" y="62.23" extent="1-16" drill="0.8"/>
 </signal>
 <signal name="CS_2">
 <contactref element="U$20" pad="13"/>
@@ -1273,11 +1280,16 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <wire x1="21.444" y1="67.418" x2="16.64468125" y2="67.418" width="0.4064" layer="1"/>
 </signal>
 <signal name="CS_3">
-<contactref element="U$2" pad="D12"/>
 <contactref element="U$4" pad="13"/>
 <wire x1="34.65" y1="54.591" x2="30.732" y2="50.673" width="0.4064" layer="1"/>
-<wire x1="30.732" y1="50.673" x2="5.207" y2="50.673" width="0.4064" layer="1"/>
-<wire x1="5.207" y1="50.673" x2="2.54" y2="53.34" width="0.4064" layer="1"/>
+<contactref element="U$2" pad="D9(RX2)"/>
+<wire x1="30.732" y1="50.673" x2="17.00020625" y2="50.673" width="0.4064" layer="1"/>
+<wire x1="1.40468125" y1="54.718" x2="0.724" y2="55.39868125" width="0.4064" layer="1"/>
+<wire x1="12.95520625" y1="54.718" x2="1.40468125" y2="54.718" width="0.4064" layer="1"/>
+<wire x1="0.724" y1="58.90131875" x2="2.54" y2="60.71731875" width="0.4064" layer="1"/>
+<wire x1="2.54" y1="60.71731875" x2="2.54" y2="60.96" width="0.4064" layer="1"/>
+<wire x1="0.724" y1="55.39868125" x2="0.724" y2="58.90131875" width="0.4064" layer="1"/>
+<wire x1="17.00020625" y1="50.673" x2="12.95520625" y2="54.718" width="0.4064" layer="1"/>
 </signal>
 <signal name="POTEN_B4">
 <contactref element="U$18" pad="P$1"/>
@@ -1336,13 +1348,6 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <approved hash="21,19,e1531d536153612c"/>
 <approved hash="21,19,ea89e88be88bea89"/>
 <approved hash="21,19,3ed43cd63cd63ed4"/>
-<approved hash="4,1,74f2d489fb44e0d2"/>
-<approved hash="4,1,5acd0954e173e6a2"/>
-<approved hash="4,1,0e3400c09e8af753"/>
-<approved hash="4,1,57ce007ea5c1fffc"/>
-<approved hash="4,1,569918f38ee5e7bc"/>
-<approved hash="4,16,74f2d489fb44e0d2"/>
-<approved hash="4,16,5acd0954e173e6a2"/>
 <approved hash="5,1,db804f948fdab3ba"/>
 </errors>
 </board>
