@@ -901,7 +901,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="-12.5" y1="0" x2="-12.5" y2="-30" width="0.127" layer="21"/>
 <wire x1="-12.5" y1="-30" x2="12.5" y2="-30" width="0.127" layer="21"/>
 <wire x1="12.5" y1="-30" x2="12.5" y2="0" width="0.127" layer="21"/>
-<text x="8.255" y="0.635" size="6.096" layer="21" align="center">-</text>
+<text x="9.525" y="0.635" size="6.096" layer="21" align="center">-</text>
 <text x="-9.525" y="0" size="6.096" layer="21" align="center">+</text>
 </package>
 <package name="NANO-FIT_VERTICAL-2">

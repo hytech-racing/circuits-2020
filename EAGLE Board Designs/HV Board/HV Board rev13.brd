@@ -3,14 +3,14 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="14" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -5249,7 +5249,7 @@ FUSE</text>
 <wire x1="-12.5" y1="0" x2="-12.5" y2="-30" width="0.127" layer="21"/>
 <wire x1="-12.5" y1="-30" x2="12.5" y2="-30" width="0.127" layer="21"/>
 <wire x1="12.5" y1="-30" x2="12.5" y2="0" width="0.127" layer="21"/>
-<text x="8.255" y="0.635" size="6.096" layer="21" align="center">-</text>
+<text x="9.525" y="0.635" size="6.096" layer="21" align="center">-</text>
 <text x="-9.525" y="0" size="6.096" layer="21" align="center">+</text>
 </package>
 </packages>
@@ -7589,7 +7589,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="U5" pad="7"/>
 <contactref element="U2" pad="2"/>
 <contactref element="R10" pad="2"/>
-<wire x1="57.57" y1="82.55" x2="57.15" y2="82.97" width="0.254" layer="1"/>
 <contactref element="RELAY" pad="P$2"/>
 <wire x1="47.41" y1="69.215" x2="46.228" y2="69.215" width="0.254" layer="1"/>
 <via x="46.228" y="69.215" extent="1-16" drill="0.381"/>
@@ -7665,7 +7664,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="18.9992" y1="43.2562" x2="18.9992" y2="42.0742" width="0.254" layer="1"/>
 <via x="19.05" y="43.307" extent="1-16" drill="0.381"/>
 <via x="35.56" y="44.069" extent="1-16" drill="0.381"/>
-<wire x1="45.99" y1="10.475" x2="46.051" y2="10.414" width="0.508" layer="16"/>
 <wire x1="43.5" y1="13.7" x2="43.307" y2="13.7" width="0.254" layer="16"/>
 <wire x1="43.307" y1="14.732" x2="43.307" y2="13.7" width="0.254" layer="16"/>
 <via x="43.307" y="14.732" extent="1-16" drill="0.381"/>
