@@ -1079,6 +1079,10 @@ MX150L™ Vertical PCB Header</description>
 <text x="-0.635" y="0.635" size="1.016" layer="51" ratio="12">2</text>
 <text x="-3.175" y="0.635" size="1.016" layer="51" ratio="12">3</text>
 </package>
+<package name="U-DFN1608-2">
+<smd name="P$1" x="0" y="0" dx="1.01091875" dy="0.8001" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="-1.0922" dx="0.6096" dy="0.8001" layer="1" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -1290,6 +1294,22 @@ MX150L™ Vertical PCB Header</description>
 <pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="3" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="TVS_DIODE">
+<wire x1="0" y1="1.016" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-3.81" y="1.7526" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.5814" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<polygon width="0.254" layer="94">
+<vertex x="-2.54" y="1.27"/>
+<vertex x="-2.54" y="-1.27"/>
+<vertex x="0" y="0"/>
+</polygon>
+<wire x1="0" y1="1.016" x2="0.508" y2="1.016" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-0.508" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1926,6 +1946,22 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TVS_DIODE">
+<gates>
+<gate name="G$1" symbol="TVS_DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="U-DFN1608-2">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4687,6 +4723,8 @@ Source: http://www.molex.com</description>
 <part name="R22" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10M"/>
 <part name="GND4" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="680k"/>
+<part name="U$1" library="HyTechDevices" deviceset="TVS_DIODE" device=""/>
+<part name="U$2" library="HyTechDevices" deviceset="TVS_DIODE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5117,6 +5155,14 @@ of push pull AND gate</text>
 <attribute name="NAME" x="293.37" y="148.3614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="293.37" y="153.162" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U$1" gate="G$1" x="30.48" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="28.7274" y="135.89" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="34.0614" y="135.89" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$2" gate="G$1" x="58.42" y="205.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.6674" y="201.93" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="62.0014" y="201.93" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5155,6 +5201,9 @@ of push pull AND gate</text>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="GND127" gate="1" pin="GND"/>
 <wire x1="66.04" y1="200.66" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="A"/>
+<wire x1="58.42" y1="200.66" x2="66.04" y2="200.66" width="0.1524" layer="91"/>
+<junction x="66.04" y="200.66"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -5180,6 +5229,9 @@ of push pull AND gate</text>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="38.1" y1="134.62" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="A"/>
+<wire x1="38.1" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
+<junction x="38.1" y="134.62"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -5631,8 +5683,12 @@ of push pull AND gate</text>
 <wire x1="66.04" y1="213.36" x2="76.2" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="213.36" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
 <junction x="66.04" y="213.36"/>
-<wire x1="66.04" y1="213.36" x2="60.96" y2="213.36" width="0.1524" layer="91"/>
-<label x="60.96" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="66.04" y1="213.36" x2="58.42" y2="213.36" width="0.1524" layer="91"/>
+<label x="50.8" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="C"/>
+<wire x1="58.42" y1="213.36" x2="50.8" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="208.28" x2="58.42" y2="213.36" width="0.1524" layer="91"/>
+<junction x="58.42" y="213.36"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-4" pin="S"/>
@@ -5644,13 +5700,15 @@ of push pull AND gate</text>
 </net>
 <net name="SIGNAL_BRAKE1" class="0">
 <segment>
-<label x="33.02" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="30.48" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="147.32" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="147.32" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
 <junction x="38.1" y="147.32"/>
+<pinref part="U$1" gate="G$1" pin="C"/>
+<wire x1="30.48" y1="142.24" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-3" pin="S"/>
