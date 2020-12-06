@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -975,7 +975,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="5.08" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="12.7" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<label x="7.62" y="12.7" size="1.778" layer="95" rot="R90"/>
+<label x="7.62" y="12.7" size="1.27" layer="95" font="vector" rot="R90"/>
 <wire x1="7.62" y1="35.56" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="35.56" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
 <junction x="7.62" y="35.56"/>
@@ -983,20 +983,20 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="U$1" gate="G$1" pin="!SHDN"/>
 </segment>
 <segment>
-<label x="-27.94" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-27.94" y="7.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="VDD"/>
 <wire x1="-27.94" y1="7.62" x2="-20.32" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="-63.5" y1="15.24" x2="-60.96" y2="15.24" width="0.1524" layer="91"/>
-<label x="-60.96" y="15.24" size="1.27" layer="95" xref="yes"/>
+<label x="-60.96" y="15.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INPUT" class="0">
 <segment>
 <wire x1="-20.32" y1="12.7" x2="-22.86" y2="12.7" width="0.1524" layer="91"/>
-<label x="-22.86" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-22.86" y="12.7" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="IN"/>
 </segment>
 <segment>
@@ -1008,7 +1008,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="OUTPUT" class="0">
 <segment>
 <wire x1="5.08" y1="7.62" x2="17.78" y2="7.62" width="0.1524" layer="91"/>
-<label x="17.78" y="7.62" size="1.778" layer="95" xref="yes"/>
+<label x="17.78" y="7.62" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="OUT"/>
 </segment>
 <segment>
@@ -1021,13 +1021,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="CLK"/>
 <wire x1="5.08" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
-<label x="10.16" y="15.24" size="1.778" layer="95" xref="yes"/>
+<label x="10.16" y="15.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="-10.16" x2="-15.24" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="-7.62" x2="-17.78" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-17.78" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-17.78" y="-7.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COM_OS" class="0">
@@ -1036,18 +1036,18 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="-20.32" y1="15.24" x2="-22.86" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="15.24" x2="-22.86" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="17.78" x2="-25.4" y2="17.78" width="0.1524" layer="91"/>
-<label x="-25.4" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-25.4" y="17.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="OS"/>
 <wire x1="5.08" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
-<label x="7.62" y="10.16" size="1.778" layer="95" xref="yes"/>
+<label x="7.62" y="10.16" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="17.78" y1="-7.62" x2="15.24" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-7.62" x2="17.78" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<label x="15.24" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="15.24" y="-7.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
