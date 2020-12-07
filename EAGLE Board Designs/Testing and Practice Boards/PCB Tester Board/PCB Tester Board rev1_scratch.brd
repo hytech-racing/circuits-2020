@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1042,6 +1042,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-89.535" y="-803.91" size="0.8128" layer="25"/>
 <attribute name="VOLTAGE" value="15V" x="-87.63" y="-805.18" size="1.778" layer="27" display="off"/>
 </element>
+<element name="$$X2" library="HyTechDevices" package="NANO-FIT_VERTICAL-8" value="CONNECTOR-8NANO-FIT_VERTICAL-8" x="-85.09" y="-811.53" smashed="yes"/>
+<element name="X1" library="HyTechDevices" package="NANO-FIT_VERTICAL-6" value="CONNECTOR-6NANO-FIT_VERTICAL-6" x="-86.36" y="-821.69" smashed="yes"/>
+<element name="X5" library="HyTechDevices" package="NANO-FIT_VERTICAL-4" value="CONNECTOR-4NANO-FIT-VERTICAL-4" x="-78.74" y="-821.69" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1090,6 +1093,7 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="P$3"/>
 <contactref element="U$6" pad="P$2"/>
 <contactref element="U$6" pad="P$1"/>
+<contactref element="X1" pad="P$2"/>
 <wire x1="-76.52" y1="-689.34" x2="-80.9117" y2="-680.97" width="0" layer="19" extent="1-1"/>
 <wire x1="-80.9117" y1="-700.02" x2="-76.52" y2="-689.34" width="0" layer="19" extent="1-1"/>
 <wire x1="-83.5" y1="-708.39" x2="-80.9117" y2="-700.02" width="0" layer="19" extent="1-1"/>
@@ -1117,6 +1121,7 @@ design rules under a new name.</description>
 <wire x1="-88.5952" y1="-801.99738125" x2="-88.5952" y2="-801.347140625" width="0" layer="19" extent="1-1"/>
 <wire x1="-89.535" y1="-777.18" x2="-88.265" y2="-782.38" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.52" y1="-662.67" x2="-80.9117" y2="-680.97" width="0" layer="19" extent="1-1"/>
+<wire x1="-86.36" y1="-821.69" x2="-88.5952" y2="-801.99738125" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.52" y1="-639.81" x2="-76.52" y2="-662.67" width="0" layer="19" extent="1-1"/>
 <wire x1="-80.33" y1="-620.76" x2="-76.52" y2="-639.81" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.08" y1="-604.52" x2="-80.33" y2="-620.76" width="0" layer="19" extent="1-1"/>
@@ -1215,44 +1220,60 @@ design rules under a new name.</description>
 <signal name="BTN_MARK_READ">
 <contactref element="$$X1" pad="P$2"/>
 <contactref element="Q2" pad="3"/>
-<wire x1="-77.47" y1="-687.34" x2="-59.67" y2="-563.88" width="0" layer="19" extent="1-1"/>
+<contactref element="$$X2" pad="P$2"/>
+<wire x1="-77.47" y1="-687.34" x2="-86.34" y2="-811.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.67" y1="-563.88" x2="-77.47" y2="-687.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BTN_MODE_READ">
 <contactref element="$$X1" pad="P$5"/>
 <contactref element="Q10" pad="3"/>
-<wire x1="-82.55" y1="-750.84" x2="-62.17" y2="-561.38" width="0" layer="19" extent="1-1"/>
+<contactref element="$$X2" pad="P$5"/>
+<wire x1="-82.55" y1="-750.84" x2="-88.84" y2="-809.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.17" y1="-561.38" x2="-82.55" y2="-750.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BTN_MC_CYCLE_READ">
 <contactref element="$$X1" pad="P$3"/>
 <contactref element="Q9" pad="3"/>
-<wire x1="-82.55" y1="-735.6" x2="-57.17" y2="-563.88" width="0" layer="19" extent="1-1"/>
+<contactref element="$$X2" pad="P$3"/>
+<wire x1="-82.55" y1="-735.6" x2="-83.84" y2="-811.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.17" y1="-563.88" x2="-82.55" y2="-735.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BTN_START_READ">
 <contactref element="$$X1" pad="P$6"/>
 <contactref element="Q11" pad="3"/>
-<wire x1="-82.55" y1="-766.08" x2="-59.67" y2="-561.38" width="0" layer="19" extent="1-1"/>
+<contactref element="$$X2" pad="P$6"/>
+<wire x1="-82.55" y1="-766.08" x2="-86.34" y2="-809.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.67" y1="-561.38" x2="-82.55" y2="-766.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUZZER_OUT">
 <contactref element="$$X1" pad="P$4"/>
 <contactref element="R18" pad="1"/>
 <contactref element="U$10" pad="D9(RX2)"/>
+<contactref element="$$X2" pad="P$4"/>
 <wire x1="-21.17" y1="-553.72" x2="-54.61" y2="-370.84" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.67" y1="-563.88" x2="-21.17" y2="-553.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.34" y1="-811.53" x2="-54.67" y2="-563.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BTN_EXTRA">
 <contactref element="$$X1" pad="P$7"/>
 <contactref element="Q12" pad="3"/>
-<wire x1="-82.55" y1="-781.32" x2="-57.17" y2="-561.38" width="0" layer="19" extent="1-1"/>
+<contactref element="$$X2" pad="P$7"/>
+<wire x1="-82.55" y1="-781.32" x2="-83.84" y2="-809.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.17" y1="-561.38" x2="-82.55" y2="-781.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANL">
 <contactref element="X3" pad="P$4"/>
 <contactref element="U$2" pad="6"/>
-<wire x1="-86.995" y1="-777.18" x2="-62.19" y2="-571.54" width="0" layer="19" extent="1-1"/>
+<contactref element="X1" pad="P$4"/>
+<wire x1="-86.995" y1="-777.18" x2="-88.86" y2="-819.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.19" y1="-571.54" x2="-86.995" y2="-777.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANH">
 <contactref element="X3" pad="P$5"/>
 <contactref element="U$2" pad="7"/>
-<wire x1="-88.265" y1="-777.18" x2="-59.69" y2="-571.54" width="0" layer="19" extent="1-1"/>
+<contactref element="X1" pad="P$5"/>
+<wire x1="-88.265" y1="-777.18" x2="-86.36" y2="-819.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.69" y1="-571.54" x2="-88.265" y2="-777.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SSOK">
 <contactref element="X3" pad="P$3"/>
@@ -1261,21 +1282,27 @@ design rules under a new name.</description>
 <contactref element="Q7" pad="2"/>
 <contactref element="R1" pad="11"/>
 <contactref element="U$7" pad="P$4"/>
+<contactref element="X1" pad="P$3"/>
 <wire x1="-80.33" y1="-658.86" x2="-81.28" y2="-671.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-81.28" y1="-634" x2="-80.33" y2="-658.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-67.6783" y1="-573.52" x2="-81.28" y2="-634" width="0" layer="19" extent="1-1"/>
 <wire x1="-57.19" y1="-574.04" x2="-67.6783" y2="-573.52" width="0" layer="19" extent="1-1"/>
 <wire x1="-86.700359375" y1="-804.5069" x2="-81.28" y2="-671.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-83.86" y1="-821.69" x2="-86.700359375" y2="-804.5069" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SHUTDOWN_H">
 <contactref element="X3" pad="P$6"/>
 <contactref element="Q7" pad="3"/>
+<contactref element="X1" pad="P$6"/>
 <wire x1="-57.19" y1="-571.54" x2="-81.28" y2="-656.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-83.86" y1="-819.19" x2="-81.28" y2="-656.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DASHBOARD_12V">
 <contactref element="X3" pad="P$1"/>
 <contactref element="Q4" pad="3"/>
+<contactref element="X1" pad="P$1"/>
 <wire x1="-62.19" y1="-574.04" x2="-76.2" y2="-614.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-88.86" y1="-821.69" x2="-76.2" y2="-614.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R19" pad="2"/>
@@ -1366,6 +1393,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="STEERING_WHEEL_POSITION_SENSOR">
 <contactref element="X4" pad="P$3"/>
+<contactref element="X5" pad="P$3"/>
+<wire x1="-79.99" y1="-819.19" x2="-77.45" y2="-605.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SSOK_CTRL2">
 <contactref element="R17" pad="1"/>
