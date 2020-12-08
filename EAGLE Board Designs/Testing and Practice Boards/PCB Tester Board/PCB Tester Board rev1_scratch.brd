@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -860,17 +860,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-31.369" y="102.362" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="-31.496" y="100.457" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="D1" library="HyTechDevices" package="SOT23" value="DIODE_ZENER" x="-55.88" y="93.98" smashed="yes">
-<attribute name="NAME" x="-55.88" y="94.3102" size="0.635" layer="25" align="top-center"/>
-<attribute name="VALUE" x="-54.483" y="94.869" size="0.3048" layer="27" align="bottom-center"/>
-</element>
 <element name="D10" library="HyTechDevices" package="0805_D" value="DIODE_ZENER0805" x="-45.72" y="113.03" smashed="yes">
 <attribute name="NAME" x="-45.72" y="113.7539" size="0.3048" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-45.72" y="112.3188" size="0.3048" layer="27" align="top-center"/>
-</element>
-<element name="D2" library="HyTechDevices" package="SOT23" value="DIODE_ZENER" x="-60.96" y="93.98" smashed="yes">
-<attribute name="NAME" x="-60.96" y="94.3102" size="0.635" layer="25" align="top-center"/>
-<attribute name="VALUE" x="-59.563" y="94.869" size="0.3048" layer="27" align="bottom-center"/>
 </element>
 <element name="D4" library="HyTechDevices" package="SOT23" value="DIODE_ZENER" x="-66.04" y="93.98" smashed="yes">
 <attribute name="NAME" x="-66.04" y="94.3102" size="0.635" layer="25" align="top-center"/>
@@ -928,17 +920,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-41.91" y="98.1202" size="0.635" layer="25" align="top-center"/>
 <attribute name="VALUE" x="-40.513" y="98.679" size="0.3048" layer="27" align="bottom-center"/>
 </element>
-<element name="Q19" library="HyTechDevices" package="SOT23" value="" x="-45.72" y="97.79" smashed="yes">
-<attribute name="NAME" x="-45.72" y="98.1202" size="0.635" layer="25" align="top-center"/>
-<attribute name="VALUE" x="-44.323" y="98.679" size="0.3048" layer="27" align="bottom-center"/>
-</element>
 <element name="Q2" library="HyTechDevices" package="SOT23" value="" x="-69.85" y="93.98" smashed="yes">
 <attribute name="NAME" x="-69.85" y="94.3102" size="0.635" layer="25" align="top-center"/>
 <attribute name="VALUE" x="-68.453" y="94.869" size="0.3048" layer="27" align="bottom-center"/>
-</element>
-<element name="Q20" library="HyTechDevices" package="SOT23" value="" x="-49.53" y="97.79" smashed="yes">
-<attribute name="NAME" x="-49.53" y="98.1202" size="0.635" layer="25" align="top-center"/>
-<attribute name="VALUE" x="-48.133" y="98.679" size="0.3048" layer="27" align="bottom-center"/>
 </element>
 <element name="Q21" library="HyTechDevices" package="SOT23" value="P-CHANNEL_MOSFET_DMP3099L-7" x="-34.29" y="93.98" smashed="yes">
 <attribute name="NAME" x="-34.29" y="94.3102" size="0.635" layer="25" align="top-center"/>
@@ -1163,22 +1147,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-46.609" y="109.982" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="-46.736" y="108.077" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="R43" library="HyTechDevices" package="0603-RES" value="10k" x="-49.53" y="109.22" smashed="yes">
-<attribute name="NAME" x="-50.419" y="109.982" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="-50.546" y="108.077" size="0.4064" layer="27" font="vector"/>
-</element>
-<element name="R44" library="HyTechDevices" package="0603-RES" value="10k" x="-53.34" y="109.22" smashed="yes">
-<attribute name="NAME" x="-54.229" y="109.982" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="-54.356" y="108.077" size="0.4064" layer="27" font="vector"/>
-</element>
-<element name="R45" library="HyTechDevices" package="0603-RES" value="10k" x="-57.15" y="109.22" smashed="yes">
-<attribute name="NAME" x="-58.039" y="109.982" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="-58.166" y="108.077" size="0.4064" layer="27" font="vector"/>
-</element>
-<element name="R46" library="HyTechDevices" package="0603-RES" value="10k" x="-60.96" y="109.22" smashed="yes">
-<attribute name="NAME" x="-61.849" y="109.982" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="-61.976" y="108.077" size="0.4064" layer="27" font="vector"/>
-</element>
 <element name="R47" library="HyTechDevices" package="0603-RES" value="10" x="-64.77" y="109.22" smashed="yes">
 <attribute name="NAME" x="-65.659" y="109.982" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="-65.786" y="108.077" size="0.4064" layer="27" font="vector"/>
@@ -1370,6 +1338,30 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-81.915" y="-45.72" size="0.8128" layer="25"/>
 <attribute name="VOLTAGE" value="15V" x="-80.01" y="-46.99" size="1.778" layer="27" display="off"/>
 </element>
+<element name="D3" library="HyTechDevices" package="0805_D" value="DIODE0805" x="-81.28" y="-49.53" smashed="yes">
+<attribute name="NAME" x="-81.28" y="-48.8061" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-81.28" y="-50.2412" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="R43" library="HyTechDevices" package="0603-RES" value="43k" x="-81.28" y="-53.34" smashed="yes">
+<attribute name="NAME" x="-82.169" y="-52.578" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="-82.296" y="-54.483" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R46" library="HyTechDevices" package="0603-RES" value="12k" x="-81.28" y="-57.15" smashed="yes">
+<attribute name="NAME" x="-82.169" y="-56.388" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="-82.296" y="-58.293" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="D1" library="HyTechDevices" package="0805_D" value="DIODE0805" x="-81.28" y="-68.58" smashed="yes">
+<attribute name="NAME" x="-81.28" y="-67.8561" size="0.3048" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-81.28" y="-69.2912" size="0.3048" layer="27" align="top-center"/>
+</element>
+<element name="R44" library="HyTechDevices" package="0603-RES" value="43k" x="-81.28" y="-60.96" smashed="yes">
+<attribute name="NAME" x="-82.169" y="-60.198" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="-82.296" y="-62.103" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R45" library="HyTechDevices" package="0603-RES" value="12k" x="-81.28" y="-64.77" smashed="yes">
+<attribute name="NAME" x="-82.169" y="-64.008" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="-82.296" y="-65.913" size="0.4064" layer="27" font="vector"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1440,12 +1432,6 @@ design rules under a new name.</description>
 <contactref element="U$11" pad="P$1"/>
 <contactref element="U$11" pad="P$2"/>
 <contactref element="U$11" pad="P$3"/>
-<contactref element="D2" pad="1"/>
-<contactref element="R43" pad="1"/>
-<contactref element="R46" pad="1"/>
-<contactref element="D1" pad="1"/>
-<contactref element="R44" pad="1"/>
-<contactref element="R45" pad="1"/>
 <contactref element="X1" pad="P$2"/>
 <contactref element="Q22" pad="2"/>
 <contactref element="R59" pad="1"/>
@@ -1473,6 +1459,10 @@ design rules under a new name.</description>
 <contactref element="U$23" pad="P$1"/>
 <contactref element="U$23" pad="P$2"/>
 <contactref element="U$23" pad="P$3"/>
+<contactref element="R46" pad="1"/>
+<contactref element="R45" pad="1"/>
+<wire x1="-82.13" y1="-57.15" x2="-82.13" y2="-64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-80.9752" y1="-43.80738125" x2="-82.13" y2="-57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-80.9752" y1="-43.157140625" x2="-80.9752" y2="-43.80738125" width="0" layer="19" extent="1-1"/>
 <wire x1="-80.9752" y1="-42.5069" x2="-80.9752" y2="-43.157140625" width="0" layer="19" extent="1-1"/>
 <wire x1="-82.13" y1="-38.1" x2="-80.9752" y2="-42.5069" width="0" layer="19" extent="1-1"/>
@@ -1548,18 +1538,12 @@ design rules under a new name.</description>
 <wire x1="-46.57" y1="101.6" x2="-42.76" y2="101.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.38" y1="101.6" x2="-46.57" y2="101.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.49" y1="105.41" x2="-50.38" y2="101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-54.19" y1="109.22" x2="-52.49" y2="105.41" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.38" y1="109.22" x2="-54.19" y2="109.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-58" y1="109.22" x2="-54.19" y2="109.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.81" y1="109.22" x2="-58" y2="109.22" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.39" y1="96.79" x2="-50.38" y2="101.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.2" y1="96.79" x2="-52.39" y2="96.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.01" y1="96.79" x2="-56.2" y2="96.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.82" y1="96.79" x2="-60.01" y2="96.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-56.83" y1="92.98" x2="-56.2" y2="96.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-67.73" y1="97.79" x2="-63.82" y2="96.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-71.54" y1="97.79" x2="-67.73" y2="97.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.91" y1="92.98" x2="-60.01" y2="96.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-66.99" y1="92.98" x2="-67.73" y2="97.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-68.9" y1="92.98" x2="-66.99" y2="92.98" width="0" layer="19" extent="1-1"/>
 <wire x1="-72.71" y1="92.98" x2="-68.9" y2="92.98" width="0" layer="19" extent="1-1"/>
@@ -1722,8 +1706,6 @@ design rules under a new name.</description>
 <contactref element="U$8" pad="15"/>
 <contactref element="U$8" pad="11"/>
 <contactref element="U$9" pad="15"/>
-<contactref element="Q20" pad="3"/>
-<contactref element="Q19" pad="3"/>
 <contactref element="U$21" pad="10"/>
 <contactref element="U$21" pad="15"/>
 <contactref element="U$21" pad="11"/>
@@ -1736,9 +1718,7 @@ design rules under a new name.</description>
 <wire x1="-34.585" y1="80.3878" x2="-33.935" y2="80.3878" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.185" y1="80.3878" x2="-34.585" y2="80.3878" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.075" y1="80.3878" x2="-37.185" y2="80.3878" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.72" y1="98.79" x2="-46.075" y2="80.3878" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.53" y1="98.79" x2="-45.72" y2="98.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.01" y1="105.41" x2="-45.72" y2="98.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.01" y1="105.41" x2="-33.935" y2="80.3878" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DASH_12V_CTRL2">
 <contactref element="R36" pad="1"/>
@@ -2047,13 +2027,6 @@ design rules under a new name.</description>
 <signal name="RESET">
 <contactref element="U1" pad="14"/>
 </signal>
-<signal name="OKHS_IN">
-<contactref element="Q20" pad="1"/>
-<contactref element="R43" pad="2"/>
-<contactref element="D2" pad="3"/>
-<wire x1="-50.48" y1="96.79" x2="-48.68" y2="109.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.96" y1="94.98" x2="-50.48" y2="96.79" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="BRAKE_LIGHT">
 <contactref element="Q17" pad="3"/>
 </signal>
@@ -2224,23 +2197,6 @@ design rules under a new name.</description>
 <wire x1="-46.57" y1="109.22" x2="-41.91" y2="98.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-51.7652" y1="85.7631" x2="-41.91" y2="98.79" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="OKHS_IN_3V3">
-<contactref element="Q20" pad="2"/>
-<contactref element="R46" pad="2"/>
-<wire x1="-48.58" y1="96.79" x2="-60.11" y2="109.22" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="BMS_OK_IN">
-<contactref element="Q19" pad="1"/>
-<contactref element="R44" pad="2"/>
-<contactref element="D1" pad="3"/>
-<wire x1="-46.67" y1="96.79" x2="-52.49" y2="109.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.88" y1="94.98" x2="-46.67" y2="96.79" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="BMS_OK_IN_3V3">
-<contactref element="Q19" pad="2"/>
-<contactref element="R45" pad="2"/>
-<wire x1="-56.3" y1="109.22" x2="-44.77" y2="96.79" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$32">
 <contactref element="R47" pad="2"/>
 <contactref element="Q22" pad="1"/>
@@ -2337,7 +2293,11 @@ design rules under a new name.</description>
 <signal name="BMS_OK_READ">
 <contactref element="R54" pad="1"/>
 <contactref element="R53" pad="2"/>
-<wire x1="-23.71" y1="113.03" x2="-18.2" y2="113.03" width="0" layer="19" extent="1-1"/>
+<contactref element="R44" pad="1"/>
+<contactref element="R45" pad="2"/>
+<wire x1="-80.43" y1="-64.77" x2="-82.13" y2="-60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.71" y1="113.03" x2="-82.13" y2="-60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.2" y1="113.03" x2="-23.71" y2="113.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$42">
 <contactref element="$$X2" pad="P$3"/>
@@ -2418,6 +2378,27 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$50">
 <contactref element="U$23" pad="P$6"/>
+</signal>
+<signal name="OKHS_IN">
+<contactref element="D3" pad="A"/>
+</signal>
+<signal name="N$51">
+<contactref element="D3" pad="C"/>
+<contactref element="R43" pad="2"/>
+<wire x1="-80.38" y1="-49.53" x2="-80.43" y2="-53.34" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OKHS_READ">
+<contactref element="R43" pad="1"/>
+<contactref element="R46" pad="2"/>
+<wire x1="-80.43" y1="-57.15" x2="-82.13" y2="-53.34" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$52">
+<contactref element="D1" pad="C"/>
+<contactref element="R44" pad="2"/>
+<wire x1="-80.43" y1="-60.96" x2="-80.38" y2="-68.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BMS_OK_IN">
+<contactref element="D1" pad="A"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
