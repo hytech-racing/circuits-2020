@@ -7479,13 +7479,6 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 <pinref part="MAIN" gate="-7" pin="S"/>
 </segment>
 </net>
-<net name="IMD_OK" class="0">
-<segment>
-<wire x1="50.8" y1="172.72" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
-<label x="60.96" y="172.72" size="1.27" layer="95" xref="yes"/>
-<pinref part="MAIN" gate="-6" pin="S"/>
-</segment>
-</net>
 <net name="CHARGE_ENABLE" class="0">
 <segment>
 <pinref part="MAIN" gate="-8" pin="S"/>
@@ -7851,6 +7844,13 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 <pinref part="$$U$6" gate="G$1" pin="A2"/>
 <wire x1="121.92" y1="48.26" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
 <label x="124.46" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="IMD_OK" class="0">
+<segment>
+<pinref part="MAIN" gate="-6" pin="S"/>
+<wire x1="50.8" y1="172.72" x2="53.34" y2="172.72" width="0.1524" layer="91"/>
+<label x="53.34" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
