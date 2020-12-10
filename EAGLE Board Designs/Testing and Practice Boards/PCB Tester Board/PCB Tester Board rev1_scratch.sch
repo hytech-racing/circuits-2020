@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -6212,6 +6212,15 @@ Layer: 94 Symbol</description>
 <part name="R61" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="R62" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="12k"/>
 <part name="GND51" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="X6" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
+<part name="X7" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
+<part name="X8" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
+<part name="X9" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
+<part name="R37" library="HyTechDevices" deviceset="YC248-JR-0710KL" device="" value="10k"/>
+<part name="GND46" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="GND47" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="R38" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10"/>
+<part name="Q17" library="HyTechDevices" deviceset="DMG3406L" device="SOT"/>
 </parts>
 <sheets>
 <sheet>
@@ -8858,6 +8867,52 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="72.644" y="86.36" size="1.778" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="69.596" y="86.36" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
+<instance part="X6" gate="-2" x="309.88" y="73.66" smashed="yes">
+<attribute name="NAME" x="312.42" y="72.898" size="1.524" layer="95"/>
+</instance>
+<instance part="X6" gate="-1" x="309.88" y="76.2" smashed="yes">
+<attribute name="NAME" x="312.42" y="75.438" size="1.524" layer="95"/>
+<attribute name="VALUE" x="309.118" y="77.597" size="1.778" layer="96"/>
+</instance>
+<instance part="X7" gate="-2" x="309.88" y="66.04" smashed="yes">
+<attribute name="NAME" x="312.42" y="65.278" size="1.524" layer="95"/>
+</instance>
+<instance part="X7" gate="-1" x="309.88" y="68.58" smashed="yes">
+<attribute name="NAME" x="312.42" y="67.818" size="1.524" layer="95"/>
+<attribute name="VALUE" x="309.118" y="69.977" size="1.778" layer="96"/>
+</instance>
+<instance part="X8" gate="-2" x="309.88" y="58.42" smashed="yes">
+<attribute name="NAME" x="312.42" y="57.658" size="1.524" layer="95"/>
+</instance>
+<instance part="X8" gate="-1" x="309.88" y="60.96" smashed="yes">
+<attribute name="NAME" x="312.42" y="60.198" size="1.524" layer="95"/>
+<attribute name="VALUE" x="309.118" y="62.357" size="1.778" layer="96"/>
+</instance>
+<instance part="X9" gate="-2" x="309.88" y="50.8" smashed="yes">
+<attribute name="NAME" x="312.42" y="50.038" size="1.524" layer="95"/>
+</instance>
+<instance part="X9" gate="-1" x="309.88" y="53.34" smashed="yes">
+<attribute name="NAME" x="312.42" y="52.578" size="1.524" layer="95"/>
+<attribute name="VALUE" x="309.118" y="54.737" size="1.778" layer="96"/>
+</instance>
+<instance part="GND46" gate="1" x="264.16" y="53.34" smashed="yes">
+<attribute name="VALUE" x="261.62" y="50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="GND47" gate="1" x="238.76" y="43.18" smashed="yes">
+<attribute name="VALUE" x="236.22" y="40.64" size="1.778" layer="96"/>
+</instance>
+<instance part="R38" gate="G$1" x="246.38" y="58.42" smashed="yes">
+<attribute name="NAME" x="242.57" y="59.9186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="242.57" y="55.118" size="1.778" layer="96"/>
+</instance>
+<instance part="Q17" gate="G$1" x="259.08" y="60.96" smashed="yes">
+<attribute name="NAME" x="255.27" y="66.04" size="1.778" layer="95"/>
+<attribute name="VALUE" x="255.27" y="53.34" size="1.778" layer="95"/>
+</instance>
+<instance part="R37" gate="E" x="238.76" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="237.236" y="53.34" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="240.284" y="53.34" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8996,6 +9051,16 @@ Layer: 94 Symbol</description>
 <pinref part="GND59" gate="1" pin="GND"/>
 <wire x1="71.12" y1="81.28" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R60" gate="D" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND46" gate="1" pin="GND"/>
+<wire x1="264.16" y1="55.88" x2="264.16" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="Q17" gate="G$1" pin="S"/>
+</segment>
+<segment>
+<pinref part="GND47" gate="1" pin="GND"/>
+<wire x1="238.76" y1="48.26" x2="238.76" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R37" gate="E" pin="1"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -9578,6 +9643,23 @@ Layer: 94 Symbol</description>
 <pinref part="U$24" gate="G$1" pin="A3"/>
 <wire x1="370.84" y1="109.22" x2="375.92" y2="109.22" width="0.1524" layer="91"/>
 <label x="375.92" y="109.22" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<wire x1="251.46" y1="58.42" x2="254" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R38" gate="G$1" pin="2"/>
+<pinref part="Q17" gate="G$1" pin="G"/>
+</segment>
+</net>
+<net name="_BTN_CTRL" class="0">
+<segment>
+<label x="220.98" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="220.98" y1="58.42" x2="238.76" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R37" gate="E" pin="2"/>
+<wire x1="238.76" y1="58.42" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
+<junction x="238.76" y="58.42"/>
 </segment>
 </net>
 </nets>
