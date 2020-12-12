@@ -1560,10 +1560,10 @@ Source: http://www.molex.com</description>
 </class>
 </classes>
 <parts>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="715"/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="715"/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="715"/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="715"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="GND2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND3" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100k"/>
@@ -1606,10 +1606,10 @@ Source: http://www.molex.com</description>
 <part name="J7" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J8" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J9" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="715"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="715"/>
-<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="715"/>
-<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="715"/>
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="GND8" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND9" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100k"/>

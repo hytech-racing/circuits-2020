@@ -563,7 +563,7 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <attribute name="NAME" x="130.2512" y="35.4838" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="135.255" y="35.56" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R1" library="HyTechDevices" package="0603-RES" value="715" x="111.633" y="53.848" smashed="yes">
+<element name="R1" library="HyTechDevices" package="0603-RES" value="1k" x="111.633" y="53.848" smashed="yes">
 <attribute name="NAME" x="110.744" y="54.61" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="110.617" y="52.705" size="0.4064" layer="27" font="vector"/>
 </element>
@@ -587,7 +587,7 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <attribute name="NAME" x="100.838" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="102.743" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R2" library="HyTechDevices" package="0603-RES" value="715" x="117.729" y="64.643" smashed="yes" rot="R270">
+<element name="R2" library="HyTechDevices" package="0603-RES" value="1k" x="117.729" y="64.643" smashed="yes" rot="R270">
 <attribute name="NAME" x="118.491" y="65.532" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="116.586" y="65.659" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
@@ -603,11 +603,11 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <attribute name="NAME" x="77.978" y="42.291" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="79.883" y="42.164" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R3" library="HyTechDevices" package="0603-RES" value="715" x="122.555" y="59.436" smashed="yes" rot="R90">
+<element name="R3" library="HyTechDevices" package="0603-RES" value="1k" x="122.555" y="59.436" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.793" y="58.547" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="123.698" y="58.42" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R4" library="HyTechDevices" package="0603-RES" value="715" x="114.3" y="65.532" smashed="yes">
+<element name="R4" library="HyTechDevices" package="0603-RES" value="1k" x="114.3" y="65.532" smashed="yes">
 <attribute name="NAME" x="113.411" y="66.294" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="113.284" y="64.389" size="0.4064" layer="27" font="vector"/>
 </element>
@@ -645,19 +645,19 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <attribute name="OC_NEWARK" value="unknown" x="125.73" y="67.31" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="111.252" y="49.53" size="0.8128" layer="27" rot="R90" align="bottom-center"/>
 </element>
-<element name="R13" library="HyTechDevices" package="0603-RES" value="715" x="188.341" y="52.324" smashed="yes">
+<element name="R13" library="HyTechDevices" package="0603-RES" value="1k" x="188.341" y="52.324" smashed="yes">
 <attribute name="NAME" x="187.452" y="53.086" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="187.325" y="51.181" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="R15" library="HyTechDevices" package="0603-RES" value="715" x="185.801" y="63.881" smashed="yes" rot="R90">
+<element name="R15" library="HyTechDevices" package="0603-RES" value="1k" x="185.801" y="63.881" smashed="yes" rot="R90">
 <attribute name="NAME" x="185.039" y="62.992" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="186.944" y="62.865" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R16" library="HyTechDevices" package="0603-RES" value="715" x="191.77" y="58.801" smashed="yes" rot="R90">
+<element name="R16" library="HyTechDevices" package="0603-RES" value="1k" x="191.77" y="58.801" smashed="yes" rot="R90">
 <attribute name="NAME" x="191.008" y="57.912" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="192.913" y="57.785" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R18" library="HyTechDevices" package="0603-RES" value="715" x="182.88" y="64.77" smashed="yes">
+<element name="R18" library="HyTechDevices" package="0603-RES" value="1k" x="182.88" y="64.77" smashed="yes">
 <attribute name="NAME" x="181.991" y="65.532" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="181.864" y="63.627" size="0.4064" layer="27" font="vector"/>
 </element>
