@@ -1591,11 +1591,11 @@ Source: http://www.molex.com</description>
 <part name="P+5" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20k"/>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.34k"/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="3.83k"/>
-<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2.4k"/>
-<part name="R21" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.6k"/>
-<part name="R22" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.49k"/>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="5.6k"/>
+<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="4.02k"/>
+<part name="R21" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="3.3k"/>
+<part name="R22" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="R23" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.37k"/>
 <part name="J2" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J1" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
@@ -1630,11 +1630,11 @@ Source: http://www.molex.com</description>
 <part name="P+11" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="R27" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20k"/>
 <part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.34k"/>
-<part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="3.83k"/>
-<part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2.4k"/>
-<part name="R32" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.6k"/>
-<part name="R33" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.49k"/>
+<part name="R29" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.8k"/>
+<part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="5.6k"/>
+<part name="R31" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="4.02k"/>
+<part name="R32" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="3.3k"/>
+<part name="R33" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="R34" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.37k"/>
 <part name="J10" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J11" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
