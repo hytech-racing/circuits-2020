@@ -1566,7 +1566,7 @@ Source: http://www.molex.com</description>
 <part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="GND2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND3" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100k"/>
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1.5uF"/>
 <part name="GND4" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -1612,7 +1612,7 @@ Source: http://www.molex.com</description>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="GND8" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND9" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100k"/>
+<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1.5uF"/>
 <part name="GND10" library="HyTechSupplies" deviceset="GND" device=""/>
