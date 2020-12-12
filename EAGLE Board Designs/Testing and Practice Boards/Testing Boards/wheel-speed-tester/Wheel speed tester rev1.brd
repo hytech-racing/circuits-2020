@@ -519,7 +519,7 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <attribute name="NAME" x="87.122" y="55.626" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="85.217" y="55.753" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C2" library="HyTechDevices" package="0603-CAP" value="1.5uF" x="86.36" y="59.69" smashed="yes" rot="R90">
+<element name="C2" library="HyTechDevices" package="0603-CAP" value="1uF" x="86.36" y="59.69" smashed="yes" rot="R90">
 <attribute name="NAME" x="85.598" y="58.801" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="87.503" y="58.674" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
@@ -669,7 +669,7 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <attribute name="NAME" x="155.702" y="56.007" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="153.797" y="56.134" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C5" library="HyTechDevices" package="0603-CAP" value="1.5uF" x="154.94" y="59.69" smashed="yes" rot="R90">
+<element name="C5" library="HyTechDevices" package="0603-CAP" value="1uF" x="154.94" y="59.69" smashed="yes" rot="R90">
 <attribute name="NAME" x="154.178" y="58.801" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="156.083" y="58.674" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
@@ -781,11 +781,11 @@ The default Design Rules have been set to cover a wide range of applications. Th
 <attribute name="NAME" x="166.243" y="64.77" size="0.6096" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="166.243" y="59.69" size="0.6096" layer="27" rot="R180" align="bottom-center"/>
 </element>
-<element name="C7" library="HyTechDevices" package="0603-CAP" value="1.5uF" x="89.154" y="57.912" smashed="yes" rot="R90">
+<element name="C7" library="HyTechDevices" package="0603-CAP" value="1uF" x="89.154" y="57.912" smashed="yes" rot="R90">
 <attribute name="NAME" x="88.392" y="57.023" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="90.297" y="56.896" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C8" library="HyTechDevices" package="0603-CAP" value="1.5uF" x="157.607" y="57.912" smashed="yes" rot="R90">
+<element name="C8" library="HyTechDevices" package="0603-CAP" value="1uF" x="157.607" y="57.912" smashed="yes" rot="R90">
 <attribute name="NAME" x="156.845" y="57.023" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="158.75" y="56.896" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>

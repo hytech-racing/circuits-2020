@@ -1568,7 +1568,7 @@ Source: http://www.molex.com</description>
 <part name="GND3" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1.5uF"/>
+<part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="GND4" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
@@ -1614,7 +1614,7 @@ Source: http://www.molex.com</description>
 <part name="GND9" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="43k"/>
 <part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1.5uF"/>
+<part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="GND10" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k"/>
@@ -1647,8 +1647,8 @@ Source: http://www.molex.com</description>
 <part name="J18" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="U$2" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
 <part name="U$5" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
-<part name="C7" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1.5uF"/>
-<part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1.5uF"/>
+<part name="C7" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 </parts>
 <sheets>
 <sheet>
