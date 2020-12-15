@@ -1314,17 +1314,17 @@ Source: http://www.molex.com</description>
 </classes>
 <parts>
 <part name="P+1" library="HyTechSupplies" deviceset="VCC" device="" value="12V"/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="10K Ohms"/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="1M Ohms"/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="191K Ohms"/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="97.6K Ohms"/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="80.6K Ohms"/>
-<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="20K Ohms"/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="7.87K Ohms"/>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="7.32K Ohms"/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="10K Ohms"/>
-<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="3.65K Ohms"/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="1.21K Ohms"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="35.7K Ohms"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="348K Ohms"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="294K Ohms"/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="71.5K Ohms"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="28K Ohms"/>
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="26.1K Ohms"/>
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="13K Ohms"/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="4.32K Ohms"/>
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="3.57K Ohms"/>
+<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="1.87K Ohms"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="604 Ohms"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="523 Ohms"/>
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="84.5 Ohms"/>
 <part name="J1" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
@@ -1340,19 +1340,19 @@ Source: http://www.molex.com</description>
 <part name="J11" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J12" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="GND1" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="10K Ohms"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="10K Ohms"/>
-<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="10K Ohms"/>
-<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="10K Ohms"/>
-<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="10K Ohms"/>
-<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="10K Ohms"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="845K Ohms"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="681K Ohms"/>
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="499K Ohms"/>
+<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="86.6K Ohms"/>
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="60.4K Ohms"/>
+<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="56.2K Ohms"/>
 <part name="J13" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J14" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J15" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J16" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J17" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 <part name="J18" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
-<part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="10K Ohms"/>
+<part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="1206" value="35.7K Ohms"/>
 <part name="GND3" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT-VERTICAL-4"/>
 <part name="GND4" library="HyTechSupplies" deviceset="GND" device=""/>
