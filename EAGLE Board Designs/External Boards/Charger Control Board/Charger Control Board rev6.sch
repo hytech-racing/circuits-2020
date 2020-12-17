@@ -7804,7 +7804,7 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="241.3" x2="83.82" y2="241.3" width="0.1524" layer="91"/>
-<label x="83.82" y="241.3" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="60.96" y="266.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SHUTDOWN_A_READ" class="0">
