@@ -68,7 +68,20 @@
 # CAMOutput Folder
 **/CAMOutput
 
+# LTspice
+
+# Logfile
+*.log
+
+# Simulation Outputs
+*.raw
+*.fft
+
+# Netlist
+*.net
+
 # MacOS
+
 # General
 *.DS_Store
 *.AppleDouble
@@ -139,8 +152,3 @@ $RECYCLE.BIN/
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
-
-# LTSpice files
-*.net
-*.raw
-*.log
