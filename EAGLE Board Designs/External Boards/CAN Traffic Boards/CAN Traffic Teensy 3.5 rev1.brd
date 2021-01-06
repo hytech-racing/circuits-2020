@@ -3435,7 +3435,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <via x="27.94" y="4.318" extent="1-16" drill="0.35"/>
 <wire x1="30.48" y1="5.5" x2="30.48" y2="4.318" width="0.254" layer="1"/>
 <via x="30.48" y="4.318" extent="1-16" drill="0.35"/>
-<wire x1="20.26" y1="4.445" x2="19.685" y2="4.445" width="0.254" layer="1"/>
 <wire x1="25.46" y1="5.715" x2="24.19" y2="5.715" width="0.254" layer="1"/>
 <wire x1="24.19" y1="5.715" x2="23.555" y2="6.35" width="0.254" layer="1"/>
 <wire x1="23.555" y1="6.35" x2="23.5176" y2="6.35" width="0.254" layer="1"/>
