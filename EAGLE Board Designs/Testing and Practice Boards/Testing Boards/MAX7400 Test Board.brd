@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -191,12 +191,7 @@
 <wire x1="16.871" y1="0.762" x2="16.871" y2="14.021" width="0" layer="20"/>
 <wire x1="16.871" y1="14.021" x2="-0.127" y2="14.021" width="0" layer="20"/>
 <wire x1="-0.127" y1="14.021" x2="-0.127" y2="0.762" width="0" layer="20"/>
-<polygon width="0.1524" layer="25" spacing="5.08" pour="hatch">
-<vertex x="11.557" y="12.319"/>
-<vertex x="11.557" y="13.589"/>
-<vertex x="13.843" y="13.589"/>
-<vertex x="13.843" y="12.319"/>
-</polygon>
+<rectangle x1="6.477" y1="12.192" x2="9.017" y2="13.589" layer="28"/>
 </plain>
 <libraries>
 <library name="HyTechDevices">
@@ -473,14 +468,21 @@ The default Design Rules have been set to cover a wide range of applications. Th
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="HyTechDevices" package="0603-CAP" value="750pF" x="10.668" y="6.096" smashed="yes" rot="MR0"/>
-<element name="C2" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="10.668" y="4.064" smashed="yes" rot="MR0"/>
-<element name="C3" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="5.334" y="10.541" smashed="yes" rot="MR270"/>
+<element name="C1" library="HyTechDevices" package="0603-CAP" value="750pF" x="10.668" y="6.096" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="9.017" y="5.461" size="0.8128" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="C2" library="HyTechDevices" package="0603-CAP" value="0.1uF" x="10.668" y="4.064" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="9.017" y="3.556" size="0.8128" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="C3" library="HyTechDevices" package="0603-CAP" value=".1uF" x="5.334" y="10.541" smashed="yes" rot="MR270">
+<attribute name="NAME" x="4.572" y="11.43" size="0.4064" layer="26" font="vector" rot="MR270"/>
+<attribute name="VALUE" x="4.445" y="8.89" size="0.8128" layer="28" font="vector" rot="MR180"/>
+</element>
 <element name="JP1" library="HyTechDevices" package="1X04" value="" x="2.54" y="7.747" smashed="yes" rot="R90">
 <attribute name="VALUE" x="5.715" y="2.667" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$1" library="HyTechDevices" package="SOP8" value="MAX74" x="10.541" y="9.652" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="11.176" y="13.589" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="9.144" y="13.589" size="1.27" layer="27" rot="MR180"/>
 </element>
 </elements>
 <signals>
