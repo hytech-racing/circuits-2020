@@ -486,7 +486,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VALUE" x="5.715" y="2.667" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$1" library="HyTechDevices" package="SOP8" value="MAX74" x="10.541" y="9.652" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="9.144" y="13.589" size="1.27" layer="27" rot="MR180"/>
+<attribute name="VALUE" x="9.144" y="13.589" size="1.27" layer="28" rot="MR180"/>
 </element>
 </elements>
 <signals>
