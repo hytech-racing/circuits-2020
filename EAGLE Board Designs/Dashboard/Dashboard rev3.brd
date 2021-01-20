@@ -1752,7 +1752,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VALUE" x="-132.08" y="-6.096" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="X2" library="HyTechDevices" package="NANO-FIT_RIGHT_ANGLE-6-SURFACE" value="CONNECTOR-6NANO-FIT_RIGHT_ANGLE-6-SURFACE" x="85.344" y="7.62" smashed="yes" rot="R180"/>
-<element name="X3" library="HyTechDevices" package="NANO-FIT_RIGHT_ANGLE-4-SURFACE" value="CONNECTOR-4NANO-FIT_RIGHT_ANGLE-4-SURFACE" x="57.404" y="8.128" smashed="yes" rot="R180"/>
 <element name="X4" library="HyTechDevices" package="NANO-FIT_RIGHT_ANGLE-4-SURFACE" value="CONNECTOR-4NANO-FIT_RIGHT_ANGLE-4-SURFACE" x="-42.672" y="8.636" smashed="yes" rot="R180"/>
 <element name="D4" library="HyTechDevices" package="SOT23" value="DIODE_ZENER" x="-168.656" y="-19.812" smashed="yes">
 <attribute name="NAME" x="-168.656" y="-19.4818" size="0.635" layer="25" align="top-center"/>
@@ -2145,7 +2144,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="27.178" y1="19.12685" x2="26.3913375" y2="18.3401875" width="0.254" layer="1"/>
 <contactref element="X1" pad="4"/>
 <contactref element="X2" pad="2"/>
-<contactref element="X3" pad="4"/>
 <contactref element="X4" pad="4"/>
 <contactref element="D4" pad="1"/>
 <wire x1="-68.426990625" y1="5.00043125" x2="-169.606" y2="-20.812" width="0" layer="19" extent="1-1"/>
@@ -2191,8 +2189,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="-31.527375" y1="20.01074375" x2="-34.0438875" y2="19.666121875" width="0" layer="19" extent="1-1"/>
 <wire x1="-11.959840625" y1="1.0033" x2="-14.499840625" y2="1.0033" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.419840625" y1="1.0033" x2="-11.959840625" y2="1.0033" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.402" y1="2.796" x2="-9.419840625" y2="1.0033" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.879840625" y1="1.0033" x2="-8.402" y2="2.796" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.010859375" y1="20.3553625" x2="-31.527375" y2="20.01074375" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.879840625" y1="1.0033" x2="-9.419840625" y2="1.0033" width="0" layer="19" extent="1-1"/>
 <wire x1="-26.494346875" y1="20.69998125" x2="-29.010859375" y2="20.3553625" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.339840625" y1="1.0033" x2="-6.879840625" y2="1.0033" width="0" layer="19" extent="1-1"/>
 <wire x1="-23.977834375" y1="21.0446" x2="-26.494346875" y2="20.69998125" width="0" layer="19" extent="1-1"/>
@@ -2302,13 +2301,11 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="6.3848" y1="5.2673" x2="5.820159375" y2="1.0033" width="0" layer="19" extent="1-1"/>
 <wire x1="20.2722" y1="9.1325" x2="21.408" y2="6.8793" width="0" layer="19" extent="1-1"/>
 <wire x1="10.3218" y1="9.3939" x2="6.3848" y2="9.9899" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.422" y1="5.336" x2="-42.439840625" y2="1.0033" width="0" layer="19" extent="1-1"/>
 <wire x1="14.732" y1="8.128" x2="10.3218" y2="9.3939" width="0" layer="19" extent="1-1"/>
 <wire x1="-10.262" y1="17.78" x2="-5.48855" y2="19.18445" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.93" y1="13.1531" x2="-3.962" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.402" y1="2.796" x2="-23.202" y2="9.144" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.422" y1="5.336" x2="-62.759840625" y2="1.0033" width="0" layer="19" extent="1-1"/>
-<wire x1="58.654" y1="4.828" x2="-41.422" y2="5.336" width="0" layer="19" extent="1-1"/>
-<wire x1="85.344" y1="7.62" x2="-11.959840625" y2="1.0033" width="0" layer="19" extent="1-1"/>
+<wire x1="85.344" y1="7.62" x2="84.560159375" y2="1.0033" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="ATMEGA" pad="4"/>
@@ -2426,10 +2423,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="3.8676" y1="8.2899" x2="6.3848" y2="8.2899" width="0.508" layer="1"/>
 <wire x1="9.3684" y1="21.3209" x2="9.92175" y2="20.76755" width="0.508" layer="1"/>
 <wire x1="9.3684" y1="22.3987" x2="9.3684" y2="21.3209" width="0.508" layer="1"/>
-<contactref element="X3" pad="3"/>
 <contactref element="X4" pad="3"/>
-<wire x1="56.154" y1="4.828" x2="-43.922" y2="5.336" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.4714" y1="14.35" x2="56.154" y2="4.828" width="0" layer="19" extent="1-16"/>
+<wire x1="-43.4714" y1="14.35" x2="-43.922" y2="5.336" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SCK">
 <contactref element="ATMEGA" pad="17"/>
@@ -3146,11 +3141,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="15.5722" y1="16.2325" x2="-137.602" y2="-16.748" width="0" layer="19" extent="1-1"/>
 <wire x1="36.154359375" y1="15.6845" x2="15.5722" y2="16.2325" width="0" layer="19" extent="1-1"/>
 <wire x1="43.0657" y1="16.8856" x2="36.154359375" y2="15.6845" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="STEERING_WHEEL_POSITION">
-<contactref element="X3" pad="2"/>
-<contactref element="ATMEGA" pad="23"/>
-<wire x1="21.8722" y1="9.1325" x2="58.654" y2="8.128" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUSPENSION">
 <contactref element="ATMEGA" pad="24"/>

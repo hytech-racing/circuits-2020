@@ -5957,10 +5957,7 @@ Source: http://www.molex.com</description>
 <part name="X2" library="HyTechDevices" deviceset="CONNECTOR-6" device="NANO-FIT_RIGHT_ANGLE-6-SURFACE"/>
 <part name="P+12" library="supply1" deviceset="+12V" device=""/>
 <part name="GND18" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="X3" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT_RIGHT_ANGLE-4-SURFACE"/>
-<part name="GND19" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="X4" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO-FIT_RIGHT_ANGLE-4-SURFACE"/>
-<part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="GND20" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="D4" library="HyTechDevices" deviceset="DIODE_ZENER" device=""/>
@@ -6359,21 +6356,6 @@ Source: http://www.molex.com</description>
 <instance part="GND18" gate="1" x="38.1" y="172.72" smashed="yes">
 <attribute name="VALUE" x="35.56" y="170.18" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-1" x="63.5" y="203.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.96" y="203.962" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-2" x="63.5" y="200.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.96" y="201.422" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-3" x="63.5" y="198.12" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.96" y="198.882" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-4" x="63.5" y="195.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.96" y="196.342" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="GND19" gate="1" x="83.82" y="193.04" smashed="yes">
-<attribute name="VALUE" x="81.28" y="190.5" size="1.778" layer="96"/>
-</instance>
 <instance part="X4" gate="-1" x="63.5" y="180.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="60.96" y="181.102" size="1.524" layer="95" rot="R180"/>
 </instance>
@@ -6385,9 +6367,6 @@ Source: http://www.molex.com</description>
 </instance>
 <instance part="X4" gate="-4" x="63.5" y="172.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="60.96" y="173.482" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="P+14" gate="1" x="106.68" y="200.66" smashed="yes">
-<attribute name="VALUE" x="109.22" y="203.2" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND20" gate="1" x="88.9" y="170.18" smashed="yes">
 <attribute name="VALUE" x="86.36" y="167.64" size="1.778" layer="96"/>
@@ -6622,11 +6601,6 @@ Source: http://www.molex.com</description>
 <wire x1="22.86" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-4" pin="S"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="66.04" y1="195.58" x2="83.82" y2="195.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X4" gate="-4" pin="S"/>
 <wire x1="66.04" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
@@ -6727,11 +6701,6 @@ Source: http://www.molex.com</description>
 <wire x1="241.3" y1="68.58" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="66.04" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-3" pin="S"/>
-<wire x1="66.04" y1="198.12" x2="106.68" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="P+14" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="X4" gate="-3" pin="S"/>
@@ -7439,18 +7408,6 @@ Source: http://www.molex.com</description>
 <pinref part="Z1" gate="G$1" pin="C1"/>
 <wire x1="142.24" y1="73.66" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
 <label x="144.78" y="73.66" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="STEERING_WHEEL_POSITION" class="0">
-<segment>
-<pinref part="X3" gate="-2" pin="S"/>
-<wire x1="66.04" y1="200.66" x2="71.12" y2="200.66" width="0.1524" layer="91"/>
-<label x="71.12" y="200.66" size="1.4224" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="ATMEGA" gate="G$1" pin="PC0"/>
-<wire x1="215.9" y1="165.1" x2="213.36" y2="165.1" width="0.1524" layer="91"/>
-<label x="213.36" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SUSPENSION" class="0">
