@@ -231,20 +231,6 @@
 <rectangle x1="-1.7266" y1="2.25" x2="-1.5234" y2="3.121" layer="51"/>
 <rectangle x1="-2.3766" y1="2.25" x2="-2.1734" y2="3.121" layer="51"/>
 </package>
-<package name="SOT-23-5">
-<description>&lt;a href="https://github.com/open-ephys/eagle-libraries"&gt;Source&lt;/a&gt;</description>
-<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.1524" layer="21"/>
-<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.1524" layer="21"/>
-<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.1524" layer="21"/>
-<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.1524" layer="21"/>
-<smd name="2" x="-1.35" y="0" dx="1" dy="0.55" layer="1"/>
-<smd name="1" x="-1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
-<smd name="3" x="-1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
-<smd name="4" x="1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
-<smd name="5" x="1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
-<text x="-1.905" y="1.905" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.905" y="-1.905" size="0.8128" layer="27" font="vector" align="top-left">&gt;VALUE</text>
-</package>
 <package name="0805">
 <smd name="1" x="-1.025" y="0" dx="1.4" dy="1.5" layer="1"/>
 <smd name="2" x="1.025" y="0" dx="1.4" dy="1.5" layer="1"/>
@@ -498,6 +484,19 @@ chip</description>
 <wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="40"/>
 <wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="40"/>
 </package>
+<package name="SOT323-5">
+<smd name="1" x="-2.1082" y="1.2954" dx="0.6096" dy="0.254" layer="1" rot="R180"/>
+<smd name="2" x="-2.1082" y="0.635" dx="0.6096" dy="0.254" layer="1" rot="R180"/>
+<smd name="3" x="-2.1082" y="0" dx="0.6096" dy="0.254" layer="1" rot="R180"/>
+<smd name="4" x="0" y="0" dx="0.6096" dy="0.254" layer="1" rot="R180"/>
+<smd name="5" x="0" y="1.2954" dx="0.6096" dy="0.254" layer="1"/>
+<wire x1="-1.8542" y1="1.651" x2="-1.8542" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-1.8542" y1="-0.381" x2="-0.254" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.381" x2="-0.254" y2="1.651" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="1.651" x2="-1.8542" y2="1.651" width="0.127" layer="21"/>
+<text x="-2.54" y="1.905" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-0.635" size="0.8128" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADC128S022">
@@ -523,19 +522,6 @@ chip</description>
 <wire x1="12.7" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
 <text x="-5.08" y="20.32" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-10.16" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
-</symbol>
-<symbol name="ADM823">
-<pin name="!RESET!" x="15.24" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="!MR!" x="-12.7" y="0" length="middle" direction="pas"/>
-<pin name="GND" x="-12.7" y="-2.54" length="middle" direction="pas"/>
-<pin name="VCC" x="15.24" y="2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="WDI" x="-12.7" y="2.54" length="middle" direction="pas"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-5.08" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 <symbol name="CAPACITOR">
 <wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
@@ -628,6 +614,19 @@ chip</description>
 <pin name="1" x="10.16" y="-2.54" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="10.16" y="-5.08" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="ADM823">
+<pin name="!RESET!" x="15.24" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="!MR!" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle" direction="pas"/>
+<pin name="VCC" x="15.24" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="WDI" x="-12.7" y="2.54" length="middle" direction="pas"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-5.08" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADC128S022">
@@ -655,27 +654,6 @@ chip</description>
 <connect gate="G$1" pin="SDO" pad="15"/>
 <connect gate="G$1" pin="VA" pad="2"/>
 <connect gate="G$1" pin="VD" pad="13"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ADM823">
-<description>ADM823 Watchdog Timer&lt;br&gt;
-&lt;a href="https://www.analog.com/media/en/technical-documentation/data-sheets/ADM823_824_825.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ADM823" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23-5">
-<connects>
-<connect gate="G$1" pin="!MR!" pad="3"/>
-<connect gate="G$1" pin="!RESET!" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-<connect gate="G$1" pin="WDI" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -895,6 +873,27 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </device>
 </devices>
 </deviceset>
+<deviceset name="ADM823">
+<description>ADM823 Watchdog Timer&lt;br&gt;
+&lt;a href="https://www.analog.com/media/en/technical-documentation/data-sheets/ADM823_824_825.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ADM823" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT323-5">
+<connects>
+<connect gate="G$1" pin="!MR!" pad="3"/>
+<connect gate="G$1" pin="!RESET!" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="WDI" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -972,7 +971,6 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </classes>
 <parts>
 <part name="U$1" library="HyTechDevices" deviceset="ADC128S022" device=""/>
-<part name="U$2" library="HyTechDevices" deviceset="ADM823" device=""/>
 <part name="+3V1" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="GND1" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND2" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -996,6 +994,7 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <part name="GND7" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND8" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND9" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="U$2" library="HyTechDevices" deviceset="ADM823" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1005,10 +1004,6 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <instance part="U$1" gate="G$1" x="-2.54" y="25.4" smashed="yes">
 <attribute name="NAME" x="-7.62" y="45.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-7.62" y="15.24" size="1.778" layer="96" align="top-left"/>
-</instance>
-<instance part="U$2" gate="G$1" x="0" y="-10.16" smashed="yes">
-<attribute name="NAME" x="-7.62" y="-5.08" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-7.62" y="-15.24" size="1.778" layer="96" align="top-left"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="-88.9" y="38.1" smashed="yes">
 <attribute name="VALUE" x="-88.9" y="39.37" size="1.778" layer="96" align="bottom-center"/>
@@ -1086,6 +1081,10 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <instance part="GND9" gate="1" x="-27.94" y="-30.48" smashed="yes">
 <attribute name="VALUE" x="-27.94" y="-31.75" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="U$2" gate="G$1" x="0" y="-10.16" smashed="yes">
+<attribute name="NAME" x="-7.62" y="-5.08" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-7.62" y="-15.24" size="1.778" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1148,10 +1147,10 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="-12.7" y1="-12.7" x2="-15.24" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="-12.7" x2="-15.24" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -1220,13 +1219,13 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </net>
 <net name="WDI" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="WDI"/>
 <wire x1="-12.7" y1="-7.62" x2="-27.94" y2="-7.62" width="0.1524" layer="91"/>
 <label x="-38.1" y="-7.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="-7.62" x2="-38.1" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-7.62" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-27.94" y="-7.62"/>
+<pinref part="U$2" gate="G$1" pin="WDI"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="D0(RX1)"/>
@@ -1236,13 +1235,13 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </net>
 <net name="!MR!" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="!MR!"/>
 <wire x1="-12.7" y1="-10.16" x2="-27.94" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-38.1" y="-10.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="-27.94" y1="-10.16" x2="-38.1" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-10.16" x2="-27.94" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-27.94" y="-10.16"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="U$2" gate="G$1" pin="!MR!"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="D2"/>
@@ -1252,12 +1251,12 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </net>
 <net name="!RESET!" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="!RESET!"/>
 <wire x1="15.24" y1="-12.7" x2="20.32" y2="-12.7" width="0.1524" layer="91"/>
 <label x="25.4" y="-12.7" size="1.778" layer="95" xref="yes"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="-12.7" x2="25.4" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="20.32" y="-12.7"/>
+<pinref part="U$2" gate="G$1" pin="!RESET!"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="D1(TX1)"/>
@@ -1331,11 +1330,11 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </net>
 <net name="WATCHDOG_3V3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
 <wire x1="15.24" y1="-7.62" x2="15.24" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
 <label x="20.32" y="-2.54" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="+5V" class="0">
