@@ -4267,7 +4267,7 @@ Layer: 94 Symbol</description>
 <plain>
 <text x="137.16" y="27.94" size="2.54" layer="97">Shaan Dhawan</text>
 <text x="203.2" y="20.32" size="2.54" layer="97">HT05 Brake System Plausibility Device schematic.</text>
-<text x="60.96" y="208.28" size="1.778" layer="97">15V to 5V</text>
+<text x="60.96" y="208.28" size="1.778" layer="97">12V to 5V</text>
 <text x="76.2" y="210.82" size="1.778" layer="97">CURRENT_HIGH_DIV</text>
 <text x="68.58" y="180.34" size="1.778" layer="97">CURRENT_LOW_DIV</text>
 <text x="63.5" y="109.22" size="1.778" layer="97">BRAKE_LOW_DIV</text>

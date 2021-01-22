@@ -3657,8 +3657,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="HVD" library="HyTechSymbols" deviceset="M02" device="" value="Hirose EM30MSD"/>
 <part name="TE1" library="HyTechSymbols" deviceset="M02" device="" value="HVP800"/>
 <part name="TE2" library="HyTechSymbols" deviceset="M02" device="" value="HVP800"/>
-<part name="FUSE11" library="HyTechSymbols" deviceset="FUSE" device="" value="20A"/>
-<part name="FUSE12" library="HyTechSymbols" deviceset="FUSE" device="" value="20A"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -3727,11 +3725,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="55.88" y1="134.62" x2="40.64" y2="134.62" width="0.6096" layer="156"/>
 <wire x1="40.64" y1="134.62" x2="40.64" y2="121.92" width="0.6096" layer="156"/>
 <wire x1="38.1" y1="142.24" x2="38.1" y2="121.92" width="0.6096" layer="156"/>
-<wire x1="38.1" y1="93.98" x2="38.1" y2="96.52" width="0.6096" layer="156"/>
-<wire x1="40.64" y1="93.98" x2="40.64" y2="96.52" width="0.6096" layer="156"/>
-<wire x1="40.64" y1="83.82" x2="40.64" y2="73.66" width="0.6096" layer="156"/>
 <wire x1="40.64" y1="73.66" x2="55.88" y2="73.66" width="0.6096" layer="156"/>
-<wire x1="38.1" y1="83.82" x2="38.1" y2="68.58" width="0.6096" layer="156"/>
+<wire x1="38.1" y1="96.52" x2="38.1" y2="68.58" width="0.6096" layer="156"/>
 <wire x1="38.1" y1="68.58" x2="55.88" y2="68.58" width="0.6096" layer="156"/>
 <text x="71.12" y="91.44" size="2.54" layer="97">Elcon PFC 2500 Charger</text>
 <text x="142.24" y="91.44" size="2.54" layer="97">Powerswitch Tail</text>
@@ -3760,6 +3755,7 @@ Thick orange: High current paths, aluminum busbar, 0.0625 inch^2</text>
 <text x="26.162" y="109.728" size="1.778" layer="97">TSMP-</text>
 <text x="16.256" y="109.728" size="1.778" layer="97">TSMP+</text>
 <text x="35.56" y="149.86" size="1.778" layer="97" rot="R90">DCM3714xD2K13E0yzz</text>
+<wire x1="40.64" y1="96.52" x2="40.64" y2="73.66" width="0.6096" layer="156"/>
 </plain>
 <moduleinsts>
 <moduleinst name="ENERGY_METER" module="ENERGY_METER" x="76.2" y="127">
@@ -3845,14 +3841,6 @@ Thick orange: High current paths, aluminum busbar, 0.0625 inch^2</text>
 <instance part="TE2" gate="G$1" x="38.1" y="99.06" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="43.942" y="101.6" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="43.942" y="104.14" size="1.778" layer="95" rot="MR180"/>
-</instance>
-<instance part="FUSE11" gate="G$1" x="38.1" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.576" y="83.82" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="36.576" y="91.44" size="1.27" layer="96" rot="R90"/>
-</instance>
-<instance part="FUSE12" gate="G$1" x="40.64" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.434" y="83.82" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="43.434" y="91.44" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="P+1" gate="VCC" x="190.5" y="76.2" smashed="yes" rot="R270"/>
 <instance part="P+2" gate="VCC" x="190.5" y="71.12" smashed="yes" rot="R270"/>
@@ -4163,18 +4151,6 @@ Thick orange: High current paths, aluminum busbar, 0.0625 inch^2</text>
 <pinref part="U$5" gate="G$1" pin="P2-VIN"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <wire x1="144.78" y1="187.96" x2="147.32" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="FUSE11" gate="G$1" pin="2"/>
-<pinref part="TE2" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="FUSE12" gate="G$1" pin="2"/>
-<pinref part="TE2" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

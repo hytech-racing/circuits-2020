@@ -3732,9 +3732,9 @@ Thick orange: High current paths</text>
 <wire x1="10.16" y1="127" x2="10.16" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="HVD_INTERLOCK" gate="SPST" pin="P"/>
 <wire x1="10.16" y1="111.76" x2="12.7" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="CHARGER_ESTOP" gate="SPST" pin="S"/>
-<wire x1="132.08" y1="139.7" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="127" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="127" x2="144.78" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="CHARGER_ESTOP" gate="SPST" pin="O"/>
+<wire x1="132.08" y1="144.78" x2="144.78" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
