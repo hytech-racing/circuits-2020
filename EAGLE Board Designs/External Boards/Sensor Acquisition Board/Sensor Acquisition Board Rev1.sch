@@ -1087,6 +1087,42 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
 <circle x="-4.445" y="-1.27" radius="0.1" width="0.254" layer="21"/>
 </package>
+<package name="1X02">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+</package>
+<package name="0603-JUMP">
+<smd name="1" x="-0.85" y="0" dx="1.2" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.2" dy="1.1" layer="1"/>
+<text x="0" y="0.7239" size="0.3048" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.7112" size="0.3048" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.381" x2="0" y2="0.127" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.381" x2="0" y2="-0.127" width="0.1524" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X03" urn="urn:adsk.eagle:package:22462/2" type="model">
@@ -1346,6 +1382,12 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <pin name="5" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="3" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="1" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="JUMPER">
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="P$2" x="5.08" y="-2.54" visible="off" length="short" rot="R90"/>
+<text x="0" y="0.508" size="1.27" layer="94">JUMP</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1845,15 +1887,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <technology name=""/>
 </technologies>
 </device>
-<device name="0603-RES" package="0603-RES">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="0805-RES" package="0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -2043,6 +2076,50 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <technology name="">
 <attribute name="DIGIKEY" value="S2011EC-03-ND"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER" prefix="J">
+<description>Jumper for changing operation of a device</description>
+<gates>
+<gate name="G$1" symbol="JUMPER" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="0805">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".1" package="1X02">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".3" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="0603-JUMP">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2293,6 +2370,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="P+10" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P+23" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND15" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="J1" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
+<part name="J3" library="HyTechDevices" deviceset="JUMPER" device=".1"/>
 </parts>
 <sheets>
 <sheet>
@@ -2706,6 +2785,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="GND15" gate="1" x="251.46" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="248.92" y="-7.62" size="1.778" layer="96"/>
 </instance>
+<instance part="J1" gate="G$1" x="38.1" y="-76.2" smashed="yes"/>
+<instance part="J3" gate="G$1" x="55.88" y="-76.2" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -3024,6 +3105,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="X1" gate="-4" pin="S"/>
 <wire x1="264.16" y1="40.64" x2="254" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="P$1"/>
+<wire x1="55.88" y1="-78.74" x2="55.88" y2="-83.82" width="0.1524" layer="91"/>
+<label x="55.88" y="-83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="P$2"/>
+<wire x1="60.96" y1="-78.74" x2="60.96" y2="-83.82" width="0.1524" layer="91"/>
+<label x="60.96" y="-83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -3373,6 +3464,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="X5" gate="-3" pin="S"/>
 <wire x1="264.16" y1="-12.7" x2="261.62" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="P+23" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$1"/>
+<wire x1="38.1" y1="-78.74" x2="38.1" y2="-83.82" width="0.1524" layer="91"/>
+<label x="38.1" y="-83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$2"/>
+<wire x1="43.18" y1="-78.74" x2="43.18" y2="-83.82" width="0.1524" layer="91"/>
+<label x="43.18" y="-83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
