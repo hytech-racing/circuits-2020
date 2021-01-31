@@ -189,6 +189,7 @@
 <libraries>
 <library name="HyTechDevices">
 <packages>
+<<<<<<< Updated upstream
 <package name="CAP-PTH-SMALL">
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
 <pad name="1" x="0" y="0" drill="0.7" diameter="1.651"/>
@@ -413,6 +414,8 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <pad name="P$1" x="-5" y="0" drill="2" shape="long" rot="R90"/>
 <pad name="P$2" x="5" y="0" drill="2" shape="long" rot="R90"/>
 </package>
+=======
+>>>>>>> Stashed changes
 <package name="3714DCM_VIA">
 <description>DCM3714 Isolated DC-DC Converter in VIA Package
 &lt;br&gt;
@@ -794,6 +797,7 @@ visible on the PCB.</text>
 <rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="39"/>
 <rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="40"/>
 </package>
+<<<<<<< Updated upstream
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -806,6 +810,37 @@ visible on the PCB.</text>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
+=======
+<package name="0885">
+<description>0885 Fuse
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-5" y="0" dx="5.6" dy="7.23" layer="1"/>
+<smd name="2" x="5" y="0" dx="5.6" dy="7.23" layer="1"/>
+<wire x1="-5.43" y1="2.39" x2="-5.43" y2="-2.39" width="0.127" layer="21"/>
+<wire x1="-5.43" y1="-2.39" x2="5.43" y2="-2.39" width="0.127" layer="21"/>
+<wire x1="5.43" y1="-2.39" x2="5.43" y2="2.39" width="0.127" layer="21"/>
+<wire x1="5.43" y1="2.39" x2="-5.43" y2="2.39" width="0.127" layer="21"/>
+<text x="0" y="4.318" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-8.382" y1="-4.318" x2="8.382" y2="4.318" layer="39"/>
+</package>
+<package name="L*A">
+<description>L*A Capacitor
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/293/e-lgg-1512875.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<pad name="-" x="-5" y="0" drill="2"/>
+<pad name="+" x="5" y="0" drill="2"/>
+<circle x="0" y="0" radius="12.500396875" width="0.1524" layer="21"/>
+<text x="13.97" y="0" size="1.778" layer="21" font="vector" rot="R180" align="center">+</text>
+<text x="-13.97" y="0" size="1.778" layer="21" font="vector" align="center">-</text>
+<text x="0" y="13" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="12.954" width="0" layer="39"/>
+<circle x="-5" y="0" radius="2.032" width="0" layer="40"/>
+<circle x="5" y="0" radius="2.032" width="0" layer="40"/>
+</package>
+</packages>
+<symbols>
+>>>>>>> Stashed changes
 <symbol name="DCM3714">
 <description>DCM Isolated DC-DC Converter
 &lt;br&gt;
@@ -884,6 +919,7 @@ visible on the PCB.</text>
 </symbol>
 </symbols>
 <devicesets>
+<<<<<<< Updated upstream
 <deviceset name="CAP" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Capacitor&lt;/b&gt;
 Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
@@ -1028,6 +1064,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
+=======
+>>>>>>> Stashed changes
 <deviceset name="DCM3714BD2K13E0C09">
 <gates>
 <gate name="G$1" symbol="DCM3714" x="0" y="0"/>
@@ -1224,6 +1262,148 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 </device>
 </devices>
 </deviceset>
+<<<<<<< Updated upstream
+=======
+<deviceset name="885_FUSE">
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0885">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LGG2G181MELA25" prefix="C">
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="L*A">
+<connects>
+<connect gate="G$1" pin="MINUS" pad="-"/>
+<connect gate="G$1" pin="PLUS" pad="+"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="HyTechSupplies">
+<packages>
+</packages>
+<symbols>
+<symbol name="HV+">
+<text x="0" y="6.35" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="HV+" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="2.54" y1="4.826" x2="2.032" y2="4.064" width="0.254" layer="94"/>
+<wire x1="2.032" y1="4.064" x2="2.667" y2="3.556" width="0.254" layer="94"/>
+<wire x1="2.667" y1="3.556" x2="2.286" y2="2.794" width="0.254" layer="94"/>
+<wire x1="2.286" y1="2.794" x2="3.302" y2="3.556" width="0.254" layer="94"/>
+<wire x1="3.302" y1="3.556" x2="2.794" y2="4.064" width="0.254" layer="94"/>
+<wire x1="2.794" y1="4.064" x2="3.556" y2="4.826" width="0.254" layer="94"/>
+<wire x1="3.556" y1="4.826" x2="2.54" y2="4.826" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.905" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-1.27" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.175" x2="0" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="HV-">
+<wire x1="2.54" y1="-2.794" x2="2.032" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-3.556" x2="2.667" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="2.667" y1="-4.064" x2="2.286" y2="-4.826" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-4.826" x2="3.302" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="3.302" y1="-4.064" x2="2.794" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-3.556" x2="3.556" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="3.556" y1="-2.794" x2="2.54" y2="-2.794" width="0.254" layer="94"/>
+<text x="0" y="-6.35" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+<pin name="HV-" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<wire x1="-1.27" y1="-0.635" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.905" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.175" x2="0" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-1.27" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="+12V">
+<text x="0" y="3.81" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
+<pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HV+">
+<gates>
+<gate name="G$1" symbol="HV+" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HV-">
+<gates>
+<gate name="G$1" symbol="HV-" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+12V" prefix="P+">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="+12V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+>>>>>>> Stashed changes
 </devicesets>
 </library>
 </libraries>
@@ -1236,23 +1416,39 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 </class>
 </classes>
 <parts>
+<<<<<<< Updated upstream
 <part name="C1" library="HyTechDevices" deviceset="CAP" device=""/>
+=======
+>>>>>>> Stashed changes
 <part name="U$1" library="HyTechDevices" deviceset="DCM3714BD2K13E0C09" device=""/>
 <part name="C2" library="HyTechDevices" deviceset="EKYC250E__622MM25S" device=""/>
 <part name="J1" library="HyTechDevices" deviceset="CONNECTOR-4" device="MINIFIT"/>
 <part name="F1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE"/>
 <part name="J2" library="HyTechDevices" deviceset="CONNECTOR-2" device=""/>
 <part name="J3" library="HyTechDevices" deviceset="CONNECTOR-2" device=""/>
+<<<<<<< Updated upstream
+=======
+<part name="U$2" library="HyTechDevices" deviceset="885_FUSE" device=""/>
+<part name="U$3" library="HyTechDevices" deviceset="885_FUSE" device=""/>
+<part name="C1" library="HyTechDevices" deviceset="LGG2G181MELA25" device=""/>
+<part name="U$4" library="HyTechSupplies" deviceset="HV+" device=""/>
+<part name="U$5" library="HyTechSupplies" deviceset="HV-" device=""/>
+<part name="GND1" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P+1" library="HyTechSupplies" deviceset="+12V" device=""/>
+>>>>>>> Stashed changes
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
+<<<<<<< Updated upstream
 <instance part="C1" gate="G$1" x="52.324" y="46.99" smashed="yes">
 <attribute name="NAME" x="53.848" y="49.911" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.848" y="44.831" size="1.778" layer="96"/>
 </instance>
+=======
+>>>>>>> Stashed changes
 <instance part="U$1" gate="G$1" x="60.96" y="58.42" smashed="yes">
 <attribute name="NAME" x="60.96" y="59.182" size="1.27" layer="95"/>
 <attribute name="VALUE" x="60.96" y="37.338" size="1.27" layer="96" align="top-left"/>
@@ -1273,28 +1469,69 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 <instance part="J3" gate="G$1" x="30.48" y="45.72" smashed="yes">
 <attribute name="NAME" x="30.48" y="46.482" size="1.27" layer="95"/>
 </instance>
+<<<<<<< Updated upstream
+=======
+<instance part="U$2" gate="G$1" x="48.26" y="55.88" smashed="yes">
+<attribute name="NAME" x="46.99" y="57.15" size="1.27" layer="95" align="bottom-center"/>
+</instance>
+<instance part="U$3" gate="G$1" x="48.26" y="40.64" smashed="yes">
+<attribute name="NAME" x="46.99" y="41.91" size="1.27" layer="95" align="bottom-center"/>
+</instance>
+<instance part="C1" gate="G$1" x="52.324" y="46.99" smashed="yes" rot="R270">
+<attribute name="NAME" x="54.864" y="48.26" size="1.27" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="49.784" y="48.26" size="1.27" layer="96" rot="R270" align="top-center"/>
+</instance>
+<instance part="U$4" gate="G$1" x="43.18" y="55.88" smashed="yes">
+<attribute name="VALUE" x="43.18" y="62.23" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="U$5" gate="G$1" x="43.18" y="40.64" smashed="yes">
+<attribute name="VALUE" x="43.18" y="34.29" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND1" gate="1" x="99.06" y="38.1" smashed="yes">
+<attribute name="VALUE" x="99.06" y="36.83" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="P+1" gate="1" x="111.76" y="58.42" smashed="yes">
+<attribute name="VALUE" x="111.76" y="62.23" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+>>>>>>> Stashed changes
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="-BATTERY" class="0">
 <segment>
+<<<<<<< Updated upstream
 <pinref part="C1" gate="G$1" pin="2"/>
+=======
+>>>>>>> Stashed changes
 <wire x1="52.324" y1="44.45" x2="52.324" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="40.64" x2="52.324" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="IN-"/>
 <wire x1="52.324" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
 <junction x="52.324" y="40.64"/>
+<<<<<<< Updated upstream
+=======
+<pinref part="U$3" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="MINUS"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
+<<<<<<< Updated upstream
 <pinref part="C1" gate="G$1" pin="1"/>
+=======
+>>>>>>> Stashed changes
 <wire x1="52.324" y1="52.07" x2="52.324" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="52.324" y1="55.88" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="IN+"/>
 <wire x1="52.324" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
 <junction x="52.324" y="55.88"/>
+<<<<<<< Updated upstream
+=======
+<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="PLUS"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="12V_UNFUSED" class="0">
@@ -1313,6 +1550,7 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 <pinref part="F1" gate="G$1" pin="1"/>
 </segment>
 </net>
+<<<<<<< Updated upstream
 <net name="N$3" class="0">
 <segment>
 <wire x1="111.76" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
@@ -1322,6 +1560,24 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 <net name="N$6" class="0">
 <segment>
 <wire x1="114.3" y1="50.8" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
+=======
+<net name="+12V" class="0">
+<segment>
+<pinref part="P+1" gate="1" pin="+12V"/>
+<pinref part="F1" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
+<junction x="111.76" y="55.88"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="55.88" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="53.34" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
+<junction x="116.84" y="53.34"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+>>>>>>> Stashed changes
 <pinref part="C2" gate="G$1" pin="MINUS"/>
 <wire x1="99.06" y1="43.18" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="OUT-"/>
@@ -1331,8 +1587,43 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 <wire x1="88.9" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="43.18" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
 <junction x="91.44" y="40.64"/>
+<<<<<<< Updated upstream
 <wire x1="114.3" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
 <junction x="99.06" y="40.64"/>
+=======
+<wire x1="116.84" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
+<junction x="99.06" y="40.64"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="116.84" y1="48.26" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="45.72" x2="116.84" y2="40.64" width="0.1524" layer="91"/>
+<junction x="116.84" y="45.72"/>
+</segment>
+</net>
+<net name="HV+" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<junction x="43.18" y="55.88"/>
+<pinref part="U$4" gate="G$1" pin="HV+"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="53.34" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
+<junction x="40.64" y="55.88"/>
+</segment>
+</net>
+<net name="HV-" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
+<junction x="43.18" y="40.64"/>
+<pinref part="U$5" gate="G$1" pin="HV-"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="40.64" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<junction x="40.64" y="40.64"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 </nets>
