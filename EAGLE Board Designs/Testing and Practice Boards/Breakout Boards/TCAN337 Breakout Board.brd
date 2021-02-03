@@ -9,6 +9,20 @@
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -490,7 +504,7 @@
 <rectangle x1="7.459978125" y1="8.9154" x2="8.120378125" y2="8.9408" layer="51"/>
 <rectangle x1="5.808978125" y1="8.9408" x2="6.799578125" y2="8.9662" layer="51"/>
 <rectangle x1="7.459978125" y1="8.9408" x2="8.120378125" y2="8.9662" layer="51"/>
-<rectangle x1="5.935978125" y1="8.9662" x2="6.647178125" y2="8.9916" layer="51"/>
+<rectangle x1="7.205978125" y1="8.9662" x2="7.917178125" y2="8.9916" layer="51"/>
 <rectangle x1="7.459978125" y1="8.9662" x2="8.120378125" y2="8.9916" layer="51"/>
 <rectangle x1="6.164578125" y1="8.9916" x2="6.418578125" y2="9.017" layer="51"/>
 <rectangle x1="7.459978125" y1="8.9916" x2="8.120378125" y2="9.017" layer="51"/>
@@ -3157,6 +3171,32 @@
 <rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="39"/>
 <rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="40"/>
 </package>
+<package name="MOLEX_NANOFIT_SMD_04">
+<description>4 Pin Nano-Fit Vertical Header, PCB Mount, Dual Row
+&lt;br&gt;
+&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/1054051204"&gt;Part&lt;\a&gt;
+&lt;br&gt;
+&lt;a href="https://www.molex.com/pdm_docs/sd/1054051204_sd.pdf"&gt;Footprint&lt;\a&gt;</description>
+<smd name="2" x="-1.25" y="1.65" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="3" x="1.25" y="-1.65" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="1" x="1.25" y="1.65" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="4" x="-1.25" y="-1.65" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="PAD1" x="-3.52" y="-6.58" dx="1.1" dy="8.2" layer="1"/>
+<smd name="PAD@1" x="3.52" y="-6.58" dx="1.1" dy="8.2" layer="1"/>
+<wire x1="-1.27" y1="2.6" x2="1.27" y2="2.6" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.6" x2="1.27" y2="-1.99" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.99" x2="4.37" y2="-1.99" width="0.127" layer="21"/>
+<wire x1="4.37" y1="-1.99" x2="4.37" y2="-10.68" width="0.127" layer="21"/>
+<wire x1="4.37" y1="-10.68" x2="-4.37" y2="-10.68" width="0.127" layer="21"/>
+<wire x1="-4.37" y1="-10.68" x2="-4.37" y2="-1.99" width="0.127" layer="21"/>
+<wire x1="-4.37" y1="-1.99" x2="-1.27" y2="-1.99" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.99" x2="-1.27" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-4.37" y1="-19.48" x2="4.37" y2="-19.48" width="0.1524" layer="21"/>
+<text x="0" y="-20.065" size="0.6096" layer="51" font="vector" align="top-center">Line must not be
+visible on the PCB.</text>
+<rectangle x1="-5.08" y1="-19.43" x2="5.08" y2="3.81" layer="39"/>
+<text x="0" y="3.81" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 </library>
 <library name="con-amp-quick" urn="urn:adsk.eagle:library:125">
@@ -3300,33 +3340,29 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="JLCPCB (2 Layer)">
-<description language="en">&lt;b&gt;JLCPCB Design Rules (2 Layers)&lt;/b&gt;
+<designrules name="On Campus (2 Layer)">
+<description language="en">&lt;b&gt;On Campus Design Rules (2 Layers)&lt;/b&gt;
 &lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications.
-&lt;p&gt;
-Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;JLCPCB&lt;/a&gt;
-&lt;/p&gt;</description>
+The default Design Rules have been set to cover a wide range of applications. This is designed for use in the &lt;a href=&quot;https://www.me.gatech.edu/facilities/electronic_lab&quot;&gt;ME Electronics Lab&lt;/a&gt;, the &lt;a href=&quot;https://hive.ece.gatech.edu/&quot;&gt;Hive&lt;/a&gt;, and the &lt;a href=&quot;https://inventionstudio.gatech.edu/&quot;&gt;Invention Studio&lt;/a&gt;.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.53mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="5mil"/>
-<param name="mdWirePad" value="5mil"/>
-<param name="mdWireVia" value="8mil"/>
-<param name="mdPadPad" value="5mil"/>
-<param name="mdPadVia" value="10mil"/>
-<param name="mdViaVia" value="20mil"/>
-<param name="mdSmdPad" value="5mil"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="16mil"/>
+<param name="mdWirePad" value="12mil"/>
+<param name="mdWireVia" value="16mil"/>
+<param name="mdPadPad" value="16mil"/>
+<param name="mdPadVia" value="16mil"/>
+<param name="mdViaVia" value="16mil"/>
+<param name="mdSmdPad" value="10mil"/>
 <param name="mdSmdVia" value="10mil"/>
-<param name="mdSmdSmd" value="5mil"/>
+<param name="mdSmdSmd" value="10mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="0.2mm"/>
-<param name="mdDrill" value="21mil"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="5mil"/>
-<param name="msDrill" value="0.3mm"/>
+<param name="msWidth" value="16mil"/>
+<param name="msDrill" value="0.8mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -3334,34 +3370,34 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <param name="rvPadBottom" value="0.25"/>
 <param name="rvViaOuter" value="0.25"/>
 <param name="rvViaInner" value="0.25"/>
-<param name="rvMicroViaOuter" value="0"/>
-<param name="rvMicroViaInner" value="0"/>
-<param name="rlMinPadTop" value="6mil"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="6mil"/>
+<param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="6mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="6mil"/>
-<param name="rlMaxViaOuter" value="12mil"/>
-<param name="rlMinViaInner" value="6mil"/>
-<param name="rlMaxViaInner" value="12mil"/>
-<param name="rlMinMicroViaOuter" value="6mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="6mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
-<param name="psFirst" value="0"/>
+<param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="6mil"/>
-<param name="mlMaxStopFrame" value="6mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="30mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -3369,14 +3405,14 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkAngle" value="0"/>
+<param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
-<param name="checkValues" value="1"/>
-<param name="checkNames" value="1"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="0"/>
 <param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -3528,6 +3564,14 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="POPULARITY" value="19" x="19.431" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="15.5956" y="13.716" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
+<element name="J2" library="HyTechDevices" package="MOLEX_NANOFIT_SMD_04" value="CONNECTOR-CAN" x="-5.08" y="22.86" smashed="yes">
+<attribute name="MODEL" value="SMD Nanofit" x="-5.08" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-5.08" y="26.67" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
+<element name="J3" library="HyTechDevices" package="MOLEX_NANOFIT_SMD_04" value="CONNECTOR-CAN" x="-5.08" y="-5.08" smashed="yes">
+<attribute name="MODEL" value="SMD Nanofit" x="-15.24" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-5.08" y="-1.27" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="CANRX">
@@ -3594,6 +3638,10 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="12.121" y1="9.2" x2="12.121" y2="9.993" width="0.254" layer="1"/>
 <wire x1="7.747" y1="9.017" x2="11.938" y2="9.017" width="0.254" layer="1"/>
 <wire x1="11.938" y1="9.017" x2="12.121" y2="9.2" width="0.254" layer="1"/>
+<contactref element="J2" pad="3"/>
+<contactref element="J3" pad="3"/>
+<wire x1="6.35" y1="7.62" x2="-3.83" y2="21.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.83" y1="-6.73" x2="6.897" y2="2.667" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANH">
 <contactref element="CAN_TERM" pad="1"/>
@@ -3608,6 +3656,10 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="12.771" y1="8.961" x2="12.771" y2="9.993" width="0.254" layer="1"/>
 <wire x1="14.351" y1="7.493" x2="14.351" y2="7.62" width="0.254" layer="1"/>
 <wire x1="11.43" y1="7.62" x2="14.351" y2="7.62" width="0.254" layer="1"/>
+<contactref element="J2" pad="4"/>
+<contactref element="J3" pad="4"/>
+<wire x1="6.35" y1="5.08" x2="-6.33" y2="21.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.33" y1="-6.73" x2="6.35" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="3.2" pad="GND"/>
@@ -3641,10 +3693,14 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="12.771" y1="12.613" x2="12.7" y2="12.684" width="0.254" layer="1"/>
 <wire x1="12.7" y1="12.684" x2="12.7" y2="14.224" width="0.254" layer="1"/>
 <via x="12.7" y="14.224" extent="1-16" drill="0.35"/>
+<contactref element="J2" pad="2"/>
+<contactref element="J3" pad="2"/>
 <wire x1="22.86" y1="7.62" x2="40.64" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="11.684" y1="5.715" x2="19.431" y2="7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="10.16" x2="11.684" y2="5.715" width="0" layer="19" extent="1-1"/>
 <wire x1="12.771" y1="12.613" x2="6.35" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.33" y1="24.51" x2="4.445" y2="16.637" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.33" y1="-3.43" x2="2.54" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="3.2" pad="VIN"/>
@@ -3704,6 +3760,11 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="13.208" y1="18.415" x2="12.065" y2="17.272" width="0.254" layer="1"/>
 <wire x1="12.065" y1="17.272" x2="12.065" y2="16.637" width="0.254" layer="1"/>
 </signal>
+<signal name="+12V">
+<contactref element="J2" pad="1"/>
+<contactref element="J3" pad="1"/>
+<wire x1="-3.83" y1="-3.43" x2="-3.83" y2="24.51" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -3715,6 +3776,10 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
