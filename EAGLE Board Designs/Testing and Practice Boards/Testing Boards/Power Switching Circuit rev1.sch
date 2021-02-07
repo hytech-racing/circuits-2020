@@ -4215,11 +4215,6 @@ the vehicle from the GLV battery to the accumulator</text>
 <pinref part="X1" gate="-3" pin="S"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="79.248" y1="-32.512" x2="86.614" y2="-32.512" width="0.1524" layer="91"/>
-<label x="86.614" y="-32.512" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="G$1" pin="P"/>
 <wire x1="-94.488" y1="27.432" x2="-105.41" y2="27.432" width="0.1524" layer="91"/>
 <label x="-105.41" y="27.686" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -4248,14 +4243,18 @@ the vehicle from the GLV battery to the accumulator</text>
 <wire x1="-20.828" y1="40.132" x2="-18.288" y2="40.132" width="0.1524" layer="91"/>
 <wire x1="-20.828" y1="40.132" x2="-33.528" y2="40.132" width="0.1524" layer="91"/>
 <junction x="-20.828" y="40.132"/>
-<label x="-59.436" y="40.132" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="-33.528" y1="40.132" x2="-46.99" y2="40.132" width="0.1524" layer="91"/>
-<wire x1="-46.99" y1="40.132" x2="-59.436" y2="40.132" width="0.1524" layer="91"/>
 <wire x1="-46.99" y1="8.89" x2="-46.99" y2="40.132" width="0.1524" layer="91"/>
-<junction x="-46.99" y="40.132"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <junction x="-33.528" y="40.132"/>
+<pinref part="TVS$1" gate="G$1" pin="C"/>
+<wire x1="-54.356" y1="37.846" x2="-54.356" y2="40.132" width="0.1524" layer="91"/>
+<wire x1="-54.356" y1="40.132" x2="-46.99" y2="40.132" width="0.1524" layer="91"/>
+<junction x="-46.99" y="40.132"/>
+<wire x1="-54.356" y1="40.132" x2="-60.706" y2="40.132" width="0.1524" layer="91"/>
+<junction x="-54.356" y="40.132"/>
+<label x="-60.452" y="40.132" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GLVMS" class="0">
@@ -4590,7 +4589,7 @@ the vehicle from the GLV battery to the accumulator</text>
 <wire x1="52.832" y1="5.588" x2="52.832" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="RELAY" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="V2"/>
 <pinref part="U$4" gate="G$1" pin="D"/>
@@ -4601,11 +4600,23 @@ the vehicle from the GLV battery to the accumulator</text>
 <pinref part="U$3" gate="G$1" pin="S"/>
 <wire x1="-38.354" y1="24.892" x2="-41.91" y2="24.892" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="-41.91" y1="24.892" x2="-79.248" y2="24.892" width="0.1524" layer="91"/>
+<wire x1="-41.91" y1="24.892" x2="-69.342" y2="24.892" width="0.1524" layer="91"/>
+<wire x1="-69.342" y1="24.892" x2="-76.454" y2="24.892" width="0.1524" layer="91"/>
+<wire x1="-76.454" y1="24.892" x2="-79.248" y2="24.892" width="0.1524" layer="91"/>
 <wire x1="-38.354" y1="-16.51" x2="-38.354" y2="24.892" width="0.1524" layer="91"/>
 <junction x="-38.354" y="24.892"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <junction x="-41.91" y="24.892"/>
+<wire x1="-76.454" y1="24.892" x2="-76.454" y2="22.86" width="0.1524" layer="91"/>
+<label x="-76.454" y="23.114" size="1.016" layer="95" rot="R270" xref="yes"/>
+<pinref part="TVS$2" gate="G$1" pin="C"/>
+<wire x1="-69.342" y1="22.606" x2="-69.342" y2="24.892" width="0.1524" layer="91"/>
+<junction x="-69.342" y="24.892"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="79.248" y1="-32.512" x2="86.614" y2="-32.512" width="0.1524" layer="91"/>
+<label x="86.36" y="-32.512" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -4704,18 +4715,6 @@ the vehicle from the GLV battery to the accumulator</text>
 <wire x1="114.554" y1="-48.514" x2="70.358" y2="-48.514" width="0.1524" layer="91"/>
 <wire x1="114.554" y1="-27.432" x2="114.554" y2="-48.514" width="0.1524" layer="91"/>
 <junction x="114.554" y="-27.432"/>
-</segment>
-</net>
-<net name="GLVB1" class="0">
-<segment>
-<pinref part="TVS$2" gate="G$1" pin="C"/>
-<wire x1="-69.342" y1="22.606" x2="-69.342" y2="24.892" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GLVB2" class="0">
-<segment>
-<pinref part="TVS$1" gate="G$1" pin="C"/>
-<wire x1="-54.356" y1="37.846" x2="-54.356" y2="40.132" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
