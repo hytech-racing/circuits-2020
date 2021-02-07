@@ -2020,9 +2020,9 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <label x="43.18" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="3.2" gate="G$1" pin="D5"/>
-<wire x1="78.74" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
-<label x="71.12" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="78.74" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="3.2" gate="G$1" pin="D2"/>
+<label x="71.12" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
