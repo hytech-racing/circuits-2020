@@ -133,7 +133,7 @@
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="156" name="HIGH_CURRENT_PATH" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="157" name="HIGH_VOLTAGE_WIRES" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
@@ -3437,6 +3437,8 @@ Precharger</text>
 <part name="D6" library="HyTechDevices" deviceset="DIODE" device="0805" value="TS4148 RYG"/>
 <part name="GND6" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="FUSE11" library="HyTechSymbols" deviceset="FUSE" device="" value="20A"/>
+<part name="FUSE12" library="HyTechSymbols" deviceset="FUSE" device="" value="20A"/>
 </parts>
 <sheets>
 <sheet>
@@ -3455,8 +3457,6 @@ Precharger</text>
 <text x="129.54" y="22.86" size="2.54" layer="97">Shaan Dhawan</text>
 <text x="195.326" y="11.43" size="2.54" layer="97">HyTech Racing charger shutdown and safety 
 circuitry.</text>
-<wire x1="109.22" y1="88.9" x2="127" y2="88.9" width="0.6096" layer="156"/>
-<wire x1="109.22" y1="86.36" x2="127" y2="86.36" width="0.6096" layer="156"/>
 <wire x1="187.96" y1="101.6" x2="210.82" y2="101.6" width="0.6096" layer="156"/>
 <wire x1="187.96" y1="88.9" x2="210.82" y2="88.9" width="0.6096" layer="156"/>
 <wire x1="187.96" y1="76.2" x2="210.82" y2="76.2" width="0.6096" layer="156"/>
@@ -3475,6 +3475,10 @@ Thick orange: High current paths</text>
 <wire x1="66.04" y1="81.28" x2="60.96" y2="81.28" width="0.6096" layer="156"/>
 <wire x1="66.04" y1="45.72" x2="60.96" y2="45.72" width="0.6096" layer="156"/>
 <text x="91.44" y="134.62" size="1.778" layer="97">Software Shutdown Relay</text>
+<wire x1="109.22" y1="88.9" x2="114.3" y2="88.9" width="0.6096" layer="156"/>
+<wire x1="109.22" y1="86.36" x2="114.3" y2="86.36" width="0.6096" layer="156"/>
+<wire x1="124.46" y1="86.36" x2="127" y2="86.36" width="0.6096" layer="156"/>
+<wire x1="124.46" y1="88.9" x2="127" y2="88.9" width="0.6096" layer="156"/>
 </plain>
 <moduleinsts>
 <moduleinst name="ELCON_PFC_2500_CHARGER1" module="ELCON_PFC_2500_CHARGER" x="157.48" y="88.9"/>
@@ -3542,7 +3546,7 @@ Thick orange: High current paths</text>
 <attribute name="VALUE" x="40.64" y="104.14" size="1.778" layer="96"/>
 </instance>
 <instance part="TE2" gate="G$1" x="104.14" y="88.9" smashed="yes">
-<attribute name="VALUE" x="99.06" y="81.28" size="1.778" layer="96"/>
+<attribute name="VALUE" x="97.282" y="81.28" size="1.778" layer="96"/>
 <attribute name="NAME" x="99.06" y="92.202" size="1.778" layer="95"/>
 </instance>
 <instance part="P+2" gate="VCC" x="264.16" y="93.98" smashed="yes" rot="R270"/>
@@ -3593,6 +3597,14 @@ Thick orange: High current paths</text>
 </instance>
 <instance part="GND7" gate="1" x="154.94" y="149.86" smashed="yes">
 <attribute name="VALUE" x="152.4" y="147.32" size="1.778" layer="96"/>
+</instance>
+<instance part="FUSE11" gate="G$1" x="119.38" y="88.9" smashed="yes">
+<attribute name="NAME" x="114.3" y="90.678" size="1.27" layer="95"/>
+<attribute name="VALUE" x="121.92" y="90.17" size="1.27" layer="96"/>
+</instance>
+<instance part="FUSE12" gate="G$1" x="119.38" y="86.36" smashed="yes">
+<attribute name="NAME" x="114.046" y="83.312" size="1.27" layer="95"/>
+<attribute name="VALUE" x="121.666" y="83.312" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>

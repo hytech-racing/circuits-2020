@@ -4300,7 +4300,7 @@ DC-DC output: 16AWG
 All other thin green: GLV wires; 22AWG.
 Thick green: HV wires; 22AWG.
 Thick orange: High current paths; 
-                        aluminum busbars, 0.0625 inch^2.</text>
+                        aluminum busbars, 0.063875 inch^2.</text>
 <text x="124.46" y="127" size="3.81" layer="97">HV PCB</text>
 <text x="129.54" y="22.86" size="2.54" layer="97">Shaan Dhawan</text>
 <text x="195.326" y="11.43" size="2.54" layer="97">HT05 tractive system inside the accumulator 

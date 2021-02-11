@@ -4051,7 +4051,7 @@ IMD_OK output uses 22AWG cable. DC-DC output uses 16 AWG cable.
 
 Thick green: 22AWG.
 
-Thick orange: aluminum busbars, 0.0625 inch^2</text>
+Thick orange: aluminum busbars, 0.063875 inch^2</text>
 <text x="129.54" y="22.86" size="2.54" layer="97">Shaan Dhawan</text>
 <text x="195.58" y="15.24" size="2.54" layer="97">HT05 safety circuitry schematic.</text>
 <wire x1="177.8" y1="40.64" x2="233.68" y2="40.64" width="0.6096" layer="156"/>

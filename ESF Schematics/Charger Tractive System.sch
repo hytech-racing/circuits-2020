@@ -3674,6 +3674,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="FUSE9" library="HyTechSymbols" deviceset="FUSE" device="" value="20A"/>
 <part name="U$5" library="HyTechSymbols" deviceset="BENDER_IR155-3204" device=""/>
 <part name="GLV_POWER" library="HyTechSymbols" deviceset="M02" device="" value="Molex Mini-Fit"/>
+<part name="FUSE12" library="HyTechSymbols" deviceset="FUSE" device="" value="20A"/>
+<part name="FUSE11" library="HyTechSymbols" deviceset="FUSE" device="" value="20A"/>
 </parts>
 <sheets>
 <sheet>
@@ -3725,8 +3727,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="55.88" y1="134.62" x2="40.64" y2="134.62" width="0.6096" layer="156"/>
 <wire x1="40.64" y1="134.62" x2="40.64" y2="121.92" width="0.6096" layer="156"/>
 <wire x1="38.1" y1="142.24" x2="38.1" y2="121.92" width="0.6096" layer="156"/>
-<wire x1="40.64" y1="73.66" x2="55.88" y2="73.66" width="0.6096" layer="156"/>
-<wire x1="38.1" y1="96.52" x2="38.1" y2="68.58" width="0.6096" layer="156"/>
 <wire x1="38.1" y1="68.58" x2="55.88" y2="68.58" width="0.6096" layer="156"/>
 <text x="71.12" y="91.44" size="2.54" layer="97">Elcon PFC 2500 Charger</text>
 <text x="142.24" y="91.44" size="2.54" layer="97">Powerswitch Tail</text>
@@ -3748,14 +3748,18 @@ power cable</text>
 DC-DC output: 16AWG
 All other thin green: GLV, 22AWG.
 Thick green: HV, 22AWG.
-Thick orange: High current paths, aluminum busbar, 0.0625 inch^2</text>
+Thick orange: High current paths, aluminum busbar, 0.063875 inch^2</text>
 <text x="129.54" y="22.86" size="2.54" layer="97">Shaan Dhawan</text>
 <text x="195.58" y="15.24" size="2.54" layer="97">HyTech Racing charging tractive system schematic.</text>
 <text x="122.174" y="197.358" size="1.778" layer="97" rot="MR0">Insulation Monitoring Device</text>
-<text x="26.162" y="109.728" size="1.778" layer="97">TSMP-</text>
-<text x="16.256" y="109.728" size="1.778" layer="97">TSMP+</text>
+<text x="26.162" y="53.848" size="1.778" layer="97">TSMP-</text>
+<text x="16.256" y="53.848" size="1.778" layer="97">TSMP+</text>
 <text x="35.56" y="149.86" size="1.778" layer="97" rot="R90">DCM3714xD2K13E0yzz</text>
-<wire x1="40.64" y1="96.52" x2="40.64" y2="73.66" width="0.6096" layer="156"/>
+<wire x1="55.88" y1="73.66" x2="40.64" y2="73.66" width="0.6096" layer="156"/>
+<wire x1="40.64" y1="73.66" x2="40.64" y2="81.28" width="0.6096" layer="156"/>
+<wire x1="38.1" y1="68.58" x2="38.1" y2="81.28" width="0.6096" layer="156"/>
+<wire x1="38.1" y1="91.44" x2="38.1" y2="93.98" width="0.6096" layer="156"/>
+<wire x1="40.64" y1="93.98" x2="40.64" y2="91.44" width="0.6096" layer="156"/>
 </plain>
 <moduleinsts>
 <moduleinst name="ENERGY_METER" module="ENERGY_METER" x="76.2" y="127">
@@ -3859,16 +3863,16 @@ Thick orange: High current paths, aluminum busbar, 0.0625 inch^2</text>
 <attribute name="NAME" x="49.276" y="150.368" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="49.53" y="157.48" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="TSMP_RES-" gate="G$1" x="27.94" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.9334" y="117.856" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="31.242" y="120.65" size="1.778" layer="96" rot="R90"/>
+<instance part="TSMP_RES-" gate="G$1" x="27.94" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.9334" y="61.976" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="31.242" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="TSMP_RES+" gate="G$1" x="20.32" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.5674" y="116.84" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="23.622" y="120.65" size="1.778" layer="96" rot="R90"/>
+<instance part="TSMP_RES+" gate="G$1" x="20.32" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.5674" y="60.96" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="23.622" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$2" gate="G$1" x="27.94" y="114.3" smashed="yes" rot="R270"/>
-<instance part="U$3" gate="G$1" x="20.32" y="114.3" smashed="yes" rot="R270"/>
+<instance part="U$2" gate="G$1" x="27.94" y="58.42" smashed="yes" rot="R270"/>
+<instance part="U$3" gate="G$1" x="20.32" y="58.42" smashed="yes" rot="R270"/>
 <instance part="U$6" gate="G$1" x="20.32" y="172.72" smashed="yes" rot="R90"/>
 <instance part="FUSE7" gate="G$1" x="22.86" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.59" y="139.7" size="1.27" layer="95" rot="R90"/>
@@ -3886,6 +3890,14 @@ Thick orange: High current paths, aluminum busbar, 0.0625 inch^2</text>
 <instance part="GLV_POWER" gate="G$1" x="27.94" y="200.66" smashed="yes" rot="R270">
 <attribute name="VALUE" x="20.32" y="205.74" size="1.778" layer="96" rot="R270"/>
 <attribute name="NAME" x="31.242" y="205.74" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="FUSE12" gate="G$1" x="40.64" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.45" y="81.28" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="44.45" y="88.9" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="FUSE11" gate="G$1" x="38.1" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.83" y="81.28" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="36.83" y="88.9" size="1.27" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -4031,40 +4043,40 @@ Thick orange: High current paths, aluminum busbar, 0.0625 inch^2</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="38.1" y1="134.62" x2="20.32" y2="134.62" width="0.6096" layer="91"/>
+<wire x1="38.1" y1="78.74" x2="20.32" y2="78.74" width="0.6096" layer="91"/>
 <pinref part="TSMP_RES+" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="134.62" x2="20.32" y2="129.54" width="0.6096" layer="91"/>
+<wire x1="20.32" y1="78.74" x2="20.32" y2="73.66" width="0.6096" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="40.64" y1="132.08" x2="27.94" y2="132.08" width="0.6096" layer="91"/>
-<wire x1="27.94" y1="132.08" x2="27.94" y2="129.54" width="0.6096" layer="91"/>
+<wire x1="40.64" y1="76.2" x2="27.94" y2="76.2" width="0.6096" layer="91"/>
+<wire x1="27.94" y1="76.2" x2="27.94" y2="73.66" width="0.6096" layer="91"/>
 <pinref part="TSMP_RES-" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="TSMP_RES+" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="119.38" x2="20.32" y2="116.84" width="0.6096" layer="91"/>
+<wire x1="20.32" y1="63.5" x2="20.32" y2="60.96" width="0.6096" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="TSMP_RES-" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="119.38" x2="27.94" y2="116.84" width="0.6096" layer="91"/>
+<wire x1="27.94" y1="63.5" x2="27.94" y2="60.96" width="0.6096" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<junction x="40.64" y="132.08"/>
+<junction x="40.64" y="76.2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<junction x="38.1" y="134.62"/>
+<junction x="38.1" y="78.74"/>
 </segment>
 </net>
 <net name="N$16" class="0">
