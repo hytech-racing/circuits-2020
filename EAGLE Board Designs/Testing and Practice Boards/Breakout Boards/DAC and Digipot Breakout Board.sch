@@ -490,47 +490,6 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <pad name="P$1" x="-5" y="0" drill="2" shape="long" rot="R90"/>
 <pad name="P$2" x="5" y="0" drill="2" shape="long" rot="R90"/>
 </package>
-<package name="TEENSY_3.2_SIMPLE">
-<pad name="AGND" x="16.51" y="31.75" drill="0.8" shape="long"/>
-<pad name="D13" x="16.51" y="1.27" drill="0.8" shape="long"/>
-<pad name="A0" x="16.51" y="3.81" drill="0.8" shape="long"/>
-<pad name="A1" x="16.51" y="6.35" drill="0.8" shape="long"/>
-<pad name="A2" x="16.51" y="8.89" drill="0.8" shape="long"/>
-<pad name="A3" x="16.51" y="11.43" drill="0.8" shape="long"/>
-<pad name="A4" x="16.51" y="13.97" drill="0.8" shape="long"/>
-<pad name="A5" x="16.51" y="16.51" drill="0.8" shape="long"/>
-<pad name="A6" x="16.51" y="19.05" drill="0.8" shape="long"/>
-<pad name="A7" x="16.51" y="21.59" drill="0.8" shape="long"/>
-<pad name="A8" x="16.51" y="24.13" drill="0.8" shape="long"/>
-<pad name="D12" x="1.27" y="1.27" drill="0.8" shape="long"/>
-<pad name="D11" x="1.27" y="3.81" drill="0.8" shape="long"/>
-<pad name="D5" x="1.27" y="19.05" drill="0.8" shape="long"/>
-<pad name="D4(CANRX)" x="1.27" y="21.59" drill="0.8" shape="long"/>
-<pad name="D3(CANTX)" x="1.27" y="24.13" drill="0.8" shape="long"/>
-<pad name="D2" x="1.27" y="26.67" drill="0.8" shape="long"/>
-<pad name="GND" x="1.27" y="34.29" drill="0.8" shape="long"/>
-<pad name="VIN" x="16.51" y="34.29" drill="0.8" shape="long"/>
-<pad name="3.3V" x="16.51" y="29.21" drill="0.8" shape="long"/>
-<pad name="A9" x="16.51" y="26.67" drill="0.8" shape="long"/>
-<pad name="D0(RX1)" x="1.27" y="31.75" drill="0.8" shape="long" rot="R180"/>
-<pad name="D1(TX1)" x="1.27" y="29.21" drill="0.8" shape="long" rot="R180"/>
-<pad name="D10(TX2)" x="1.27" y="6.35" drill="0.8" shape="long"/>
-<pad name="D6" x="1.27" y="16.51" drill="0.8" shape="long" rot="R180"/>
-<pad name="D7(RX3)" x="1.27" y="13.97" drill="0.8" shape="long" rot="R180"/>
-<pad name="D8(TX3)" x="1.27" y="11.43" drill="0.8" shape="long" rot="R180"/>
-<pad name="D9(RX2)" x="1.27" y="8.89" drill="0.8" shape="long" rot="R180"/>
-<wire x1="17.78" y1="35.56" x2="17.78" y2="0" width="0.127" layer="21"/>
-<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="36.322" x2="12.7" y2="36.322" width="0.127" layer="21"/>
-<wire x1="12.7" y1="36.322" x2="12.7" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="35.56" x2="5.08" y2="36.322" width="0.127" layer="21"/>
-<wire x1="0" y1="35.56" x2="5.08" y2="35.56" width="0.127" layer="21"/>
-<wire x1="12.7" y1="35.56" x2="17.78" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.127" layer="21"/>
-<wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="21"/>
-<wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.127" layer="21"/>
-</package>
 <package name="MINIFIT_5566-4">
 <description>&lt;b&gt;Mini-Fit Junior connector 4 pole&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com</description>
@@ -1244,6 +1203,48 @@ Source: https://www.analog.com/media/en/package-pcb-resources/package/3805236552
 <text x="-2.413" y="-4.191" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
 <circle x="-1.524" y="3.175" radius="0.283978125" width="0.1524" layer="21"/>
 </package>
+<package name="TEENSY_3.2_SIMPLE">
+<pad name="AGND" x="16.51" y="31.75" drill="1.016"/>
+<pad name="D13" x="16.51" y="1.27" drill="1.016"/>
+<pad name="A0" x="16.51" y="3.81" drill="1.016"/>
+<pad name="A1" x="16.51" y="6.35" drill="1.016"/>
+<pad name="A2" x="16.51" y="8.89" drill="1.016"/>
+<pad name="A3" x="16.51" y="11.43" drill="1.016"/>
+<pad name="A4" x="16.51" y="13.97" drill="1.016"/>
+<pad name="A5" x="16.51" y="16.51" drill="1.016"/>
+<pad name="A6" x="16.51" y="19.05" drill="1.016"/>
+<pad name="A7" x="16.51" y="21.59" drill="1.016"/>
+<pad name="A8" x="16.51" y="24.13" drill="1.016"/>
+<pad name="D12" x="1.27" y="1.27" drill="1.016"/>
+<pad name="D11" x="1.27" y="3.81" drill="1.016"/>
+<pad name="D5" x="1.27" y="19.05" drill="1.016"/>
+<pad name="D4(CANRX)" x="1.27" y="21.59" drill="1.016"/>
+<pad name="D3(CANTX)" x="1.27" y="24.13" drill="1.016"/>
+<pad name="D2" x="1.27" y="26.67" drill="1.016"/>
+<pad name="GND" x="1.27" y="34.29" drill="1.016"/>
+<pad name="VIN" x="16.51" y="34.29" drill="1.016"/>
+<pad name="3.3V" x="16.51" y="29.21" drill="1.016"/>
+<pad name="A9" x="16.51" y="26.67" drill="1.016"/>
+<pad name="D0(RX1)" x="1.27" y="31.75" drill="1.016"/>
+<pad name="D1(TX1)" x="1.27" y="29.21" drill="1.016"/>
+<pad name="D10(TX2)" x="1.27" y="6.35" drill="1.016"/>
+<pad name="D6" x="1.27" y="16.51" drill="1.016"/>
+<pad name="D7(RX3)" x="1.27" y="13.97" drill="1.016"/>
+<pad name="D8(TX3)" x="1.27" y="11.43" drill="1.016"/>
+<pad name="D9(RX2)" x="1.27" y="8.89" drill="1.016"/>
+<wire x1="17.78" y1="35.56" x2="17.78" y2="0" width="0.127" layer="21"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="35.56" width="0.127" layer="21"/>
+<wire x1="5.08" y1="36.322" x2="12.7" y2="36.322" width="0.127" layer="21"/>
+<wire x1="12.7" y1="36.322" x2="12.7" y2="35.56" width="0.127" layer="21"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="36.322" width="0.127" layer="21"/>
+<wire x1="0" y1="35.56" x2="5.08" y2="35.56" width="0.127" layer="21"/>
+<wire x1="12.7" y1="35.56" x2="17.78" y2="35.56" width="0.127" layer="21"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.127" layer="21"/>
+<wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="21"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.127" layer="21"/>
+<text x="8.89" y="33.401" size="2.032" layer="21" font="vector" ratio="12" align="center">3.2</text>
+</package>
 </packages>
 <symbols>
 <symbol name="VOLTAGE_REGULATOR">
@@ -1269,41 +1270,6 @@ Source: https://www.analog.com/media/en/package-pcb-resources/package/3805236552
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="TEENSY_3.2_SIMPLE">
-<pin name="D0(RX1)" x="-2.54" y="35.56" visible="pin" length="short"/>
-<pin name="D1(TX1)" x="-2.54" y="33.02" visible="pin" length="short"/>
-<pin name="GND" x="-2.54" y="38.1" visible="pin" length="short"/>
-<wire x1="0" y1="40.64" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="40.64" width="0.254" layer="94"/>
-<wire x1="20.32" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
-<text x="5.08" y="1.27" size="1.778" layer="95">Teensy 3.2</text>
-<pin name="D2" x="-2.54" y="30.48" visible="pin" length="short"/>
-<pin name="D3(CANTX)" x="-2.54" y="27.94" visible="pin" length="short"/>
-<pin name="D4(CANRX)" x="-2.54" y="25.4" visible="pin" length="short"/>
-<pin name="D5" x="-2.54" y="22.86" visible="pin" length="short"/>
-<pin name="D6" x="-2.54" y="20.32" visible="pin" length="short"/>
-<pin name="D7(RX3)" x="-2.54" y="17.78" visible="pin" length="short"/>
-<pin name="D8(TX3)" x="-2.54" y="15.24" visible="pin" length="short"/>
-<pin name="D9(RX2)" x="-2.54" y="12.7" visible="pin" length="short"/>
-<pin name="D10(TX2)" x="-2.54" y="10.16" visible="pin" length="short"/>
-<pin name="D11" x="-2.54" y="7.62" visible="pin" length="short"/>
-<pin name="D12" x="-2.54" y="5.08" visible="pin" length="short"/>
-<pin name="D13" x="22.86" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="A0" x="22.86" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="A1" x="22.86" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="A2" x="22.86" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="A3" x="22.86" y="15.24" visible="pin" length="short" rot="R180"/>
-<pin name="A4" x="22.86" y="17.78" visible="pin" length="short" rot="R180"/>
-<pin name="A6" x="22.86" y="22.86" visible="pin" length="short" rot="R180"/>
-<pin name="A5" x="22.86" y="20.32" visible="pin" length="short" rot="R180"/>
-<pin name="A7" x="22.86" y="25.4" visible="pin" length="short" rot="R180"/>
-<pin name="A9" x="22.86" y="30.48" visible="pin" length="short" rot="R180"/>
-<pin name="A8" x="22.86" y="27.94" visible="pin" length="short" rot="R180"/>
-<pin name="3.3V" x="22.86" y="33.02" visible="pin" length="short" rot="R180"/>
-<pin name="VIN" x="22.86" y="38.1" visible="pin" length="short" rot="R180"/>
-<pin name="AGND" x="22.86" y="35.56" visible="pin" length="short" rot="R180"/>
 </symbol>
 <symbol name="MV">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
@@ -1477,6 +1443,41 @@ Source: https://www.analog.com/media/en/package-pcb-resources/package/3805236552
 <text x="-13.208" y="16.002" size="1.778" layer="95">&gt;NAME</text>
 <text x="-13.462" y="-19.304" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
+<symbol name="TEENSY_3.2_SIMPLE">
+<pin name="D0(RX1)" x="-2.54" y="35.56" visible="pin" length="short"/>
+<pin name="D1(TX1)" x="-2.54" y="33.02" visible="pin" length="short"/>
+<pin name="GND" x="-2.54" y="38.1" visible="pin" length="short"/>
+<wire x1="0" y1="40.64" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="40.64" width="0.254" layer="94"/>
+<wire x1="20.32" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
+<text x="5.08" y="1.27" size="1.778" layer="95">Teensy 3.2</text>
+<pin name="D2" x="-2.54" y="30.48" visible="pin" length="short"/>
+<pin name="D3(CANTX)" x="-2.54" y="27.94" visible="pin" length="short"/>
+<pin name="D4(CANRX)" x="-2.54" y="25.4" visible="pin" length="short"/>
+<pin name="D5" x="-2.54" y="22.86" visible="pin" length="short"/>
+<pin name="D6" x="-2.54" y="20.32" visible="pin" length="short"/>
+<pin name="D7(RX3)" x="-2.54" y="17.78" visible="pin" length="short"/>
+<pin name="D8(TX3)" x="-2.54" y="15.24" visible="pin" length="short"/>
+<pin name="D9(RX2)" x="-2.54" y="12.7" visible="pin" length="short"/>
+<pin name="D10(TX2)" x="-2.54" y="10.16" visible="pin" length="short"/>
+<pin name="D11" x="-2.54" y="7.62" visible="pin" length="short"/>
+<pin name="D12" x="-2.54" y="5.08" visible="pin" length="short"/>
+<pin name="D13" x="22.86" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="A0" x="22.86" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="A1" x="22.86" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="A2" x="22.86" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="A3" x="22.86" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="A4" x="22.86" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="A6" x="22.86" y="22.86" visible="pin" length="short" rot="R180"/>
+<pin name="A5" x="22.86" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="A7" x="22.86" y="25.4" visible="pin" length="short" rot="R180"/>
+<pin name="A9" x="22.86" y="30.48" visible="pin" length="short" rot="R180"/>
+<pin name="A8" x="22.86" y="27.94" visible="pin" length="short" rot="R180"/>
+<pin name="3.3V" x="22.86" y="33.02" visible="pin" length="short" rot="R180"/>
+<pin name="VIN" x="22.86" y="38.1" visible="pin" length="short" rot="R180"/>
+<pin name="AGND" x="22.86" y="35.56" visible="pin" length="short" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OKI-78SR-5">
@@ -1644,49 +1645,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TEENSY_3.2_SIMPLE">
-<description>Simple version of the Teensy 3.2 board that only uses the 2 main rows of pins, not the inner pins or the pins opposite the usb port.</description>
-<gates>
-<gate name="G$1" symbol="TEENSY_3.2_SIMPLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TEENSY_3.2_SIMPLE">
-<connects>
-<connect gate="G$1" pin="3.3V" pad="3.3V"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="A8" pad="A8"/>
-<connect gate="G$1" pin="A9" pad="A9"/>
-<connect gate="G$1" pin="AGND" pad="AGND"/>
-<connect gate="G$1" pin="D0(RX1)" pad="D0(RX1)"/>
-<connect gate="G$1" pin="D1(TX1)" pad="D1(TX1)"/>
-<connect gate="G$1" pin="D10(TX2)" pad="D10(TX2)"/>
-<connect gate="G$1" pin="D11" pad="D11"/>
-<connect gate="G$1" pin="D12" pad="D12"/>
-<connect gate="G$1" pin="D13" pad="D13"/>
-<connect gate="G$1" pin="D2" pad="D2"/>
-<connect gate="G$1" pin="D3(CANTX)" pad="D3(CANTX)"/>
-<connect gate="G$1" pin="D4(CANRX)" pad="D4(CANRX)"/>
-<connect gate="G$1" pin="D5" pad="D5"/>
-<connect gate="G$1" pin="D6" pad="D6"/>
-<connect gate="G$1" pin="D7(RX3)" pad="D7(RX3)"/>
-<connect gate="G$1" pin="D8(TX3)" pad="D8(TX3)"/>
-<connect gate="G$1" pin="D9(RX2)" pad="D9(RX2)"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2252,6 +2210,49 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <connect gate="G$1" pin="W2" pad="22"/>
 <connect gate="G$1" pin="W3" pad="6"/>
 <connect gate="G$1" pin="W4" pad="19"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEENSY_3.2_SIMPLE">
+<description>Simple version of the Teensy 3.2 board that only uses the 2 main rows of pins, not the inner pins or the pins opposite the usb port.</description>
+<gates>
+<gate name="G$1" symbol="TEENSY_3.2_SIMPLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEENSY_3.2_SIMPLE">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="A8" pad="A8"/>
+<connect gate="G$1" pin="A9" pad="A9"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="D0(RX1)" pad="D0(RX1)"/>
+<connect gate="G$1" pin="D1(TX1)" pad="D1(TX1)"/>
+<connect gate="G$1" pin="D10(TX2)" pad="D10(TX2)"/>
+<connect gate="G$1" pin="D11" pad="D11"/>
+<connect gate="G$1" pin="D12" pad="D12"/>
+<connect gate="G$1" pin="D13" pad="D13"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3(CANTX)" pad="D3(CANTX)"/>
+<connect gate="G$1" pin="D4(CANRX)" pad="D4(CANRX)"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7(RX3)" pad="D7(RX3)"/>
+<connect gate="G$1" pin="D8(TX3)" pad="D8(TX3)"/>
+<connect gate="G$1" pin="D9(RX2)" pad="D9(RX2)"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4928,7 +4929,6 @@ Layer: 94 Symbol</description>
 <part name="P+6" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="U$2" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
 <part name="P+3" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND3" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="+3V1" library="HyTechSupplies" deviceset="+3V3" device=""/>
@@ -4989,6 +4989,7 @@ Layer: 94 Symbol</description>
 <part name="GND16" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U$21" library="HyTechDevices" deviceset="SOLDER_PAD" device=""/>
 <part name="GND17" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="U$2" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5019,7 +5020,6 @@ Layer: 94 Symbol</description>
 <instance part="C1" gate="G$1" x="15.24" y="86.36" smashed="yes">
 <attribute name="VALUE" x="18.923" y="84.836" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-180.34" y="15.24" smashed="yes"/>
 <instance part="P+3" gate="1" x="-152.4" y="60.96" smashed="yes">
 <attribute name="VALUE" x="-149.86" y="63.5" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -5188,6 +5188,7 @@ Layer: 94 Symbol</description>
 <instance part="GND17" gate="1" x="147.32" y="114.3" smashed="yes">
 <attribute name="VALUE" x="144.78" y="111.76" size="1.778" layer="96"/>
 </instance>
+<instance part="U$2" gate="G$1" x="-180.34" y="15.24" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -5229,10 +5230,10 @@ Layer: 94 Symbol</description>
 <junction x="-154.94" y="88.9"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="VIN"/>
 <wire x1="-157.48" y1="53.34" x2="-152.4" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="-152.4" y1="53.34" x2="-152.4" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
 <pinref part="P+9" gate="1" pin="+5V"/>
@@ -5278,8 +5279,8 @@ Layer: 94 Symbol</description>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="-195.58" y1="50.8" x2="-195.58" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="-195.58" y1="53.34" x2="-182.88" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -5301,12 +5302,6 @@ Layer: 94 Symbol</description>
 <pinref part="U$19" gate="G$1" pin="DGND"/>
 <wire x1="22.86" y1="91.44" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
 <junction x="22.86" y="88.9"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="AGND"/>
-<wire x1="-157.48" y1="50.8" x2="-149.86" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="50.8" x2="-149.86" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -5420,9 +5415,9 @@ Layer: 94 Symbol</description>
 <pinref part="U$19" gate="G$1" pin="SCLK"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="D13"/>
 <wire x1="-157.48" y1="20.32" x2="-154.94" y2="20.32" width="0.1524" layer="91"/>
 <label x="-154.94" y="20.32" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="D13"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
@@ -5437,10 +5432,10 @@ Layer: 94 Symbol</description>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="3.3V"/>
 <wire x1="-157.48" y1="48.26" x2="-144.78" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-144.78" y1="48.26" x2="-144.78" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<pinref part="U$2" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="U$19" gate="G$1" pin="DVCC"/>
@@ -5491,9 +5486,9 @@ Layer: 94 Symbol</description>
 <pinref part="U$19" gate="G$1" pin="SDI"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="D11"/>
 <wire x1="-182.88" y1="22.86" x2="-185.42" y2="22.86" width="0.1524" layer="91"/>
 <label x="-185.42" y="22.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="D11"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
@@ -5581,9 +5576,9 @@ Layer: 94 Symbol</description>
 <pinref part="U$20" gate="G$1" pin="GAIN"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="D5"/>
 <wire x1="-182.88" y1="38.1" x2="-185.42" y2="38.1" width="0.1524" layer="91"/>
 <label x="-185.42" y="38.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="D5"/>
 </segment>
 </net>
 <net name="POTEN_A1" class="0">
@@ -5724,9 +5719,9 @@ Layer: 94 Symbol</description>
 </net>
 <net name="CS_1" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="D10(TX2)"/>
 <wire x1="-182.88" y1="25.4" x2="-185.42" y2="25.4" width="0.1524" layer="91"/>
 <label x="-185.42" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="D10(TX2)"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
@@ -5741,9 +5736,9 @@ Layer: 94 Symbol</description>
 <pinref part="U$20" gate="G$1" pin="SYNC"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="D6"/>
 <wire x1="-182.88" y1="35.56" x2="-185.42" y2="35.56" width="0.1524" layer="91"/>
 <label x="-185.42" y="35.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="D6"/>
 </segment>
 </net>
 <net name="CS_3" class="0">
@@ -5753,9 +5748,9 @@ Layer: 94 Symbol</description>
 <pinref part="U$4" gate="G$1" pin="CS"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="D9(RX2)"/>
 <wire x1="-182.88" y1="27.94" x2="-185.42" y2="27.94" width="0.1524" layer="91"/>
 <label x="-185.42" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="D9(RX2)"/>
 </segment>
 </net>
 <net name="POTEN_B4" class="0">
@@ -5798,6 +5793,14 @@ Layer: 94 Symbol</description>
 <pinref part="U$20" gate="G$1" pin="VREFIN/OUT"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="-157.48" y1="50.8" x2="-149.86" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="50.8" x2="-149.86" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="U$2" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 </nets>
