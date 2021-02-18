@@ -310,48 +310,6 @@ chip</description>
 <text x="9.525" y="0.635" size="6.096" layer="21" align="center">-</text>
 <text x="-9.525" y="0" size="6.096" layer="21" align="center">+</text>
 </package>
-<package name="TEENSY_3.2_SIMPLE">
-<pad name="AGND" x="16.51" y="31.75" drill="0.8"/>
-<pad name="D13" x="16.51" y="1.27" drill="0.8"/>
-<pad name="A0" x="16.51" y="3.81" drill="0.8"/>
-<pad name="A1" x="16.51" y="6.35" drill="0.8"/>
-<pad name="A2" x="16.51" y="8.89" drill="0.8"/>
-<pad name="A3" x="16.51" y="11.43" drill="0.8"/>
-<pad name="A4" x="16.51" y="13.97" drill="0.8"/>
-<pad name="A5" x="16.51" y="16.51" drill="0.8"/>
-<pad name="A6" x="16.51" y="19.05" drill="0.8"/>
-<pad name="A7" x="16.51" y="21.59" drill="0.8"/>
-<pad name="A8" x="16.51" y="24.13" drill="0.8"/>
-<pad name="D12" x="1.27" y="1.27" drill="0.8"/>
-<pad name="D11" x="1.27" y="3.81" drill="0.8"/>
-<pad name="D5" x="1.27" y="19.05" drill="0.8"/>
-<pad name="D4(CANRX)" x="1.27" y="21.59" drill="0.8"/>
-<pad name="D3(CANTX)" x="1.27" y="24.13" drill="0.8"/>
-<pad name="D2" x="1.27" y="26.67" drill="0.8"/>
-<pad name="GND" x="1.27" y="34.29" drill="0.8"/>
-<pad name="VIN" x="16.51" y="34.29" drill="0.8"/>
-<pad name="3.3V" x="16.51" y="29.21" drill="0.8"/>
-<pad name="A9" x="16.51" y="26.67" drill="0.8"/>
-<pad name="D0(RX1)" x="1.27" y="31.75" drill="0.8"/>
-<pad name="D1(TX1)" x="1.27" y="29.21" drill="0.8"/>
-<pad name="D10(TX2)" x="1.27" y="6.35" drill="0.8"/>
-<pad name="D6" x="1.27" y="16.51" drill="0.8"/>
-<pad name="D7(RX3)" x="1.27" y="13.97" drill="0.8"/>
-<pad name="D8(TX3)" x="1.27" y="11.43" drill="0.8"/>
-<pad name="D9(RX2)" x="1.27" y="8.89" drill="0.8"/>
-<wire x1="17.78" y1="35.56" x2="17.78" y2="0" width="0.127" layer="21"/>
-<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="36.322" x2="12.7" y2="36.322" width="0.127" layer="21"/>
-<wire x1="12.7" y1="36.322" x2="12.7" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="35.56" x2="5.08" y2="36.322" width="0.127" layer="21"/>
-<wire x1="0" y1="35.56" x2="5.08" y2="35.56" width="0.127" layer="21"/>
-<wire x1="12.7" y1="35.56" x2="17.78" y2="35.56" width="0.127" layer="21"/>
-<wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.127" layer="21"/>
-<wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="21"/>
-<wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.127" layer="21"/>
-<text x="8.89" y="33.401" size="2.032" layer="21" font="vector" ratio="12" align="center">3.2</text>
-</package>
 <package name="1X04">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <pad name="1" x="-3.81" y="0" drill="1.016" first="yes"/>
@@ -497,6 +455,48 @@ chip</description>
 <text x="-2.54" y="1.905" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-0.635" size="0.8128" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
+<package name="TEENSY_3.2_SIMPLE">
+<pad name="AGND" x="16.51" y="31.75" drill="1.016"/>
+<pad name="D13" x="16.51" y="1.27" drill="1.016"/>
+<pad name="A0" x="16.51" y="3.81" drill="1.016"/>
+<pad name="A1" x="16.51" y="6.35" drill="1.016"/>
+<pad name="A2" x="16.51" y="8.89" drill="1.016"/>
+<pad name="A3" x="16.51" y="11.43" drill="1.016"/>
+<pad name="A4" x="16.51" y="13.97" drill="1.016"/>
+<pad name="A5" x="16.51" y="16.51" drill="1.016"/>
+<pad name="A6" x="16.51" y="19.05" drill="1.016"/>
+<pad name="A7" x="16.51" y="21.59" drill="1.016"/>
+<pad name="A8" x="16.51" y="24.13" drill="1.016"/>
+<pad name="D12" x="1.27" y="1.27" drill="1.016"/>
+<pad name="D11" x="1.27" y="3.81" drill="1.016"/>
+<pad name="D5" x="1.27" y="19.05" drill="1.016"/>
+<pad name="D4(CANRX)" x="1.27" y="21.59" drill="1.016"/>
+<pad name="D3(CANTX)" x="1.27" y="24.13" drill="1.016"/>
+<pad name="D2" x="1.27" y="26.67" drill="1.016"/>
+<pad name="GND" x="1.27" y="34.29" drill="1.016"/>
+<pad name="VIN" x="16.51" y="34.29" drill="1.016"/>
+<pad name="3.3V" x="16.51" y="29.21" drill="1.016"/>
+<pad name="A9" x="16.51" y="26.67" drill="1.016"/>
+<pad name="D0(RX1)" x="1.27" y="31.75" drill="1.016"/>
+<pad name="D1(TX1)" x="1.27" y="29.21" drill="1.016"/>
+<pad name="D10(TX2)" x="1.27" y="6.35" drill="1.016"/>
+<pad name="D6" x="1.27" y="16.51" drill="1.016"/>
+<pad name="D7(RX3)" x="1.27" y="13.97" drill="1.016"/>
+<pad name="D8(TX3)" x="1.27" y="11.43" drill="1.016"/>
+<pad name="D9(RX2)" x="1.27" y="8.89" drill="1.016"/>
+<wire x1="17.78" y1="35.56" x2="17.78" y2="0" width="0.127" layer="21"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="35.56" width="0.127" layer="21"/>
+<wire x1="5.08" y1="36.322" x2="12.7" y2="36.322" width="0.127" layer="21"/>
+<wire x1="12.7" y1="36.322" x2="12.7" y2="35.56" width="0.127" layer="21"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="36.322" width="0.127" layer="21"/>
+<wire x1="0" y1="35.56" x2="5.08" y2="35.56" width="0.127" layer="21"/>
+<wire x1="12.7" y1="35.56" x2="17.78" y2="35.56" width="0.127" layer="21"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.127" layer="21"/>
+<wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="21"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.127" layer="21"/>
+<text x="8.89" y="33.401" size="2.032" layer="21" font="vector" ratio="12" align="center">3.2</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADC128S022">
@@ -533,41 +533,6 @@ chip</description>
 <pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <text x="-1.27" y="-4.445" size="1.27" layer="96" align="top-center">&gt;VOLTAGE</text>
-</symbol>
-<symbol name="TEENSY_3.2_SIMPLE">
-<pin name="D0(RX1)" x="-2.54" y="35.56" visible="pin" length="short"/>
-<pin name="D1(TX1)" x="-2.54" y="33.02" visible="pin" length="short"/>
-<pin name="GND" x="-2.54" y="38.1" visible="pin" length="short"/>
-<wire x1="0" y1="40.64" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="40.64" width="0.254" layer="94"/>
-<wire x1="20.32" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
-<text x="5.08" y="1.27" size="1.778" layer="95">Teensy 3.2</text>
-<pin name="D2" x="-2.54" y="30.48" visible="pin" length="short"/>
-<pin name="D3(CANTX)" x="-2.54" y="27.94" visible="pin" length="short"/>
-<pin name="D4(CANRX)" x="-2.54" y="25.4" visible="pin" length="short"/>
-<pin name="D5" x="-2.54" y="22.86" visible="pin" length="short"/>
-<pin name="D6" x="-2.54" y="20.32" visible="pin" length="short"/>
-<pin name="D7(RX3)" x="-2.54" y="17.78" visible="pin" length="short"/>
-<pin name="D8(TX3)" x="-2.54" y="15.24" visible="pin" length="short"/>
-<pin name="D9(RX2)" x="-2.54" y="12.7" visible="pin" length="short"/>
-<pin name="D10(TX2)" x="-2.54" y="10.16" visible="pin" length="short"/>
-<pin name="D11" x="-2.54" y="7.62" visible="pin" length="short"/>
-<pin name="D12" x="-2.54" y="5.08" visible="pin" length="short"/>
-<pin name="D13" x="22.86" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="A0" x="22.86" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="A1" x="22.86" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="A2" x="22.86" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="A3" x="22.86" y="15.24" visible="pin" length="short" rot="R180"/>
-<pin name="A4" x="22.86" y="17.78" visible="pin" length="short" rot="R180"/>
-<pin name="A6" x="22.86" y="22.86" visible="pin" length="short" rot="R180"/>
-<pin name="A5" x="22.86" y="20.32" visible="pin" length="short" rot="R180"/>
-<pin name="A7" x="22.86" y="25.4" visible="pin" length="short" rot="R180"/>
-<pin name="A9" x="22.86" y="30.48" visible="pin" length="short" rot="R180"/>
-<pin name="A8" x="22.86" y="27.94" visible="pin" length="short" rot="R180"/>
-<pin name="3.3V" x="22.86" y="33.02" visible="pin" length="short" rot="R180"/>
-<pin name="VIN" x="22.86" y="38.1" visible="pin" length="short" rot="R180"/>
-<pin name="AGND" x="22.86" y="35.56" visible="pin" length="short" rot="R180"/>
 </symbol>
 <symbol name="CONNECTOR_04">
 <description>&lt;a href="https://github.com/sparkfun/SparkFun-Eagle-Libraries"&gt;Source: Sparkfun&lt;/a&gt;</description>
@@ -626,6 +591,41 @@ chip</description>
 <wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-5.08" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="TEENSY_3.2_SIMPLE">
+<pin name="D0(RX1)" x="-2.54" y="35.56" visible="pin" length="short"/>
+<pin name="D1(TX1)" x="-2.54" y="33.02" visible="pin" length="short"/>
+<pin name="GND" x="-2.54" y="38.1" visible="pin" length="short"/>
+<wire x1="0" y1="40.64" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="40.64" width="0.254" layer="94"/>
+<wire x1="20.32" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
+<text x="5.08" y="1.27" size="1.778" layer="95">Teensy 3.2</text>
+<pin name="D2" x="-2.54" y="30.48" visible="pin" length="short"/>
+<pin name="D3(CANTX)" x="-2.54" y="27.94" visible="pin" length="short"/>
+<pin name="D4(CANRX)" x="-2.54" y="25.4" visible="pin" length="short"/>
+<pin name="D5" x="-2.54" y="22.86" visible="pin" length="short"/>
+<pin name="D6" x="-2.54" y="20.32" visible="pin" length="short"/>
+<pin name="D7(RX3)" x="-2.54" y="17.78" visible="pin" length="short"/>
+<pin name="D8(TX3)" x="-2.54" y="15.24" visible="pin" length="short"/>
+<pin name="D9(RX2)" x="-2.54" y="12.7" visible="pin" length="short"/>
+<pin name="D10(TX2)" x="-2.54" y="10.16" visible="pin" length="short"/>
+<pin name="D11" x="-2.54" y="7.62" visible="pin" length="short"/>
+<pin name="D12" x="-2.54" y="5.08" visible="pin" length="short"/>
+<pin name="D13" x="22.86" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="A0" x="22.86" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="A1" x="22.86" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="A2" x="22.86" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="A3" x="22.86" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="A4" x="22.86" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="A6" x="22.86" y="22.86" visible="pin" length="short" rot="R180"/>
+<pin name="A5" x="22.86" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="A7" x="22.86" y="25.4" visible="pin" length="short" rot="R180"/>
+<pin name="A9" x="22.86" y="30.48" visible="pin" length="short" rot="R180"/>
+<pin name="A8" x="22.86" y="27.94" visible="pin" length="short" rot="R180"/>
+<pin name="3.3V" x="22.86" y="33.02" visible="pin" length="short" rot="R180"/>
+<pin name="VIN" x="22.86" y="38.1" visible="pin" length="short" rot="R180"/>
+<pin name="AGND" x="22.86" y="35.56" visible="pin" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -720,49 +720,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TEENSY_3.2_SIMPLE">
-<description>Simple version of the Teensy 3.2 board that only uses the 2 main rows of pins, not the inner pins or the pins opposite the usb port.</description>
-<gates>
-<gate name="G$1" symbol="TEENSY_3.2_SIMPLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TEENSY_3.2_SIMPLE">
-<connects>
-<connect gate="G$1" pin="3.3V" pad="3.3V"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="A8" pad="A8"/>
-<connect gate="G$1" pin="A9" pad="A9"/>
-<connect gate="G$1" pin="AGND" pad="AGND"/>
-<connect gate="G$1" pin="D0(RX1)" pad="D0(RX1)"/>
-<connect gate="G$1" pin="D1(TX1)" pad="D1(TX1)"/>
-<connect gate="G$1" pin="D10(TX2)" pad="D10(TX2)"/>
-<connect gate="G$1" pin="D11" pad="D11"/>
-<connect gate="G$1" pin="D12" pad="D12"/>
-<connect gate="G$1" pin="D13" pad="D13"/>
-<connect gate="G$1" pin="D2" pad="D2"/>
-<connect gate="G$1" pin="D3(CANTX)" pad="D3(CANTX)"/>
-<connect gate="G$1" pin="D4(CANRX)" pad="D4(CANRX)"/>
-<connect gate="G$1" pin="D5" pad="D5"/>
-<connect gate="G$1" pin="D6" pad="D6"/>
-<connect gate="G$1" pin="D7(RX3)" pad="D7(RX3)"/>
-<connect gate="G$1" pin="D8(TX3)" pad="D8(TX3)"/>
-<connect gate="G$1" pin="D9(RX2)" pad="D9(RX2)"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -894,6 +851,49 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </device>
 </devices>
 </deviceset>
+<deviceset name="TEENSY_3.2_SIMPLE">
+<description>Simple version of the Teensy 3.2 board that only uses the 2 main rows of pins, not the inner pins or the pins opposite the usb port.</description>
+<gates>
+<gate name="G$1" symbol="TEENSY_3.2_SIMPLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEENSY_3.2_SIMPLE">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="A8" pad="A8"/>
+<connect gate="G$1" pin="A9" pad="A9"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="D0(RX1)" pad="D0(RX1)"/>
+<connect gate="G$1" pin="D1(TX1)" pad="D1(TX1)"/>
+<connect gate="G$1" pin="D10(TX2)" pad="D10(TX2)"/>
+<connect gate="G$1" pin="D11" pad="D11"/>
+<connect gate="G$1" pin="D12" pad="D12"/>
+<connect gate="G$1" pin="D13" pad="D13"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3(CANTX)" pad="D3(CANTX)"/>
+<connect gate="G$1" pin="D4(CANRX)" pad="D4(CANRX)"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7(RX3)" pad="D7(RX3)"/>
+<connect gate="G$1" pin="D8(TX3)" pad="D8(TX3)"/>
+<connect gate="G$1" pin="D9(RX2)" pad="D9(RX2)"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -976,7 +976,6 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <part name="GND2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C2" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="U$3" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
 <part name="JP1" library="HyTechDevices" deviceset="M04" device=""/>
 <part name="JP2" library="HyTechDevices" deviceset="M04" device=""/>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1M"/>
@@ -995,6 +994,7 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <part name="GND8" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND9" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U$2" library="HyTechDevices" deviceset="ADM823" device=""/>
+<part name="U$3" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1022,7 +1022,6 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <attribute name="NAME" x="11.43" y="53.34" size="1.27" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VOLTAGE" x="11.43" y="60.325" size="1.27" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="U$3" gate="G$1" x="-121.92" y="-5.08" smashed="yes"/>
 <instance part="JP1" gate="G$1" x="-43.18" y="45.72" smashed="yes">
 <attribute name="VALUE" x="-43.18" y="32.385" size="1.778" layer="96" align="top-left"/>
 <attribute name="NAME" x="-43.18" y="46.482" size="1.778" layer="95"/>
@@ -1085,6 +1084,7 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <attribute name="NAME" x="-7.62" y="-5.08" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-7.62" y="-15.24" size="1.778" layer="96" align="top-left"/>
 </instance>
+<instance part="U$3" gate="G$1" x="-121.92" y="-5.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -1228,9 +1228,9 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <pinref part="U$2" gate="G$1" pin="WDI"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="D0(RX1)"/>
 <wire x1="-124.46" y1="30.48" x2="-129.54" y2="30.48" width="0.1524" layer="91"/>
 <label x="-129.54" y="30.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="D0(RX1)"/>
 </segment>
 </net>
 <net name="!MR!" class="0">
@@ -1244,9 +1244,9 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <pinref part="U$2" gate="G$1" pin="!MR!"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="D2"/>
 <wire x1="-124.46" y1="25.4" x2="-129.54" y2="25.4" width="0.1524" layer="91"/>
 <label x="-129.54" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="D2"/>
 </segment>
 </net>
 <net name="!RESET!" class="0">
@@ -1259,9 +1259,9 @@ Note: The Sparkfun version includes many other packages including surface mount 
 <pinref part="U$2" gate="G$1" pin="!RESET!"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="D1(TX1)"/>
 <wire x1="-124.46" y1="27.94" x2="-129.54" y2="27.94" width="0.1524" layer="91"/>
 <label x="-129.54" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="D1(TX1)"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1339,10 +1339,10 @@ Note: The Sparkfun version includes many other packages including surface mount 
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="VIN"/>
 <wire x1="-99.06" y1="33.02" x2="-93.98" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-93.98" y1="33.02" x2="-93.98" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
+<pinref part="U$3" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VA"/>
