@@ -5113,11 +5113,11 @@ Layer: 94 Symbol</description>
 <instance part="U$5" gate="G$1" x="137.16" y="78.74" smashed="yes">
 <attribute name="VALUE" x="137.16" y="80.01" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="T1" gate="A" x="157.48" y="190.5" smashed="yes">
+<instance part="T1" gate="B" x="157.48" y="190.5" smashed="yes">
 <attribute name="NAME" x="157.48" y="201.422" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="MPN" x="157.48" y="179.07" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="T1" gate="B" x="154.94" y="50.8" smashed="yes">
+<instance part="T1" gate="A" x="154.94" y="50.8" smashed="yes">
 <attribute name="NAME" x="154.94" y="61.722" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="MPN" x="154.94" y="39.37" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -5573,14 +5573,15 @@ Layer: 94 Symbol</description>
 <busses>
 </busses>
 <nets>
-<net name="N$11" class="0">
+<net name="DRIVE" class="0">
 <segment>
 <wire x1="134.62" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="DRIVE"/>
 <pinref part="Q1" gate="G$1" pin="BASE"/>
+<label x="137.16" y="88.9" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="VREG" class="0">
 <segment>
 <wire x1="160.02" y1="83.82" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="83.82" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
@@ -5588,14 +5589,16 @@ Layer: 94 Symbol</description>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="Q1" gate="G$1" pin="EMITTER"/>
 <junction x="160.02" y="83.82"/>
+<label x="137.16" y="83.82" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="VREF1" class="0">
 <segment>
 <wire x1="134.62" y1="81.28" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="81.28" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VREF1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
+<label x="142.24" y="81.28" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="VREF2" class="0">
@@ -5896,7 +5899,7 @@ Layer: 94 Symbol</description>
 <label x="137.16" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="T1" gate="B" pin="TD+"/>
+<pinref part="T1" gate="A" pin="TD+"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="43.18" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
@@ -5915,7 +5918,7 @@ Layer: 94 Symbol</description>
 </net>
 <net name="ISO_IPA" class="0">
 <segment>
-<pinref part="T1" gate="B" pin="MX-"/>
+<pinref part="T1" gate="A" pin="MX-"/>
 <wire x1="167.64" y1="60.96" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="60.96" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
@@ -5926,7 +5929,7 @@ Layer: 94 Symbol</description>
 <net name="ISO_IMA" class="0">
 <segment>
 <wire x1="177.8" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="T1" gate="B" pin="MX+"/>
+<pinref part="T1" gate="A" pin="MX+"/>
 <wire x1="175.26" y1="50.8" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="40.64" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="J19" gate="G$1" pin="2"/>
@@ -5935,7 +5938,7 @@ Layer: 94 Symbol</description>
 </net>
 <net name="ISO_IPB" class="0">
 <segment>
-<pinref part="T1" gate="A" pin="MX-"/>
+<pinref part="T1" gate="B" pin="MX-"/>
 <wire x1="170.18" y1="200.66" x2="177.8" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="200.66" x2="177.8" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="193.04" x2="180.34" y2="193.04" width="0.1524" layer="91"/>
@@ -5946,7 +5949,7 @@ Layer: 94 Symbol</description>
 <net name="ISO_IMB" class="0">
 <segment>
 <wire x1="180.34" y1="190.5" x2="177.8" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="T1" gate="A" pin="MX+"/>
+<pinref part="T1" gate="B" pin="MX+"/>
 <wire x1="177.8" y1="190.5" x2="177.8" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="180.34" x2="170.18" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="J20" gate="G$1" pin="2"/>
@@ -6679,7 +6682,7 @@ Layer: 94 Symbol</description>
 <label x="137.16" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="T1" gate="A" pin="TD+"/>
+<pinref part="T1" gate="B" pin="TD+"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="182.88" x2="124.46" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="182.88" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
@@ -6689,7 +6692,7 @@ Layer: 94 Symbol</description>
 </net>
 <net name="IPB" class="0">
 <segment>
-<pinref part="T1" gate="A" pin="TD-"/>
+<pinref part="T1" gate="B" pin="TD-"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="198.12" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="198.12" x2="121.92" y2="198.12" width="0.1524" layer="91"/>
@@ -6705,7 +6708,7 @@ Layer: 94 Symbol</description>
 <net name="IPA" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="T1" gate="B" pin="TD-"/>
+<pinref part="T1" gate="A" pin="TD-"/>
 <wire x1="121.92" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <junction x="119.38" y="58.42"/>
@@ -6915,13 +6918,13 @@ Layer: 94 Symbol</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="T1" gate="B" pin="TCT"/>
+<pinref part="T1" gate="A" pin="TCT"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="T1" gate="A" pin="TCT"/>
+<pinref part="T1" gate="B" pin="TCT"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 </net>
