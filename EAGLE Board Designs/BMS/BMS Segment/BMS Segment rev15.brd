@@ -3895,21 +3895,6 @@ based on rev10 by Yvonne Yeh</text>
 <circle x="0" y="0" radius="3.75" width="0.127" layer="41"/>
 <circle x="0" y="0" radius="3.75" width="0.127" layer="42"/>
 </package>
-<package name="SOT223">
-<description>SOT223
-&lt;br&gt;
-&lt;a href="https://www.diodes.com/assets/Package-Files/SOT223.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="2" x="0" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="3" x="2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="4" x="0" y="3.2" dx="3.3" dy="1.6" layer="1"/>
-<text x="0" y="4.445" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-3.275" y1="1.775" x2="3.275" y2="1.775" width="0.127" layer="21"/>
-<wire x1="3.275" y1="1.775" x2="3.275" y2="-1.775" width="0.127" layer="21"/>
-<wire x1="3.275" y1="-1.775" x2="-3.275" y2="-1.775" width="0.127" layer="21"/>
-<wire x1="-3.275" y1="-1.775" x2="-3.275" y2="1.775" width="0.127" layer="21"/>
-<rectangle x1="-3.81" y1="-4.445" x2="3.81" y2="4.445" layer="39"/>
-</package>
 <package name="0603-CAP">
 <description>0603 Cap
 &lt;br&gt;
@@ -3938,10 +3923,7 @@ based on rev10 by Yvonne Yeh</text>
 <wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="21"/>
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="21"/>
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="0.75" x2="1.45" y2="0.75" width="0.0508" layer="39"/>
-<wire x1="1.45" y1="0.75" x2="1.45" y2="-0.75" width="0.0508" layer="39"/>
-<wire x1="1.45" y1="-0.75" x2="-1.45" y2="-0.75" width="0.0508" layer="39"/>
-<wire x1="-1.45" y1="-0.75" x2="-1.45" y2="0.75" width="0.0508" layer="39"/>
+<rectangle x1="-1.45" y1="-0.75" x2="1.45" y2="0.75" layer="39"/>
 </package>
 <package name="HM2102NLT">
 <description>HM2102NL Transformer
@@ -4065,8 +4047,8 @@ Note: Based on Page 88.</description>
 &lt;a href="https://www.mouser.com/datasheet/2/273/Mill-Max_03212019_807-22-001-10-020101-1545127.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <pad name="1" x="0" y="0" drill="0.7366" diameter="1.8288"/>
 <circle x="0" y="0" radius="1.1938" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.3208" width="0.127" layer="40"/>
-<circle x="0" y="0" radius="1.3208" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="1.3208" width="0" layer="40"/>
+<circle x="0" y="0" radius="1.3208" width="0" layer="39"/>
 <text x="0" y="1.524" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="0603-LED">
@@ -4112,7 +4094,7 @@ Note: Based on Page 88.</description>
 <wire x1="4.064" y1="-5.2324" x2="-4.064" y2="-5.2324" width="0.127" layer="21"/>
 <wire x1="-4.064" y1="-5.2324" x2="-4.064" y2="3.556" width="0.127" layer="21"/>
 <text x="0" y="5.08" size="0.8128" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-5.08" y1="-10.16" x2="5.08" y2="5.08" layer="41"/>
+<rectangle x1="-5.08" y1="-10.16" x2="5.08" y2="5.08" layer="39"/>
 </package>
 <package name="MOLEX_NANOFIT_SMD_VERTICAL_02">
 <description>2 Pin Nano-Fit Vertical Header, SMD Mount, Single Row
@@ -4135,6 +4117,21 @@ Note: Based on Page 88.</description>
 <wire x1="-4.115" y1="1.74" x2="-4.115" y2="-1.74" width="0.127" layer="21"/>
 <text x="0" y="5.08" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <circle x="3.81" y="5.08" radius="0.635" width="0" layer="21"/>
+</package>
+<package name="SOT223">
+<description>SOT223
+&lt;br&gt;
+&lt;a href="https://www.diodes.com/assets/Package-Files/SOT223.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="2" x="0" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="3" x="2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="4" x="0" y="3.2" dx="3.3" dy="1.6" layer="1"/>
+<text x="0" y="4.445" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-3.275" y1="1.775" x2="3.275" y2="1.775" width="0.127" layer="21"/>
+<wire x1="3.275" y1="1.775" x2="3.275" y2="-1.775" width="0.127" layer="21"/>
+<wire x1="3.275" y1="-1.775" x2="-3.275" y2="-1.775" width="0.127" layer="21"/>
+<wire x1="-3.275" y1="-1.775" x2="-3.275" y2="1.775" width="0.127" layer="21"/>
+<rectangle x1="-3.81" y1="-4.445" x2="3.81" y2="4.445" layer="39"/>
 </package>
 </packages>
 </library>
@@ -4340,13 +4337,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="U$9" library="HyTechDevices" package="M4_MOUNTING" value="" x="53.848" y="170.688" smashed="yes"/>
 <element name="U$18" library="HyTechDevices" package="M4_MOUNTING" value="" x="53.848" y="72.136" smashed="yes"/>
 <element name="U$19" library="HyTechDevices" package="M4_MOUNTING" value="" x="53.848" y="121.412" smashed="yes"/>
-<element name="Q3" library="HyTechDevices" package="SOT223" value="" x="-25.0825" y="-18.415" smashed="yes">
-<attribute name="DKPN" value="NSV1C201MZ4T1GOSCT-ND" x="-25.0825" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="ON Semiconductor" x="-25.0825" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="863-NSV1C201MZ4T1G" x="-25.0825" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="NSV1C201MZ4" x="-25.0825" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-25.0825" y="-13.97" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-</element>
 <element name="R1" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_100" x="-26.67" y="-49.8475" smashed="yes">
 <attribute name="DKPN" value="311-100HRCT-ND" x="-26.67" y="-49.8475" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-26.67" y="-49.8475" size="1.778" layer="27" display="off"/>
@@ -6440,23 +6430,30 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="NAME" x="-293.37" y="-1218.45" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VOLTAGE" value="100V" x="-293.37" y="-1219.2" size="1.778" layer="27" display="off"/>
 </element>
+<element name="Q1" library="HyTechDevices" package="SOT223" value="" x="-292.735" y="1110.9325" smashed="yes">
+<attribute name="DKPN" value="NSV1C201MZ4T1GOSCT-ND" x="-300.6725" y="-1215.7075" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" x="-300.6725" y="-1215.7075" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="863-NSV1C201MZ4T1G" x="-300.6725" y="-1215.7075" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="NSV1C201MZ4" x="-300.6725" y="-1215.7075" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-292.735" y="1115.3775" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="N$11">
-<contactref element="Q3" pad="1"/>
 <contactref element="U1" pad="49"/>
-<wire x1="-27.3825" y1="-21.615" x2="-108.645" y2="-221.8975" width="0" layer="19" extent="1-1"/>
+<contactref element="Q1" pad="1"/>
+<wire x1="-295.035" y1="1107.7325" x2="-108.645" y2="-221.8975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
-<contactref element="Q3" pad="3"/>
 <contactref element="U1" pad="52"/>
 <contactref element="U1" pad="48"/>
 <contactref element="U1" pad="55"/>
 <contactref element="C3" pad="1"/>
+<contactref element="Q1" pad="3"/>
 <wire x1="-110.145" y1="-221.8975" x2="-266.815" y2="-1122.045" width="0" layer="19" extent="1-1"/>
 <wire x1="-111.645" y1="-221.8975" x2="-110.145" y2="-221.8975" width="0" layer="19" extent="1-1"/>
 <wire x1="-106.645" y1="-223.8975" x2="-110.145" y2="-221.8975" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.7825" y1="-21.615" x2="-110.145" y2="-221.8975" width="0" layer="19" extent="1-1"/>
+<wire x1="-290.435" y1="1107.7325" x2="-266.815" y2="-1122.045" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="U1" pad="51"/>
@@ -6487,13 +6484,13 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="-109.145" y1="-221.8975" x2="-246.4825" y2="1003.6175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
-<contactref element="Q3" pad="4"/>
-<contactref element="Q3" pad="2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="C4" pad="1"/>
+<contactref element="Q1" pad="4"/>
+<contactref element="Q1" pad="2"/>
 <wire x1="-27.52" y1="-49.8475" x2="-266.815" y2="-1124.9025" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.0825" y1="-21.615" x2="-27.52" y2="-49.8475" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.0825" y1="-15.215" x2="-25.0825" y2="-21.615" width="0" layer="19" extent="1-1"/>
+<wire x1="-292.735" y1="1114.1325" x2="-266.815" y2="-1124.9025" width="0" layer="19" extent="1-1"/>
+<wire x1="-292.735" y1="1107.7325" x2="-292.735" y2="1114.1325" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R8" pad="1"/>
