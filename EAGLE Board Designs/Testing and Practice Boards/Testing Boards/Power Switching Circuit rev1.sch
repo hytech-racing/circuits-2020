@@ -3812,10 +3812,6 @@ Layer: 94 Symbol</description>
 <part name="GND2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="D3" library="HyTechDevices" deviceset="DIODE" device="REMOVE_IN_XML"/>
 <part name="D4" library="HyTechDevices" deviceset="DIODE" device="REMOVE_IN_XML"/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0805" value="0.001"/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0805" value="0.001"/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="100k"/>
-<part name="LED7" library="HyTechDevices" deviceset="LED" device="-0603" value="WHITE"/>
 <part name="LED6" library="HyTechDevices" deviceset="LED" device="-0603" value="RED"/>
 <part name="LED5" library="HyTechDevices" deviceset="LED" device="-0603" value="RED"/>
 <part name="LED4" library="HyTechDevices" deviceset="LED" device="-0603" value="GREEN"/>
@@ -3832,17 +3828,17 @@ Layer: 94 Symbol</description>
 <part name="GND3" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$3" library="HyTechDevices" deviceset="J115F11A*6*" device=""/>
 <part name="GND4" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="50k"/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="25k"/>
-<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="18.75k"/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1400k"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="50k"/>
-<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="25k"/>
-<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="18.75k"/>
-<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1400k"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="31k"/>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="19k"/>
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="9.5k"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="950k"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="35k"/>
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="11k"/>
+<part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.5k"/>
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="950k"/>
 <part name="GND5" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND6" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="250nF"/>
+<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C7" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="47nF"/>
 <part name="C8" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="47nF"/>
 <part name="U$4" library="HyTechDevices" deviceset="SIR638ADP" device=""/>
@@ -3857,13 +3853,15 @@ Layer: 94 Symbol</description>
 <part name="GND10" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND11" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C10" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="R23" library="HyTechDevices" deviceset="RESISTOR" device="0805" value="0.8"/>
+<part name="R23" library="HyTechDevices" deviceset="RESISTOR" device="0805" value="0.65"/>
 <part name="GND12" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C11" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="R21" library="HyTechDevices" deviceset="RESISTOR" device="0805" value="0.8"/>
+<part name="R21" library="HyTechDevices" deviceset="RESISTOR" device="0805" value="0.55"/>
 <part name="X3" library="HyTechDevices" deviceset="CONNECTOR-3" device=""/>
-<part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="5930-SENSE_RES" value="0.001"/>
-<part name="R20" library="HyTechDevices" deviceset="RESISTOR" device="5930-SENSE_RES" value="0.001"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="0"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="0"/>
+<part name="GND13" library="HyTechSymbols" deviceset="GND" device=""/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR" device="5930-SENSE_RES" value="0.001"/>
 </parts>
 <sheets>
 <sheet>
@@ -3881,6 +3879,17 @@ Layer: 94 Symbol</description>
 <text x="-7.62" y="-81.28" size="2.54" layer="94">Sathya Gummadi</text>
 <text x="58.674" y="-92.456" size="2.54" layer="94">Circuit is used to switch the active power source of 
 the vehicle from the GLV battery to the accumulator</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="97" rot="R180">GLVB:
+UV Falling: 8.4 V
+UV Rising: 10 V
+OV Rising: 16.2 V
+OV Falling: 14.6 V
+
+DCDC:
+UV Falling: 9.6 V
+UV Rising: 11 V
+OV Rising: 14.4 V
+OV Falling: 13 V</text>
 </plain>
 <instances>
 <instance part="GND7" gate="1" x="-36.068" y="78.232" smashed="yes">
@@ -3954,22 +3963,6 @@ the vehicle from the GLV battery to the accumulator</text>
 <instance part="D4" gate="1" x="89.916" y="-55.626" smashed="yes" rot="R180">
 <attribute name="NAME" x="91.186" y="-57.531" size="1.27" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="91.186" y="-53.721" size="1.27" layer="96" rot="R180" align="top-center"/>
-</instance>
-<instance part="R1" gate="G$1" x="76.708" y="-32.512" smashed="yes">
-<attribute name="NAME" x="75.692" y="-31.496" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="75.438" y="-33.782" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R3" gate="G$1" x="82.042" y="-29.972" smashed="yes">
-<attribute name="NAME" x="80.264" y="-28.956" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="80.772" y="-31.242" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R4" gate="G$1" x="112.014" y="-27.432" smashed="yes">
-<attribute name="NAME" x="110.744" y="-26.162" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="110.744" y="-28.702" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="LED7" gate="LED" x="100.076" y="-27.432" smashed="yes" rot="R180">
-<attribute name="VALUE" x="105.664" y="-28.956" size="1.27" layer="95" rot="R180" align="top-center"/>
-<attribute name="NAME" x="97.79" y="-27.94" size="1.27" layer="96" rot="R180" align="bottom-center"/>
 </instance>
 <instance part="LED6" gate="LED" x="75.692" y="-19.812" smashed="yes" rot="R180">
 <attribute name="VALUE" x="80.264" y="-21.336" size="1.27" layer="95" rot="R180" align="top-center"/>
@@ -4075,13 +4068,13 @@ the vehicle from the GLV battery to the accumulator</text>
 <attribute name="NAME" x="50.292" y="11.43" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="55.372" y="11.43" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="C7" gate="G$1" x="17.272" y="10.922" smashed="yes">
-<attribute name="NAME" x="13.716" y="8.636" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="17.526" y="14.732" size="1.27" layer="96" align="top-center"/>
+<instance part="C7" gate="G$1" x="17.272" y="5.842" smashed="yes">
+<attribute name="NAME" x="13.716" y="3.556" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="17.526" y="9.652" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C8" gate="G$1" x="-8.128" y="10.668" smashed="yes">
-<attribute name="NAME" x="-11.938" y="8.636" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="-7.874" y="14.478" size="1.27" layer="96" align="top-center"/>
+<instance part="C8" gate="G$1" x="-8.128" y="5.588" smashed="yes">
+<attribute name="NAME" x="-11.938" y="3.556" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="-7.874" y="9.398" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U$4" gate="G$1" x="9.652" y="19.812" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.652" y="17.272" size="1.27" layer="95" rot="R180" align="bottom-center"/>
@@ -4152,13 +4145,20 @@ the vehicle from the GLV battery to the accumulator</text>
 <instance part="X3" gate="-3" x="-41.148" y="85.852" smashed="yes" rot="R180">
 <attribute name="NAME" x="-43.688" y="86.614" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="R19" gate="G$1" x="37.338" y="45.974" smashed="yes">
-<attribute name="NAME" x="36.068" y="47.244" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="36.068" y="44.704" size="1.27" layer="96" align="top-center"/>
+<instance part="R1" gate="G$1" x="88.392" y="-30.734" smashed="yes">
+<attribute name="NAME" x="87.122" y="-29.464" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="87.122" y="-32.004" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R20" gate="G$1" x="43.434" y="24.892" smashed="yes">
-<attribute name="NAME" x="42.164" y="26.162" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="42.164" y="23.622" size="1.27" layer="96" align="top-center"/>
+<instance part="R3" gate="G$1" x="103.124" y="-29.972" smashed="yes" rot="R90">
+<attribute name="NAME" x="101.854" y="-31.242" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="104.394" y="-31.242" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="GND13" gate="1" x="93.218" y="-33.274" smashed="yes">
+<attribute name="VALUE" x="90.678" y="-35.306" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="38.1" y="46.228" smashed="yes">
+<attribute name="NAME" x="36.83" y="47.498" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="36.83" y="44.958" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -4237,6 +4237,11 @@ the vehicle from the GLV battery to the accumulator</text>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="-33.528" y1="30.734" x2="-33.528" y2="30.48" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="90.932" y1="-30.734" x2="93.218" y2="-30.734" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GLVB" class="0">
 <segment>
@@ -4265,11 +4270,6 @@ the vehicle from the GLV battery to the accumulator</text>
 <wire x1="-68.58" y1="81.28" x2="-66.04" y2="81.28" width="0.1524" layer="91"/>
 <label x="-66.04" y="81.28" size="1.016" layer="95" xref="yes"/>
 <pinref part="X2" gate="-2" pin="S"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="84.582" y1="-29.972" x2="86.614" y2="-29.972" width="0.1524" layer="91"/>
-<label x="86.614" y="-29.972" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="V1"/>
@@ -4330,46 +4330,41 @@ the vehicle from the GLV battery to the accumulator</text>
 <pinref part="X1" gate="-1" pin="S"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUT2"/>
-<wire x1="40.132" y1="5.588" x2="40.132" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="40.132" y1="20.32" x2="46.99" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="46.99" y1="20.32" x2="46.99" y2="24.892" width="0.1524" layer="91"/>
-<wire x1="46.99" y1="24.892" x2="45.974" y2="24.892" width="0.1524" layer="91"/>
-<wire x1="72.39" y1="0.508" x2="72.39" y2="46.228" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="OUT1"/>
-<wire x1="37.592" y1="5.588" x2="37.592" y2="41.148" width="0.1524" layer="91"/>
-<wire x1="37.592" y1="41.148" x2="41.91" y2="41.148" width="0.1524" layer="91"/>
-<wire x1="41.91" y1="41.148" x2="41.91" y2="45.974" width="0.1524" layer="91"/>
-<wire x1="41.91" y1="45.974" x2="39.878" y2="45.974" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="CPOREF"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="45.212" y1="5.588" x2="45.212" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="45.212" y1="15.24" x2="52.832" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="52.832" y1="15.24" x2="52.832" y2="45.974" width="0.1524" layer="91"/>
-<junction x="52.832" y="15.24"/>
-<wire x1="41.91" y1="45.974" x2="52.832" y2="45.974" width="0.1524" layer="91"/>
-<junction x="41.91" y="45.974"/>
-<junction x="52.832" y="45.974"/>
-<wire x1="72.39" y1="46.228" x2="62.23" y2="46.228" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="46.228" x2="52.832" y2="46.228" width="0.1524" layer="91"/>
-<wire x1="52.832" y1="46.228" x2="52.832" y2="45.974" width="0.1524" layer="91"/>
-<wire x1="46.99" y1="24.892" x2="62.23" y2="24.892" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="24.892" x2="62.23" y2="46.228" width="0.1524" layer="91"/>
-<junction x="46.99" y="24.892"/>
-<junction x="62.23" y="46.228"/>
-<wire x1="72.39" y1="46.228" x2="82.55" y2="46.228" width="0.1524" layer="91"/>
-<junction x="72.39" y="46.228"/>
+<pinref part="U$1" gate="G$1" pin="CPOREF"/>
+<wire x1="45.212" y1="5.588" x2="45.212" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="82.55" y1="46.228" x2="82.55" y2="43.688" width="0.1524" layer="91"/>
 <wire x1="82.55" y1="46.228" x2="90.17" y2="46.228" width="0.1524" layer="91"/>
 <junction x="82.55" y="46.228"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<label x="90.17" y="46.228" size="1.016" layer="95" xref="yes"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="72.39" y1="46.228" x2="82.55" y2="46.228" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="0.508" x2="72.39" y2="46.228" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
+<junction x="72.39" y="0.508"/>
 <pinref part="U$1" gate="G$1" pin="EXTVDD"/>
 <wire x1="68.072" y1="0.508" x2="72.39" y2="0.508" width="0.1524" layer="91"/>
-<junction x="72.39" y="0.508"/>
+<label x="90.17" y="46.228" size="1.016" layer="95" xref="yes"/>
+<wire x1="37.592" y1="11.938" x2="37.592" y2="42.418" width="0.1524" layer="91"/>
+<wire x1="37.592" y1="42.418" x2="42.164" y2="42.418" width="0.1524" layer="91"/>
+<wire x1="42.164" y1="42.418" x2="42.164" y2="46.228" width="0.1524" layer="91"/>
+<wire x1="42.164" y1="46.228" x2="40.64" y2="46.228" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="46.228" x2="40.386" y2="46.228" width="0.1524" layer="91"/>
+<wire x1="42.164" y1="46.228" x2="45.212" y2="46.228" width="0.1524" layer="91"/>
+<junction x="42.164" y="46.228"/>
+<junction x="72.39" y="46.228"/>
+<wire x1="45.212" y1="46.228" x2="72.39" y2="46.228" width="0.1524" layer="91"/>
+<wire x1="45.212" y1="15.24" x2="45.212" y2="46.228" width="0.1524" layer="91"/>
+<junction x="45.212" y="15.24"/>
+<junction x="45.212" y="46.228"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<junction x="40.64" y="46.228"/>
+<wire x1="37.592" y1="11.938" x2="40.132" y2="11.938" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="OUT2"/>
+<wire x1="40.132" y1="5.588" x2="40.132" y2="11.938" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="OUT1"/>
+<wire x1="37.592" y1="5.588" x2="37.592" y2="11.938" width="0.1524" layer="91"/>
+<junction x="37.592" y="11.938"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4391,34 +4386,6 @@ the vehicle from the GLV battery to the accumulator</text>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="TMR2"/>
 <wire x1="24.892" y1="-48.514" x2="24.892" y2="-47.752" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="!DISABLE2"/>
-<wire x1="71.628" y1="-32.512" x2="68.072" y2="-32.512" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="!DISABLE1"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="68.072" y1="-29.972" x2="76.962" y2="-29.972" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="LED7" gate="LED" pin="C"/>
-<pinref part="U$1" gate="G$1" pin="RETRY"/>
-<wire x1="97.536" y1="-27.432" x2="68.072" y2="-27.432" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="LED7" gate="LED" pin="A"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="105.156" y1="-27.432" x2="106.934" y2="-27.432" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -4579,42 +4546,30 @@ the vehicle from the GLV battery to the accumulator</text>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GATE2"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="12.192" y1="5.588" x2="12.192" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="G"/>
-<wire x1="12.192" y1="7.62" x2="12.192" y2="10.922" width="0.1524" layer="91"/>
-<wire x1="12.192" y1="14.732" x2="12.192" y2="10.922" width="0.1524" layer="91"/>
-<junction x="12.192" y="10.922"/>
+<wire x1="12.192" y1="8.382" x2="12.192" y2="5.842" width="0.1524" layer="91"/>
+<wire x1="12.192" y1="14.732" x2="12.192" y2="5.842" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="G"/>
-<wire x1="22.352" y1="14.732" x2="22.352" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="22.352" y1="7.62" x2="12.192" y2="7.62" width="0.1524" layer="91"/>
-<junction x="12.192" y="7.62"/>
+<wire x1="22.352" y1="14.732" x2="22.352" y2="8.382" width="0.1524" layer="91"/>
+<wire x1="22.352" y1="8.382" x2="12.192" y2="8.382" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GATE2"/>
+<wire x1="12.192" y1="5.588" x2="12.192" y2="5.842" width="0.1524" layer="91"/>
+<junction x="12.192" y="5.842"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="SOURCE2"/>
-<wire x1="19.812" y1="10.922" x2="19.812" y2="5.588" width="0.1524" layer="91"/>
+<wire x1="19.812" y1="5.842" x2="19.812" y2="5.588" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="S"/>
 <pinref part="U$5" gate="G$1" pin="S"/>
 <wire x1="12.192" y1="24.892" x2="19.812" y2="24.892" width="0.1524" layer="91"/>
 <wire x1="19.812" y1="24.892" x2="22.352" y2="24.892" width="0.1524" layer="91"/>
-<wire x1="19.812" y1="10.922" x2="19.812" y2="24.892" width="0.1524" layer="91"/>
-<junction x="19.812" y="10.922"/>
+<wire x1="19.812" y1="5.842" x2="19.812" y2="24.892" width="0.1524" layer="91"/>
+<junction x="19.812" y="5.842"/>
 <junction x="19.812" y="24.892"/>
-</segment>
-</net>
-<net name="N$33" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="SENSE2"/>
-<pinref part="U$5" gate="G$1" pin="D"/>
-<wire x1="32.512" y1="5.588" x2="32.512" y2="24.892" width="0.1524" layer="91"/>
-<wire x1="32.512" y1="24.892" x2="27.432" y2="24.892" width="0.1524" layer="91"/>
-<wire x1="38.354" y1="24.892" x2="32.512" y2="24.892" width="0.1524" layer="91"/>
-<junction x="32.512" y="24.892"/>
-<pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -4649,21 +4604,15 @@ the vehicle from the GLV battery to the accumulator</text>
 <junction x="-69.342" y="24.892"/>
 <junction x="-76.454" y="24.892"/>
 </segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="79.248" y1="-32.512" x2="86.614" y2="-32.512" width="0.1524" layer="91"/>
-<label x="86.36" y="-32.512" size="1.016" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GATE1"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="-13.208" y1="5.588" x2="-13.208" y2="7.874" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="G"/>
-<wire x1="-13.208" y1="7.874" x2="-13.208" y2="10.668" width="0.1524" layer="91"/>
-<wire x1="-13.208" y1="10.668" x2="-13.208" y2="35.814" width="0.1524" layer="91"/>
-<junction x="-13.208" y="10.668"/>
+<wire x1="-13.208" y1="7.874" x2="-13.208" y2="5.588" width="0.1524" layer="91"/>
+<wire x1="-13.208" y1="5.588" x2="-13.208" y2="35.814" width="0.1524" layer="91"/>
+<junction x="-13.208" y="5.588"/>
 <pinref part="U$7" gate="G$1" pin="G"/>
 <wire x1="-0.508" y1="35.814" x2="-0.508" y2="7.874" width="0.1524" layer="91"/>
 <wire x1="-0.508" y1="7.874" x2="-13.208" y2="7.874" width="0.1524" layer="91"/>
@@ -4674,33 +4623,23 @@ the vehicle from the GLV battery to the accumulator</text>
 <segment>
 <pinref part="U$1" gate="G$1" pin="SOURCE1"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="-5.588" y1="5.588" x2="-5.588" y2="10.668" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="S"/>
 <pinref part="U$7" gate="G$1" pin="S"/>
 <wire x1="-13.208" y1="45.974" x2="-5.588" y2="45.974" width="0.1524" layer="91"/>
 <wire x1="-5.588" y1="45.974" x2="-0.508" y2="45.974" width="0.1524" layer="91"/>
-<wire x1="-5.588" y1="10.668" x2="-5.588" y2="45.974" width="0.1524" layer="91"/>
-<junction x="-5.588" y="10.668"/>
+<wire x1="-5.588" y1="5.588" x2="-5.588" y2="45.974" width="0.1524" layer="91"/>
+<junction x="-5.588" y="5.588"/>
 <junction x="-5.588" y="45.974"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="SENSE1"/>
-<pinref part="U$7" gate="G$1" pin="D"/>
-<wire x1="29.972" y1="5.588" x2="29.972" y2="45.974" width="0.1524" layer="91"/>
-<wire x1="29.972" y1="45.974" x2="4.572" y2="45.974" width="0.1524" layer="91"/>
-<wire x1="32.258" y1="45.974" x2="29.972" y2="45.974" width="0.1524" layer="91"/>
-<junction x="29.972" y="45.974"/>
-<pinref part="R19" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="!SHDN"/>
-<wire x1="68.072" y1="-35.052" x2="80.518" y2="-35.052" width="0.1524" layer="91"/>
+<wire x1="68.072" y1="-35.052" x2="70.866" y2="-35.052" width="0.1524" layer="91"/>
 <junction x="80.518" y="-55.626"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="70.866" y1="-35.052" x2="75.438" y2="-35.052" width="0.1524" layer="91"/>
+<wire x1="75.438" y1="-35.052" x2="80.518" y2="-35.052" width="0.1524" layer="91"/>
 <wire x1="80.518" y1="-58.674" x2="80.518" y2="-55.626" width="0.1524" layer="91"/>
 <wire x1="80.518" y1="-55.626" x2="80.518" y2="-35.052" width="0.1524" layer="91"/>
 <wire x1="73.914" y1="-55.626" x2="74.676" y2="-55.626" width="0.1524" layer="91"/>
@@ -4709,12 +4648,23 @@ the vehicle from the GLV battery to the accumulator</text>
 <wire x1="74.676" y1="-55.626" x2="80.518" y2="-55.626" width="0.1524" layer="91"/>
 <wire x1="87.376" y1="-55.626" x2="80.518" y2="-55.626" width="0.1524" layer="91"/>
 <pinref part="D4" gate="1" pin="C"/>
-<wire x1="80.518" y1="-35.052" x2="120.904" y2="-35.052" width="0.1524" layer="91"/>
+<wire x1="80.518" y1="-35.052" x2="103.124" y2="-35.052" width="0.1524" layer="91"/>
+<wire x1="103.124" y1="-35.052" x2="120.904" y2="-35.052" width="0.1524" layer="91"/>
 <wire x1="120.904" y1="-35.052" x2="120.904" y2="50.546" width="0.1524" layer="91"/>
 <junction x="80.518" y="-35.052"/>
 <pinref part="U$3" gate="G$1" pin="COIL+"/>
 <wire x1="-79.248" y1="37.592" x2="-79.248" y2="50.546" width="0.1524" layer="91"/>
 <wire x1="-79.248" y1="50.546" x2="120.904" y2="50.546" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="!DISABLE2"/>
+<wire x1="68.072" y1="-32.512" x2="70.866" y2="-32.512" width="0.1524" layer="91"/>
+<wire x1="70.866" y1="-32.512" x2="70.866" y2="-35.052" width="0.1524" layer="91"/>
+<junction x="70.866" y="-35.052"/>
+<pinref part="U$1" gate="G$1" pin="!DISABLE1"/>
+<wire x1="68.072" y1="-29.972" x2="75.438" y2="-29.972" width="0.1524" layer="91"/>
+<wire x1="75.438" y1="-29.972" x2="75.438" y2="-35.052" width="0.1524" layer="91"/>
+<junction x="75.438" y="-35.052"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<junction x="103.124" y="-35.052"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -4738,8 +4688,6 @@ the vehicle from the GLV battery to the accumulator</text>
 <wire x1="114.554" y1="-17.272" x2="114.554" y2="-19.812" width="0.1524" layer="91"/>
 <junction x="114.554" y="-17.272"/>
 <junction x="114.554" y="-14.732"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="114.554" y1="-27.432" x2="114.554" y2="-19.812" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="INTVDD"/>
 <wire x1="40.132" y1="-48.514" x2="40.132" y2="-47.752" width="0.1524" layer="91"/>
@@ -4749,10 +4697,9 @@ the vehicle from the GLV battery to the accumulator</text>
 <junction x="40.132" y="-48.514"/>
 <wire x1="70.358" y1="-48.514" x2="40.132" y2="-48.514" width="0.1524" layer="91"/>
 <wire x1="114.554" y1="-48.514" x2="70.358" y2="-48.514" width="0.1524" layer="91"/>
-<wire x1="114.554" y1="-27.432" x2="114.554" y2="-48.514" width="0.1524" layer="91"/>
-<junction x="114.554" y="-27.432"/>
 <junction x="70.358" y="-48.514"/>
 <junction x="114.554" y="-19.812"/>
+<wire x1="114.554" y1="-19.812" x2="114.554" y2="-48.514" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -4765,6 +4712,41 @@ the vehicle from the GLV battery to the accumulator</text>
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="R21" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="RETRY"/>
+<wire x1="68.072" y1="-27.432" x2="80.518" y2="-27.432" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="80.518" y1="-27.432" x2="103.124" y2="-27.432" width="0.1524" layer="91"/>
+<wire x1="83.312" y1="-30.734" x2="80.518" y2="-30.734" width="0.1524" layer="91"/>
+<wire x1="80.518" y1="-30.734" x2="80.518" y2="-27.432" width="0.1524" layer="91"/>
+<junction x="80.518" y="-27.432"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="SENSE" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="D"/>
+<wire x1="27.432" y1="24.892" x2="30.226" y2="24.892" width="0.1524" layer="91"/>
+<wire x1="30.226" y1="24.892" x2="30.226" y2="46.228" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="D"/>
+<wire x1="30.226" y1="46.228" x2="4.572" y2="46.228" width="0.1524" layer="91"/>
+<wire x1="4.572" y1="46.228" x2="4.572" y2="45.974" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="46.228" x2="32.512" y2="46.228" width="0.1524" layer="91"/>
+<junction x="30.226" y="46.228"/>
+<pinref part="U$1" gate="G$1" pin="SENSE1"/>
+<wire x1="32.258" y1="46.228" x2="30.226" y2="46.228" width="0.1524" layer="91"/>
+<wire x1="29.972" y1="5.588" x2="29.972" y2="11.938" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="SENSE2"/>
+<wire x1="29.972" y1="11.938" x2="32.512" y2="11.938" width="0.1524" layer="91"/>
+<wire x1="32.512" y1="11.938" x2="32.512" y2="5.588" width="0.1524" layer="91"/>
+<wire x1="32.512" y1="11.938" x2="32.512" y2="46.228" width="0.1524" layer="91"/>
+<wire x1="32.512" y1="46.228" x2="32.258" y2="46.228" width="0.1524" layer="91"/>
+<junction x="32.512" y="11.938"/>
+<junction x="32.512" y="46.228"/>
 </segment>
 </net>
 </nets>
