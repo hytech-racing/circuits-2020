@@ -836,7 +836,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="4.064" y1="3.556" x2="4.064" y2="-5.2324" width="0.127" layer="21"/>
 <wire x1="4.064" y1="-5.2324" x2="-4.064" y2="-5.2324" width="0.127" layer="21"/>
 <wire x1="-4.064" y1="-5.2324" x2="-4.064" y2="3.556" width="0.127" layer="21"/>
-<text x="0" y="5.08" size="0.8128" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="5.08" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-5.08" y1="-10.16" x2="5.08" y2="5.08" layer="39"/>
 </package>
 <package name="0603-RES">
@@ -933,7 +933,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="7.4041" y1="-5.842" x2="-7.4041" y2="-5.842" width="0.1524" layer="21"/>
 <wire x1="-7.4041" y1="-5.842" x2="-7.4041" y2="5.842" width="0.1524" layer="21"/>
 <circle x="-6.858" y="-6.858" radius="0.635" width="0.127" layer="21"/>
-<text x="-7.62" y="0" size="0.8128" layer="21" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="-7.62" y="0" locked="yes" size="0.8128" layer="21" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-8.255" y1="-8.255" x2="8.255" y2="8.255" layer="39"/>
 </package>
 <package name="LQFP-64">
