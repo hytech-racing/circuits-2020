@@ -7576,7 +7576,7 @@ Corner Frequency (kHz) = fclk / 100 = 1 kHz</text>
 <part name="U13" library="HyTechDevices" deviceset="LR8" device="" value="LR8"/>
 <part name="R39" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="2k"/>
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="20k"/>
-<part name="INDICATOR1" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="INDICATOR"/>
+<part name="INDICATOR" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2" value="INDICATOR"/>
 <part name="U16" library="HyTechDevices" deviceset="LR8" device="" value="LR8"/>
 <part name="U15" library="HyTechDevices" deviceset="CPC1002N" device=""/>
 <part name="Q2" library="HyTechDevices" deviceset="N-CHANNEL_MOSFET" device="AOD1N60" value="AOD1N60"/>
@@ -10209,10 +10209,10 @@ for Precharge</text>
 <attribute name="NAME" x="49.3014" y="34.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="54.102" y="34.29" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="INDICATOR1" gate="-2" x="147.32" y="58.42" smashed="yes">
+<instance part="INDICATOR" gate="-2" x="147.32" y="58.42" smashed="yes">
 <attribute name="NAME" x="149.86" y="57.658" size="1.524" layer="95"/>
 </instance>
-<instance part="INDICATOR1" gate="-1" x="147.32" y="60.96" smashed="yes">
+<instance part="INDICATOR" gate="-1" x="147.32" y="60.96" smashed="yes">
 <attribute name="NAME" x="149.86" y="60.198" size="1.524" layer="95"/>
 <attribute name="VALUE" x="146.558" y="62.357" size="1.778" layer="96"/>
 </instance>
@@ -10412,7 +10412,7 @@ for Precharge</text>
 <wire x1="43.18" y1="43.18" x2="48.26" y2="43.18" width="0.6096" layer="91"/>
 </segment>
 <segment>
-<pinref part="INDICATOR1" gate="-2" pin="S"/>
+<pinref part="INDICATOR" gate="-2" pin="S"/>
 <wire x1="144.78" y1="58.42" x2="139.7" y2="58.42" width="0.6096" layer="91"/>
 <label x="134.62" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="134.62" y1="53.34" x2="139.7" y2="53.34" width="0.6096" layer="91"/>
@@ -10550,7 +10550,7 @@ for Precharge</text>
 <net name="N$34" class="1">
 <segment>
 <pinref part="U14" gate="G$1" pin="DC-"/>
-<pinref part="INDICATOR1" gate="-1" pin="S"/>
+<pinref part="INDICATOR" gate="-1" pin="S"/>
 <wire x1="134.62" y1="60.96" x2="139.7" y2="60.96" width="0.6096" layer="91"/>
 <wire x1="139.7" y1="60.96" x2="144.78" y2="60.96" width="0.6096" layer="91"/>
 </segment>

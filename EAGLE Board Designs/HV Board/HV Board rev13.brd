@@ -5605,7 +5605,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <element name="R38" library="HyTechDevices" package="0603-RES" value="20k" x="111.76" y="72.39" smashed="yes" rot="MR180">
 <attribute name="NAME" x="111.76" y="71.374" size="0.762" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="INDICATOR1" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="INDICATOR" x="88.9" y="56.515" smashed="yes" rot="R270">
+<element name="INDICATOR" library="HyTechDevices" package="NANO-FIT_VERTICAL-2" value="INDICATOR" x="88.9" y="56.515" smashed="yes" rot="R270">
 <attribute name="VALUE" x="91.44" y="56.515" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="top-center"/>
 </element>
 <element name="U16" library="HyTechDevices" package="SOT89" value="LR8" x="109.855" y="77.47" smashed="yes" rot="MR180">
@@ -6356,7 +6356,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <signal name="HV-FUSED" class="1">
 <contactref element="Q2" pad="3"/>
 <contactref element="R9" pad="1"/>
-<contactref element="INDICATOR1" pad="P$2"/>
+<contactref element="INDICATOR" pad="P$2"/>
 <contactref element="R38" pad="2"/>
 <contactref element="IMD-" pad="P$1"/>
 <contactref element="HV-FUSED" pad="P$2"/>
@@ -7055,7 +7055,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 </signal>
 <signal name="N$34" class="1">
 <contactref element="U14" pad="3"/>
-<contactref element="INDICATOR1" pad="P$1"/>
+<contactref element="INDICATOR" pad="P$1"/>
 <wire x1="95.885" y1="77.216" x2="95.583" y2="77.216" width="1.016" layer="16"/>
 <wire x1="95.583" y1="77.216" x2="94.567" y2="76.2" width="1.016" layer="16"/>
 <wire x1="94.44" y1="76.2" x2="94.567" y2="76.2" width="1.016" layer="16"/>
