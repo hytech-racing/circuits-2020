@@ -2164,6 +2164,9 @@ Orange: HV High Current Path</text>
 <moduleinst name="TE_M3031-1_BRAKE_PRESS_2" module="TE_M3031" x="698.5" y="45.72">
 <attribute name="NAME" value="TE_M3031-1_BRAKE_PRESS_2" x="698.5" y="39.37" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
+<moduleinst name="ENERGY_METER1" module="ENERGY_METER" x="83.82" y="292.1">
+<attribute name="NAME" x="83.82" y="292.1" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
 </moduleinsts>
 <instances>
 <instance part="RTDS" gate="1" x="762" y="266.7" smashed="yes">
@@ -2545,7 +2548,7 @@ Orange: HV High Current Path</text>
 </instance>
 </instances>
 <busses>
-<bus name="5V_ACCEL_1,5V_ACCEL_2,5V_BRAKE_1,5V_BRAKE_2,12V_ACCUM,12V_ACCUM_MAINT,12V_DASH,12V_MAINT,12VSUPPLY_BRB,12VSUPPLY_COOLING_FAN_1,12VSUPPLY_COOLING_FAN_2,12VSUPPLY_COOLING_PUMP_1,12VSUPPLY_COOLING_UNSWITCHED,12VSUPPLY_UNSWITCHED,12V_WHEEL_SPEED_FRONT_LEFT,12V_WHEEL_SPEED_FRONT_RIGHT,12V_WHEEL_SPEED_REAR_LEFT,12V_WHEEL_SPEED_REAR_RIGHT,BAT+,BMS_OK,BRAKE_LIGHT,CAN_ACCUM_SHIELD,CANH_ACCUM,CANH_DASH,CANH_FRONT,CANH_MAINT,CANH_MC,CANL_ACCUM,CANL_DASH,CANL_FRONT,CANL_MAINT,CANL_MC,CHARGE_ENABLE,DASH_1,DASH_4,DASH_5,DASH_8,DASH_9,DASH_12,FAN_1,FAN_2,GND_ACCEL_1,GND_ACCEL_2,GND_ACCUM,GND_ACCUM_RELAYS,GND_BRAKE,GND_BRAKE_1,GND_BRAKE_2,GND_BR_TS,GND_CURRENT,GND_DASH,GND_LEFT_PANEL,GND_MAIN_ECU,GND_MAINT,GND_MC,GND_RIGHT_PANEL,GND_SHIELD,IMD_OK,INVERTER_SUPPLY,LATCH_EXT_BTN,MC_MAINT_FAULT_INDIC,MC_MAINT_GND,MC_MAINT_PROG_ENA,MC_MAINT_RXD,MC_MAINT_TXD,MC_MAINT_XDCR_PWR,MOTOR_COS-,MOTOR_COS+,MOTOR_EXC+,MOTOR_EXC-,MOTOR_SHIELD,MOTOR_SIN+,MOTOR_SIN-,MOTOR_TEMP-,MOTOR_TEMP+,RET_FAN_1,SHUTDOWN_E,SHUTDOWN_F,SHUTDOWN_G,SHUTDOWN_H,SIGNAL_ACCEL_1,SIGNAL_ACCEL_2,SIGNAL_BRAKE,SIGNAL_BRAKE_1,SIGNAL_BRAKE_2,SIGNAL_CURRENT,SSOK,TSAL,WHEEL_SPEED_2,WHEEL_SPEED_3,WHEEL_SPEED_4,WHEEL_SPEED_FRONT_LEFT,WHEEL_SPEED_FRONT_RIGHT,WHEEL_SPEED_REAR_LEFT,WHEEL_SPEED_REAR_RIGHT">
+<bus name="5V_ACCEL_1,5V_ACCEL_2,5V_BRAKE_1,5V_BRAKE_2,12V_ACCUM,12V_ACCUM_MAINT,12V_DASH,12V_MAINT,12VSUPPLY_BRB,12VSUPPLY_COOLING_FAN_1,12VSUPPLY_COOLING_FAN_2,12VSUPPLY_COOLING_PUMP_1,12VSUPPLY_COOLING_UNSWITCHED,12VSUPPLY_UNSWITCHED,12V_WHEEL_SPEED_FRONT_LEFT,12V_WHEEL_SPEED_FRONT_RIGHT,12V_WHEEL_SPEED_REAR_LEFT,12V_WHEEL_SPEED_REAR_RIGHT,BAT+,BMS_OK,BRAKE_LIGHT,CAN_ACCUM_SHIELD,CANH_ACCUM,CANH_DASH,CANH_FRONT,CANH_MAINT,CANH_MC,CANL_ACCUM,CANL_DASH,CANL_FRONT,CANL_MAINT,CANL_MC,CHARGE_ENABLE,DASH_1,DASH_4,DASH_5,DASH_8,DASH_9,DASH_12,FAN_1,FAN_2,GND_ACCEL_1,GND_ACCEL_2,GND_ACCUM,GND_ACCUM_RELAYS,GND_BRAKE,GND_BRAKE_1,GND_BRAKE_2,GND_BR_TS,GND_DASH,GND_LEFT_PANEL,GND_MAIN_ECU,GND_MAINT,GND_MC,GND_RADIATOR,GND_RIGHT_PANEL,GND_SHIELD,IMD_OK,INVERTER_SUPPLY,LATCH_EXT_BTN,MC_MAINT_FAULT_INDIC,MC_MAINT_GND,MC_MAINT_PROG_ENA,MC_MAINT_RXD,MC_MAINT_TXD,MC_MAINT_XDCR_PWR,MOTOR_COS-,MOTOR_COS+,MOTOR_EXC+,MOTOR_EXC-,MOTOR_SHIELD,MOTOR_SIN+,MOTOR_SIN-,MOTOR_TEMP+,MOTOR_TEMP-,SHUTDOWN_E,SHUTDOWN_F,SHUTDOWN_G,SHUTDOWN_H,SIGNAL_ACCEL_1,SIGNAL_ACCEL_2,SIGNAL_BRAKE,SIGNAL_BRAKE_1,SIGNAL_BRAKE_2,SIGNAL_CURRENT,SSOK,TSAL,USB_D+,USB_D-,WHEEL_SPEED_2,WHEEL_SPEED_3,WHEEL_SPEED_4,WHEEL_SPEED_FRONT_LEFT,WHEEL_SPEED_FRONT_RIGHT,WHEEL_SPEED_REAR_LEFT,WHEEL_SPEED_REAR_RIGHT">
 <segment>
 <wire x1="627.38" y1="17.78" x2="627.38" y2="48.26" width="0.762" layer="92"/>
 <wire x1="434.34" y1="-25.4" x2="434.34" y2="-2.54" width="0.762" layer="92"/>
@@ -2582,8 +2585,8 @@ Orange: HV High Current Path</text>
 <wire x1="40.64" y1="223.52" x2="40.64" y2="165.1" width="0.762" layer="92"/>
 <wire x1="40.64" y1="165.1" x2="40.64" y2="134.62" width="0.762" layer="92"/>
 <wire x1="40.64" y1="134.62" x2="40.64" y2="-17.78" width="0.762" layer="92"/>
-<wire x1="40.64" y1="-17.78" x2="276.86" y2="-17.78" width="0.762" layer="92"/>
-<wire x1="276.86" y1="-17.78" x2="302.26" y2="-17.78" width="0.762" layer="92"/>
+<wire x1="40.64" y1="-17.78" x2="271.78" y2="-17.78" width="0.762" layer="92"/>
+<wire x1="271.78" y1="-17.78" x2="302.26" y2="-17.78" width="0.762" layer="92"/>
 <wire x1="34.29" y1="171.45" x2="25.4" y2="171.45" width="0.762" layer="92"/>
 <wire x1="25.4" y1="181.61" x2="25.4" y2="171.45" width="0.762" layer="92"/>
 <wire x1="25.4" y1="171.45" x2="25.4" y2="158.75" width="0.762" layer="92"/>
@@ -2592,8 +2595,8 @@ Orange: HV High Current Path</text>
 <wire x1="40.64" y1="134.62" x2="33.02" y2="142.24" width="0.762" layer="92"/>
 <wire x1="-38.1" y1="142.24" x2="-38.1" y2="146.05" width="0.762" layer="92"/>
 <wire x1="-38.1" y1="142.24" x2="-38.1" y2="107.95" width="0.762" layer="92"/>
-<wire x1="276.86" y1="-17.78" x2="261.62" y2="-2.54" width="0.762" layer="92"/>
-<wire x1="261.62" y1="-2.54" x2="261.62" y2="55.88" width="0.762" layer="92"/>
+<wire x1="271.78" y1="-17.78" x2="261.62" y2="-7.62" width="0.762" layer="92"/>
+<wire x1="261.62" y1="-7.62" x2="261.62" y2="55.88" width="0.762" layer="92"/>
 <wire x1="40.64" y1="223.52" x2="55.88" y2="238.76" width="0.762" layer="92"/>
 <wire x1="55.88" y1="238.76" x2="92.71" y2="238.76" width="0.762" layer="92"/>
 </segment>
@@ -3574,17 +3577,6 @@ Orange: HV High Current Path</text>
 <portref moduleinst="MAIN_ECU" port="12V_DASH"/>
 <wire x1="510.54" y1="48.26" x2="508" y2="48.26" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<portref moduleinst="ACCUMULATOR_FAN" port="GND"/>
-<label x="-60.96" y="48.26" size="1.778" layer="95"/>
-<wire x1="-63.5" y1="48.26" x2="-22.86" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="ACCUMULATOR_FAN_2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<label x="2.54" y="48.26" size="1.778" layer="95"/>
-<wire x1="0" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="ACCUMULATOR_FAN_1" gate="G$1" pin="2"/>
-</segment>
 </net>
 <net name="DASH_5" class="0">
 <segment>
@@ -3892,17 +3884,6 @@ Orange: HV High Current Path</text>
 <wire x1="574.04" y1="43.18" x2="571.5" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="RADIATOR_PUMP" port="GND"/>
-<label x="-60.96" y="83.82" size="1.778" layer="95"/>
-<wire x1="-63.5" y1="83.82" x2="-22.86" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="PUMP_2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="MAIN_SEC_1" gate="G$1" pin="2"/>
-<wire x1="599.44" y1="43.18" x2="627.38" y2="43.18" width="0.1524" layer="91"/>
-<label x="601.98" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="FIREWALL_4" gate="G$1" pin="2"/>
 <wire x1="388.62" y1="-10.16" x2="434.34" y2="-10.16" width="0.1524" layer="91"/>
 <label x="391.16" y="-10.16" size="1.778" layer="95"/>
@@ -3911,11 +3892,6 @@ Orange: HV High Current Path</text>
 <wire x1="320.04" y1="-10.16" x2="363.22" y2="-10.16" width="0.1524" layer="91"/>
 <label x="322.58" y="-10.16" size="1.778" layer="95"/>
 <pinref part="FIREWALL_3" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<label x="2.54" y="83.82" size="1.778" layer="95"/>
-<wire x1="0" y1="83.82" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="PUMP_1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="FAN_2" class="0">
@@ -4521,6 +4497,17 @@ Orange: HV High Current Path</text>
 <wire x1="363.22" y1="38.1" x2="320.04" y2="38.1" width="0.1524" layer="91"/>
 <label x="322.58" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ACCUMULATOR_FAN_1" gate="G$1" pin="2"/>
+<wire x1="0" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
+<label x="2.54" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<portref moduleinst="ACCUMULATOR_FAN" port="GND"/>
+<label x="-60.96" y="48.26" size="1.778" layer="95"/>
+<wire x1="-63.5" y1="48.26" x2="-22.86" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="ACCUMULATOR_FAN_2" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="N$15" class="0">
 <segment>
@@ -4978,6 +4965,48 @@ Orange: HV High Current Path</text>
 <wire x1="662.94" y1="60.96" x2="662.94" y2="45.72" width="0.1524" layer="91"/>
 <portref moduleinst="TE_M3031-1_BRAKE_PRESS_2" port="SIGNAL"/>
 <wire x1="662.94" y1="45.72" x2="670.56" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_D+" class="0">
+<segment>
+<pinref part="MAINTENANCE" gate="G$1" pin="12"/>
+<wire x1="200.66" y1="-2.54" x2="261.62" y2="-2.54" width="0.1524" layer="91"/>
+<label x="213.36" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ACCUM_1" gate="G$1" pin="11"/>
+<wire x1="403.86" y1="116.84" x2="403.86" y2="88.9" width="0.1524" layer="91"/>
+<label x="403.86" y="91.44" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="USB_D-" class="0">
+<segment>
+<pinref part="MAINTENANCE" gate="G$1" pin="13"/>
+<wire x1="200.66" y1="-5.08" x2="261.62" y2="-5.08" width="0.1524" layer="91"/>
+<label x="213.36" y="-5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ACCUM_1" gate="G$1" pin="12"/>
+<wire x1="406.4" y1="116.84" x2="406.4" y2="88.9" width="0.1524" layer="91"/>
+<label x="406.4" y="91.44" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="GND_RADIATOR" class="0">
+<segment>
+<pinref part="MAIN_SEC_1" gate="G$1" pin="2"/>
+<wire x1="599.44" y1="43.18" x2="627.38" y2="43.18" width="0.1524" layer="91"/>
+<label x="601.98" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="2.54" y="83.82" size="1.778" layer="95"/>
+<wire x1="0" y1="83.82" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="PUMP_1" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<portref moduleinst="RADIATOR_PUMP" port="GND"/>
+<label x="-60.96" y="83.82" size="1.778" layer="95"/>
+<wire x1="-63.5" y1="83.82" x2="-22.86" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="PUMP_2" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
