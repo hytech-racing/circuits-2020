@@ -1884,9 +1884,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <port name="GLV_BATTERY_2" side="right" coord="0" direction="in"/>
 <port name="DCDC" side="left" coord="7.62" direction="in"/>
 <port name="DCDC_2" side="left" coord="5.08" direction="in"/>
-<port name="START" side="left" coord="-2.54" direction="in"/>
-<port name="AFTER_BRB" side="left" coord="-5.08" direction="io"/>
-<port name="GND" side="left" coord="-7.62" direction="pwr"/>
+<port name="START" side="left" coord="-5.08" direction="in"/>
+<port name="AFTER_BRB" side="left" coord="-7.62" direction="in"/>
+<port name="GND" side="left" coord="-10.16" direction="pwr"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -2129,9 +2129,9 @@ Orange: HV High Current Path</text>
 <wire x1="210.82" y1="264.16" x2="210.82" y2="256.54" width="0.6096" layer="156"/>
 <wire x1="210.82" y1="256.54" x2="215.9" y2="256.54" width="0.6096" layer="156"/>
 <wire x1="88.9" y1="12.7" x2="88.9" y2="10.16" width="0.1524" layer="157"/>
-<wire x1="99.06" y1="101.6" x2="99.06" y2="63.5" width="1.27" layer="97"/>
-<wire x1="99.06" y1="63.5" x2="182.88" y2="63.5" width="1.27" layer="97"/>
-<wire x1="182.88" y1="63.5" x2="182.88" y2="101.6" width="1.27" layer="97"/>
+<wire x1="99.06" y1="101.6" x2="99.06" y2="60.96" width="1.27" layer="97"/>
+<wire x1="99.06" y1="60.96" x2="182.88" y2="60.96" width="1.27" layer="97"/>
+<wire x1="182.88" y1="60.96" x2="182.88" y2="101.6" width="1.27" layer="97"/>
 <wire x1="182.88" y1="101.6" x2="99.06" y2="101.6" width="1.27" layer="97"/>
 <text x="101.6" y="104.14" size="5.08" layer="97">Power Switching Board</text>
 </plain>
@@ -2551,9 +2551,9 @@ Orange: HV High Current Path</text>
 <attribute name="VALUE" x="295.402" y="243.332" size="1.778" layer="96"/>
 <attribute name="NAME" x="295.402" y="247.142" size="1.778" layer="95"/>
 </instance>
-<instance part="DCDC_CONTROL_IN_2" gate="G$1" x="93.98" y="73.66" smashed="yes" rot="R180">
-<attribute name="VALUE" x="96.52" y="81.28" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="96.52" y="67.818" size="1.778" layer="95" rot="R180"/>
+<instance part="DCDC_CONTROL_IN_2" gate="G$1" x="93.98" y="71.12" smashed="yes" rot="R180">
+<attribute name="VALUE" x="96.52" y="78.74" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="96.52" y="65.278" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="DCDC_12V_IN_2" gate="G$1" x="91.44" y="91.44" smashed="yes" rot="R180">
 <attribute name="VALUE" x="96.52" y="99.06" size="1.778" layer="96" rot="R180"/>
@@ -2586,17 +2586,17 @@ Orange: HV High Current Path</text>
 <attribute name="VALUE" x="101.6" y="99.06" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="101.6" y="83.058" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="DCDC_CONTROL_IN_1" gate="G$1" x="104.14" y="73.66" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="101.6" y="81.28" size="1.778" layer="96" rot="MR180"/>
-<attribute name="NAME" x="101.6" y="67.818" size="1.778" layer="95" rot="MR180"/>
+<instance part="DCDC_CONTROL_IN_1" gate="G$1" x="104.14" y="71.12" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="101.6" y="78.74" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="101.6" y="65.278" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="DCDC_IO_2" gate="G$1" x="190.5" y="83.82" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="185.42" y="91.44" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="185.42" y="75.438" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="POWER_ON_BTN" gate="SPST_MOM" x="53.34" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="48.26" y="78.74" size="1.778" layer="95"/>
-<attribute name="VALUE" x="48.26" y="76.2" size="1.778" layer="96"/>
+<instance part="POWER_ON_BTN" gate="SPST_MOM" x="53.34" y="81.28" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.26" y="76.2" size="1.778" layer="95"/>
+<attribute name="VALUE" x="48.26" y="73.66" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -3055,8 +3055,8 @@ Orange: HV High Current Path</text>
 </segment>
 <segment>
 <pinref part="POWER_ON_BTN" gate="SPST_MOM" pin="P"/>
-<wire x1="40.64" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
-<label x="43.18" y="83.82" size="1.778" layer="95"/>
+<wire x1="40.64" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
+<label x="43.18" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -5079,14 +5079,14 @@ Orange: HV High Current Path</text>
 </net>
 <net name="N$69" class="0">
 <segment>
-<wire x1="124.46" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="DCDC_CONTROL_IN_1" gate="G$1" pin="3"/>
 <portref moduleinst="POWER_SWITCHING" port="GND"/>
 </segment>
 </net>
 <net name="N$70" class="0">
 <segment>
-<wire x1="124.46" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="DCDC_CONTROL_IN_1" gate="G$1" pin="2"/>
 <portref moduleinst="POWER_SWITCHING" port="AFTER_BRB"/>
 </segment>
@@ -5095,7 +5095,7 @@ Orange: HV High Current Path</text>
 <segment>
 <pinref part="DCDC_CONTROL_IN_1" gate="G$1" pin="1"/>
 <portref moduleinst="POWER_SWITCHING" port="START"/>
-<wire x1="111.76" y1="76.2" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="60V_THRESHOLD" class="0">
@@ -5268,9 +5268,9 @@ Orange: HV High Current Path</text>
 <label x="78.74" y="190.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="40.64" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="DCDC_CONTROL_IN_2" gate="G$1" pin="2"/>
-<label x="43.18" y="73.66" size="1.778" layer="95"/>
+<label x="43.18" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12VSUPPLY_COOLING_FAN_3" class="0">
@@ -5285,8 +5285,8 @@ Orange: HV High Current Path</text>
 </segment>
 <segment>
 <pinref part="DCDC_CONTROL_IN_2" gate="G$1" pin="3"/>
-<wire x1="40.64" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
-<label x="43.18" y="71.12" size="1.778" layer="95"/>
+<wire x1="40.64" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
+<label x="43.18" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND_DCDC1" class="0">
@@ -5297,10 +5297,10 @@ Orange: HV High Current Path</text>
 <net name="N$54" class="0">
 <segment>
 <pinref part="POWER_ON_BTN" gate="SPST_MOM" pin="S"/>
-<wire x1="58.42" y1="81.28" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="DCDC_CONTROL_IN_2" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="81.28" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="78.74" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$64" class="0">
