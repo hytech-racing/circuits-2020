@@ -5088,8 +5088,8 @@ Layer: 94 Symbol</description>
 <part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
 <part name="C8" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
 <part name="SENSE18.C1" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="100V_0.1UF"/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="J28" library="HyTechDevices" deviceset="JUMPER_?_*" device="NANOFIT_SMD_VERTICAL" technology="NATURAL"/>
 <part name="J27" library="HyTechDevices" deviceset="JUMPER_?_*" device="NANOFIT_SMD_VERTICAL" technology="NATURAL"/>
 </parts>
@@ -5636,11 +5636,11 @@ Layer: 94 Symbol</description>
 <attribute name="VOLTAGE" x="152.4" y="153.162" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="152.4" y="154.178" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="177.8" y="96.52" smashed="yes" rot="R90">
+<instance part="R2" gate="G$1" x="177.8" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="176.53" y="95.25" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="179.07" y="95.25" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="177.8" y="104.14" smashed="yes" rot="R90">
+<instance part="R1" gate="G$1" x="177.8" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="176.53" y="102.87" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="179.07" y="102.87" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
@@ -5745,8 +5745,8 @@ Layer: 94 Symbol</description>
 <segment>
 <wire x1="177.8" y1="99.06" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="ICMP"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <junction x="177.8" y="99.06"/>
 <label x="137.16" y="99.06" size="1.27" layer="95"/>
 </segment>
@@ -5755,7 +5755,7 @@ Layer: 94 Symbol</description>
 <segment>
 <wire x1="134.62" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="IBIAS"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <label x="137.16" y="106.68" size="1.27" layer="95"/>
 </segment>
 </net>
@@ -5779,7 +5779,7 @@ Layer: 94 Symbol</description>
 <junction x="160.02" y="68.58"/>
 <pinref part="DRIVE.C1" gate="G$1" pin="2"/>
 <junction x="170.18" y="68.58"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="50.8" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
