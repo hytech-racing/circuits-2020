@@ -260,6 +260,7 @@
 <text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<<<<<<< Updated upstream
 <package name="SOIC-08">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;</description>
 <wire x1="2.4" y1="1.9" x2="2.4" y2="-1.908" width="0.2032" layer="21"/>
@@ -291,6 +292,8 @@
 <vertex x="-2.032" y="-1.016" curve="90"/>
 </polygon>
 </package>
+=======
+>>>>>>> Stashed changes
 <package name="OKI-78SR">
 <pad name="1" x="-2.54" y="0" drill="1" diameter="1.8796" shape="square" first="yes"/>
 <pad name="2" x="0" y="0" drill="1" diameter="1.8796"/>
@@ -382,6 +385,28 @@ Source: https://www.analog.com/media/en/package-pcb-resources/package/3805236552
 <wire x1="2.6" y1="-4.6" x2="2.6" y2="-1.75" width="0.127" layer="21"/>
 <rectangle x1="-3.175" y1="-5.08" x2="3.175" y2="-1.905" layer="39"/>
 </package>
+<<<<<<< Updated upstream
+=======
+<package name="DIL08">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+>>>>>>> Stashed changes
 </packages>
 </library>
 </libraries>
@@ -633,6 +658,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.448" y="55.626" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="30.353" y="55.499" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
+<<<<<<< Updated upstream
 <element name="U$2" library="HyTechDevices" package="SOIC-08" value="NE5532SOIC" x="19.05" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.05" y="50.8" size="0.6096" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="19.05" y="55.88" size="0.6096" layer="27" align="bottom-center"/>
@@ -649,12 +675,31 @@ design rules under a new name.</description>
 <element name="X2" library="HyTechDevices" package="1053091202" value="CONNECTOR-2NANO-FIT_VERTICAL-2" x="43.18" y="78.74" smashed="yes"/>
 <element name="X3" library="HyTechDevices" package="1053091202" value="CONNECTOR-2NANO-FIT_VERTICAL-2" x="74.93" y="53.34" smashed="yes"/>
 <element name="X4" library="HyTechDevices" package="1053101206" value="CONNECTOR-6NANO-FIT_VERTICAL-6" x="58.42" y="71.12" smashed="yes"/>
+=======
+<element name="U$4" library="HyTechDevices" package="OKI-78SR" value="OKI-78SR-5" x="17.78" y="78.74" smashed="yes"/>
+<element name="X2" library="HyTechDevices" package="1053091202" value="CONNECTOR-2NANO-FIT_VERTICAL-2" x="43.18" y="78.74" smashed="yes"/>
+<element name="X3" library="HyTechDevices" package="1053091202" value="CONNECTOR-2NANO-FIT_VERTICAL-2" x="52.07" y="83.82" smashed="yes"/>
+<element name="X4" library="HyTechDevices" package="1053101206" value="CONNECTOR-6NANO-FIT_VERTICAL-6" x="58.42" y="71.12" smashed="yes"/>
+<element name="U$5" library="HyTechDevices" package="DIL08" value="LM555DIL08" x="7.62" y="-6.35" smashed="yes">
+<attribute name="NAME" x="2.286" y="-9.271" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="4.064" y="-6.985" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="U2" library="HyTechDevices" package="TSSOP-24" value="AD5263BRUZ20-REEL7" x="-3.81" y="-6.35" smashed="yes">
+<attribute name="DKPN" value="AD5263BRUZ20-REEL7CT-ND" x="-3.81" y="-6.35" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="584-AD5263BRUZ20-R7" x="-3.81" y="-6.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-6.35" y="-2.159" size="0.8128" layer="25"/>
+<attribute name="RESISTANCE" value="20kΩ" x="-3.81" y="-6.35" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="30%" x="-3.81" y="-6.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-6.223" y="-10.541" size="0.8128" layer="27" align="top-left"/>
+</element>
+>>>>>>> Stashed changes
 </elements>
 <signals>
 <signal name="+5V">
 <contactref element="R5" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="R6" pad="2"/>
+<<<<<<< Updated upstream
 <contactref element="U$3" pad="8"/>
 <contactref element="U$3" pad="4"/>
 <contactref element="U$4" pad="3"/>
@@ -671,10 +716,24 @@ design rules under a new name.</description>
 <signal name="GND">
 <contactref element="R1" pad="1"/>
 <contactref element="U$2" pad="4"/>
+=======
+<contactref element="U$4" pad="3"/>
+<contactref element="U2" pad="7"/>
+<contactref element="U2" pad="15"/>
+<wire x1="26.25" y1="59.69" x2="20.32" y2="78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="30.949" y1="59.69" x2="26.25" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="13.55" y1="46.99" x2="26.25" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.71" y1="-6.675" x2="13.55" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.91" y1="-8.625" x2="-6.71" y2="-6.675" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND">
+<contactref element="R1" pad="1"/>
+>>>>>>> Stashed changes
 <contactref element="R9" pad="2"/>
 <contactref element="C4" pad="1"/>
 <contactref element="X2" pad="1"/>
 <contactref element="U$4" pad="2"/>
+<<<<<<< Updated upstream
 <contactref element="U1" pad="8"/>
 <contactref element="U1" pad="9"/>
 <contactref element="U1" pad="18"/>
@@ -692,10 +751,29 @@ design rules under a new name.</description>
 <wire x1="29.249" y1="59.69" x2="41.93" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="57.365" x2="29.249" y2="59.69" width="0" layer="19" extent="1-1"/>
 <wire x1="32.551" y1="57.404" x2="29.21" y2="57.365" width="0" layer="19" extent="1-1"/>
+=======
+<contactref element="C1" pad="1"/>
+<contactref element="C2" pad="2"/>
+<contactref element="U$5" pad="1"/>
+<contactref element="U2" pad="18"/>
+<contactref element="U2" pad="9"/>
+<contactref element="U2" pad="8"/>
+<wire x1="29.249" y1="59.69" x2="41.93" y2="78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="57.365" x2="29.249" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="32.551" y1="57.404" x2="29.21" y2="57.365" width="0" layer="19" extent="1-1"/>
+<wire x1="24.55" y1="62.865" x2="29.249" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="21.463" y1="57.062" x2="24.55" y2="62.865" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="78.74" x2="24.55" y2="62.865" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.91" y1="-6.675" x2="21.463" y2="57.062" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.71" y1="-7.325" x2="-0.91" y2="-6.675" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.71" y1="-7.975" x2="-6.71" y2="-7.325" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="-10.16" x2="-0.91" y2="-6.675" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="2"/>
 <contactref element="R3" pad="1"/>
+<<<<<<< Updated upstream
 <contactref element="U$2" pad="6"/>
 <wire x1="18.2" y1="41.91" x2="34.251" y2="57.404" width="0" layer="19" extent="1-1"/>
 <wire x1="16.45" y1="53.975" x2="18.2" y2="41.91" width="0" layer="19" extent="1-1"/>
@@ -713,10 +791,24 @@ design rules under a new name.</description>
 <contactref element="U1" pad="2"/>
 <wire x1="34.29" y1="67.31" x2="21.65" y2="65.405" width="0" layer="19" extent="1-1"/>
 <wire x1="41.55" y1="65.155" x2="21.65" y2="65.405" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="18.2" y1="41.91" x2="34.251" y2="57.404" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ALTERNATINGVOLTAGE">
+<contactref element="R4" pad="1"/>
+<contactref element="R10" pad="1"/>
+<wire x1="25.4" y1="47.41" x2="29.21" y2="51.728" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="J2" pad="1"/>
+<contactref element="U2" pad="2"/>
+<wire x1="-6.71" y1="-3.425" x2="34.29" y2="67.31" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$6">
 <contactref element="R8" pad="1"/>
 <contactref element="R5" pad="1"/>
+<<<<<<< Updated upstream
 <contactref element="U$2" pad="3"/>
 <wire x1="11.85" y1="46.99" x2="34.71" y2="46.99" width="0" layer="19" extent="1-1"/>
 <wire x1="21.65" y1="53.975" x2="11.85" y2="46.99" width="0" layer="19" extent="1-1"/>
@@ -734,10 +826,24 @@ design rules under a new name.</description>
 <contactref element="R4" pad="2"/>
 <wire x1="21.17" y1="48.26" x2="16.45" y2="55.245" width="0" layer="19" extent="1-1"/>
 <wire x1="25.4" y1="49.11" x2="21.17" y2="48.26" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="11.85" y1="46.99" x2="34.71" y2="46.99" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="R3" pad="2"/>
+<contactref element="R2" pad="2"/>
+<wire x1="19.9" y1="41.91" x2="19.47" y2="48.26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="WSTESTER_OUT">
+<contactref element="R2" pad="1"/>
+<contactref element="R4" pad="2"/>
+<wire x1="21.17" y1="48.26" x2="25.4" y2="49.11" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$9">
 <contactref element="R10" pad="2"/>
 <contactref element="R9" pad="1"/>
+<<<<<<< Updated upstream
 <contactref element="U$2" pad="2"/>
 <wire x1="29.21" y1="53.428" x2="21.65" y2="52.705" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="55.665" x2="29.21" y2="53.428" width="0" layer="19" extent="1-1"/>
@@ -753,6 +859,17 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="5"/>
 <contactref element="C7" pad="1"/>
 <wire x1="24.55" y1="67.691" x2="16.45" y2="66.675" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="29.21" y1="55.665" x2="29.21" y2="53.428" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+12V">
+<contactref element="X2" pad="2"/>
+<contactref element="U$4" pad="1"/>
+<wire x1="15.24" y1="78.74" x2="44.43" y2="78.74" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="C7" pad="1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$4">
 <contactref element="R8" pad="2"/>
@@ -767,6 +884,7 @@ design rules under a new name.</description>
 <signal name="N$17">
 <contactref element="C1" pad="2"/>
 <contactref element="R6" pad="1"/>
+<<<<<<< Updated upstream
 <contactref element="U$3" pad="2"/>
 <contactref element="U$3" pad="6"/>
 <contactref element="U1" pad="3"/>
@@ -799,10 +917,46 @@ design rules under a new name.</description>
 <contactref element="U1" pad="14"/>
 <contactref element="X4" pad="6"/>
 <wire x1="47.35" y1="59.305" x2="60.92" y2="73.62" width="0" layer="19" extent="1-1"/>
+=======
+<contactref element="U2" pad="3"/>
+<wire x1="21.463" y1="58.762" x2="24.55" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.71" y1="-4.075" x2="21.463" y2="58.762" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SCLK">
+<contactref element="X4" pad="2"/>
+<contactref element="U2" pad="12"/>
+<wire x1="-6.71" y1="-9.925" x2="58.42" y2="71.12" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SDI">
+<contactref element="X4" pad="3"/>
+<contactref element="U2" pad="11"/>
+<wire x1="-6.71" y1="-9.275" x2="60.92" y2="71.12" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS">
+<contactref element="X4" pad="4"/>
+<contactref element="U2" pad="13"/>
+<wire x1="-0.91" y1="-9.925" x2="55.92" y2="73.62" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SDO">
+<contactref element="X4" pad="5"/>
+<contactref element="U2" pad="16"/>
+<wire x1="-0.91" y1="-7.975" x2="58.42" y2="73.62" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RESET">
+<contactref element="X4" pad="6"/>
+<contactref element="U2" pad="14"/>
+<wire x1="-0.91" y1="-9.275" x2="60.92" y2="73.62" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$5">
 <contactref element="X3" pad="2"/>
 </signal>
+<<<<<<< Updated upstream
+=======
+<signal name="VCC">
+<contactref element="U$5" pad="8"/>
+</signal>
+>>>>>>> Stashed changes
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
