@@ -611,31 +611,6 @@ chip</description>
 <text x="0" y="1.778" size="0.635" layer="25" font="vector" rot="R180" align="top-center">&gt;NAME</text>
 <rectangle x1="-1.778" y1="-1.778" x2="1.778" y2="1.778" layer="39"/>
 </package>
-<package name="1206-RES">
-<description>YC/TC164
-&lt;br&gt;
-&lt;a href="http://new-web.yageo.com/exep/pages/download/literatures/PYu-R_Mount_10.pdf"&gt;Landing Pattern&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf"&gt;Size&lt;/a&gt;
-&lt;br&gt;&lt;br&gt;
-Note: Also works for CAT/CAY16 Series.
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/54/CATCAY-777361.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="-1.2" y="-0.9" dx="0.9" dy="0.45" layer="1" rot="R90"/>
-<smd name="2" x="-0.4" y="-0.9" dx="0.9" dy="0.45" layer="1" rot="R90"/>
-<smd name="3" x="0.4" y="-0.9" dx="0.9" dy="0.45" layer="1" rot="R90"/>
-<smd name="4" x="1.2" y="-0.9" dx="0.9" dy="0.45" layer="1" rot="R90"/>
-<smd name="5" x="1.2" y="0.9" dx="0.9" dy="0.45" layer="1" rot="R270"/>
-<smd name="6" x="0.4" y="0.9" dx="0.9" dy="0.45" layer="1" rot="R270"/>
-<smd name="7" x="-0.4" y="0.9" dx="0.9" dy="0.45" layer="1" rot="R270"/>
-<smd name="8" x="-1.2" y="0.9" dx="0.9" dy="0.45" layer="1" rot="R270"/>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
-<text x="-1.905" y="0" size="0.8128" layer="21" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-1.778" y1="-1.778" x2="1.778" y2="1.778" layer="39"/>
-</package>
 <package name="CLP1608-2L">
 <description>CLP1608-2L Yageo 0603 VSKY Diode Package
 &lt;br&gt;
@@ -829,21 +804,6 @@ Note: Also works for CAT/CAY16 Series.
 <wire x1="0" y1="1.016" x2="0.254" y2="0.762" width="0.1524" layer="94"/>
 <wire x1="0" y1="-0.762" x2="0.254" y2="-1.016" width="0.1524" layer="94"/>
 <wire x1="0.254" y1="-1.016" x2="0.508" y2="-1.27" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="RESISTOR">
-<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;RESISTANCE</text>
-<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.5875" y1="1.016" x2="-0.9525" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-2.8575" y1="1.016" x2="-2.2225" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-0.3175" y1="1.016" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-1.5875" y1="1.016" x2="-2.2225" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-0.3175" y1="1.016" x2="-0.9525" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-2.8575" y1="1.016" x2="-3.175" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="DIODE_SCHOTTKY">
 <wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
@@ -1207,49 +1167,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <attribute name="MOPN" value="78-GSOT15-E3-08"/>
 <attribute name="MPN" value="GSOT15-E3-08"/>
 <attribute name="VOLTAGE" value="15V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RESISTOR_NETWORK_4_*" prefix="RN">
-<description>Resistor Network, 4 Elements
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/447/yageo_yago_s_a0009164376_1-1991537.pdf"&gt;YC/TC Series&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/54/CATCAY-777361.pdf"&gt;CAT/CAY 16 Series&lt;/a&gt;</description>
-<gates>
-<gate name="A" symbol="RESISTOR" x="0" y="0" swaplevel="1"/>
-<gate name="B" symbol="RESISTOR" x="0" y="-10.16" swaplevel="1"/>
-<gate name="C" symbol="RESISTOR" x="0" y="-20.32" swaplevel="1"/>
-<gate name="D" symbol="RESISTOR" x="0" y="-30.48" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="1206-RES">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="8"/>
-<connect gate="B" pin="1" pad="2"/>
-<connect gate="B" pin="2" pad="7"/>
-<connect gate="C" pin="1" pad="3"/>
-<connect gate="C" pin="2" pad="6"/>
-<connect gate="D" pin="1" pad="4"/>
-<connect gate="D" pin="2" pad="5"/>
-</connects>
-<technologies>
-<technology name="10">
-<attribute name="DKPN" value="CAT16-100J4LFCT-ND"/>
-<attribute name="MANUFACTURER" value="Bourns Inc."/>
-<attribute name="MOPN" value="652-CAT16-100J4LF"/>
-<attribute name="MPN" value="CAT16-100J4LF"/>
-<attribute name="RESISTANCE" value="10"/>
-</technology>
-<technology name="10K">
-<attribute name="DKPN" value="YAG3410CT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-TC164-FR-0710KL"/>
-<attribute name="MPN" value="TC164-FR-0710KL"/>
-<attribute name="RESISTANCE" value="10K"/>
 </technology>
 </technologies>
 </device>
@@ -3898,6 +3815,199 @@ Layer: 94 Symbol</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="HyTechDevices - Copy">
+<packages>
+<package name="YC/TC164">
+<description>YC/TC164
+&lt;br&gt;
+&lt;a href="http://new-web.yageo.com/exep/pages/download/literatures/PYu-R_Mount_10.pdf"&gt;Landing Pattern&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf"&gt;Size&lt;/a&gt;</description>
+<smd name="1" x="-1.2" y="-0.9" dx="0.9" dy="0.45" layer="1" rot="R90"/>
+<smd name="2" x="-0.4" y="-0.9" dx="0.9" dy="0.45" layer="1" rot="R90"/>
+<smd name="3" x="0.4" y="-0.9" dx="0.9" dy="0.45" layer="1" rot="R90"/>
+<smd name="4" x="1.2" y="-0.9" dx="0.9" dy="0.45" layer="1" rot="R90"/>
+<smd name="5" x="1.2" y="0.9" dx="0.9" dy="0.45" layer="1" rot="R270"/>
+<smd name="6" x="0.4" y="0.9" dx="0.9" dy="0.45" layer="1" rot="R270"/>
+<smd name="7" x="-0.4" y="0.9" dx="0.9" dy="0.45" layer="1" rot="R270"/>
+<smd name="8" x="-1.2" y="0.9" dx="0.9" dy="0.45" layer="1" rot="R270"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
+<text x="-1.905" y="0" size="0.8128" layer="21" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.778" y1="-1.778" x2="1.778" y2="1.778" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RESISTOR">
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;RESISTANCE</text>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.5875" y1="1.016" x2="-0.9525" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-2.8575" y1="1.016" x2="-2.2225" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.016" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.5875" y1="1.016" x2="-2.2225" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.016" x2="-0.9525" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-2.8575" y1="1.016" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<text x="-1.27" y="-3.302" size="1.27" layer="96" align="top-center">&gt;MPN</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RESISTOR_NETWORK_4_*" prefix="RN">
+<description>&lt;b&gt;Resistor Network w/ 4 Indepedent Resistors&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf"&gt;Yageo TC Series&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="A" symbol="RESISTOR" x="0" y="0" swaplevel="1"/>
+<gate name="B" symbol="RESISTOR" x="0" y="-10.16" swaplevel="1"/>
+<gate name="C" symbol="RESISTOR" x="0" y="-20.32" swaplevel="1"/>
+<gate name="D" symbol="RESISTOR" x="0" y="-30.48" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="YC/TC164">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="8"/>
+<connect gate="B" pin="1" pad="2"/>
+<connect gate="B" pin="2" pad="7"/>
+<connect gate="C" pin="1" pad="3"/>
+<connect gate="C" pin="2" pad="6"/>
+<connect gate="D" pin="1" pad="4"/>
+<connect gate="D" pin="2" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="0">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="0"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="100">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="100"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="100K">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="100k"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="10K">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="10k"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="12K">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="12k"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="14K">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="158">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="1K">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="1k"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="26.7K">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="2K">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="2k"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="43K">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="RESISTANCE" value="43k"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3922,10 +4032,10 @@ Layer: 94 Symbol</description>
 <part name="GND2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="LED6" library="HyTechDevices" deviceset="LED" device="-0603" value="RED"/>
 <part name="LED5" library="HyTechDevices" deviceset="LED" device="-0603" value="RED"/>
-<part name="LED4" library="HyTechDevices" deviceset="LED" device="-0603" value="GREEN"/>
-<part name="LED3" library="HyTechDevices" deviceset="LED" device="-0603" value="GREEN"/>
-<part name="LED2" library="HyTechDevices" deviceset="LED" device="-0603" value="BLUE"/>
-<part name="LED1" library="HyTechDevices" deviceset="LED" device="-0603" value="BLUE"/>
+<part name="LED4" library="HyTechDevices" deviceset="LED" device="-0603" value="BLUE"/>
+<part name="LED3" library="HyTechDevices" deviceset="LED" device="-0603" value="BLUE"/>
+<part name="LED2" library="HyTechDevices" deviceset="LED" device="-0603" value="GREEN"/>
+<part name="LED1" library="HyTechDevices" deviceset="LED" device="-0603" value="GREEN"/>
 <part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND3" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="K1" library="HyTechDevices" deviceset="J115F11A*6*" device=""/>
@@ -3965,10 +4075,10 @@ Layer: 94 Symbol</description>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR" device="5930-SENSE_RES" value="0.001"/>
 <part name="D5" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
 <part name="D6" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
-<part name="RN1" library="HyTechDevices" deviceset="RESISTOR_NETWORK_4_*" device="" technology="10K"/>
-<part name="RN2" library="HyTechDevices" deviceset="RESISTOR_NETWORK_4_*" device="" technology="10K"/>
 <part name="D1" library="HyTechDevices" deviceset="SCHOTTKY" device=""/>
 <part name="D2" library="HyTechDevices" deviceset="SCHOTTKY" device=""/>
+<part name="RN1" library="HyTechDevices - Copy" deviceset="RESISTOR_NETWORK_4_*" device="" technology="10K"/>
+<part name="RN2" library="HyTechDevices - Copy" deviceset="RESISTOR_NETWORK_4_*" device="" technology="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -4239,35 +4349,41 @@ OV Falling: 13 V</text>
 <attribute name="NAME" x="-56.261" y="39.878" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="-52.451" y="39.878" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="RN1" gate="D" x="102.362" y="-19.812" smashed="yes">
-<attribute name="NAME" x="101.092" y="-18.542" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="101.092" y="-21.082" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="RN1" gate="C" x="112.014" y="-17.272" smashed="yes">
-<attribute name="NAME" x="110.744" y="-16.002" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="110.744" y="-18.542" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="RN1" gate="B" x="102.108" y="-14.732" smashed="yes">
-<attribute name="NAME" x="100.838" y="-13.462" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="100.838" y="-16.002" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="RN1" gate="A" x="112.014" y="-12.192" smashed="yes">
-<attribute name="NAME" x="110.744" y="-10.922" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="110.744" y="-13.462" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="RN2" gate="C" x="112.014" y="-7.112" smashed="yes">
-<attribute name="NAME" x="110.744" y="-5.842" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="110.744" y="-8.382" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="RN2" gate="D" x="101.854" y="-9.652" smashed="yes">
-<attribute name="NAME" x="100.584" y="-8.382" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="100.584" y="-10.922" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="D1" gate="G$1" x="73.914" y="-55.626" smashed="yes">
 <attribute name="NAME" x="72.644" y="-53.721" size="1.27" layer="95" align="bottom-center"/>
 </instance>
 <instance part="D2" gate="G$1" x="89.916" y="-55.626" smashed="yes" rot="MR0">
 <attribute name="NAME" x="91.186" y="-53.721" size="1.27" layer="95" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="RN1" gate="A" x="102.362" y="-19.812" smashed="yes">
+<attribute name="NAME" x="101.092" y="-18.542" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="101.092" y="-21.082" size="1.27" layer="96" align="top-center"/>
+<attribute name="MPN" x="101.092" y="-23.114" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="RN1" gate="B" x="112.014" y="-7.112" smashed="yes">
+<attribute name="NAME" x="110.744" y="-5.842" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="110.744" y="-8.382" size="1.27" layer="96" align="top-center"/>
+<attribute name="MPN" x="110.744" y="-10.414" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="RN1" gate="C" x="112.014" y="-12.192" smashed="yes">
+<attribute name="NAME" x="110.744" y="-10.922" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="110.744" y="-13.462" size="1.27" layer="96" align="top-center"/>
+<attribute name="MPN" x="110.744" y="-15.494" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="RN1" gate="D" x="112.014" y="-17.272" smashed="yes">
+<attribute name="NAME" x="110.744" y="-16.002" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="110.744" y="-18.542" size="1.27" layer="96" align="top-center"/>
+<attribute name="MPN" x="110.744" y="-20.574" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="RN2" gate="C" x="101.854" y="-9.652" smashed="yes">
+<attribute name="NAME" x="100.584" y="-8.382" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="100.584" y="-10.922" size="1.27" layer="96" align="top-center"/>
+<attribute name="MPN" x="100.584" y="-12.954" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="RN2" gate="D" x="102.108" y="-14.732" smashed="yes">
+<attribute name="NAME" x="100.838" y="-13.462" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="100.838" y="-16.002" size="1.27" layer="96" align="top-center"/>
+<attribute name="MPN" x="100.838" y="-18.034" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -4511,7 +4627,7 @@ OV Falling: 13 V</text>
 <segment>
 <pinref part="LED6" gate="LED" pin="A"/>
 <wire x1="80.772" y1="-19.812" x2="97.282" y2="-19.812" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="D" pin="1"/>
+<pinref part="RN1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="!FAULT1" class="0">
@@ -4525,7 +4641,7 @@ OV Falling: 13 V</text>
 <segment>
 <pinref part="LED5" gate="LED" pin="A"/>
 <wire x1="92.71" y1="-17.272" x2="106.934" y2="-17.272" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="C" pin="1"/>
+<pinref part="RN1" gate="D" pin="1"/>
 </segment>
 </net>
 <net name="!CH2" class="0">
@@ -4539,7 +4655,7 @@ OV Falling: 13 V</text>
 <segment>
 <pinref part="LED4" gate="LED" pin="A"/>
 <wire x1="80.772" y1="-14.732" x2="97.028" y2="-14.732" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="B" pin="1"/>
+<pinref part="RN2" gate="D" pin="1"/>
 </segment>
 </net>
 <net name="!CH1" class="0">
@@ -4553,7 +4669,7 @@ OV Falling: 13 V</text>
 <segment>
 <pinref part="LED3" gate="LED" pin="A"/>
 <wire x1="92.71" y1="-12.192" x2="106.934" y2="-12.192" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="A" pin="1"/>
+<pinref part="RN1" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="!VALID2" class="0">
@@ -4567,7 +4683,7 @@ OV Falling: 13 V</text>
 <segment>
 <pinref part="LED2" gate="LED" pin="A"/>
 <wire x1="80.772" y1="-9.652" x2="96.774" y2="-9.652" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="D" pin="1"/>
+<pinref part="RN2" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="!VALID1" class="0">
@@ -4581,7 +4697,7 @@ OV Falling: 13 V</text>
 <segment>
 <pinref part="LED1" gate="LED" pin="A"/>
 <wire x1="92.71" y1="-7.112" x2="106.934" y2="-7.112" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="C" pin="1"/>
+<pinref part="RN1" gate="B" pin="1"/>
 </segment>
 </net>
 <net name="OV2" class="0">
@@ -4788,10 +4904,10 @@ OV Falling: 13 V</text>
 <wire x1="114.554" y1="-14.732" x2="114.554" y2="-12.192" width="0.1524" layer="91"/>
 <wire x1="104.648" y1="-14.732" x2="114.554" y2="-14.732" width="0.1524" layer="91"/>
 <wire x1="104.902" y1="-19.812" x2="114.554" y2="-19.812" width="0.1524" layer="91"/>
-<wire x1="114.554" y1="-14.732" x2="114.554" y2="-17.272" width="0.1524" layer="91"/>
 <junction x="114.554" y="-14.732"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="INTVDD"/>
+<wire x1="114.554" y1="-14.732" x2="114.554" y2="-17.272" width="0.1524" layer="91"/>
 <wire x1="114.554" y1="-17.272" x2="114.554" y2="-19.812" width="0.1524" layer="91"/>
 <wire x1="40.132" y1="-48.514" x2="40.132" y2="-47.752" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="CASIN"/>
@@ -4803,13 +4919,13 @@ OV Falling: 13 V</text>
 <junction x="70.358" y="-48.514"/>
 <junction x="114.554" y="-19.812"/>
 <wire x1="114.554" y1="-19.812" x2="114.554" y2="-48.514" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="D" pin="2"/>
-<pinref part="RN1" gate="C" pin="2"/>
-<junction x="114.554" y="-17.272"/>
-<pinref part="RN1" gate="B" pin="2"/>
 <pinref part="RN1" gate="A" pin="2"/>
-<pinref part="RN2" gate="D" pin="2"/>
+<pinref part="RN1" gate="B" pin="2"/>
+<pinref part="RN1" gate="C" pin="2"/>
+<pinref part="RN1" gate="D" pin="2"/>
+<junction x="114.554" y="-17.272"/>
 <pinref part="RN2" gate="C" pin="2"/>
+<pinref part="RN2" gate="D" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
