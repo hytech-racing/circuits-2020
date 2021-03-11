@@ -848,7 +848,8 @@ design rules under a new name.</description>
 <signal name="WSTESTER_OUT">
 <contactref element="R4" pad="2"/>
 <contactref element="R2" pad="1"/>
-<wire x1="11.43" y1="12.485" x2="9.525" y2="10.58" width="0.4064" layer="1"/>
+<wire x1="11.43" y1="12.485" x2="9.6325" y2="10.6875" width="0.4064" layer="1"/>
+<wire x1="9.6325" y1="10.6875" x2="9.525" y2="10.58" width="0.4064" layer="1"/>
 <wire x1="9.525" y1="10.58" x2="5.08" y2="10.58" width="0.4064" layer="1"/>
 <wire x1="16.891" y1="19.831" x2="16.891" y2="19.812" width="0.4064" layer="1"/>
 <via x="16.891" y="19.812" extent="1-16" drill="0.35"/>
@@ -859,10 +860,11 @@ design rules under a new name.</description>
 <wire x1="11.43" y1="12.485" x2="13.755" y2="12.485" width="0.4064" layer="1"/>
 <contactref element="U$5" pad="3"/>
 <contactref element="X1" pad="2"/>
-<wire x1="9.525" y1="10.58" x2="9.525" y2="9.55845" width="0.4064" layer="1"/>
-<wire x1="9.525" y1="9.55845" x2="11.436725" y2="7.646725" width="0.4064" layer="1"/>
+<wire x1="9.6325" y1="10.6875" x2="10.14" y2="10.18" width="0.4064" layer="1"/>
+<wire x1="10.14" y1="10.18" x2="10.14" y2="7.67345" width="0.4064" layer="1"/>
+<wire x1="10.14" y1="7.67345" x2="10.166725" y2="7.646725" width="0.4064" layer="1"/>
 <wire x1="16.891" y1="19.831" x2="17.7" y2="20.64" width="0" layer="19" extent="1-1"/>
-<wire x1="10.14" y1="7.62" x2="11.436725" y2="7.646725" width="0" layer="19" extent="1-1"/>
+<wire x1="10.14" y1="7.62" x2="10.166725" y2="7.646725" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R10" pad="2"/>
