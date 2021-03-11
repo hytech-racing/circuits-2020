@@ -3011,68 +3011,6 @@ chip</description>
 <wire x1="0" y1="0.381" x2="0" y2="0.127" width="0.1524" layer="21"/>
 <wire x1="0" y1="-0.381" x2="0" y2="-0.127" width="0.1524" layer="21"/>
 </package>
-<package name="39281063">
-<description>&lt;b&gt;Mini-Fit Junior connector 6 pole&lt;/b&gt;&lt;p&gt;
-Source: http://www.molex.com</description>
-<wire x1="-6.8" y1="4.5" x2="6.8" y2="4.5" width="0.254" layer="21"/>
-<wire x1="6.8" y1="4.5" x2="6.8" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="6.8" y1="-3.3" x2="6.8" y2="-4.9" width="0.254" layer="21"/>
-<wire x1="6.8" y1="-4.9" x2="-6.8" y2="-4.9" width="0.254" layer="21"/>
-<wire x1="-6.8" y1="-4.9" x2="-6.8" y2="4.5" width="0.254" layer="21"/>
-<wire x1="6.8" y1="-2.2" x2="6.8" y2="-3.3" width="0.254" layer="21" curve="-180"/>
-<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="27"/>
-<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="27"/>
-<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="27"/>
-<pad name="1" x="4.2" y="-2.75" drill="1.4" shape="square"/>
-<pad name="2" x="0" y="-2.75" drill="1.4" shape="square"/>
-<pad name="3" x="-4.2" y="-2.75" drill="1.4" shape="square"/>
-<pad name="4" x="4.2" y="2.75" drill="1.4" shape="square"/>
-<pad name="5" x="0" y="2.75" drill="1.4" shape="square"/>
-<pad name="6" x="-4.2" y="2.75" drill="1.4" shape="square"/>
-<text x="0" y="-5.08" size="1.27" layer="25" align="top-center">&gt;NAME</text>
-<text x="0" y="6.35" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="1054051206">
-<smd name="2" x="0" y="0" dx="2.5" dy="1.24" layer="1" rot="R90"/>
-<smd name="5" x="0" y="3.3" dx="2.5" dy="1.24" layer="1" rot="R90"/>
-<smd name="4" x="2.5" y="3.3" dx="2.5" dy="1.24" layer="1" rot="R90"/>
-<smd name="1" x="2.5" y="0" dx="2.5" dy="1.24" layer="1" rot="R90"/>
-<smd name="3" x="-2.5" y="0" dx="2.5" dy="1.24" layer="1" rot="R90"/>
-<smd name="6" x="-2.5" y="3.3" dx="2.5" dy="1.24" layer="1" rot="R90"/>
-<smd name="PAD" x="-4.77" y="-4.93" dx="1.1" dy="8.2" layer="1"/>
-<smd name="PAD2" x="4.77" y="-4.93" dx="1.1" dy="8.2" layer="1"/>
-<wire x1="-4" y1="5" x2="4" y2="5" width="0.127" layer="21"/>
-<wire x1="4" y1="5" x2="4" y2="0" width="0.127" layer="21"/>
-<wire x1="4" y1="0" x2="6" y2="0" width="0.127" layer="21"/>
-<wire x1="6" y1="0" x2="6" y2="-10" width="0.127" layer="21"/>
-<wire x1="6" y1="-10" x2="3" y2="-10" width="0.127" layer="21"/>
-<wire x1="3" y1="-10" x2="3" y2="-11" width="0.127" layer="21"/>
-<wire x1="3" y1="-11" x2="-3" y2="-11" width="0.127" layer="21"/>
-<wire x1="-6" y1="-10" x2="-6" y2="0" width="0.127" layer="21"/>
-<wire x1="-6" y1="0" x2="-4" y2="0" width="0.127" layer="21"/>
-<wire x1="-4" y1="0" x2="-4" y2="5" width="0.127" layer="21"/>
-<wire x1="-6" y1="-10" x2="-3" y2="-10" width="0.127" layer="21"/>
-<wire x1="-3" y1="-10" x2="-3" y2="-11" width="0.127" layer="21"/>
-</package>
-<package name="1053101206">
-<pad name="2" x="0" y="0" drill="1.2"/>
-<pad name="5" x="0" y="2.5" drill="1.2"/>
-<pad name="6" x="2.5" y="2.5" drill="1.2"/>
-<pad name="3" x="2.5" y="0" drill="1.2"/>
-<pad name="1" x="-2.5" y="0" drill="1.2"/>
-<pad name="4" x="-2.5" y="2.5" drill="1.2"/>
-<wire x1="-4.25" y1="4.25" x2="4.25" y2="4.25" width="0.127" layer="21"/>
-<wire x1="-4.25" y1="4.25" x2="-4.25" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-4.25" y1="-1.75" x2="-2.6" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="-1.75" x2="2.6" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="2.6" y1="-1.75" x2="4.25" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="4.25" y1="-1.75" x2="4.25" y2="4.25" width="0.127" layer="21"/>
-<hole x="-1.25" y="-1.34" drill="1.3"/>
-<wire x1="2.6" y1="-4.6" x2="-2.6" y2="-4.6" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="-4.6" x2="-2.6" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="2.6" y1="-4.6" x2="2.6" y2="-1.75" width="0.127" layer="21"/>
-<rectangle x1="-3.175" y1="-5.08" x2="3.175" y2="-1.905" layer="39"/>
-</package>
 <package name="39288020">
 <description>&lt;b&gt;Mini-Fit Junior connector 2 pole&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com</description>
@@ -3161,6 +3099,48 @@ Source: https://www.analog.com/media/en/package-pcb-resources/package/3805236552
 <text x="-1.905" y="1.905" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.905" y="-1.905" size="0.8128" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
+<package name="TEENSY_3.2_SIMPLE">
+<pad name="AGND" x="16.51" y="31.75" drill="0.8"/>
+<pad name="D13" x="16.51" y="1.27" drill="0.8"/>
+<pad name="A0" x="16.51" y="3.81" drill="0.8"/>
+<pad name="A1" x="16.51" y="6.35" drill="0.8"/>
+<pad name="A2" x="16.51" y="8.89" drill="0.8"/>
+<pad name="A3" x="16.51" y="11.43" drill="0.8"/>
+<pad name="A4" x="16.51" y="13.97" drill="0.8"/>
+<pad name="A5" x="16.51" y="16.51" drill="0.8"/>
+<pad name="A6" x="16.51" y="19.05" drill="0.8"/>
+<pad name="A7" x="16.51" y="21.59" drill="0.8"/>
+<pad name="A8" x="16.51" y="24.13" drill="0.8"/>
+<pad name="D12" x="1.27" y="1.27" drill="0.8"/>
+<pad name="D11" x="1.27" y="3.81" drill="0.8"/>
+<pad name="D5" x="1.27" y="19.05" drill="0.8"/>
+<pad name="D4(CANRX)" x="1.27" y="21.59" drill="0.8"/>
+<pad name="D3(CANTX)" x="1.27" y="24.13" drill="0.8"/>
+<pad name="D2" x="1.27" y="26.67" drill="0.8"/>
+<pad name="GND" x="1.27" y="34.29" drill="0.8"/>
+<pad name="VIN" x="16.51" y="34.29" drill="0.8"/>
+<pad name="3.3V" x="16.51" y="29.21" drill="0.8"/>
+<pad name="A9" x="16.51" y="26.67" drill="0.8"/>
+<pad name="D0(RX1)" x="1.27" y="31.75" drill="0.8"/>
+<pad name="D1(TX1)" x="1.27" y="29.21" drill="0.8"/>
+<pad name="D10(TX2)" x="1.27" y="6.35" drill="0.8"/>
+<pad name="D6" x="1.27" y="16.51" drill="0.8"/>
+<pad name="D7(RX3)" x="1.27" y="13.97" drill="0.8"/>
+<pad name="D8(TX3)" x="1.27" y="11.43" drill="0.8"/>
+<pad name="D9(RX2)" x="1.27" y="8.89" drill="0.8"/>
+<wire x1="17.78" y1="35.56" x2="17.78" y2="0" width="0.127" layer="21"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="35.56" width="0.127" layer="21"/>
+<wire x1="5.08" y1="36.322" x2="12.7" y2="36.322" width="0.127" layer="21"/>
+<wire x1="12.7" y1="36.322" x2="12.7" y2="35.56" width="0.127" layer="21"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="36.322" width="0.127" layer="21"/>
+<wire x1="0" y1="35.56" x2="5.08" y2="35.56" width="0.127" layer="21"/>
+<wire x1="12.7" y1="35.56" x2="17.78" y2="35.56" width="0.127" layer="21"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.127" layer="21"/>
+<wire x1="5.08" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="21"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.127" layer="21"/>
+<text x="8.89" y="33.401" size="2.032" layer="21" font="vector" ratio="12" align="center">3.2</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -3207,17 +3187,6 @@ Source: https://www.analog.com/media/en/package-pcb-resources/package/3805236552
 <pin name="P$1" x="0" y="-2.54" visible="off" length="short" swaplevel="1" rot="R90"/>
 <pin name="P$2" x="5.08" y="-2.54" visible="off" length="short" swaplevel="1" rot="R90"/>
 <text x="0" y="0.508" size="1.27" layer="94">JUMP</text>
-</symbol>
-<symbol name="MV">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="M">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="CONNECTOR_02">
 <description>&lt;a href="https://github.com/sparkfun/SparkFun-Eagle-Libraries"&gt;Source: Sparkfun&lt;/a&gt;</description>
@@ -3307,6 +3276,41 @@ Source: https://www.analog.com/media/en/package-pcb-resources/package/3805236552
 <pin name="RESET" x="-5.08" y="15.24" length="middle" direction="in"/>
 <pin name="DISCHARGE" x="-5.08" y="12.7" length="middle" direction="in"/>
 <text x="0" y="0" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="TEENSY_3.2_SIMPLE">
+<pin name="D0(RX1)" x="-2.54" y="35.56" visible="pin" length="short"/>
+<pin name="D1(TX1)" x="-2.54" y="33.02" visible="pin" length="short"/>
+<pin name="GND" x="-2.54" y="38.1" visible="pin" length="short"/>
+<wire x1="0" y1="40.64" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="40.64" width="0.254" layer="94"/>
+<wire x1="20.32" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
+<text x="5.08" y="1.27" size="1.778" layer="95">Teensy 3.2</text>
+<pin name="D2" x="-2.54" y="30.48" visible="pin" length="short"/>
+<pin name="D3(CANTX)" x="-2.54" y="27.94" visible="pin" length="short"/>
+<pin name="D4(CANRX)" x="-2.54" y="25.4" visible="pin" length="short"/>
+<pin name="D5" x="-2.54" y="22.86" visible="pin" length="short"/>
+<pin name="D6" x="-2.54" y="20.32" visible="pin" length="short"/>
+<pin name="D7(RX3)" x="-2.54" y="17.78" visible="pin" length="short"/>
+<pin name="D8(TX3)" x="-2.54" y="15.24" visible="pin" length="short"/>
+<pin name="D9(RX2)" x="-2.54" y="12.7" visible="pin" length="short"/>
+<pin name="D10(TX2)" x="-2.54" y="10.16" visible="pin" length="short"/>
+<pin name="D11" x="-2.54" y="7.62" visible="pin" length="short"/>
+<pin name="D12" x="-2.54" y="5.08" visible="pin" length="short"/>
+<pin name="D13" x="22.86" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="A0" x="22.86" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="A1" x="22.86" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="A2" x="22.86" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="A3" x="22.86" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="A4" x="22.86" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="A6" x="22.86" y="22.86" visible="pin" length="short" rot="R180"/>
+<pin name="A5" x="22.86" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="A7" x="22.86" y="25.4" visible="pin" length="short" rot="R180"/>
+<pin name="A9" x="22.86" y="30.48" visible="pin" length="short" rot="R180"/>
+<pin name="A8" x="22.86" y="27.94" visible="pin" length="short" rot="R180"/>
+<pin name="3.3V" x="22.86" y="33.02" visible="pin" length="short" rot="R180"/>
+<pin name="VIN" x="22.86" y="38.1" visible="pin" length="short" rot="R180"/>
+<pin name="AGND" x="22.86" y="35.56" visible="pin" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3481,64 +3485,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONNECTOR-6" prefix="X">
-<description>&lt;b&gt;Mini-Fit Junior connector 6 pole&lt;/b&gt;&lt;p&gt;
-Source: http://www.molex.com</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="5.08" addlevel="always"/>
-<gate name="-2" symbol="M" x="0" y="2.54" addlevel="always"/>
-<gate name="-3" symbol="M" x="0" y="0" addlevel="always"/>
-<gate name="-4" symbol="M" x="0" y="-2.54" addlevel="always"/>
-<gate name="-5" symbol="M" x="0" y="-5.08" addlevel="always"/>
-<gate name="-6" symbol="M" x="0" y="-7.62" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="39281063">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-<connect gate="-5" pin="S" pad="5"/>
-<connect gate="-6" pin="S" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="95566-61002" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="22K8620" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="NANO-FIT_RIGHT_ANGLE-6-SURFACE" package="1054051206">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-<connect gate="-5" pin="S" pad="5"/>
-<connect gate="-6" pin="S" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NANO-FIT_VERTICAL-6" package="1053101206">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-<connect gate="-5" pin="S" pad="5"/>
-<connect gate="-6" pin="S" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CONNECTOR-2" prefix="X">
 <description>&lt;b&gt;Mini-Fit Junior connector 2 pole&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com</description>
@@ -3676,6 +3622,49 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="TEENSY_3.2_SIMPLE">
+<description>Simple version of the Teensy 3.2 board that only uses the 2 main rows of pins, not the inner pins or the pins opposite the usb port.</description>
+<gates>
+<gate name="G$1" symbol="TEENSY_3.2_SIMPLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEENSY_3.2_SIMPLE">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="A8" pad="A8"/>
+<connect gate="G$1" pin="A9" pad="A9"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="D0(RX1)" pad="D0(RX1)"/>
+<connect gate="G$1" pin="D1(TX1)" pad="D1(TX1)"/>
+<connect gate="G$1" pin="D10(TX2)" pad="D10(TX2)"/>
+<connect gate="G$1" pin="D11" pad="D11"/>
+<connect gate="G$1" pin="D12" pad="D12"/>
+<connect gate="G$1" pin="D13" pad="D13"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3(CANTX)" pad="D3(CANTX)"/>
+<connect gate="G$1" pin="D4(CANRX)" pad="D4(CANRX)"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7(RX3)" pad="D7(RX3)"/>
+<connect gate="G$1" pin="D8(TX3)" pad="D8(TX3)"/>
+<connect gate="G$1" pin="D9(RX2)" pad="D9(RX2)"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -3786,7 +3775,6 @@ Source: http://www.molex.com</description>
 <part name="P+7" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND4" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="X2" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
-<part name="X4" library="HyTechDevices" deviceset="CONNECTOR-6" device="NANO-FIT_VERTICAL-6"/>
 <part name="U1" library="HyTechDevices" deviceset="AD5263BRUZ20-REEL7" device=""/>
 <part name="U$5" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
 <part name="U$6" library="HyTechDevices" deviceset="OPA990IDBVR" device=""/>
@@ -3794,6 +3782,7 @@ Source: http://www.molex.com</description>
 <part name="GND8" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+8" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-2" device="NANO-FIT_VERTICAL-2"/>
+<part name="U$2" library="HyTechDevices" deviceset="TEENSY_3.2_SIMPLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3912,25 +3901,6 @@ Source: http://www.molex.com</description>
 <attribute name="VALUE" x="185.42" y="272.415" size="1.4224" layer="96" rot="R180" align="top-left"/>
 <attribute name="NAME" x="185.42" y="260.858" size="1.27" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-1" x="48.006" y="267.716" smashed="yes">
-<attribute name="NAME" x="50.546" y="266.954" size="1.524" layer="95"/>
-<attribute name="VALUE" x="47.244" y="271.653" size="1.778" layer="96"/>
-</instance>
-<instance part="X4" gate="-2" x="48.006" y="265.176" smashed="yes">
-<attribute name="NAME" x="50.546" y="264.414" size="1.524" layer="95"/>
-</instance>
-<instance part="X4" gate="-3" x="48.006" y="262.636" smashed="yes">
-<attribute name="NAME" x="50.546" y="261.874" size="1.524" layer="95"/>
-</instance>
-<instance part="X4" gate="-4" x="48.006" y="260.096" smashed="yes">
-<attribute name="NAME" x="50.546" y="259.334" size="1.524" layer="95"/>
-</instance>
-<instance part="X4" gate="-5" x="48.006" y="257.556" smashed="yes">
-<attribute name="NAME" x="50.546" y="256.794" size="1.524" layer="95"/>
-</instance>
-<instance part="X4" gate="-6" x="48.006" y="255.016" smashed="yes">
-<attribute name="NAME" x="50.546" y="254.254" size="1.524" layer="95"/>
-</instance>
 <instance part="U1" gate="G$1" x="111.506" y="163.576" smashed="yes">
 <attribute name="NAME" x="98.298" y="179.578" size="1.778" layer="95"/>
 <attribute name="VALUE" x="98.044" y="144.272" size="1.778" layer="96" align="top-left"/>
@@ -3953,10 +3923,11 @@ Source: http://www.molex.com</description>
 <instance part="P+8" gate="1" x="266.7" y="177.8" smashed="yes">
 <attribute name="VALUE" x="264.16" y="172.72" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="X1" gate="G$1" x="139.7" y="261.62" smashed="yes" rot="R180">
-<attribute name="VALUE" x="139.7" y="272.415" size="1.4224" layer="96" rot="R180" align="top-left"/>
-<attribute name="NAME" x="139.7" y="260.858" size="1.27" layer="95" rot="R180"/>
+<instance part="X1" gate="G$1" x="307.34" y="121.92" smashed="yes" rot="R180">
+<attribute name="VALUE" x="307.34" y="132.715" size="1.4224" layer="96" rot="R180" align="top-left"/>
+<attribute name="NAME" x="307.34" y="121.158" size="1.27" layer="95" rot="R180"/>
 </instance>
+<instance part="U$2" gate="G$1" x="48.26" y="175.26" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -4108,20 +4079,18 @@ Source: http://www.molex.com</description>
 </net>
 <net name="WSTESTER_OUT" class="0">
 <segment>
-<wire x1="289.56" y1="142.24" x2="289.56" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="157.48" x2="284.48" y2="157.48" width="0.1524" layer="91"/>
-<label x="121.92" y="266.7" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="VIN+"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="142.24" x2="289.56" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="297.18" y1="148.844" x2="297.18" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="142.24" x2="297.18" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="137.16" x2="299.72" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="142.24" x2="297.18" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="142.24" x2="289.56" y2="142.24" width="0.1524" layer="91"/>
 <junction x="289.56" y="142.24"/>
-<junction x="297.18" y="142.24"/>
-<label x="299.72" y="137.16" size="1.778" layer="95" xref="yes"/>
+<wire x1="289.56" y1="157.48" x2="284.48" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="VIN+"/>
+<wire x1="289.56" y1="157.48" x2="289.56" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="2"/>
+<wire x1="289.56" y1="142.24" x2="289.56" y2="127" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="127" x2="297.18" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4191,62 +4160,29 @@ Source: http://www.molex.com</description>
 </net>
 <net name="SCLK" class="0">
 <segment>
-<wire x1="93.726" y1="168.656" x2="86.106" y2="168.656" width="0.1524" layer="91"/>
-<label x="86.106" y="168.656" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="SCLK"/>
-</segment>
-<segment>
-<wire x1="45.466" y1="265.176" x2="37.846" y2="265.176" width="0.1524" layer="91"/>
-<label x="37.846" y="265.176" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="X4" gate="-2" pin="S"/>
-</segment>
-</net>
-<net name="SDI" class="0">
-<segment>
-<wire x1="93.726" y1="166.116" x2="75.946" y2="166.116" width="0.1524" layer="91"/>
-<label x="75.946" y="166.116" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="SDI"/>
-</segment>
-<segment>
-<wire x1="45.466" y1="262.636" x2="27.686" y2="262.636" width="0.1524" layer="91"/>
-<label x="27.686" y="262.636" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="X4" gate="-3" pin="S"/>
+<pinref part="U$2" gate="G$1" pin="D13"/>
+<wire x1="71.12" y1="180.34" x2="76.2" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="180.34" x2="76.2" y2="168.656" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="168.656" x2="93.726" y2="168.656" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS" class="0">
 <segment>
-<wire x1="93.726" y1="163.576" x2="65.786" y2="163.576" width="0.1524" layer="91"/>
-<label x="65.786" y="163.576" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="93.726" y1="163.576" x2="40.64" y2="163.576" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="CS"/>
-</segment>
-<segment>
-<wire x1="45.466" y1="260.096" x2="17.526" y2="260.096" width="0.1524" layer="91"/>
-<label x="17.526" y="260.096" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="X4" gate="-4" pin="S"/>
-</segment>
-</net>
-<net name="SDO" class="0">
-<segment>
-<wire x1="93.726" y1="161.036" x2="75.946" y2="161.036" width="0.1524" layer="91"/>
-<label x="75.946" y="161.036" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="SDO"/>
-</segment>
-<segment>
-<wire x1="45.466" y1="257.556" x2="27.686" y2="257.556" width="0.1524" layer="91"/>
-<label x="27.686" y="257.556" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="X4" gate="-5" pin="S"/>
+<wire x1="40.64" y1="163.576" x2="40.64" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="D10(TX2)"/>
+<wire x1="40.64" y1="185.42" x2="45.72" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
-<wire x1="93.726" y1="158.496" x2="86.106" y2="158.496" width="0.1524" layer="91"/>
-<label x="86.106" y="158.496" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="RESET"/>
-</segment>
-<segment>
-<wire x1="45.466" y1="255.016" x2="37.846" y2="255.016" width="0.1524" layer="91"/>
-<label x="37.846" y="255.016" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="X4" gate="-6" pin="S"/>
+<wire x1="93.726" y1="158.496" x2="38.1" y2="158.496" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="D9(RX2)"/>
+<wire x1="38.1" y1="158.496" x2="38.1" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="187.96" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4287,10 +4223,21 @@ Source: http://www.molex.com</description>
 <junction x="218.44" y="157.48"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="N$10" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="266.7" x2="129.54" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="SDI"/>
+<wire x1="93.726" y1="166.116" x2="43.18" y2="166.116" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="D11"/>
+<wire x1="43.18" y1="166.116" x2="43.18" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="182.88" x2="45.72" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="D12"/>
+<pinref part="U1" gate="G$1" pin="SDO"/>
+<wire x1="45.72" y1="180.34" x2="45.72" y2="161.036" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="161.036" x2="93.726" y2="161.036" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
