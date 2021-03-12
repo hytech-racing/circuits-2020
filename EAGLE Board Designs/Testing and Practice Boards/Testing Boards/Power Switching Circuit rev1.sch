@@ -4355,35 +4355,35 @@ OV Falling: 13 V</text>
 <instance part="D2" gate="G$1" x="89.916" y="-55.626" smashed="yes" rot="MR0">
 <attribute name="NAME" x="91.186" y="-53.721" size="1.27" layer="95" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="RN1" gate="A" x="102.362" y="-19.812" smashed="yes">
-<attribute name="NAME" x="101.092" y="-18.542" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="101.092" y="-21.082" size="1.27" layer="96" align="top-center"/>
-<attribute name="MPN" x="101.092" y="-23.114" size="1.27" layer="96" align="top-center"/>
+<instance part="RN1" gate="A" x="102.108" y="-14.732" smashed="yes">
+<attribute name="NAME" x="100.838" y="-13.462" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="100.838" y="-16.002" size="1.27" layer="96" align="top-center"/>
+<attribute name="MPN" x="100.838" y="-18.034" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="RN1" gate="B" x="112.014" y="-7.112" smashed="yes">
-<attribute name="NAME" x="110.744" y="-5.842" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="110.744" y="-8.382" size="1.27" layer="96" align="top-center"/>
-<attribute name="MPN" x="110.744" y="-10.414" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="RN1" gate="C" x="112.014" y="-12.192" smashed="yes">
+<instance part="RN1" gate="B" x="112.014" y="-12.192" smashed="yes">
 <attribute name="NAME" x="110.744" y="-10.922" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="110.744" y="-13.462" size="1.27" layer="96" align="top-center"/>
 <attribute name="MPN" x="110.744" y="-15.494" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="RN1" gate="C" x="112.014" y="-7.112" smashed="yes">
+<attribute name="NAME" x="110.744" y="-5.842" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="110.744" y="-8.382" size="1.27" layer="96" align="top-center"/>
+<attribute name="MPN" x="110.744" y="-10.414" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="RN1" gate="D" x="112.014" y="-17.272" smashed="yes">
 <attribute name="NAME" x="110.744" y="-16.002" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="110.744" y="-18.542" size="1.27" layer="96" align="top-center"/>
 <attribute name="MPN" x="110.744" y="-20.574" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="RN2" gate="C" x="101.854" y="-9.652" smashed="yes">
+<instance part="RN2" gate="C" x="102.362" y="-19.812" smashed="yes">
+<attribute name="NAME" x="101.092" y="-18.542" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="101.092" y="-21.082" size="1.27" layer="96" align="top-center"/>
+<attribute name="MPN" x="101.092" y="-23.114" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="RN2" gate="D" x="101.854" y="-9.652" smashed="yes">
 <attribute name="NAME" x="100.584" y="-8.382" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="100.584" y="-10.922" size="1.27" layer="96" align="top-center"/>
 <attribute name="MPN" x="100.584" y="-12.954" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="RN2" gate="D" x="102.108" y="-14.732" smashed="yes">
-<attribute name="NAME" x="100.838" y="-13.462" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="100.838" y="-16.002" size="1.27" layer="96" align="top-center"/>
-<attribute name="MPN" x="100.838" y="-18.034" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -4627,7 +4627,7 @@ OV Falling: 13 V</text>
 <segment>
 <pinref part="LED6" gate="LED" pin="A"/>
 <wire x1="80.772" y1="-19.812" x2="97.282" y2="-19.812" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="A" pin="1"/>
+<pinref part="RN2" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="!FAULT1" class="0">
@@ -4655,7 +4655,7 @@ OV Falling: 13 V</text>
 <segment>
 <pinref part="LED4" gate="LED" pin="A"/>
 <wire x1="80.772" y1="-14.732" x2="97.028" y2="-14.732" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="D" pin="1"/>
+<pinref part="RN1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="!CH1" class="0">
@@ -4669,7 +4669,7 @@ OV Falling: 13 V</text>
 <segment>
 <pinref part="LED3" gate="LED" pin="A"/>
 <wire x1="92.71" y1="-12.192" x2="106.934" y2="-12.192" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="C" pin="1"/>
+<pinref part="RN1" gate="B" pin="1"/>
 </segment>
 </net>
 <net name="!VALID2" class="0">
@@ -4683,7 +4683,7 @@ OV Falling: 13 V</text>
 <segment>
 <pinref part="LED2" gate="LED" pin="A"/>
 <wire x1="80.772" y1="-9.652" x2="96.774" y2="-9.652" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="C" pin="1"/>
+<pinref part="RN2" gate="D" pin="1"/>
 </segment>
 </net>
 <net name="!VALID1" class="0">
@@ -4697,7 +4697,7 @@ OV Falling: 13 V</text>
 <segment>
 <pinref part="LED1" gate="LED" pin="A"/>
 <wire x1="92.71" y1="-7.112" x2="106.934" y2="-7.112" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="B" pin="1"/>
+<pinref part="RN1" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="OV2" class="0">
