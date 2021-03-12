@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1935,7 +1935,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="18.161" y1="25.654" x2="18.034" y2="25.527" width="0.4064" layer="1"/>
 <wire x1="18.034" y1="25.527" x2="18.034" y2="20.574" width="0.4064" layer="1"/>
 <wire x1="22.4155" y1="25.654" x2="18.161" y2="25.654" width="0.4064" layer="1"/>
-<wire x1="15.56425" y1="6.219278125" x2="15.377575" y2="6.405953125" width="0.4064" layer="1"/>
 <wire x1="21.27431875" y1="16.626371875" x2="24.548975" y2="19.901028125" width="0.4064" layer="1"/>
 <wire x1="24.548975" y1="19.901028125" x2="24.967946875" y2="20.32" width="0.4064" layer="1"/>
 <wire x1="25.4" y1="20.32" x2="24.967946875" y2="20.32" width="0.4064" layer="1"/>
@@ -1945,10 +1944,10 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="26.67" y1="15.748" x2="29.591" y2="15.748" width="0.4064" layer="1"/>
 <wire x1="29.591" y1="15.748" x2="29.591" y2="17.907" width="0.4064" layer="1"/>
 <wire x1="15.761028125" y1="4.839028125" x2="26.67" y2="15.748" width="0.4064" layer="1"/>
-<wire x1="15.56425" y1="6.219278125" x2="18.059471875" y2="8.7145" width="0.4064" layer="1"/>
-<wire x1="18.059471875" y1="8.7145" x2="18.059471875" y2="9.16145" width="0.4064" layer="1"/>
 <wire x1="18.059471875" y1="9.16145" x2="24.548975" y2="15.650953125" width="0.4064" layer="1"/>
 <wire x1="24.548975" y1="15.650953125" x2="24.548975" y2="19.901028125" width="0.4064" layer="1"/>
+<wire x1="15.56425" y1="6.219278125" x2="18.059471875" y2="8.7145" width="0.4064" layer="1"/>
+<wire x1="18.059471875" y1="8.7145" x2="18.059471875" y2="9.16145" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C1" pad="1"/>
@@ -1987,12 +1986,11 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <signal name="!FAULT1">
 <contactref element="U1" pad="15"/>
 <contactref element="LED5" pad="C"/>
-<wire x1="4.35660625" y1="4.557578125" x2="4.35660625" y2="4.52929375" width="0.4064" layer="1"/>
 <wire x1="4.817621875" y1="3.941278125" x2="4.817621875" y2="3.540734375" width="0.4064" layer="1"/>
-<wire x1="4.35660625" y1="4.557578125" x2="4.35660625" y2="4.40229375" width="0.4064" layer="1"/>
 <wire x1="4.35660625" y1="4.40229375" x2="4.817621875" y2="3.941278125" width="0.4064" layer="1"/>
 <wire x1="4.817621875" y1="3.540734375" x2="2.9182375" y2="1.64135" width="0.4064" layer="1"/>
 <wire x1="2.9182375" y1="1.64135" x2="-3.14715" y2="1.64135" width="0.4064" layer="1"/>
+<wire x1="4.35660625" y1="4.557578125" x2="4.35660625" y2="4.40229375" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="LED5" pad="A"/>
@@ -2168,12 +2166,11 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <vertex x="28.194" y="0"/>
 <vertex x="28.194" y="-4.953"/>
 </polygon>
-<wire x1="21.0246625" y1="3.74836875" x2="21.276515625" y2="3.496515625" width="0.4064" layer="1"/>
-<wire x1="21.276515625" y1="3.496515625" x2="25.78903125" y2="-1.016" width="0.4064" layer="1"/>
-<wire x1="25.78903125" y1="-1.016" x2="30.226" y2="-1.016" width="0.4064" layer="1"/>
 <wire x1="13.725771875" y1="4.3808" x2="14.61005625" y2="3.496515625" width="0.4064" layer="1"/>
-<wire x1="14.61005625" y1="3.496515625" x2="21.276515625" y2="3.496515625" width="0.4064" layer="1"/>
-<wire x1="21.276515625" y1="3.496515625" x2="21.17439375" y2="3.598634375" width="0" layer="19" extent="1-1"/>
+<wire x1="25.789028125" y1="-1.016" x2="30.226" y2="-1.016" width="0.4064" layer="1"/>
+<wire x1="14.61005625" y1="3.496515625" x2="21.072275" y2="3.496515625" width="0.4064" layer="1"/>
+<wire x1="21.072275" y1="3.496515625" x2="21.17439375" y2="3.598634375" width="0.4064" layer="1"/>
+<wire x1="21.17439375" y1="3.598634375" x2="25.789028125" y2="-1.016" width="0.4064" layer="1"/>
 </signal>
 <signal name="CPO">
 <contactref element="U1" pad="1"/>
@@ -2309,7 +2306,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="1.303609375" y1="5.427040625" x2="1.64866875" y2="5.427040625" width="0.4064" layer="1"/>
 <wire x1="1.64866875" y1="5.427040625" x2="1.775671875" y2="5.3000375" width="0.4064" layer="1"/>
 <wire x1="2.067353125" y1="4.099353125" x2="2.94806875" y2="4.099353125" width="0.4064" layer="1"/>
-<wire x1="-8.393" y1="0.751" x2="-8.382" y2="0.762" width="0.4064" layer="1"/>
 <wire x1="-8.382" y1="0.762" x2="-6.35" y2="2.794" width="0.4064" layer="1"/>
 <wire x1="-6.35" y1="2.794" x2="0.762" y2="2.794" width="0.4064" layer="1"/>
 <wire x1="0.762" y1="2.794" x2="2.067353125" y2="4.099353125" width="0.4064" layer="1"/>
