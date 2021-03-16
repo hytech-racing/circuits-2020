@@ -4902,11 +4902,6 @@ Layer: 94 Symbol</description>
 <wire x1="22.86" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 <label x="25.4" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<wire x1="22.86" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
-<label x="27.94" y="30.48" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="2"/>
-</segment>
 </net>
 <net name="DASH_12V" class="0">
 <segment>
@@ -4920,9 +4915,9 @@ Layer: 94 Symbol</description>
 <label x="25.4" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="22.86" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
-<label x="27.94" y="33.02" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
+<label x="27.94" y="25.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="SHUTDOWN_H_OUT" class="0">
@@ -4935,11 +4930,6 @@ Layer: 94 Symbol</description>
 <pinref part="J2" gate="G$1" pin="6"/>
 <wire x1="22.86" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
 <label x="25.4" y="48.26" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="22.86" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<label x="27.94" y="27.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -5071,9 +5061,9 @@ Layer: 94 Symbol</description>
 <label x="154.94" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="22.86" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
-<label x="27.94" y="25.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="22.86" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
+<label x="27.94" y="33.02" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
