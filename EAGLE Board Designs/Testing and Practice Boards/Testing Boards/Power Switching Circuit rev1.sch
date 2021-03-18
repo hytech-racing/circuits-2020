@@ -4978,6 +4978,12 @@ OV Falling: 13 V</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,-68.58,81.28,X101-2,S,,,,"/>
+<approved hash="101,1,-68.58,83.82,X101-3,S,,,,"/>
+<approved hash="104,1,68.072,0.508,U1,EXTVDD,OUT,,,"/>
+<approved hash="104,1,40.132,-47.752,U1,INTVDD,CASIN,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
