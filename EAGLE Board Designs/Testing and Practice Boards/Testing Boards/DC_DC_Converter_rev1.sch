@@ -1024,15 +1024,15 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 </class>
 </classes>
 <parts>
-<part name="U$1" library="HyTechDevices" deviceset="DCM3714BD2K13E0C09" device=""/>
-<part name="C2" library="HyTechDevices" deviceset="EKYC250E__622MM25S" device=""/>
-<part name="J1" library="HyTechDevices" deviceset="CONNECTOR-4" device="MINIFIT"/>
+<part name="U1" library="HyTechDevices" deviceset="DCM3714BD2K13E0C09" device=""/>
+<part name="C1" library="HyTechDevices" deviceset="EKYC250E__622MM25S" device="" value="4.7 mF"/>
+<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-4" device="MINIFIT"/>
 <part name="F1" library="HyTechDevices" deviceset="FUSE" device="_MINIBLADE"/>
+<part name="J1" library="HyTechDevices" deviceset="CONNECTOR-2" device=""/>
 <part name="J2" library="HyTechDevices" deviceset="CONNECTOR-2" device=""/>
-<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-2" device=""/>
-<part name="U$2" library="HyTechDevices" deviceset="885_FUSE" device=""/>
-<part name="U$3" library="HyTechDevices" deviceset="885_FUSE" device=""/>
-<part name="C1" library="HyTechDevices" deviceset="LGG2G181MELA25" device=""/>
+<part name="F2" library="HyTechDevices" deviceset="885_FUSE" device=""/>
+<part name="F3" library="HyTechDevices" deviceset="885_FUSE" device=""/>
+<part name="C2" library="HyTechDevices" deviceset="LGG2G181MELA25" device=""/>
 <part name="U$4" library="HyTechSupplies" deviceset="HV+" device=""/>
 <part name="U$5" library="HyTechSupplies" deviceset="HV-" device=""/>
 <part name="GND1" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -1043,33 +1043,33 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="40.64" y="0" smashed="yes">
+<instance part="U1" gate="G$1" x="40.64" y="0" smashed="yes">
 <attribute name="NAME" x="40.64" y="0.762" size="1.27" layer="95"/>
 <attribute name="VALUE" x="40.64" y="-21.082" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C2" gate="G$1" x="78.74" y="-12.7" smashed="yes" rot="R270">
+<instance part="C1" gate="G$1" x="78.74" y="-12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="81.28" y="-11.43" size="1.27" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="76.2" y="-11.43" size="1.27" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="J1" gate="G$1" x="111.76" y="-2.54" smashed="yes" rot="MR0">
+<instance part="J3" gate="G$1" x="111.76" y="-2.54" smashed="yes" rot="MR0">
 <attribute name="NAME" x="111.76" y="-1.778" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="F1" gate="G$1" x="88.9" y="-2.54" smashed="yes">
 <attribute name="NAME" x="87.63" y="-1.27" size="1.27" layer="95" align="bottom-center"/>
 </instance>
-<instance part="J2" gate="G$1" x="0" y="0" smashed="yes">
+<instance part="J1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="NAME" x="0" y="0.762" size="1.27" layer="95"/>
 </instance>
-<instance part="J3" gate="G$1" x="0" y="-12.7" smashed="yes">
+<instance part="J2" gate="G$1" x="0" y="-12.7" smashed="yes">
 <attribute name="NAME" x="0" y="-11.938" size="1.27" layer="95"/>
 </instance>
-<instance part="U$2" gate="G$1" x="22.86" y="-2.54" smashed="yes">
+<instance part="F2" gate="G$1" x="22.86" y="-2.54" smashed="yes">
 <attribute name="NAME" x="21.59" y="-1.27" size="1.27" layer="95" align="bottom-center"/>
 </instance>
-<instance part="U$3" gate="G$1" x="22.86" y="-17.78" smashed="yes">
+<instance part="F3" gate="G$1" x="22.86" y="-17.78" smashed="yes">
 <attribute name="NAME" x="21.59" y="-16.51" size="1.27" layer="95" align="bottom-center"/>
 </instance>
-<instance part="C1" gate="G$1" x="32.004" y="-11.43" smashed="yes" rot="R270">
+<instance part="C2" gate="G$1" x="32.004" y="-11.43" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.544" y="-10.16" size="1.27" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="29.464" y="-10.16" size="1.27" layer="96" rot="R270" align="top-center"/>
 </instance>
@@ -1093,34 +1093,34 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 <segment>
 <wire x1="32.004" y1="-13.97" x2="32.004" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-17.78" x2="32.004" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="IN-"/>
+<pinref part="U1" gate="G$1" pin="IN-"/>
 <wire x1="32.004" y1="-17.78" x2="38.1" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="32.004" y="-17.78"/>
-<pinref part="U$3" gate="G$1" pin="2"/>
-<pinref part="C1" gate="G$1" pin="MINUS"/>
+<pinref part="F3" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="MINUS"/>
 </segment>
 </net>
 <net name="IN+" class="0">
 <segment>
 <wire x1="32.004" y1="-6.35" x2="32.004" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="32.004" y1="-2.54" x2="25.4" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="IN+"/>
+<pinref part="U1" gate="G$1" pin="IN+"/>
 <wire x1="32.004" y1="-2.54" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="32.004" y="-2.54"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<pinref part="C1" gate="G$1" pin="PLUS"/>
+<pinref part="F2" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="PLUS"/>
 </segment>
 </net>
 <net name="12V_UNFUSED" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUT+"/>
+<pinref part="U1" gate="G$1" pin="OUT+"/>
 <wire x1="68.58" y1="-2.54" x2="71.12" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="PLUS"/>
+<pinref part="C1" gate="G$1" pin="PLUS"/>
 <wire x1="71.12" y1="-2.54" x2="78.74" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-2.54" x2="83.82" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-7.62" x2="78.74" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="78.74" y="-2.54"/>
-<pinref part="U$1" gate="G$1" pin="SENSE+"/>
+<pinref part="U1" gate="G$1" pin="SENSE+"/>
 <wire x1="68.58" y1="-5.08" x2="71.12" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-5.08" x2="71.12" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="71.12" y="-2.54"/>
@@ -1134,20 +1134,20 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 <wire x1="91.44" y1="-2.54" x2="96.52" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-2.54" x2="101.6" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="96.52" y="-2.54"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="-2.54" x2="101.6" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="-5.08" x2="101.6" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="101.6" y="-5.08"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="MINUS"/>
+<pinref part="C1" gate="G$1" pin="MINUS"/>
 <wire x1="78.74" y1="-15.24" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="OUT-"/>
+<pinref part="U1" gate="G$1" pin="OUT-"/>
 <wire x1="78.74" y1="-17.78" x2="71.12" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="SENSE-"/>
+<pinref part="U1" gate="G$1" pin="SENSE-"/>
 <wire x1="71.12" y1="-17.78" x2="68.58" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-15.24" x2="71.12" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-15.24" x2="71.12" y2="-17.78" width="0.1524" layer="91"/>
@@ -1155,8 +1155,8 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 <wire x1="101.6" y1="-17.78" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="78.74" y="-17.78"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="3"/>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="J3" gate="G$1" pin="4"/>
 <wire x1="101.6" y1="-10.16" x2="101.6" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-12.7" x2="101.6" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="101.6" y="-12.7"/>
@@ -1164,12 +1164,12 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 </net>
 <net name="HV+" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="F2" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="-2.54" x2="17.78" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="17.78" y="-2.54"/>
 <pinref part="U$4" gate="G$1" pin="HV+"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="10.16" y="-2.54"/>
 <wire x1="17.78" y1="-2.54" x2="12.7" y2="-2.54" width="0.1524" layer="91"/>
@@ -1177,12 +1177,12 @@ Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
 </net>
 <net name="HV-" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="F3" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="-17.78" x2="17.78" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="17.78" y="-17.78"/>
 <pinref part="U$5" gate="G$1" pin="HV-"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="-17.78" x2="10.16" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="10.16" y="-17.78"/>
 <wire x1="17.78" y1="-17.78" x2="12.7" y2="-17.78" width="0.1524" layer="91"/>
