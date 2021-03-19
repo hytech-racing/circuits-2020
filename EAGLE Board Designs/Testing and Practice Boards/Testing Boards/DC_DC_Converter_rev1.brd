@@ -5257,7 +5257,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <element name="U$1" library="HyTechAesthetics" package="HV_0.50&quot;" value="" x="35.56" y="5.08" smashed="yes"/>
 <element name="U$2" library="HyTechAesthetics" package="HV_0.50&quot;" value="" x="35.56" y="34.29" smashed="yes"/>
 <element name="U$3" library="HyTechAesthetics" package="HV_0.50&quot;" value="" x="48.26" y="52.07" smashed="yes"/>
-<element name="U$6" library="HyTechAesthetics" package="LOGO_HYTECH_1.0&quot;" value="" x="63.5" y="16.764" smashed="yes"/>
+<element name="U$6" library="HyTechAesthetics" package="LOGO_HYTECH_1.0&quot;" value="" x="63.373" y="16.383" smashed="yes"/>
 <element name="U$7" library="HyTechAesthetics" package="LOGO_GT_0.50&quot;" value="" x="49.53" y="20.32" smashed="yes"/>
 <element name="U$8" library="HyTechAesthetics" package="HV_0.50&quot;" value="" x="35.56" y="5.08" smashed="yes" rot="MR0"/>
 <element name="U$9" library="HyTechAesthetics" package="HV_0.50&quot;" value="" x="35.56" y="34.29" smashed="yes" rot="MR0"/>
