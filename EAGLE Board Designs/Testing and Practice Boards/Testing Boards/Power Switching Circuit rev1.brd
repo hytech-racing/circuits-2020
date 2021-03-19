@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -197,7 +197,7 @@
 <text x="-4.826" y="-5.08" size="0.762" layer="21" font="vector">!CH1</text>
 <text x="-4.826" y="-10.287" size="0.762" layer="21" font="vector">!VALID2</text>
 <text x="-4.826" y="-2.413" size="0.762" layer="21" font="vector">!VALID1</text>
-<text x="-17.145" y="-25.908" size="1.016" layer="51" font="vector" align="bottom-center">HyTech Racing 2021
+<text x="-17.145" y="-25.908" size="1.016" layer="21" font="vector" align="bottom-center">HyTech Racing 2021
 Power Switching Board rev1
 Designed by Sathya Gummadi</text>
 <text x="-17.272" y="29.337" size="0.9144" layer="21" font="vector" ratio="18">DCDC</text>
@@ -4529,7 +4529,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="TOLERANCE" value="" x="-7.493" y="-9.779" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="" x="-7.493" y="-9.779" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$1" library="HyTechDevices" package="MOUNTING_M3" value="" x="-24.511" y="-14.097" smashed="yes"/>
+<element name="U$1" library="HyTechDevices" package="MOUNTING_M3" value="" x="-24.511" y="-13.97" smashed="yes"/>
 <element name="U$3" library="HyTechDevices" package="MOUNTING_M3" value="" x="-24.511" y="5.08" smashed="yes"/>
 <element name="U$4" library="HyTechDevices" package="MOUNTING_M3" value="" x="61.722" y="36.068" smashed="yes"/>
 <element name="U$5" library="HyTechAesthetics" package="LOGO_GT_0.50&quot;" value="" x="-16.51" y="-17.78" smashed="yes"/>
