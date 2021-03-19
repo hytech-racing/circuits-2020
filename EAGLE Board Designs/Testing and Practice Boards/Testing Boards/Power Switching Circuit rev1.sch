@@ -546,22 +546,27 @@ chip</description>
 <rectangle x1="-13.589" y1="-16.129" x2="15.621" y2="18.161" layer="39"/>
 <text x="-13.589" y="18.161" size="0.8128" layer="21" font="vector">&gt;NAME</text>
 </package>
-<package name="SO-8-POWERPAK">
-<smd name="D@PAD" x="0.8128" y="-0.127" dx="3.81" dy="3.9116" layer="1"/>
-<smd name="1" x="-2.54" y="1.778" dx="1.27" dy="0.6096" layer="1"/>
-<smd name="2" x="-2.54" y="0.508" dx="1.27" dy="0.6096" layer="1"/>
-<smd name="3" x="-2.54" y="-0.762" dx="1.27" dy="0.6096" layer="1"/>
-<smd name="4" x="-2.54" y="-2.032" dx="1.27" dy="0.6096" layer="1"/>
-<smd name="D@5" x="2.921" y="-2.032" dx="1.016" dy="0.6096" layer="1"/>
-<smd name="D@6" x="2.921" y="-0.762" dx="1.016" dy="0.6096" layer="1"/>
-<smd name="D@7" x="2.921" y="0.508" dx="1.016" dy="0.6096" layer="1"/>
-<smd name="D@8" x="2.921" y="1.778" dx="1.016" dy="0.6096" layer="1"/>
-<wire x1="-2.9972" y1="2.5019" x2="3.2512" y2="2.5019" width="0.127" layer="22"/>
-<wire x1="3.2512" y1="2.5019" x2="3.2512" y2="-2.7559" width="0.127" layer="22"/>
-<wire x1="3.2512" y1="-2.7559" x2="-2.9972" y2="-2.7559" width="0.127" layer="22"/>
-<wire x1="-2.9972" y1="-2.7559" x2="-2.9972" y2="2.5019" width="0.127" layer="22"/>
-<rectangle x1="-3.429" y1="-2.921" x2="3.683" y2="2.667" layer="39"/>
-<text x="0.127" y="2.667" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<package name="POWERPAK_SO-8">
+<description>PowerPak SO-8
+&lt;br&gt;
+&lt;a href="https://www.vishay.com/docs/72599/landpatternpowerpakso-8single.pdf"&gt;Landing Pattern&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.vishay.com/docs/71655/powerpak.pdf"&gt;Size&lt;/a&gt;</description>
+<smd name="D@PAD" x="0.6858" y="0" dx="3.81" dy="3.9116" layer="1"/>
+<smd name="1" x="-2.667" y="1.905" dx="1.27" dy="0.6096" layer="1"/>
+<smd name="2" x="-2.667" y="0.635" dx="1.27" dy="0.6096" layer="1"/>
+<smd name="3" x="-2.667" y="-0.635" dx="1.27" dy="0.6096" layer="1"/>
+<smd name="4" x="-2.667" y="-1.905" dx="1.27" dy="0.6096" layer="1"/>
+<smd name="D@5" x="2.794" y="-1.905" dx="1.016" dy="0.6096" layer="1"/>
+<smd name="D@6" x="2.794" y="-0.635" dx="1.016" dy="0.6096" layer="1"/>
+<smd name="D@7" x="2.794" y="0.635" dx="1.016" dy="0.6096" layer="1"/>
+<smd name="D@8" x="2.794" y="1.905" dx="1.016" dy="0.6096" layer="1"/>
+<wire x1="-3.1242" y1="2.6289" x2="3.1242" y2="2.6289" width="0.127" layer="21"/>
+<wire x1="3.1242" y1="2.6289" x2="3.1242" y2="-2.6289" width="0.127" layer="21"/>
+<wire x1="3.1242" y1="-2.6289" x2="-3.1242" y2="-2.6289" width="0.127" layer="21"/>
+<wire x1="-3.1242" y1="-2.6289" x2="-3.1242" y2="2.6289" width="0.127" layer="21"/>
+<rectangle x1="-3.556" y1="-2.794" x2="3.556" y2="2.794" layer="39"/>
+<text x="0" y="2.794" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="AUTOSPORT_04-35">
 <description>SOURIAU 3 Pin Connector
@@ -781,10 +786,10 @@ chip</description>
 <wire x1="0" y1="-1.397" x2="0" y2="-3.683" width="0.254" layer="94"/>
 <wire x1="-1.143" y1="2.54" x2="-1.143" y2="-2.54" width="0.254" layer="94"/>
 <text x="0" y="5.08" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<pin name="D" x="5.08" y="2.54" visible="off" length="middle" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="D" x="5.08" y="2.54" visible="off" length="middle" direction="pas" rot="R180"/>
 <pin name="S" x="5.08" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
-<text x="0" y="-5.08" size="1.27" layer="95" align="top-center">&gt;VALUE</text>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<text x="0" y="-5.08" size="1.27" layer="95" align="top-center">&gt;MPN</text>
 </symbol>
 <symbol name="DIODE_TVS_UNIDIRECTIONAL">
 <wire x1="0" y1="1.016" x2="0" y2="-0.762" width="0.1524" layer="94"/>
@@ -1110,20 +1115,21 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="SIR638ADP">
-<description>Vishay Siliconix SiR638ADP N-Channel 40 V (D-S) MOSFET  &lt;a href="https://www.vishay.com/docs/75297/sir638adp.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<deviceset name="SIR638ADP" prefix="Q">
 <gates>
 <gate name="G$1" symbol="MOSFET_N-CHANNEL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SO-8-POWERPAK">
+<device name="" package="POWERPAK_SO-8">
 <connects>
 <connect gate="G$1" pin="D" pad="D@5 D@6 D@7 D@8 D@PAD"/>
 <connect gate="G$1" pin="G" pad="4"/>
 <connect gate="G$1" pin="S" pad="1 2 3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="SIR638ADP"/>
+</technology>
 </technologies>
 </device>
 </devices>
