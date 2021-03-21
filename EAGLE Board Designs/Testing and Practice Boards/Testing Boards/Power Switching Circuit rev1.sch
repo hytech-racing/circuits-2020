@@ -4899,7 +4899,7 @@ OV Falling: 13 V</text>
 <pinref part="D3" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="CASIN" class="0">
+<net name="INTVDD" class="0">
 <segment>
 <wire x1="114.554" y1="-7.112" x2="114.554" y2="-9.652" width="0.1524" layer="91"/>
 <wire x1="104.394" y1="-9.652" x2="114.554" y2="-9.652" width="0.1524" layer="91"/>
@@ -4932,6 +4932,7 @@ OV Falling: 13 V</text>
 <junction x="114.554" y="-17.272"/>
 <pinref part="RN2" gate="C" pin="2"/>
 <pinref part="RN2" gate="D" pin="2"/>
+<label x="53.34" y="-48.26" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
