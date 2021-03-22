@@ -4795,11 +4795,6 @@ Layer: 94 Symbol</description>
 <wire x1="22.86" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 <label x="25.4" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<wire x1="22.86" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
-<label x="27.94" y="25.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="4"/>
-</segment>
 </net>
 <net name="SHUTDOWN_H_OUT" class="0">
 <segment>
@@ -4899,9 +4894,9 @@ Layer: 94 Symbol</description>
 <label x="154.94" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="22.86" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<label x="27.94" y="15.24" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="8"/>
+<wire x1="22.86" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
+<label x="27.94" y="30.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="BTN_MC_CYCLE" class="0">
@@ -4911,9 +4906,9 @@ Layer: 94 Symbol</description>
 <label x="154.94" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="22.86" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-<label x="27.94" y="17.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="7"/>
+<wire x1="22.86" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<label x="27.94" y="27.94" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="BTN_MODE" class="0">
@@ -4922,11 +4917,6 @@ Layer: 94 Symbol</description>
 <wire x1="149.86" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <label x="154.94" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<wire x1="22.86" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
-<label x="27.94" y="20.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="6"/>
-</segment>
 </net>
 <net name="BTN_START" class="0">
 <segment>
@@ -4934,22 +4924,12 @@ Layer: 94 Symbol</description>
 <wire x1="149.86" y1="83.82" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
 <label x="154.94" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<wire x1="22.86" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
-<label x="27.94" y="22.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="5"/>
-</segment>
 </net>
 <net name="BTN_LAUNCH_CONTROL" class="0">
 <segment>
 <pinref part="Q5" gate="G$1" pin="D"/>
 <wire x1="149.86" y1="58.42" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
 <label x="154.94" y="58.42" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="22.86" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
-<label x="27.94" y="33.02" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
