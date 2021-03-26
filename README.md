@@ -5,7 +5,7 @@
 Repository for all of the circuits for the 2019-2020 car.
 
 ## Getting Started with this Git Repository
-1. Follow HyTech's [Software Guide](https://docs.google.com/document/d/1GRkLYabQtMDBhLXM44oBZ6nKhDef6TY2_k2GFT-w2gI/edit?usp=sharing).
+1. Follow HyTech's [Software Guide](https://github.com/hytech-racing/training/tree/master/Resources).
 2. Create a GitHub account if you don't already have one.
 3. Download and install [GitHub Desktop](https://desktop.github.com/) (basic) or [Git CLI](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) (advanced).
     * If you are using GitHub Desktop for the first time, be sure to read the [User Guide](https://help.github.com/desktop/guides/).
@@ -19,13 +19,9 @@ Repository for all of the circuits for the 2019-2020 car.
     * HTTPS: `https://github.com/hytech-racing/circuits-2020.git`
 
 ## Getting Started with EAGLE
-1. Follow HyTech's [Software Guide](https://docs.google.com/document/d/1GRkLYabQtMDBhLXM44oBZ6nKhDef6TY2_k2GFT-w2gI/edit?usp=sharing).
+1. Follow HyTech's [Software Guide](https://github.com/hytech-racing/training/tree/master/Resources).
 2. Download and install [EAGLE](https://www.autodesk.com/products/eagle/overview)
 3. Get the free [Educational License](https://www.autodesk.com/education/free-software/eagle) (a .edu email address is required)
-
-<!-- ## View on CADLAB
-View design diffs on [CADLAB.io](https://cadlab.io/project/1277).
- -->
 
 ## Circuit Board Versioning Scheme
 * New boards must start their numbering at revision 1.
@@ -34,7 +30,10 @@ View design diffs on [CADLAB.io](https://cadlab.io/project/1277).
 * Circuit boards based off of a previous year's design should increment based off of the previous board's revision number.
 
 ## More Information
-* [Software Guide](https://docs.google.com/document/d/1GRkLYabQtMDBhLXM44oBZ6nKhDef6TY2_k2GFT-w2gI/edit?usp=sharing)
+* [Software Guide](https://github.com/hytech-racing/training/tree/master/Resources)
 * [Team Site](https://hytechracing.gatech.edu/)
 * [Facebook](https://www.facebook.com/HyTechRacing/)
 * [Engage](https://gatech.campuslabs.com/engage/organization/hytech-racing)
+
+## License
+This project is licensed under the GPL License v3.0. See the [LICENSE](LICENSE) file for more information.
