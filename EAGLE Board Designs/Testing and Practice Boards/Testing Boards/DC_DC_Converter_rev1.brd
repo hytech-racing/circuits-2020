@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -191,9 +191,9 @@
 <wire x1="102.723" y1="0" x2="102.723" y2="58.674" width="0" layer="20"/>
 <wire x1="102.723" y1="58.674" x2="2.794" y2="58.674" width="0" layer="20"/>
 <wire x1="2.794" y1="58.674" x2="2.794" y2="0" width="0" layer="20"/>
-<dimension x1="102.723" y1="58.852" x2="2.794" y2="58.725" x3="52.752453125" y3="63.546059375" textsize="1.778" layer="1"/>
-<dimension x1="2.794" y1="58.725" x2="2.794" y2="-0.127" x3="-7.62" y3="29.299" textsize="1.778" layer="1"/>
-<dimension x1="1.524" y1="39.624" x2="1.524" y2="58.547" x3="0" y3="49.0855" textsize="1.778" layer="1"/>
+<dimension x1="102.723" y1="58.852" x2="2.794" y2="58.725" x3="52.752453125" y3="63.546059375" textsize="1.778" layer="47"/>
+<dimension x1="2.794" y1="58.725" x2="2.794" y2="-0.127" x3="-7.62" y3="29.299" textsize="1.778" layer="47"/>
+<dimension x1="1.524" y1="39.624" x2="1.524" y2="58.547" x3="0" y3="49.0855" textsize="1.778" layer="47"/>
 <text x="82.042" y="53.086" size="1.016" layer="21" font="vector" align="bottom-center">HyTech Racing 2021
 DC-DC Converter Board rev1
 Designed by Cody Kaminsky</text>
