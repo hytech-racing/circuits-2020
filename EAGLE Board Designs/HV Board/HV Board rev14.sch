@@ -204,7 +204,7 @@
 <wire x1="-5.207" y1="2.794" x2="5.207" y2="2.794" width="0.127" layer="21"/>
 <wire x1="-5.207" y1="1.27" x2="5.207" y2="1.27" width="0.127" layer="21"/>
 </package>
-<package name="SOIC-08">
+<package name="SOIC-08@2">
 <description>SOIC-8
 &lt;br&gt;
 &lt;a href="https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-soic/05081610_G_SO8.pdf"&gt;Datasheet&lt;/a&gt;</description>
@@ -224,7 +224,7 @@
 <rectangle x1="-2.794" y1="-3.556" x2="2.794" y2="3.556" layer="39"/>
 <circle x="-3.175" y="-2.54" radius="0.254" width="0" layer="21"/>
 </package>
-<package name="SOIC-08@1">
+<package name="SOIC-08">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;</description>
 <wire x1="2.4" y1="1.9" x2="2.4" y2="-1.908" width="0.2032" layer="21"/>
 <wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="21"/>
@@ -893,25 +893,6 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="0.3048" y1="0" x2="0" y2="-0.2032" width="0.127" layer="21"/>
 <wire x1="0" y1="-0.2032" x2="0" y2="0.2032" width="0.127" layer="21"/>
 <wire x1="0" y1="0.2032" x2="0.3048" y2="0" width="0.127" layer="21"/>
-</package>
-<package name="DIL08">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="LLS2V181MELA">
 <description>350V 180uF 25mm diameter by 25mm tall capacitor</description>
@@ -2265,7 +2246,7 @@ Notes: See page 47</description>
 <wire x1="17.78" y1="5.08" x2="20.32" y2="5.08" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-5.08" x2="20.32" y2="-5.08" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MAX74XX">
+<symbol name="MAX74XX@1">
 <description>8th-Order Maxim Filter
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/256/MAX7480-1515905.pdf"&gt;MAX7480 Datasheet&lt;/a&gt;
@@ -3068,44 +3049,19 @@ general purpose rectifier</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP2551">
-<description>MCP2551 High-Speed CAN Transceiver
+<deviceset name="MCP2562FD">
+<description>MCP2562FD High-Speed CAN Transceiver
 &lt;br&gt;
 &lt;br&gt;
-&lt;a href="https://www.microchip.com/wwwproducts/en/MCP2551"&gt;Product Webpage&lt;/a&gt;
+&lt;a href="https://www.microchip.com/wwwproducts/en/MCP2562FD"&gt;Product Webpage&lt;/a&gt;
 &lt;br&gt;
-&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21667f.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;This device is outdated&lt;/b&gt;
-&lt;br&gt;
-It is replaced by MCP2561.
-&lt;br&gt;
-&lt;a href="https://www.microchip.com/wwwproducts/ProductCompare/MCP2551/MCP2561"&gt;Comparison Page&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.microchip.com/wwwproducts/en/MCP2561"&gt;Product Webpage&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf"&gt;Datasheet&lt;/a&gt;</description>
+&lt;a href="https://ww1.microchip.com/downloads/en/DeviceDoc/20005284A.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
 <gates>
 <gate name="G$1" symbol="MCP2551" x="0" y="-12.7"/>
 </gates>
 <devices>
-<device name="DIL" package="DIL08">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="SOIC-08@1">
+<device name="" package="SOIC-08">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3345,10 +3301,10 @@ Leakage Inductance: 0.50 uH max
 &lt;br&gt;
 MAX7404 uses a 680 pF clock capcitor</description>
 <gates>
-<gate name="G$1" symbol="MAX74XX" x="0" y="0"/>
+<gate name="G$1" symbol="MAX74XX@1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC-08">
+<device name="" package="SOIC-08@2">
 <connects>
 <connect gate="G$1" pin="!SHDN" pad="7"/>
 <connect gate="G$1" pin="CLK" pad="8"/>
@@ -7285,7 +7241,7 @@ Corner Frequency (kHz) = fclk / 100 = 0.5 kHz</text>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="GND13" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="U10" library="HyTechDevices" deviceset="MCP2551" device=""/>
+<part name="U10" library="HyTechDevices" deviceset="MCP2562FD" device=""/>
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
@@ -7490,9 +7446,6 @@ Corner Frequency (kHz) = fclk / 100 = 0.5 kHz</text>
 <part name="U5" library="HyTechDevices" deviceset="MCP3204" device=""/>
 <part name="GND9" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+26" library="supply1" deviceset="+12V" device=""/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.4k">
-<attribute name="TOLERANCE" value="1%"/>
-</part>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
@@ -7560,6 +7513,9 @@ Corner Frequency (kHz) = fclk / 100 = 0.5 kHz</text>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="U$18" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE" value="TEST_POINTMICRO_MINIATURE"/>
 <part name="P+9" library="HyTechSupplies" deviceset="+12V" device=""/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.4k">
+<attribute name="TOLERANCE" value="1%"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -7908,11 +7864,6 @@ Corner Frequency (kHz) = fclk / 100 = 0.5 kHz</text>
 <instance part="P+26" gate="1" x="180.34" y="-88.9" smashed="yes">
 <attribute name="VALUE" x="177.8" y="-91.44" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R15" gate="G$1" x="195.58" y="-111.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="196.85" y="-113.2586" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="196.85" y="-108.458" size="1.778" layer="96" rot="R180"/>
-<attribute name="TOLERANCE" x="195.58" y="-111.76" size="0.127" layer="96" rot="R180" display="off"/>
-</instance>
 <instance part="R10" gate="G$1" x="185.42" y="-104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="189.23" y="-105.6386" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="189.23" y="-100.838" size="1.778" layer="96" rot="R180"/>
@@ -7980,6 +7931,11 @@ Corner Frequency (kHz) = fclk / 100 = 0.5 kHz</text>
 <attribute name="VALUE" x="177.8" y="-152.4" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$18" gate="G$1" x="317.5" y="-106.68" smashed="yes" rot="R180"/>
+<instance part="R15" gate="G$1" x="195.58" y="-111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="199.39" y="-113.2586" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="199.39" y="-108.458" size="1.778" layer="96" rot="R180"/>
+<attribute name="TOLERANCE" x="195.58" y="-111.76" size="0.127" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8560,22 +8516,20 @@ Corner Frequency (kHz) = fclk / 100 = 0.5 kHz</text>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="U17" gate="A" pin="VIN-"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<junction x="190.5" y="-111.76"/>
-<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="-104.14" x2="190.5" y2="-111.76" width="0.1524" layer="91"/>
 <junction x="190.5" y="-104.14"/>
-<wire x1="190.5" y1="-111.76" x2="190.5" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BSPD_CURRENT/2.14F" class="0">
 <segment>
+<pinref part="U17" gate="A" pin="VOUT"/>
+<wire x1="200.66" y1="-101.6" x2="208.28" y2="-101.6" width="0.1524" layer="91"/>
+<label x="215.9" y="-101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="-101.6" x2="215.9" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-111.76" x2="208.28" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="-111.76" x2="208.28" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="U17" gate="A" pin="VOUT"/>
-<wire x1="208.28" y1="-101.6" x2="200.66" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="-101.6" x2="215.9" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="208.28" y="-101.6"/>
-<label x="215.9" y="-101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="100A_SENSE_BUFF" class="0">
