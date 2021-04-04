@@ -71,7 +71,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -7516,6 +7516,8 @@ Corner Frequency (kHz) = fclk / 100 = 0.5 kHz</text>
 <part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="1.4k">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="510k"/>
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="510k"/>
 </parts>
 <sheets>
 <sheet>
@@ -8575,6 +8577,13 @@ Corner Frequency (kHz) = fclk / 100 = 0.5 kHz</text>
 <label x="213.36" y="5.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="N$1" class="1">
+<segment>
+<wire x1="78.74" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="109.22" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="106.68" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -8696,9 +8705,7 @@ Corner Frequency (kHz) = fclk / 100 = 0.5 kHz</text>
 <instance part="+3V2" gate="G$1" x="127" y="160.02" smashed="yes" rot="R90">
 <attribute name="VALUE" x="129.54" y="157.48" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND5" gate="1" x="127" y="223.52" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="129.54" y="220.98" size="1.778" layer="96" rot="MR0"/>
-</instance>
+<instance part="GND5" gate="1" x="127" y="223.52" smashed="yes" rot="MR0"/>
 <instance part="U1" gate="G$1" x="231.14" y="154.94" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="243.84" y="144.653" size="1.778" layer="96" rot="MR0" align="top-left"/>
 </instance>
@@ -9901,6 +9908,14 @@ for Precharge</text>
 </instance>
 <instance part="P+9" gate="1" x="139.7" y="104.14" smashed="yes">
 <attribute name="VALUE" x="139.7" y="106.68" size="1.778" layer="96"/>
+</instance>
+<instance part="R16" gate="G$1" x="20.32" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.8214" y="57.15" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="23.622" y="57.15" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R18" gate="G$1" x="15.24" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.7414" y="57.15" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="18.542" y="57.15" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
