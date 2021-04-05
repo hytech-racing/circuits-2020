@@ -3964,8 +3964,8 @@ Layer: 94 Symbol</description>
 <part name="U1" library="HyTechDevices" deviceset="LTC4421" device=""/>
 <part name="GND1" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="C10" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1nF"/>
-<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="6.8nF"/>
-<part name="C9" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="6.8nF"/>
+<part name="C6" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15nF"/>
+<part name="C9" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="15nF"/>
 <part name="C7" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="R15" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="GND2" library="HyTechSupplies" deviceset="GND" device=""/>

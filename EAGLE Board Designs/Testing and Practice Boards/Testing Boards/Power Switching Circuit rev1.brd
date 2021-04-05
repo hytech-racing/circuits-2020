@@ -4391,10 +4391,10 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <element name="C4" library="HyTechDevices" package="0603-CAP" value="10uF" x="-8.636" y="3.81" smashed="yes" rot="R270">
 <attribute name="NAME" x="-10.668" y="5.715" size="0.762" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C6" library="HyTechDevices" package="0603-CAP" value="6.8nF" x="1.997" y="8.91971875" smashed="yes" rot="R135">
+<element name="C6" library="HyTechDevices" package="0603-CAP" value="15nF" x="1.997" y="8.91971875" smashed="yes" rot="R135">
 <attribute name="NAME" x="1.705803125" y="8.006278125" size="0.762" layer="25" font="vector" rot="R135"/>
 </element>
-<element name="C9" library="HyTechDevices" package="0603-CAP" value="6.8nF" x="13.40190625" y="-2.664803125" smashed="yes" rot="R315">
+<element name="C9" library="HyTechDevices" package="0603-CAP" value="15nF" x="13.40190625" y="-2.664803125" smashed="yes" rot="R315">
 <attribute name="NAME" x="13.43910625" y="-1.878371875" size="0.762" layer="25" font="vector" rot="R315"/>
 </element>
 <element name="C7" library="HyTechDevices" package="0603-CAP" value="1uF" x="0.70256875" y="4.826" smashed="yes" rot="R225">
