@@ -3971,22 +3971,22 @@ Layer: 94 Symbol</description>
 <part name="GND2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="LED6" library="HyTechDevices" deviceset="LED" device="-0603" value="RED"/>
 <part name="LED1" library="HyTechDevices" deviceset="LED" device="-0603" value="RED"/>
-<part name="LED4" library="HyTechDevices" deviceset="LED" device="-0603" value="BLUE"/>
-<part name="LED3" library="HyTechDevices" deviceset="LED" device="-0603" value="BLUE"/>
+<part name="LED4" library="HyTechDevices" deviceset="LED" device="-0603" value="YELLOW"/>
+<part name="LED3" library="HyTechDevices" deviceset="LED" device="-0603" value="YELLOW"/>
 <part name="LED5" library="HyTechDevices" deviceset="LED" device="-0603" value="GREEN"/>
 <part name="LED2" library="HyTechDevices" deviceset="LED" device="-0603" value="GREEN"/>
 <part name="C5" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND3" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="K1" library="HyTechDevices" deviceset="J115F11A*6*" device=""/>
 <part name="GND4" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="31k"/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="19k"/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="9.5k"/>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="950k"/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="35k"/>
+<part name="R10" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="30.9k"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="19.1k"/>
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="9.53k"/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="953k"/>
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="35.2k"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="11k"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="6.5k"/>
-<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="950k"/>
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="953k"/>
 <part name="GND5" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND6" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C3" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -4002,10 +4002,10 @@ Layer: 94 Symbol</description>
 <part name="GND10" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND11" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C11" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0805" value="0.65"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR" device="0805" value="0.56"/>
 <part name="GND12" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C4" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0805" value="0.55"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="0805" value="0.56"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="GND13" library="HyTechSymbols" deviceset="GND" device=""/>

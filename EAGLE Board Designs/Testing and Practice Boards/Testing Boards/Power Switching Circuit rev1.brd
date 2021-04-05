@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -4417,23 +4417,23 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 </element>
 <element name="LED2" library="HyTechDevices" package="LED-603" value="GREEN" x="-3.89715625" y="-0.77165" smashed="yes" rot="R270"/>
 <element name="LED5" library="HyTechDevices" package="LED-603" value="GREEN" x="-3.89715" y="-8.64565" smashed="yes" rot="R270"/>
-<element name="LED3" library="HyTechDevices" package="LED-603" value="BLUE" x="-3.89715625" y="-3.438646875" smashed="yes" rot="R270"/>
-<element name="LED4" library="HyTechDevices" package="LED-603" value="BLUE" x="-3.89715" y="-5.978653125" smashed="yes" rot="R270"/>
+<element name="LED3" library="HyTechDevices" package="LED-603" value="YELLOW" x="-3.89715625" y="-3.438646875" smashed="yes" rot="R270"/>
+<element name="LED4" library="HyTechDevices" package="LED-603" value="YELLOW" x="-3.89715" y="-5.978653125" smashed="yes" rot="R270"/>
 <element name="LED1" library="HyTechDevices" package="LED-603" value="RED" x="-3.89715" y="1.64135" smashed="yes" rot="R270"/>
 <element name="LED6" library="HyTechDevices" package="LED-603" value="RED" x="-3.89715625" y="-11.312659375" smashed="yes" rot="R270"/>
-<element name="R10" library="HyTechDevices" package="0603-RES" value="31k" x="16.006190625" y="-4.371046875" smashed="yes" rot="R45">
+<element name="R10" library="HyTechDevices" package="0603-RES" value="30.9k" x="16.006190625" y="-4.371046875" smashed="yes" rot="R45">
 <attribute name="NAME" x="16.23575625" y="-6.111853125" size="0.762" layer="25" font="vector" rot="R45"/>
 </element>
-<element name="R11" library="HyTechDevices" package="0603-RES" value="19k" x="19.418678125" y="-5.269071875" smashed="yes" rot="R45">
+<element name="R11" library="HyTechDevices" package="0603-RES" value="19.1k" x="19.418678125" y="-5.269071875" smashed="yes" rot="R45">
 <attribute name="NAME" x="20.029240625" y="-6.882875" size="0.762" layer="25" font="vector" rot="R45"/>
 </element>
-<element name="R9" library="HyTechDevices" package="0603-RES" value="9.5k" x="18.341053125" y="-2.575" smashed="yes" rot="R135">
+<element name="R9" library="HyTechDevices" package="0603-RES" value="9.53k" x="18.341053125" y="-2.575" smashed="yes" rot="R135">
 <attribute name="NAME" x="20.081853125" y="-2.21843125" size="0.762" layer="25" font="vector" rot="R135"/>
 </element>
-<element name="R8" library="HyTechDevices" package="0603-RES" value="950k" x="16.641184375" y="0.39486875" smashed="yes" rot="R135">
+<element name="R8" library="HyTechDevices" package="0603-RES" value="953k" x="16.641184375" y="0.39486875" smashed="yes" rot="R135">
 <attribute name="NAME" x="18.635990625" y="0.878434375" size="0.762" layer="25" font="vector" rot="R135"/>
 </element>
-<element name="R7" library="HyTechDevices" package="0603-RES" value="35k" x="0.29075625" y="11.5239875" smashed="yes" rot="R45">
+<element name="R7" library="HyTechDevices" package="0603-RES" value="35.2k" x="0.29075625" y="11.5239875" smashed="yes" rot="R45">
 <attribute name="NAME" x="-1.38468125" y="11.307184375" size="0.762" layer="25" font="vector" rot="R45"/>
 </element>
 <element name="R3" library="HyTechDevices" package="0603-RES" value="11k" x="-0.595471875" y="15.253078125" smashed="yes" rot="R45">
@@ -4442,16 +4442,16 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <element name="R5" library="HyTechDevices" package="0603-RES" value="6.5k" x="1.997" y="13.769053125" smashed="yes" rot="R315">
 <attribute name="NAME" x="2.03419375" y="15.063484375" size="0.762" layer="25" font="vector" rot="R315"/>
 </element>
-<element name="R6" library="HyTechDevices" package="0603-RES" value="950k" x="4.966865625" y="12.196190625" smashed="yes" rot="R315">
+<element name="R6" library="HyTechDevices" package="0603-RES" value="953k" x="4.966865625" y="12.196190625" smashed="yes" rot="R315">
 <attribute name="NAME" x="4.8770625" y="13.36361875" size="0.762" layer="25" font="vector" rot="R315"/>
 </element>
 <element name="R15" library="HyTechDevices" package="0603-RES" value="10k" x="7.623740625" y="-10.607265625" smashed="yes" rot="R45">
 <attribute name="NAME" x="6.524315625" y="-9.99405625" size="0.762" layer="25" font="vector" rot="R45"/>
 </element>
-<element name="R2" library="HyTechDevices" package="0805" value="0.55" x="-8.636" y="8.509" smashed="yes" rot="R90">
+<element name="R2" library="HyTechDevices" package="0805" value="0.56" x="-8.636" y="8.509" smashed="yes" rot="R90">
 <attribute name="NAME" x="-9.9949" y="7.874" size="0.762" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="R14" library="HyTechDevices" package="0805" value="0.65" x="20.828" y="-9.271" smashed="yes" rot="R90">
+<element name="R14" library="HyTechDevices" package="0805" value="0.56" x="20.828" y="-9.271" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.3901" y="-9.906" size="0.762" layer="25" rot="R90" align="bottom-center"/>
 </element>
 <element name="U1" library="HyTechDevices" package="SSOP-36" value="LTC4421" x="9.271" y="4.699" smashed="yes" rot="R225">
@@ -4904,7 +4904,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="R3" pad="2"/>
 <contactref element="R5" pad="1"/>
 <contactref element="U1" pad="9"/>
-<wire x1="1.52295625" y1="14.24309375" x2="1.39595625" y2="14.37009375" width="0.4064" layer="1"/>
 <wire x1="1.39595625" y1="14.37009375" x2="0.005571875" y2="15.760478125" width="0.4064" layer="1"/>
 <wire x1="0.005571875" y1="15.85411875" x2="0.005571875" y2="15.760478125" width="0.4064" layer="1"/>
 <wire x1="0.00556875" y1="15.85411875" x2="0.005571875" y2="15.85411875" width="0.4064" layer="1"/>
