@@ -3098,10 +3098,10 @@ Note: OPA991 is also a comparator</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="14(A0)"/>
-<wire x1="38.1" y1="142.24" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="142.24" x2="12.7" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="!CS"/>
-<wire x1="35.56" y1="142.24" x2="35.56" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="195.58" x2="137.16" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="142.24" x2="12.7" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="195.58" x2="137.16" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -3488,12 +3488,22 @@ Note: OPA991 is also a comparator</description>
 <wire x1="233.68" y1="127" x2="228.6" y2="127" width="0.1524" layer="91"/>
 <label x="228.6" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="38.1" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
+<label x="33.02" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="6(PWM)"/>
+</segment>
 </net>
 <net name="CAN_LED" class="0">
 <segment>
 <pinref part="D3" gate="LED" pin="A"/>
 <wire x1="233.68" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
 <label x="228.6" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="38.1" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
+<label x="33.02" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="5(PWM)"/>
 </segment>
 </net>
 </nets>
