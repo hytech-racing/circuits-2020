@@ -4435,7 +4435,7 @@ Source: http://www.molex.com</description>
 <part name="D3" library="HyTechDevices" deviceset="TVS_DIODE" device="" value="D15V0S1U2LP1608"/>
 <part name="D2" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
 <part name="D1" library="HyTechDevices" deviceset="DIODE_ZENER" device="" value="MMBZ5246BLT1G"/>
-<part name="NA555" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
+<part name="U2" library="HyTechDevices" deviceset="NA555" device="SO-8"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="10">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
@@ -4630,7 +4630,7 @@ Source: http://www.molex.com</description>
 <instance part="D1" gate="G$1" x="81.28" y="-33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="85.09" y="-34.7726" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="NA555" gate="G$1" x="25.4" y="2.54" smashed="yes">
+<instance part="U2" gate="G$1" x="25.4" y="2.54" smashed="yes">
 <attribute name="NAME" x="25.4" y="22.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.4" y="2.54" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -4697,7 +4697,7 @@ Source: http://www.molex.com</description>
 <segment>
 <wire x1="0" y1="7.62" x2="0" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="NA555" gate="G$1" pin="CONTROL"/>
+<pinref part="U2" gate="G$1" pin="CONTROL"/>
 <wire x1="0" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4757,7 +4757,7 @@ Source: http://www.molex.com</description>
 <wire x1="58.42" y1="-5.08" x2="58.42" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-5.08" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="58.42" y="-5.08"/>
-<pinref part="NA555" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -4908,12 +4908,12 @@ Source: http://www.molex.com</description>
 <junction x="22.86" y="111.76"/>
 </segment>
 <segment>
-<pinref part="NA555" gate="G$1" pin="RESET"/>
+<pinref part="U2" gate="G$1" pin="RESET"/>
 <wire x1="20.32" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
 <label x="17.78" y="15.24" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="NA555" gate="G$1" pin="VCC"/>
+<pinref part="U2" gate="G$1" pin="VCC"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-7.62" y1="20.32" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="20.32" x2="-10.16" y2="20.32" width="0.1524" layer="91"/>
@@ -4956,7 +4956,7 @@ Source: http://www.molex.com</description>
 <segment>
 <wire x1="58.42" y1="20.32" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
 <label x="60.96" y="20.32" size="1.778" layer="95" xref="yes"/>
-<pinref part="NA555" gate="G$1" pin="OUTPUT"/>
+<pinref part="U2" gate="G$1" pin="OUTPUT"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -5005,12 +5005,12 @@ Source: http://www.molex.com</description>
 <label x="45.72" y="-5.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="NA555" gate="G$1" pin="TRIGGER"/>
+<pinref part="U2" gate="G$1" pin="TRIGGER"/>
 <wire x1="20.32" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
 <label x="17.78" y="17.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="NA555" gate="G$1" pin="THRESHOLD"/>
+<pinref part="U2" gate="G$1" pin="THRESHOLD"/>
 <wire x1="20.32" y1="7.62" x2="17.78" y2="7.62" width="0.1524" layer="91"/>
 <label x="17.78" y="7.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -5023,7 +5023,7 @@ Source: http://www.molex.com</description>
 </net>
 <net name="DISCHARGE" class="0">
 <segment>
-<pinref part="NA555" gate="G$1" pin="DISCHARGE"/>
+<pinref part="U2" gate="G$1" pin="DISCHARGE"/>
 <wire x1="20.32" y1="5.08" x2="17.78" y2="5.08" width="0.1524" layer="91"/>
 <label x="17.78" y="5.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -5074,6 +5074,7 @@ Source: http://www.molex.com</description>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,-7.62,55.88,U1P,VDD,VCC,,,"/>
 <approved hash="113,1,-35.56,-23.7896,Q2,,,,,"/>
 <approved hash="113,1,83.82,-23.7896,Q1,,,,,"/>
 <approved hash="115,1,86.36,-7.112,THERM,,,,,"/>
