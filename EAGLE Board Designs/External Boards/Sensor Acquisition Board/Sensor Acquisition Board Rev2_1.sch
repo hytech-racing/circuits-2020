@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1903,14 +1903,14 @@ Note: OPA991 is also a comparator</description>
 </class>
 </classes>
 <parts>
-<part name="U20" library="HyTechDevices" deviceset="LM340" device=""/>
+<part name="U1" library="HyTechDevices" deviceset="LM340" device=""/>
 <part name="GND7" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+3" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="U1" library="HyTechDevices" deviceset="ATMEGA328P-AU" device=""/>
-<part name="U5" library="HyTechDevices" deviceset="MCP3204" device=""/>
+<part name="U2" library="HyTechDevices" deviceset="ATMEGA328P-AU" device=""/>
+<part name="U4" library="HyTechDevices" deviceset="MCP3204" device=""/>
 <part name="J1" library="HyTechDevices" deviceset="CONNECTOR-AVR-ISP_?_*" device=""/>
-<part name="C29" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="C30" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
+<part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="GND28" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND29" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND30" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -1918,135 +1918,135 @@ Note: OPA991 is also a comparator</description>
 <part name="P+19" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P+24" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND32" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="U7" library="HyTechDevices" deviceset="CAN_TRANSCIEVER_TCAN1051*V-Q1" device="" technology="HQ"/>
-<part name="U6" library="HyTechDevices" deviceset="MCP2515" device=""/>
-<part name="X6" library="HyTechDevices" deviceset="CRYSTAL" device="" technology="16MHZ"/>
-<part name="C31" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_15PF"/>
-<part name="C32" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_15PF"/>
+<part name="U5" library="HyTechDevices" deviceset="CAN_TRANSCIEVER_TCAN1051*V-Q1" device="" technology="HQ"/>
+<part name="U3" library="HyTechDevices" deviceset="MCP2515" device=""/>
+<part name="X2" library="HyTechDevices" deviceset="CRYSTAL" device="" technology="16MHZ"/>
+<part name="C5" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_15PF"/>
+<part name="C9" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_15PF"/>
 <part name="GND33" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="P+6" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND34" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND35" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+25" library="HyTechSupplies" deviceset="+12V" device=""/>
-<part name="C33" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C34" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-CAN_?_*" device="NF_S_RA" technology="BLACK"/>
+<part name="C15" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="C13" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="J6" library="HyTechDevices" deviceset="CONNECTOR-CAN_?_*" device="NF_S_RA" technology="BLACK"/>
 <part name="GND36" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+26" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="X7" library="HyTechDevices" deviceset="CRYSTAL" device="" technology="16MHZ"/>
-<part name="C35" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_15PF"/>
-<part name="C36" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_15PF"/>
+<part name="X1" library="HyTechDevices" deviceset="CRYSTAL" device="" technology="16MHZ"/>
+<part name="C4" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_15PF"/>
+<part name="C1" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_15PF"/>
 <part name="GND37" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C37" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C38" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C39" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
+<part name="C12" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="C8" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
 <part name="GND39" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+27" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P+28" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND40" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="GND41" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C41" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.22UF"/>
-<part name="C42" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="P+4" library="HyTechSupplies" deviceset="+12V" device=""/>
-<part name="U8" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
-<part name="C1" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C11" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.22UF"/>
 <part name="C2" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="P+4" library="HyTechSupplies" deviceset="+12V" device=""/>
+<part name="U6" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
+<part name="C17" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C21" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="GND2" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="C25" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P+1" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="U9" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
+<part name="U10" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
 <part name="GND1" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+2" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND3" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C4" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="C29" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="J2" library="HyTechDevices" deviceset="CONNECTOR-SENSOR_?_*" device="NF_S_RA" technology="BLACK"/>
 <part name="P+5" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND4" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C40" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="S1PU" library="HyTechDevices" deviceset="JUMPER_?_*" device="1X02"/>
 <part name="S1PD" library="HyTechDevices" deviceset="JUMPER_?_*" device="1X02"/>
 <part name="GND5" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+7" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="U10" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
-<part name="C5" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
-<part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="U7" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
+<part name="C18" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C22" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="GND6" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="C26" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P+21" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="U11" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
 <part name="GND8" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+22" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND9" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C8" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="J6" library="HyTechDevices" deviceset="CONNECTOR-SENSOR_?_*" device="NF_S_RA" technology="BLACK"/>
+<part name="C30" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-SENSOR_?_*" device="NF_S_RA" technology="BLACK"/>
 <part name="P+29" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND10" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="S2PU" library="HyTechDevices" deviceset="JUMPER_?_*" device="1X02"/>
 <part name="S2PD" library="HyTechDevices" deviceset="JUMPER_?_*" device="1X02"/>
 <part name="GND13" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+30" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="U12" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
-<part name="C9" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
-<part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="U8" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
+<part name="C19" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C23" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="GND14" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C43" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P+31" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="U13" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
+<part name="U12" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
 <part name="GND27" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+32" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND42" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C44" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="J9" library="HyTechDevices" deviceset="CONNECTOR-SENSOR_?_*" device="NF_S_RA" technology="BLACK"/>
+<part name="C31" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="J4" library="HyTechDevices" deviceset="CONNECTOR-SENSOR_?_*" device="NF_S_RA" technology="BLACK"/>
 <part name="P+33" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND44" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="S3PU" library="HyTechDevices" deviceset="JUMPER_?_*" device="1X02"/>
 <part name="S3PD" library="HyTechDevices" deviceset="JUMPER_?_*" device="1X02"/>
 <part name="GND45" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+34" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="U14" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
-<part name="C45" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
-<part name="C46" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="U9" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
+<part name="C20" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="GND46" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C47" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="C28" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P+35" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="U15" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
+<part name="U13" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
 <part name="GND47" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+36" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND48" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C48" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="J12" library="HyTechDevices" deviceset="CONNECTOR-SENSOR_?_*" device="NF_S_RA" technology="BLACK"/>
+<part name="C32" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="J5" library="HyTechDevices" deviceset="CONNECTOR-SENSOR_?_*" device="NF_S_RA" technology="BLACK"/>
 <part name="P+37" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="GND49" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="S4PU" library="HyTechDevices" deviceset="JUMPER_?_*" device="1X02"/>
 <part name="S4PD" library="HyTechDevices" deviceset="JUMPER_?_*" device="1X02"/>
 <part name="GND50" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+38" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="D1" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="D3" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="D2" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
-<part name="D4" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="D1" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="GND11" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+8" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="C11" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K">
+<part name="C14" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K">
 <attribute name="RESISTANCE" value="60.4"/>
 </part>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K">
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K">
 <attribute name="RESISTANCE" value="60.4"/>
 </part>
 <part name="S1PU1" library="HyTechDevices" deviceset="JUMPER_?_*" device="1X02"/>
-<part name="C12" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF">
+<part name="C16" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF">
 <attribute name="CAPACITANCE" value="0.47 nF"/>
 </part>
 <part name="GND12" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -2056,7 +2056,7 @@ Note: OPA991 is also a comparator</description>
 <plain>
 </plain>
 <instances>
-<instance part="U20" gate="G$1" x="48.26" y="213.36" smashed="yes">
+<instance part="U1" gate="G$1" x="48.26" y="213.36" smashed="yes">
 <attribute name="NAME" x="50.8" y="205.74" size="1.778" layer="95"/>
 </instance>
 <instance part="GND7" gate="1" x="48.26" y="200.66" smashed="yes">
@@ -2065,23 +2065,23 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+3" gate="1" x="60.96" y="218.44" smashed="yes">
 <attribute name="VALUE" x="63.5" y="220.98" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U1" gate="G$1" x="40.64" y="167.64" smashed="yes">
+<instance part="U2" gate="G$1" x="40.64" y="167.64" smashed="yes">
 <attribute name="NAME" x="40.64" y="168.402" size="1.27" layer="95"/>
 <attribute name="MPN" x="40.64" y="121.158" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="U5" gate="G$1" x="139.7" y="157.48" smashed="yes">
+<instance part="U4" gate="G$1" x="139.7" y="157.48" smashed="yes">
 <attribute name="NAME" x="139.7" y="158.242" size="1.27" layer="95"/>
 <attribute name="MPN" x="139.7" y="136.398" size="1.27" layer="95" align="top-left"/>
 </instance>
 <instance part="J1" gate="G$1" x="139.7" y="129.54" smashed="yes">
 <attribute name="NAME" x="139.7" y="130.175" size="1.27" layer="95"/>
 </instance>
-<instance part="C29" gate="G$1" x="170.18" y="157.48" smashed="yes">
+<instance part="C6" gate="G$1" x="170.18" y="157.48" smashed="yes">
 <attribute name="NAME" x="168.91" y="160.02" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="168.402" y="154.94" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="169.418" y="154.94" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C30" gate="G$1" x="170.18" y="165.1" smashed="yes">
+<instance part="C3" gate="G$1" x="170.18" y="165.1" smashed="yes">
 <attribute name="NAME" x="168.91" y="167.64" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="168.402" y="162.56" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="169.418" y="162.56" size="1.27" layer="96" align="top-left"/>
@@ -2107,24 +2107,24 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND32" gate="1" x="177.8" y="154.94" smashed="yes">
 <attribute name="VALUE" x="177.8" y="153.67" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="U7" gate="G$1" x="241.3" y="208.28" smashed="yes">
+<instance part="U5" gate="G$1" x="241.3" y="208.28" smashed="yes">
 <attribute name="NAME" x="241.3" y="209.042" size="1.27" layer="95"/>
 <attribute name="MPN" x="241.3" y="189.738" size="1.27" layer="95" align="top-left"/>
 </instance>
-<instance part="U6" gate="G$1" x="139.7" y="205.74" smashed="yes">
+<instance part="U3" gate="G$1" x="139.7" y="205.74" smashed="yes">
 <attribute name="NAME" x="139.7" y="206.502" size="1.27" layer="95"/>
 <attribute name="MPN" x="139.7" y="174.498" size="1.27" layer="95" align="top-left"/>
 </instance>
-<instance part="X6" gate="G$1" x="185.42" y="185.42" smashed="yes">
+<instance part="X2" gate="G$1" x="185.42" y="185.42" smashed="yes">
 <attribute name="NAME" x="184.15" y="188.595" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="FREQUENCY" x="184.15" y="182.245" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C31" gate="G$1" x="175.26" y="182.88" smashed="yes" rot="R90">
+<instance part="C5" gate="G$1" x="175.26" y="182.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="172.72" y="181.61" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="177.8" y="181.102" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="177.8" y="182.118" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="C32" gate="G$1" x="195.58" y="182.88" smashed="yes" rot="R90">
+<instance part="C9" gate="G$1" x="195.58" y="182.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="193.04" y="181.61" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="198.12" y="181.102" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="198.12" y="182.118" size="1.27" layer="96" rot="R90" align="top-left"/>
@@ -2132,7 +2132,7 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND33" gate="1" x="182.88" y="175.26" smashed="yes">
 <attribute name="VALUE" x="182.88" y="173.99" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R6" gate="G$1" x="25.4" y="127" smashed="yes">
+<instance part="R4" gate="G$1" x="25.4" y="127" smashed="yes">
 <attribute name="NAME" x="24.13" y="128.27" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="24.13" y="125.73" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -2148,17 +2148,17 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+25" gate="1" x="279.4" y="203.2" smashed="yes">
 <attribute name="VALUE" x="279.4" y="207.01" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C33" gate="G$1" x="266.7" y="210.82" smashed="yes">
+<instance part="C15" gate="G$1" x="266.7" y="210.82" smashed="yes">
 <attribute name="NAME" x="265.43" y="213.36" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="264.922" y="208.28" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="265.938" y="208.28" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C34" gate="G$1" x="170.18" y="208.28" smashed="yes">
+<instance part="C13" gate="G$1" x="170.18" y="208.28" smashed="yes">
 <attribute name="NAME" x="168.91" y="210.82" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="168.402" y="205.74" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="169.418" y="205.74" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="J3" gate="G$1" x="294.64" y="203.2" smashed="yes" rot="MR0">
+<instance part="J6" gate="G$1" x="294.64" y="203.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="294.64" y="203.835" size="1.27" layer="95" rot="MR0"/>
 <attribute name="MODEL" x="294.64" y="189.865" size="1.27" layer="96" rot="MR0" align="top-left"/>
 </instance>
@@ -2168,16 +2168,16 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+26" gate="1" x="261.62" y="226.06" smashed="yes">
 <attribute name="VALUE" x="261.62" y="228.6" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="X7" gate="G$1" x="99.06" y="165.1" smashed="yes">
+<instance part="X1" gate="G$1" x="99.06" y="165.1" smashed="yes">
 <attribute name="NAME" x="97.79" y="168.275" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="FREQUENCY" x="97.79" y="161.925" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C35" gate="G$1" x="88.9" y="162.56" smashed="yes" rot="R90">
+<instance part="C4" gate="G$1" x="88.9" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.36" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="91.44" y="160.782" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="91.44" y="161.798" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="C36" gate="G$1" x="109.22" y="162.56" smashed="yes" rot="R90">
+<instance part="C1" gate="G$1" x="109.22" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="106.68" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="111.76" y="160.782" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="111.76" y="161.798" size="1.27" layer="96" rot="R90" align="top-left"/>
@@ -2185,17 +2185,17 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND37" gate="1" x="96.52" y="154.94" smashed="yes">
 <attribute name="VALUE" x="96.52" y="153.67" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C37" gate="G$1" x="71.12" y="167.64" smashed="yes">
+<instance part="C12" gate="G$1" x="71.12" y="167.64" smashed="yes">
 <attribute name="NAME" x="69.85" y="170.18" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="69.342" y="165.1" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="70.358" y="165.1" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C38" gate="G$1" x="71.12" y="175.26" smashed="yes">
+<instance part="C10" gate="G$1" x="71.12" y="175.26" smashed="yes">
 <attribute name="NAME" x="69.85" y="177.8" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="69.342" y="172.72" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="70.358" y="172.72" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C39" gate="G$1" x="71.12" y="182.88" smashed="yes">
+<instance part="C8" gate="G$1" x="71.12" y="182.88" smashed="yes">
 <attribute name="NAME" x="69.85" y="185.42" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="69.342" y="180.34" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="70.358" y="180.34" size="1.27" layer="96" align="top-left"/>
@@ -2215,12 +2215,12 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND41" gate="1" x="76.2" y="124.46" smashed="yes">
 <attribute name="VALUE" x="76.2" y="123.19" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C41" gate="G$1" x="35.56" y="210.82" smashed="yes" rot="R90">
+<instance part="C11" gate="G$1" x="35.56" y="210.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.02" y="209.55" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="38.1" y="209.042" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="38.1" y="210.058" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="C42" gate="G$1" x="60.96" y="210.82" smashed="yes" rot="R90">
+<instance part="C2" gate="G$1" x="60.96" y="210.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.42" y="209.55" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="63.5" y="209.042" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="63.5" y="210.058" size="1.27" layer="96" rot="R90" align="top-left"/>
@@ -2228,16 +2228,16 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+4" gate="1" x="35.56" y="218.44" smashed="yes">
 <attribute name="VALUE" x="35.56" y="222.25" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U8" gate="G$1" x="91.44" y="88.9" smashed="yes">
+<instance part="U6" gate="G$1" x="91.44" y="88.9" smashed="yes">
 <attribute name="NAME" x="91.44" y="89.662" size="1.27" layer="95"/>
 <attribute name="MPN" x="91.44" y="65.278" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C1" gate="G$1" x="76.2" y="73.66" smashed="yes" rot="R90">
+<instance part="C17" gate="G$1" x="76.2" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="72.39" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="78.74" y="71.882" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="78.74" y="72.898" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="C2" gate="G$1" x="83.82" y="73.66" smashed="yes" rot="R90">
+<instance part="C21" gate="G$1" x="83.82" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.28" y="72.39" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="86.36" y="71.882" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="86.36" y="72.898" size="1.27" layer="96" rot="R90" align="top-left"/>
@@ -2245,7 +2245,7 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND2" gate="1" x="116.84" y="86.36" smashed="yes">
 <attribute name="VALUE" x="116.84" y="85.09" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C3" gate="G$1" x="114.3" y="91.44" smashed="yes">
+<instance part="C25" gate="G$1" x="114.3" y="91.44" smashed="yes">
 <attribute name="NAME" x="113.03" y="93.98" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="112.522" y="88.9" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="113.538" y="88.9" size="1.27" layer="96" align="top-left"/>
@@ -2253,11 +2253,11 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+1" gate="1" x="109.22" y="96.52" smashed="yes">
 <attribute name="VALUE" x="109.22" y="99.06" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U9" gate="A" x="55.88" y="81.28" smashed="yes">
+<instance part="U10" gate="A" x="55.88" y="81.28" smashed="yes">
 <attribute name="NAME" x="58.293" y="84.328" size="1.27" layer="95"/>
 <attribute name="MPN" x="58.293" y="78.232" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="U9" gate="P" x="55.88" y="101.6" smashed="yes">
+<instance part="U10" gate="P" x="55.88" y="101.6" smashed="yes">
 <attribute name="NAME" x="55.88" y="102.362" size="1.27" layer="95"/>
 <attribute name="MPN" x="55.88" y="88.138" size="1.27" layer="95" align="top-left"/>
 </instance>
@@ -2270,7 +2270,7 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND3" gate="1" x="68.58" y="88.9" smashed="yes">
 <attribute name="VALUE" x="68.58" y="87.63" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C4" gate="G$1" x="68.58" y="96.52" smashed="yes" rot="R90">
+<instance part="C29" gate="G$1" x="68.58" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.04" y="95.25" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="71.12" y="94.742" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="71.12" y="95.758" size="1.27" layer="96" rot="R90" align="top-left"/>
@@ -2285,16 +2285,16 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND4" gate="1" x="38.1" y="76.2" smashed="yes">
 <attribute name="VALUE" x="38.1" y="74.93" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C40" gate="G$1" x="73.66" y="129.54" smashed="yes">
+<instance part="C7" gate="G$1" x="73.66" y="129.54" smashed="yes">
 <attribute name="NAME" x="72.39" y="132.08" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="71.882" y="127" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="72.898" y="127" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="R5" gate="G$1" x="45.72" y="99.06" smashed="yes" rot="R90">
+<instance part="R7" gate="G$1" x="45.72" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.45" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="46.99" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="45.72" y="71.12" smashed="yes" rot="R90">
+<instance part="R14" gate="G$1" x="45.72" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.45" y="69.85" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="46.99" y="69.85" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
@@ -2310,16 +2310,16 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+7" gate="1" x="45.72" y="104.14" smashed="yes">
 <attribute name="VALUE" x="45.72" y="106.68" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U10" gate="G$1" x="91.44" y="40.64" smashed="yes">
+<instance part="U7" gate="G$1" x="91.44" y="40.64" smashed="yes">
 <attribute name="NAME" x="91.44" y="41.402" size="1.27" layer="95"/>
 <attribute name="MPN" x="91.44" y="17.018" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C5" gate="G$1" x="76.2" y="25.4" smashed="yes" rot="R90">
+<instance part="C18" gate="G$1" x="76.2" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="24.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="78.74" y="23.622" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="78.74" y="24.638" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="C6" gate="G$1" x="83.82" y="25.4" smashed="yes" rot="R90">
+<instance part="C22" gate="G$1" x="83.82" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.28" y="24.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="86.36" y="23.622" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="86.36" y="24.638" size="1.27" layer="96" rot="R90" align="top-left"/>
@@ -2327,7 +2327,7 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND6" gate="1" x="116.84" y="38.1" smashed="yes">
 <attribute name="VALUE" x="116.84" y="36.83" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C7" gate="G$1" x="114.3" y="43.18" smashed="yes">
+<instance part="C26" gate="G$1" x="114.3" y="43.18" smashed="yes">
 <attribute name="NAME" x="113.03" y="45.72" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="112.522" y="40.64" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="113.538" y="40.64" size="1.27" layer="96" align="top-left"/>
@@ -2352,12 +2352,12 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND9" gate="1" x="68.58" y="40.64" smashed="yes">
 <attribute name="VALUE" x="68.58" y="39.37" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C8" gate="G$1" x="68.58" y="48.26" smashed="yes" rot="R90">
+<instance part="C30" gate="G$1" x="68.58" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.04" y="46.99" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="71.12" y="46.482" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="71.12" y="47.498" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="J6" gate="G$1" x="25.4" y="40.64" smashed="yes">
+<instance part="J3" gate="G$1" x="25.4" y="40.64" smashed="yes">
 <attribute name="NAME" x="25.4" y="41.275" size="1.27" layer="95"/>
 <attribute name="MODEL" x="25.4" y="27.305" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -2367,11 +2367,11 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND10" gate="1" x="38.1" y="27.94" smashed="yes">
 <attribute name="VALUE" x="38.1" y="26.67" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R8" gate="G$1" x="45.72" y="50.8" smashed="yes" rot="R90">
+<instance part="R9" gate="G$1" x="45.72" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.45" y="49.53" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="46.99" y="49.53" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R9" gate="G$1" x="45.72" y="22.86" smashed="yes" rot="R90">
+<instance part="R8" gate="G$1" x="45.72" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.45" y="21.59" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="46.99" y="21.59" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
@@ -2387,16 +2387,16 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+30" gate="1" x="45.72" y="55.88" smashed="yes">
 <attribute name="VALUE" x="45.72" y="58.42" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U12" gate="G$1" x="205.74" y="88.9" smashed="yes">
+<instance part="U8" gate="G$1" x="205.74" y="88.9" smashed="yes">
 <attribute name="NAME" x="205.74" y="89.662" size="1.27" layer="95"/>
 <attribute name="MPN" x="205.74" y="65.278" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C9" gate="G$1" x="190.5" y="73.66" smashed="yes" rot="R90">
+<instance part="C19" gate="G$1" x="190.5" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="187.96" y="72.39" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="193.04" y="71.882" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="193.04" y="72.898" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="C10" gate="G$1" x="198.12" y="73.66" smashed="yes" rot="R90">
+<instance part="C23" gate="G$1" x="198.12" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="195.58" y="72.39" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="200.66" y="71.882" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="200.66" y="72.898" size="1.27" layer="96" rot="R90" align="top-left"/>
@@ -2404,7 +2404,7 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND14" gate="1" x="231.14" y="86.36" smashed="yes">
 <attribute name="VALUE" x="231.14" y="85.09" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C43" gate="G$1" x="228.6" y="91.44" smashed="yes">
+<instance part="C27" gate="G$1" x="228.6" y="91.44" smashed="yes">
 <attribute name="NAME" x="227.33" y="93.98" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="226.822" y="88.9" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="227.838" y="88.9" size="1.27" layer="96" align="top-left"/>
@@ -2412,11 +2412,11 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+31" gate="1" x="223.52" y="96.52" smashed="yes">
 <attribute name="VALUE" x="223.52" y="99.06" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U13" gate="A" x="170.18" y="81.28" smashed="yes">
+<instance part="U12" gate="A" x="170.18" y="81.28" smashed="yes">
 <attribute name="NAME" x="172.593" y="84.328" size="1.27" layer="95"/>
 <attribute name="MPN" x="172.593" y="78.232" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="U13" gate="P" x="170.18" y="101.6" smashed="yes">
+<instance part="U12" gate="P" x="170.18" y="101.6" smashed="yes">
 <attribute name="NAME" x="170.18" y="102.362" size="1.27" layer="95"/>
 <attribute name="MPN" x="170.18" y="88.138" size="1.27" layer="95" align="top-left"/>
 </instance>
@@ -2429,12 +2429,12 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND42" gate="1" x="182.88" y="88.9" smashed="yes">
 <attribute name="VALUE" x="182.88" y="87.63" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C44" gate="G$1" x="182.88" y="96.52" smashed="yes" rot="R90">
+<instance part="C31" gate="G$1" x="182.88" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="180.34" y="95.25" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="185.42" y="94.742" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="185.42" y="95.758" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="J9" gate="G$1" x="139.7" y="88.9" smashed="yes">
+<instance part="J4" gate="G$1" x="139.7" y="88.9" smashed="yes">
 <attribute name="NAME" x="139.7" y="89.535" size="1.27" layer="95"/>
 <attribute name="MODEL" x="139.7" y="75.565" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -2444,11 +2444,11 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND44" gate="1" x="152.4" y="76.2" smashed="yes">
 <attribute name="VALUE" x="152.4" y="74.93" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="160.02" y="99.06" smashed="yes" rot="R90">
+<instance part="R11" gate="G$1" x="160.02" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="158.75" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="161.29" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R11" gate="G$1" x="160.02" y="71.12" smashed="yes" rot="R90">
+<instance part="R10" gate="G$1" x="160.02" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="158.75" y="69.85" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="161.29" y="69.85" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
@@ -2464,16 +2464,16 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+34" gate="1" x="160.02" y="104.14" smashed="yes">
 <attribute name="VALUE" x="160.02" y="106.68" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U14" gate="G$1" x="205.74" y="40.64" smashed="yes">
+<instance part="U9" gate="G$1" x="205.74" y="40.64" smashed="yes">
 <attribute name="NAME" x="205.74" y="41.402" size="1.27" layer="95"/>
 <attribute name="MPN" x="205.74" y="17.018" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C45" gate="G$1" x="190.5" y="25.4" smashed="yes" rot="R90">
+<instance part="C20" gate="G$1" x="190.5" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="187.96" y="24.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="193.04" y="23.622" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="193.04" y="24.638" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="C46" gate="G$1" x="198.12" y="25.4" smashed="yes" rot="R90">
+<instance part="C24" gate="G$1" x="198.12" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="195.58" y="24.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="200.66" y="23.622" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="200.66" y="24.638" size="1.27" layer="96" rot="R90" align="top-left"/>
@@ -2481,7 +2481,7 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND46" gate="1" x="231.14" y="38.1" smashed="yes">
 <attribute name="VALUE" x="231.14" y="36.83" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C47" gate="G$1" x="228.6" y="43.18" smashed="yes">
+<instance part="C28" gate="G$1" x="228.6" y="43.18" smashed="yes">
 <attribute name="NAME" x="227.33" y="45.72" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="226.822" y="40.64" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="227.838" y="40.64" size="1.27" layer="96" align="top-left"/>
@@ -2489,11 +2489,11 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+35" gate="1" x="223.52" y="48.26" smashed="yes">
 <attribute name="VALUE" x="223.52" y="50.8" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U15" gate="A" x="170.18" y="33.02" smashed="yes">
+<instance part="U13" gate="A" x="170.18" y="33.02" smashed="yes">
 <attribute name="NAME" x="172.593" y="36.068" size="1.27" layer="95"/>
 <attribute name="MPN" x="172.593" y="29.972" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="U15" gate="P" x="170.18" y="53.34" smashed="yes">
+<instance part="U13" gate="P" x="170.18" y="53.34" smashed="yes">
 <attribute name="NAME" x="170.18" y="54.102" size="1.27" layer="95"/>
 <attribute name="MPN" x="170.18" y="39.878" size="1.27" layer="95" align="top-left"/>
 </instance>
@@ -2506,12 +2506,12 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND48" gate="1" x="182.88" y="40.64" smashed="yes">
 <attribute name="VALUE" x="182.88" y="39.37" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C48" gate="G$1" x="182.88" y="48.26" smashed="yes" rot="R90">
+<instance part="C32" gate="G$1" x="182.88" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="180.34" y="46.99" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="185.42" y="46.482" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="185.42" y="47.498" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="J12" gate="G$1" x="139.7" y="40.64" smashed="yes">
+<instance part="J5" gate="G$1" x="139.7" y="40.64" smashed="yes">
 <attribute name="NAME" x="139.7" y="41.275" size="1.27" layer="95"/>
 <attribute name="MODEL" x="139.7" y="27.305" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -2521,11 +2521,11 @@ Note: OPA991 is also a comparator</description>
 <instance part="GND49" gate="1" x="152.4" y="27.94" smashed="yes">
 <attribute name="VALUE" x="152.4" y="26.67" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R12" gate="G$1" x="160.02" y="50.8" smashed="yes" rot="R90">
+<instance part="R13" gate="G$1" x="160.02" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="158.75" y="49.53" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="161.29" y="49.53" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R13" gate="G$1" x="160.02" y="22.86" smashed="yes" rot="R90">
+<instance part="R12" gate="G$1" x="160.02" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="158.75" y="21.59" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="161.29" y="21.59" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
@@ -2541,27 +2541,27 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+38" gate="1" x="160.02" y="55.88" smashed="yes">
 <attribute name="VALUE" x="160.02" y="58.42" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D1" gate="LED" x="238.76" y="147.32" smashed="yes">
+<instance part="D3" gate="LED" x="238.76" y="147.32" smashed="yes">
 <attribute name="COLOR" x="237.49" y="145.542" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="237.49" y="150.876" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D3" gate="LED" x="238.76" y="137.16" smashed="yes">
+<instance part="D2" gate="LED" x="238.76" y="137.16" smashed="yes">
 <attribute name="COLOR" x="237.49" y="135.382" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="237.49" y="140.716" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="251.46" y="147.32" smashed="yes">
+<instance part="R3" gate="G$1" x="251.46" y="147.32" smashed="yes">
 <attribute name="NAME" x="250.19" y="148.59" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="250.19" y="146.05" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R3" gate="G$1" x="251.46" y="137.16" smashed="yes">
+<instance part="R2" gate="G$1" x="251.46" y="137.16" smashed="yes">
 <attribute name="NAME" x="250.19" y="138.43" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="250.19" y="135.89" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="D4" gate="LED" x="238.76" y="127" smashed="yes">
+<instance part="D1" gate="LED" x="238.76" y="127" smashed="yes">
 <attribute name="COLOR" x="237.49" y="125.222" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="237.49" y="130.556" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="251.46" y="127" smashed="yes">
+<instance part="R1" gate="G$1" x="251.46" y="127" smashed="yes">
 <attribute name="NAME" x="250.19" y="128.27" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="250.19" y="125.73" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -2571,23 +2571,23 @@ Note: OPA991 is also a comparator</description>
 <instance part="P+8" gate="1" x="228.6" y="149.86" smashed="yes">
 <attribute name="VALUE" x="228.6" y="152.4" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C11" gate="G$1" x="266.7" y="218.44" smashed="yes">
+<instance part="C14" gate="G$1" x="266.7" y="218.44" smashed="yes">
 <attribute name="NAME" x="265.43" y="220.98" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VOLTAGE" x="264.922" y="215.9" size="1.27" layer="96" align="top-right"/>
 <attribute name="CAPACITANCE" x="265.938" y="215.9" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="R2" gate="G$1" x="210.82" y="185.42" smashed="yes" rot="R90">
+<instance part="R5" gate="G$1" x="210.82" y="185.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="209.55" y="184.15" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="212.09" y="184.15" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R14" gate="G$1" x="220.98" y="195.58" smashed="yes" rot="R90">
+<instance part="R6" gate="G$1" x="220.98" y="195.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="219.71" y="194.31" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="222.25" y="194.31" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="S1PU1" gate="G$1" x="208.28" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="205.74" y="190.5" size="1.27" layer="95" rot="R90"/>
 </instance>
-<instance part="C12" gate="G$1" x="215.9" y="170.18" smashed="yes" rot="R90">
+<instance part="C16" gate="G$1" x="215.9" y="170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="213.36" y="168.91" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="218.44" y="168.402" size="1.27" layer="96" rot="R90" align="top-right"/>
 <attribute name="CAPACITANCE" x="218.44" y="169.418" size="1.27" layer="96" rot="R90" align="top-left"/>
@@ -2602,12 +2602,12 @@ Note: OPA991 is also a comparator</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="U20" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="48.26" y1="203.2" x2="48.26" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="C42" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="205.74" x2="48.26" y2="205.74" width="0.1524" layer="91"/>
 <junction x="48.26" y="205.74"/>
-<pinref part="C41" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="205.74" x2="35.56" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -2616,73 +2616,73 @@ Note: OPA991 is also a comparator</description>
 <wire x1="134.62" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="GND"/>
+<pinref part="U4" gate="G$1" pin="GND"/>
 <wire x1="137.16" y1="139.7" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="AGND"/>
+<pinref part="U4" gate="G$1" pin="AGND"/>
 <wire x1="167.64" y1="139.7" x2="165.1" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C30" gate="G$1" pin="1"/>
-<pinref part="C29" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="165.1" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
 <junction x="172.72" y="157.48"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X6" gate="G$1" pin="GND"/>
+<pinref part="X2" gate="G$1" pin="GND"/>
 <wire x1="182.88" y1="180.34" x2="182.88" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C31" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="177.8" x2="175.26" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C32" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
 <junction x="182.88" y="177.8"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="38.1" y1="124.46" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND34" gate="1" pin="GND"/>
-<pinref part="U7" gate="G$1" pin="GND"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
 <wire x1="236.22" y1="193.04" x2="238.76" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND35" gate="1" pin="GND"/>
 <wire x1="279.4" y1="193.04" x2="281.94" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="GND"/>
+<pinref part="J6" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C33" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 <wire x1="269.24" y1="210.82" x2="271.78" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="210.82" x2="271.78" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="269.24" y1="218.44" x2="271.78" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="218.44" x2="271.78" y2="210.82" width="0.1524" layer="91"/>
 <junction x="271.78" y="210.82"/>
 </segment>
 <segment>
-<pinref part="X7" gate="G$1" pin="GND"/>
+<pinref part="X1" gate="G$1" pin="GND"/>
 <wire x1="96.52" y1="160.02" x2="96.52" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C35" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="157.48" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C36" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="157.48" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
 <junction x="96.52" y="157.48"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C39" gate="G$1" pin="1"/>
-<pinref part="C38" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="182.88" x2="73.66" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="C37" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="175.26" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
 <junction x="73.66" y="175.26"/>
 <wire x1="73.66" y1="167.64" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
@@ -2690,35 +2690,35 @@ Note: OPA991 is also a comparator</description>
 <pinref part="GND39" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C34" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 <wire x1="172.72" y1="208.28" x2="177.8" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="129.54" x2="76.2" y2="127" width="0.1524" layer="91"/>
 <pinref part="GND41" gate="1" pin="GND"/>
-<pinref part="C40" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="116.84" y1="88.9" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C25" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="GND"/>
+<pinref part="U6" gate="G$1" pin="GND"/>
 <wire x1="88.9" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 <junction x="83.82" y="68.58"/>
 <wire x1="83.82" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C17" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <junction x="76.2" y="68.58"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="U9" gate="P" pin="GND"/>
+<pinref part="U10" gate="P" pin="GND"/>
 <wire x1="68.58" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C29" gate="G$1" pin="2"/>
 <junction x="68.58" y="91.44"/>
 </segment>
 <segment>
@@ -2728,20 +2728,20 @@ Note: OPA991 is also a comparator</description>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="116.84" y1="40.64" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C26" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="GND"/>
+<pinref part="U7" gate="G$1" pin="GND"/>
 <wire x1="88.9" y1="20.32" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C22" gate="G$1" pin="2"/>
 <junction x="83.82" y="20.32"/>
 <wire x1="83.82" y1="20.32" x2="76.2" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C18" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <junction x="76.2" y="20.32"/>
 </segment>
@@ -2749,122 +2749,122 @@ Note: OPA991 is also a comparator</description>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="U11" gate="P" pin="GND"/>
 <wire x1="68.58" y1="43.18" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C30" gate="G$1" pin="2"/>
 <junction x="68.58" y="43.18"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="J6" gate="G$1" pin="GND"/>
+<pinref part="J3" gate="G$1" pin="GND"/>
 <wire x1="38.1" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="231.14" y1="88.9" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C43" gate="G$1" pin="1"/>
+<pinref part="C27" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U12" gate="G$1" pin="GND"/>
+<pinref part="U8" gate="G$1" pin="GND"/>
 <wire x1="203.2" y1="68.58" x2="198.12" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C23" gate="G$1" pin="2"/>
 <junction x="198.12" y="68.58"/>
 <wire x1="198.12" y1="68.58" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="2"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 <junction x="190.5" y="68.58"/>
 </segment>
 <segment>
 <pinref part="GND42" gate="1" pin="GND"/>
-<pinref part="U13" gate="P" pin="GND"/>
+<pinref part="U12" gate="P" pin="GND"/>
 <wire x1="182.88" y1="91.44" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C44" gate="G$1" pin="2"/>
+<pinref part="C31" gate="G$1" pin="2"/>
 <junction x="182.88" y="91.44"/>
 </segment>
 <segment>
 <pinref part="GND44" gate="1" pin="GND"/>
-<pinref part="J9" gate="G$1" pin="GND"/>
+<pinref part="J4" gate="G$1" pin="GND"/>
 <wire x1="152.4" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND45" gate="1" pin="GND"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND46" gate="1" pin="GND"/>
 <wire x1="231.14" y1="40.64" x2="231.14" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C47" gate="G$1" pin="1"/>
+<pinref part="C28" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U14" gate="G$1" pin="GND"/>
+<pinref part="U9" gate="G$1" pin="GND"/>
 <wire x1="203.2" y1="20.32" x2="198.12" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C46" gate="G$1" pin="2"/>
+<pinref part="C24" gate="G$1" pin="2"/>
 <junction x="198.12" y="20.32"/>
 <wire x1="198.12" y1="20.32" x2="190.5" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C45" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 <pinref part="GND47" gate="1" pin="GND"/>
 <junction x="190.5" y="20.32"/>
 </segment>
 <segment>
 <pinref part="GND48" gate="1" pin="GND"/>
-<pinref part="U15" gate="P" pin="GND"/>
+<pinref part="U13" gate="P" pin="GND"/>
 <wire x1="182.88" y1="43.18" x2="180.34" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C48" gate="G$1" pin="2"/>
+<pinref part="C32" gate="G$1" pin="2"/>
 <junction x="182.88" y="43.18"/>
 </segment>
 <segment>
 <pinref part="GND49" gate="1" pin="GND"/>
-<pinref part="J12" gate="G$1" pin="GND"/>
+<pinref part="J5" gate="G$1" pin="GND"/>
 <wire x1="152.4" y1="30.48" x2="149.86" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND50" gate="1" pin="GND"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="121.92" x2="256.54" y2="127" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="127" x2="254" y2="127" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="254" y1="137.16" x2="256.54" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="137.16" x2="256.54" y2="127" width="0.1524" layer="91"/>
 <junction x="256.54" y="127"/>
 <junction x="256.54" y="137.16"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="254" y1="147.32" x2="256.54" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="147.32" x2="256.54" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="215.9" y1="165.1" x2="215.9" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="CANH"/>
+<pinref part="U5" gate="G$1" pin="CANH"/>
 <wire x1="261.62" y1="198.12" x2="281.94" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="CANH"/>
+<pinref part="J6" gate="G$1" pin="CANH"/>
 <label x="261.62" y="198.12" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="CANL" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="CANL"/>
+<pinref part="U5" gate="G$1" pin="CANL"/>
 <wire x1="261.62" y1="195.58" x2="281.94" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="CANL"/>
+<pinref part="J6" gate="G$1" pin="CANL"/>
 <label x="261.62" y="195.58" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<pinref part="C42" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="215.9" x2="60.96" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="U20" gate="G$1" pin="OUT"/>
+<pinref part="U1" gate="G$1" pin="OUT"/>
 <wire x1="55.88" y1="213.36" x2="60.96" y2="213.36" width="0.1524" layer="91"/>
 <junction x="60.96" y="213.36"/>
 </segment>
@@ -2874,45 +2874,45 @@ Note: OPA991 is also a comparator</description>
 <wire x1="134.62" y1="127" x2="137.16" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="VREF"/>
-<pinref part="U5" gate="G$1" pin="VDD"/>
+<pinref part="U4" gate="G$1" pin="VREF"/>
+<pinref part="U4" gate="G$1" pin="VDD"/>
 <wire x1="165.1" y1="152.4" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="154.94" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
 <junction x="165.1" y="154.94"/>
-<pinref part="C30" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="157.48" x2="165.1" y2="165.1" width="0.1524" layer="91"/>
 <junction x="165.1" y="157.48"/>
 <junction x="165.1" y="165.1"/>
 <pinref part="P+24" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <wire x1="20.32" y1="127" x2="17.78" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="VDD"/>
-<pinref part="C33" gate="G$1" pin="2"/>
+<pinref part="U5" gate="G$1" pin="VDD"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="205.74" x2="261.62" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="210.82" x2="261.62" y2="218.44" width="0.1524" layer="91"/>
 <junction x="261.62" y="210.82"/>
 <pinref part="P+26" gate="1" pin="+5V"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="218.44" x2="261.62" y2="223.52" width="0.1524" layer="91"/>
 <junction x="261.62" y="218.44"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="AVDD"/>
-<pinref part="U1" gate="G$1" pin="VDD"/>
+<pinref part="U2" gate="G$1" pin="AVDD"/>
+<pinref part="U2" gate="G$1" pin="VDD"/>
 <wire x1="66.04" y1="162.56" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C37" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="165.1" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
 <junction x="66.04" y="165.1"/>
-<pinref part="C38" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="167.64" x2="66.04" y2="175.26" width="0.1524" layer="91"/>
 <junction x="66.04" y="167.64"/>
-<pinref part="C39" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="175.26" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
 <junction x="66.04" y="175.26"/>
 <wire x1="66.04" y1="182.88" x2="66.04" y2="185.42" width="0.1524" layer="91"/>
@@ -2920,29 +2920,29 @@ Note: OPA991 is also a comparator</description>
 <pinref part="P+27" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="VDD"/>
-<pinref part="C34" gate="G$1" pin="2"/>
+<pinref part="U3" gate="G$1" pin="VDD"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="203.2" x2="165.1" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="P+28" gate="1" pin="+5V"/>
 <wire x1="165.1" y1="208.28" x2="165.1" y2="213.36" width="0.1524" layer="91"/>
 <junction x="165.1" y="208.28"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="!SHDN"/>
-<pinref part="U8" gate="G$1" pin="VDD"/>
+<pinref part="U6" gate="G$1" pin="!SHDN"/>
+<pinref part="U6" gate="G$1" pin="VDD"/>
 <wire x1="109.22" y1="83.82" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="86.36" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
 <junction x="109.22" y="86.36"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="91.44" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
 <junction x="109.22" y="91.44"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="U9" gate="P" pin="VDD"/>
+<pinref part="U10" gate="P" pin="VDD"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="66.04" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C29" gate="G$1" pin="1"/>
 <junction x="68.58" y="99.06"/>
 </segment>
 <segment>
@@ -2952,15 +2952,15 @@ Note: OPA991 is also a comparator</description>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="!SHDN"/>
-<pinref part="U10" gate="G$1" pin="VDD"/>
+<pinref part="U7" gate="G$1" pin="!SHDN"/>
+<pinref part="U7" gate="G$1" pin="VDD"/>
 <wire x1="109.22" y1="35.56" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="38.1" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
 <junction x="109.22" y="38.1"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="43.18" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
 <junction x="109.22" y="43.18"/>
 <pinref part="P+21" gate="1" pin="+5V"/>
@@ -2969,82 +2969,82 @@ Note: OPA991 is also a comparator</description>
 <pinref part="U11" gate="P" pin="VDD"/>
 <pinref part="P+22" gate="1" pin="+5V"/>
 <wire x1="66.04" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C30" gate="G$1" pin="1"/>
 <junction x="68.58" y="50.8"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="VDD"/>
+<pinref part="J3" gate="G$1" pin="VDD"/>
 <pinref part="P+29" gate="1" pin="+5V"/>
 <wire x1="35.56" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+30" gate="1" pin="+5V"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U12" gate="G$1" pin="!SHDN"/>
-<pinref part="U12" gate="G$1" pin="VDD"/>
+<pinref part="U8" gate="G$1" pin="!SHDN"/>
+<pinref part="U8" gate="G$1" pin="VDD"/>
 <wire x1="223.52" y1="83.82" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="86.36" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
 <junction x="223.52" y="86.36"/>
-<pinref part="C43" gate="G$1" pin="2"/>
+<pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="91.44" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
 <junction x="223.52" y="91.44"/>
 <pinref part="P+31" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="U13" gate="P" pin="VDD"/>
+<pinref part="U12" gate="P" pin="VDD"/>
 <pinref part="P+32" gate="1" pin="+5V"/>
 <wire x1="180.34" y1="99.06" x2="182.88" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="C44" gate="G$1" pin="1"/>
+<pinref part="C31" gate="G$1" pin="1"/>
 <junction x="182.88" y="99.06"/>
 </segment>
 <segment>
-<pinref part="J9" gate="G$1" pin="VDD"/>
+<pinref part="J4" gate="G$1" pin="VDD"/>
 <pinref part="P+33" gate="1" pin="+5V"/>
 <wire x1="149.86" y1="86.36" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+34" gate="1" pin="+5V"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U14" gate="G$1" pin="!SHDN"/>
-<pinref part="U14" gate="G$1" pin="VDD"/>
+<pinref part="U9" gate="G$1" pin="!SHDN"/>
+<pinref part="U9" gate="G$1" pin="VDD"/>
 <wire x1="223.52" y1="35.56" x2="223.52" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="38.1" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
 <junction x="223.52" y="38.1"/>
-<pinref part="C47" gate="G$1" pin="2"/>
+<pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="43.18" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
 <junction x="223.52" y="43.18"/>
 <pinref part="P+35" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="U15" gate="P" pin="VDD"/>
+<pinref part="U13" gate="P" pin="VDD"/>
 <pinref part="P+36" gate="1" pin="+5V"/>
 <wire x1="180.34" y1="50.8" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="C48" gate="G$1" pin="1"/>
+<pinref part="C32" gate="G$1" pin="1"/>
 <junction x="182.88" y="50.8"/>
 </segment>
 <segment>
-<pinref part="J12" gate="G$1" pin="VDD"/>
+<pinref part="J5" gate="G$1" pin="VDD"/>
 <pinref part="P+37" gate="1" pin="+5V"/>
 <wire x1="149.86" y1="38.1" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+38" gate="1" pin="+5V"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="D1" gate="LED" pin="A"/>
+<pinref part="D3" gate="LED" pin="A"/>
 <wire x1="233.68" y1="147.32" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="22(!RESET!)"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="U2" gate="G$1" pin="22(!RESET!)"/>
 <wire x1="27.94" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
 <label x="27.94" y="127" size="1.27" layer="95"/>
 </segment>
@@ -3056,10 +3056,10 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="ATMEGA_CS" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="!CS!/SHDN"/>
+<pinref part="U4" gate="G$1" pin="!CS!/SHDN"/>
 <wire x1="137.16" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
 <label x="66.04" y="144.78" size="1.27" layer="95"/>
-<pinref part="U1" gate="G$1" pin="15(A1)"/>
+<pinref part="U2" gate="G$1" pin="15(A1)"/>
 <wire x1="38.1" y1="139.7" x2="12.7" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="139.7" x2="12.7" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
@@ -3068,33 +3068,33 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="ATMEGA_SDO" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(PWM/SDO)11"/>
+<pinref part="U2" gate="G$1" pin="(PWM/SDO)11"/>
 <wire x1="66.04" y1="147.32" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="SDI"/>
 <wire x1="137.16" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="119.38" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="SDI"/>
+<pinref part="U4" gate="G$1" pin="SDI"/>
 <wire x1="119.38" y1="147.32" x2="137.16" y2="147.32" width="0.1524" layer="91"/>
 <junction x="119.38" y="147.32"/>
 <label x="66.04" y="147.32" size="1.27" layer="95"/>
-<pinref part="U6" gate="G$1" pin="SDI"/>
+<pinref part="U3" gate="G$1" pin="SDI"/>
 <wire x1="119.38" y1="147.32" x2="119.38" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="198.12" x2="137.16" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ATMEGA_SDI" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(SDI)12"/>
+<pinref part="U2" gate="G$1" pin="(SDI)12"/>
 <wire x1="121.92" y1="149.86" x2="116.84" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="149.86" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="149.86" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
 <junction x="121.92" y="149.86"/>
 <pinref part="J1" gate="G$1" pin="SDO"/>
 <wire x1="121.92" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="SDO"/>
+<pinref part="U4" gate="G$1" pin="SDO"/>
 <wire x1="137.16" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <label x="66.04" y="149.86" size="1.27" layer="95"/>
-<pinref part="U6" gate="G$1" pin="SDO"/>
+<pinref part="U3" gate="G$1" pin="SDO"/>
 <wire x1="116.84" y1="149.86" x2="116.84" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="200.66" x2="137.16" y2="200.66" width="0.1524" layer="91"/>
 <junction x="116.84" y="149.86"/>
@@ -3102,17 +3102,17 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="CLK" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="(CLK)13"/>
+<pinref part="U2" gate="G$1" pin="(CLK)13"/>
 <wire x1="66.04" y1="152.4" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="CLK"/>
 <wire x1="114.3" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="124.46" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="124.46" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="CLK"/>
+<pinref part="U4" gate="G$1" pin="CLK"/>
 <wire x1="124.46" y1="152.4" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
 <junction x="124.46" y="152.4"/>
 <label x="66.04" y="152.4" size="1.27" layer="95"/>
-<pinref part="U6" gate="G$1" pin="CLK"/>
+<pinref part="U3" gate="G$1" pin="CLK"/>
 <wire x1="114.3" y1="152.4" x2="114.3" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="203.2" x2="137.16" y2="203.2" width="0.1524" layer="91"/>
 <junction x="114.3" y="152.4"/>
@@ -3120,19 +3120,19 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="CANTX" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="TX"/>
-<pinref part="U7" gate="G$1" pin="TXD"/>
+<pinref part="U3" gate="G$1" pin="TX"/>
+<pinref part="U5" gate="G$1" pin="TXD"/>
 <wire x1="165.1" y1="198.12" x2="220.98" y2="198.12" width="0.1524" layer="91"/>
 <label x="165.1" y="198.12" size="1.27" layer="95"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="198.12" x2="238.76" y2="198.12" width="0.1524" layer="91"/>
 <junction x="220.98" y="198.12"/>
 </segment>
 </net>
 <net name="CANRX" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="RXD"/>
-<pinref part="U6" gate="G$1" pin="RX"/>
+<pinref part="U5" gate="G$1" pin="RXD"/>
+<pinref part="U3" gate="G$1" pin="RX"/>
 <wire x1="238.76" y1="195.58" x2="210.82" y2="195.58" width="0.1524" layer="91"/>
 <label x="165.1" y="195.58" size="1.27" layer="95"/>
 <pinref part="S1PU1" gate="G$1" pin="P$2"/>
@@ -3142,109 +3142,109 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="14(A0)"/>
+<pinref part="U2" gate="G$1" pin="14(A0)"/>
 <wire x1="38.1" y1="142.24" x2="12.7" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="!CS"/>
+<pinref part="U3" gate="G$1" pin="!CS"/>
 <wire x1="12.7" y1="142.24" x2="12.7" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="195.58" x2="137.16" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="X6" gate="G$1" pin="1"/>
+<pinref part="X2" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="185.42" x2="175.26" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="OSC1"/>
+<pinref part="U3" gate="G$1" pin="OSC1"/>
 <wire x1="175.26" y1="185.42" x2="165.1" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="185.42" x2="165.1" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="C31" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <junction x="175.26" y="185.42"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="OSC2"/>
+<pinref part="U3" gate="G$1" pin="OSC2"/>
 <wire x1="165.1" y1="190.5" x2="187.96" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="X6" gate="G$1" pin="3"/>
+<pinref part="X2" gate="G$1" pin="3"/>
 <wire x1="187.96" y1="190.5" x2="187.96" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="185.42" x2="195.58" y2="185.42" width="0.1524" layer="91"/>
 <junction x="187.96" y="185.42"/>
-<pinref part="C32" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
 <wire x1="281.94" y1="200.66" x2="279.4" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="P+25" gate="1" pin="+12V"/>
-<pinref part="J3" gate="G$1" pin="+12V"/>
+<pinref part="J6" gate="G$1" pin="+12V"/>
 </segment>
 <segment>
-<pinref part="U20" gate="G$1" pin="IN"/>
+<pinref part="U1" gate="G$1" pin="IN"/>
 <wire x1="40.64" y1="213.36" x2="35.56" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="213.36" x2="35.56" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="C41" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <junction x="35.56" y="213.36"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="X7" gate="G$1" pin="1"/>
+<pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="165.1" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="165.1" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C35" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <junction x="88.9" y="165.1"/>
-<pinref part="U1" gate="G$1" pin="(XTAL1)14"/>
+<pinref part="U2" gate="G$1" pin="(XTAL1)14"/>
 <wire x1="66.04" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="154.94" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="X7" gate="G$1" pin="3"/>
+<pinref part="X1" gate="G$1" pin="3"/>
 <wire x1="81.28" y1="170.18" x2="101.6" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="170.18" x2="101.6" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="165.1" x2="109.22" y2="165.1" width="0.1524" layer="91"/>
 <junction x="101.6" y="165.1"/>
-<pinref part="C36" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="(XTAL2)15"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="(XTAL2)15"/>
 <wire x1="66.04" y1="157.48" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="157.48" x2="81.28" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="AREF"/>
+<pinref part="U2" gate="G$1" pin="AREF"/>
 <wire x1="68.58" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="C40" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="76.2" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="CLK"/>
+<pinref part="U6" gate="G$1" pin="CLK"/>
 <wire x1="76.2" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="U8" gate="G$1" pin="COM"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="U6" gate="G$1" pin="COM"/>
 <wire x1="83.82" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="OS"/>
+<pinref part="U6" gate="G$1" pin="OS"/>
 <wire x1="88.9" y1="73.66" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
 <junction x="88.9" y="76.2"/>
 </segment>
 </net>
 <net name="SIG1_BUFF" class="0">
 <segment>
-<pinref part="U9" gate="A" pin="VIN-"/>
+<pinref part="U10" gate="A" pin="VIN-"/>
 <wire x1="53.34" y1="78.74" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="76.2" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U9" gate="A" pin="VOUT"/>
+<pinref part="U10" gate="A" pin="VOUT"/>
 <wire x1="71.12" y1="81.28" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="IN"/>
+<pinref part="U6" gate="G$1" pin="IN"/>
 <wire x1="71.12" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
 <junction x="71.12" y="81.28"/>
 <label x="71.12" y="81.28" size="1.27" layer="95"/>
@@ -3252,7 +3252,7 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="SIG1" class="0">
 <segment>
-<pinref part="U9" gate="A" pin="VIN+"/>
+<pinref part="U10" gate="A" pin="VIN+"/>
 <pinref part="J2" gate="G$1" pin="CH1"/>
 <wire x1="35.56" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="S1PD" gate="G$1" pin="P$2"/>
@@ -3266,19 +3266,19 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="SIG1_READ" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="OUT"/>
+<pinref part="U6" gate="G$1" pin="OUT"/>
 <wire x1="109.22" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
 <label x="119.38" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="165.1" y1="149.86" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
 <label x="175.26" y="149.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="U5" gate="G$1" pin="CH0"/>
+<pinref part="U4" gate="G$1" pin="CH0"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="S1PU" gate="G$1" pin="P$2"/>
 <wire x1="45.72" y1="93.98" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
 </segment>
@@ -3286,24 +3286,24 @@ Note: OPA991 is also a comparator</description>
 <net name="N$21" class="0">
 <segment>
 <pinref part="S1PD" gate="G$1" pin="P$1"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="73.66" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="27.94" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="CLK"/>
+<pinref part="U7" gate="G$1" pin="CLK"/>
 <wire x1="76.2" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="U10" gate="G$1" pin="COM"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="U7" gate="G$1" pin="COM"/>
 <wire x1="83.82" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="OS"/>
+<pinref part="U7" gate="G$1" pin="OS"/>
 <wire x1="88.9" y1="25.4" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
 <junction x="88.9" y="27.94"/>
 </segment>
@@ -3316,7 +3316,7 @@ Note: OPA991 is also a comparator</description>
 <wire x1="71.12" y1="27.94" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="U11" gate="A" pin="VOUT"/>
 <wire x1="71.12" y1="33.02" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="IN"/>
+<pinref part="U7" gate="G$1" pin="IN"/>
 <wire x1="71.12" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
 <junction x="71.12" y="33.02"/>
 <label x="71.12" y="33.02" size="1.27" layer="95"/>
@@ -3325,7 +3325,7 @@ Note: OPA991 is also a comparator</description>
 <net name="SIG2" class="0">
 <segment>
 <pinref part="U11" gate="A" pin="VIN+"/>
-<pinref part="J6" gate="G$1" pin="CH1"/>
+<pinref part="J3" gate="G$1" pin="CH1"/>
 <wire x1="35.56" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="S2PD" gate="G$1" pin="P$2"/>
 <wire x1="45.72" y1="35.56" x2="53.34" y2="35.56" width="0.1524" layer="91"/>
@@ -3338,19 +3338,19 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="SIG2_READ" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="OUT"/>
+<pinref part="U7" gate="G$1" pin="OUT"/>
 <wire x1="109.22" y1="33.02" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
 <label x="119.38" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="165.1" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 <label x="175.26" y="147.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="U5" gate="G$1" pin="CH1"/>
+<pinref part="U4" gate="G$1" pin="CH1"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="S2PU" gate="G$1" pin="P$2"/>
 <wire x1="45.72" y1="45.72" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -3358,37 +3358,37 @@ Note: OPA991 is also a comparator</description>
 <net name="N$28" class="0">
 <segment>
 <pinref part="S2PD" gate="G$1" pin="P$1"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="25.4" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="76.2" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="CLK"/>
+<pinref part="U8" gate="G$1" pin="CLK"/>
 <wire x1="190.5" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="C10" gate="G$1" pin="1"/>
-<pinref part="U12" gate="G$1" pin="COM"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="U8" gate="G$1" pin="COM"/>
 <wire x1="198.12" y1="76.2" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="OS"/>
+<pinref part="U8" gate="G$1" pin="OS"/>
 <wire x1="203.2" y1="73.66" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
 <junction x="203.2" y="76.2"/>
 </segment>
 </net>
 <net name="SIG3_BUFF" class="0">
 <segment>
-<pinref part="U13" gate="A" pin="VIN-"/>
+<pinref part="U12" gate="A" pin="VIN-"/>
 <wire x1="167.64" y1="78.74" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="76.2" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="76.2" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U13" gate="A" pin="VOUT"/>
+<pinref part="U12" gate="A" pin="VOUT"/>
 <wire x1="185.42" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="IN"/>
+<pinref part="U8" gate="G$1" pin="IN"/>
 <wire x1="185.42" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
 <junction x="185.42" y="81.28"/>
 <label x="185.42" y="81.28" size="1.27" layer="95"/>
@@ -3396,8 +3396,8 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="SIG3" class="0">
 <segment>
-<pinref part="U13" gate="A" pin="VIN+"/>
-<pinref part="J9" gate="G$1" pin="CH1"/>
+<pinref part="U12" gate="A" pin="VIN+"/>
+<pinref part="J4" gate="G$1" pin="CH1"/>
 <wire x1="149.86" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="S3PD" gate="G$1" pin="P$2"/>
 <wire x1="160.02" y1="83.82" x2="167.64" y2="83.82" width="0.1524" layer="91"/>
@@ -3410,19 +3410,19 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="SIG3_READ" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="OUT"/>
+<pinref part="U8" gate="G$1" pin="OUT"/>
 <wire x1="223.52" y1="81.28" x2="233.68" y2="81.28" width="0.1524" layer="91"/>
 <label x="233.68" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="165.1" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91"/>
 <label x="175.26" y="144.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="U5" gate="G$1" pin="CH2"/>
+<pinref part="U4" gate="G$1" pin="CH2"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="S3PU" gate="G$1" pin="P$2"/>
 <wire x1="160.02" y1="93.98" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
 </segment>
@@ -3430,37 +3430,37 @@ Note: OPA991 is also a comparator</description>
 <net name="N$35" class="0">
 <segment>
 <pinref part="S3PD" gate="G$1" pin="P$1"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="73.66" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="C45" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="27.94" x2="190.5" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U14" gate="G$1" pin="CLK"/>
+<pinref part="U9" gate="G$1" pin="CLK"/>
 <wire x1="190.5" y1="30.48" x2="203.2" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="C46" gate="G$1" pin="1"/>
-<pinref part="U14" gate="G$1" pin="COM"/>
+<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="U9" gate="G$1" pin="COM"/>
 <wire x1="198.12" y1="27.94" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U14" gate="G$1" pin="OS"/>
+<pinref part="U9" gate="G$1" pin="OS"/>
 <wire x1="203.2" y1="25.4" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
 <junction x="203.2" y="27.94"/>
 </segment>
 </net>
 <net name="SIG4_BUFF" class="0">
 <segment>
-<pinref part="U15" gate="A" pin="VIN-"/>
+<pinref part="U13" gate="A" pin="VIN-"/>
 <wire x1="167.64" y1="30.48" x2="167.64" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="27.94" x2="185.42" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="27.94" x2="185.42" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U15" gate="A" pin="VOUT"/>
+<pinref part="U13" gate="A" pin="VOUT"/>
 <wire x1="185.42" y1="33.02" x2="177.8" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U14" gate="G$1" pin="IN"/>
+<pinref part="U9" gate="G$1" pin="IN"/>
 <wire x1="185.42" y1="33.02" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
 <junction x="185.42" y="33.02"/>
 <label x="185.42" y="33.02" size="1.27" layer="95"/>
@@ -3468,8 +3468,8 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="SIG4" class="0">
 <segment>
-<pinref part="U15" gate="A" pin="VIN+"/>
-<pinref part="J12" gate="G$1" pin="CH1"/>
+<pinref part="U13" gate="A" pin="VIN+"/>
+<pinref part="J5" gate="G$1" pin="CH1"/>
 <wire x1="149.86" y1="35.56" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="S4PD" gate="G$1" pin="P$2"/>
 <wire x1="160.02" y1="35.56" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
@@ -3482,19 +3482,19 @@ Note: OPA991 is also a comparator</description>
 </net>
 <net name="SIG4_READ" class="0">
 <segment>
-<pinref part="U14" gate="G$1" pin="OUT"/>
+<pinref part="U9" gate="G$1" pin="OUT"/>
 <wire x1="223.52" y1="33.02" x2="233.68" y2="33.02" width="0.1524" layer="91"/>
 <label x="233.68" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="165.1" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
 <label x="175.26" y="142.24" size="1.27" layer="95" xref="yes"/>
-<pinref part="U5" gate="G$1" pin="CH3"/>
+<pinref part="U4" gate="G$1" pin="CH3"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="S4PU" gate="G$1" pin="P$2"/>
 <wire x1="160.02" y1="45.72" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -3502,71 +3502,71 @@ Note: OPA991 is also a comparator</description>
 <net name="N$42" class="0">
 <segment>
 <pinref part="S4PD" gate="G$1" pin="P$1"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="25.4" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="D1" gate="LED" pin="C"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="D3" gate="LED" pin="C"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="147.32" x2="241.3" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="D3" gate="LED" pin="C"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="D2" gate="LED" pin="C"/>
 <wire x1="246.38" y1="137.16" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="D4" gate="LED" pin="C"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="D1" gate="LED" pin="C"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HEARTBEAT_LED" class="0">
 <segment>
-<pinref part="D4" gate="LED" pin="A"/>
+<pinref part="D1" gate="LED" pin="A"/>
 <wire x1="233.68" y1="127" x2="228.6" y2="127" width="0.1524" layer="91"/>
 <label x="228.6" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="38.1" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
 <label x="33.02" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="6(PWM)"/>
+<pinref part="U2" gate="G$1" pin="6(PWM)"/>
 </segment>
 </net>
 <net name="CAN_LED" class="0">
 <segment>
-<pinref part="D3" gate="LED" pin="A"/>
+<pinref part="D2" gate="LED" pin="A"/>
 <wire x1="233.68" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
 <label x="228.6" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="38.1" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
 <label x="33.02" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="5(PWM)"/>
+<pinref part="U2" gate="G$1" pin="5(PWM)"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="S1PU1" gate="G$1" pin="P$1"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="190.5" x2="210.82" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="190.5" x2="220.98" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="175.26" x2="215.9" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="175.26" x2="210.82" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="175.26" x2="210.82" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="172.72" x2="215.9" y2="175.26" width="0.1524" layer="91"/>
 <junction x="215.9" y="175.26"/>
 </segment>
