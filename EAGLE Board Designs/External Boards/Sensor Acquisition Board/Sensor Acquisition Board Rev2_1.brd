@@ -191,9 +191,8 @@
 <wire x1="115.24" y1="0" x2="115.24" y2="52.06" width="0" layer="20"/>
 <wire x1="115.24" y1="52.06" x2="20.32" y2="52.06" width="0" layer="20"/>
 <wire x1="20.32" y1="52.06" x2="20.32" y2="0" width="0" layer="20"/>
-<text x="113.03" y="21.59" size="1.016" layer="51" font="vector" rot="R90">Hytech 2021
-Sensor Acquistion Board rev2
-Designed by Noah Bruckner</text>
+<text x="113.03" y="21.59" size="1.016" layer="51" font="vector" rot="R90">Designed by Noah Bruckner</text>
+<text x="111.125" y="21.59" size="1.016" layer="51" font="vector" rot="R90">Hytech 2021 Sensor Acq rev2</text>
 <text x="102.743" y="39.37" size="1.016" layer="51" font="vector" align="center-left">CAN</text>
 <text x="102.743" y="41.91" size="1.016" layer="51" font="vector" align="center-left">PULSE</text>
 <text x="102.743" y="36.83" size="1.016" layer="51" font="vector" align="center-left">+5V</text>
@@ -4541,7 +4540,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Vishay Vitramon" x="72.644" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="77-VJ0603Y104JXQPBC" x="72.644" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="VJ0603Y104JXQPW1BC" x="72.644" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="72.251" y="33.782" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="73.394" y="36.195" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="72.644" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="72.644" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -5054,7 +5053,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Yageo" x="71.12" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="603-CC603KRX7R6BB105" x="71.12" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R6BB105" x="71.12" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="70.854" y="33.782" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="69.584" y="36.703" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="TOLERANCE" value="10%" x="71.12" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="71.12" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -5587,6 +5586,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="U3" pad="14"/>
 <via x="34.29" y="43.18" extent="1-16" drill="0.35"/>
 <via x="53.086" y="42.799" extent="1-16" drill="0.35"/>
+<wire x1="60.09" y1="41.615" x2="61.995" y2="41.615" width="0.381" layer="1"/>
+<wire x1="59.7425" y1="41.9625" x2="60.09" y2="41.615" width="0.381" layer="1"/>
 <via x="40.894" y="44.704" extent="1-16" drill="0.35"/>
 <wire x1="40.894" y1="44.704" x2="42.784" y2="44.704" width="0.381" layer="1"/>
 <wire x1="42.784" y1="44.704" x2="42.79" y2="44.71" width="0.381" layer="1"/>
@@ -5603,10 +5604,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="34.7345" y1="46.2915" x2="36.195" y2="47.752" width="0.381" layer="1"/>
 <wire x1="34.7345" y1="44.76485625" x2="34.7345" y2="46.2915" width="0.381" layer="1"/>
 <wire x1="57.023" y1="42.799" x2="57.912" y2="41.91" width="0.381" layer="1"/>
-<wire x1="59.69" y1="41.91" x2="57.912" y2="41.91" width="0.381" layer="1"/>
+<wire x1="57.912" y1="41.91" x2="59.69" y2="41.91" width="0.381" layer="1"/>
+<wire x1="59.69" y1="41.91" x2="59.7425" y2="41.9625" width="0.381" layer="1"/>
 <wire x1="53.086" y1="42.799" x2="57.023" y2="42.799" width="0.381" layer="1"/>
-<wire x1="59.985" y1="41.615" x2="59.69" y2="41.91" width="0.381" layer="1"/>
-<wire x1="61.995" y1="41.615" x2="59.985" y2="41.615" width="0.381" layer="1"/>
 </signal>
 <signal name="CANTX">
 <contactref element="U3" pad="1"/>
