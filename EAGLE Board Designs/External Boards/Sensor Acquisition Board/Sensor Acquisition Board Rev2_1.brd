@@ -191,8 +191,8 @@
 <wire x1="115.24" y1="0" x2="115.24" y2="52.06" width="0" layer="20"/>
 <wire x1="115.24" y1="52.06" x2="20.32" y2="52.06" width="0" layer="20"/>
 <wire x1="20.32" y1="52.06" x2="20.32" y2="0" width="0" layer="20"/>
-<text x="114.3" y="21.59" size="1.016" layer="51" font="vector" rot="R90">Designed by Noah Bruckner</text>
-<text x="112.395" y="21.59" size="1.016" layer="51" font="vector" rot="R90">Hytech 2021 Sensor Acq rev2</text>
+<text x="113.03" y="21.59" size="1.016" layer="51" font="vector" rot="R90">Designed by Noah Bruckner</text>
+<text x="111.125" y="21.59" size="1.016" layer="51" font="vector" rot="R90">Hytech 2021 Sensor Acq rev2</text>
 <text x="102.743" y="39.37" size="1.016" layer="51" font="vector" align="center-left">CAN</text>
 <text x="102.743" y="41.91" size="1.016" layer="51" font="vector" align="center-left">PULSE</text>
 <text x="102.743" y="36.83" size="1.016" layer="51" font="vector" align="center-left">+5V</text>
@@ -4456,7 +4456,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="NAME" x="29.21" y="39.37" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
 </element>
 <element name="J1" library="HyTechDevices" package="2X03" value="CONNECTOR-AVR-ISP__" x="36.195" y="46.482" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="S2011EC-03-ND" x="36.195" y="46.482" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="S2011EC-03-ND" x="36.195" y="46.482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.195" y="50.165" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
 </element>
 <element name="C6" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_1UF" x="30.48" y="44.45" smashed="yes" rot="R180">
@@ -4990,7 +4990,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <element name="S4PD" library="HyTechDevices" package="1X02" value="JUMPER_1X02_" x="78.74" y="20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.137" y="20.32" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="D3" library="HyTechDevices" package="0603-LED" value="" x="96.52" y="36.83" smashed="yes" rot="R180">
+<element name="D3" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="96.52" y="36.83" smashed="yes" rot="R180">
 <attribute name="COLOR" value="RED" x="96.52" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DKPN" value="754-1786-1-ND" x="96.52" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="96.52" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4998,7 +4998,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MPN" value="APT1608SECK/J3-PRV" x="96.52" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="96.52" y="38.366" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="D2" library="HyTechDevices" package="0603-LED" value="" x="96.52" y="39.37" smashed="yes" rot="R180">
+<element name="D2" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="96.52" y="39.37" smashed="yes" rot="R180">
 <attribute name="COLOR" value="RED" x="96.52" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DKPN" value="754-1786-1-ND" x="96.52" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="96.52" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5028,7 +5028,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="TOLERANCE" value="1%" x="100.33" y="39.37" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="75V" x="100.33" y="39.37" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D1" library="HyTechDevices" package="0603-LED" value="" x="96.52" y="41.91" smashed="yes" rot="R180">
+<element name="D1" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="96.52" y="41.91" smashed="yes" rot="R180">
 <attribute name="COLOR" value="RED" x="96.52" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DKPN" value="754-1786-1-ND" x="96.52" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="96.52" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5058,8 +5058,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VOLTAGE" value="10V" x="71.12" y="36.195" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$4" library="HyTechDevices" package="MOUNTING_M3" value="" x="24.13" y="3.81" smashed="yes"/>
-<element name="U$5" library="HyTechDevices" package="MOUNTING_M3" value="" x="111.76" y="3.81" smashed="yes"/>
-<element name="U$2" library="HyTechDevices" package="MOUNTING_M3" value="" x="111.76" y="48.26" smashed="yes"/>
+<element name="U$5" library="HyTechDevices" package="MOUNTING_M3" value="" x="110.49" y="3.81" smashed="yes"/>
+<element name="U$2" library="HyTechDevices" package="MOUNTING_M3" value="" x="110.49" y="48.26" smashed="yes"/>
 <element name="U$1" library="HyTechDevices" package="MOUNTING_M3" value="" x="24.13" y="48.26" smashed="yes"/>
 <element name="R5" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="59.69" y="35.56" smashed="yes">
 <attribute name="DKPN" value="311-1.00KHRCT-ND" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
@@ -5083,7 +5083,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="TOLERANCE" value="1%" x="60.96" y="33.909" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="75V" x="60.96" y="33.909" size="1.778" layer="27" display="off"/>
 </element>
-<element name="S1PU1" library="HyTechDevices" package="1X02" value="JUMPER_1X02_" x="64.77" y="34.29" smashed="yes">
+<element name="CAN" library="HyTechDevices" package="1X02" value="JUMPER_1X02_" x="64.77" y="34.29" smashed="yes">
 <attribute name="NAME" x="64.77" y="32.893" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="C16" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="56.388" y="34.544" smashed="yes" rot="R180">
@@ -5096,8 +5096,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="TOLERANCE" value="5%" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$3" library="HyTechAesthetics" package="LOGO_HYTECH_0.5&quot;" value="" x="114.3" y="7.62" smashed="yes" rot="R90"/>
-<element name="U$6" library="HyTechAesthetics" package="LOGO_GT_0.25&quot;" value="" x="106.68" y="19.05" smashed="yes"/>
+<element name="U$3" library="HyTechAesthetics" package="LOGO_HYTECH_0.5&quot;" value="" x="113.03" y="7.62" smashed="yes" rot="R90"/>
+<element name="U$6" library="HyTechAesthetics" package="LOGO_GT_0.25&quot;" value="" x="101.6" y="31.75" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -5112,7 +5112,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="C3" pad="1"/>
 <contactref element="C6" pad="1"/>
 <contactref element="U5" pad="2"/>
-<contactref element="U3" pad="10"/>
 <contactref element="X2" pad="2"/>
 <contactref element="X2" pad="4"/>
 <contactref element="C5" pad="2"/>
@@ -5267,6 +5266,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="99.08" y1="14.35" x2="99.06" y2="14.37" width="0.381" layer="1"/>
 <wire x1="99.06" y1="14.37" x2="99.06" y2="16.51" width="0.381" layer="1"/>
 <via x="99.06" y="16.51" extent="1-16" drill="0.35"/>
+<contactref element="U3" pad="10"/>
 </signal>
 <signal name="CANH">
 <contactref element="U5" pad="7"/>
@@ -5498,6 +5498,14 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="29.6355" y1="23.5984875" x2="29.6355" y2="28.50376875" width="0.381" layer="1"/>
 <wire x1="87.503" y1="45.466" x2="95.695" y2="37.274" width="0.381" layer="1"/>
 <wire x1="95.695" y1="37.274" x2="95.695" y2="36.83" width="0.381" layer="1"/>
+<contactref element="U5" pad="5"/>
+<wire x1="83.16" y1="45.48" x2="82.31" y2="45.48" width="0.381" layer="1"/>
+<wire x1="78.74" y1="39.37" x2="80.01" y2="40.64" width="0.381" layer="1"/>
+<wire x1="82.31" y1="45.48" x2="80.01" y2="43.18" width="0.381" layer="1"/>
+<wire x1="80.01" y1="43.18" x2="80.01" y2="40.64" width="0.381" layer="1"/>
+<wire x1="79.6925" y1="34.163" x2="79.5609875" y2="34.163" width="0.381" layer="1"/>
+<wire x1="79.5609875" y1="34.163" x2="78.74" y2="34.9839875" width="0.381" layer="1"/>
+<wire x1="78.74" y1="34.9839875" x2="78.74" y2="39.37" width="0.381" layer="1"/>
 </signal>
 <signal name="RESET">
 <contactref element="R4" pad="2"/>
@@ -5600,9 +5608,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="59.69" y1="41.91" x2="59.7425" y2="41.9625" width="0.381" layer="1"/>
 <wire x1="53.086" y1="42.799" x2="57.023" y2="42.799" width="0.381" layer="1"/>
 </signal>
-<signal name="VIO">
-<contactref element="U5" pad="5"/>
-</signal>
 <signal name="CANTX">
 <contactref element="U3" pad="1"/>
 <contactref element="U5" pad="1"/>
@@ -5632,7 +5637,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="74.4855" y1="34.163" x2="69.59220625" y2="34.163" width="0.381" layer="1"/>
 <wire x1="69.59220625" y1="34.163" x2="68.4129" y2="35.34230625" width="0.381" layer="1"/>
 <wire x1="68.4129" y1="35.34230625" x2="68.4129" y2="38.08203125" width="0.381" layer="1"/>
-<contactref element="S1PU1" pad="2"/>
+<contactref element="CAN" pad="2"/>
 <wire x1="66.87796875" y1="38.2829" x2="67.4629" y2="38.2829" width="0.381" layer="1"/>
 <wire x1="67.4629" y1="38.2829" x2="67.545" y2="38.365" width="0.381" layer="1"/>
 <wire x1="66.04" y1="34.29" x2="66.04" y2="37.44493125" width="0.381" layer="1"/>
@@ -6051,7 +6056,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="54.22766875" y1="50.1396" x2="84.73060625" y2="50.1396" width="0.381" layer="1"/>
 </signal>
 <signal name="N$1">
-<contactref element="S1PU1" pad="1"/>
+<contactref element="CAN" pad="1"/>
 <contactref element="R5" pad="2"/>
 <wire x1="60.54" y1="35.56" x2="62.23" y2="35.56" width="0.381" layer="1"/>
 <wire x1="62.23" y1="35.56" x2="63.5" y2="34.29" width="0.381" layer="1"/>
