@@ -5062,22 +5062,22 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <element name="U$5" library="HyTechDevices" package="MOUNTING_M3" value="" x="110.49" y="3.81" smashed="yes"/>
 <element name="U$2" library="HyTechDevices" package="MOUNTING_M3" value="" x="110.49" y="48.26" smashed="yes"/>
 <element name="U$1" library="HyTechDevices" package="MOUNTING_M3" value="" x="24.13" y="48.26" smashed="yes"/>
-<element name="R5" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="59.69" y="35.56" smashed="yes">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
+<element name="R5" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_60.4" x="59.69" y="35.56" smashed="yes">
+<attribute name="DKPN" value="311-60.4HRCT-ND" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="603-RC0603FR-0760R4L" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-0760R4L" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="59.69" y="36.195" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
 <attribute name="RESISTANCE" value="60.4" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="75V" x="60.96" y="35.56" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R6" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="59.69" y="33.909" smashed="yes">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="60.96" y="33.909" size="1.778" layer="27" display="off"/>
+<element name="R6" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_60.4" x="59.69" y="33.909" smashed="yes">
+<attribute name="DKPN" value="311-60.4HRCT-ND" x="60.96" y="33.909" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="60.96" y="33.909" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="60.96" y="33.909" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="60.96" y="33.909" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="603-RC0603FR-0760R4L" x="60.96" y="33.909" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-0760R4L" x="60.96" y="33.909" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="59.69" y="33.274" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="60.96" y="33.909" size="1.778" layer="27" display="off"/>
 <attribute name="RESISTANCE" value="60.4" x="60.96" y="33.909" size="1.778" layer="27" display="off"/>
@@ -5087,14 +5087,14 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <element name="CAN" library="HyTechDevices" package="1X02" value="JUMPER_1X02_" x="64.77" y="34.29" smashed="yes">
 <attribute name="NAME" x="64.77" y="32.893" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="C16" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="56.388" y="34.544" smashed="yes" rot="R180">
-<attribute name="CAPACITANCE" value="0.47 nF" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="720-1688-1-ND" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Vishay Vitramon" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="77-VJ0603Y104JXQPBC" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="VJ0603Y104JXQPW1BC" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C16" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_4.7NF" x="56.388" y="34.544" smashed="yes" rot="R180">
+<attribute name="CAPACITANCE" value="4.7nF" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="732-7931-1-ND" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="710-885012206012" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="885012206012" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="53.848" y="35.064" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="55.118" y="34.544" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$3" library="HyTechAesthetics" package="LOGO_HYTECH_0.5&quot;" value="" x="113.03" y="7.62" smashed="yes" rot="R90"/>
