@@ -5798,11 +5798,8 @@ Source: http://www.molex.com</description>
 <part name="LAUNCH" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="Green"/>
 <part name="P+12" library="supply1" deviceset="+12V" device=""/>
 <part name="GND18" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="GND20" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-8" device="NANO"/>
 <part name="X3" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO"/>
-<part name="X2" library="HyTechDevices" deviceset="CONNECTOR-4" device="NANO"/>
 <part name="X4" library="HyTechDevices" deviceset="CONNECTOR-6" device="NANO"/>
 <part name="U$2" library="HyTechDevices" deviceset="MCP2518FD" device=""/>
 <part name="GND19" library="HyTechSymbols" deviceset="GND" device=""/>
@@ -5811,11 +5808,9 @@ Source: http://www.molex.com</description>
 <part name="C16" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND21" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="U$3" library="HyTechDevices" deviceset="TVS_DIODE" device=""/>
-<part name="U$4" library="HyTechDevices" deviceset="TVS_DIODE" device=""/>
-<part name="U$5" library="HyTechDevices" deviceset="TVS_DIODE" device=""/>
 <part name="U$6" library="HyTechDevices" deviceset="TVS_DIODE" device=""/>
-<part name="R9" library="HyTechDevices" deviceset="CAT16-*4" device="_1%" technology="F" value="100"/>
-<part name="R11" library="HyTechDevices" deviceset="CAT16-*4" device="_1%" technology="F" value="100"/>
+<part name="R9" library="HyTechDevices" deviceset="CAT16-*4" device="_1%" technology="F" value="10k"/>
+<part name="R11" library="HyTechDevices" deviceset="CAT16-*4" device="_1%" technology="F" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -5824,6 +5819,7 @@ Source: http://www.molex.com</description>
 <text x="195.58" y="15.24" size="2.54" layer="97">Schematic of the Dashboard PCB for HT05</text>
 <text x="170.18" y="121.92" size="1.778" layer="97">Voltage regulation for the buzzer.</text>
 <text x="157.48" y="205.74" size="1.778" layer="97">CAN Termination for testing.</text>
+<text x="35.56" y="139.7" size="1.27" layer="91">Gate resistor here -&gt;</text>
 </plain>
 <instances>
 <instance part="ATMEGA" gate="G$1" x="231.14" y="170.18" smashed="yes">
@@ -6111,12 +6107,6 @@ Source: http://www.molex.com</description>
 <instance part="GND18" gate="1" x="43.18" y="180.34" smashed="yes">
 <attribute name="VALUE" x="40.64" y="177.8" size="1.778" layer="96"/>
 </instance>
-<instance part="GND20" gate="1" x="50.8" y="152.4" smashed="yes">
-<attribute name="VALUE" x="48.26" y="149.86" size="1.778" layer="96"/>
-</instance>
-<instance part="P+13" gate="1" x="50.8" y="162.56" smashed="yes">
-<attribute name="VALUE" x="53.34" y="165.1" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="X1" gate="-1" x="83.82" y="195.58" smashed="yes">
 <attribute name="NAME" x="86.36" y="194.818" size="1.524" layer="95"/>
 <attribute name="VALUE" x="83.058" y="196.977" size="1.778" layer="96"/>
@@ -6154,19 +6144,6 @@ Source: http://www.molex.com</description>
 </instance>
 <instance part="X3" gate="-4" x="25.4" y="198.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.86" y="198.882" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X2" gate="-1" x="25.4" y="160.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.86" y="160.782" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="5.842" y="161.163" size="1.778" layer="96"/>
-</instance>
-<instance part="X2" gate="-2" x="25.4" y="157.48" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.86" y="158.242" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X2" gate="-3" x="25.4" y="154.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.86" y="155.702" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X2" gate="-4" x="25.4" y="152.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.86" y="153.162" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="X4" gate="-1" x="25.4" y="185.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.86" y="186.182" size="1.524" layer="95" rot="R180"/>
@@ -6210,14 +6187,6 @@ Source: http://www.molex.com</description>
 <instance part="U$3" gate="G$1" x="50.8" y="185.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.0474" y="181.61" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="54.3814" y="181.61" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="U$4" gate="G$1" x="33.02" y="358.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.2674" y="354.33" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="36.6014" y="354.33" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="U$5" gate="G$1" x="33.02" y="360.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.2674" y="356.87" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="36.6014" y="356.87" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$6" gate="G$1" x="66.04" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.2874" y="8.89" size="1.778" layer="95" rot="R90"/>
@@ -6465,11 +6434,6 @@ Source: http://www.molex.com</description>
 <wire x1="45.72" y1="180.34" x2="50.8" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="154.94" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-<pinref part="X2" gate="-3" pin="S"/>
-</segment>
-<segment>
 <wire x1="119.38" y1="119.38" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="119.38" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -6539,12 +6503,6 @@ Source: http://www.molex.com</description>
 <wire x1="241.3" y1="68.58" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="66.04" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="27.94" y1="157.48" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="157.48" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="P+13" gate="1" pin="+5V"/>
-<pinref part="X2" gate="-2" pin="S"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="167.64" x2="162.56" y2="170.18" width="0.1524" layer="91"/>
@@ -7267,25 +7225,6 @@ Source: http://www.molex.com</description>
 <pinref part="Z1" gate="G$1" pin="C1"/>
 <wire x1="142.24" y1="73.66" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
 <label x="144.78" y="73.66" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SUSPENSION" class="0">
-<segment>
-<pinref part="ATMEGA" gate="G$1" pin="PC1"/>
-<wire x1="215.9" y1="162.56" x2="213.36" y2="162.56" width="0.1524" layer="91"/>
-<label x="213.36" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="27.94" y1="160.02" x2="33.02" y2="160.02" width="0.1524" layer="91"/>
-<label x="33.02" y="160.02" size="1.27" layer="95" xref="yes"/>
-<pinref part="X2" gate="-1" pin="S"/>
-</segment>
-</net>
-<net name="LAUNCH_CONTROL" class="0">
-<segment>
-<pinref part="ATMEGA" gate="G$1" pin="PC2"/>
-<wire x1="215.9" y1="160.02" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
-<label x="213.36" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$30" class="0">

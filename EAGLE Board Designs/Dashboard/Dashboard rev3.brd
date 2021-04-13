@@ -1702,9 +1702,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <element name="X3" library="HyTechDevices" package="MOLEX_NANOFIT_SMD_04" value="CONNECTOR-4NANO" x="-200.66" y="0.508" smashed="yes">
 <attribute name="NAME" x="-200.66" y="4.318" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="X2" library="HyTechDevices" package="MOLEX_NANOFIT_SMD_04" value="CONNECTOR-4NANO" x="-210.82" y="0.508" smashed="yes">
-<attribute name="NAME" x="-210.82" y="4.318" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-</element>
 <element name="X4" library="HyTechDevices" package="MOLEX_NANOFIT_SMD_06" value="CONNECTOR-6NANO" x="-222.504" y="0.508" smashed="yes">
 <attribute name="NAME" x="-222.504" y="4.318" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
@@ -1720,14 +1717,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VALUE" x="-228.092" y="-34.671" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="U$3" library="HyTechDevices" package="U-DFN1608-2" value="TVS_DIODE" x="-229.616" y="-33.528" smashed="yes"/>
-<element name="U$4" library="HyTechDevices" package="U-DFN1608-2" value="TVS_DIODE" x="-229.616" y="-36.576" smashed="yes"/>
-<element name="U$5" library="HyTechDevices" package="U-DFN1608-2" value="TVS_DIODE" x="-229.616" y="-39.624" smashed="yes"/>
 <element name="U$6" library="HyTechDevices" package="U-DFN1608-2" value="TVS_DIODE" x="-229.616" y="-42.672" smashed="yes"/>
-<element name="R9" library="HyTechDevices" package="CAT16-*4" value="100" x="-235.204" y="-40.64" smashed="yes">
+<element name="R9" library="HyTechDevices" package="CAT16-*4" value="10k" x="-235.204" y="-40.64" smashed="yes">
 <attribute name="NAME" x="-236.304" y="-38.84" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="-236.304" y="-42.44" size="1.016" layer="27" font="vector" align="top-left"/>
 </element>
-<element name="R11" library="HyTechDevices" package="CAT16-*4" value="100" x="-241.808" y="-40.64" smashed="yes">
+<element name="R11" library="HyTechDevices" package="CAT16-*4" value="10k" x="-241.808" y="-40.64" smashed="yes">
 <attribute name="NAME" x="-242.908" y="-38.84" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="-242.908" y="-42.44" size="1.016" layer="27" font="vector" align="top-left"/>
 </element>
@@ -2088,7 +2083,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="27.178" y1="19.12685" x2="26.3913375" y2="18.3401875" width="0.254" layer="1"/>
 <contactref element="X1" pad="8"/>
 <contactref element="X3" pad="4"/>
-<contactref element="X2" pad="3"/>
 <contactref element="X4" pad="2"/>
 <contactref element="U$2" pad="7"/>
 <contactref element="C15" pad="2"/>
@@ -2111,9 +2105,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="-229.616" y1="-42.672" x2="-234.004" y2="-41.465" width="0" layer="19" extent="1-1"/>
 <wire x1="-241.408" y1="-41.465" x2="-236.404" y2="-41.465" width="0" layer="19" extent="1-1"/>
 <wire x1="-243.008" y1="-41.465" x2="-241.408" y2="-41.465" width="0" layer="19" extent="1-1"/>
-<wire x1="-209.57" y1="-1.142" x2="-218.694" y2="-28.0035" width="0" layer="19" extent="1-1"/>
-<wire x1="-201.91" y1="-1.142" x2="-209.57" y2="-1.142" width="0" layer="19" extent="1-1"/>
-<wire x1="-222.504" y1="2.158" x2="-209.57" y2="-1.142" width="0" layer="19" extent="1-1"/>
+<wire x1="-222.504" y1="2.158" x2="-218.694" y2="-28.0035" width="0" layer="19" extent="1-1"/>
+<wire x1="-201.91" y1="-1.142" x2="-222.504" y2="2.158" width="0" layer="19" extent="1-1"/>
 <wire x1="-181.55" y1="-1.142" x2="-201.91" y2="-1.142" width="0" layer="19" extent="1-1"/>
 <wire x1="-69.020915625" y1="7.460365625" x2="-181.55" y2="-1.142" width="0" layer="19" extent="1-1"/>
 <wire x1="-68.426990625" y1="5.00043125" x2="-69.020915625" y2="7.460365625" width="0" layer="19" extent="1-1"/>
@@ -2360,14 +2353,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="3.854" y1="8.2763" x2="3.8676" y2="8.2899" width="0.508" layer="1"/>
 <wire x1="3.8676" y1="8.2899" x2="6.3848" y2="8.2899" width="0.508" layer="1"/>
 <wire x1="9.3684" y1="21.3209" x2="9.92175" y2="20.76755" width="0.508" layer="1"/>
-<contactref element="X2" pad="2"/>
 <contactref element="C15" pad="1"/>
 <contactref element="C16" pad="1"/>
 <contactref element="U$2" pad="14"/>
 <wire x1="-227.926" y1="-30.48" x2="-226.314" y2="-22.7965" width="0" layer="19" extent="1-1"/>
 <wire x1="-227.926" y1="-33.528" x2="-227.926" y2="-30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="-212.07" y1="2.158" x2="-226.314" y2="-22.7965" width="0" layer="19" extent="1-1"/>
-<wire x1="-35.94" y1="14.35" x2="-212.07" y2="2.158" width="0" layer="19" extent="1-16"/>
+<wire x1="-35.94" y1="14.35" x2="-226.314" y2="-22.7965" width="0" layer="19" extent="1-16"/>
 <wire x1="9.3684" y1="21.3209" x2="11.5824" y2="22.2929" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK">
@@ -3068,14 +3059,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="-242.208" y1="-39.815" x2="-137.602" y2="-16.748" width="0" layer="19" extent="1-1"/>
 <wire x1="15.5722" y1="16.2325" x2="-137.602" y2="-16.748" width="0" layer="19" extent="1-1"/>
 <wire x1="36.154359375" y1="15.6845" x2="15.5722" y2="16.2325" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SUSPENSION">
-<contactref element="ATMEGA" pad="24"/>
-<contactref element="X2" pad="1"/>
-<wire x1="22.6722" y1="9.1325" x2="-209.57" y2="2.158" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LAUNCH_CONTROL">
-<contactref element="ATMEGA" pad="25"/>
 </signal>
 <signal name="N$30">
 <contactref element="C11" pad="2"/>
