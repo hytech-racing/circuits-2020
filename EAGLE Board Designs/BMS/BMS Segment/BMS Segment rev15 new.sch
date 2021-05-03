@@ -315,13 +315,18 @@ chip</description>
 <text x="-0.8" y="0.5" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.9" y="-0.7" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="5X20MM_FUSE">
-<smd name="P$1" x="-7.493" y="0" dx="5.08" dy="5.588" layer="1" rot="R90"/>
-<smd name="P$2" x="7.493" y="0" dx="5.08" dy="5.588" layer="1" rot="R90"/>
-<wire x1="-10.414" y1="2.667" x2="10.414" y2="2.667" width="0.127" layer="21"/>
-<wire x1="10.414" y1="2.667" x2="10.414" y2="-2.667" width="0.127" layer="21"/>
-<wire x1="10.414" y1="-2.667" x2="-10.414" y2="-2.667" width="0.127" layer="21"/>
-<wire x1="-10.414" y1="-2.667" x2="-10.414" y2="2.667" width="0.127" layer="21"/>
+<package name="0885">
+<description>0885 Fuse
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-5" y="0" dx="5.6" dy="7.23" layer="1"/>
+<smd name="2" x="5" y="0" dx="5.6" dy="7.23" layer="1"/>
+<wire x1="-5.43" y1="2.39" x2="-5.43" y2="-2.39" width="0.127" layer="21"/>
+<wire x1="-5.43" y1="-2.39" x2="5.43" y2="-2.39" width="0.127" layer="21"/>
+<wire x1="5.43" y1="-2.39" x2="5.43" y2="2.39" width="0.127" layer="21"/>
+<wire x1="5.43" y1="2.39" x2="-5.43" y2="2.39" width="0.127" layer="21"/>
+<text x="0" y="4.318" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-8.382" y1="-4.318" x2="8.382" y2="4.318" layer="39"/>
 </package>
 <package name="CTZ3">
 <description>CTZ3 Series land pattern for variable capacitor - CTZ3E-50C-W1-PF</description>
@@ -417,7 +422,7 @@ chip</description>
 <text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="0603-RES">
+<package name="0603-RES@1">
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -822,7 +827,7 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <wire x1="-2.4" y1="1.29" x2="-2.4" y2="12.97" width="0.1524" layer="21"/>
 <circle x="0" y="3.302" radius="0.635" width="0.127" layer="21"/>
 </package>
-<package name="PWR163">
+<package name="PWR163@1">
 <smd name="PAD" x="0" y="0" dx="7.874" dy="8.509" layer="1"/>
 <smd name="1" x="-2.54" y="-7.366" dx="2.54" dy="1.143" layer="1" rot="R90"/>
 <smd name="2" x="2.54" y="-7.366" dx="2.54" dy="1.143" layer="1" rot="R90"/>
@@ -1016,6 +1021,80 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <circle x="0" y="0" radius="1.3208" width="0.127" layer="40"/>
 <circle x="0" y="0" radius="1.3208" width="0.127" layer="39"/>
 </package>
+<package name="PWR163">
+<description>PWR163 Resistor
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/54/pwr163-777985.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="PAD" x="0" y="0" dx="7.874" dy="8.509" layer="1"/>
+<smd name="1" x="-2.54" y="-7.366" dx="1.651" dy="3.81" layer="1"/>
+<smd name="2" x="2.54" y="-7.366" dx="3.81" dy="1.651" layer="1" rot="R90"/>
+<wire x1="-4.064" y1="3.556" x2="4.064" y2="3.556" width="0.127" layer="21"/>
+<wire x1="4.064" y1="3.556" x2="4.064" y2="-5.2324" width="0.127" layer="21"/>
+<wire x1="4.064" y1="-5.2324" x2="-4.064" y2="-5.2324" width="0.127" layer="21"/>
+<wire x1="-4.064" y1="-5.2324" x2="-4.064" y2="3.556" width="0.127" layer="21"/>
+<text x="0" y="5.08" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-5.08" y1="-10.16" x2="5.08" y2="5.08" layer="39"/>
+</package>
+<package name="0603-RES">
+<description>0603 Resistor Footprint
+&lt;br&gt;
+&lt;a href="http://new-web.yageo.com/exep/pages/download/literatures/PYu-R_Mount_10.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"&gt;Size&lt;/a&gt;</description>
+<smd name="1" x="-0.85" y="0" dx="0.9" dy="0.8" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="0.9" dy="0.8" layer="1"/>
+<text x="0" y="0.635" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
+<rectangle x1="-1.45" y1="-0.75" x2="1.45" y2="0.75" layer="39"/>
+</package>
+<package name="3921">
+<description>3921 Yageo Resistor
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/447/PYu-PU_51_RoHS_L_6-1504619.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-4.175" y="0" dx="2.75" dy="6.2" layer="1"/>
+<smd name="2" x="4.175" y="0" dx="2.75" dy="6.2" layer="1"/>
+<wire x1="-5" y1="2.6" x2="5" y2="2.6" width="0.127" layer="21"/>
+<wire x1="5" y1="2.6" x2="5" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="5" y1="-2.6" x2="-5" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-5" y1="-2.6" x2="-5" y2="2.6" width="0.127" layer="21"/>
+<rectangle x1="-6.096" y1="-3.556" x2="6.096" y2="3.556" layer="39"/>
+<text x="0" y="3.81" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="0805-RES">
+<description>0805 Resistor Footprint
+&lt;br&gt;
+&lt;a href="http://new-web.yageo.com/exep/pages/download/literatures/PYu-R_Mount_10.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"&gt;Size&lt;/a&gt;</description>
+<smd name="1" x="-1.05" y="0" dx="0.9" dy="1.2" layer="1"/>
+<smd name="2" x="1.05" y="0" dx="0.9" dy="1.2" layer="1"/>
+<text x="0" y="0.85" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
+<rectangle x1="-1.7" y1="-0.85" x2="1.7" y2="0.85" layer="39"/>
+</package>
+<package name="PWR263">
+<smd name="1" x="0" y="0" dx="2.413" dy="4.2164" layer="1"/>
+<smd name="2" x="5.08" y="0" dx="4.2164" dy="2.413" layer="1" rot="R90"/>
+<wire x1="-2.54" y1="13.716" x2="7.747" y2="13.716" width="0.127" layer="21"/>
+<wire x1="7.747" y1="13.716" x2="7.747" y2="3.6576" width="0.127" layer="21"/>
+<wire x1="7.747" y1="3.6576" x2="-2.54" y2="3.6576" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.6576" x2="-2.54" y2="13.716" width="0.127" layer="21"/>
+<text x="2.54" y="15.24" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-2.54" y1="0" x2="7.62" y2="15.24" layer="39"/>
+<rectangle x1="-2.9591" y1="10.8966" x2="8.0391" y2="14.9098" layer="1"/>
+<polygon width="0.1524" layer="1">
+<vertex x="-1.524" y="10.922"/>
+<vertex x="-1.524" y="4.318"/>
+<vertex x="6.604" y="4.318"/>
+<vertex x="6.604" y="10.922"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -1028,7 +1107,7 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="RESISTOR">
+<symbol name="RESISTOR@1">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
 <wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
@@ -1126,13 +1205,14 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <pin name="G" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
 </symbol>
 <symbol name="FUSE">
-<description>Generic Fuse Symbol</description>
-<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<text x="-5.08" y="1.27" size="1.27" layer="95">&gt;Name</text>
-<text x="2.54" y="1.27" size="1.27" layer="96">&gt;Value</text>
+<wire x1="-1.27" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="0" x2="0.635" y2="0" width="0.1524" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;CURRENT</text>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="THERMISTOR">
 <wire x1="2.54" y1="1.016" x2="2.54" y2="-1.016" width="0.254" layer="94"/>
@@ -1275,6 +1355,21 @@ Nano-Fit™ Vertical Header, Through Hole, Single Row</description>
 <pin name="BASE" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="EMITTER" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
 <pin name="COLLECTOR" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+<symbol name="RESISTOR">
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;RESISTANCE</text>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.5875" y1="1.016" x2="-0.9525" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-2.8575" y1="1.016" x2="-2.2225" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.016" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.5875" y1="1.016" x2="-2.2225" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.016" x2="-0.9525" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-2.8575" y1="1.016" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1426,7 +1521,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <description>&lt;b&gt;Resistor&lt;/b&gt;
 Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</description>
 <gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+<gate name="G$1" symbol="RESISTOR@1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0402" package="0402-RES">
@@ -1438,7 +1533,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <technology name=""/>
 </technologies>
 </device>
-<device name="0603" package="0603-RES">
+<device name="0603" package="0603-RES@1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1447,7 +1542,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <technology name=""/>
 </technologies>
 </device>
-<device name="0603-RES" package="0603-RES">
+<device name="0603-RES" package="0603-RES@1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1591,7 +1686,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <technology name=""/>
 </technologies>
 </device>
-<device name="PWR163" package="PWR163">
+<device name="PWR163" package="PWR163@1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1688,29 +1783,57 @@ Variant 2: Addressable/Multi-Drop Configuration
 </device>
 </devices>
 </deviceset>
-<deviceset name="0001.2704.11">
-<description>&lt;b&gt; Schurter Surface Mount Ceramic Fuse &lt;/b&gt;
+<deviceset name="FUSE" prefix="F" uservalue="yes">
+<description>Ceramic Surface Mount Fuse
+&lt;br&gt;&lt;a href="https://www.mouser.com/datasheet/2/358/typ_SMD_SPT-1276028.pdf"&gt;Datasheet&lt;/a&gt;
+
+Fuse/Fuseclips
 &lt;br&gt;
-Current Rating: 1A
+Keystone Electronics 3568 Fuse
 &lt;br&gt;
-Voltage Rating AC: 250 VAC
+&lt;a href="http://www.mouser.com/ProductDetail/Keystone-Electronics/3568"&gt;Mouser Part&lt;/a&gt;
 &lt;br&gt;
-Voltage Rating DC: 300 VDC
+&lt;a href="http://www.mouser.com/ds/2/215/568-742601.pdf"&gt;Datasheet&lt;/a&gt;
 &lt;br&gt;
-Dimensions: 5 mm x 20 mm
 &lt;br&gt;
-&lt;a href="http://www.mouser.com/ds/2/358/typ_SMD-SPT-46594.pdf"&gt;Datasheet&lt;/a&gt;</description>
+Bussman/Eaton Midget Fuse Clip
+&lt;br&gt;
+&lt;a href="http://www.mouser.com/ProductDetail/Bussmann-Eaton/BK-1A3400-09-R/?qs=sGAEpiMZZMuG%252bgnN5hGYGzzlAelq2OxnKqVSMVjq8I4%3d"&gt;1A3400&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+Schurter 0751.0110 Brass Fuse Clip
+&lt;br&gt;
+&lt;a href="http://www.mouser.com/ds/2/358/typ_OG__Clip__5x20-2553.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+Bel Fuse 0ZCF Series Surface Mount PTC (resettable) Fuse
+&lt;br&gt;
+&lt;a href="https://belfuse.com/resources/CircuitProtection/datasheets/0ZCF%20Nov2016.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+Littelfuse 1812L Series Surface Mount PTC (resettable) Fuse
+&lt;br&gt;
+&lt;a href="https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf"&gt;Datasheet&lt;/a&gt;
+
+Ceramic SMD Surface Mount Fuse
+&lt;br&gt;&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="5X20MM_FUSE">
+<device name="0885" package="0885">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CURRENT" value="1.25A"/>
+<attribute name="DKPN" value="F10986CT-ND"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="MOPN" value="576-08851.25DR"/>
+<attribute name="MPN" value="08851.25DR"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1950,6 +2073,224 @@ MAX voltage: 100V</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RESISTOR_?_*" prefix="R">
+<description>&lt;b&gt;Resistor&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/54/pwr163-777985.pdf"&gt;PWR163 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/54/PWR163-74644.pdf"&gt;PWR263 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/Yageo_PYu_AC_51_RoHS_L_7_1714230-1874691.pdf"&gt;AC Series&lt;/a&gt;&lt;li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/PYu-PU_51_RoHS_L_6-1504619.pdf"&gt;PU Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"&gt;ERA Series&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PWR163" package="PWR163">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="5">
+<attribute name="DKPN" value="PWR163S-25-5R00FECT-ND"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="MOPN" value="652-PWR163S255R00FE"/>
+<attribute name="MPN" value="PWR163S-25-5R00FE"/>
+<attribute name="POWER" value="25W"/>
+<attribute name="RESISTANCE" value="5"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="2000V"/>
+</technology>
+</technologies>
+</device>
+<device name="0603" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="10">
+<attribute name="DKPN" value="311-10.0HRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-0710RL"/>
+<attribute name="MPN" value="RC0603FR-0710RL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="10"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="100">
+<attribute name="DKPN" value="311-100HRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="100"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="10K">
+<attribute name="DKPN" value="311-10.0KHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="10k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="11.5K">
+<attribute name="DKPN" value="P11.5KDBCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERA-3AEB1152V"/>
+<attribute name="MPN" value="ERA-3AEB1152V"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="11.5k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="12K">
+<attribute name="DKPN" value="311-12.0KHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-0712KL"/>
+<attribute name="MPN" value="RC0603FR-0712KL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="12k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="17.8K">
+<attribute name="DKPN" value="311-17.8KHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-0717K8L"/>
+<attribute name="MPN" value="RC0603FR-0717K8L"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="17.8k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="180">
+<attribute name="DKPN" value="311-180HRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-07180RL"/>
+<attribute name="MPN" value="RC0603FR-07180RL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="180"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="1K">
+<attribute name="DKPN" value="311-1.00KHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-071KL"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="1k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="1M">
+<attribute name="DKPN" value="311-1.00MHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="1M"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="22.1K">
+<attribute name="DKPN" value="P22.1KDBCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERA-3AEB2212V"/>
+<attribute name="MPN" value="ERA-3AEB2212V"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="22.1k"/>
+<attribute name="TOLERANCE" value="0.1W"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="3.3K">
+<attribute name="DKPN" value="311-3.30KHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-073K3L"/>
+<attribute name="MPN" value="RC0603FR-073K3L"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="3.3k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="43K">
+<attribute name="DKPN" value="311-43.0KHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-0743KL"/>
+<attribute name="MPN" value="RC0603FR-0743KL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="43k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+<technology name="60.4">
+<attribute name="DKPN" value="311-60.4HRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-0760R4L"/>
+<attribute name="MPN" value="RC0603FR-0760R4L"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="60.4"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+<device name="3921" package="3921">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="0.001">
+<attribute name="DKPN" value="YAG6126CT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-U3921FKMP50R001L"/>
+<attribute name="MPN" value="PU3921FKMP50R001L"/>
+<attribute name="POWER" value="5W"/>
+<attribute name="RESISTANCE" value="1mΩ"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="0.07V"/>
+</technology>
+</technologies>
+</device>
+<device name="0805" package="0805-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="200">
+<attribute name="DKPN" value="311-200CRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0805FR-07200RL"/>
+<attribute name="MPN" value="RC0805FR-07200RL"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="200"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE" value="150V"/>
+</technology>
+</technologies>
+</device>
+<device name="PWR263" package="PWR263">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="RESISTANCE" value="5R" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4692,9 +5033,6 @@ Layer: 94 Symbol</description>
 <part name="GATE" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="3K3">
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="DISCHARGE" library="HyTechDevices" deviceset="RESISTOR" device="PWR163" value="5R">
-<attribute name="TOLERANCE" value="5%"/>
-</part>
 <part name="PFET" library="HyTechDevices" deviceset="P-CHANNEL_MOSFET_DMP3099L-7" device=""/>
 <part name="R" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="100R">
 <attribute name="TOLERANCE" value="1%"/>
@@ -4711,6 +5049,7 @@ Layer: 94 Symbol</description>
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="U$1" library="HyTechFrames" deviceset="FRAME_A" device=""/>
+<part name="DISCHARGE" library="HyTechDevices" deviceset="RESISTOR_?_*" device="PWR263"/>
 </parts>
 <sheets>
 <sheet>
@@ -4727,11 +5066,6 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="52.07" y="19.2786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.07" y="14.478" size="1.778" layer="96"/>
 <attribute name="TOLERANCE" x="55.88" y="17.78" size="0.127" layer="96" display="off"/>
-</instance>
-<instance part="DISCHARGE" gate="G$1" x="27.94" y="-2.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.4386" y="6.35" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="24.638" y="1.27" size="1.778" layer="96" rot="R270"/>
-<attribute name="TOLERANCE" x="27.94" y="-2.54" size="0.127" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="PFET" gate="G$1" x="43.18" y="15.24" smashed="yes" rot="MR0">
 <attribute name="NAME" x="39.37" y="10.16" size="1.778" layer="95" rot="MR180"/>
@@ -4766,6 +5100,10 @@ Layer: 94 Symbol</description>
 <attribute name="DRAWING_NAME" x="124.46" y="-73.66" size="2.54" layer="94"/>
 <attribute name="SHEET" x="177.8" y="-93.98" size="2.54" layer="94"/>
 </instance>
+<instance part="DISCHARGE" gate="G$1" x="27.94" y="-3.302" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.21" y="-2.032" size="1.27" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="RESISTANCE" x="26.67" y="-2.032" size="1.27" layer="96" rot="R270" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4798,12 +5136,12 @@ Layer: 94 Symbol</description>
 </net>
 <net name="CELL-" class="0">
 <segment>
-<pinref part="DISCHARGE" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="-7.62" x2="27.94" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-5.842" x2="27.94" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="-12.7" x2="15.24" y2="-17.78" width="0.1524" layer="91"/>
 <label x="15.24" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="27.94" y1="-17.78" x2="15.24" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="DISCHARGE" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="C(N)" class="0">
@@ -4837,10 +5175,10 @@ Layer: 94 Symbol</description>
 <pinref part="PFET" gate="G$1" pin="D"/>
 <wire x1="15.24" y1="7.62" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="DISCHARGE" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="2.54" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="1.778" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
 <junction x="27.94" y="12.7"/>
+<pinref part="DISCHARGE" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -4975,34 +5313,34 @@ Layer: 94 Symbol</description>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="F9" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F9" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F8" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F8" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F7" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F7" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F6" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F6" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F5" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F5" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F4" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F4" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F3" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F3" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F2" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F2" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F1" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F1" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F0" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F0" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
 <part name="CELL9" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
@@ -5125,31 +5463,31 @@ Layer: 94 Symbol</description>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="F18" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F18" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F17" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F17" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F16" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F16" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F15" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F15" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F14" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F14" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F13" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F13" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F12" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F12" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F11" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F11" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
-<part name="F10" library="HyTechDevices" deviceset="0001.2704.11" device="" value="0001.2704.11">
+<part name="F10" library="HyTechDevices" deviceset="FUSE" device="0885" value="0001.2704.11">
 <attribute name="RATING" value="1A"/>
 </part>
 <part name="CELL18" library="HyTechDevices" deviceset="BATTERY_SPRING" device="_SPRING_CONTACT" value="BATTERY_SPRING_SPRING_CONTACT"/>
@@ -5530,7 +5868,7 @@ Layer: 94 Symbol</description>
 <segment>
 <pinref part="F18" gate="G$1" pin="2"/>
 <label x="-322.58" y="167.64" size="1.778" layer="95"/>
-<wire x1="-330.2" y1="167.64" x2="-287.02" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-332.74" y1="167.64" x2="-287.02" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="-287.02" y1="213.36" x2="-287.02" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-287.02" y1="205.74" x2="-287.02" y2="167.64" width="0.1524" layer="91"/>
 <portref moduleinst="DRAIN18" port="CELL+"/>
@@ -5885,7 +6223,7 @@ Layer: 94 Symbol</description>
 <portref moduleinst="DRAIN16" port="CELL+"/>
 <wire x1="-251.46" y1="170.18" x2="-281.94" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-281.94" y1="170.18" x2="-281.94" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="-281.94" y1="162.56" x2="-330.2" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="-281.94" y1="162.56" x2="-332.74" y2="162.56" width="0.1524" layer="91"/>
 <label x="-264.16" y="170.18" size="1.778" layer="95"/>
 <junction x="-251.46" y="170.18"/>
 <portref moduleinst="DRAIN17" port="CELL-"/>
@@ -5894,7 +6232,7 @@ Layer: 94 Symbol</description>
 </net>
 <net name="SENSE15" class="0">
 <segment>
-<wire x1="-281.94" y1="160.02" x2="-330.2" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-281.94" y1="160.02" x2="-332.74" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="F15" gate="G$1" pin="2"/>
 <label x="-322.58" y="160.02" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN15" port="CELL+"/>
@@ -5909,7 +6247,7 @@ Layer: 94 Symbol</description>
 <net name="SENSE14" class="0">
 <segment>
 <pinref part="F14" gate="G$1" pin="2"/>
-<wire x1="-330.2" y1="157.48" x2="-284.48" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-332.74" y1="157.48" x2="-284.48" y2="157.48" width="0.1524" layer="91"/>
 <label x="-322.58" y="157.48" size="1.778" layer="95" font="vector"/>
 <wire x1="-284.48" y1="157.48" x2="-284.48" y2="127" width="0.1524" layer="91"/>
 <wire x1="-284.48" y1="127" x2="-251.46" y2="127" width="0.1524" layer="91"/>
@@ -5929,7 +6267,7 @@ Layer: 94 Symbol</description>
 <pinref part="F13" gate="G$1" pin="2"/>
 <label x="-322.58" y="154.94" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN13" port="CELL+"/>
-<wire x1="-287.02" y1="154.94" x2="-330.2" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-287.02" y1="154.94" x2="-332.74" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-287.02" y1="154.94" x2="-287.02" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-287.02" y1="109.22" x2="-251.46" y2="109.22" width="0.1524" layer="91"/>
 <label x="-264.16" y="109.22" size="1.778" layer="95"/>
@@ -5940,7 +6278,7 @@ Layer: 94 Symbol</description>
 </net>
 <net name="SENSE12" class="0">
 <segment>
-<wire x1="-289.56" y1="152.4" x2="-330.2" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-289.56" y1="152.4" x2="-332.74" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="F12" gate="G$1" pin="2"/>
 <label x="-322.58" y="152.4" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN12" port="CELL+"/>
@@ -5955,7 +6293,7 @@ Layer: 94 Symbol</description>
 <net name="SENSE11" class="0">
 <segment>
 <wire x1="-292.1" y1="73.66" x2="-292.1" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="-292.1" y1="149.86" x2="-330.2" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="-292.1" y1="149.86" x2="-332.74" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="F11" gate="G$1" pin="2"/>
 <label x="-322.58" y="149.86" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN11" port="CELL+"/>
@@ -5974,7 +6312,7 @@ Layer: 94 Symbol</description>
 <wire x1="-251.46" y1="63.5" x2="-251.46" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-294.64" y1="55.88" x2="-251.46" y2="55.88" width="0.1524" layer="91"/>
 <label x="-264.16" y="55.88" size="1.778" layer="95"/>
-<wire x1="-294.64" y1="147.32" x2="-330.2" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-294.64" y1="147.32" x2="-332.74" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="F10" gate="G$1" pin="2"/>
 <label x="-322.58" y="147.32" size="1.778" layer="95" font="vector"/>
 <wire x1="-294.64" y1="147.32" x2="-294.64" y2="55.88" width="0.1524" layer="91"/>
@@ -5994,7 +6332,7 @@ Layer: 94 Symbol</description>
 <net name="SENSE17_PRE" class="0">
 <segment>
 <pinref part="F17" gate="G$1" pin="2"/>
-<wire x1="-302.26" y1="165.1" x2="-330.2" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="-302.26" y1="165.1" x2="-332.74" y2="165.1" width="0.1524" layer="91"/>
 <label x="-322.58" y="165.1" size="1.778" layer="95"/>
 <pinref part="J_CELL_A" gate="G$1" pin="1"/>
 <wire x1="-302.26" y1="165.1" x2="-302.26" y2="175.26" width="0.1524" layer="91"/>
@@ -6229,7 +6567,7 @@ CIRCUIT A AND CIRCUIT B</text>
 <portref moduleinst="DRAIN7" port="CELL+"/>
 <wire x1="-233.68" y1="162.56" x2="-264.16" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="-264.16" y1="162.56" x2="-264.16" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="-264.16" y1="154.94" x2="-312.42" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-264.16" y1="154.94" x2="-314.96" y2="154.94" width="0.1524" layer="91"/>
 <label x="-246.38" y="162.56" size="1.778" layer="95"/>
 <junction x="-233.68" y="162.56"/>
 <portref moduleinst="DRAIN8" port="CELL-"/>
@@ -6238,7 +6576,7 @@ CIRCUIT A AND CIRCUIT B</text>
 </net>
 <net name="SENSE6" class="0">
 <segment>
-<wire x1="-264.16" y1="152.4" x2="-312.42" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-264.16" y1="152.4" x2="-314.96" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="F6" gate="G$1" pin="2"/>
 <label x="-304.8" y="152.4" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN6" port="CELL+"/>
@@ -6255,7 +6593,7 @@ CIRCUIT A AND CIRCUIT B</text>
 <pinref part="F4" gate="G$1" pin="2"/>
 <label x="-304.8" y="147.32" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN4" port="CELL+"/>
-<wire x1="-269.24" y1="147.32" x2="-312.42" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-269.24" y1="147.32" x2="-314.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-269.24" y1="147.32" x2="-269.24" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-269.24" y1="101.6" x2="-233.68" y2="101.6" width="0.1524" layer="91"/>
 <label x="-246.38" y="101.6" size="1.778" layer="95"/>
@@ -6280,7 +6618,7 @@ CIRCUIT A AND CIRCUIT B</text>
 </net>
 <net name="SENSE3" class="0">
 <segment>
-<wire x1="-271.78" y1="144.78" x2="-312.42" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-271.78" y1="144.78" x2="-314.96" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="F3" gate="G$1" pin="2"/>
 <label x="-304.8" y="144.78" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN3" port="CELL+"/>
@@ -6323,7 +6661,7 @@ CIRCUIT A AND CIRCUIT B</text>
 <net name="SENSE2" class="0">
 <segment>
 <wire x1="-274.32" y1="66.04" x2="-274.32" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="-274.32" y1="142.24" x2="-312.42" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-274.32" y1="142.24" x2="-314.96" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="F2" gate="G$1" pin="2"/>
 <label x="-304.8" y="142.24" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN2" port="CELL+"/>
@@ -6424,7 +6762,7 @@ CIRCUIT A AND CIRCUIT B</text>
 <net name="SENSE8" class="0">
 <segment>
 <pinref part="F8" gate="G$1" pin="2"/>
-<wire x1="-266.7" y1="157.48" x2="-312.42" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-266.7" y1="157.48" x2="-314.96" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="-266.7" y1="157.48" x2="-266.7" y2="180.34" width="0.1524" layer="91"/>
 <label x="-304.8" y="157.48" size="1.778" layer="95" font="vector"/>
 <portref moduleinst="DRAIN8" port="CELL+"/>
@@ -6456,7 +6794,7 @@ CIRCUIT A AND CIRCUIT B</text>
 <net name="SENSE5" class="0">
 <segment>
 <pinref part="F5" gate="G$1" pin="2"/>
-<wire x1="-312.42" y1="149.86" x2="-266.7" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="-314.96" y1="149.86" x2="-266.7" y2="149.86" width="0.1524" layer="91"/>
 <label x="-304.8" y="149.86" size="1.778" layer="95" font="vector"/>
 <wire x1="-266.7" y1="149.86" x2="-266.7" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-266.7" y1="119.38" x2="-233.68" y2="119.38" width="0.1524" layer="91"/>
@@ -6549,7 +6887,7 @@ CIRCUIT A AND CIRCUIT B</text>
 <pinref part="SUPPLY1" gate="1" pin="V-"/>
 <label x="-246.38" y="30.48" size="1.778" layer="95"/>
 <wire x1="-233.68" y1="30.48" x2="-233.68" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-312.42" y1="137.16" x2="-279.4" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="-314.96" y1="137.16" x2="-279.4" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="-279.4" y1="137.16" x2="-279.4" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="F0" gate="G$1" pin="2"/>
 <label x="-304.8" y="137.16" size="1.778" layer="95" font="vector"/>
@@ -6643,7 +6981,7 @@ CIRCUIT A AND CIRCUIT B</text>
 <wire x1="-233.68" y1="55.88" x2="-233.68" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-276.86" y1="48.26" x2="-233.68" y2="48.26" width="0.1524" layer="91"/>
 <label x="-246.38" y="48.26" size="1.778" layer="95"/>
-<wire x1="-276.86" y1="139.7" x2="-312.42" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-276.86" y1="139.7" x2="-314.96" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="2"/>
 <label x="-304.8" y="139.7" size="1.778" layer="95" font="vector"/>
 <wire x1="-276.86" y1="139.7" x2="-276.86" y2="48.26" width="0.1524" layer="91"/>
@@ -6663,7 +7001,7 @@ CIRCUIT A AND CIRCUIT B</text>
 <wire x1="-233.68" y1="205.74" x2="-269.24" y2="205.74" width="0.1524" layer="91"/>
 <junction x="-269.24" y="205.74"/>
 <pinref part="F9" gate="G$1" pin="2"/>
-<wire x1="-312.42" y1="256.54" x2="-269.24" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="-314.96" y1="256.54" x2="-269.24" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="RIN_B" gate="G$1" pin="1"/>
 <wire x1="-233.68" y1="246.38" x2="-269.24" y2="246.38" width="0.1524" layer="91"/>
 <junction x="-269.24" y="246.38"/>
