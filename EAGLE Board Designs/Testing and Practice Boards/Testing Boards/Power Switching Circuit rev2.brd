@@ -4804,9 +4804,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="25.133428125" y1="20.205828125" x2="26.479628125" y2="21.552028125" width="0.4064" layer="1"/>
 <wire x1="25.133428125" y1="20.205828125" x2="25.310975" y2="20.205828125" width="0.4064" layer="1"/>
 <polygon width="0.1524" layer="1" orphans="yes" thermals="no">
-<vertex x="19.1262" y="29.337"/>
-<vertex x="19.1008" y="29.3116"/>
-<vertex x="19.1008" y="23.1394"/>
+<vertex x="19.1262" y="29.6164"/>
+<vertex x="19.1262" y="23.1394"/>
 <vertex x="22.7838" y="23.1394"/>
 <vertex x="22.7838" y="21.0312"/>
 <vertex x="26.0280125" y="17.7869875"/>
@@ -4816,7 +4815,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <vertex x="34.29" y="14.1224"/>
 <vertex x="49.2506" y="27.2034" curve="128.28175"/>
 <vertex x="48.5902" y="29.6164"/>
-<vertex x="19.1262" y="29.6164"/>
 </polygon>
 </signal>
 <signal name="N$1">
@@ -5116,7 +5114,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="4.4196" y1="27.065" x2="4.4958" y2="27.1412" width="0.4064" layer="1"/>
 <wire x1="6.1214" y1="17.63563125" x2="6.1214" y2="23.1902" width="0.4064" layer="1"/>
 <polygon width="0.1524" layer="1" orphans="yes" thermals="no">
-<vertex x="5.9436" y="23.241"/>
 <vertex x="5.9436" y="23.241"/>
 <vertex x="5.9436" y="27.5844"/>
 <vertex x="0.508" y="27.5844"/>
