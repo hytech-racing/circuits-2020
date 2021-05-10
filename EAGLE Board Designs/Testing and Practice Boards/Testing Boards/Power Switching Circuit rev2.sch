@@ -472,20 +472,20 @@ chip</description>
 <description>J11F51 No Pin 6 Normally Open Relay
 &lt;br&gt;
 &lt;a href="https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J115F1.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<pad name="COIL1" x="-5.989" y="-11.049" drill="1.1"/>
-<pad name="COIL2" x="4.211" y="-11.049" drill="1.1"/>
-<pad name="CONTACT1" x="8.011" y="4.251" drill="2.1"/>
-<pad name="CONTACT2" x="-9.789" y="1.751" drill="2.1"/>
-<wire x1="-12.589" y1="16.651" x2="-12.589" y2="-0.849" width="0.127" layer="21"/>
-<wire x1="-12.589" y1="-0.849" x2="-10.589" y2="-0.849" width="0.127" layer="21"/>
-<wire x1="-10.589" y1="-0.849" x2="-10.589" y2="-15.049" width="0.127" layer="21"/>
-<wire x1="-10.589" y1="-15.049" x2="8.811" y2="-15.049" width="0.127" layer="21"/>
-<wire x1="8.811" y1="-15.049" x2="8.811" y2="0.951" width="0.127" layer="21"/>
-<wire x1="8.811" y1="0.951" x2="14.311" y2="0.951" width="0.127" layer="21"/>
-<wire x1="14.311" y1="0.951" x2="14.311" y2="16.651" width="0.127" layer="21"/>
-<wire x1="14.311" y1="16.651" x2="-12.589" y2="16.651" width="0.127" layer="21"/>
-<rectangle x1="-13.589" y1="-16.129" x2="15.621" y2="18.161" layer="39"/>
-<text x="-13.589" y="18.161" size="0.8128" layer="21" font="vector">&gt;NAME</text>
+<pad name="COIL1" x="-5.1" y="0" drill="1.1"/>
+<pad name="COIL2" x="5.1" y="0" drill="1.1"/>
+<pad name="CONTACT1" x="8.9" y="15.3" drill="2.1"/>
+<pad name="CONTACT2" x="-8.9" y="12.8" drill="2.1"/>
+<wire x1="-11.7" y1="24.906" x2="-11.7" y2="8.295" width="0.127" layer="21"/>
+<wire x1="-11.7" y1="8.295" x2="-9.7" y2="8.295" width="0.127" layer="21"/>
+<wire x1="-9.7" y1="8.295" x2="-9.7" y2="-6.54" width="0.127" layer="21"/>
+<wire x1="-9.7" y1="-6.54" x2="9.7" y2="-6.54" width="0.127" layer="21"/>
+<wire x1="9.7" y1="-6.54" x2="9.7" y2="12" width="0.127" layer="21"/>
+<wire x1="9.7" y1="12" x2="15.2" y2="12" width="0.127" layer="21"/>
+<wire x1="15.2" y1="12" x2="15.2" y2="24.906" width="0.127" layer="21"/>
+<wire x1="15.2" y1="24.906" x2="-11.7" y2="24.906" width="0.127" layer="21"/>
+<rectangle x1="-12.7" y1="-7.62" x2="16.51" y2="26.67" layer="39"/>
+<text x="-12.573" y="27.051" size="0.8128" layer="21" font="vector">&gt;NAME</text>
 </package>
 <package name="SOT-23">
 <description>SOT-23
@@ -553,20 +553,20 @@ chip</description>
 <pad name="C" x="-1.24" y="0.72" drill="0.7"/>
 <circle x="0" y="0" radius="6" width="0.1524" layer="22"/>
 <circle x="0" y="0" radius="6.6" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="6" width="0.1524" layer="40"/>
-<circle x="0" y="0" radius="6.6" width="0.1524" layer="39"/>
-<hole x="8.1" y="8.1" drill="3.4"/>
-<circle x="8.1" y="8.1" radius="3" width="0.127" layer="39"/>
-<circle x="8.1" y="8.1" radius="3" width="0.127" layer="40"/>
-<circle x="8.1" y="8.1" radius="3" width="0.127" layer="41"/>
-<circle x="8.1" y="8.1" radius="3" width="0.127" layer="42"/>
-<hole x="-8.1" y="-8.1" drill="3.4"/>
-<circle x="-8.1" y="-8.1" radius="3" width="0.127" layer="39"/>
-<circle x="-8.1" y="-8.1" radius="3" width="0.127" layer="40"/>
-<circle x="-8.1" y="-8.1" radius="3" width="0.127" layer="41"/>
-<circle x="-8.1" y="-8.1" radius="3" width="0.127" layer="42"/>
+<circle x="0" y="0" radius="6" width="0" layer="40"/>
+<circle x="0" y="0" radius="6.6" width="0" layer="39"/>
+<hole x="5.9999875" y="5.9999875" drill="3.4"/>
+<circle x="5.9999875" y="5.9999875" radius="3" width="0" layer="41"/>
+<circle x="5.9999875" y="5.9999875" radius="3" width="0" layer="42"/>
+<hole x="-5.9999875" y="-5.9999875" drill="3.4"/>
+<circle x="-5.9999875" y="-5.9999875" radius="3" width="0" layer="41"/>
+<circle x="-5.9999875" y="-5.9999875" radius="3" width="0" layer="42"/>
 <text x="0" y="7" size="0.8128" layer="26" font="vector" rot="MR0" align="top-center">&gt;NAME</text>
 <text x="0" y="8" size="0.8128" layer="25" font="vector" align="top-center">&gt;NAME</text>
+<circle x="-5.9999875" y="-5.9999875" radius="3" width="0" layer="40"/>
+<circle x="-5.9999875" y="-5.9999875" radius="3" width="0" layer="39"/>
+<circle x="5.9999875" y="5.9999875" radius="3" width="0" layer="40"/>
+<circle x="5.9999875" y="5.9999875" radius="3" width="0" layer="39"/>
 </package>
 <package name="2726-SENSE_RES">
 <smd name="1" x="-2.4638" y="-2.794" dx="5.588" dy="2.4384" layer="1" rot="R90"/>
@@ -728,38 +728,38 @@ chip</description>
 </symbol>
 <symbol name="RELAY_SPST_NO">
 <description>Single pole, single throw normally open relay</description>
-<circle x="0" y="-15.24" radius="0.635" width="0.254" layer="94"/>
-<circle x="5.08" y="-17.78" radius="0.635" width="0.254" layer="94"/>
-<circle x="5.08" y="-12.7" radius="0.635" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="0" y1="-10.16" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-15.24" x2="-0.762" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-17.78" x2="5.842" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-14.9225" x2="4.445" y2="-13.0175" width="0.254" layer="94"/>
-<pin name="P" x="-5.08" y="-15.24" visible="off" length="point" swaplevel="2" rot="R270"/>
-<pin name="S" x="10.16" y="-17.78" visible="off" length="point" swaplevel="2" rot="R270"/>
-<pin name="COIL+" x="10.16" y="-5.08" visible="off" length="point" rot="R90"/>
-<pin name="COIL-" x="-5.08" y="-5.08" visible="off" length="point" rot="R90"/>
-<polygon width="0.0254" layer="94">
-<vertex x="3.556" y="-12.954"/>
-<vertex x="4.064" y="-13.716"/>
-<vertex x="4.572" y="-12.954"/>
+<circle x="2.54" y="-17.78" radius="0.635" width="0.1524" layer="94"/>
+<circle x="7.62" y="-20.32" radius="0.635" width="0.1524" layer="94"/>
+<circle x="7.62" y="-15.24" radius="0.635" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="2.54" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="7.62" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="1.778" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="8.382" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-17.4625" x2="6.985" y2="-15.5575" width="0.1524" layer="94"/>
+<pin name="P" x="-2.54" y="-17.78" visible="off" length="point" swaplevel="2" rot="R270"/>
+<pin name="S" x="12.7" y="-20.32" visible="off" length="point" swaplevel="2" rot="R270"/>
+<pin name="COIL+" x="12.7" y="-7.62" visible="off" length="point" rot="R90"/>
+<pin name="COIL-" x="-2.54" y="-7.62" visible="off" length="point" swaplevel="1" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="6.096" y="-15.494"/>
+<vertex x="6.604" y="-16.256"/>
+<vertex x="7.112" y="-15.494"/>
 </polygon>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-20.32" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-20.32" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<text x="2.54" y="3.81" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="2.54" y="-21.59" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
+<wire x1="10.16" y1="0" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="-22.86" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-23.622" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="MOSFET_N-CHANNEL">
 <wire x1="-2.54" y1="-2.54" x2="-1.2192" y2="-2.54" width="0.1524" layer="94"/>
@@ -1101,11 +1101,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </devices>
 </deviceset>
 <deviceset name="J115F11A*6*">
-<description>J11F51 No Pin 6 Normally Open Relay
-&lt;br&gt;
-&lt;a href="https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J115F1.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="RELAY_SPST_NO" x="-2.54" y="7.62"/>
+<gate name="G$1" symbol="RELAY_SPST_NO" x="-5.08" y="10.16"/>
 </gates>
 <devices>
 <device name="" package="J115F11A*6*">
@@ -4290,9 +4287,9 @@ OV Falling: 14.4 V</text>
 <instance part="GND3" gate="1" x="81.534" y="-2.032" smashed="yes">
 <attribute name="VALUE" x="78.994" y="-4.572" size="1.778" layer="96"/>
 </instance>
-<instance part="K1" gate="G$1" x="-89.408" y="42.672" smashed="yes">
-<attribute name="NAME" x="-86.868" y="46.482" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="-86.868" y="21.082" size="1.27" layer="96" align="top-center"/>
+<instance part="K1" gate="G$1" x="-91.948" y="45.212" smashed="yes">
+<attribute name="NAME" x="-91.694" y="45.974" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="-87.376" y="20.066" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="GND4" gate="1" x="-97.028" y="32.512" smashed="yes">
 <attribute name="VALUE" x="-99.568" y="29.972" size="1.778" layer="96"/>
@@ -4454,7 +4451,7 @@ OV Falling: 14.4 V</text>
 <instance part="C1" gate="G$1" x="82.55" y="38.608" smashed="yes" rot="R270">
 <attribute name="NAME" x="85.09" y="39.878" size="1.27" layer="95" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="U$7" gate="G$1" x="27.178" y="11.43" smashed="yes" rot="R270"/>
+<instance part="U$7" gate="G$1" x="9.398" y="10.16" smashed="yes" rot="R270"/>
 <instance part="U$8" gate="G$1" x="52.578" y="-55.88" smashed="yes" rot="R270"/>
 <instance part="U$9" gate="G$1" x="59.182" y="6.35" smashed="yes"/>
 <instance part="U$10" gate="G$1" x="-17.018" y="11.43" smashed="yes" rot="R270"/>
@@ -4912,7 +4909,8 @@ OV Falling: 14.4 V</text>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="12.192" y1="8.382" x2="12.192" y2="5.842" width="0.1524" layer="91"/>
-<wire x1="12.192" y1="14.732" x2="12.192" y2="5.842" width="0.1524" layer="91"/>
+<wire x1="12.192" y1="14.732" x2="12.192" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="12.192" y1="13.97" x2="12.192" y2="5.842" width="0.1524" layer="91"/>
 <wire x1="22.352" y1="14.732" x2="22.352" y2="8.382" width="0.1524" layer="91"/>
 <wire x1="22.352" y1="8.382" x2="12.192" y2="8.382" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="GATE2"/>
@@ -4920,6 +4918,10 @@ OV Falling: 14.4 V</text>
 <junction x="12.192" y="5.842"/>
 <pinref part="Q3" gate="A" pin="G"/>
 <pinref part="Q4" gate="A" pin="G"/>
+<pinref part="U$7" gate="G$1" pin="P$1"/>
+<wire x1="9.398" y1="12.7" x2="9.398" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="9.398" y1="13.97" x2="12.192" y2="13.97" width="0.1524" layer="91"/>
+<junction x="12.192" y="13.97"/>
 </segment>
 </net>
 <net name="SOURCE2" class="0">
@@ -5113,12 +5115,7 @@ OV Falling: 14.4 V</text>
 <net name="SENSE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SENSE1"/>
-<wire x1="29.972" y1="5.588" x2="29.972" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="29.972" y1="15.24" x2="29.972" y2="48.768" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="P$1"/>
-<wire x1="27.178" y1="13.97" x2="27.178" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="27.178" y1="15.24" x2="29.972" y2="15.24" width="0.1524" layer="91"/>
-<junction x="29.972" y="15.24"/>
+<wire x1="29.972" y1="5.588" x2="29.972" y2="48.768" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="4"/>
 <wire x1="34.036" y1="48.768" x2="29.972" y2="48.768" width="0.1524" layer="91"/>
 </segment>
