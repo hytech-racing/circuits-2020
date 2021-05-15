@@ -568,13 +568,17 @@ chip</description>
 <circle x="5.9999875" y="5.9999875" radius="3" width="0" layer="40"/>
 <circle x="5.9999875" y="5.9999875" radius="3" width="0" layer="39"/>
 </package>
-<package name="2726-SENSE_RES">
-<smd name="1" x="-2.4638" y="-2.794" dx="5.588" dy="2.4384" layer="1" rot="R90"/>
-<smd name="2" x="2.4638" y="-2.794" dx="5.588" dy="2.4384" layer="1" rot="R90"/>
-<smd name="3" x="-2.4638" y="1.3335" dx="2.4384" dy="0.889" layer="1" rot="R180"/>
-<smd name="4" x="2.4638" y="1.3335" dx="2.4384" dy="0.889" layer="1" rot="R180"/>
-<text x="-3.81" y="2.159" size="1.143" layer="21">&gt;NAME</text>
-<text x="-3.81" y="-7.112" size="1.143" layer="21">&gt;VALUE</text>
+<package name="WSL2726">
+<description>Vishay Sense Resistor
+&lt;br&gt;
+&lt;a href="https://www.vishay.com/docs/30131/wsl2726.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
+<smd name="1" x="-2.4638" y="-1.524" dx="5.588" dy="2.4384" layer="1" rot="R90"/>
+<smd name="2" x="2.4638" y="-1.524" dx="5.588" dy="2.4384" layer="1" rot="R90"/>
+<smd name="3" x="-2.4638" y="2.6035" dx="2.4384" dy="0.889" layer="1" rot="R180"/>
+<smd name="4" x="2.4638" y="2.6035" dx="2.4384" dy="0.889" layer="1" rot="R180"/>
+<text x="-3.81" y="3.429" size="1.143" layer="21">&gt;NAME</text>
+<text x="-3.81" y="-5.842" size="1.143" layer="21">&gt;VALUE</text>
 </package>
 <package name="EEE-FK1H681AM">
 <smd name="P$1" x="0" y="6.5000125" dx="6.499859375" dy="2.49986875" layer="1" rot="R90"/>
@@ -611,6 +615,13 @@ chip</description>
 <smd name="P$1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
 </package>
 <package name="TO-252-3">
+<description>Toshiba TK100S04N1L or ON Semiconductor FDD9407-F085
+&lt;br&gt;
+&lt;a href="file:///C:/Users/sathy/AppData/Local/Temp/TK100S04N1L_datasheet_en_20200624-2.pdf"&gt;Toshiba Datasheet&lt;/a&gt;
+&lt;br&gt;
+
+&lt;a href="https://www.onsemi.com/pdf/datasheet/fdd9407_f085-d.pdf"&gt;ON Semiconductor Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
 <smd name="1" x="-2.3" y="-5.08" dx="0.889" dy="1.778" layer="1"/>
 <smd name="3" x="2.3" y="-5.08" dx="0.889" dy="1.778" layer="1"/>
 <smd name="2" x="0" y="3.0978" dx="5.2508" dy="5.9112" layer="1"/>
@@ -870,7 +881,7 @@ Note: Also works for CAT/CAY16 Series.
 <pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="10.16" y="-7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="SENSE_RESISTOR">
+<symbol name="RESISTOR_SENSE">
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <text x="1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
@@ -884,6 +895,7 @@ Note: Also works for CAT/CAY16 Series.
 <wire x1="-0.3175" y1="1.016" x2="-0.635" y2="0" width="0.1524" layer="94"/>
 <wire x1="3.175" y1="0" x2="2.8575" y2="-1.016" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<text x="1.27" y="-3.302" size="1.27" layer="96" align="top-center">&gt;MPN</text>
 <pin name="3" x="-1.016" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="4" x="3.556" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
@@ -1253,12 +1265,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="SENSE_RESISTOR">
+<deviceset name="RESISTOR_SENSE">
+<description>Sense Resistor</description>
 <gates>
-<gate name="G$1" symbol="SENSE_RESISTOR" x="0" y="0"/>
+<gate name="G$1" symbol="RESISTOR_SENSE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="WSL2726" package="2726-SENSE_RES">
+<device name="" package="WSL2726">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1267,6 +1280,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MPN" value="WSL2726" constant="no"/>
 <attribute name="RESISTANCE" value="0.0013" constant="no"/>
 </technology>
 </technologies>
@@ -1316,6 +1330,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </devices>
 </deviceset>
 <deviceset name="TK100S04N1L">
+<description>Toshiba TK100S04N1L or ON Semiconductor FDD9407-F085</description>
 <gates>
 <gate name="G$1" symbol="MOSFET_N-CHANNEL" x="-2.54" y="0"/>
 </gates>
@@ -4298,7 +4313,7 @@ Layer: 94 Symbol</description>
 <part name="J3" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="SOURIAU"/>
 <part name="J1" library="HyTechDevices" deviceset="CONNECTOR-3_?" device=""/>
 <part name="GND7" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="R1" library="HyTechDevices" deviceset="SENSE_RESISTOR" device="WSL2726"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR_SENSE" device=""/>
 <part name="C1" library="HyTechDevices" deviceset="CAPACITOR_POLARIZED" device=""/>
 <part name="U$7" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE"/>
 <part name="U$8" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE"/>
@@ -4312,12 +4327,12 @@ Layer: 94 Symbol</description>
 <part name="GND14" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="LED8" library="HyTechDevices" deviceset="LED" device="-0603" value="RED"/>
 <part name="R17" library="HyTechDevices" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="R19" library="HyTechDevices" deviceset="SENSE_RESISTOR" device="WSL2726"/>
+<part name="R19" library="HyTechDevices" deviceset="RESISTOR_SENSE" device=""/>
 <part name="Q1" library="HyTechDevices" deviceset="TK100S04N1L" device=""/>
 <part name="Q2" library="HyTechDevices" deviceset="TK100S04N1L" device=""/>
 <part name="Q4" library="HyTechDevices" deviceset="TK100S04N1L" device=""/>
 <part name="Q3" library="HyTechDevices" deviceset="TK100S04N1L" device=""/>
-<part name="RN3" library="HyTechDevices" deviceset="RESISTOR_NETWORK_4_*" device="" technology="10K"/>
+<part name="RN2" library="HyTechDevices" deviceset="RESISTOR_NETWORK_4_*" device="" technology="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -4624,15 +4639,15 @@ OV Falling: 14.4 V</text>
 <attribute name="NAME" x="9.652" y="17.78" size="1.27" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="MPN" x="9.652" y="25.908" size="1.27" layer="95" rot="R180" align="top-center"/>
 </instance>
-<instance part="RN3" gate="A" x="47.752" y="-51.054" smashed="yes" rot="R90">
+<instance part="RN2" gate="A" x="47.752" y="-51.054" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.482" y="-52.324" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="49.022" y="-52.324" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="RN3" gate="C" x="102.362" y="-19.812" smashed="yes">
+<instance part="RN2" gate="C" x="102.362" y="-19.812" smashed="yes">
 <attribute name="NAME" x="101.092" y="-18.542" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="101.092" y="-21.082" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="RN3" gate="D" x="101.854" y="-9.652" smashed="yes">
+<instance part="RN2" gate="D" x="101.854" y="-9.652" smashed="yes">
 <attribute name="NAME" x="100.584" y="-8.382" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="100.584" y="-10.922" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -4886,7 +4901,7 @@ OV Falling: 14.4 V</text>
 <segment>
 <pinref part="LED6" gate="LED" pin="A"/>
 <wire x1="80.772" y1="-19.812" x2="97.282" y2="-19.812" width="0.1524" layer="91"/>
-<pinref part="RN3" gate="C" pin="1"/>
+<pinref part="RN2" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="!FAULT1" class="0">
@@ -4942,7 +4957,7 @@ OV Falling: 14.4 V</text>
 <segment>
 <pinref part="LED5" gate="LED" pin="A"/>
 <wire x1="80.772" y1="-9.652" x2="96.774" y2="-9.652" width="0.1524" layer="91"/>
-<pinref part="RN3" gate="D" pin="1"/>
+<pinref part="RN2" gate="D" pin="1"/>
 </segment>
 </net>
 <net name="!VALID1" class="0">
@@ -5208,9 +5223,9 @@ OV Falling: 14.4 V</text>
 <wire x1="52.578" y1="-53.34" x2="52.578" y2="-48.514" width="0.1524" layer="91"/>
 <junction x="52.578" y="-48.514"/>
 <junction x="47.752" y="-48.514"/>
-<pinref part="RN3" gate="A" pin="2"/>
-<pinref part="RN3" gate="C" pin="2"/>
-<pinref part="RN3" gate="D" pin="2"/>
+<pinref part="RN2" gate="A" pin="2"/>
+<pinref part="RN2" gate="C" pin="2"/>
+<pinref part="RN2" gate="D" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -5305,7 +5320,7 @@ OV Falling: 14.4 V</text>
 <segment>
 <pinref part="LED10" gate="LED" pin="A"/>
 <wire x1="47.752" y1="-57.658" x2="47.752" y2="-56.388" width="0.1524" layer="91"/>
-<pinref part="RN3" gate="A" pin="1"/>
+<pinref part="RN2" gate="A" pin="1"/>
 <wire x1="47.752" y1="-56.134" x2="47.752" y2="-57.658" width="0.1524" layer="91"/>
 <junction x="47.752" y="-57.658"/>
 </segment>
