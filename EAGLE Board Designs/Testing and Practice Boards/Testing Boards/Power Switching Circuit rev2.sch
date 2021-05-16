@@ -622,9 +622,9 @@ chip</description>
 
 &lt;a href="https://www.onsemi.com/pdf/datasheet/fdd9407_f085-d.pdf"&gt;ON Semiconductor Datasheet&lt;/a&gt;
 &lt;br&gt;</description>
-<smd name="1" x="-2.3" y="-5.08" dx="0.889" dy="1.778" layer="1"/>
-<smd name="3" x="2.3" y="-5.08" dx="0.889" dy="1.778" layer="1"/>
-<smd name="2" x="0" y="3.0978" dx="5.2508" dy="5.9112" layer="1"/>
+<smd name="1" x="-2.28" y="-4.23" dx="1.2" dy="2.2" layer="1"/>
+<smd name="3" x="2.28" y="-4.23" dx="1.2" dy="2.2" layer="1"/>
+<smd name="2" x="0" y="2.07" dx="5.8" dy="6.4" layer="1"/>
 <wire x1="-2.0066" y1="-1.4732" x2="-2.5908" y2="-1.4732" width="0.1524" layer="51"/>
 <wire x1="2.5908" y1="-1.4732" x2="2.0066" y2="-1.4732" width="0.1524" layer="51"/>
 <wire x1="0.4572" y1="-1.4732" x2="-0.4572" y2="-1.4732" width="0.1524" layer="51"/>
@@ -4333,6 +4333,7 @@ Layer: 94 Symbol</description>
 <part name="Q4" library="HyTechDevices" deviceset="TK100S04N1L" device=""/>
 <part name="Q3" library="HyTechDevices" deviceset="TK100S04N1L" device=""/>
 <part name="RN2" library="HyTechDevices" deviceset="RESISTOR_NETWORK_4_*" device="" technology="10K"/>
+<part name="U$11" library="HyTechDevices" deviceset="TEST_POINT" device="MICRO_MINIATURE"/>
 </parts>
 <sheets>
 <sheet>
@@ -4651,6 +4652,7 @@ OV Falling: 14.4 V</text>
 <attribute name="NAME" x="100.584" y="-8.382" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="100.584" y="-10.922" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="U$11" gate="G$1" x="-25.908" y="-57.404" smashed="yes" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -4671,8 +4673,13 @@ OV Falling: 14.4 V</text>
 <wire x1="24.892" y1="-56.134" x2="40.132" y2="-56.134" width="0.1524" layer="91"/>
 <junction x="24.892" y="-56.134"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="-20.828" y1="-56.388" x2="-20.828" y2="-47.752" width="0.1524" layer="91"/>
+<wire x1="-20.828" y1="-56.388" x2="-20.828" y2="-50.038" width="0.1524" layer="91"/>
 <junction x="-20.828" y="-56.388"/>
+<pinref part="U$11" gate="G$1" pin="P$1"/>
+<wire x1="-20.828" y1="-50.038" x2="-20.828" y2="-47.752" width="0.1524" layer="91"/>
+<wire x1="-25.908" y1="-54.864" x2="-25.908" y2="-50.038" width="0.1524" layer="91"/>
+<wire x1="-25.908" y1="-50.038" x2="-20.828" y2="-50.038" width="0.1524" layer="91"/>
+<junction x="-20.828" y="-50.038"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
