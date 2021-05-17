@@ -201,8 +201,8 @@
 Power Switching Board rev2
 Designed by Sathya Gummadi</text>
 <text x="-17.272" y="29.337" size="0.9144" layer="21" font="vector" ratio="18">DCDC</text>
-<text x="53.721" y="25.654" size="0.9144" layer="21" font="vector" ratio="18">GLVB</text>
-<text x="46.101" y="31.623" size="0.9144" layer="21" font="vector" ratio="18">OUT</text>
+<text x="54.9148" y="18.034" size="0.9144" layer="21" font="vector" ratio="18">GLVB</text>
+<text x="39.1414" y="30.4546" size="0.9144" layer="21" font="vector" ratio="18">OUT</text>
 <text x="-20.4724" y="3.556" size="0.762" layer="21" font="vector">DCDC</text>
 <text x="25.6032" y="-16.6624" size="0.762" layer="21" font="vector">GLVB</text>
 <text x="-5.3594" y="4.2418" size="0.762" layer="21" font="vector">INTVDD</text>
@@ -4622,9 +4622,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="NAME" x="17.8562" y="31.8262" size="0.762" layer="21" rot="R180"/>
 <attribute name="RESISTANCE" value="0.0013" x="28.1178" y="11.938" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q1" library="HyTechDevices" package="TO-252-3" value="TK100S04N1L" x="-2.0066" y="24.2824" smashed="yes" rot="R90">
-<attribute name="MPN" value="TK100S04N1L,LQ" x="-2.0066" y="24.2824" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-4.191" y="28.3464" size="0.762" layer="25" ratio="6" rot="SR0"/>
+<element name="Q1" library="HyTechDevices" package="TO-252-3" value="TK100S04N1L" x="-1.6764" y="24.1046" smashed="yes" rot="R90">
+<attribute name="MPN" value="TK100S04N1L,LQ" x="-1.6764" y="24.1046" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-3.8608" y="28.1686" size="0.762" layer="25" ratio="6" rot="SR0"/>
 </element>
 <element name="Q2" library="HyTechDevices" package="TO-252-3" value="TK100S04N1L" x="8.4074" y="26.5176" smashed="yes" rot="R270">
 <attribute name="MPN" value="TK100S04N1L,LQ" x="8.4074" y="26.5176" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5147,8 +5147,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <via x="1.4986" y="19.8628" extent="1-16" drill="0.35"/>
 <wire x1="1.4986" y1="19.8628" x2="0.4318" y2="20.9296" width="0.4064" layer="16"/>
 <wire x1="0.4318" y1="20.9296" x2="0.4318" y2="28.5242" width="0.4064" layer="16"/>
-<wire x1="2.2234" y1="22.0024" x2="2.7372" y2="22.0024" width="0.4064" layer="1"/>
-<wire x1="2.7372" y1="22.0024" x2="3.8862" y2="20.8534" width="0.4064" layer="1"/>
+<wire x1="2.5536" y1="21.8246" x2="2.915" y2="21.8246" width="0.4064" layer="1"/>
+<wire x1="2.915" y1="21.8246" x2="3.8862" y2="20.8534" width="0.4064" layer="1"/>
 </signal>
 <signal name="SOURCE1">
 <contactref element="U1" pad="5"/>
@@ -5157,17 +5157,17 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="8.0264" y1="10.080171875" x2="8.0264" y2="15.73063125" width="0.4064" layer="1"/>
 <wire x1="7.6626375" y1="16.09439375" x2="8.0264" y2="15.73063125" width="0.4064" layer="1"/>
 <wire x1="7.6626375" y1="16.09439375" x2="6.1214" y2="17.63563125" width="0.4064" layer="1"/>
-<wire x1="6.1214" y1="23.1902" x2="4.4196" y2="24.892" width="0.4064" layer="1"/>
-<wire x1="4.4196" y1="24.892" x2="4.4196" y2="27.065" width="0.4064" layer="1"/>
-<wire x1="6.1214" y1="17.63563125" x2="6.1214" y2="23.1902" width="0.4064" layer="1"/>
+<wire x1="6.1214" y1="17.63563125" x2="6.1214" y2="22.86" width="0.4064" layer="1"/>
 <polygon width="0.2032" layer="1" orphans="yes" thermals="no">
-<vertex x="5.9436" y="23.241"/>
-<vertex x="5.9436" y="27.5844"/>
-<vertex x="0.508" y="27.5844"/>
-<vertex x="0.508" y="23.241"/>
+<vertex x="6.1722" y="23.241"/>
+<vertex x="6.1722" y="27.5844"/>
+<vertex x="1.016" y="27.5844"/>
+<vertex x="1.016" y="23.241"/>
 </polygon>
 <contactref element="Q1" pad="3"/>
 <contactref element="Q2" pad="3"/>
+<wire x1="6.1214" y1="22.86" x2="4.7438" y2="24.2376" width="0.4064" layer="1"/>
+<wire x1="4.7438" y1="24.2376" x2="4.1774" y2="24.2376" width="0.4064" layer="1"/>
 </signal>
 <signal name="!SHDN!">
 <contactref element="U1" pad="21"/>
