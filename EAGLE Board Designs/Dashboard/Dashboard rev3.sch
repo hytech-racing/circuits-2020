@@ -798,46 +798,6 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <circle x="-0.2286" y="0.6604" radius="0.127" width="0.127" layer="25"/>
 <text x="-1.905" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
 </package>
-<package name="2X03" urn="urn:adsk.eagle:footprint:22348/1" locally_modified="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="-1.27" drill="1.016" shape="square" stop="no"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.016" stop="no"/>
-<pad name="3" x="0" y="-1.27" drill="1.016" stop="no"/>
-<pad name="4" x="0" y="1.27" drill="1.016" stop="no"/>
-<pad name="5" x="2.54" y="-1.27" drill="1.016" stop="no"/>
-<pad name="6" x="2.54" y="1.27" drill="1.016" stop="no"/>
-<text x="-3.81" y="3.175" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3.81" y="-4.445" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
-<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
-<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
-<circle x="-4.445" y="-1.27" radius="0.1" width="0.254" layer="21"/>
-</package>
 <package name="DO-41">
 <description>DO-41
 &lt;br&gt;
@@ -1507,14 +1467,6 @@ visible on the PCB.</text>
 <wire x1="1.2" y1="0.2" x2="1.2" y2="-0.2" width="0.127" layer="51"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="2X03" urn="urn:adsk.eagle:package:22462/2" type="model">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="2X03"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
 <symbol name="ATMEGA328P-AU">
 <wire x1="10.16" y1="27.94" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
@@ -1710,28 +1662,6 @@ visible on the PCB.</text>
 <text x="10.16" y="12.954" size="1.27" layer="96">C1</text>
 <text x="10.16" y="7.874" size="1.27" layer="96">C2</text>
 <text x="10.16" y="2.794" size="1.27" layer="96">C3</text>
-</symbol>
-<symbol name="CONN_03X2">
-<description>&lt;h3&gt;6 Pin Connection&lt;/h3&gt;
-3x2 pin layout</description>
-<wire x1="3.81" y1="-5.08" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="-2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="-2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.6096" layer="94"/>
-<text x="-3.81" y="-7.366" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-3.81" y="5.588" size="1.778" layer="95">&gt;NAME</text>
-<pin name="6" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="3" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="1" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="DIODE_ZENER">
 <wire x1="0" y1="0.762" x2="0" y2="-0.762" width="0.254" layer="94"/>
@@ -2305,33 +2235,6 @@ DMG3406L (SOT-23, 2.8 A 30V)&lt;br&gt;</description>
 <technologies>
 <technology name="">
 <attribute name="VOLTAGE" value="15V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AVR-ISP-HEADER" prefix="J">
-<description>&lt;p&gt;AVR ISP 6-pin Header&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/In-system_programming"&gt;Reference&lt;/a&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CONN_03X2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2X03">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22462/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="S2011EC-03-ND"/>
 </technology>
 </technologies>
 </device>
@@ -5724,7 +5627,6 @@ Source: http://www.molex.com</description>
 <part name="C25" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C26" library="HyTechDevices" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND29" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="J3" library="HyTechDevices" deviceset="AVR-ISP-HEADER" device="" package3d_urn="urn:adsk.eagle:package:22462/2"/>
 <part name="GND30" library="HyTechSymbols" deviceset="GND" device=""/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="D4" library="HyTechDevices" deviceset="DIODE_ZENER" device=""/>
@@ -5767,6 +5669,7 @@ Source: http://www.molex.com</description>
 <part name="R35" library="HyTechDevices" deviceset="CAT16-*4" device="_1%" technology="F" value="10k"/>
 <part name="R36" library="HyTechDevices" deviceset="CAT16-*4" device="_1%" technology="F" value="10k"/>
 <part name="U$9" library="HyTechDevices" deviceset="MCP2562FD" device=""/>
+<part name="X1" library="HyTechDevices" deviceset="CONNECTOR-6" device="NANO"/>
 </parts>
 <sheets>
 <sheet>
@@ -5955,15 +5858,11 @@ Source: http://www.molex.com</description>
 <attribute name="VALUE" x="267.208" y="198.501" size="1.778" layer="96"/>
 </instance>
 <instance part="GND29" gate="1" x="259.08" y="193.04" smashed="yes"/>
-<instance part="J3" gate="G$1" x="231.14" y="63.5" smashed="yes">
-<attribute name="VALUE" x="217.17" y="56.134" size="1.778" layer="96"/>
-<attribute name="NAME" x="227.33" y="69.088" size="1.778" layer="95"/>
+<instance part="GND30" gate="1" x="236.22" y="86.36" smashed="yes">
+<attribute name="VALUE" x="233.68" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="GND30" gate="1" x="241.3" y="55.88" smashed="yes">
-<attribute name="VALUE" x="238.76" y="53.34" size="1.778" layer="96"/>
-</instance>
-<instance part="P+21" gate="1" x="241.3" y="71.12" smashed="yes">
-<attribute name="VALUE" x="244.094" y="71.882" size="1.778" layer="96"/>
+<instance part="P+21" gate="1" x="231.14" y="81.28" smashed="yes">
+<attribute name="VALUE" x="228.854" y="82.042" size="1.778" layer="96"/>
 </instance>
 <instance part="D4" gate="G$1" x="190.5" y="111.76" smashed="yes">
 <attribute name="NAME" x="186.69" y="113.5126" size="1.778" layer="95"/>
@@ -6176,6 +6075,25 @@ Source: http://www.molex.com</description>
 <instance part="U$9" gate="G$1" x="124.46" y="167.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="121.285" y="155.575" size="1.778" layer="95" rot="R180"/>
 </instance>
+<instance part="X1" gate="-1" x="259.08" y="76.2" smashed="yes">
+<attribute name="NAME" x="261.62" y="75.438" size="1.524" layer="95"/>
+<attribute name="VALUE" x="253.238" y="72.517" size="1.778" layer="96"/>
+</instance>
+<instance part="X1" gate="-2" x="259.08" y="78.74" smashed="yes">
+<attribute name="NAME" x="261.62" y="77.978" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-3" x="259.08" y="81.28" smashed="yes">
+<attribute name="NAME" x="261.62" y="80.518" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-4" x="259.08" y="83.82" smashed="yes">
+<attribute name="NAME" x="261.62" y="83.058" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-5" x="259.08" y="86.36" smashed="yes">
+<attribute name="NAME" x="261.62" y="85.598" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-6" x="259.08" y="88.9" smashed="yes">
+<attribute name="NAME" x="261.62" y="88.138" size="1.524" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6292,12 +6210,6 @@ Source: http://www.molex.com</description>
 <wire x1="259.08" y1="198.12" x2="259.08" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND30" gate="1" pin="GND"/>
-<wire x1="241.3" y1="58.42" x2="241.3" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="241.3" y1="60.96" x2="238.76" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="71.12" y1="7.62" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="7.62" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
@@ -6389,6 +6301,11 @@ Source: http://www.molex.com</description>
 <pinref part="C28" gate="G$1" pin="2"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-6" pin="S"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+<wire x1="256.54" y1="88.9" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -6441,9 +6358,8 @@ Source: http://www.molex.com</description>
 </segment>
 <segment>
 <pinref part="P+21" gate="1" pin="+5V"/>
-<wire x1="241.3" y1="68.58" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="66.04" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="256.54" y1="78.74" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="167.64" x2="162.56" y2="170.18" width="0.1524" layer="91"/>
@@ -6468,9 +6384,9 @@ Source: http://www.molex.com</description>
 <label x="210.82" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="223.52" y1="63.5" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
-<label x="220.98" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="256.54" y1="81.28" x2="248.92" y2="81.28" width="0.1524" layer="91"/>
+<label x="248.92" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="X1" gate="-3" pin="S"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="CLK"/>
@@ -6485,9 +6401,9 @@ Source: http://www.molex.com</description>
 <label x="210.82" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="66.04" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
-<label x="220.98" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="256.54" y1="76.2" x2="248.92" y2="76.2" width="0.1524" layer="91"/>
+<label x="248.92" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="X1" gate="-1" pin="S"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="SDO"/>
@@ -6502,9 +6418,9 @@ Source: http://www.molex.com</description>
 <label x="210.82" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="238.76" y1="63.5" x2="241.3" y2="63.5" width="0.1524" layer="91"/>
-<label x="241.3" y="63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="256.54" y1="83.82" x2="248.92" y2="83.82" width="0.1524" layer="91"/>
+<label x="248.92" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="X1" gate="-4" pin="S"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="SDI"/>
@@ -6608,9 +6524,9 @@ Source: http://www.molex.com</description>
 <label x="209.55" y="148.336" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="5"/>
-<wire x1="223.52" y1="60.96" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
-<label x="220.98" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="256.54" y1="86.36" x2="248.92" y2="86.36" width="0.1524" layer="91"/>
+<label x="248.92" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="X1" gate="-5" pin="S"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -7213,11 +7129,6 @@ with this version.
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
