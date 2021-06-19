@@ -2241,10 +2241,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="R118" library="HyTechDevices" package="0603-RES" value="4.02k" x="42.1386" y="27.432" smashed="yes" rot="MR270">
 <attribute name="NAME" x="41.4528" y="25.8826" size="0.8128" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="R115" library="HyTechDevices" package="0603-RES" value="14300" x="47.244" y="33.528" smashed="yes" rot="MR270">
+<element name="R115" library="HyTechDevices" package="0603-RES" value="5.1k" x="47.244" y="33.528" smashed="yes" rot="MR270">
 <attribute name="NAME" x="46.0756" y="35.8394" size="0.8128" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="R114" library="HyTechDevices" package="0603-RES" value="10700" x="47.244" y="29.972" smashed="yes" rot="MR270">
+<element name="R114" library="HyTechDevices" package="0603-RES" value="4.7lk" x="47.244" y="29.972" smashed="yes" rot="MR270">
 <attribute name="NAME" x="47.9044" y="27.5336" size="0.8128" layer="26" font="vector" rot="MR0"/>
 </element>
 <element name="R31" library="HyTechDevices" package="0603-RES" value="10k" x="38.862" y="33.274" smashed="yes" rot="R180">
