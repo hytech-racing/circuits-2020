@@ -1682,9 +1682,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="NAME" x="44.936" y="18.204" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="48.536" y="18.204" size="1.016" layer="27" font="vector" rot="R90" align="top-left"/>
 </element>
-<element name="R36" library="HyTechDevices" package="CAT16-*4" value="10k" x="55.88" y="17.272" smashed="yes">
-<attribute name="NAME" x="54.78" y="19.072" size="1.016" layer="25" font="vector"/>
-<attribute name="VALUE" x="54.78" y="15.472" size="1.016" layer="27" font="vector" align="top-left"/>
+<element name="R36" library="HyTechDevices" package="CAT16-*4" value="10k" x="46.736" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.936" y="14.14" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="48.536" y="14.14" size="1.016" layer="27" font="vector" rot="R90" align="top-left"/>
 </element>
 <element name="U$9" library="HyTechDevices" package="SOIC-08" value="MCP2562FD" x="1.016" y="4.572" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.016" y="2.032" size="0.6096" layer="25" rot="R180" align="bottom-center"/>
@@ -2100,9 +2100,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="46.59755625" y1="23.04883125" x2="51.63058125" y2="22.35959375" width="0" layer="19" extent="1-1"/>
 <wire x1="42.6212" y1="21.96338125" x2="46.59755625" y2="23.04883125" width="0" layer="19" extent="1-1"/>
 <wire x1="25.742" y1="30.988" x2="26.016446875" y2="25.778278125" width="0" layer="19" extent="1-1"/>
-<wire x1="56.28" y1="16.447" x2="56.66360625" y2="21.670353125" width="0" layer="19" extent="1-1"/>
-<wire x1="54.68" y1="16.447" x2="56.28" y2="16.447" width="0" layer="19" extent="1-1"/>
-<wire x1="47.561" y1="20.504" x2="54.68" y2="16.447" width="0" layer="19" extent="1-1"/>
+<wire x1="47.561" y1="15.64" x2="56.66360625" y2="21.670353125" width="0" layer="19" extent="1-1"/>
+<wire x1="47.561" y1="14.04" x2="47.561" y2="15.64" width="0" layer="19" extent="1-1"/>
+<wire x1="47.561" y1="20.504" x2="47.561" y2="14.04" width="0" layer="19" extent="1-1"/>
 <wire x1="47.561" y1="19.704" x2="47.561" y2="20.504" width="0" layer="19" extent="1-1"/>
 <wire x1="47.561" y1="18.904" x2="47.561" y2="19.704" width="0" layer="19" extent="1-1"/>
 <wire x1="47.561" y1="18.104" x2="47.561" y2="18.904" width="0" layer="19" extent="1-1"/>
@@ -2245,8 +2245,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="U$8" pad="P$2"/>
 <contactref element="R36" pad="P$6"/>
 <contactref element="ATMEGA1" pad="28"/>
-<wire x1="56.28" y1="18.097" x2="17.78" y2="42.0878" width="0" layer="19" extent="1-1"/>
-<wire x1="20.593" y1="16.9746" x2="56.28" y2="18.097" width="0" layer="19" extent="1-1"/>
+<wire x1="45.911" y1="15.64" x2="17.78" y2="42.0878" width="0" layer="19" extent="1-1"/>
+<wire x1="20.593" y1="16.9746" x2="45.911" y2="15.64" width="0" layer="19" extent="1-1"/>
 <wire x1="25.384" y1="22.418" x2="20.593" y2="16.9746" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_START_CTRL">
@@ -2379,7 +2379,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="39.116" y1="9.652" x2="39.639409375" y2="10.175409375" width="0.254" layer="1"/>
 <wire x1="39.639409375" y1="10.175409375" x2="39.639409375" y2="16.240590625" width="0.254" layer="1"/>
 <wire x1="33.02" y1="6.522" x2="33.02" y2="8.636" width="0.254" layer="1"/>
-<wire x1="40.726359375" y1="16.741140625" x2="54.68" y2="18.097" width="0" layer="19" extent="1-1"/>
+<wire x1="40.726359375" y1="16.741140625" x2="45.911" y2="14.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BTN_LAUNCH_READ">
 <contactref element="ATMEGA1" pad="27"/>
@@ -2480,7 +2480,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="R36" pad="P$7"/>
 <contactref element="ATMEGA1" pad="9"/>
 <contactref element="Z4" pad="P$4"/>
-<wire x1="40.726359375" y1="16.0909" x2="55.48" y2="18.097" width="0" layer="19" extent="1-1"/>
+<wire x1="40.726359375" y1="16.0909" x2="45.911" y2="14.84" width="0" layer="19" extent="1-1"/>
 <wire x1="17.393" y1="8.3746" x2="40.726359375" y2="16.0909" width="0" layer="19" extent="1-1"/>
 <wire x1="47.26" y1="9.078" x2="17.393" y2="8.3746" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2586,7 +2586,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <signal name="GND2">
 <contactref element="Q14" pad="2"/>
 <contactref element="R36" pad="P$2"/>
-<wire x1="55.48" y1="16.447" x2="47.26" y2="7.178" width="0" layer="19" extent="1-1"/>
+<wire x1="47.561" y1="14.84" x2="47.26" y2="7.178" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$40">
 <contactref element="R34" pad="1"/>
