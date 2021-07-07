@@ -1,0 +1,42 @@
+Change Physical Footprint: Designator=C1 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C2 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C3 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C4 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C5 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C6 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C7 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C8 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C9 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C10 Old Footprint=CAPC1508X91X25LL25T13 New Footprint=CAPC1508X91X25LL25T13
+Change Physical Footprint: Designator=C11 Old Footprint=CAPC1508X91X25LL25T13 New Footprint=CAPC1508X91X25LL25T13
+Change Physical Footprint: Designator=C12 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C13 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C14 Old Footprint=CAPC1508X91X25LL25T13 New Footprint=CAPC1508X91X25LL25T13
+Change Physical Footprint: Designator=C15 Old Footprint=CAPC1508X91X25LL25T13 New Footprint=CAPC1508X91X25LL25T13
+Change Physical Footprint: Designator=D1 Old Footprint=ONSC-SOT-23-3-318-08_V New Footprint=ONSC-SOT-23-3-318-08_V
+Change Physical Footprint: Designator=IC1 Old Footprint=DIODES SOT-23-3 New Footprint=DIODES SOT-23-3
+Change Physical Footprint: Designator=IC2 Old Footprint=DIODES SOT-23-3 New Footprint=DIODES SOT-23-3
+Change Physical Footprint: Designator=IC3 Old Footprint=DIODES SOT-23-3 New Footprint=DIODES SOT-23-3
+Change Physical Footprint: Designator=IC4 Old Footprint=DIODES SOT-23-3 New Footprint=DIODES SOT-23-3
+Change Physical Footprint: Designator=IC5 Old Footprint=DIODES SOT-23-3 New Footprint=DIODES SOT-23-3
+Change Physical Footprint: Designator=IC6 Old Footprint=DIODES SOT-23-3 New Footprint=DIODES SOT-23-3
+Change Physical Footprint: Designator=J1 Old Footprint=AVR-ISP Header New Footprint=AVR-ISP Header
+Change Physical Footprint: Designator=R1 Old Footprint=RESC1608X55X25ML10T15 New Footprint=RESC1608X55X25ML10T15
+Change Physical Footprint: Designator=R2 Old Footprint=RESC1608X55X25ML10T15 New Footprint=RESC1608X55X25ML10T15
+Change Physical Footprint: Designator=R3 Old Footprint=RESC1609X50X30ML10T20 New Footprint=RESC1609X50X30ML10T20
+Change Physical Footprint: Designator=R4 Old Footprint=RES 0603_1608 New Footprint=RES 0603_1608
+Change Physical Footprint: Designator=R5 Old Footprint=RESC1609X50X30ML10T20 New Footprint=RESC1609X50X30ML10T20
+Change Physical Footprint: Designator=R6 Old Footprint=RESNET 1506-16 CONVEX New Footprint=RESNET 1506-16 CONVEX
+Change Physical Footprint: Designator=R7 Old Footprint=RES 0603_1608 New Footprint=RES 0603_1608
+Change Physical Footprint: Designator=R8 Old Footprint=RES 0603_1608 New Footprint=RES 0603_1608
+Change Physical Footprint: Designator=R9 Old Footprint=RES 0603_1608 New Footprint=RES 0603_1608
+Change Physical Footprint: Designator=U1 Old Footprint=32A_M New Footprint=32A_M
+Change Physical Footprint: Designator=U2 Old Footprint=DCY0004A_L New Footprint=DCY0004A_L
+Change Physical Footprint: Designator=U3 Old Footprint=SOIC-SN8_N New Footprint=SOIC-SN8_N
+Change Physical Footprint: Designator=U4 Old Footprint=TSSOP-ST20_N New Footprint=TSSOP-ST20_N
+Change Physical Footprint: Designator=X1 Old Footprint=Nano-Fit Vertical 6 New Footprint=Nano-Fit Vertical 6
+Change Physical Footprint: Designator=X2 Old Footprint=NANO-FIT VERTICAL 8 New Footprint=NANO-FIT VERTICAL 8
+Change Physical Footprint: Designator=Y1 Old Footprint=NDK NX3225SA New Footprint=NDK NX3225SA
+Change Physical Footprint: Designator=Y2 Old Footprint=NDK NX3225SA New Footprint=NDK NX3225SA
+Change Physical Footprint: Designator=Z1 Old Footprint=SOT-363 New Footprint=SOT-363
+Change Physical Footprint: Designator=Z2 Old Footprint=SOT-363 New Footprint=SOT-363

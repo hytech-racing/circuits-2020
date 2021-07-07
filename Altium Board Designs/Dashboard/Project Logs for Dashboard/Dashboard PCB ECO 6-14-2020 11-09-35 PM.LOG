@@ -1,0 +1,33 @@
+Added Component: Designator=D2(Cree XLamp)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "941-XPEBRDL1R250502"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "XPEBRD-L1-R250-00502"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "XPEBRD-L1-R250-00502-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "XPEBRD-L1-R250-00502"; VariantName = "[No Variations]"
+Added Component: Designator=D4(Cree XLamp)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "941-XPEBRDL1R250502"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "XPEBRD-L1-R250-00502"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "XPEBRD-L1-R250-00502-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "XPEBRD-L1-R250-00502"; VariantName = "[No Variations]"
+Added Component: Designator=D5(Cree XLamp)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "941-XPEBRDL1R250502"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "XPEBRD-L1-R250-00502"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "XPEBRD-L1-R250-00502-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "XPEBRD-L1-R250-00502"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Dashboard Member=Component D1 Blue
+Added Member To Class: ClassName=Dashboard Member=Component D2 Red
+Added Member To Class: ClassName=Dashboard Member=Component D3 Green
+Added Member To Class: ClassName=Dashboard Member=Component D4 Red
+Added Member To Class: ClassName=Dashboard Member=Component D5 Red
+Added Member To Class: ClassName=Dashboard Member=Component D6 Amber
