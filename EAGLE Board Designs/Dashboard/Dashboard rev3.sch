@@ -5633,7 +5633,6 @@ Source: http://www.molex.com</description>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R28" library="HyTechDevices" deviceset="RESISTOR" device="0603-RES" value="120"/>
 <part name="GND31" library="HyTechSymbols" deviceset="GND" device=""/>
-<part name="MC1" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="Red"/>
 <part name="START1" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="Blue"/>
 <part name="MODE1" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="Green"/>
 <part name="IMD1" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="Red"/>
@@ -5670,6 +5669,7 @@ Source: http://www.molex.com</description>
 <part name="R36" library="HyTechDevices" deviceset="CAT16-*4" device="_1%" technology="F" value="10k"/>
 <part name="U$9" library="HyTechDevices" deviceset="MCP2562FD" device=""/>
 <part name="X1" library="HyTechDevices" deviceset="CONNECTOR-6" device="NANO"/>
+<part name="MODE2" library="HyTechDevices" deviceset="XP-E2" device="XP-E2" value="Green"/>
 </parts>
 <sheets>
 <sheet>
@@ -5877,10 +5877,6 @@ Source: http://www.molex.com</description>
 </instance>
 <instance part="GND31" gate="1" x="71.12" y="5.08" smashed="yes">
 <attribute name="VALUE" x="68.58" y="2.54" size="1.778" layer="96"/>
-</instance>
-<instance part="MC1" gate="G$1" x="25.4" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.972" y="115.316" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="29.972" y="117.475" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="START1" gate="G$1" x="25.4" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.972" y="133.096" size="1.778" layer="95" rot="R180"/>
@@ -6093,6 +6089,10 @@ Source: http://www.molex.com</description>
 </instance>
 <instance part="X1" gate="-6" x="259.08" y="88.9" smashed="yes">
 <attribute name="NAME" x="261.62" y="88.138" size="1.524" layer="95"/>
+</instance>
+<instance part="MODE2" gate="G$1" x="25.4" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.972" y="115.316" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="29.972" y="117.475" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -6808,11 +6808,6 @@ Source: http://www.molex.com</description>
 <label x="25.4" y="127" size="0.6096" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="MC1" gate="G$1" pin="X"/>
-<wire x1="22.86" y1="109.22" x2="20.32" y2="109.22" width="0.1524" layer="91"/>
-<label x="25.4" y="109.22" size="0.6096" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="MODE1" gate="G$1" pin="X"/>
 <wire x1="22.86" y1="91.44" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
 <label x="25.4" y="91.44" size="0.6096" layer="95" rot="R180"/>
@@ -6878,11 +6873,9 @@ Source: http://www.molex.com</description>
 <wire x1="15.24" y1="58.42" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="76.2" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="93.98" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="111.76" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="P+19" gate="1" pin="+5V"/>
+<wire x1="15.24" y1="111.76" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="129.54" x2="15.24" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
-<junction x="15.24" y="111.76"/>
 <wire x1="22.86" y1="93.98" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
 <junction x="15.24" y="93.98"/>
 <wire x1="22.86" y1="76.2" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
@@ -6891,10 +6884,12 @@ Source: http://www.molex.com</description>
 <wire x1="22.86" y1="129.54" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
 <junction x="15.24" y="129.54"/>
 <pinref part="START1" gate="G$1" pin="A"/>
-<pinref part="MC1" gate="G$1" pin="A"/>
 <pinref part="MODE1" gate="G$1" pin="A"/>
 <pinref part="IMD1" gate="G$1" pin="A"/>
 <pinref part="AMS1" gate="G$1" pin="A"/>
+<pinref part="MODE2" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="111.76" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
+<junction x="15.24" y="111.76"/>
 </segment>
 </net>
 <net name="LED_LAUNCH_CTRL" class="0">
@@ -6979,13 +6974,6 @@ Source: http://www.molex.com</description>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="AMS1" gate="G$1" pin="C"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="MC1" gate="G$1" pin="C"/>
-<pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -7108,6 +7096,13 @@ Source: http://www.molex.com</description>
 <wire x1="142.24" y1="157.48" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
 <junction x="142.24" y="157.48"/>
 <pinref part="U$9" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="MODE2" gate="G$1" pin="C"/>
+<wire x1="33.02" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
